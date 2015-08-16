@@ -23,7 +23,7 @@ public class BallController : MonoBehaviour {
 	
 	void OnCollisionEnter(Collision collision)
 	{
-		if(collision.gameObject.tag == "Ena")
+		if(collision.gameObject.tag == "Ema")
 		{
 			GameObject.Destroy(collision.gameObject);
 		}
