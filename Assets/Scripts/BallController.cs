@@ -3,12 +3,15 @@ using System.Collections;
 
 public class BallController : MonoBehaviour {
 	public float initialVelocity = 600f;
+	public GameObject emaParticlesPrefab;
+	private GameObjectPool emaParticlesGameObjectPool = null;
 	private bool inPlay = false;
 	private Rigidbody rb = null;
 	
 	// Use this for initialization
 	private void Awake () {
 		rb = GetComponent<Rigidbody>();
+		emaParticlesGameObjectPool = new GameObjectPool(emaParticlesPrefab, 10);
 	}
 	
 	// Update is called once per frame
@@ -25,7 +28,8 @@ public class BallController : MonoBehaviour {
 	{
 		if(collision.gameObject.tag == Constants.GAME_OBJECT_TAG_EMA)
 		{
-			GameObject.Destroy(collision.gameObject);
+			collision.gameObject.SetActive(false);
+			emaParticlesGameObjectPool.Take(collision.gameObject.transform.position, Quaternion.identity).SetActive(true);
 		}
 	}
 }

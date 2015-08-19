@@ -46,12 +46,24 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AudioController.cs" />
+     <Compile Include="Assets\Scripts\BackgroundMusic.cs" />
      <Compile Include="Assets\Scripts\BallController.cs" />
+     <Compile Include="Assets\Scripts\ConfigurableSettings.cs" />
      <Compile Include="Assets\Scripts\Constants.cs" />
      <Compile Include="Assets\Scripts\EmaGrid.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\GameHelpers.cs" />
+     <Compile Include="Assets\Scripts\GameMessage.cs" />
+     <Compile Include="Assets\Scripts\GameMessageController.cs" />
+     <Compile Include="Assets\Scripts\GameObjectPool.cs" />
+     <Compile Include="Assets\Scripts\GameObjectPoolManager.cs" />
+     <Compile Include="Assets\Scripts\InactivateByTime.cs" />
      <Compile Include="Assets\Scripts\InscriptionGenerator.cs" />
+     <Compile Include="Assets\Scripts\Logger.cs" />
      <Compile Include="Assets\Scripts\PaddleController.cs" />
+     <Compile Include="Assets\Scripts\SoundEffects.cs" />
+     <Compile Include="Assets\Scripts\SwipeInput.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
