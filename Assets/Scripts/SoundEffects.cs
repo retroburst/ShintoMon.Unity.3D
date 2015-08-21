@@ -8,18 +8,14 @@ using System;
 /// </summary>
 public class SoundEffects : MonoBehaviour
 {
-	public List<AudioClip> audioClips = null;
-	public GameObject audioSourcePrefab = null;
 	private Dictionary<AudioClipType, AudioClip> audioClipTypeDictionary = null;
-	private GameObjectPool audioSourcePool = null;
-	public int poolSize = 10;
+	public List<AudioClip> audioClips = null;
 
 	/// <summary>
-	/// Start this instance.
+	/// Handles awake event.
 	/// </summary>
-	private void Start ()
+	private void Awake ()
 	{
-		audioSourcePool = new GameObjectPool (audioSourcePrefab, poolSize);
 		audioClipTypeDictionary = new Dictionary<AudioClipType, AudioClip> ();
 		BuildAudioClipDictionary ();
 	}
@@ -38,11 +34,13 @@ public class SoundEffects : MonoBehaviour
 	/// <summary>
 	/// Plays the clip with callback.
 	/// </summary>
-	/// <param name="audioSource">Audio source.</param>
 	/// <param name="clip">Clip.</param>
 	/// <param name="volume">Volume.</param>
-	public void PlayClipWithCallback(GameObject audioSource, AudioClip clip, float volume)
+	private void PlayClipWithCallback(AudioClip clip, float volume)
 	{
+		GameObject audioSource = GameController.Instance.GameObjectPoolManager
+		.GetPool(GameController.Instance.Prefabs.AudioSourcePrefab)
+		.Take();
 		AudioSource audioSourceComponent = audioSource.GetComponent<AudioSource> ();
 		audioSourceComponent.clip = clip;
 		audioSourceComponent.volume = volume;
@@ -78,7 +76,7 @@ public class SoundEffects : MonoBehaviour
 	/// </summary>
 	public void PlayEmaCollected ()
 	{
-		PlayClipWithCallback(audioSourcePool.Take(), audioClipTypeDictionary[AudioClipType.EmaCollected], 1.0f);
+		PlayClipWithCallback(audioClipTypeDictionary[AudioClipType.EmaCollected], 1.0f);
 	}
 
 	/// <summary>
@@ -86,7 +84,7 @@ public class SoundEffects : MonoBehaviour
 	/// </summary>
 	public void PlayBounce ()
 	{
-		PlayClipWithCallback(audioSourcePool.Take(), audioClipTypeDictionary[AudioClipType.Bounce], 1.0f);
+		PlayClipWithCallback(audioClipTypeDictionary[AudioClipType.Bounce], 1.0f);
 	}
 	
 	private enum AudioClipType

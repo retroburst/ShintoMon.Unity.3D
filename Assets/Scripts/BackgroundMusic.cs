@@ -5,8 +5,10 @@ public class BackgroundMusic : MonoBehaviour {
 	public AudioClip backgroundMusicClip = null;
 	private AudioSource audioPlayer = null;
 
-	// Use this for initialization
-	void Start () {
+	/// <summary>
+	/// Handles the awake event.
+	/// </summary>
+	private void Awake () {
 		audioPlayer = GetComponent<AudioSource>();
 		audioPlayer.clip = backgroundMusicClip;
 		audioPlayer.loop = true;

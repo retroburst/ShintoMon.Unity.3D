@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\AudioController.cs" />
      <Compile Include="Assets\Scripts\BackgroundMusic.cs" />
      <Compile Include="Assets\Scripts\BallController.cs" />
+     <Compile Include="Assets\Scripts\Components.cs" />
      <Compile Include="Assets\Scripts\ConfigurableSettings.cs" />
      <Compile Include="Assets\Scripts\Constants.cs" />
      <Compile Include="Assets\Scripts\EmaGrid.cs" />
@@ -62,8 +63,10 @@
      <Compile Include="Assets\Scripts\InscriptionGenerator.cs" />
      <Compile Include="Assets\Scripts\Logger.cs" />
      <Compile Include="Assets\Scripts\PaddleController.cs" />
+     <Compile Include="Assets\Scripts\Prefabs.cs" />
      <Compile Include="Assets\Scripts\SoundEffects.cs" />
      <Compile Include="Assets\Scripts\SwipeInput.cs" />
+     <Compile Include="Assets\Scripts\UIComponents.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

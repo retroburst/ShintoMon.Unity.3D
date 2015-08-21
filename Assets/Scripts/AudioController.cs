@@ -5,7 +5,7 @@ using System;
 /// <summary>
 /// Audio system controller.
 /// </summary>
-public class AudioController : MonoBehaviour {
+public class AudioController {
 	private BackgroundMusic backgroundMusic = null;
 	private SoundEffects soundEffects = null;
 	private ConfigurableSettings configurableSettings = null;
@@ -88,7 +88,7 @@ public class AudioController : MonoBehaviour {
 	/// <param name="addMessage">The add message.</param>
 	public void AddBackgroundMusicStateMessage(Action<string> addMessage)
 	{
-		string message = string.Format(configurableSettings.GameMessageToggleMusicPattern, GameHelpers.EncodeBooleanForDisplay(!BackgroundMusicMuted));
+		string message = string.Format(configurableSettings.MessageToggleMusicPattern, GameHelpers.EncodeBooleanForDisplay(!BackgroundMusicMuted));
 		addMessage(message);
 	}
 	
@@ -98,7 +98,7 @@ public class AudioController : MonoBehaviour {
 	/// <param name="addMessage">The add message.</param>
 	public void AddSoundEffectsStateMessage(Action<string> addMessage)
 	{
-		string message = string.Format(configurableSettings.GameMessageToggleSoundPattern, GameHelpers.EncodeBooleanForDisplay(!SoundEffectsMuted));
+		string message = string.Format(configurableSettings.MessageToggleSoundPattern, GameHelpers.EncodeBooleanForDisplay(!SoundEffectsMuted));
 		addMessage(message);
 	}
 }

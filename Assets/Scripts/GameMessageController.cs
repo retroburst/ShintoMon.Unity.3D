@@ -8,7 +8,7 @@ using System.Linq;
 /// Game message controller.
 /// </summary>
 public class GameMessageController {
-	private List<Text> gameMessageSlots = null;
+	private Text[] gameMessageSlots = null;
 	private List<GameMessage> gameMessages = null;
 	private Queue<GameMessage> waitingGameMessages = null;
 	private float gameMessageVisibleTime = 0.5f;
@@ -18,7 +18,7 @@ public class GameMessageController {
 	/// </summary>
 	/// <param name="gameMessageUISlots">Game message user interface slots.</param>
 	/// <param name="messageVisibleTime">Message visible time.</param>
-	public GameMessageController(List<Text> gameMessageUISlots, float messageVisibleTime)
+	public GameMessageController(Text[] gameMessageUISlots, float messageVisibleTime)
 	{
 		gameMessageVisibleTime = messageVisibleTime;
 		gameMessageSlots = gameMessageUISlots;
@@ -67,9 +67,9 @@ public class GameMessageController {
 	/// </summary>
 	private void AddWaitingMessages ()
 	{
-		if(waitingGameMessages.Count > 0 && gameMessages.Count < gameMessageSlots.Count)
+		if(waitingGameMessages.Count > 0 && gameMessages.Count < gameMessageSlots.Length)
 		{
-			while(gameMessages.Count < gameMessageSlots.Count && waitingGameMessages.Count > 0)
+			while(gameMessages.Count < gameMessageSlots.Length && waitingGameMessages.Count > 0)
 			{
 				GameMessage waitingMessage = waitingGameMessages.Dequeue();
 				waitingMessage.MessageExpiresAt = Time.time + gameMessageVisibleTime;
@@ -83,7 +83,7 @@ public class GameMessageController {
 	/// </summary>
 	private void DisplayMessages()
 	{
-		for(int i=0; i < gameMessageSlots.Count; i++)
+		for(int i=0; i < gameMessageSlots.Length; i++)
 		{
 			Text messageSlot = gameMessageSlots[i];
 			if(i < gameMessages.Count)

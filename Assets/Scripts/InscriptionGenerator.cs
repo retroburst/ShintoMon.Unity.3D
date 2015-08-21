@@ -5,11 +5,20 @@ using System.Text;
 /// <summary>
 /// Inscription generator.
 /// </summary>
-public class InscriptionGenerator : MonoBehaviour
+public class InscriptionGenerator
 {
 	public string[] inscriptionKanjiCharacters = null;
 	public int inscriptionRows = 3;
 	public int inscriptionColumns = 2;
+	
+	/// <summary>
+	/// Initializes a new instance of the <see cref="InscriptionGenerator"/> class.
+	/// </summary>
+	/// <param name="inscriptionKanji">Inscription kanji.</param>
+	public InscriptionGenerator(string[] inscriptionKanji)
+	{
+		inscriptionKanjiCharacters = inscriptionKanji;
+	}
 	
 	/// <summary>
 	/// Generates a random inscription.

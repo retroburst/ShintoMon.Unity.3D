@@ -3,21 +3,28 @@ using System.Collections;
 
 public class EmaGrid : MonoBehaviour
 {
-	public InscriptionGenerator InscriptionGenerator = null;
-	public GameObject emaPrefab = null;
-	public Vector2 emaGridMaxPosition = new Vector2 (7.0f, 17.0f);
-	public Vector2 emaGridMinPosition = new Vector2 (-7.0f, 5.5f);
-	public float emaGridXAxisStep = 1f;
-	public float emaGridYAxisStep = 1.5f;
-	private GameObjectPool emaGameObjectPool = null;
-
+	/// <summary>
+	/// Hanles the awake event.
+	/// </summary>
 	private void Awake()
 	{
-		emaGameObjectPool = new GameObjectPool (emaPrefab, 75);
-	}
 
+	}
+	
+	/// <summary>
+	/// Layouts the ema grid.
+	/// </summary>
+	/// <param name="rows">Rows.</param>
+	/// <param name="columns">Columns.</param>
 	public void LayoutEmaGrid (int rows, int columns)
 	{
+		GameObjectPool emaGameObjectPool = GameController.Instance.GameObjectPoolManager.GetPool(GameController.Instance.Prefabs.EmaPrefab);
+		Vector2 emaGridMaxPosition = GameController.Instance.ConfigurableSettings.EmaGridMaxPosition;
+		Vector2 emaGridMinPosition = GameController.Instance.ConfigurableSettings.EmaGridMinPosition;
+		float emaGridXAxisStep = GameController.Instance.ConfigurableSettings.EmaGridXAxisStep;
+		float emaGridYAxisStep = GameController.Instance.ConfigurableSettings.EmaGridYAxisStep;
+		InscriptionGenerator inscriptionGenerator = GameController.Instance.InscriptionGenerator;
+		
 		Vector2 startPosition = new Vector2 (emaGridMinPosition.x, emaGridMaxPosition.y);
 		for (int row=0; row < rows; row++) {
 			for (int column=0; column < columns; column++) {
@@ -34,7 +41,7 @@ public class EmaGrid : MonoBehaviour
 				}
 				
 				GameObject pooledEma = (GameObject)emaGameObjectPool.Take (new Vector3 (xPosition, yPosition, 0.0f), Quaternion.identity);
-				pooledEma.transform.FindChild("Inscription").GetComponent<TextMesh> ().text = InscriptionGenerator.GenerateRandomInscription ();
+				pooledEma.transform.FindChild("Inscription").GetComponent<TextMesh> ().text = inscriptionGenerator.GenerateRandomInscription ();
 				pooledEma.SetActive(true);
 			}
 		}
