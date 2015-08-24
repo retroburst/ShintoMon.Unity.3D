@@ -1,10 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EmaGrid.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.cs">
     <Files>
-      <File FileName="Assets/Scripts/BallController.cs" Line="52" Column="53" />
-      <File FileName="Assets/Scripts/BackgroundMusic.cs" Line="10" Column="16" />
-      <File FileName="Assets/Scripts/EmaGrid.cs" Line="11" Column="1" />
+      <File FileName="Assets/Scripts/ViewController.cs" Line="45" Column="3" />
+      <File FileName="Assets/Scripts/ViewControllerContext.cs" Line="14" Column="65" />
+      <File FileName="Assets/Scripts/GameHelpers.cs" Line="77" Column="3" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="126" Column="3" />
+      <File FileName="Assets/Scripts/GameLevel.cs" Line="38" Column="21" />
+      <File FileName="Assets/Scripts/UIComponents.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/ConfigurableSettings.cs" Line="31" Column="40" />
+      <File FileName="Assets/Scripts/GameState.cs" Line="19" Column="2" />
+      <File FileName="Assets/Scripts/BallController.cs" Line="45" Column="61" />
+      <File FileName="Assets/Scripts/GameMessageController.cs" Line="24" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

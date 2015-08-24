@@ -3,9 +3,9 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class ConfigurableSettings : MonoBehaviour {
-	public string MessageLevelPattern = "Level//{0:N0}";
-	public string MessageScorePattern = "Score//{0}";
-	public string MessageScoreFormatString = "00000000";
+	public string MessageLevelPattern = "Level//{0}";
+	public string MessageScorePattern = "Ema//{0} of {1}";
+	public string MessageBallPattern = "Balls//{0} of {1}";
 	
 	public string MessagePausedText = "PAUSED";
 	public string MessagePausedSubtext = "Press submit to continue...";
@@ -18,8 +18,8 @@ public class ConfigurableSettings : MonoBehaviour {
 	
 	public float MessageVisibleTime = 2.0f;
 
-	public string UserPrefKeySoundEffectsMuted = "JewelMine.User.SoundEffectsMuted";
-	public string UserPrefKeyBackgroundMusicMuted = "JewelMine.User.MusicMuted";
+	public string UserPrefKeySoundEffectsMuted = "PaddleMon.User.SoundEffectsMuted";
+	public string UserPrefKeyBackgroundMusicMuted = "PaddleMon.User.MusicMuted";
 
 	public string MessageToggleMusicPattern = "Music {0}";
 	public string MessageToggleSoundPattern = "Sound {0}";

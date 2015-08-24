@@ -31,6 +31,7 @@ public class BallController : MonoBehaviour
 			inPlay = true;
 			rb.isKinematic = false;
 			rb.AddForce (new Vector3 (Random.Range (-initialVelocity, initialVelocity), initialVelocity, 0f));
+			GameController.Instance.BallInPlay();
 		}
 	}
 	
@@ -41,17 +42,20 @@ public class BallController : MonoBehaviour
 	private void OnCollisionEnter (Collision collision)
 	{	
 		if (collision.gameObject.tag == Constants.GAME_OBJECT_TAG_EMA) {
+			GameController.Instance.EmaCollected(collision.gameObject);
 			collision.gameObject.SetActive (false);
 			GameController.Instance.GameObjectPoolManager
 			.GetPool (GameController.Instance.Prefabs.EmaParticlesPrefab)
 			.Take (collision.gameObject.transform.position, Quaternion.identity).SetActive (true);
 		} else if (collision.gameObject.tag == Constants.GAME_OBJECT_TAG_WATER) {
+			GameController.Instance.BallLost();
 			GameController.Instance.GameObjectPoolManager
 				.GetPool (GameController.Instance.Prefabs.EmaParticlesPrefab)
 				.Take (gameObject.transform.position, Quaternion.identity).SetActive (true);
 			gameObject.SetActive(false);
+			gameObject.transform.rotation = GameController.Instance.Components.Paddle.transform.rotation;
 			gameObject.transform.parent = GameController.Instance.Components.Paddle.transform;
-			gameObject.transform.position = originalPosition;
+			gameObject.transform.position = new Vector3(GameController.Instance.Components.Paddle.transform.position.x, originalPosition.y, originalPosition.z);
 			rb.isKinematic = true;
 			rb.velocity = Vector3.zero;
 			inPlay = false;

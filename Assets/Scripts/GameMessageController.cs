@@ -24,6 +24,7 @@ public class GameMessageController {
 		gameMessageSlots = gameMessageUISlots;
 		gameMessages = new List<GameMessage>();
 		waitingGameMessages = new Queue<GameMessage>();
+		ClearMessageSlots();
 	}
 
 	/// <summary>
@@ -94,6 +95,17 @@ public class GameMessageController {
 			{
 				messageSlot.text = string.Empty;
 			}
+		}
+	}
+	
+	/// <summary>
+	/// Clears the message slots.
+	/// </summary>
+	private void ClearMessageSlots()
+	{
+		for(int i=0; i < gameMessageSlots.Length; i++)
+		{
+			gameMessageSlots[i].text = string.Empty;
 		}
 	}
 

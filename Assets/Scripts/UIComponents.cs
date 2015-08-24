@@ -7,4 +7,7 @@ using System.Collections;
 /// </summary>
 public class UIComponents : MonoBehaviour {
 	public UnityEngine.UI.Text[] MessageSlots = null;
+	public UnityEngine.UI.Text LevelText = null;
+	public UnityEngine.UI.Text BallsText = null;
+	public UnityEngine.UI.Text ScoreText = null;
 }

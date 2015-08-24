@@ -69,5 +69,14 @@ public static class GameHelpers
 		return ((float)TimeSpan.FromMilliseconds (source).TotalSeconds);
 	}
 	
+	/// <summary>
+	/// Clone the specified target.
+	/// </summary>
+	/// <param name="target">Target.</param>
+	public static Vector3 Clone (this Vector3 target)
+	{
+		return(new Vector3 (target.x, target.y, target.z));
+	}
+	
 }
 
