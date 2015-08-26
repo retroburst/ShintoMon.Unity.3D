@@ -5,7 +5,9 @@ public class GameState
 {
 	public PlayState PlayState { get; set;}
 	
-	public int Level { get; set; }
+	public int LevelIndex { get; set; }
+	
+	public GameLevel Level { get; set; }
 
 	public int BallsRemaining { get; set; }
 	
@@ -21,6 +23,7 @@ public class GameState
 	{
 		BallsRemaining = level.BallCount;
 		EmaCollected = 0;
+		Level = null;
 	}
 	
 }

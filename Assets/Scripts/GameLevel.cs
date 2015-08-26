@@ -13,7 +13,9 @@ public class GameLevel
 	
 	public int EmaCount { get; protected set; }
 	
-	public static readonly GameLevel[] GameLevels = new GameLevel[]{ new GameLevel1() };
+	public float BallVelocity {get; protected set; }
+	
+	public static readonly GameLevel[] GameLevels = new GameLevel[]{ new GameLevel1(), new GameLevel2() };
 	
 	/// <summary>
 	/// Counts the ema in layout.
@@ -40,13 +42,34 @@ public class GameLevel1 : GameLevel
 		LevelDesignation = 1;
 		Layout	= new bool[,]
 		{ 
-			{ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true }, 
-			{ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true },
-			{ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true }, 
-			{ true, true, true, true, true, true, false, false, true, true, true, true, true, true, true }, 
-			{ true, true, true, true, true, false, false, false, false, true, true, true, true, true, true },
+			{ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false },
+			{ false, true, true, true, true, true, true, true, true, true, true, true, true, true, false },
+			{ false, true, true, true, true, true, true, true, true, true, true, true, true, true, false }, 
+			{ false, true, false, false, false, false, false, false, false, false, false, false, false, true, false }, 
+			{ false, true, false, false, false, false, false, false, false, false, false, false, false, true, false },
 		};
+		BallVelocity = 500.00f;
 		BallScale = Vector3.zero;
+		BallCount = 10;
+		EmaCount = CountEmaInLayout();
+	}
+}
+
+public class GameLevel2 : GameLevel
+{
+	public GameLevel2()
+	{
+		LevelDesignation = 2;
+		Layout	= new bool[,]
+		{ 
+			{ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true }, 
+			{ true, true, true, true, false, false, false, false, false, false, false, true, true, true, true },
+			{ true, true, true, false, false, false, false, false, false, false, false, false, true, true, true }, 
+			{ true, true, false, false, false, false, false, false, false, false, false, false, false, true, true }, 
+			{ true, false, false, false, false, false, false, false, false, false, false, false, false, false, true },
+		};
+		BallVelocity = 600.00f;
+		BallScale = new Vector3(0.1f, 0.6f, 0f);
 		BallCount = 20;
 		EmaCount = CountEmaInLayout();
 	}

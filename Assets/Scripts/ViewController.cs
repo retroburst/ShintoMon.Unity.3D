@@ -5,7 +5,6 @@ using System.Collections.Generic;
 public class ViewController
 {	
 	private ViewControllerContext context = null;
-	private Vector3 originalBallScale = Vector3.zero;
 	public List<string> Messages { get; private set; }
 	
 	/// <summary>
@@ -16,7 +15,6 @@ public class ViewController
 	{
 		Messages = new List<string>();
 		context = viewControllerContext;
-		originalBallScale = context.Components.Ball.transform.localScale.Clone ();
 	}
 
 	/// <summary>
@@ -26,8 +24,6 @@ public class ViewController
 	public void UpdateViewForNewLevel(GameLevel level)
 	{
 		LayoutEmaGrid(level.Layout);
-		context.Components.Ball.transform.localScale = originalBallScale;
-		context.Components.Ball.transform.localScale += level.BallScale;
 		context.UIComponents.LevelText.text = string.Format(context.ConfigurableSettings.MessageLevelPattern, level.LevelDesignation);
 		context.UIComponents.ScoreText.text = string.Format(context.ConfigurableSettings.MessageScorePattern, 0, level.EmaCount);
 		context.UIComponents.BallsText.text = string.Format(context.ConfigurableSettings.MessageBallPattern, level.BallCount, level.BallCount);
@@ -37,13 +33,50 @@ public class ViewController
 	/// Updates the view.
 	/// </summary>
 	/// <param name="state">State.</param>
-	public void UpdateView(GameState state, GameLevel level)
+	public void UpdateView(GameState state)
 	{
-		context.GameMessageController.DisplayMessages(Messages);
-		context.UIComponents.ScoreText.text = string.Format(context.ConfigurableSettings.MessageScorePattern, state.EmaCollected, level.EmaCount);
-		context.UIComponents.BallsText.text = string.Format(context.ConfigurableSettings.MessageBallPattern, state.BallsRemaining, level.BallCount);
-		
-		Messages.Clear();
+		ProcessProgress (state);
+		ProcessGameState (state);
+		ProcessMessages ();
+	}
+	
+	/// <summary>
+	/// Processes the progress.
+	/// </summary>
+	/// <param name="state">State.</param>
+	private void ProcessProgress (GameState state)
+	{
+		context.UIComponents.ScoreText.text = string.Format (context.ConfigurableSettings.MessageScorePattern, state.EmaCollected, state.Level.EmaCount);
+		context.UIComponents.BallsText.text = string.Format (context.ConfigurableSettings.MessageBallPattern, state.BallsRemaining, state.Level.BallCount);
+	}
+
+	/// <summary>
+	/// Processes the state of the game.
+	/// </summary>
+	/// <param name="state">State.</param>
+	private void ProcessGameState (GameState state)
+	{
+		if (state.PlayState == PlayState.Paused || state.PlayState == PlayState.GameOver || state.PlayState == PlayState.GameWon) {
+			string stateText = string.Empty;
+			string stateSubtext = string.Empty;
+			GetGameStateText (state, out stateText, out stateSubtext);
+			context.UIComponents.GameStateText.text = stateText;
+			context.UIComponents.GameStateSubtext.text = stateSubtext;
+			context.UIComponents.GameStatePanel.SetActive (true);
+		}
+		else {
+			if (context.UIComponents.GameStatePanel.activeInHierarchy)
+				context.UIComponents.GameStatePanel.SetActive (false);
+		}
+	}
+	
+	/// <summary>
+	/// Processes the messages.
+	/// </summary>
+	private void ProcessMessages ()
+	{
+		context.GameMessageController.DisplayMessages (Messages);
+		Messages.Clear ();
 	}
 
 	/// <summary>
@@ -102,6 +135,31 @@ public class ViewController
 					pooledEma.SetActive(true);
 				}
 			}
+		}
+	}
+	
+	/// <summary>
+	/// Gets the game state text.
+	/// </summary>
+	/// <param name="stateText">The state text.</param>
+	/// <param name="stateSubText">The state sub text.</param>
+	private void GetGameStateText (GameState state, out string stateText, out string stateSubText)
+	{
+		stateText = string.Empty;
+		stateSubText = string.Empty;
+		switch (state.PlayState) {
+		case PlayState.GameOver:
+			stateText = context.ConfigurableSettings.MessageGameOverText;
+			stateSubText = context.ConfigurableSettings.MessageGameOverSubtext;
+			break;
+		case PlayState.GameWon:
+			stateText = context.ConfigurableSettings.MessageGameWonText;
+			stateSubText = context.ConfigurableSettings.MessageGameWonSubtext;
+			break;
+		case PlayState.Paused:
+			stateText = context.ConfigurableSettings.MessagePausedText;
+			stateSubText = context.ConfigurableSettings.MessagePausedSubtext;
+			break;
 		}
 	}
 

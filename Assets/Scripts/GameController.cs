@@ -2,31 +2,89 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
+using System;
 
 public class GameController : MonoBehaviour
 {
 	// designer supplied components
+	/// <summary>
+	/// The configurable settings.
+	/// </summary>
 	public ConfigurableSettings ConfigurableSettings = null;
+	
+	/// <summary>
+	/// The prefabs.
+	/// </summary>
 	public Prefabs Prefabs = null;
+	
+	/// <summary>
+	/// The components.
+	/// </summary>
 	public Components Components = null;
+	
+	/// <summary>
+	/// The user interface components.
+	/// </summary>
 	public UIComponents UIComponents = null;
-	// runtime components
+	
+	/// <summary>
+	/// Gets the audio controller.
+	/// </summary>
+	/// <value>The audio controller.</value>
 	public AudioController AudioController { get; private set; }
 
+	/// <summary>
+	/// Gets the game message controller.
+	/// </summary>
+	/// <value>The game message controller.</value>
 	public GameMessageController GameMessageController { get; private set; }
-
+	
+	/// <summary>
+	/// Gets the game object pool manager.
+	/// </summary>
+	/// <value>The game object pool manager.</value>
 	public GameObjectPoolManager GameObjectPoolManager { get; private set; }
-
+	
+	/// <summary>
+	/// Gets the inscription generator.
+	/// </summary>
+	/// <value>The inscription generator.</value>
 	public InscriptionGenerator InscriptionGenerator { get; private set; }
-	// sundry
+	
+	/// <summary>
+	/// Gets the instance.
+	/// </summary>
+	/// <value>The instance.</value>
 	public static GameController Instance { get; private set; }
-
+	
+	/// <summary>
+	/// Gets the view controller.
+	/// </summary>
+	/// <value>The view controller.</value>
 	public ViewController ViewController { get; private set; }
 
+	/// <summary>
+	/// Gets the state.
+	/// </summary>
+	/// <value>The state.</value>
 	public GameState State { get; private set; }
-
+	
+	/// <summary>
+	/// The levels.
+	/// </summary>
 	private GameLevel[] Levels = null;
-		
+	
+	public event Action InitialisationComplete;
+	public event Action<GameLevel> GameLevelChanged;
+	public event Action GameOver;
+	public event Action GameWon;
+	public event Action GameRestarted;
+	public event Action GamePaused;
+	public event Action GameUnpaused;
+	
+	public object ballLostLock = new object ();
+	public object emaCollectedLock = new object ();
+	
 	/// <summary>
 	/// Handles the awake event.
 	/// </summary>
@@ -39,6 +97,8 @@ public class GameController : MonoBehaviour
 		Levels = GameLevel.GameLevels;
 		State = new GameState ();
 		ViewController = new ViewController (CreateViewControllerContext ());
+		if (InitialisationComplete != null)
+			InitialisationComplete ();
 	}
 	
 	/// <summary>
@@ -61,22 +121,53 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	private void Start ()
 	{
-		SetupForNewLevel();
+		State.LevelIndex = -1;
+		MoveToNextLevel();
 	}
 	
 	/// <summary>
 	/// Performs setup for new level.
 	/// </summary>
-	private void SetupForNewLevel()
+	private void SetupForNewLevel ()
 	{
-		State.Reset(Levels [State.Level]);
-		ViewController.UpdateViewForNewLevel (Levels [State.Level]);
+		State.Reset (Levels [State.LevelIndex]);
+		State.Level = Levels [State.LevelIndex];
+		ViewController.UpdateViewForNewLevel (Levels [State.LevelIndex]);
 	}
 	
-	private void MoveToNextLevel()
+	/// <summary>
+	/// Moves to next level.
+	/// </summary>
+	private void MoveToNextLevel ()
 	{
-		//TODO check for game won etc
-		State.Level++;
+		if (State.LevelIndex + 1 <= Levels.GetUpperBound (0)) {
+			State.LevelIndex++;
+			SetupForNewLevel ();
+			if (GameLevelChanged != null)
+				GameLevelChanged (State.Level);
+		} else {
+			PerformGameWon ();
+		}
+	}
+	
+	/// <summary>
+	/// Game won.
+	/// </summary>
+	private void PerformGameWon ()
+	{
+		State.PlayState = PlayState.GameWon;
+		if (GameWon != null)
+			GameWon ();
+	}
+	
+	/// <summary>
+	/// Game over.
+	/// </summary>
+	private void PerformGameOver ()
+	{
+		State.PlayState = PlayState.GameOver;
+		if (GameOver != null)
+			GameOver ();
 	}
 	
 	/// <summary>
@@ -108,9 +199,10 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	void Update ()
 	{
-		if(State.PlayState == PlayState.NotStarted) return;
+		if (State.PlayState == PlayState.NotStarted)
+			return;
 		
-		ViewController.UpdateView (State, Levels [State.Level]);
+		ViewController.UpdateView (State);
 		
 		
 	}
@@ -125,19 +217,29 @@ public class GameController : MonoBehaviour
 			ViewController.Messages.Add (message);
 	}
 	
-	public void BallInPlay()
+	public void BallInPlay ()
 	{
 		State.PlayState = PlayState.Playing;
 	}
 	
-	public void BallLost()
+	public void BallLost ()
 	{
-		State.BallsRemaining--;
+		lock (ballLostLock) {
+			State.BallsRemaining--;
+			if (State.BallsRemaining <= 0) {
+				PerformGameOver ();
+			}
+		}
 	}
 	
-	public void EmaCollected(GameObject ema)
+	public void EmaCollected (GameObject ema)
 	{
-		State.EmaCollected++;
+		lock (emaCollectedLock) {
+			State.EmaCollected++;
+			if (State.EmaCollected == State.Level.EmaCount) {
+				MoveToNextLevel ();
+			}
+		}
 	}
 	
 }

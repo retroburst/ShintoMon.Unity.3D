@@ -23,8 +23,6 @@ public class ConfigurableSettings : MonoBehaviour {
 
 	public string MessageToggleMusicPattern = "Music {0}";
 	public string MessageToggleSoundPattern = "Sound {0}";
-	
-	public float BallInitialVelocity = 600f;
 		
 	public int GameObjectPoolDefaultSize = 10;
 	public int GameObjectPoolEmaParticlesSize = 10;
