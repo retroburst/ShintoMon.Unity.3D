@@ -93,7 +93,7 @@ public class ViewController
 	/// Lays out the ema grid.
 	/// </summary>
 	/// <param name="layout">Layout.</param>
-	private void LayoutEmaGrid (bool[,] layout)
+	private void LayoutEmaGrid (int[,] layout)
 	{
 		int rows = layout.GetLength(0);
 		int columns = layout.GetLength(1);
@@ -104,7 +104,7 @@ public class ViewController
 	/// Lays out the ema grid.
 	/// </summary>
 	/// <param name="layout">Layout.</param>
-	private void PerformLayout (int rows, int columns, bool[,] layout)
+	private void PerformLayout (int rows, int columns, int[,] layout)
 	{
 		GameObjectPool emaGameObjectPool = GameController.Instance.GameObjectPoolManager.GetPool(GameController.Instance.Prefabs.EmaPrefab);
 		Vector2 emaGridMaxPosition = GameController.Instance.ConfigurableSettings.EmaGridMaxPosition;
@@ -128,7 +128,7 @@ public class ViewController
 					continue;
 				}
 				
-				if(layout == null || layout[row, column])
+				if(layout == null || layout[row, column] == 1)
 				{
 					GameObject pooledEma = (GameObject)emaGameObjectPool.Take (new Vector3 (xPosition, yPosition, 0.0f), Quaternion.identity);
 					pooledEma.transform.FindChild("Inscription").GetComponent<TextMesh> ().text = inscriptionGenerator.GenerateRandomInscription ();

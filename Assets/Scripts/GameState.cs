@@ -17,6 +17,7 @@ public class GameState
 	public GameState()
 	{
 		PlayState = PlayState.NotStarted;
+		LevelIndex = -1;
 	}
 	
 	public void Reset(GameLevel level)

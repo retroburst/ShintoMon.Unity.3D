@@ -78,5 +78,18 @@ public static class GameHelpers
 		return(new Vector3 (target.x, target.y, target.z));
 	}
 	
+	/// <summary>
+	/// Modify the specified target, x, y and z.
+	/// </summary>
+	/// <param name="target">Target.</param>
+	/// <param name="x">The x coordinate.</param>
+	/// <param name="y">The y coordinate.</param>
+	/// <param name="z">The z coordinate.</param>
+	public static Vector3 Modify(this Vector3 target, Nullable<float> x = null, Nullable<float> y = null, Nullable<float> z = null) 
+	{
+		return(new Vector3(x.HasValue ? x.Value : target.x, y.HasValue ? y.Value : target.y, z.HasValue ? z.Value : target.z));
+	
+	}
+	
 }
 

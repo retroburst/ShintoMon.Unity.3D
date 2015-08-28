@@ -7,6 +7,6 @@ using System.Collections;
 public class Components : MonoBehaviour {
 	public SoundEffects SoundEffects = null;
 	public BackgroundMusic BackgroundMusic = null;
-	public GameObject Paddle = null;
-	public GameObject Ball = null;
+	public PaddleController Paddle = null;
+	public BallController Ball = null;
 }

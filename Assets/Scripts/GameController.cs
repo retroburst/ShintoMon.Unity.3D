@@ -121,8 +121,7 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	private void Start ()
 	{
-		State.LevelIndex = -1;
-		MoveToNextLevel();
+
 	}
 	
 	/// <summary>
@@ -199,12 +198,17 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	void Update ()
 	{
+		if (State.LevelIndex == -1) {
+			// move to the first level
+			MoveToNextLevel ();
+			return;
+		}
+		
 		if (State.PlayState == PlayState.NotStarted)
 			return;
-		
+
+		// update the view
 		ViewController.UpdateView (State);
-		
-		
 	}
 	
 	/// <summary>

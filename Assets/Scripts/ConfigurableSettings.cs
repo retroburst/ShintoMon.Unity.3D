@@ -36,4 +36,9 @@ public class ConfigurableSettings : MonoBehaviour {
 	public Vector2 EmaGridMinPosition = new Vector2 (-7.0f, 5.5f);
 	public float EmaGridXAxisStep = 1f;
 	public float EmaGridYAxisStep = 1.5f;
+	
+	public float PaddleClampXMin = -9.0f;
+	public float PaddleClampXMax = 9.0f;
+	
+	
 }
