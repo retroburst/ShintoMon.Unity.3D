@@ -50,13 +50,7 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	/// <value>The inscription generator.</value>
 	public InscriptionGenerator InscriptionGenerator { get; private set; }
-	
-	/// <summary>
-	/// Gets the instance.
-	/// </summary>
-	/// <value>The instance.</value>
-	public static GameController Instance { get; private set; }
-	
+
 	/// <summary>
 	/// Gets the view controller.
 	/// </summary>
@@ -74,7 +68,6 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	private GameLevel[] Levels = null;
 	
-	public event Action InitialisationComplete;
 	public event Action<GameLevel> GameLevelChanged;
 	public event Action GameOver;
 	public event Action GameWon;
@@ -90,15 +83,12 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	private void Awake ()
 	{
-		Instance = this;
 		InitialiseRuntimeComponents ();
 		// max rows = 8 at the moment
 		// max columns = 15 at the moment
 		Levels = GameLevel.GameLevels;
 		State = new GameState ();
 		ViewController = new ViewController (CreateViewControllerContext ());
-		if (InitialisationComplete != null)
-			InitialisationComplete ();
 	}
 	
 	/// <summary>
@@ -113,6 +103,7 @@ public class GameController : MonoBehaviour
 		result.Prefabs = Prefabs;
 		result.UIComponents = UIComponents;
 		result.GameMessageController = GameMessageController;
+		result.GameController = this;
 		return(result);
 	}
 	
@@ -121,7 +112,8 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	private void Start ()
 	{
-
+		// move to the first level
+		MoveToNextLevel ();
 	}
 	
 	/// <summary>
@@ -196,14 +188,8 @@ public class GameController : MonoBehaviour
 	/// <summary>
 	/// Performs the frame update.
 	/// </summary>
-	void Update ()
-	{
-		if (State.LevelIndex == -1) {
-			// move to the first level
-			MoveToNextLevel ();
-			return;
-		}
-		
+	private void Update ()
+	{		
 		if (State.PlayState == PlayState.NotStarted)
 			return;
 

@@ -10,13 +10,15 @@ public class BallController : MonoBehaviour
 	private Rigidbody rb = null;
 	private Vector3 originalPosition = Vector3.zero;
 	private Vector3 originalBallScale = Vector3.zero;
+	private GameController gameController = null;
 	
 	/// <summary>
-	/// Start this instance.
+	/// Awakes this instance.
 	/// </summary>
-	private void Start ()
+	private void Awake ()
 	{
-		GameController.Instance.GameLevelChanged += (GameLevel l) => ResetBall ();
+		gameController = GameObject.FindGameObjectWithTag (Constants.GAME_OBJECT_TAG_GAME_CONTROLLER).GetComponent<GameController> ();
+		gameController.GameLevelChanged += (GameLevel l) => ResetBall ();
 		rb = GetComponent<Rigidbody> ();
 		originalPosition = gameObject.transform.position.Clone ();
 		originalBallScale = gameObject.transform.localScale.Clone ();
@@ -27,15 +29,15 @@ public class BallController : MonoBehaviour
 	/// </summary>
 	void Update ()
 	{
-		if ((GameController.Instance.State.PlayState != PlayState.GameOver 
-			&& GameController.Instance.State.PlayState != PlayState.GameWon) 
+		if ((gameController.State.PlayState != PlayState.GameOver 
+			&& gameController.State.PlayState != PlayState.GameWon) 
 			&& Input.GetButtonDown ("Fire1") && !inPlay) {
-			float initialVelocity = GameController.Instance.State.Level.BallVelocity;
+			float initialVelocity = gameController.State.Level.BallVelocity;
 			transform.parent = null;
 			inPlay = true;
 			rb.isKinematic = false;
 			rb.AddForce (new Vector3 (Random.Range (-initialVelocity, initialVelocity), initialVelocity, 0f));
-			GameController.Instance.BallInPlay ();
+			gameController.BallInPlay ();
 			rb.angularVelocity = Random.insideUnitSphere * 10000.0f;
 		}
 	}
@@ -48,19 +50,19 @@ public class BallController : MonoBehaviour
 	{
 		rb.angularVelocity = Random.insideUnitSphere * 10000.0f;
 		if (collision.gameObject.tag == Constants.GAME_OBJECT_TAG_EMA) {
-			GameController.Instance.EmaCollected (collision.gameObject);
+			gameController.EmaCollected (collision.gameObject);
 			collision.gameObject.SetActive (false);
-			GameController.Instance.GameObjectPoolManager
-			.GetPool (GameController.Instance.Prefabs.EmaParticlesPrefab)
+			gameController.GameObjectPoolManager
+				.GetPool (gameController.Prefabs.EmaParticlesPrefab)
 			.Take (collision.gameObject.transform.position, Quaternion.identity).SetActive (true);
 		} else if (collision.gameObject.tag == Constants.GAME_OBJECT_TAG_WATER) {
-			GameController.Instance.BallLost ();
-			GameController.Instance.GameObjectPoolManager
-				.GetPool (GameController.Instance.Prefabs.EmaParticlesPrefab)
+			gameController.BallLost ();
+			gameController.GameObjectPoolManager
+				.GetPool (gameController.Prefabs.EmaParticlesPrefab)
 				.Take (gameObject.transform.position, Quaternion.identity).SetActive (true);
 			gameObject.SetActive (false);
 			//Invoke ("ResetBall", 0.5f);
-			ResetBall();
+			ResetBall ();
 		}
 	}
 	
@@ -69,10 +71,10 @@ public class BallController : MonoBehaviour
 	/// </summary>
 	private void ResetBall ()
 	{
-		float heightDifference = ((GameController.Instance.State.Level.BallScale.y + originalBallScale.y) - originalBallScale.y) / 2;
-		gameObject.transform.position = new Vector3 (GameController.Instance.Components.Paddle.transform.position.x, originalPosition.y + heightDifference, originalPosition.z);
+		float heightDifference = ((gameController.State.Level.BallAdditiveScale.y + originalBallScale.y) - originalBallScale.y) / 2;
+		gameObject.transform.position = new Vector3 (gameController.Components.Paddle.transform.position.x, originalPosition.y + heightDifference, originalPosition.z);
 		gameObject.transform.localScale = originalBallScale;
-		gameObject.transform.localScale += GameController.Instance.State.Level.BallScale;
+		gameObject.transform.localScale += gameController.State.Level.BallAdditiveScale;
 		rb.isKinematic = true;
 		rb.velocity = Vector3.zero;
 		inPlay = false; 

@@ -12,4 +12,6 @@ public class ViewControllerContext
 	public UIComponents UIComponents { get; set; }
 	
 	public GameMessageController GameMessageController { get; set; }
+	
+	public GameController GameController { get; set; }
 }

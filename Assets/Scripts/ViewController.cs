@@ -106,12 +106,12 @@ public class ViewController
 	/// <param name="layout">Layout.</param>
 	private void PerformLayout (int rows, int columns, int[,] layout)
 	{
-		GameObjectPool emaGameObjectPool = GameController.Instance.GameObjectPoolManager.GetPool(GameController.Instance.Prefabs.EmaPrefab);
-		Vector2 emaGridMaxPosition = GameController.Instance.ConfigurableSettings.EmaGridMaxPosition;
-		Vector2 emaGridMinPosition = GameController.Instance.ConfigurableSettings.EmaGridMinPosition;
-		float emaGridXAxisStep = GameController.Instance.ConfigurableSettings.EmaGridXAxisStep;
-		float emaGridYAxisStep = GameController.Instance.ConfigurableSettings.EmaGridYAxisStep;
-		InscriptionGenerator inscriptionGenerator = GameController.Instance.InscriptionGenerator;
+		GameObjectPool emaGameObjectPool = context.GameController.GameObjectPoolManager.GetPool(context.GameController.Prefabs.EmaPrefab);
+		Vector2 emaGridMaxPosition = context.GameController.ConfigurableSettings.EmaGridMaxPosition;
+		Vector2 emaGridMinPosition = context.GameController.ConfigurableSettings.EmaGridMinPosition;
+		float emaGridXAxisStep = context.GameController.ConfigurableSettings.EmaGridXAxisStep;
+		float emaGridYAxisStep = context.GameController.ConfigurableSettings.EmaGridYAxisStep;
+		InscriptionGenerator inscriptionGenerator = context.GameController.InscriptionGenerator;
 
 		Vector2 startPosition = new Vector2 (emaGridMinPosition.x, emaGridMaxPosition.y);
 		for (int row=0; row < rows; row++) {

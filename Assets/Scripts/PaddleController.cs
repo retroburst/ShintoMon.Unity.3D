@@ -6,16 +6,18 @@ public class PaddleController : MonoBehaviour {
 	public float minClampX = 0f;
 	public float maxClampX = 0f;
 	private Vector3 originalPaddleScale = Vector3.zero;
+	private GameController gameController = null;
 	private BallController ball = null;
 	
 	/// <summary>
-	/// Start this instance.
+	/// Awakes this instance.
 	/// </summary>
-	private void Start ()
+	private void Awake ()
 	{
-		GameController.Instance.GameLevelChanged += SetPaddleForLevel;
+		gameController = GameObject.FindGameObjectWithTag(Constants.GAME_OBJECT_TAG_GAME_CONTROLLER).GetComponent<GameController>();
+		gameController.GameLevelChanged += SetPaddleForLevel;
 		originalPaddleScale = gameObject.transform.localScale.Clone ();
-		ball = GameController.Instance.Components.Ball;
+		ball = gameController.Components.Ball;
 	}
 	
 	// Update is called once per frame
@@ -47,10 +49,10 @@ public class PaddleController : MonoBehaviour {
 	private void SetPaddleForLevel(GameLevel level)
 	{
 		paddleSpeed = level.PaddleSpeed;
-		minClampX = CalculateClamp(level.PaddleScale.x + originalPaddleScale.x, GameController.Instance.ConfigurableSettings.PaddleClampXMin);
-		maxClampX = CalculateClamp(level.PaddleScale.x + originalPaddleScale.x, GameController.Instance.ConfigurableSettings.PaddleClampXMax);
+		minClampX = CalculateClamp(level.PaddleAdditiveScale.x + originalPaddleScale.x, gameController.ConfigurableSettings.PaddleClampXMin);
+		maxClampX = CalculateClamp(level.PaddleAdditiveScale.x + originalPaddleScale.x, gameController.ConfigurableSettings.PaddleClampXMax);
 		gameObject.transform.localScale = originalPaddleScale;
-		gameObject.transform.localScale += level.PaddleScale;
+		gameObject.transform.localScale += level.PaddleAdditiveScale;
 		PositionBall(gameObject.transform.position.x);
 	}
 	

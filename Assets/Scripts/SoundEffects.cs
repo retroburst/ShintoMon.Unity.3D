@@ -9,6 +9,7 @@ using System;
 public class SoundEffects : MonoBehaviour
 {
 	private Dictionary<AudioClipType, AudioClip> audioClipTypeDictionary = null;
+	private GameController gameController = null;
 	public List<AudioClip> audioClips = null;
 
 	/// <summary>
@@ -16,6 +17,7 @@ public class SoundEffects : MonoBehaviour
 	/// </summary>
 	private void Awake ()
 	{
+		gameController = GameObject.FindGameObjectWithTag(Constants.GAME_OBJECT_TAG_GAME_CONTROLLER).GetComponent<GameController>();
 		audioClipTypeDictionary = new Dictionary<AudioClipType, AudioClip> ();
 		BuildAudioClipDictionary ();
 	}
@@ -38,9 +40,9 @@ public class SoundEffects : MonoBehaviour
 	/// <param name="volume">Volume.</param>
 	private void PlayClipWithCallback(AudioClip clip, float volume)
 	{
-		GameObject audioSource = GameController.Instance.GameObjectPoolManager
-		.GetPool(GameController.Instance.Prefabs.AudioSourcePrefab)
-		.Take();
+		GameObject audioSource = gameController.GameObjectPoolManager
+			.GetPool(gameController.Prefabs.AudioSourcePrefab)
+			.Take();
 		AudioSource audioSourceComponent = audioSource.GetComponent<AudioSource> ();
 		audioSourceComponent.clip = clip;
 		audioSourceComponent.volume = volume;
