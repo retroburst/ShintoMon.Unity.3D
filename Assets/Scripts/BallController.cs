@@ -17,7 +17,7 @@ public class BallController : MonoBehaviour
 	/// </summary>
 	private void Awake ()
 	{
-		gameController = GameObject.FindGameObjectWithTag (Constants.GAME_OBJECT_TAG_GAME_CONTROLLER).GetComponent<GameController> ();
+		gameController = GameController.FindGameController();
 		gameController.GameLevelChanged += (GameLevel l) => ResetBall ();
 		rb = GetComponent<Rigidbody> ();
 		originalPosition = gameObject.transform.position.Clone ();
@@ -33,7 +33,6 @@ public class BallController : MonoBehaviour
 			&& gameController.State.PlayState != PlayState.GameWon) 
 			&& Input.GetButtonDown ("Fire1") && !inPlay) {
 			float initialVelocity = gameController.State.Level.BallVelocity;
-			transform.parent = null;
 			inPlay = true;
 			rb.isKinematic = false;
 			rb.AddForce (new Vector3 (Random.Range (-initialVelocity, initialVelocity), initialVelocity, 0f));
@@ -61,7 +60,6 @@ public class BallController : MonoBehaviour
 				.GetPool (gameController.Prefabs.EmaParticlesPrefab)
 				.Take (gameObject.transform.position, Quaternion.identity).SetActive (true);
 			gameObject.SetActive (false);
-			//Invoke ("ResetBall", 0.5f);
 			ResetBall ();
 		}
 	}

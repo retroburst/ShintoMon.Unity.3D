@@ -58,10 +58,10 @@ public class GameLevel
 	/// The game levels.
 	/// </summary>
 	public static readonly GameLevel[] GameLevels = new GameLevel[]{ 
-														new GameLevel1(), 
-														new GameLevel2(), 
-														new GameLevel3(), 
-														new GameLevel4(),
+														//new GameLevel1(), 
+														//new GameLevel2(), 
+														//new GameLevel3(), 
+														//new GameLevel4(),
 														new GameLevel5(),
 														new GameLevel6(),
 														new GameLevel7(),
@@ -239,10 +239,10 @@ public class GameLevel6 : GameLevel
 		Layout	= new int[,]
 		{ 
 			{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, 
-			{ 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0 },
-			{ 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0 }, 
-			{ 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0 }, 
-			{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+			{ 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1 },
+			{ 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1 }, 
+			{ 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 }, 
+			{ 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1 },
 			{ 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1 },
 			{ 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1 },
 			{ 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1 }
@@ -276,9 +276,9 @@ public class GameLevel7 : GameLevel
 			{ 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1 }
 		};
 		BallVelocity = 620.00f;
-		BallAdditiveScale = new Vector3(-0.5f, 0.0f, 0.0f);
+		BallAdditiveScale = new Vector3(0.0f, 0.0f, 0.0f);
 		BallCount = 10;
-		PaddleAdditiveScale = new Vector3(-2.0f, 0.0f, 0.0f);
+		PaddleAdditiveScale = new Vector3(0.0f, 0.0f, 0.0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
 	}
@@ -306,7 +306,7 @@ public class GameLevel8 : GameLevel
 		};
 		BallVelocity = 620.00f;
 		BallAdditiveScale = new Vector3(0.0f, 0.0f, 0.0f);
-		BallCount = 10;
+		BallCount = 15;
 		PaddleAdditiveScale = new Vector3(0.0f, 0.0f, 0.0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
@@ -323,10 +323,10 @@ public class GameLevel9 : GameLevel
 		LevelDesignation = 9;
 		Layout	= new int[,]
 		{ 
-			{ 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1 }, 
-			{ 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1 }, 
-			{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },  
-			{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, 
+			{ 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1 }, 
+			{ 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1 }, 
+			{ 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1 },  
+			{ 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1 }, 
 			{ 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1 }, 
 			{ 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1 }, 
 			{ 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1 }, 
@@ -334,7 +334,7 @@ public class GameLevel9 : GameLevel
 		};
 		BallVelocity = 620.00f;
 		BallAdditiveScale = new Vector3(0.0f, 0.0f, 0.0f);
-		BallCount = 10;
+		BallCount = 15;
 		PaddleAdditiveScale = new Vector3(0.0f, 0.0f, 0.0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
@@ -351,19 +351,19 @@ public class GameLevel10 : GameLevel
 		LevelDesignation = 10;
 		Layout	= new int[,]
 		{ 
-			{ 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1 }, 
-			{ 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1 }, 
+			{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, 
+			{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, 
 			{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },  
 			{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, 
 			{ 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1 }, 
 			{ 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1 }, 
 			{ 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1 }, 
-			{ 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1 }
+			{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
 		};
-		BallVelocity = 600.00f;
+		BallVelocity = 700.00f;
 		BallAdditiveScale = new Vector3(2.0f, 2.0f, 2.0f);
-		BallCount = 10;
-		PaddleAdditiveScale = new Vector3(-2.0f, 0.0f, 0.0f);
+		BallCount = 25;
+		PaddleAdditiveScale = new Vector3(-1.0f, 0.0f, 0.0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
 	}

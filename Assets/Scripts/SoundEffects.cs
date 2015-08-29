@@ -17,7 +17,7 @@ public class SoundEffects : MonoBehaviour
 	/// </summary>
 	private void Awake ()
 	{
-		gameController = GameObject.FindGameObjectWithTag(Constants.GAME_OBJECT_TAG_GAME_CONTROLLER).GetComponent<GameController>();
+		gameController = GameController.FindGameController();
 		audioClipTypeDictionary = new Dictionary<AudioClipType, AudioClip> ();
 		BuildAudioClipDictionary ();
 	}

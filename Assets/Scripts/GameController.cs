@@ -6,6 +6,9 @@ using System;
 
 public class GameController : MonoBehaviour
 {
+	// https://soundcloud.com/skiqi/skiqi-without-delay
+	// 
+
 	// designer supplied components
 	/// <summary>
 	/// The configurable settings.
@@ -77,6 +80,7 @@ public class GameController : MonoBehaviour
 	
 	public object ballLostLock = new object ();
 	public object emaCollectedLock = new object ();
+	private static GameController gameInstance = null;
 	
 	/// <summary>
 	/// Handles the awake event.
@@ -216,7 +220,7 @@ public class GameController : MonoBehaviour
 	{
 		lock (ballLostLock) {
 			State.BallsRemaining--;
-			if (State.BallsRemaining <= 0) {
+			if (!Debug.isDebugBuild && State.BallsRemaining <= 0) {
 				PerformGameOver ();
 			}
 		}
@@ -230,6 +234,18 @@ public class GameController : MonoBehaviour
 				MoveToNextLevel ();
 			}
 		}
+	}
+	
+	/// <summary>
+	/// Finds the game controller.
+	/// </summary>
+	/// <returns>The game controller.</returns>
+	public static GameController FindGameController ()
+	{
+		if (gameInstance == null) {
+			gameInstance = GameObject.FindGameObjectWithTag (Constants.GAME_OBJECT_TAG_GAME_CONTROLLER).GetComponent<GameController> ();
+		}
+		return(gameInstance);
 	}
 	
 }

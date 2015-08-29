@@ -14,7 +14,7 @@ public class PaddleController : MonoBehaviour {
 	/// </summary>
 	private void Awake ()
 	{
-		gameController = GameObject.FindGameObjectWithTag(Constants.GAME_OBJECT_TAG_GAME_CONTROLLER).GetComponent<GameController>();
+		gameController = GameController.FindGameController();
 		gameController.GameLevelChanged += SetPaddleForLevel;
 		originalPaddleScale = gameObject.transform.localScale.Clone ();
 		ball = gameController.Components.Ball;
