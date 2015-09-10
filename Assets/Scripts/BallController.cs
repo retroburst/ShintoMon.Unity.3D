@@ -17,7 +17,7 @@ public class BallController : MonoBehaviour
 	/// </summary>
 	private void Awake ()
 	{
-		gameController = GameController.FindGameController();
+		gameController = GameController.FindGameController ();
 		gameController.GameLevelChanged += (GameLevel l) => ResetBall ();
 		rb = GetComponent<Rigidbody> ();
 		originalPosition = gameObject.transform.position.Clone ();
@@ -54,10 +54,21 @@ public class BallController : MonoBehaviour
 			gameController.GameObjectPoolManager
 				.GetPool (gameController.Prefabs.EmaParticlesPrefab)
 			.Take (collision.gameObject.transform.position, Quaternion.identity).SetActive (true);
-		} else if (collision.gameObject.tag == Constants.GAME_OBJECT_TAG_WATER) {
+		}
+	}
+	
+	/// <summary>
+	/// Handles the trigger enter event.
+	/// </summary>
+	/// <param name="other">Other.</param>
+	private void OnTriggerEnter (Collider other)
+	{
+		if (other.gameObject.tag == Constants.GAME_OBJECT_TAG_WATER_SURFACE) {
+			gameController.AudioController.PlaySplashSoundEffect ();
+		} else if (other.gameObject.tag == Constants.GAME_OBJECT_TAG_WATER_BOTTOM) {
 			gameController.BallLost ();
 			gameController.GameObjectPoolManager
-				.GetPool (gameController.Prefabs.EmaParticlesPrefab)
+			.GetPool (gameController.Prefabs.EmaParticlesPrefab)
 				.Take (gameObject.transform.position, Quaternion.identity).SetActive (true);
 			gameObject.SetActive (false);
 			ResetBall ();

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 /// <summary>
@@ -6,7 +6,7 @@ using System.Collections;
 /// </summary>
 public class Components : MonoBehaviour {
 	public SoundEffects SoundEffects = null;
-	public BackgroundMusic BackgroundMusic = null;
+	public BackgroundSound BackgroundSound = null;
 	public PaddleController Paddle = null;
 	public BallController Ball = null;
 }

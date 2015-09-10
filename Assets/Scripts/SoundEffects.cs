@@ -89,10 +89,19 @@ public class SoundEffects : MonoBehaviour
 		PlayClipWithCallback(audioClipTypeDictionary[AudioClipType.Bounce], 1.0f);
 	}
 	
+	/// <summary>
+	/// Plays the splash.
+	/// </summary>
+	public void PlaySplash()
+	{
+		PlayClipWithCallback(audioClipTypeDictionary[AudioClipType.Splash], 0.25f);
+	}
+	
 	private enum AudioClipType
 	{
 		Bounce,
-		EmaCollected
+		EmaCollected,
+		Splash
 	}
 }
 

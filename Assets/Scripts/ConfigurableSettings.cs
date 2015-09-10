@@ -19,9 +19,9 @@ public class ConfigurableSettings : MonoBehaviour {
 	public float MessageVisibleTime = 2.0f;
 
 	public string UserPrefKeySoundEffectsMuted = "ShintoMon.User.SoundEffectsMuted";
-	public string UserPrefKeyBackgroundMusicMuted = "ShintoMon.User.MusicMuted";
+	public string UserPrefKeyBackgroundSoundMuted = "ShintoMon.User.BackgroundSoundMuted";
 
-	public string MessageToggleMusicPattern = "Music {0}";
+	public string MessageToggleBackgroundSoundPattern = "Background sound {0}";
 	public string MessageToggleSoundPattern = "Sound {0}";
 		
 	public int GameObjectPoolDefaultSize = 10;

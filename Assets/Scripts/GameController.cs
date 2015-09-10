@@ -6,8 +6,14 @@ using System;
 
 public class GameController : MonoBehaviour
 {
+	// Music ideas:
 	// https://soundcloud.com/skiqi/skiqi-without-delay
-	// 
+	//
+	// Attribution contributions
+	// Taira Komori - Freesound.org - various
+	// jakobthiesen - Freesound.org - lake water
+	// Setuniman - Freesound.org - splash
+	//  
 
 	// designer supplied components
 	/// <summary>
@@ -171,7 +177,7 @@ public class GameController : MonoBehaviour
 	private void InitialiseRuntimeComponents ()
 	{
 		//TODO: input the saved user settings for mute etc
-		AudioController = new AudioController (Components.BackgroundMusic, Components.SoundEffects, true, true, ConfigurableSettings);
+		AudioController = new AudioController (Components.BackgroundSound, Components.SoundEffects, false, false, ConfigurableSettings);
 		GameMessageController = new GameMessageController (UIComponents.MessageSlots, ConfigurableSettings.MessageVisibleTime);
 		InscriptionGenerator = new InscriptionGenerator (ConfigurableSettings.InscriptionKanji);
 		InitialiseGameObjectPools ();

@@ -6,7 +6,7 @@ using System;
 /// Audio system controller.
 /// </summary>
 public class AudioController {
-	private BackgroundMusic backgroundMusic = null;
+	private BackgroundSound backgroundSound = null;
 	private SoundEffects soundEffects = null;
 	private ConfigurableSettings configurableSettings = null;
 
@@ -16,16 +16,16 @@ public class AudioController {
 	/// <param name="background">Background.</param>
 	/// <param name="sound">Sound.</param>
 	/// <param name="soundEffectsMuted">If set to <c>true</c> sound effects muted.</param>
-	/// <param name="backgroundMusicMuted">If set to <c>true</c> background music muted.</param>
+	/// <param name="backgroundSoundMuted">If set to <c>true</c> background sounds muted.</param>
 	/// <param name="configSettings">Config settings.</param>
-	public AudioController(BackgroundMusic background, SoundEffects sound, bool soundEffectsMuted, bool backgroundMusicMuted, ConfigurableSettings configSettings)
+	public AudioController(BackgroundSound background, SoundEffects sound, bool soundEffectsMuted, bool backgroundSoundMuted, ConfigurableSettings configSettings)
 	{
 		configurableSettings = configSettings;
-		backgroundMusic = background;
+		backgroundSound = background;
 		soundEffects = sound;
 		SoundEffectsMuted = soundEffectsMuted;
-		BackgroundMusicMuted = backgroundMusicMuted;
-		if(!BackgroundMusicMuted) backgroundMusic.StartBackgroundMusic();
+		BackgroundSoundMuted = backgroundSoundMuted;
+		if(!BackgroundSoundMuted) backgroundSound.PlayOnStart = true;
 	}
 	
 	/// <summary>
@@ -45,20 +45,29 @@ public class AudioController {
 		if(SoundEffectsMuted) return;
 		soundEffects.PlayBounce();
 	}
+	
+	/// <summary>
+	/// Plays the splash sound effect.
+	/// </summary>
+	public void PlaySplashSoundEffect()
+	{
+		if(SoundEffectsMuted) return;
+		soundEffects.PlaySplash();
+	}
 
 	/// <summary>
-	/// Toggles the background music.
+	/// Toggles the background sound.
 	/// </summary>
-	public void ToggleBackgroundMusic()
+	public void ToggleBackgroundSound()
 	{
-		BackgroundMusicMuted = !BackgroundMusicMuted;
-		if(BackgroundMusicMuted) 
+		BackgroundSoundMuted = !BackgroundSoundMuted;
+		if(BackgroundSoundMuted) 
 		{
-			backgroundMusic.StopBackgroundMusic();
+			backgroundSound.StopBackgroundSounds();
 		}
 		else 
 		{
-			backgroundMusic.StartBackgroundMusic();
+			backgroundSound.StartBackgroundSounds();
 		}
 	}
 
@@ -80,15 +89,15 @@ public class AudioController {
 	/// Gets a value indicating whether this <see cref="AudioSystem"/> background music muted.
 	/// </summary>
 	/// <value><c>true</c> if background music muted; otherwise, <c>false</c>.</value>
-	public bool BackgroundMusicMuted { get; private set; }
+	public bool BackgroundSoundMuted { get; private set; }
 
 	/// <summary>
-	/// Adds the background music state message.
+	/// Adds the background sound state message.
 	/// </summary>
 	/// <param name="addMessage">The add message.</param>
-	public void AddBackgroundMusicStateMessage(Action<string> addMessage)
+	public void AddBackgroundSoundStateMessage(Action<string> addMessage)
 	{
-		string message = string.Format(configurableSettings.MessageToggleMusicPattern, GameHelpers.EncodeBooleanForDisplay(!BackgroundMusicMuted));
+		string message = string.Format(configurableSettings.MessageToggleBackgroundSoundPattern, GameHelpers.EncodeBooleanForDisplay(!BackgroundSoundMuted));
 		addMessage(message);
 	}
 	
