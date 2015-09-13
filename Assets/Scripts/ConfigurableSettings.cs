@@ -16,13 +16,15 @@ public class ConfigurableSettings : MonoBehaviour {
 	public string MessageGameWonText = "GAME WON! CONGRATS!";
 	public string MessageGameWonSubtext = "Press submit to restart.";
 	
+	public string MessageGameRestarted = "Restared";
+	
 	public float MessageVisibleTime = 2.0f;
 
 	public string UserPrefKeySoundEffectsMuted = "ShintoMon.User.SoundEffectsMuted";
 	public string UserPrefKeyBackgroundSoundMuted = "ShintoMon.User.BackgroundSoundMuted";
 
-	public string MessageToggleBackgroundSoundPattern = "Background sound {0}";
-	public string MessageToggleSoundPattern = "Sound {0}";
+	public string MessageToggleBackgroundSoundPattern = "Background sounds {0}";
+	public string MessageToggleSoundPattern = "Sound effects {0}";
 		
 	public int GameObjectPoolDefaultSize = 10;
 	public int GameObjectPoolEmaParticlesSize = 10;
@@ -39,6 +41,6 @@ public class ConfigurableSettings : MonoBehaviour {
 	
 	public float PaddleClampXMin = -9.0f;
 	public float PaddleClampXMax = 9.0f;
-	
+
 	
 }

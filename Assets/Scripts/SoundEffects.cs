@@ -11,6 +11,7 @@ public class SoundEffects : MonoBehaviour
 	private Dictionary<AudioClipType, AudioClip> audioClipTypeDictionary = null;
 	private GameController gameController = null;
 	public List<AudioClip> audioClips = null;
+	public List<AudioClip> bounceClips = null;
 
 	/// <summary>
 	/// Handles awake event.
@@ -86,7 +87,7 @@ public class SoundEffects : MonoBehaviour
 	/// </summary>
 	public void PlayBounce ()
 	{
-		PlayClipWithCallback(audioClipTypeDictionary[AudioClipType.Bounce], 1.0f);
+		PlayClipWithCallback(bounceClips[UnityEngine.Random.Range(0, bounceClips.Count)], 1.0f);
 	}
 	
 	/// <summary>
@@ -94,12 +95,11 @@ public class SoundEffects : MonoBehaviour
 	/// </summary>
 	public void PlaySplash()
 	{
-		PlayClipWithCallback(audioClipTypeDictionary[AudioClipType.Splash], 0.25f);
+		PlayClipWithCallback(audioClipTypeDictionary[AudioClipType.Splash], 1.0f);
 	}
 	
 	private enum AudioClipType
 	{
-		Bounce,
 		EmaCollected,
 		Splash
 	}

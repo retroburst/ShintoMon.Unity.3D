@@ -5,11 +5,15 @@ using System.Linq;
 
 public class BackgroundSound : MonoBehaviour
 {
-	public AudioClip insectsSoundClip = null;
-	public AudioClip frogsSoundClip = null;
-	public AudioClip lakeWaterSoundClip = null;
+	public AudioClip InsectsSoundClip = null;
+	public AudioClip FrogsSoundClip = null;
+	public AudioClip LakeWaterSoundClip = null;
+	public AudioClip SingingBowlClip = null;
+	public AudioClip FluteClip = null;
 	private GameController gameController = null;
-	private List<AudioSource> sources = null;
+	private List<AudioSource> backgroundSoundSources = null;
+	private AudioSource singingBowlAudioSource = null;
+	private AudioSource fluteAudioSource = null;
 
 	/// <summary>
 	/// Handles the awake event.
@@ -17,14 +21,14 @@ public class BackgroundSound : MonoBehaviour
 	private void Awake ()
 	{
 		gameController = GameController.FindGameController ();
-		sources = new List<AudioSource> ();
+		backgroundSoundSources = new List<AudioSource> ();
 	}
 	
 	private void Start ()
 	{
-		SetupBackgroundSound (insectsSoundClip, 0.25f);
-		SetupBackgroundSound (frogsSoundClip, 0.15f);
-		SetupBackgroundSound(lakeWaterSoundClip, 0.5f);
+		SetupBackgroundSound (InsectsSoundClip, 0.40f);
+		SetupBackgroundSound (FrogsSoundClip, 0.25f);
+		SetupBackgroundSound (LakeWaterSoundClip, 1.0f);
 		if (PlayOnStart)
 			StartBackgroundSounds ();
 	}
@@ -45,7 +49,7 @@ public class BackgroundSound : MonoBehaviour
 		audioSourceComponent.volume = volume;
 		audioSourceComponent.playOnAwake = false;
 		audioSource.SetActive(true);
-		sources.Add (audioSourceComponent);
+		backgroundSoundSources.Add (audioSourceComponent);
 	}
 
 	/// <summary>
@@ -53,7 +57,7 @@ public class BackgroundSound : MonoBehaviour
 	/// </summary>
 	public void StartBackgroundSounds ()
 	{
-		sources.ForEach (x => x.Play ());
+		backgroundSoundSources.ForEach (x => x.Play ());
 	}
 
 	/// <summary>
@@ -61,7 +65,47 @@ public class BackgroundSound : MonoBehaviour
 	/// </summary>
 	public void StopBackgroundSounds ()
 	{
-		sources.ForEach (x => x.Stop ());
+		backgroundSoundSources.ForEach (x => x.Stop ());
+	}
+	
+	/// <summary>
+	/// Plays the flute.
+	/// </summary>
+	public void PlayFlute()
+	{
+		if(fluteAudioSource == null)
+		{
+			GameObject audioSource = gameController.GameObjectPoolManager
+				.GetPool(gameController.Prefabs.AudioSourcePrefab)
+				.Take();
+			AudioSource audioSourceComponent = audioSource.GetComponent<AudioSource> ();
+			audioSourceComponent.clip = FluteClip;
+			audioSourceComponent.volume = 1.0f;
+			audioSourceComponent.loop = false;
+			audioSource.SetActive(true);
+			fluteAudioSource = audioSourceComponent;
+		}
+		fluteAudioSource.Play();
+	}
+	
+	/// <summary>
+	/// Plays the singing bowl.
+	/// </summary>
+	public void PlaySingingBowl()
+	{
+		if(singingBowlAudioSource == null)
+		{
+			GameObject audioSource = gameController.GameObjectPoolManager
+				.GetPool(gameController.Prefabs.AudioSourcePrefab)
+				.Take();
+			AudioSource audioSourceComponent = audioSource.GetComponent<AudioSource> ();
+			audioSourceComponent.clip = SingingBowlClip;
+			audioSourceComponent.volume = 1.0f;
+			audioSourceComponent.loop = false;
+			audioSource.SetActive(true);
+			singingBowlAudioSource = audioSourceComponent;
+		}
+		singingBowlAudioSource.Play();
 	}
 	
 	/// <summary>

@@ -22,23 +22,41 @@ public class BallController : MonoBehaviour
 		rb = GetComponent<Rigidbody> ();
 		originalPosition = gameObject.transform.position.Clone ();
 		originalBallScale = gameObject.transform.localScale.Clone ();
+		gameController.Components.SwipeInput.TapDetected += HandleTap;
+	}
+	
+	/// <summary>
+	/// Handles the tap.
+	/// </summary>
+	private void HandleTap ()
+	{
+		if ((gameController.State.PlayState == PlayState.NotStarted || gameController.State.PlayState == PlayState.Playing) && !inPlay) {
+			LaunchBall ();
+		}
 	}
 	
 	/// <summary>
 	/// Update this instance.
 	/// </summary>
-	void Update ()
+	private void Update ()
 	{
-		if ((gameController.State.PlayState != PlayState.GameOver 
-			&& gameController.State.PlayState != PlayState.GameWon) 
+		if ((gameController.State.PlayState == PlayState.NotStarted || gameController.State.PlayState == PlayState.Playing) 
 			&& Input.GetButtonDown ("Fire1") && !inPlay) {
-			float initialVelocity = gameController.State.Level.BallVelocity;
-			inPlay = true;
-			rb.isKinematic = false;
-			rb.AddForce (new Vector3 (Random.Range (-initialVelocity, initialVelocity), initialVelocity, 0f));
-			gameController.BallInPlay ();
-			rb.angularVelocity = Random.insideUnitSphere * 10000.0f;
+			LaunchBall ();
 		}
+	}
+	
+	/// <summary>
+	/// Launchs the ball.
+	/// </summary>
+	private void LaunchBall ()
+	{
+		float initialVelocity = gameController.State.Level.BallVelocity;
+		inPlay = true;
+		rb.isKinematic = false;
+		rb.AddForce (new Vector3 (Random.Range (-initialVelocity, initialVelocity), initialVelocity, 0f));
+		gameController.BallInPlay ();
+		rb.angularVelocity = Random.insideUnitSphere * 10000.0f;
 	}
 	
 	/// <summary>
@@ -55,6 +73,7 @@ public class BallController : MonoBehaviour
 				.GetPool (gameController.Prefabs.EmaParticlesPrefab)
 			.Take (collision.gameObject.transform.position, Quaternion.identity).SetActive (true);
 		}
+		gameController.AudioController.PlayBounceSoundEffect ();
 	}
 	
 	/// <summary>

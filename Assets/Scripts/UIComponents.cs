@@ -14,4 +14,12 @@ public class UIComponents : MonoBehaviour {
 	public GameObject GameStatePanel = null;
 	public UnityEngine.UI.Text GameStateText = null;
 	public UnityEngine.UI.Text GameStateSubtext = null;
+	
+	public GameObject OptionsPanel = null;
+	public GameObject SplashPanel = null;
+	
+	public UnityEngine.UI.Button OptionsButton = null;
+	public UnityEngine.UI.Button PauseButton = null;
+	public UnityEngine.UI.Button QuitButton = null;
+	
 }

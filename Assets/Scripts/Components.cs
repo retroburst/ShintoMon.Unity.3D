@@ -9,4 +9,5 @@ public class Components : MonoBehaviour {
 	public BackgroundSound BackgroundSound = null;
 	public PaddleController Paddle = null;
 	public BallController Ball = null;
+	public SwipeInput SwipeInput = null;
 }

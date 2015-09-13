@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 
 /// <summary>
 /// Represents a game level.
 /// </summary>
+[Serializable]
 public class GameLevel
 {
 	/// <summary>
@@ -58,10 +60,10 @@ public class GameLevel
 	/// The game levels.
 	/// </summary>
 	public static readonly GameLevel[] GameLevels = new GameLevel[]{ 
-														//new GameLevel1(), 
-														//new GameLevel2(), 
-														//new GameLevel3(), 
-														//new GameLevel4(),
+														new GameLevel1(), 
+														new GameLevel2(), 
+														new GameLevel3(), 
+														new GameLevel4(),
 														new GameLevel5(),
 														new GameLevel6(),
 														new GameLevel7(),

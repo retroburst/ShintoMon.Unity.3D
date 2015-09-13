@@ -1,19 +1,24 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
 public class ViewController
 {	
 	private ViewControllerContext context = null;
+
 	public List<string> Messages { get; private set; }
+
+	public bool OptionsPanelShowing { get; private set; }
+	
+	public bool SplashPanelShowing { get; private set; }
 	
 	/// <summary>
 	/// Initializes a new instance of the <see cref="ViewController"/> class.
 	/// </summary>
 	/// <param name="viewControllerContext">View controller context.</param>
-	public ViewController(ViewControllerContext viewControllerContext)
+	public ViewController (ViewControllerContext viewControllerContext)
 	{
-		Messages = new List<string>();
+		Messages = new List<string> ();
 		context = viewControllerContext;
 	}
 
@@ -21,19 +26,19 @@ public class ViewController
 	/// Updates the view for new level.
 	/// </summary>
 	/// <param name="level">Level.</param>
-	public void UpdateViewForNewLevel(GameLevel level)
+	public void UpdateViewForNewLevel (GameLevel level)
 	{
-		LayoutEmaGrid(level.Layout);
-		context.UIComponents.LevelText.text = string.Format(context.ConfigurableSettings.MessageLevelPattern, level.LevelDesignation);
-		context.UIComponents.ScoreText.text = string.Format(context.ConfigurableSettings.MessageScorePattern, 0, level.EmaCount);
-		context.UIComponents.BallsText.text = string.Format(context.ConfigurableSettings.MessageBallPattern, level.BallCount, level.BallCount);
+		LayoutEmaGrid (level.Layout);
+		context.UIComponents.LevelText.text = string.Format (context.ConfigurableSettings.MessageLevelPattern, level.LevelDesignation);
+		context.UIComponents.ScoreText.text = string.Format (context.ConfigurableSettings.MessageScorePattern, 0, level.EmaCount);
+		context.UIComponents.BallsText.text = string.Format (context.ConfigurableSettings.MessageBallPattern, level.BallCount, level.BallCount);
 	}
 	
 	/// <summary>
 	/// Updates the view.
 	/// </summary>
 	/// <param name="state">State.</param>
-	public void UpdateView(GameState state)
+	public void UpdateView (GameState state)
 	{
 		ProcessProgress (state);
 		ProcessGameState (state);
@@ -63,8 +68,7 @@ public class ViewController
 			context.UIComponents.GameStateText.text = stateText;
 			context.UIComponents.GameStateSubtext.text = stateSubtext;
 			context.UIComponents.GameStatePanel.SetActive (true);
-		}
-		else {
+		} else {
 			if (context.UIComponents.GameStatePanel.activeInHierarchy)
 				context.UIComponents.GameStatePanel.SetActive (false);
 		}
@@ -86,7 +90,7 @@ public class ViewController
 	/// <param name="columns">Columns.</param>
 	private void LayoutEmaGrid (int rows, int columns)
 	{
-		PerformLayout(rows, columns, null);
+		PerformLayout (rows, columns, null);
 	}
 	
 	/// <summary>
@@ -95,9 +99,9 @@ public class ViewController
 	/// <param name="layout">Layout.</param>
 	private void LayoutEmaGrid (int[,] layout)
 	{
-		int rows = layout.GetLength(0);
-		int columns = layout.GetLength(1);
-		PerformLayout(rows, columns, layout);
+		int rows = layout.GetLength (0);
+		int columns = layout.GetLength (1);
+		PerformLayout (rows, columns, layout);
 	}
 	
 	/// <summary>
@@ -106,7 +110,7 @@ public class ViewController
 	/// <param name="layout">Layout.</param>
 	private void PerformLayout (int rows, int columns, int[,] layout)
 	{
-		GameObjectPool emaGameObjectPool = context.GameController.GameObjectPoolManager.GetPool(context.GameController.Prefabs.EmaPrefab);
+		GameObjectPool emaGameObjectPool = context.GameController.GameObjectPoolManager.GetPool (context.GameController.Prefabs.EmaPrefab);
 		Vector2 emaGridMaxPosition = context.GameController.ConfigurableSettings.EmaGridMaxPosition;
 		Vector2 emaGridMinPosition = context.GameController.ConfigurableSettings.EmaGridMinPosition;
 		float emaGridXAxisStep = context.GameController.ConfigurableSettings.EmaGridXAxisStep;
@@ -128,11 +132,10 @@ public class ViewController
 					continue;
 				}
 				
-				if(layout == null || layout[row, column] == 1)
-				{
+				if (layout == null || layout [row, column] == 1) {
 					GameObject pooledEma = (GameObject)emaGameObjectPool.Take (new Vector3 (xPosition, yPosition, 0.0f), Quaternion.identity);
-					pooledEma.transform.FindChild("Inscription").GetComponent<TextMesh> ().text = inscriptionGenerator.GenerateRandomInscription ();
-					pooledEma.SetActive(true);
+					pooledEma.transform.FindChild ("Inscription").GetComponent<TextMesh> ().text = inscriptionGenerator.GenerateRandomInscription ();
+					pooledEma.SetActive (true);
 				}
 			}
 		}
@@ -161,6 +164,50 @@ public class ViewController
 			stateSubText = context.ConfigurableSettings.MessagePausedSubtext;
 			break;
 		}
+	}
+	
+	/// <summary>
+	/// Shows the options panel.
+	/// </summary>
+	public void ShowOptionsPanel ()
+	{
+		OptionsPanelShowing = true;
+		context.UIComponents.OptionsPanel.SetActive (true);
+		context.UIComponents.PauseButton.interactable = false;
+		context.UIComponents.OptionsButton.interactable = false;
+	}
+	
+	/// <summary>
+	/// Hides the options panel.
+	/// </summary>
+	public void HideOptionsPanel ()
+	{
+		OptionsPanelShowing = false;
+		context.UIComponents.PauseButton.interactable = true;
+		context.UIComponents.OptionsButton.interactable = true;
+		context.UIComponents.OptionsPanel.SetActive (false);
+	}
+	
+	/// <summary>
+	/// Shows the splash panel.
+	/// </summary>
+	public void ShowSplashPanel ()
+	{
+		SplashPanelShowing = true;
+		context.UIComponents.SplashPanel.SetActive (true);
+		if (!context.UIComponents.GameStatePanel.activeInHierarchy)
+			context.UIComponents.GameStatePanel.SetActive (true);
+	}
+	
+	/// <summary>
+	/// Hides the splash panel.
+	/// </summary>
+	public void HideSplashPanel ()
+	{
+		SplashPanelShowing = false;
+		context.UIComponents.SplashPanel.SetActive (false);
+		if (context.UIComponents.GameStatePanel.activeInHierarchy)
+			context.UIComponents.GameStatePanel.SetActive (false);
 	}
 
 }

@@ -13,7 +13,11 @@ public class GameController : MonoBehaviour
 	// Taira Komori - Freesound.org - various
 	// jakobthiesen - Freesound.org - lake water
 	// Setuniman - Freesound.org - splash
-	//  
+	// ryancacophony - singing bowl
+	// percussionfiend - bamboo chime
+	// JohnLaVine333 - shakahachi (flute)
+	// 
+	// 
 
 	// designer supplied components
 	/// <summary>
@@ -99,6 +103,7 @@ public class GameController : MonoBehaviour
 		Levels = GameLevel.GameLevels;
 		State = new GameState ();
 		ViewController = new ViewController (CreateViewControllerContext ());
+		Components.SwipeInput.TapDetected += HandleTap;
 	}
 	
 	/// <summary>
@@ -131,8 +136,7 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	private void SetupForNewLevel ()
 	{
-		State.Reset (Levels [State.LevelIndex]);
-		State.Level = Levels [State.LevelIndex];
+		State.SetupLevel (Levels [State.LevelIndex]);
 		ViewController.UpdateViewForNewLevel (Levels [State.LevelIndex]);
 	}
 	
@@ -144,6 +148,7 @@ public class GameController : MonoBehaviour
 		if (State.LevelIndex + 1 <= Levels.GetUpperBound (0)) {
 			State.LevelIndex++;
 			SetupForNewLevel ();
+			AudioController.PlaySingingBowlClip ();
 			if (GameLevelChanged != null)
 				GameLevelChanged (State.Level);
 		} else {
@@ -200,11 +205,27 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	private void Update ()
 	{		
-		if (State.PlayState == PlayState.NotStarted)
-			return;
+		if (State.PlayState == PlayState.Paused 
+			&& (!ViewController.SplashPanelShowing && !ViewController.OptionsPanelShowing)
+			&& Input.anyKeyDown) {
+			UnpauseGame ();
+		}
+		
+
 
 		// update the view
 		ViewController.UpdateView (State);
+	}
+	
+	/// <summary>
+	/// Handles the tap.
+	/// </summary>
+	private void HandleTap ()
+	{
+		if (State.PlayState == PlayState.Paused 
+			&& (!ViewController.SplashPanelShowing && !ViewController.OptionsPanelShowing)) {
+			UnpauseGame ();
+		}
 	}
 	
 	/// <summary>
@@ -254,6 +275,88 @@ public class GameController : MonoBehaviour
 		return(gameInstance);
 	}
 	
+	/// <summary>
+	/// Pauses the game.
+	/// </summary>
+	public void PauseGame ()
+	{
+		if (State.PlayState != PlayState.Paused) {
+			State.PlayStateBeforePause = State.PlayState;
+			State.PlayState = PlayState.Paused;
+			Time.timeScale = 0;
+			if (GamePaused != null)
+				GamePaused ();
+		}
+	}
+	
+	/// <summary>
+	/// Unpauses the game.
+	/// </summary>
+	public void UnpauseGame ()
+	{
+		if (State.PlayState == PlayState.Paused) {
+			State.PlayState = State.PlayStateBeforePause;
+			Time.timeScale = 1;
+			if (GameUnpaused != null)
+				GameUnpaused ();
+		}
+	}
+	
+	/// <summary>
+	/// Shows the options panel.
+	/// </summary>
+	public void ShowOptionsPanel ()
+	{
+		PauseGame ();
+		ViewController.ShowOptionsPanel ();
+	}
+	
+	/// <summary>
+	/// Hides the options panel.
+	/// </summary>
+	public void HideOptionsPanel ()
+	{
+		ViewController.HideOptionsPanel ();
+		UnpauseGame ();
+	}
+	
+	/// <summary>
+	/// Toggles the sound effects.
+	/// </summary>
+	public void ToggleSoundEffects ()
+	{
+		AudioController.ToggleSoundEffects ();
+		AudioController.AddSoundEffectsStateMessage (AddGameMessage);
+	}
+	
+	/// <summary>
+	/// Toggles the background sound.
+	/// </summary>
+	public void ToggleBackgroundSound ()
+	{
+		AudioController.ToggleBackgroundSound ();
+		AudioController.AddBackgroundSoundStateMessage (AddGameMessage);
+	}
+	
+	/// <summary>
+	/// Restarts the game.
+	/// </summary>
+	public void RestartGame ()
+	{
+		State = new GameState ();
+		MoveToNextLevel ();
+		AddGameMessage (ConfigurableSettings.MessageGameRestarted);
+		if (GameRestarted != null)
+			GameRestarted ();
+	}
+	
+	/// <summary>
+	/// Quits the game.
+	/// </summary>
+	public void QuiteGame ()
+	{
+		Application.Quit ();
+	}
 }
 
 

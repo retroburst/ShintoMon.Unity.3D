@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\Components.cs" />
      <Compile Include="Assets\Scripts\ConfigurableSettings.cs" />
      <Compile Include="Assets\Scripts\Constants.cs" />
+     <Compile Include="Assets\Scripts\EmaModel.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\GameHelpers.cs" />
      <Compile Include="Assets\Scripts\GameLevel.cs" />
@@ -175,6 +176,8 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{2B232DE4-518D-277B-6B8C-C5972157DB1E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{C7D21168-F022-0A0C-5EE9-5431405253E0}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

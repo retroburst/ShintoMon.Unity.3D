@@ -8,90 +8,69 @@ using System;
 public class SwipeInput : MonoBehaviour
 {
 	private float fingerStartTime = 0.0f;
-	private Vector2 fingerStartPos = Vector2.zero;
-	private bool isSwipe = false;
-	private float minSwipeDist = 40.0f;
-	private float maxSwipeTime = 2.0f;
+	private Vector2 leftFingerPos = Vector2.zero;
+	private Vector2 leftFingerLastPos = Vector2.zero;
+	private Vector2 leftFingerMovedBy = Vector2.zero;
+	private float slideMagnitudeX = 0.0f;
+	private float slideMagnitudeY = 0.0f;
 	private float maxTapTime = 0.5f;
 	private float maxTapDist = 20.0f;
-
-	public event Action LeftSwipeDetected;
-	public event Action RightSwipeDetected;
-	public event Action DownSwipeDetected;
+	public float magnitudeFactor = 1.0f;
+	
+	public event Action<float> HorizontalMovementDetected;
 	public event Action TapDetected;
 	
-	/// <summary>
-	/// Update this instance.
-	/// </summary>
 	private void Update ()
-	{	
-		if (Input.touchCount > 0) {		
-			foreach (Touch touch in Input.touches) {
-				switch (touch.phase) {
-				case TouchPhase.Began:
-					/* this is a new touch */
-					isSwipe = true;
-					fingerStartTime = Time.time;
-					fingerStartPos = touch.position;
-					break;
-					
-				case TouchPhase.Canceled:
-					/* The touch is being canceled */
-					isSwipe = false;
-					break;
+	{
+		if (Input.touchCount == 1) {
+			Touch touch = Input.GetTouch (0);
+			
+			if (touch.phase == TouchPhase.Began) {
+				fingerStartTime = Time.time;
+				leftFingerPos = Vector2.zero;
+				leftFingerLastPos = Vector2.zero;
+				leftFingerMovedBy = Vector2.zero;
 				
-				case TouchPhase.Ended:
-					float tapTime = Time.time - fingerStartTime;
-					float tapDist = (touch.position - fingerStartPos).magnitude;
-					if (tapDist <= maxTapDist && tapTime < maxTapTime) {
-						if (TapDetected != null)
-							TapDetected ();
-					}
-					break;
+				slideMagnitudeX = 0.0f;
+				//slideMagnitudeY = 0.0f;
 				
-				case TouchPhase.Moved:
+				// record start position
+				leftFingerPos = touch.position;
+				
+			} else if (touch.phase == TouchPhase.Moved) {
+				leftFingerMovedBy = touch.position - leftFingerPos; // or Touch.deltaPosition : Vector2
+				// The position delta since last change.
+				leftFingerLastPos = leftFingerPos;
+				leftFingerPos = touch.position;
+				
+				// slide horz
+				slideMagnitudeX = leftFingerMovedBy.x / Screen.width;
+				
+				// slide vert
+				//slideMagnitudeY = leftFingerMovedBy.y / Screen.height;
+				
+				if (HorizontalMovementDetected != null)
+					HorizontalMovementDetected (slideMagnitudeX * magnitudeFactor);
 					
-					float gestureTime = Time.time - fingerStartTime;
-					float gestureDist = (touch.position - fingerStartPos).magnitude;
-					
-					if (isSwipe && gestureTime < maxSwipeTime && gestureDist > minSwipeDist) {
-						Vector2 direction = touch.position - fingerStartPos;
-						Vector2 swipeType = Vector2.zero;
-						
-						if (Mathf.Abs (direction.x) > Mathf.Abs (direction.y)) {
-							// the swipe is horizontal:
-							swipeType = Vector2.right * Mathf.Sign (direction.x);
-						} else {
-							// the swipe is vertical:
-							swipeType = Vector2.up * Mathf.Sign (direction.y);
-						}
-						
-						if (swipeType.x != 0.0f) {
-							if (swipeType.x > 0.0f) {
-								if (RightSwipeDetected != null)
-									RightSwipeDetected ();
-							} else {
-								if (LeftSwipeDetected != null)
-									LeftSwipeDetected ();
-							}
-						}
-						
-						if (swipeType.y != 0.0f) {
-							if (swipeType.y > 0.0f) {
-								// MOVE UP
-								// do nothing
-							} else {
-								if (DownSwipeDetected != null)
-									DownSwipeDetected ();
-							}
-						}
-						
-					}
-					
-					break;
+			} else if (touch.phase == TouchPhase.Stationary) {
+				leftFingerLastPos = leftFingerPos;
+				leftFingerPos = touch.position;
+				
+				slideMagnitudeX = 0.0f;
+				//slideMagnitudeY = 0.0f;
+			} else if (touch.phase == TouchPhase.Ended) {
+				slideMagnitudeX = 0.0f;
+				//slideMagnitudeY = 0.0f;
+				float tapTime = Time.time - fingerStartTime;
+				float tapDist = (touch.position - leftFingerPos).magnitude;
+				if (tapDist <= maxTapDist && tapTime < maxTapTime) {
+					if (TapDetected != null)
+						TapDetected ();
 				}
+				
+			} else if (touch.phase == TouchPhase.Canceled) {
+				slideMagnitudeX = 0.0f;
+				//slideMagnitudeY = 0.0f;
 			}
 		}
-		
 	}
-}

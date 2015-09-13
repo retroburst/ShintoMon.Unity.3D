@@ -54,7 +54,25 @@ public class AudioController {
 		if(SoundEffectsMuted) return;
 		soundEffects.PlaySplash();
 	}
-
+	
+	/// <summary>
+	/// Plays the flute clip.
+	/// </summary>
+	public void PlayFluteClip()
+	{
+		if(BackgroundSoundMuted) return;
+		backgroundSound.PlayFlute();
+	}
+	
+	/// <summary>
+	/// Plays the singing bowl clip.
+	/// </summary>
+	public void PlaySingingBowlClip()
+	{
+		if(BackgroundSoundMuted) return;
+		backgroundSound.PlaySingingBowl();
+	}
+	
 	/// <summary>
 	/// Toggles the background sound.
 	/// </summary>
