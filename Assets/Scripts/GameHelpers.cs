@@ -88,7 +88,15 @@ public static class GameHelpers
 	public static Vector3 Modify(this Vector3 target, Nullable<float> x = null, Nullable<float> y = null, Nullable<float> z = null) 
 	{
 		return(new Vector3(x.HasValue ? x.Value : target.x, y.HasValue ? y.Value : target.y, z.HasValue ? z.Value : target.z));
+	}
 	
+	/// <summary>
+	/// Clone the specified target.
+	/// </summary>
+	/// <param name="target">Target.</param>
+	public static Quaternion Clone(this Quaternion target)
+	{
+		return(new Quaternion(target.x, target.y, target.z, target.w));
 	}
 	
 }

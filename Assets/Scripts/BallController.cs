@@ -19,6 +19,7 @@ public class BallController : MonoBehaviour
 	{
 		gameController = GameController.FindGameController ();
 		gameController.GameLevelChanged += (GameLevel l) => ResetBall ();
+		gameController.GameLevelWon += () => gameObject.SetActive (false);
 		rb = GetComponent<Rigidbody> ();
 		originalPosition = gameObject.transform.position.Clone ();
 		originalBallScale = gameObject.transform.localScale.Clone ();
@@ -102,7 +103,7 @@ public class BallController : MonoBehaviour
 		float heightDifference = ((gameController.State.Level.BallAdditiveScale.y + originalBallScale.y) - originalBallScale.y) / 2;
 		gameObject.transform.position = new Vector3 (gameController.Components.Paddle.transform.position.x, originalPosition.y + heightDifference, originalPosition.z);
 		gameObject.transform.localScale = originalBallScale;
-		gameObject.transform.localScale += gameController.State.Level.BallAdditiveScale;
+		gameObject.transform.localScale += gameController.State.Level.BallAdditiveScale.ToVector3();
 		rb.isKinematic = true;
 		rb.velocity = Vector3.zero;
 		inPlay = false; 

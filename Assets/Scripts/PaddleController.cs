@@ -75,7 +75,7 @@ public class PaddleController : MonoBehaviour
 		minClampX = CalculateClamp (level.PaddleAdditiveScale.x + originalPaddleScale.x, gameController.ConfigurableSettings.PaddleClampXMin);
 		maxClampX = CalculateClamp (level.PaddleAdditiveScale.x + originalPaddleScale.x, gameController.ConfigurableSettings.PaddleClampXMax);
 		gameObject.transform.localScale = originalPaddleScale;
-		gameObject.transform.localScale += level.PaddleAdditiveScale;
+		gameObject.transform.localScale += level.PaddleAdditiveScale.ToVector3();
 		PositionBall (gameObject.transform.position.x);
 	}
 	

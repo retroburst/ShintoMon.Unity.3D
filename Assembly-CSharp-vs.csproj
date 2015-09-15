@@ -68,6 +68,8 @@
      <Compile Include="Assets\Scripts\PaddleController.cs" />
      <Compile Include="Assets\Scripts\Prefabs.cs" />
      <Compile Include="Assets\Scripts\RandomRotator.cs" />
+     <Compile Include="Assets\Scripts\SerializableQuaternion.cs" />
+     <Compile Include="Assets\Scripts\SerializableVector3.cs" />
      <Compile Include="Assets\Scripts\SoundEffects.cs" />
      <Compile Include="Assets\Scripts\SwipeInput.cs" />
      <Compile Include="Assets\Scripts\UIComponents.cs" />

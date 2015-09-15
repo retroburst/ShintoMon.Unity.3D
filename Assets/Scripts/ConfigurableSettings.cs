@@ -18,6 +18,13 @@ public class ConfigurableSettings : MonoBehaviour {
 	
 	public string MessageGameRestarted = "Restared";
 	
+	public string MessageSaveGamePattern = "Saved {0}";
+	public string MessageLoadGamePattern = "Loaded from {0}";
+	public string MessageSaveGameFailedMessagePattern = "Save failed [{0}]";
+	public string MessageLoadGameFailedMessagePattern = "Loaded failed [{0}]";
+	public string MessageLoadGameFailedNoFileMessagePattern = "Could not load game - no saved game exists";
+	public string SavegameFilename = "Saved.Game.data";
+	
 	public float MessageVisibleTime = 2.0f;
 
 	public string UserPrefKeySoundEffectsMuted = "ShintoMon.User.SoundEffectsMuted";

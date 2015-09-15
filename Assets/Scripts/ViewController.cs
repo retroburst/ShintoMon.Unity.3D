@@ -26,12 +26,26 @@ public class ViewController
 	/// Updates the view for new level.
 	/// </summary>
 	/// <param name="level">Level.</param>
-	public void UpdateViewForNewLevel (GameLevel level)
+	public void UpdateViewForNewLevel (GameLevel level, GameState state)
 	{
-		LayoutEmaGrid (level.Layout);
+		ClearRemainingEma();
+		LayoutEmaGrid (level.Layout, state);
 		context.UIComponents.LevelText.text = string.Format (context.ConfigurableSettings.MessageLevelPattern, level.LevelDesignation);
 		context.UIComponents.ScoreText.text = string.Format (context.ConfigurableSettings.MessageScorePattern, 0, level.EmaCount);
 		context.UIComponents.BallsText.text = string.Format (context.ConfigurableSettings.MessageBallPattern, level.BallCount, level.BallCount);
+	}
+	
+	/// <summary>
+	/// Updates the view from saved game.
+	/// </summary>
+	/// <param name="state">State.</param>
+	public void UpdateViewFromSavedGame (GameState state)
+	{
+		ClearRemainingEma();
+		LayoutEmaGridFromSavedGame (state);
+		context.UIComponents.LevelText.text = string.Format (context.ConfigurableSettings.MessageLevelPattern, state.Level.LevelDesignation);
+		context.UIComponents.ScoreText.text = string.Format (context.ConfigurableSettings.MessageScorePattern, 0, state.Level.EmaCount);
+		context.UIComponents.BallsText.text = string.Format (context.ConfigurableSettings.MessageBallPattern, state.Level.BallCount, state.Level.BallCount);
 	}
 	
 	/// <summary>
@@ -88,27 +102,54 @@ public class ViewController
 	/// </summary>
 	/// <param name="rows">Rows.</param>
 	/// <param name="columns">Columns.</param>
-	private void LayoutEmaGrid (int rows, int columns)
+	/// <param name="state">State.</param>
+	private void LayoutEmaGrid (int rows, int columns, GameState state)
 	{
-		PerformLayout (rows, columns, null);
+		PerformLayout (rows, columns, null, state);
 	}
 	
 	/// <summary>
 	/// Lays out the ema grid.
 	/// </summary>
 	/// <param name="layout">Layout.</param>
-	private void LayoutEmaGrid (int[,] layout)
+	/// <param name="state">State.</param>
+	private void LayoutEmaGrid (int[,] layout, GameState state)
 	{
 		int rows = layout.GetLength (0);
 		int columns = layout.GetLength (1);
-		PerformLayout (rows, columns, layout);
+		PerformLayout (rows, columns, layout, state);
 	}
 	
 	/// <summary>
-	/// Lays out the ema grid.
+	/// Layouts the ema grid from saved game.
 	/// </summary>
+	/// <param name="savedGame">Saved game.</param>
+	/// <param name="state">State.</param>
+	private void LayoutEmaGridFromSavedGame (GameState state)
+	{
+		GameObjectPool emaGameObjectPool = context.GameController.GameObjectPoolManager.GetPool (context.GameController.Prefabs.EmaPrefab);
+		EmaModel[,] emaGrid = state.EmaGrid;
+		for (int i=0; i < emaGrid.GetLength(0); i++) {
+			for (int j=0; j < emaGrid.GetLength(1); j++) {
+				if (emaGrid [i, j] != null) {
+					GameObject pooledEma = (GameObject)emaGameObjectPool.Take (emaGrid[i,j].Position.ToVector3(), emaGrid[i,j].Rotation.ToQuaternion());
+					string inscription = emaGrid[i, j].Inscription;
+					pooledEma.transform.FindChild ("Inscription").GetComponent<TextMesh> ().text = inscription;
+					pooledEma.SetActive (true);
+					emaGrid[i,j].GameObject = pooledEma;
+				}
+			}
+		}
+	}
+	
+	/// <summary>
+	/// Performs the layout.
+	/// </summary>
+	/// <param name="rows">Rows.</param>
+	/// <param name="columns">Columns.</param>
 	/// <param name="layout">Layout.</param>
-	private void PerformLayout (int rows, int columns, int[,] layout)
+	/// <param name="state">State.</param>
+	private void PerformLayout (int rows, int columns, int[,] layout, GameState state)
 	{
 		GameObjectPool emaGameObjectPool = context.GameController.GameObjectPoolManager.GetPool (context.GameController.Prefabs.EmaPrefab);
 		Vector2 emaGridMaxPosition = context.GameController.ConfigurableSettings.EmaGridMaxPosition;
@@ -134,11 +175,21 @@ public class ViewController
 				
 				if (layout == null || layout [row, column] == 1) {
 					GameObject pooledEma = (GameObject)emaGameObjectPool.Take (new Vector3 (xPosition, yPosition, 0.0f), Quaternion.identity);
-					pooledEma.transform.FindChild ("Inscription").GetComponent<TextMesh> ().text = inscriptionGenerator.GenerateRandomInscription ();
+					string inscription = inscriptionGenerator.GenerateRandomInscription ();
+					pooledEma.transform.FindChild ("Inscription").GetComponent<TextMesh> ().text = inscription;
 					pooledEma.SetActive (true);
+					state.EmaGrid[row, column] = new EmaModel(inscription, EmaType.Normal, pooledEma);
 				}
 			}
 		}
+	}
+	
+	/// <summary>
+	/// Clears the remaining ema.
+	/// </summary>
+	private void ClearRemainingEma()
+	{
+		GameObject.FindGameObjectsWithTag(Constants.GAME_OBJECT_TAG_EMA).ForEach(x => x.SetActive(false));
 	}
 	
 	/// <summary>

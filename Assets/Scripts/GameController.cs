@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using System;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 public class GameController : MonoBehaviour
 {
@@ -18,6 +20,12 @@ public class GameController : MonoBehaviour
 	// JohnLaVine333 - shakahachi (flute)
 	// 
 	// 
+
+	// BUGS: once a level is completed the ball seems to still be in play and collected an ema from the next level some how and then that made the level impossible to finish
+	//
+	//
+	//
+	
 
 	// designer supplied components
 	/// <summary>
@@ -82,6 +90,7 @@ public class GameController : MonoBehaviour
 	private GameLevel[] Levels = null;
 	
 	public event Action<GameLevel> GameLevelChanged;
+	public event Action GameLevelWon;
 	public event Action GameOver;
 	public event Action GameWon;
 	public event Action GameRestarted;
@@ -137,7 +146,23 @@ public class GameController : MonoBehaviour
 	private void SetupForNewLevel ()
 	{
 		State.SetupLevel (Levels [State.LevelIndex]);
-		ViewController.UpdateViewForNewLevel (Levels [State.LevelIndex]);
+		ViewController.UpdateViewForNewLevel (Levels [State.LevelIndex], State);
+		if (GameLevelChanged != null)
+			GameLevelChanged (State.Level);
+	}
+	
+	/// <summary>
+	/// Setups for saved game.
+	/// </summary>
+	/// <param name="savedGame">Saved game.</param>
+	private void SetupFromSavedGame (SavedGameState savedGame)
+	{
+		PlayState playState = State.PlayState;
+		State = savedGame.State;
+		State.PlayState = playState;
+		ViewController.UpdateViewFromSavedGame (State);
+		if (GameLevelChanged != null)
+			GameLevelChanged (State.Level);
 	}
 	
 	/// <summary>
@@ -149,8 +174,6 @@ public class GameController : MonoBehaviour
 			State.LevelIndex++;
 			SetupForNewLevel ();
 			AudioController.PlaySingingBowlClip ();
-			if (GameLevelChanged != null)
-				GameLevelChanged (State.Level);
 		} else {
 			PerformGameWon ();
 		}
@@ -186,7 +209,6 @@ public class GameController : MonoBehaviour
 		GameMessageController = new GameMessageController (UIComponents.MessageSlots, ConfigurableSettings.MessageVisibleTime);
 		InscriptionGenerator = new InscriptionGenerator (ConfigurableSettings.InscriptionKanji);
 		InitialiseGameObjectPools ();
-
 	}
 	
 	/// <summary>
@@ -257,7 +279,10 @@ public class GameController : MonoBehaviour
 	{
 		lock (emaCollectedLock) {
 			State.EmaCollected++;
+			State.RemoveEmaFromState (ema);
 			if (State.EmaCollected == State.Level.EmaCount) {
+				if (GameLevelWon != null)
+					GameLevelWon ();
 				MoveToNextLevel ();
 			}
 		}
@@ -343,7 +368,9 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	public void RestartGame ()
 	{
+		PlayState playState = State.PlayState;
 		State = new GameState ();
+		State.PlayState = playState;
 		MoveToNextLevel ();
 		AddGameMessage (ConfigurableSettings.MessageGameRestarted);
 		if (GameRestarted != null)
@@ -353,10 +380,59 @@ public class GameController : MonoBehaviour
 	/// <summary>
 	/// Quits the game.
 	/// </summary>
-	public void QuiteGame ()
+	public void QuitGame ()
 	{
 		Application.Quit ();
 	}
+	
+	/// <summary>
+	/// Tries to load the saved game.
+	/// </summary>
+	public void TryLoadGame ()
+	{
+		try {
+			string savegameFilename = Path.Combine (Application.persistentDataPath, ConfigurableSettings.SavegameFilename);
+			if (!File.Exists (savegameFilename)) {
+				AddGameMessage (ConfigurableSettings.MessageLoadGameFailedNoFileMessagePattern);
+				return;
+			}
+			SavedGameState saveGame = null;
+			BinaryFormatter formatter = new BinaryFormatter ();
+			using (FileStream fs = File.Open(savegameFilename, FileMode.Open)) {
+				saveGame = (SavedGameState)formatter.Deserialize (fs);
+				fs.Close ();
+			}
+			SetupFromSavedGame (saveGame);
+			AddGameMessage (string.Format (ConfigurableSettings.MessageLoadGamePattern, saveGame.SavedOn.ToLongDateString ()));
+		} catch (Exception ex) {
+			AddGameMessage (string.Format (ConfigurableSettings.MessageLoadGameFailedMessagePattern, ex.Message));
+		}
+	}
+	
+	/// <summary>
+	/// Tries to save the game.
+	/// </summary>
+	public void TrySaveGame ()
+	{
+		try {
+			string savegameFilename = Path.Combine (Application.persistentDataPath, ConfigurableSettings.SavegameFilename);
+			SavedGameState saveGame = new SavedGameState ();
+			saveGame.SavedOn = DateTime.Now;
+			saveGame.State = State;
+			BinaryFormatter formatter = new BinaryFormatter ();
+			using (FileStream fs = File.Open(savegameFilename, FileMode.OpenOrCreate)) {
+				fs.SetLength (0);
+				formatter.Serialize (fs, saveGame);
+				fs.Close ();
+			}
+			AddGameMessage (string.Format (ConfigurableSettings.MessageSaveGamePattern, DateTime.Now.ToLongDateString ()));
+		} catch (Exception ex) {
+			AddGameMessage (string.Format (ConfigurableSettings.MessageSaveGameFailedMessagePattern, ex.Message));
+		}
+	}
+	
+	
+	
 }
 
 
