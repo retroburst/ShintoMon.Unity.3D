@@ -21,11 +21,6 @@ public class GameController : MonoBehaviour
 	// 
 	// 
 
-	// BUGS: once a level is completed the ball seems to still be in play and collected an ema from the next level some how and then that made the level impossible to finish
-	//
-	//
-	//
-	
 
 	// designer supplied components
 	/// <summary>
@@ -100,6 +95,7 @@ public class GameController : MonoBehaviour
 	public object ballLostLock = new object ();
 	public object emaCollectedLock = new object ();
 	private static GameController gameInstance = null;
+	private float savedTimeScale = 0.0f;
 	
 	/// <summary>
 	/// Handles the awake event.
@@ -220,6 +216,7 @@ public class GameController : MonoBehaviour
 		GameObjectPoolManager.AddPool (Prefabs.EmaParticlesPrefab, ConfigurableSettings.GameObjectPoolEmaParticlesSize);
 		GameObjectPoolManager.AddPool (Prefabs.EmaPrefab, ConfigurableSettings.GameObjectPoolEmaSize);
 		GameObjectPoolManager.AddPool (Prefabs.AudioSourcePrefab, ConfigurableSettings.GameObjectPoolAudioSourceSize);
+		GameObjectPoolManager.AddPool (Prefabs.BallParticlesPrefab, ConfigurableSettings.GameObjectPoolBallParticlesSize);
 	}
 	
 	/// <summary>
@@ -275,17 +272,30 @@ public class GameController : MonoBehaviour
 		}
 	}
 	
+	/// <summary>
+	/// Ema collected.
+	/// </summary>
+	/// <param name="ema">Ema.</param>
 	public void EmaCollected (GameObject ema)
 	{
 		lock (emaCollectedLock) {
 			State.EmaCollected++;
 			State.RemoveEmaFromState (ema);
 			if (State.EmaCollected == State.Level.EmaCount) {
-				if (GameLevelWon != null)
-					GameLevelWon ();
-				MoveToNextLevel ();
+				StartCoroutine(PerformLevelWon());
 			}
 		}
+	}
+	
+	private IEnumerator PerformLevelWon()
+	{
+		//savedTimeScale = Time.timeScale;
+		//Time.timeScale = 0.25f;
+		if (GameLevelWon != null)
+			GameLevelWon ();
+		yield return new WaitForSeconds(1);
+		//Time.timeScale = savedTimeScale;
+		MoveToNextLevel ();
 	}
 	
 	/// <summary>
@@ -308,6 +318,7 @@ public class GameController : MonoBehaviour
 		if (State.PlayState != PlayState.Paused) {
 			State.PlayStateBeforePause = State.PlayState;
 			State.PlayState = PlayState.Paused;
+			savedTimeScale = Time.timeScale;
 			Time.timeScale = 0;
 			if (GamePaused != null)
 				GamePaused ();
@@ -321,7 +332,7 @@ public class GameController : MonoBehaviour
 	{
 		if (State.PlayState == PlayState.Paused) {
 			State.PlayState = State.PlayStateBeforePause;
-			Time.timeScale = 1;
+			Time.timeScale = savedTimeScale;
 			if (GameUnpaused != null)
 				GameUnpaused ();
 		}

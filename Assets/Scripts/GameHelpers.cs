@@ -7,6 +7,9 @@ using System.Text;
 /// <summary>
 /// Helper methods for game logic and views.
 /// </summary>
+using System.Collections;
+
+
 public static class GameHelpers
 {
 	private static HashSet<char> vowels = new HashSet<char> ("aeiou"); 
@@ -98,6 +101,5 @@ public static class GameHelpers
 	{
 		return(new Quaternion(target.x, target.y, target.z, target.w));
 	}
-	
 }
 

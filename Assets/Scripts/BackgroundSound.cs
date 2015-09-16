@@ -28,7 +28,7 @@ public class BackgroundSound : MonoBehaviour
 	{
 		SetupBackgroundSound (InsectsSoundClip, 0.40f);
 		SetupBackgroundSound (FrogsSoundClip, 0.25f);
-		SetupBackgroundSound (LakeWaterSoundClip, 1.0f);
+		SetupBackgroundSound (LakeWaterSoundClip, 1.25f);
 		if (PlayOnStart)
 			StartBackgroundSounds ();
 	}
@@ -100,7 +100,7 @@ public class BackgroundSound : MonoBehaviour
 				.Take();
 			AudioSource audioSourceComponent = audioSource.GetComponent<AudioSource> ();
 			audioSourceComponent.clip = SingingBowlClip;
-			audioSourceComponent.volume = 1.0f;
+			audioSourceComponent.volume = 0.25f;
 			audioSourceComponent.loop = false;
 			audioSource.SetActive(true);
 			singingBowlAudioSource = audioSourceComponent;

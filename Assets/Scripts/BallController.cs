@@ -4,6 +4,9 @@ using System.Collections;
 /// <summary>
 /// Ball controller.
 /// </summary>
+using System.Collections.Generic;
+
+
 public class BallController : MonoBehaviour
 {
 	private bool inPlay = false;
@@ -15,15 +18,27 @@ public class BallController : MonoBehaviour
 	/// <summary>
 	/// Awakes this instance.
 	/// </summary>
-	private void Awake ()
+	private void Start ()
 	{
 		gameController = GameController.FindGameController ();
 		gameController.GameLevelChanged += (GameLevel l) => ResetBall ();
-		gameController.GameLevelWon += () => gameObject.SetActive (false);
+		gameController.GameLevelWon += HandleGameLevelWon;
 		rb = GetComponent<Rigidbody> ();
 		originalPosition = gameObject.transform.position.Clone ();
 		originalBallScale = gameObject.transform.localScale.Clone ();
 		gameController.Components.SwipeInput.TapDetected += HandleTap;
+	}
+	
+	/// <summary>
+	/// Handles the game level won event.
+	/// </summary>
+	private void HandleGameLevelWon()
+	{
+		gameObject.SetActive(false);
+		List<GameObject> particles = gameController.GameObjectPoolManager
+			.GetPool (gameController.Prefabs.BallParticlesPrefab)
+			.Take (2, gameObject.transform.position, Quaternion.identity);
+		particles.ForEach(x => x.SetActive(true));
 	}
 	
 	/// <summary>

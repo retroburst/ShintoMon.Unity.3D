@@ -56,6 +56,39 @@ public class GameObjectPool
 	}
 	
 	/// <summary>
+	/// Take the specified count.
+	/// </summary>
+	/// <param name="count">Count.</param>
+	public List<GameObject> Take (int numToTake)
+	{
+		List<GameObject> result = new List<GameObject> ();
+		for (int count=0; count < numToTake; count++) {
+			for (int i=0; i < pool.Count; i++) {
+				if (!pool [i].activeInHierarchy)
+					result.Add (pool [i]);
+			}
+			GameObject newPooledObject = (GameObject)GameObject.Instantiate (targetPreFabrication);
+			newPooledObject.SetActive (false);
+			pool.Add (newPooledObject);
+			result.Add (newPooledObject);
+		}
+		return(result);
+	}
+	
+	/// <summary>
+	/// Take the specified numToTake, position and rotation.
+	/// </summary>
+	/// <param name="numToTake">Number to take.</param>
+	/// <param name="position">Position.</param>
+	/// <param name="rotation">Rotation.</param>
+	public List<GameObject> Take (int numToTake, Vector3 position, Quaternion rotation)
+	{
+		List<GameObject> result = Take (numToTake);
+		result.ForEach(x => { x.transform.position = position; x.transform.rotation = rotation; });
+		return(result);
+	}
+	
+	/// <summary>
 	/// Takes the next available pooled object or creates a new pooled object.
 	/// Assigns the position and rotation to its transform.
 	/// </summary>
@@ -73,11 +106,10 @@ public class GameObjectPool
 	/// Actions the specified function on each element.
 	/// </summary>
 	/// <param name="f">F.</param>
-	public void Action(Action<GameObject> f)
+	public void Action (Action<GameObject> f)
 	{
-		foreach(GameObject gameObject in pool)
-		{
-			f(gameObject);	
+		foreach (GameObject gameObject in pool) {
+			f (gameObject);	
 		}
 	}
 	
