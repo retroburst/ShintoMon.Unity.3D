@@ -91,17 +91,18 @@ public class SoundEffects : MonoBehaviour
 	}
 	
 	/// <summary>
-	/// Plays the splash.
+	/// Plays the ball explosion sound effect.
 	/// </summary>
-	public void PlaySplash()
+	public void PlayBallExplosion()
 	{
-		PlayClipWithCallback(audioClipTypeDictionary[AudioClipType.Splash], 1.0f);
+		PlayClipWithCallback(audioClipTypeDictionary[AudioClipType.BallExplosion], 1.0f);
 	}
 	
+	// Types of audio clips
 	private enum AudioClipType
 	{
 		EmaCollected,
-		Splash
+		BallExplosion
 	}
 }
 

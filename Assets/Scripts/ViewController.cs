@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class ViewController
+public class ViewController : MonoBehaviour
 {	
 	private ViewControllerContext context = null;
 
@@ -16,7 +16,7 @@ public class ViewController
 	/// Initializes a new instance of the <see cref="ViewController"/> class.
 	/// </summary>
 	/// <param name="viewControllerContext">View controller context.</param>
-	public ViewController (ViewControllerContext viewControllerContext)
+	public void Initialise (ViewControllerContext viewControllerContext)
 	{
 		Messages = new List<string> ();
 		context = viewControllerContext;
@@ -42,7 +42,7 @@ public class ViewController
 	public void UpdateViewFromSavedGame (GameState state)
 	{
 		ClearRemainingEma();
-		LayoutEmaGridFromSavedGame (state);
+		StartCoroutine(LayoutEmaGridFromSavedGame (state));
 		context.UIComponents.LevelText.text = string.Format (context.ConfigurableSettings.MessageLevelPattern, state.Level.LevelDesignation);
 		context.UIComponents.ScoreText.text = string.Format (context.ConfigurableSettings.MessageScorePattern, 0, state.Level.EmaCount);
 		context.UIComponents.BallsText.text = string.Format (context.ConfigurableSettings.MessageBallPattern, state.Level.BallCount, state.Level.BallCount);
@@ -105,7 +105,7 @@ public class ViewController
 	/// <param name="state">State.</param>
 	private void LayoutEmaGrid (int rows, int columns, GameState state)
 	{
-		PerformLayout (rows, columns, null, state);
+		StartCoroutine(PerformLayout (rows, columns, null, state));
 	}
 	
 	/// <summary>
@@ -117,7 +117,7 @@ public class ViewController
 	{
 		int rows = layout.GetLength (0);
 		int columns = layout.GetLength (1);
-		PerformLayout (rows, columns, layout, state);
+		StartCoroutine(PerformLayout (rows, columns, layout, state));
 	}
 	
 	/// <summary>
@@ -125,7 +125,7 @@ public class ViewController
 	/// </summary>
 	/// <param name="savedGame">Saved game.</param>
 	/// <param name="state">State.</param>
-	private void LayoutEmaGridFromSavedGame (GameState state)
+	private IEnumerator LayoutEmaGridFromSavedGame (GameState state)
 	{
 		GameObjectPool emaGameObjectPool = context.GameController.GameObjectPoolManager.GetPool (context.GameController.Prefabs.EmaPrefab);
 		EmaModel[,] emaGrid = state.EmaGrid;
@@ -137,6 +137,7 @@ public class ViewController
 					pooledEma.transform.FindChild ("Inscription").GetComponent<TextMesh> ().text = inscription;
 					pooledEma.SetActive (true);
 					emaGrid[i,j].GameObject = pooledEma;
+					yield return new WaitForSeconds(0.01f);
 				}
 			}
 		}
@@ -149,7 +150,7 @@ public class ViewController
 	/// <param name="columns">Columns.</param>
 	/// <param name="layout">Layout.</param>
 	/// <param name="state">State.</param>
-	private void PerformLayout (int rows, int columns, int[,] layout, GameState state)
+	private IEnumerator PerformLayout (int rows, int columns, int[,] layout, GameState state)
 	{
 		GameObjectPool emaGameObjectPool = context.GameController.GameObjectPoolManager.GetPool (context.GameController.Prefabs.EmaPrefab);
 		Vector2 emaGridMaxPosition = context.GameController.ConfigurableSettings.EmaGridMaxPosition;
@@ -179,6 +180,7 @@ public class ViewController
 					pooledEma.transform.FindChild ("Inscription").GetComponent<TextMesh> ().text = inscription;
 					pooledEma.SetActive (true);
 					state.EmaGrid[row, column] = new EmaModel(inscription, EmaType.Normal, pooledEma);
+					yield return new WaitForSeconds(0.01f);
 				}
 			}
 		}

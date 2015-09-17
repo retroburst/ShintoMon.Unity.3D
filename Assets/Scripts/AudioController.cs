@@ -47,12 +47,12 @@ public class AudioController {
 	}
 	
 	/// <summary>
-	/// Plays the splash sound effect.
+	/// Plays the ball explosion sound effect.
 	/// </summary>
-	public void PlaySplashSoundEffect()
+	public void PlayBallExplosionSoundEffect()
 	{
 		if(SoundEffectsMuted) return;
-		soundEffects.PlaySplash();
+		soundEffects.PlayBallExplosion();
 	}
 	
 	/// <summary>

@@ -6,7 +6,7 @@ using System.Linq;
 public class BackgroundSound : MonoBehaviour
 {
 	public AudioClip InsectsSoundClip = null;
-	public AudioClip FrogsSoundClip = null;
+	public AudioClip CricketsSoundClip = null;
 	public AudioClip LakeWaterSoundClip = null;
 	public AudioClip SingingBowlClip = null;
 	public AudioClip FluteClip = null;
@@ -24,10 +24,13 @@ public class BackgroundSound : MonoBehaviour
 		backgroundSoundSources = new List<AudioSource> ();
 	}
 	
+	/// <summary>
+	/// Start this instance.
+	/// </summary>
 	private void Start ()
 	{
 		SetupBackgroundSound (InsectsSoundClip, 0.40f);
-		SetupBackgroundSound (FrogsSoundClip, 0.25f);
+		SetupBackgroundSound (CricketsSoundClip, 0.25f);
 		SetupBackgroundSound (LakeWaterSoundClip, 1.25f);
 		if (PlayOnStart)
 			StartBackgroundSounds ();

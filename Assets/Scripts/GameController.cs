@@ -18,7 +18,7 @@ public class GameController : MonoBehaviour
 	// ryancacophony - singing bowl
 	// percussionfiend - bamboo chime
 	// JohnLaVine333 - shakahachi (flute)
-	// 
+	// jalastram - Freesound.org - FX118
 	// 
 
 
@@ -68,12 +68,6 @@ public class GameController : MonoBehaviour
 	public InscriptionGenerator InscriptionGenerator { get; private set; }
 
 	/// <summary>
-	/// Gets the view controller.
-	/// </summary>
-	/// <value>The view controller.</value>
-	public ViewController ViewController { get; private set; }
-
-	/// <summary>
 	/// Gets the state.
 	/// </summary>
 	/// <value>The state.</value>
@@ -107,7 +101,7 @@ public class GameController : MonoBehaviour
 		// max columns = 15 at the moment
 		Levels = GameLevel.GameLevels;
 		State = new GameState ();
-		ViewController = new ViewController (CreateViewControllerContext ());
+		Components.ViewController.Initialise(CreateViewControllerContext ());
 		Components.SwipeInput.TapDetected += HandleTap;
 	}
 	
@@ -142,7 +136,7 @@ public class GameController : MonoBehaviour
 	private void SetupForNewLevel ()
 	{
 		State.SetupLevel (Levels [State.LevelIndex]);
-		ViewController.UpdateViewForNewLevel (Levels [State.LevelIndex], State);
+		Components.ViewController.UpdateViewForNewLevel (Levels [State.LevelIndex], State);
 		if (GameLevelChanged != null)
 			GameLevelChanged (State.Level);
 	}
@@ -156,7 +150,7 @@ public class GameController : MonoBehaviour
 		PlayState playState = State.PlayState;
 		State = savedGame.State;
 		State.PlayState = playState;
-		ViewController.UpdateViewFromSavedGame (State);
+		Components.ViewController.UpdateViewFromSavedGame (State);
 		if (GameLevelChanged != null)
 			GameLevelChanged (State.Level);
 	}
@@ -225,7 +219,7 @@ public class GameController : MonoBehaviour
 	private void Update ()
 	{		
 		if (State.PlayState == PlayState.Paused 
-			&& (!ViewController.SplashPanelShowing && !ViewController.OptionsPanelShowing)
+		    && (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)
 			&& Input.anyKeyDown) {
 			UnpauseGame ();
 		}
@@ -233,7 +227,7 @@ public class GameController : MonoBehaviour
 
 
 		// update the view
-		ViewController.UpdateView (State);
+		Components.ViewController.UpdateView (State);
 	}
 	
 	/// <summary>
@@ -242,7 +236,7 @@ public class GameController : MonoBehaviour
 	private void HandleTap ()
 	{
 		if (State.PlayState == PlayState.Paused 
-			&& (!ViewController.SplashPanelShowing && !ViewController.OptionsPanelShowing)) {
+		    && (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)) {
 			UnpauseGame ();
 		}
 	}
@@ -254,7 +248,7 @@ public class GameController : MonoBehaviour
 	public void AddGameMessage (string message)
 	{
 		if (!string.IsNullOrEmpty (message))
-			ViewController.Messages.Add (message);
+			Components.ViewController.Messages.Add (message);
 	}
 	
 	public void BallInPlay ()
@@ -344,7 +338,7 @@ public class GameController : MonoBehaviour
 	public void ShowOptionsPanel ()
 	{
 		PauseGame ();
-		ViewController.ShowOptionsPanel ();
+		Components.ViewController.ShowOptionsPanel ();
 	}
 	
 	/// <summary>
@@ -352,7 +346,7 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	public void HideOptionsPanel ()
 	{
-		ViewController.HideOptionsPanel ();
+		Components.ViewController.HideOptionsPanel ();
 		UnpauseGame ();
 	}
 	

@@ -21,7 +21,7 @@ public class BallController : MonoBehaviour
 	private void Start ()
 	{
 		gameController = GameController.FindGameController ();
-		gameController.GameLevelChanged += (GameLevel l) => ResetBall ();
+		gameController.GameLevelChanged += HandleGameLevelChanged;
 		gameController.GameLevelWon += HandleGameLevelWon;
 		rb = GetComponent<Rigidbody> ();
 		originalPosition = gameObject.transform.position.Clone ();
@@ -35,10 +35,20 @@ public class BallController : MonoBehaviour
 	private void HandleGameLevelWon()
 	{
 		gameObject.SetActive(false);
+		gameController.AudioController.PlayBallExplosionSoundEffect ();
 		List<GameObject> particles = gameController.GameObjectPoolManager
 			.GetPool (gameController.Prefabs.BallParticlesPrefab)
 			.Take (2, gameObject.transform.position, Quaternion.identity);
 		particles.ForEach(x => x.SetActive(true));
+	}
+	
+	/// <summary>
+	/// Handles the game level changed event.
+	/// </summary>
+	/// <param name="l">L.</param>
+	private void HandleGameLevelChanged(GameLevel l)
+	{
+		ResetBall ();
 	}
 	
 	/// <summary>
@@ -87,7 +97,7 @@ public class BallController : MonoBehaviour
 			collision.gameObject.SetActive (false);
 			gameController.GameObjectPoolManager
 				.GetPool (gameController.Prefabs.EmaParticlesPrefab)
-			.Take (collision.gameObject.transform.position, Quaternion.identity).SetActive (true);
+				.Take (collision.gameObject.transform.position, Quaternion.identity).SetActive (true);
 		}
 		gameController.AudioController.PlayBounceSoundEffect ();
 	}
@@ -99,15 +109,30 @@ public class BallController : MonoBehaviour
 	private void OnTriggerEnter (Collider other)
 	{
 		if (other.gameObject.tag == Constants.GAME_OBJECT_TAG_WATER_SURFACE) {
-			gameController.AudioController.PlaySplashSoundEffect ();
+			gameController.BallLost();
+			StartCoroutine(PerformBallHitsWater());
 		} else if (other.gameObject.tag == Constants.GAME_OBJECT_TAG_WATER_BOTTOM) {
-			gameController.BallLost ();
-			gameController.GameObjectPoolManager
-			.GetPool (gameController.Prefabs.EmaParticlesPrefab)
-				.Take (gameObject.transform.position, Quaternion.identity).SetActive (true);
-			gameObject.SetActive (false);
-			ResetBall ();
+			// TODO: remove later if still unused
 		}
+	}
+	
+	/// <summary>
+	/// Performs the ball hits water.
+	/// </summary>
+	/// <returns>The ball hits water.</returns>
+	private IEnumerator PerformBallHitsWater()
+	{
+		gameController.AudioController.PlayBallExplosionSoundEffect ();
+		List<GameObject> particles = gameController.GameObjectPoolManager
+				.GetPool (gameController.Prefabs.BallParticlesPrefab)
+				.Take (2, gameObject.transform.position, Quaternion.identity);
+		particles.ForEach(x => x.SetActive(true));
+		// move the ball off the screen, as disabling it here will stop
+		// the coroutine running
+		gameObject.transform.position = new Vector3(0.0f, -1000.00f, 0.0f);
+		yield return new WaitForSeconds(2);
+		ResetBall ();
+		yield return null;
 	}
 	
 	/// <summary>

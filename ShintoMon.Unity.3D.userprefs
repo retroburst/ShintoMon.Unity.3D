@@ -1,39 +1,44 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ViewController.cs">
     <Files>
-      <File FileName="Assets/Scripts/AudioController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/EmaModel.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameState.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameLevel.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Constants.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameController.cs" Line="288" Column="23" />
-      <File FileName="Assets/Scripts/ViewController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameHelpers.cs" Line="103" Column="3" />
-      <File FileName="Assets/Scripts/SwipeInput.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ConfigurableSettings.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ViewController.cs" Line="140" Column="44" />
+      <File FileName="Assets/Scripts/SwipeInput.cs" Line="77" Column="2" />
+      <File FileName="Assets/Scripts/ConfigurableSettings.cs" Line="40" Column="44" />
       <File FileName="Assets/Scripts/SerializableVector3.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/SerializableQuaternion.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BallController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PaddleController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BackgroundSound.cs" Line="16" Column="46" />
+      <File FileName="Assets/Scripts/BallController.cs" Line="127" Column="5" />
+      <File FileName="Assets/Scripts/PaddleController.cs" Line="19" Column="56" />
+      <File FileName="Assets/Scripts/BackgroundSound.cs" Line="28" Column="26" />
+      <File FileName="Assets/Scripts/Prefabs.cs" Line="11" Column="47" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="77" Column="17" />
+      <File FileName="Assets/Scripts/SoundEffects.cs" Line="101" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Scripts" expanded="True" />
+            <Node name="Scripts" expanded="True">
+              <Node name="ViewController.cs" selected="True" />
+            </Node>
           </Node>
-          <Node name="Assembly-UnityScript-firstpass" selected="True" />
+          <Node name="Assembly-CSharp-firstpass" expanded="True">
+            <Node name="Standard Assets" expanded="True">
+              <Node name="Environment" expanded="True">
+                <Node name="Water" expanded="True">
+                  <Node name="Water" expanded="True">
+                    <Node name="Scripts" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/retroburst/Development/ShintoMon.Unity.3D/Assets/Scripts/GameController.cs" line="339" />
-      <Breakpoint file="/Users/retroburst/Development/ShintoMon.Unity.3D/Assets/Scripts/GameController.cs" line="324" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
