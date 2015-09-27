@@ -19,7 +19,7 @@ public class GameController : MonoBehaviour
 	// percussionfiend - bamboo chime
 	// JohnLaVine333 - shakahachi (flute)
 	// jalastram - Freesound.org - FX118
-	// 
+	// http://www.freepik.com/ - splash and icon designed by freepik
 
 
 	// designer supplied components
@@ -209,6 +209,7 @@ public class GameController : MonoBehaviour
 		GameObjectPoolManager = new GameObjectPoolManager (ConfigurableSettings.GameObjectPoolDefaultSize);
 		GameObjectPoolManager.AddPool (Prefabs.EmaParticlesPrefab, ConfigurableSettings.GameObjectPoolEmaParticlesSize);
 		GameObjectPoolManager.AddPool (Prefabs.EmaPrefab, ConfigurableSettings.GameObjectPoolEmaSize);
+		GameObjectPoolManager.AddPool (Prefabs.GoldEmaPrefab, ConfigurableSettings.GameObjectPoolGoldEmaSize);
 		GameObjectPoolManager.AddPool (Prefabs.AudioSourcePrefab, ConfigurableSettings.GameObjectPoolAudioSourceSize);
 		GameObjectPoolManager.AddPool (Prefabs.BallParticlesPrefab, ConfigurableSettings.GameObjectPoolBallParticlesSize);
 	}
@@ -274,6 +275,9 @@ public class GameController : MonoBehaviour
 	{
 		lock (emaCollectedLock) {
 			State.EmaCollected++;
+			// TODO: check if gold ema
+				// get a special action at random
+				// apply it
 			State.RemoveEmaFromState (ema);
 			if (State.EmaCollected == State.Level.EmaCount) {
 				StartCoroutine(PerformLevelWon());

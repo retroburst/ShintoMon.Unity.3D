@@ -7,6 +7,7 @@ using System.Collections;
 public class Prefabs : MonoBehaviour {
 	public GameObject EmaParticlesPrefab = null;
 	public GameObject EmaPrefab = null;
+	public GameObject GoldEmaPrefab = null;
 	public GameObject AudioSourcePrefab = null;
 	public GameObject BallParticlesPrefab = null;
 }

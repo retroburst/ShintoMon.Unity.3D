@@ -36,6 +36,7 @@ public class ConfigurableSettings : MonoBehaviour {
 	public int GameObjectPoolDefaultSize = 10;
 	public int GameObjectPoolEmaParticlesSize = 10;
 	public int GameObjectPoolEmaSize = 75;
+	public int GameObjectPoolGoldEmaSize = 5;
 	public int GameObjectPoolAudioSourceSize = 10;
 	public int GameObjectPoolBallParticlesSize = 2;
 	

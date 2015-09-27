@@ -8,11 +8,15 @@ public class Constants {
 	public const string GAME_OBJECT_TAG_GAME_CONTROLLER = "GameController";
 	public const int EMA_MAX_COLUMNS = 15;
 	public const int EMA_MAX_ROWS = 8;	
+	
+	public const int EMA_TYPE_WOOD = 1;
+	public const int EMA_TYPE_GOLD = 2;
 }
 
 public enum EmaType
 {
-	Normal
+	Wood,
+	Gold
 }
 
 public enum PlayState
