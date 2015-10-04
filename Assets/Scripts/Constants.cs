@@ -9,6 +9,7 @@ public class Constants {
 	public const int EMA_MAX_COLUMNS = 15;
 	public const int EMA_MAX_ROWS = 8;	
 	
+	public const int EMA_TYPE_NONE = 0;
 	public const int EMA_TYPE_WOOD = 1;
 	public const int EMA_TYPE_GOLD = 2;
 }

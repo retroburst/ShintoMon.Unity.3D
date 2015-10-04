@@ -82,7 +82,7 @@ public class GameLevel
 		int result = 0;
 		foreach(int emaInLayout in Layout)
 		{
-			if(emaInLayout == 1) result++;
+			if(emaInLayout != Constants.EMA_TYPE_NONE) result++;
 		}
 		return(result);
 	}

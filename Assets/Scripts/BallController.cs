@@ -93,8 +93,9 @@ public class BallController : MonoBehaviour
 	{
 		rb.angularVelocity = Random.insideUnitSphere * 10000.0f;
 		if (collision.gameObject.tag == Constants.GAME_OBJECT_TAG_EMA) {
-			gameController.EmaCollected (collision.gameObject);
+			Logger.LogFormat("Collision with Ema Hashcode:[{0}].", collision.gameObject.GetHashCode());
 			collision.gameObject.SetActive (false);
+			gameController.EmaCollected (collision.gameObject);
 			gameController.GameObjectPoolManager
 				.GetPool (gameController.Prefabs.EmaParticlesPrefab)
 				.Take (collision.gameObject.transform.position, Quaternion.identity).SetActive (true);

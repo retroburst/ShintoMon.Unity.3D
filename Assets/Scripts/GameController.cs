@@ -274,7 +274,6 @@ public class GameController : MonoBehaviour
 	public void EmaCollected (GameObject ema)
 	{
 		lock (emaCollectedLock) {
-			State.EmaCollected++;
 			// TODO: check if gold ema
 				// get a special action at random
 				// apply it

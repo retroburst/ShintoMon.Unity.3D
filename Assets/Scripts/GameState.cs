@@ -42,7 +42,7 @@ public class GameState
 	/// Gets or sets the ema collected.
 	/// </summary>
 	/// <value>The ema collected.</value>
-	public int EmaCollected { get; set; }
+	public int EmaCollected { get; private set; }
 	
 	/// <summary>
 	/// Gets the ema grid.
@@ -82,6 +82,7 @@ public class GameState
 		int x, y = 0;
 		if (FindEmaInState (emaGameObject, out x, out y)) {
 			EmaGrid [x, y] = null;
+			EmaCollected++;
 		} else {
 			Logger.LogWarning ("Could not find the collected ema in the EmaGrid of the GameState object.");
 		}
