@@ -279,7 +279,7 @@ public class GameController : MonoBehaviour
 				// get a special action at random
 				// apply it
 			State.RemoveEmaFromState (ema);
-			if (State.EmaCollected == State.Level.EmaCount) {
+			if (State.CountRemainingEmaInState() == 0) {
 				StartCoroutine(PerformLevelWon());
 			}
 		}

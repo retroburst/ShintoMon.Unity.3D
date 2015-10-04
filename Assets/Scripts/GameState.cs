@@ -122,7 +122,23 @@ public class GameState
 			}
 		}
 		return(false);		
-	}				
+	}
+	
+	/// <summary>
+	/// Counts the state of the remaining ema in the game state.
+	/// </summary>
+	/// <returns>The remaining ema in state.</returns>
+	public int CountRemainingEmaInState ()
+	{
+		int result = 0;
+		for (int i=0; i < EmaGrid.GetLength(0); i++) {
+			for (int j=0; j < EmaGrid.GetLength(1); j++) {
+				if (EmaGrid [i, j] != null)
+					result++;
+			}
+		}
+		return(result);
+	}			
 }
 
 /// <summary>
