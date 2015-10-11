@@ -88,8 +88,11 @@ public class GameController : MonoBehaviour
 	public event Action GamePaused;
 	public event Action GameUnpaused;
 	
-	public object ballLostLock = new object ();
-	public object emaCollectedLock = new object ();
+	private object ballLostLock = new object ();
+	private object emaCollectedLock = new object ();
+	private object gameRestartLock = new object ();
+	private object gameLoadLock = new object ();
+	private object gameSaveLock = new object ();
 	private static GameController gameInstance = null;
 	private float savedTimeScale = 0.0f;
 	
@@ -243,7 +246,6 @@ public class GameController : MonoBehaviour
 			&& (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)
 			&& Input.GetButtonUp ("Submit")) {
 			RestartGame ();
-			State.PlayState = PlayState.NotStarted;
 		} 
 		// check user input
 		if (Input.GetButtonUp (Constants.INPUT_PAUSE))
@@ -274,6 +276,9 @@ public class GameController : MonoBehaviour
 		if (State.PlayState == PlayState.Paused 
 			&& (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)) {
 			UnpauseGame ();
+		} else if ((State.PlayState == PlayState.GameWon || State.PlayState == PlayState.GameOver)
+			&& (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)) {
+			RestartGame ();
 		}
 	}
 	
@@ -287,11 +292,17 @@ public class GameController : MonoBehaviour
 			Components.ViewController.Messages.Add (message);
 	}
 	
+	/// <summary>
+	/// Ball in play.
+	/// </summary>
 	public void BallInPlay ()
 	{
 		State.PlayState = PlayState.Playing;
 	}
 	
+	/// <summary>
+	/// Ball lost.
+	/// </summary>
 	public void BallLost ()
 	{
 		lock (ballLostLock) {
@@ -389,6 +400,24 @@ public class GameController : MonoBehaviour
 	}
 	
 	/// <summary>
+	/// Shows the splash panel.
+	/// </summary>
+	public void ShowSplashPanel ()
+	{
+		PauseGame ();
+		Components.ViewController.ShowSplashPanel ();
+	}
+	
+	/// <summary>
+	/// Hides the splash panel.
+	/// </summary>
+	public void HideSplashPanel ()
+	{
+		Components.ViewController.HideSplashPanel ();
+		UnpauseGame ();
+	}
+	
+	/// <summary>
 	/// Toggles the sound effects.
 	/// </summary>
 	public void ToggleSoundEffects ()
@@ -411,13 +440,25 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	public void RestartGame ()
 	{
-		PlayState playState = State.PlayState;
-		State = new GameState ();
-		State.PlayState = playState;
-		MoveToNextLevel ();
-		AddGameMessage (ConfigurableSettings.MessageGameRestarted);
-		if (GameRestarted != null)
-			GameRestarted ();
+		lock (gameRestartLock) {
+			//TODO: remove logging here
+			Logger.LogFormat ("Start of restart: {0}", State.PlayState);
+			PlayState playState = State.PlayState;
+			State = new GameState ();
+			MoveToNextLevel ();
+			State.PlayState = playState;
+			Logger.LogFormat ("Before hide panels of restart: {0}", State.PlayState);
+			if (Components.ViewController.OptionsPanelShowing)
+				HideOptionsPanel ();
+			if (Components.ViewController.SplashPanelShowing)
+				HideSplashPanel ();
+			Logger.LogFormat ("Before setting to not started of restart: {0}", State.PlayState);
+			State.PlayState = PlayState.NotStarted;
+			AddGameMessage (ConfigurableSettings.MessageGameRestarted);
+			if (GameRestarted != null)
+				GameRestarted ();
+			Logger.LogFormat ("End of restart: {0}", State.PlayState);
+		}
 	}
 	
 	/// <summary>
@@ -433,22 +474,29 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	public void TryLoadGame ()
 	{
-		try {
-			string savegameFilename = Path.Combine (Application.persistentDataPath, ConfigurableSettings.SavegameFilename);
-			if (!File.Exists (savegameFilename)) {
-				AddGameMessage (ConfigurableSettings.MessageLoadGameFailedNoFileMessagePattern);
-				return;
+		lock (gameLoadLock) {
+			try {
+				string savegameFilename = Path.Combine (Application.persistentDataPath, ConfigurableSettings.SavegameFilename);
+				if (!File.Exists (savegameFilename)) {
+					AddGameMessage (ConfigurableSettings.MessageLoadGameFailedNoFileMessagePattern);
+					return;
+				}
+				SavedGameState saveGame = null;
+				BinaryFormatter formatter = new BinaryFormatter ();
+				using (FileStream fs = File.Open(savegameFilename, FileMode.Open)) {
+					saveGame = (SavedGameState)formatter.Deserialize (fs);
+					fs.Close ();
+				}
+				SetupFromSavedGame (saveGame);
+				if (Components.ViewController.OptionsPanelShowing)
+					HideOptionsPanel ();
+				if (Components.ViewController.SplashPanelShowing)
+					HideSplashPanel ();
+				State.PlayState = PlayState.NotStarted;
+				AddGameMessage (string.Format (ConfigurableSettings.MessageLoadGamePattern, saveGame.SavedOn.ToLongDateString ()));
+			} catch (Exception ex) {
+				AddGameMessage (string.Format (ConfigurableSettings.MessageLoadGameFailedMessagePattern, ex.Message));
 			}
-			SavedGameState saveGame = null;
-			BinaryFormatter formatter = new BinaryFormatter ();
-			using (FileStream fs = File.Open(savegameFilename, FileMode.Open)) {
-				saveGame = (SavedGameState)formatter.Deserialize (fs);
-				fs.Close ();
-			}
-			SetupFromSavedGame (saveGame);
-			AddGameMessage (string.Format (ConfigurableSettings.MessageLoadGamePattern, saveGame.SavedOn.ToLongDateString ()));
-		} catch (Exception ex) {
-			AddGameMessage (string.Format (ConfigurableSettings.MessageLoadGameFailedMessagePattern, ex.Message));
 		}
 	}
 	
@@ -457,20 +505,26 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	public void TrySaveGame ()
 	{
-		try {
-			string savegameFilename = Path.Combine (Application.persistentDataPath, ConfigurableSettings.SavegameFilename);
-			SavedGameState saveGame = new SavedGameState ();
-			saveGame.SavedOn = DateTime.Now;
-			saveGame.State = State;
-			BinaryFormatter formatter = new BinaryFormatter ();
-			using (FileStream fs = File.Open(savegameFilename, FileMode.OpenOrCreate)) {
-				fs.SetLength (0);
-				formatter.Serialize (fs, saveGame);
-				fs.Close ();
+		lock (gameSaveLock) {
+			try {
+				string savegameFilename = Path.Combine (Application.persistentDataPath, ConfigurableSettings.SavegameFilename);
+				SavedGameState saveGame = new SavedGameState ();
+				saveGame.SavedOn = DateTime.Now;
+				saveGame.State = State;
+				BinaryFormatter formatter = new BinaryFormatter ();
+				using (FileStream fs = File.Open(savegameFilename, FileMode.OpenOrCreate)) {
+					fs.SetLength (0);
+					formatter.Serialize (fs, saveGame);
+					fs.Close ();
+				}
+				if (Components.ViewController.OptionsPanelShowing)
+					HideOptionsPanel ();
+				if (Components.ViewController.SplashPanelShowing)
+					HideSplashPanel ();
+				AddGameMessage (string.Format (ConfigurableSettings.MessageSaveGamePattern, DateTime.Now.ToLongDateString ()));
+			} catch (Exception ex) {
+				AddGameMessage (string.Format (ConfigurableSettings.MessageSaveGameFailedMessagePattern, ex.Message));
 			}
-			AddGameMessage (string.Format (ConfigurableSettings.MessageSaveGamePattern, DateTime.Now.ToLongDateString ()));
-		} catch (Exception ex) {
-			AddGameMessage (string.Format (ConfigurableSettings.MessageSaveGameFailedMessagePattern, ex.Message));
 		}
 	}
 	

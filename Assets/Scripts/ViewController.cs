@@ -12,6 +12,8 @@ public class ViewController : MonoBehaviour
 	
 	public bool SplashPanelShowing { get; private set; }
 	
+	private Coroutine layoutCoroutine = null;
+	
 	/// <summary>
 	/// Initializes a new instance of the <see cref="ViewController"/> class.
 	/// </summary>
@@ -41,8 +43,9 @@ public class ViewController : MonoBehaviour
 	/// <param name="state">State.</param>
 	public void UpdateViewFromSavedGame (GameState state)
 	{
+		if (layoutCoroutine != null) { StopCoroutine (layoutCoroutine); }
 		ClearRemainingEma ();
-		StartCoroutine (LayoutEmaGridFromSavedGame (state));
+		layoutCoroutine = StartCoroutine (LayoutEmaGridFromSavedGame (state));
 		context.UIComponents.LevelText.text = string.Format (context.ConfigurableSettings.MessageLevelPattern, state.Level.LevelDesignation);
 		context.UIComponents.ScoreText.text = string.Format (context.ConfigurableSettings.MessageScorePattern, 0, state.Level.EmaCount);
 		context.UIComponents.BallsText.text = string.Format (context.ConfigurableSettings.MessageBallPattern, state.Level.BallCount, state.Level.BallCount);
@@ -105,7 +108,8 @@ public class ViewController : MonoBehaviour
 	/// <param name="state">State.</param>
 	private void LayoutEmaGrid (int rows, int columns, GameState state)
 	{
-		StartCoroutine (PerformLayout (rows, columns, null, state));
+		if (layoutCoroutine != null) { StopCoroutine (layoutCoroutine); }
+		layoutCoroutine = StartCoroutine (PerformLayout (rows, columns, null, state));
 	}
 	
 	/// <summary>
@@ -117,7 +121,8 @@ public class ViewController : MonoBehaviour
 	{
 		int rows = layout.GetLength (0);
 		int columns = layout.GetLength (1);
-		StartCoroutine (PerformLayout (rows, columns, layout, state));
+		if (layoutCoroutine != null) { StopCoroutine (layoutCoroutine); }
+		layoutCoroutine = StartCoroutine (PerformLayout (rows, columns, layout, state));
 	}
 	
 	/// <summary>
@@ -131,7 +136,7 @@ public class ViewController : MonoBehaviour
 		for (int i=0; i < emaGrid.GetLength(0); i++) {
 			for (int j=0; j < emaGrid.GetLength(1); j++) {
 				if (emaGrid [i, j] != null) {
-					GameObject pooledEma = GetPooledEmaByType(emaGrid [i, j].Type, emaGrid [i, j].Position.ToVector3 (), emaGrid [i, j].Rotation.ToQuaternion ());
+					GameObject pooledEma = GetPooledEmaByType (emaGrid [i, j].Type, emaGrid [i, j].Position.ToVector3 (), emaGrid [i, j].Rotation.ToQuaternion ());
 					string inscription = emaGrid [i, j].Inscription;
 					pooledEma.transform.FindChild ("Inscription").GetComponent<TextMesh> ().text = inscription;
 					pooledEma.SetActive (true);
@@ -173,11 +178,11 @@ public class ViewController : MonoBehaviour
 				}
 				
 				if (layout == null || layout [row, column] == Constants.EMA_TYPE_WOOD || layout [row, column] == Constants.EMA_TYPE_GOLD) {
-					GameObject pooledEma = GetPooledEmaByType(layout [row, column], new Vector3 (xPosition, yPosition, 0.0f), Quaternion.identity);
+					GameObject pooledEma = GetPooledEmaByType (layout [row, column], new Vector3 (xPosition, yPosition, 0.0f), Quaternion.identity);
 					string inscription = inscriptionGenerator.GenerateRandomInscription ();
 					pooledEma.transform.FindChild ("Inscription").GetComponent<TextMesh> ().text = inscription;
 					pooledEma.SetActive (true);
-					state.EmaGrid [row, column] = new EmaModel (inscription, ConvertEmaTypeFromInteger(layout [row, column]), pooledEma);
+					state.EmaGrid [row, column] = new EmaModel (inscription, ConvertEmaTypeFromInteger (layout [row, column]), pooledEma);
 					yield return new WaitForSeconds (0.01f);
 				}
 			}
@@ -195,12 +200,12 @@ public class ViewController : MonoBehaviour
 	{
 		if (type == EmaType.Wood) {
 			GameObjectPool emaGameObjectPool = context.GameController.GameObjectPoolManager.GetPool (context.GameController.Prefabs.EmaPrefab);
-			return(emaGameObjectPool.Take(position, rotation));
+			return(emaGameObjectPool.Take (position, rotation));
 		} else if (type == EmaType.Gold) {
 			GameObjectPool goldEmaGameObjectPool = context.GameController.GameObjectPoolManager.GetPool (context.GameController.Prefabs.GoldEmaPrefab);
-			return(goldEmaGameObjectPool.Take(position, rotation));
+			return(goldEmaGameObjectPool.Take (position, rotation));
 		} else {
-			throw new UnityException (string.Format("Unsupported ema type '{0}' passed as argument.", type));
+			throw new UnityException (string.Format ("Unsupported ema type '{0}' passed as argument.", type));
 		}
 	}
 	
@@ -213,7 +218,7 @@ public class ViewController : MonoBehaviour
 	/// <param name="rotation">Rotation.</param>
 	private GameObject GetPooledEmaByType (int type, Vector3 position, Quaternion rotation)
 	{
-		return (GetPooledEmaByType (ConvertEmaTypeFromInteger(type), position, rotation));
+		return (GetPooledEmaByType (ConvertEmaTypeFromInteger (type), position, rotation));
 	}
 	
 	/// <summary>
@@ -221,14 +226,14 @@ public class ViewController : MonoBehaviour
 	/// </summary>
 	/// <returns>The ema type from integer.</returns>
 	/// <param name="type">Type.</param>
-	private EmaType ConvertEmaTypeFromInteger(int type)
+	private EmaType ConvertEmaTypeFromInteger (int type)
 	{
 		if (type == Constants.EMA_TYPE_WOOD)
 			return (EmaType.Wood);
 		else if (type == Constants.EMA_TYPE_GOLD)
 			return (EmaType.Gold);
 		else {
-			throw new UnityException (string.Format("Unsupported ema type '{0}' passed as argument.", type));
+			throw new UnityException (string.Format ("Unsupported ema type '{0}' passed as argument.", type));
 		}
 	}
 	
@@ -237,7 +242,9 @@ public class ViewController : MonoBehaviour
 	/// </summary>
 	private void ClearRemainingEma ()
 	{
-		GameObject.FindGameObjectsWithTag (Constants.GAME_OBJECT_TAG_EMA).ForEach(x => x.SetActive (false));
+		GameObject[] ema = GameObject.FindGameObjectsWithTag (Constants.GAME_OBJECT_TAG_EMA);
+		Logger.LogFormat ("Removing {0} remaining ema from previous game state.", ema.Length);
+		ema.ForEachAction (x => x.SetActive (false));
 	}
 	
 	/// <summary>

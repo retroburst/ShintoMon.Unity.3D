@@ -1,23 +1,23 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ViewController.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameController.cs" Line="25" Column="86" />
-      <File FileName="Assets/Scripts/GameLevel.cs" Line="82" Column="18" />
-      <File FileName="Assets/Scripts/ViewController.cs" Line="240" Column="76" />
-      <File FileName="Assets/Scripts/GameState.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BallController.cs" Line="70" Column="50" />
-      <File FileName="Assets/Scripts/FireworksController.cs" Line="23" Column="1" />
-      <File FileName="Assets/Scripts/GameHelpers.cs" Line="116" Column="1" />
-      <File FileName="Assets/Scripts/Components.cs" Line="11" Column="46" />
-      <File FileName="Assets/Scripts/PaddleController.cs" Line="49" Column="113" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="144" Column="37" />
+      <File FileName="Assets/Scripts/GameLevel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ViewController.cs" Line="52" Column="3" />
+      <File FileName="Assets/Scripts/BallController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/FireworksController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameHelpers.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Components.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PaddleController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ConfigurableSettings.cs" Line="17" Column="52" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Scripts" expanded="True">
-              <Node name="GameController.cs" selected="True" />
+              <Node name="ViewController.cs" selected="True" />
             </Node>
           </Node>
         </State>

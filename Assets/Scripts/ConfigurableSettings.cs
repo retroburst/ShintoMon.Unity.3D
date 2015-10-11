@@ -8,15 +8,15 @@ public class ConfigurableSettings : MonoBehaviour {
 	public string MessageBallPattern = "Orbs//{0}:{1}";
 	
 	public string MessagePausedText = "PAUSED";
-	public string MessagePausedSubtext = "Press submit to continue...";
+	public string MessagePausedSubtext = "Press enter to continue...";
 	
 	public string MessageGameOverText = "GAME OVER!";
-	public string MessageGameOverSubtext = "Press submit to restart.";
+	public string MessageGameOverSubtext = "Press enter to restart.";
 	
 	public string MessageGameWonText = "GAME WON! CONGRATS!";
-	public string MessageGameWonSubtext = "Press submit to restart.";
+	public string MessageGameWonSubtext = "Press enter to restart.";
 	
-	public string MessageGameRestarted = "Restared";
+	public string MessageGameRestarted = "Restarted";
 	
 	public string MessageSaveGamePattern = "Saved {0}";
 	public string MessageLoadGamePattern = "Loaded from {0}";
