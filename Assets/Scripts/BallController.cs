@@ -67,7 +67,7 @@ public class BallController : MonoBehaviour
 	private void Update ()
 	{
 		if ((gameController.State.PlayState == PlayState.NotStarted || gameController.State.PlayState == PlayState.Playing) 
-			&& Input.GetButtonDown ("Fire1") && !inPlay) {
+			&& Input.GetButtonDown (Constants.INPUT_FIRE_1) && !inPlay) {
 			LaunchBall ();
 		}
 	}

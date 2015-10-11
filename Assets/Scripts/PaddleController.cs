@@ -46,6 +46,7 @@ public class PaddleController : MonoBehaviour
 	/// <param name="x">The x coordinate.</param>
 	private void MovePaddle (float x)
 	{
+		if(gameController.State.PlayState == PlayState.GameOver || gameController.State.PlayState == PlayState.GameWon) return;
 		Vector3 playerPosition = transform.position;
 		float xPosition = transform.position.x + x * paddleSpeed;
 		playerPosition = new Vector3 (Mathf.Clamp (xPosition, minClampX, maxClampX), playerPosition.y, playerPosition.z);

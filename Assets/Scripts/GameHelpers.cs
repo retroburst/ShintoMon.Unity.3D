@@ -101,5 +101,20 @@ public static class GameHelpers
 	{
 		return(new Quaternion(target.x, target.y, target.z, target.w));
 	}
+	
+	/// <summary>
+	/// Applies an action to each element.
+	/// Uses a standard for loop for speed.
+	/// </summary>
+	/// <param name="target">Target.</param>
+	/// <param name="action">Action.</param>
+	/// <typeparam name="T">The 1st type parameter.</typeparam>
+	public static void ForEachAction<T>(this IEnumerable<T> target, Action<T> action)
+	{
+		for(int i=0; i < target.Count(); i++)
+		{
+			action(target.ElementAt(i));
+		}
+	}
 }
 

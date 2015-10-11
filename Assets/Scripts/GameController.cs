@@ -21,6 +21,8 @@ public class GameController : MonoBehaviour
 	// jalastram - Freesound.org - FX118
 	// http://www.freepik.com/ - splash and icon designed by freepik
 
+	//BUGS
+	// Loading while in game won state from the options menu causes issues at the moment
 
 	// designer supplied components
 	/// <summary>
@@ -101,7 +103,7 @@ public class GameController : MonoBehaviour
 		// max columns = 15 at the moment
 		Levels = GameLevel.GameLevels;
 		State = new GameState ();
-		Components.ViewController.Initialise(CreateViewControllerContext ());
+		Components.ViewController.Initialise (CreateViewControllerContext ());
 		Components.SwipeInput.TapDetected += HandleTap;
 	}
 	
@@ -177,6 +179,20 @@ public class GameController : MonoBehaviour
 		State.PlayState = PlayState.GameWon;
 		if (GameWon != null)
 			GameWon ();
+		StartCoroutine (AnimateGameWon ());
+	}
+	
+	/// <summary>
+	/// Animates the game won.
+	/// </summary>
+	/// <returns>The game won.</returns>
+	private IEnumerator AnimateGameWon ()
+	{
+		Components.Fireworks.StartFireworks ();
+		while (State.PlayState == PlayState.GameWon) {
+			yield return new WaitForSeconds (1);
+		}
+		Components.Fireworks.StopFireworks ();
 	}
 	
 	/// <summary>
@@ -220,13 +236,32 @@ public class GameController : MonoBehaviour
 	private void Update ()
 	{		
 		if (State.PlayState == PlayState.Paused 
-		    && (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)
-			&& Input.anyKeyDown) {
+			&& (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)
+			&& Input.GetButtonUp ("Submit")) {
 			UnpauseGame ();
-		}
+		} else if ((State.PlayState == PlayState.GameWon || State.PlayState == PlayState.GameOver)
+			&& (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)
+			&& Input.GetButtonUp ("Submit")) {
+			RestartGame ();
+			State.PlayState = PlayState.NotStarted;
+		} 
+		// check user input
+		if (Input.GetButtonUp (Constants.INPUT_PAUSE))
+			PauseGame ();
+		if (Input.GetButtonUp (Constants.INPUT_RESTART))
+			RestartGame ();
+		if (Input.GetButtonUp (Constants.INPUT_LOAD))
+			TryLoadGame ();
+		if (Input.GetButtonUp (Constants.INPUT_SAVE))
+			TrySaveGame ();
+		if (Input.GetButtonUp (Constants.INPUT_TOGGLE_BACKGROUND_SOUNDS))
+			ToggleBackgroundSound ();
+		if (Input.GetButtonUp (Constants.INPUT_TOGGLE_SOUND_EFFECTS))
+			ToggleSoundEffects ();
+		// force a game win for debugging
+		if (Input.GetKey (KeyCode.LeftControl) && Input.GetKey (KeyCode.LeftShift) && Input.GetKey (KeyCode.W))
+			PerformGameWon ();
 		
-
-
 		// update the view
 		Components.ViewController.UpdateView (State);
 	}
@@ -237,7 +272,7 @@ public class GameController : MonoBehaviour
 	private void HandleTap ()
 	{
 		if (State.PlayState == PlayState.Paused 
-		    && (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)) {
+			&& (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)) {
 			UnpauseGame ();
 		}
 	}
@@ -275,22 +310,22 @@ public class GameController : MonoBehaviour
 	{
 		lock (emaCollectedLock) {
 			// TODO: check if gold ema
-				// get a special action at random
-				// apply it
+			// get a special action at random
+			// apply it
 			State.RemoveEmaFromState (ema);
-			if (State.CountRemainingEmaInState() == 0) {
-				StartCoroutine(PerformLevelWon());
+			if (State.CountRemainingEmaInState () == 0) {
+				StartCoroutine (PerformLevelWon ());
 			}
 		}
 	}
 	
-	private IEnumerator PerformLevelWon()
+	private IEnumerator PerformLevelWon ()
 	{
 		//savedTimeScale = Time.timeScale;
 		//Time.timeScale = 0.25f;
 		if (GameLevelWon != null)
 			GameLevelWon ();
-		yield return new WaitForSeconds(1);
+		yield return new WaitForSeconds (1);
 		//Time.timeScale = savedTimeScale;
 		MoveToNextLevel ();
 	}

@@ -12,6 +12,15 @@ public class Constants {
 	public const int EMA_TYPE_NONE = 0;
 	public const int EMA_TYPE_WOOD = 1;
 	public const int EMA_TYPE_GOLD = 2;
+	
+	public const string INPUT_FIRE_1 = "Fire1";
+	public const string INPUT_PAUSE = "Pause";
+	public const string INPUT_RESTART = "Restart";
+	public const string INPUT_LOAD = "Load";
+	public const string INPUT_SAVE = "Save";
+	public const string INPUT_TOGGLE_BACKGROUND_SOUNDS = "ToggleBackgroundSounds";
+	public const string INPUT_TOGGLE_SOUND_EFFECTS = "ToggleSoundEffects";
+	public const string INPUT_SUBMIT = "Submit";
 }
 
 public enum EmaType

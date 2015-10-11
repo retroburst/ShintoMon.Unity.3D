@@ -237,7 +237,7 @@ public class ViewController : MonoBehaviour
 	/// </summary>
 	private void ClearRemainingEma ()
 	{
-		GameObject.FindGameObjectsWithTag (Constants.GAME_OBJECT_TAG_EMA).ForEach (x => x.SetActive (false));
+		GameObject.FindGameObjectsWithTag (Constants.GAME_OBJECT_TAG_EMA).ForEach(x => x.SetActive (false));
 	}
 	
 	/// <summary>
