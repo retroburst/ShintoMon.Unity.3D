@@ -2,17 +2,37 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+/// <summary>
+/// View controller is responsible
+/// for drawing the game state.
+/// </summary>
 public class ViewController : MonoBehaviour
 {	
+	/// <summary>
+	/// The context.
+	/// </summary>
 	private ViewControllerContext context = null;
-
+	
+	/// <summary>
+	/// Gets the messages.
+	/// </summary>
+	/// <value>The messages.</value>
 	public List<string> Messages { get; private set; }
-
+	
+	/// <summary>
+	/// Gets a value indicating whether this <see cref="ViewController"/> options panel showing.
+	/// </summary>
+	/// <value><c>true</c> if options panel showing; otherwise, <c>false</c>.</value>
 	public bool OptionsPanelShowing { get; private set; }
 	
+	/// <summary>
+	/// Gets a value indicating whether this <see cref="ViewController"/> splash panel showing.
+	/// </summary>
+	/// <value><c>true</c> if splash panel showing; otherwise, <c>false</c>.</value>
 	public bool SplashPanelShowing { get; private set; }
 	
 	private Coroutine layoutCoroutine = null;
+	private bool splashNeverShown = true;
 	
 	/// <summary>
 	/// Initializes a new instance of the <see cref="ViewController"/> class.
@@ -22,6 +42,7 @@ public class ViewController : MonoBehaviour
 	{
 		Messages = new List<string> ();
 		context = viewControllerContext;
+		context.UIComponents.GameStatePanel.SetActive(false);
 	}
 
 	/// <summary>
@@ -78,13 +99,25 @@ public class ViewController : MonoBehaviour
 	/// <param name="state">State.</param>
 	private void ProcessGameState (GameState state)
 	{
-		if (state.PlayState == PlayState.Paused || state.PlayState == PlayState.GameOver || state.PlayState == PlayState.GameWon) {
+		if (state.PlayState != PlayState.Playing) {
+			if (state.PlayState == PlayState.NotStarted) {
+				// don't display the splash on web gl - the icon doesn't render well
+				if(!GameHelpers.IsRunningOnWebGL() && splashNeverShown)
+				{
+					splashNeverShown = false;
+					ShowSplashPanel(state);
+				}
+			}
 			string stateText = string.Empty;
 			string stateSubtext = string.Empty;
 			GetGameStateText (state, out stateText, out stateSubtext);
 			context.UIComponents.GameStateText.text = stateText;
 			context.UIComponents.GameStateSubtext.text = stateSubtext;
-			context.UIComponents.GameStatePanel.SetActive (true);
+			// don't show the state panel if the splash or the options menu are showing
+			if(!SplashPanelShowing && !OptionsPanelShowing)
+			{
+				context.UIComponents.GameStatePanel.SetActive (true);
+			}
 		} else {
 			if (context.UIComponents.GameStatePanel.activeInHierarchy)
 				context.UIComponents.GameStatePanel.SetActive (false);
@@ -177,7 +210,7 @@ public class ViewController : MonoBehaviour
 					continue;
 				}
 				
-				if (layout == null || layout [row, column] == Constants.EMA_TYPE_WOOD || layout [row, column] == Constants.EMA_TYPE_GOLD) {
+				if (layout == null || layout [row, column] == Constants.EMA_LAYOUT_WOOD_EMA || layout [row, column] == Constants.EMA_LAYOUT_GOLD_EMA) {
 					GameObject pooledEma = GetPooledEmaByType (layout [row, column], new Vector3 (xPosition, yPosition, 0.0f), Quaternion.identity);
 					string inscription = inscriptionGenerator.GenerateRandomInscription ();
 					pooledEma.transform.FindChild ("Inscription").GetComponent<TextMesh> ().text = inscription;
@@ -228,9 +261,9 @@ public class ViewController : MonoBehaviour
 	/// <param name="type">Type.</param>
 	private EmaType ConvertEmaTypeFromInteger (int type)
 	{
-		if (type == Constants.EMA_TYPE_WOOD)
+		if (type == Constants.EMA_LAYOUT_WOOD_EMA)
 			return (EmaType.Wood);
-		else if (type == Constants.EMA_TYPE_GOLD)
+		else if (type == Constants.EMA_LAYOUT_GOLD_EMA)
 			return (EmaType.Gold);
 		else {
 			throw new UnityException (string.Format ("Unsupported ema type '{0}' passed as argument.", type));
@@ -269,6 +302,10 @@ public class ViewController : MonoBehaviour
 			stateText = context.ConfigurableSettings.MessagePausedText;
 			stateSubText = context.ConfigurableSettings.MessagePausedSubtext;
 			break;
+		case PlayState.NotStarted:
+			stateText = context.ConfigurableSettings.MessageNotStartedText;
+			stateSubText = context.ConfigurableSettings.MessageNotStartedSubtext;
+			break;
 		}
 	}
 	
@@ -297,12 +334,18 @@ public class ViewController : MonoBehaviour
 	/// <summary>
 	/// Shows the splash panel.
 	/// </summary>
-	public void ShowSplashPanel ()
+	public void ShowSplashPanel (GameState state)
 	{
+		if(state.PlayState == PlayState.NotStarted) {
+			context.UIComponents.SplashPanelPlayButtonText.text = "Play";
+		}
+		else{
+			context.UIComponents.SplashPanelPlayButtonText.text = "Resume";
+		}
 		SplashPanelShowing = true;
 		context.UIComponents.SplashPanel.SetActive (true);
-		if (!context.UIComponents.GameStatePanel.activeInHierarchy)
-			context.UIComponents.GameStatePanel.SetActive (true);
+		context.UIComponents.PauseButton.interactable = false;
+		context.UIComponents.OptionsButton.interactable = false;
 	}
 	
 	/// <summary>
@@ -310,10 +353,10 @@ public class ViewController : MonoBehaviour
 	/// </summary>
 	public void HideSplashPanel ()
 	{
-		SplashPanelShowing = false;
+		context.UIComponents.PauseButton.interactable = true;
+		context.UIComponents.OptionsButton.interactable = true;
 		context.UIComponents.SplashPanel.SetActive (false);
-		if (context.UIComponents.GameStatePanel.activeInHierarchy)
-			context.UIComponents.GameStatePanel.SetActive (false);
+		SplashPanelShowing = false;
 	}
 
 }

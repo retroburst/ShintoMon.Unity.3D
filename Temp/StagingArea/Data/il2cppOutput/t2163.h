@@ -1,0 +1,80 @@
+﻿#pragma once
+#include <stdint.h>
+#include "t9.h"
+#include "t2143.h"
+#include "t2144.h"
+#include "t2145.h"
+#include "t2147.h"
+#include "t2148.h"
+#include "t2149.h"
+#include "t2150.h"
+#include "t2151.h"
+#include "t2152.h"
+#include "t2153.h"
+#include "t2154.h"
+#include "t2155.h"
+#include "t2156.h"
+#include "t2157.h"
+#include "t2158.h"
+#include "t2146.h"
+#include "t2159.h"
+#include "t2160.h"
+#include "t2161.h"
+#include "t2162.h"
+struct  t2163  : public t9
+{
+};
+struct t2163_SFs{
+	t2143  f0;
+	t2144  f1;
+	t2144  f2;
+	t2144  f3;
+	t2144  f4;
+	t2145  f5;
+	t2145  f6;
+	t2147  f7;
+	t2148  f8;
+	t2149  f9;
+	t2150  f10;
+	t2151  f11;
+	t2151  f12;
+	t2151  f13;
+	t2151  f14;
+	t2152  f15;
+	t2152  f16;
+	t2152  f17;
+	t2145  f18;
+	t2153  f19;
+	t2154  f20;
+	t2148  f21;
+	t2151  f22;
+	t2155  f23;
+	t2149  f24;
+	t2156  f25;
+	t2157  f26;
+	t2143  f27;
+	t2145  f28;
+	t2150  f29;
+	t2157  f30;
+	t2157  f31;
+	t2158  f32;
+	t2158  f33;
+	t2146  f34;
+	t2158  f35;
+	t2158  f36;
+	t2159  f37;
+	t2159  f38;
+	t2159  f39;
+	t2159  f40;
+	t2159  f41;
+	t2159  f42;
+	t2159  f43;
+	t2159  f44;
+	t2158  f45;
+	t2160  f46;
+	t2152  f47;
+	t2161  f48;
+	t2158  f49;
+	t2162  f50;
+	t2162  f51;
+};

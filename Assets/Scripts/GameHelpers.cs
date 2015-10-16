@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,9 +8,6 @@ using System.Text;
 /// <summary>
 /// Helper methods for game logic and views.
 /// </summary>
-using System.Collections;
-
-
 public static class GameHelpers
 {
 	private static HashSet<char> vowels = new HashSet<char> ("aeiou"); 
@@ -88,18 +86,18 @@ public static class GameHelpers
 	/// <param name="x">The x coordinate.</param>
 	/// <param name="y">The y coordinate.</param>
 	/// <param name="z">The z coordinate.</param>
-	public static Vector3 Modify(this Vector3 target, Nullable<float> x = null, Nullable<float> y = null, Nullable<float> z = null) 
+	public static Vector3 Modify (this Vector3 target, Nullable<float> x = null, Nullable<float> y = null, Nullable<float> z = null)
 	{
-		return(new Vector3(x.HasValue ? x.Value : target.x, y.HasValue ? y.Value : target.y, z.HasValue ? z.Value : target.z));
+		return(new Vector3 (x.HasValue ? x.Value : target.x, y.HasValue ? y.Value : target.y, z.HasValue ? z.Value : target.z));
 	}
 	
 	/// <summary>
 	/// Clone the specified target.
 	/// </summary>
 	/// <param name="target">Target.</param>
-	public static Quaternion Clone(this Quaternion target)
+	public static Quaternion Clone (this Quaternion target)
 	{
-		return(new Quaternion(target.x, target.y, target.z, target.w));
+		return(new Quaternion (target.x, target.y, target.z, target.w));
 	}
 	
 	/// <summary>
@@ -109,12 +107,39 @@ public static class GameHelpers
 	/// <param name="target">Target.</param>
 	/// <param name="action">Action.</param>
 	/// <typeparam name="T">The 1st type parameter.</typeparam>
-	public static void ForEachAction<T>(this IEnumerable<T> target, Action<T> action)
+	public static void ForEachAction<T> (this IEnumerable<T> target, Action<T> action)
 	{
-		for(int i=0; i < target.Count(); i++)
-		{
-			action(target.ElementAt(i));
+		for (int i=0; i < target.Count(); i++) {
+			action (target.ElementAt (i));
 		}
 	}
+	
+	/// <summary>
+	/// Determines whether this instance is running on android.
+	/// </summary>
+	/// <returns><c>true</c> if this instance is running on android; otherwise, <c>false</c>.</returns>
+	public static bool IsRunningOnAndroid ()
+	{
+		return(Application.platform == RuntimePlatform.Android);
+	}
+	
+	/// <summary>
+	/// Determines whether this instance is running on web GL.
+	/// </summary>
+	/// <returns><c>true</c> if this instance is running on web G; otherwise, <c>false</c>.</returns>
+	public static bool IsRunningOnWebGL ()
+	{
+		return(Application.platform == RuntimePlatform.WebGLPlayer);
+	}
+	
+	/// <summary>
+	/// Determines whether this instance is running on IOS.
+	/// </summary>
+	/// <returns><c>true</c> if this instance is running on IO; otherwise, <c>false</c>.</returns>
+	public static bool IsRunningOnIOS ()
+	{
+		return(Application.platform == RuntimePlatform.IPhonePlayer);
+	}
+	
 }
 

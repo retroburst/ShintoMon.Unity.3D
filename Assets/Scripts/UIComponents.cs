@@ -17,6 +17,7 @@ public class UIComponents : MonoBehaviour {
 	
 	public GameObject OptionsPanel = null;
 	public GameObject SplashPanel = null;
+	public UnityEngine.UI.Text SplashPanelPlayButtonText = null;
 	
 	public UnityEngine.UI.Button OptionsButton = null;
 	public UnityEngine.UI.Button PauseButton = null;

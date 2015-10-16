@@ -1,12 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 /// <summary>
 /// Ball controller.
 /// </summary>
-using System.Collections.Generic;
-
-
 public class BallController : MonoBehaviour
 {
 	private bool inPlay = false;
@@ -82,7 +80,7 @@ public class BallController : MonoBehaviour
 		rb.isKinematic = false;
 		rb.AddForce (new Vector3 (Random.Range (-initialVelocity, initialVelocity), initialVelocity, 0f));
 		gameController.BallInPlay ();
-		rb.angularVelocity = Random.insideUnitSphere * 10000.0f;
+		rb.angularVelocity = Random.insideUnitSphere * gameController.ConfigurableSettings.BallAngularVelocity;
 	}
 	
 	/// <summary>
@@ -91,9 +89,8 @@ public class BallController : MonoBehaviour
 	/// <param name="collision">Collision.</param>
 	private void OnCollisionEnter (Collision collision)
 	{
-		rb.angularVelocity = Random.insideUnitSphere * 10000.0f;
+		rb.angularVelocity = Random.insideUnitSphere * gameController.ConfigurableSettings.BallAngularVelocity;
 		if (collision.gameObject.tag == Constants.GAME_OBJECT_TAG_EMA) {
-			Logger.LogFormat("Collision with Ema Hashcode:[{0}].", collision.gameObject.GetHashCode());
 			collision.gameObject.SetActive (false);
 			gameController.EmaCollected (collision.gameObject);
 			gameController.GameObjectPoolManager
@@ -112,8 +109,6 @@ public class BallController : MonoBehaviour
 		if (other.gameObject.tag == Constants.GAME_OBJECT_TAG_WATER_SURFACE) {
 			gameController.BallLost();
 			StartCoroutine(PerformBallHitsWater());
-		} else if (other.gameObject.tag == Constants.GAME_OBJECT_TAG_WATER_BOTTOM) {
-			// TODO: remove later if still unused
 		}
 	}
 	

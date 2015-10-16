@@ -10,6 +10,9 @@ public class ConfigurableSettings : MonoBehaviour {
 	public string MessagePausedText = "PAUSED";
 	public string MessagePausedSubtext = "Press enter to continue...";
 	
+	public string MessageNotStartedText = "READY?";
+	public string MessageNotStartedSubtext = "Press enter to play...";
+	
 	public string MessageGameOverText = "GAME OVER!";
 	public string MessageGameOverSubtext = "Press enter to restart.";
 	
@@ -50,5 +53,6 @@ public class ConfigurableSettings : MonoBehaviour {
 	public float PaddleClampXMin = -9.0f;
 	public float PaddleClampXMax = 9.0f;
 
+	public float BallAngularVelocity = 10000.0f;
 	
 }

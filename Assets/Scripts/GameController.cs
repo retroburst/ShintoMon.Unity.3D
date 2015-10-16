@@ -183,6 +183,7 @@ public class GameController : MonoBehaviour
 		if (GameWon != null)
 			GameWon ();
 		StartCoroutine (AnimateGameWon ());
+		AudioController.PlayFluteClip ();
 	}
 	
 	/// <summary>
@@ -246,8 +247,12 @@ public class GameController : MonoBehaviour
 			&& (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)
 			&& Input.GetButtonUp ("Submit")) {
 			RestartGame ();
-		} 
+		} else if (State.PlayState == PlayState.NotStarted && Input.GetButtonUp("Submit")) {
+			State.PlayState = PlayState.Playing;
+		}
 		// check user input
+		if(Input.GetKeyUp(KeyCode.Escape))
+			if(!Components.ViewController.SplashPanelShowing) ShowSplashPanel();
 		if (Input.GetButtonUp (Constants.INPUT_PAUSE))
 			PauseGame ();
 		if (Input.GetButtonUp (Constants.INPUT_RESTART))
@@ -261,8 +266,11 @@ public class GameController : MonoBehaviour
 		if (Input.GetButtonUp (Constants.INPUT_TOGGLE_SOUND_EFFECTS))
 			ToggleSoundEffects ();
 		// force a game win for debugging
-		if (Input.GetKey (KeyCode.LeftControl) && Input.GetKey (KeyCode.LeftShift) && Input.GetKey (KeyCode.W))
+		if (Input.GetKey (KeyCode.LeftControl) && Input.GetKey (KeyCode.LeftShift) && Input.GetKeyUp (KeyCode.W))
 			PerformGameWon ();
+		// force move to next level for debugging
+		if (Input.GetKey (KeyCode.LeftControl) && Input.GetKey (KeyCode.LeftShift) && Input.GetKeyUp (KeyCode.E))
+			MoveToNextLevel ();
 		
 		// update the view
 		Components.ViewController.UpdateView (State);
@@ -405,7 +413,7 @@ public class GameController : MonoBehaviour
 	public void ShowSplashPanel ()
 	{
 		PauseGame ();
-		Components.ViewController.ShowSplashPanel ();
+		Components.ViewController.ShowSplashPanel (State);
 	}
 	
 	/// <summary>
@@ -413,8 +421,18 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	public void HideSplashPanel ()
 	{
-		Components.ViewController.HideSplashPanel ();
 		UnpauseGame ();
+		Components.ViewController.HideSplashPanel ();
+	}
+	
+	/// <summary>
+	/// Starts the game from splash.
+	/// </summary>
+	public void StartGameFromSplash()
+	{
+		UnpauseGame ();
+		State.PlayState = PlayState.Playing;
+		HideSplashPanel();
 	}
 	
 	/// <summary>
