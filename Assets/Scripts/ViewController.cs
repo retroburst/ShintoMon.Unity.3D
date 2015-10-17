@@ -276,7 +276,7 @@ public class ViewController : MonoBehaviour
 	private void ClearRemainingEma ()
 	{
 		GameObject[] ema = GameObject.FindGameObjectsWithTag (Constants.GAME_OBJECT_TAG_EMA);
-		Logger.LogFormat ("Removing {0} remaining ema from previous game state.", ema.Length);
+		//Logger.LogFormat ("Removing {0} remaining ema from previous game state.", ema.Length);
 		ema.ForEachAction (x => x.SetActive (false));
 	}
 	

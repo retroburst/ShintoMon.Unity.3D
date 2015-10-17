@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlatformStrategyManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameController.cs" Line="258" Column="85" />
+      <File FileName="Assets/Scripts/PlatformStrategy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="15" Column="1" />
       <File FileName="Assets/Scripts/GameLevel.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ViewController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/BallController.cs" Line="1" Column="1" />
@@ -14,14 +15,15 @@
       <File FileName="Assets/Scripts/BackgroundSound.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Logger.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Constants.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlatformStrategyManager.cs" Line="27" Column="2" />
+      <File FileName="Assets/Scripts/PlatformStrategyManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ViewControllerContext.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
             <Node name="Scripts" expanded="True">
-              <Node name="PlatformStrategyManager.cs" selected="True" />
+              <Node name="GameController.cs" selected="True" />
             </Node>
           </Node>
         </State>

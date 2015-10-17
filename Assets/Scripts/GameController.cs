@@ -20,6 +20,8 @@ public class GameController : MonoBehaviour
 	// JohnLaVine333 - shakahachi (flute)
 	// jalastram - Freesound.org - FX118
 	// http://www.freepik.com/ - splash and icon designed by freepik
+	// font yuzu pop from http://black-yuzunyan.lolipop.jp/fonts-yuzu-pop
+	// fonts GNU free
 
 	//BUGS
 	// Loading while in game won state from the options menu causes issues at the moment
