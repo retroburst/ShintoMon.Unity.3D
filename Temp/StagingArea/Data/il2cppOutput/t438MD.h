@@ -5,14 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t438;
-struct t9;
-struct t424;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t76;
+struct t4;
+#include "t410.h"
 
-#include "t2770MD.h"
-#define m2637(__this, p0, p1, method) (( void (*) (t438 *, t9 *, t58, MethodInfo*))m13579_gshared)(__this, p0, p1, method)
-#define m18422(__this, p0, p1, method) (( int32_t (*) (t438 *, t424 *, t424 *, MethodInfo*))m13580_gshared)(__this, p0, p1, method)
-#define m18423(__this, p0, p1, p2, p3, method) (( t9 * (*) (t438 *, t424 *, t424 *, t463 *, t9 *, MethodInfo*))m13581_gshared)(__this, p0, p1, p2, p3, method)
-#define m18424(__this, p0, method) (( int32_t (*) (t438 *, t9 *, MethodInfo*))m13582_gshared)(__this, p0, method)
+extern "C" void m2604 (t438 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t9 * m18333 (t9 * __this , t410  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m2638 (t438 * __this, t4 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m2641 (t438 * __this, t410  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;

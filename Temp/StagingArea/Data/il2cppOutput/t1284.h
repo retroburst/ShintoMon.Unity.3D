@@ -1,9 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t117.h"
-struct  t1284 
+#include "t9.h"
+struct  t1284  : public t9
 {
-	int32_t f0;
-	int32_t f1;
-	int32_t f2;
 };

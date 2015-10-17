@@ -6,10 +6,11 @@
 
 struct t3439;
 struct t9;
-struct t723;
+struct t701;
 
-#include "t2759MD.h"
-#define m20500(__this, method) (( void (*) (t3439 *, MethodInfo*))m13528_gshared)(__this, method)
-#define m20501(__this , method) (( void (*) (t9 * , MethodInfo*))m13529_gshared)(__this , method)
-#define m20502(__this, p0, p1, method) (( int32_t (*) (t3439 *, t9 *, t9 *, MethodInfo*))m13530_gshared)(__this, p0, p1, method)
-#define m20503(__this , method) (( t3439 * (*) (t9 * , MethodInfo*))m13531_gshared)(__this , method)
+#include "t2175MD.h"
+#define m20302(__this, method) (( void (*) (t3439 *, MethodInfo*))m13106_gshared)(__this, method)
+#define m20303(__this , method) (( void (*) (t9 * , MethodInfo*))m13107_gshared)(__this , method)
+#define m20304(__this, p0, method) (( int32_t (*) (t3439 *, t9 *, MethodInfo*))m13108_gshared)(__this, p0, method)
+#define m20305(__this, p0, p1, method) (( bool (*) (t3439 *, t9 *, t9 *, MethodInfo*))m13109_gshared)(__this, p0, p1, method)
+#define m20306(__this , method) (( t3439 * (*) (t9 * , MethodInfo*))m13110_gshared)(__this , method)

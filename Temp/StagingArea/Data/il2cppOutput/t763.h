@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t765;
 #include "t9.h"
+#include "t58.h"
 struct  t763  : public t9
 {
-	t765* f1;
-	int32_t f2;
-	int32_t f3;
+	t58 f0;
 };
-struct t763_SFs{
-	t765* f4;
+// Native definition for marshalling of: UnityEngine.TrackedReference
+struct t763_marshaled
+{
+	t58 f0;
 };

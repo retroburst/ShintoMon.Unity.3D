@@ -1,10 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t1843;
-#include "t9.h"
-struct  t1842  : public t9
+#include "t725.h"
+struct  t1842  : public t725
 {
-};
-struct t1842_SFs{
-	t9 * f0;
+	int32_t f0;
 };

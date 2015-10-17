@@ -5,10 +5,8 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t1602;
-struct t1602_marshaled;
-#include "t1538.h"
+struct t312;
+struct t2;
+struct t730;
 
-extern "C" void m7861 (t1602 * __this, int32_t p0, uint8_t* p1, uint8_t* p2, uint8_t* p3, uint8_t* p4, uint8_t* p5, bool p6, MethodInfo* method) IL2CPP_METHOD_ATTR;
-void t1602_marshal(const t1602& unmarshaled, t1602_marshaled& marshaled);
-void t1602_marshal_back(const t1602_marshaled& marshaled, t1602& unmarshaled);
-void t1602_marshal_cleanup(t1602_marshaled& marshaled);
+extern "C" void m7860 (t1602 * __this, t312* p0, t2* p1, t730* p2, MethodInfo* method) IL2CPP_METHOD_ATTR;

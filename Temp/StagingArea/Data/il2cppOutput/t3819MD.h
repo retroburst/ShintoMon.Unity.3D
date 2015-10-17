@@ -5,13 +5,12 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3819;
-struct t9;
 
-extern "C" void m24127_gshared (t3819 * __this, MethodInfo* method);
-#define m24127(__this, method) (( void (*) (t3819 *, MethodInfo*))m24127_gshared)(__this, method)
-extern "C" void m24128_gshared (t9 * __this , MethodInfo* method);
-#define m24128(__this , method) (( void (*) (t9 * , MethodInfo*))m24128_gshared)(__this , method)
-extern "C" int32_t m24129_gshared (t3819 * __this, t9 * p0, t9 * p1, MethodInfo* method);
-#define m24129(__this, p0, p1, method) (( int32_t (*) (t3819 *, t9 *, t9 *, MethodInfo*))m24129_gshared)(__this, p0, p1, method)
-extern "C" t3819 * m24130_gshared (t9 * __this , MethodInfo* method);
-#define m24130(__this , method) (( t3819 * (*) (t9 * , MethodInfo*))m24130_gshared)(__this , method)
+extern "C" void m24023_gshared (t9 * __this , MethodInfo* method);
+#define m24023(__this , method) (( void (*) (t9 * , MethodInfo*))m24023_gshared)(__this , method)
+extern "C" bool m24024_gshared (t9 * __this , int32_t p0, MethodInfo* method);
+#define m24024(__this , p0, method) (( bool (*) (t9 * , int32_t, MethodInfo*))m24024_gshared)(__this , p0, method)
+extern "C" int32_t m24025_gshared (t9 * __this , int32_t p0, MethodInfo* method);
+#define m24025(__this , p0, method) (( int32_t (*) (t9 * , int32_t, MethodInfo*))m24025_gshared)(__this , p0, method)
+extern "C" int32_t m24026_gshared (t9 * __this , int32_t p0, MethodInfo* method);
+#define m24026(__this , p0, method) (( int32_t (*) (t9 * , int32_t, MethodInfo*))m24026_gshared)(__this , p0, method)

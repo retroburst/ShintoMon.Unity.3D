@@ -6,11 +6,15 @@
 
 struct t2803;
 struct t9;
-struct t121;
+struct t469;
+struct t470;
+#include "t58.h"
 
-#include "t2785MD.h"
-#define m13893(__this, p0, method) (( void (*) (t2803 *, t121 *, MethodInfo*))m13779_gshared)(__this, p0, method)
-#define m13894(__this, method) (( t9 * (*) (t2803 *, MethodInfo*))m13780_gshared)(__this, method)
-#define m13895(__this, method) (( void (*) (t2803 *, MethodInfo*))m13781_gshared)(__this, method)
-#define m13896(__this, method) (( bool (*) (t2803 *, MethodInfo*))m13782_gshared)(__this, method)
-#define m13897(__this, method) (( bool (*) (t2803 *, MethodInfo*))m13783_gshared)(__this, method)
+extern "C" void m13876_gshared (t2803 * __this, t9 * p0, t58 p1, MethodInfo* method);
+#define m13876(__this, p0, p1, method) (( void (*) (t2803 *, t9 *, t58, MethodInfo*))m13876_gshared)(__this, p0, p1, method)
+extern "C" uint8_t m13877_gshared (t2803 * __this, t9 * p0, uint8_t p1, MethodInfo* method);
+#define m13877(__this, p0, p1, method) (( uint8_t (*) (t2803 *, t9 *, uint8_t, MethodInfo*))m13877_gshared)(__this, p0, p1, method)
+extern "C" t9 * m13878_gshared (t2803 * __this, t9 * p0, uint8_t p1, t470 * p2, t9 * p3, MethodInfo* method);
+#define m13878(__this, p0, p1, p2, p3, method) (( t9 * (*) (t2803 *, t9 *, uint8_t, t470 *, t9 *, MethodInfo*))m13878_gshared)(__this, p0, p1, p2, p3, method)
+extern "C" uint8_t m13879_gshared (t2803 * __this, t9 * p0, MethodInfo* method);
+#define m13879(__this, p0, method) (( uint8_t (*) (t2803 *, t9 *, MethodInfo*))m13879_gshared)(__this, p0, method)

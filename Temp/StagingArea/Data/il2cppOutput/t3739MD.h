@@ -6,16 +6,12 @@
 
 struct t3739;
 struct t9;
-struct t471;
-struct t471_marshaled;
-struct t462;
-struct t463;
-#include "t58.h"
-#include "t3728.h"
-#include "t852.h"
+struct t725;
+struct t121;
 
-#include "t3740MD.h"
-#define m23424(__this, p0, p1, method) (( void (*) (t3739 *, t9 *, t58, MethodInfo*))m23425_gshared)(__this, p0, p1, method)
-#define m23426(__this, p0, p1, method) (( t3728  (*) (t3739 *, t471 *, int32_t, MethodInfo*))m23427_gshared)(__this, p0, p1, method)
-#define m23428(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3739 *, t471 *, int32_t, t463 *, t9 *, MethodInfo*))m23429_gshared)(__this, p0, p1, p2, p3, method)
-#define m23430(__this, p0, method) (( t3728  (*) (t3739 *, t9 *, MethodInfo*))m23431_gshared)(__this, p0, method)
+#include "t2684MD.h"
+#define m23304(__this, p0, method) (( void (*) (t3739 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m23305(__this, method) (( t9 * (*) (t3739 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m23306(__this, method) (( void (*) (t3739 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m23307(__this, method) (( bool (*) (t3739 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m23308(__this, method) (( t725 * (*) (t3739 *, MethodInfo*))m12826_gshared)(__this, method)

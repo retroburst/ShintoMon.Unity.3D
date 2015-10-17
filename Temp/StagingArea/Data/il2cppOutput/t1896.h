@@ -1,6 +1,10 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t9.h"
-struct  t1896  : public t9
+struct t221;
+#include "t1890.h"
+struct  t1896  : public t1890
 {
+};
+struct t1896_SFs{
+	t221* f6;
 };

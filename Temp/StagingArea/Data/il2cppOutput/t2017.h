@@ -1,12 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t2012;
-struct t2;
-struct t1187;
-#include "t9.h"
-struct  t2017  : public t9
+#include "t2018.h"
+#include "t2019.h"
+struct  t2017  : public t2018
 {
-	t2012 * f0;
-	t2* f1;
-	t1187 * f2;
+	int32_t f0;
 };

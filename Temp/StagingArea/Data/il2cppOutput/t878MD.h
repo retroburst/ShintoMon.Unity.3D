@@ -6,11 +6,9 @@
 
 struct t878;
 struct t2;
+struct t1100;
+#include "t1101.h"
 
-#include "t2688MD.h"
-#define m20281(__this, p0, p1, method) (( void (*) (t878 *, t2*, t2*, MethodInfo*))m12929_gshared)(__this, p0, p1, method)
-#define m4261(__this, method) (( t2* (*) (t878 *, MethodInfo*))m12930_gshared)(__this, method)
-#define m20282(__this, p0, method) (( void (*) (t878 *, t2*, MethodInfo*))m12931_gshared)(__this, p0, method)
-#define m4262(__this, method) (( t2* (*) (t878 *, MethodInfo*))m12932_gshared)(__this, method)
-#define m20283(__this, p0, method) (( void (*) (t878 *, t2*, MethodInfo*))m12933_gshared)(__this, p0, method)
-#define m20284(__this, method) (( t2* (*) (t878 *, MethodInfo*))m12934_gshared)(__this, method)
+extern "C" void m11671 (t878 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m4227 (t878 * __this, t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m11672 (t878 * __this, t1100 * p0, t1101  p1, MethodInfo* method) IL2CPP_METHOD_ATTR;

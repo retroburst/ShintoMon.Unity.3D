@@ -5,15 +5,14 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t2951;
-struct t9;
-struct t265;
 struct t59;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t266;
+struct t2;
 
-#include "t2706MD.h"
-#define m15378(__this, p0, p1, method) (( void (*) (t2951 *, t9 *, t58, MethodInfo*))m13036_gshared)(__this, p0, p1, method)
-#define m15379(__this, p0, p1, method) (( t265 * (*) (t2951 *, t59 *, t265 *, MethodInfo*))m13037_gshared)(__this, p0, p1, method)
-#define m15380(__this, p0, p1, p2, p3, method) (( t9 * (*) (t2951 *, t59 *, t265 *, t463 *, t9 *, MethodInfo*))m13038_gshared)(__this, p0, p1, p2, p3, method)
-#define m15381(__this, p0, method) (( t265 * (*) (t2951 *, t9 *, MethodInfo*))m13039_gshared)(__this, p0, method)
+#include "t2697MD.h"
+#define m15336(__this, p0, p1, method) (( void (*) (t2951 *, t59 *, t266 *, MethodInfo*))m12957_gshared)(__this, p0, p1, method)
+#define m15337(__this, method) (( t59 * (*) (t2951 *, MethodInfo*))m12958_gshared)(__this, method)
+#define m15338(__this, p0, method) (( void (*) (t2951 *, t59 *, MethodInfo*))m12959_gshared)(__this, p0, method)
+#define m15339(__this, method) (( t266 * (*) (t2951 *, MethodInfo*))m12960_gshared)(__this, method)
+#define m15340(__this, p0, method) (( void (*) (t2951 *, t266 *, MethodInfo*))m12961_gshared)(__this, p0, method)
+#define m15341(__this, method) (( t2* (*) (t2951 *, MethodInfo*))m12962_gshared)(__this, method)

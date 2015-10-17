@@ -6,17 +6,26 @@
 
 struct t3695;
 struct t9;
-struct t462;
-struct t463;
-#include "t58.h"
-#include "t3604.h"
-#include "t909.h"
+struct t913;
+struct t823;
+struct t4169;
+struct t121;
+struct t76;
+struct t3689;
+#include "t3696.h"
 
-extern "C" void m23043_gshared (t3695 * __this, t9 * p0, t58 p1, MethodInfo* method);
-#define m23043(__this, p0, p1, method) (( void (*) (t3695 *, t9 *, t58, MethodInfo*))m23043_gshared)(__this, p0, p1, method)
-extern "C" t3604  m23045_gshared (t3695 * __this, t9 * p0, t909  p1, MethodInfo* method);
-#define m23045(__this, p0, p1, method) (( t3604  (*) (t3695 *, t9 *, t909 , MethodInfo*))m23045_gshared)(__this, p0, p1, method)
-extern "C" t9 * m23047_gshared (t3695 * __this, t9 * p0, t909  p1, t463 * p2, t9 * p3, MethodInfo* method);
-#define m23047(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3695 *, t9 *, t909 , t463 *, t9 *, MethodInfo*))m23047_gshared)(__this, p0, p1, p2, p3, method)
-extern "C" t3604  m23049_gshared (t3695 * __this, t9 * p0, MethodInfo* method);
-#define m23049(__this, p0, method) (( t3604  (*) (t3695 *, t9 *, MethodInfo*))m23049_gshared)(__this, p0, method)
+#include "t2716MD.h"
+#define m22945(__this, p0, method) (( void (*) (t3695 *, t913 *, MethodInfo*))m13068_gshared)(__this, p0, method)
+#define m22946(__this, p0, method) (( void (*) (t3695 *, t823 *, MethodInfo*))m13069_gshared)(__this, p0, method)
+#define m22947(__this, method) (( void (*) (t3695 *, MethodInfo*))m13070_gshared)(__this, method)
+#define m22948(__this, p0, method) (( bool (*) (t3695 *, t823 *, MethodInfo*))m13071_gshared)(__this, p0, method)
+#define m22949(__this, p0, method) (( bool (*) (t3695 *, t823 *, MethodInfo*))m13072_gshared)(__this, p0, method)
+#define m22950(__this, method) (( t9* (*) (t3695 *, MethodInfo*))m13073_gshared)(__this, method)
+#define m22951(__this, p0, p1, method) (( void (*) (t3695 *, t121 *, int32_t, MethodInfo*))m13074_gshared)(__this, p0, p1, method)
+#define m22952(__this, method) (( t9 * (*) (t3695 *, MethodInfo*))m13075_gshared)(__this, method)
+#define m22953(__this, method) (( bool (*) (t3695 *, MethodInfo*))m13076_gshared)(__this, method)
+#define m22954(__this, method) (( bool (*) (t3695 *, MethodInfo*))m13077_gshared)(__this, method)
+#define m22955(__this, method) (( t9 * (*) (t3695 *, MethodInfo*))m13078_gshared)(__this, method)
+#define m22956(__this, p0, p1, method) (( void (*) (t3695 *, t3689*, int32_t, MethodInfo*))m13079_gshared)(__this, p0, p1, method)
+#define m22957(__this, method) (( t3696  (*) (t3695 *, MethodInfo*))m13080_gshared)(__this, method)
+#define m22958(__this, method) (( int32_t (*) (t3695 *, MethodInfo*))m13081_gshared)(__this, method)

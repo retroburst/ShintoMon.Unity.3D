@@ -1,6 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t9.h"
-struct  t856  : public t9
+#include "t725.h"
+struct  t856  : public t725
 {
 };

@@ -1,12 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t925;
-struct t126;
-#include "t117.h"
-struct  t3713 
+struct t9;
+struct t469;
+struct t470;
+#include "t916.h"
+#include "t471.h"
+extern Il2CppType t916_0_0_0;
+struct  t3713  : public t471
 {
-	t925 * f0;
-	int32_t f1;
-	int32_t f2;
-	t126 * f3;
 };

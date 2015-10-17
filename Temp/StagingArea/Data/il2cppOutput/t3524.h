@@ -1,6 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t3523.h"
-struct  t3524  : public t3523
+struct t9;
+struct t469;
+struct t470;
+#include "t299.h"
+#include "t471.h"
+extern TypeInfo t299_TI;
+struct  t3524  : public t471
 {
 };

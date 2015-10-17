@@ -6,16 +6,13 @@
 
 struct t3409;
 struct t9;
-struct t121;
-#include "t3408.h"
+struct t704;
+struct t469;
+struct t470;
+#include "t58.h"
 
-extern "C" void m20155_gshared (t3409 * __this, t121 * p0, MethodInfo* method);
-#define m20155(__this, p0, method) (( void (*) (t3409 *, t121 *, MethodInfo*))m20155_gshared)(__this, p0, method)
-extern "C" t9 * m20156_gshared (t3409 * __this, MethodInfo* method);
-#define m20156(__this, method) (( t9 * (*) (t3409 *, MethodInfo*))m20156_gshared)(__this, method)
-extern "C" void m20157_gshared (t3409 * __this, MethodInfo* method);
-#define m20157(__this, method) (( void (*) (t3409 *, MethodInfo*))m20157_gshared)(__this, method)
-extern "C" bool m20158_gshared (t3409 * __this, MethodInfo* method);
-#define m20158(__this, method) (( bool (*) (t3409 *, MethodInfo*))m20158_gshared)(__this, method)
-extern "C" t3408  m20159_gshared (t3409 * __this, MethodInfo* method);
-#define m20159(__this, method) (( t3408  (*) (t3409 *, MethodInfo*))m20159_gshared)(__this, method)
+#include "t2983MD.h"
+#define m19987(__this, p0, p1, method) (( void (*) (t3409 *, t9 *, t58, MethodInfo*))m15614_gshared)(__this, p0, p1, method)
+#define m19988(__this, p0, p1, method) (( t704 * (*) (t3409 *, int32_t, t704 *, MethodInfo*))m15615_gshared)(__this, p0, p1, method)
+#define m19989(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3409 *, int32_t, t704 *, t470 *, t9 *, MethodInfo*))m15616_gshared)(__this, p0, p1, p2, p3, method)
+#define m19990(__this, p0, method) (( t704 * (*) (t3409 *, t9 *, MethodInfo*))m15617_gshared)(__this, p0, method)

@@ -5,10 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t1810;
-struct t1811;
-struct t152;
-#include "t1810.h"
-#include "t1812.h"
+struct t1100;
+#include "t1101.h"
 
-extern "C" void m9638 (t9 * __this , t1811 * p0, t1810 * p1, int32_t p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t152* m9639 (t9 * __this , t1811 * p0, bool p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m9559 (t1810 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m9560 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m9561 (t1810 * __this, t1100 * p0, t1101  p1, MethodInfo* method) IL2CPP_METHOD_ATTR;

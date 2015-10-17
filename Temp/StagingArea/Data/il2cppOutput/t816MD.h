@@ -5,13 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t816;
+struct t2;
+struct t820;
+struct t126;
+struct t821;
+struct t822;
 struct t9;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t8;
 
-extern "C" void m4049 (t816 * __this, t9 * p0, t58 p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t9 * m4050 (t816 * __this, t9 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t9 * pinvoke_delegate_wrapper_t816(Il2CppObject* delegate, t9 * p0);
-extern "C" t9 * m4051 (t816 * __this, t9 * p0, t463 * p1, t9 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t9 * m4052 (t816 * __this, t9 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m4063 (t816 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m4064 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m4065 (t816 * __this, t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t820 * m4066 (t816 * __this, t126 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t9* m4067 (t816 * __this, t126 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t9* m4068 (t816 * __this, t126 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m4069 (t816 * __this, t9 * p0, t9 ** p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t9 * m4070 (t816 * __this, t8 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m4071 (t816 * __this, t9 * p0, t9 ** p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m4072 (t816 * __this, t9 * p0, t9 ** p1, MethodInfo* method) IL2CPP_METHOD_ATTR;

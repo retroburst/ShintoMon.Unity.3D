@@ -5,11 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t236;
-struct t265;
-struct t59;
-struct t267;
+struct t261;
+struct t31;
+struct t258;
 
-extern "C" void m889 (t236 * __this, int32_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t265 * m890 (t236 * __this, t59 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m891 (t236 * __this, t59 * p0, int32_t p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m892 (t236 * __this, t9* p0, int32_t p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m872 (t236 * __this, t261* p0, float p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m873 (t236 * __this, t31 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m874 (t236 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m875 (t236 * __this, t31 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m876 (t236 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m877 (t236 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m878 (t236 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m879 (t9 * __this , t258 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;

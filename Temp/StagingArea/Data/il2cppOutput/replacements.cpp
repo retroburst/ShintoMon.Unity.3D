@@ -14,22 +14,22 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo t1390_TI;
-extern TypeInfo t1391_TI;
-extern TypeInfo t1392_TI;
-extern TypeInfo t1393_TI;
-extern TypeInfo t1394_TI;
+extern TypeInfo t1399_TI;
+extern TypeInfo t1400_TI;
+extern TypeInfo t1401_TI;
+extern TypeInfo t1402_TI;
+extern TypeInfo t1403_TI;
 #include "utils/RegisterRuntimeInitializeAndCleanup.h"
 #include <map>
 struct TypeInfo;
 struct MethodInfo;
 TypeInfo* g_replacements_Assembly_Types[6] = 
 {
-	&t1390_TI,
-	&t1391_TI,
-	&t1392_TI,
-	&t1393_TI,
-	&t1394_TI,
+	&t1399_TI,
+	&t1400_TI,
+	&t1401_TI,
+	&t1402_TI,
+	&t1403_TI,
 	NULL,
 };
 extern Il2CppImage g_replacements_dll_Image;

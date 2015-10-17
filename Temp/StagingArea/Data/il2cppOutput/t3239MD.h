@@ -6,14 +6,13 @@
 
 struct t3239;
 struct t9;
-struct t424;
-struct t462;
-struct t463;
-#include "t58.h"
-#include "t1155.h"
+#include "t459.h"
 
-#include "t3126MD.h"
-#define m18611(__this, p0, p1, method) (( void (*) (t3239 *, t9 *, t58, MethodInfo*))m17349_gshared)(__this, p0, p1, method)
-#define m18612(__this, p0, p1, method) (( t1155  (*) (t3239 *, t424 *, int32_t, MethodInfo*))m17350_gshared)(__this, p0, p1, method)
-#define m18613(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3239 *, t424 *, int32_t, t463 *, t9 *, MethodInfo*))m17351_gshared)(__this, p0, p1, p2, p3, method)
-#define m18614(__this, p0, method) (( t1155  (*) (t3239 *, t9 *, MethodInfo*))m17352_gshared)(__this, p0, method)
+extern "C" void m18310_gshared (t3239 * __this, MethodInfo* method);
+#define m18310(__this, method) (( void (*) (t3239 *, MethodInfo*))m18310_gshared)(__this, method)
+extern "C" void m18311_gshared (t9 * __this , MethodInfo* method);
+#define m18311(__this , method) (( void (*) (t9 * , MethodInfo*))m18311_gshared)(__this , method)
+extern "C" int32_t m18312_gshared (t3239 * __this, t9 * p0, t9 * p1, MethodInfo* method);
+#define m18312(__this, p0, p1, method) (( int32_t (*) (t3239 *, t9 *, t9 *, MethodInfo*))m18312_gshared)(__this, p0, p1, method)
+extern "C" t3239 * m18313_gshared (t9 * __this , MethodInfo* method);
+#define m18313(__this , method) (( t3239 * (*) (t9 * , MethodInfo*))m18313_gshared)(__this , method)

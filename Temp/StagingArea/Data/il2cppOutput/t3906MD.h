@@ -6,13 +6,12 @@
 
 struct t3906;
 struct t9;
-struct t2017;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t1763;
+struct t121;
 
-#include "t2770MD.h"
-#define m24647(__this, p0, p1, method) (( void (*) (t3906 *, t9 *, t58, MethodInfo*))m13579_gshared)(__this, p0, p1, method)
-#define m24648(__this, p0, p1, method) (( int32_t (*) (t3906 *, t2017 *, t2017 *, MethodInfo*))m13580_gshared)(__this, p0, p1, method)
-#define m24649(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3906 *, t2017 *, t2017 *, t463 *, t9 *, MethodInfo*))m13581_gshared)(__this, p0, p1, p2, p3, method)
-#define m24650(__this, p0, method) (( int32_t (*) (t3906 *, t9 *, MethodInfo*))m13582_gshared)(__this, p0, method)
+#include "t2684MD.h"
+#define m24593(__this, p0, method) (( void (*) (t3906 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m24594(__this, method) (( t9 * (*) (t3906 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m24595(__this, method) (( void (*) (t3906 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m24596(__this, method) (( bool (*) (t3906 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m24597(__this, method) (( t1763 * (*) (t3906 *, MethodInfo*))m12826_gshared)(__this, method)

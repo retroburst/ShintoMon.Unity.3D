@@ -4,5 +4,5 @@
 #include "t1444.h"
 struct  t1444 
 {
-	uint8_t f1;
+	int32_t f1;
 };

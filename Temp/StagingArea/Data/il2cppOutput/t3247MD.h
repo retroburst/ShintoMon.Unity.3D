@@ -6,11 +6,13 @@
 
 struct t3247;
 struct t9;
-struct t579;
+struct t436;
+struct t551;
 
-#include "t3134MD.h"
-#define m18602(__this, p0, method) (( void (*) (t3247 *, t579 *, MethodInfo*))m17340_gshared)(__this, p0, method)
-#define m18603(__this, method) (( t9 * (*) (t3247 *, MethodInfo*))m17341_gshared)(__this, method)
-#define m18604(__this, method) (( void (*) (t3247 *, MethodInfo*))m17342_gshared)(__this, method)
-#define m18605(__this, method) (( bool (*) (t3247 *, MethodInfo*))m17343_gshared)(__this, method)
-#define m18606(__this, method) (( int32_t (*) (t3247 *, MethodInfo*))m17344_gshared)(__this, method)
+#include "t892MD.h"
+#define m18393(__this, p0, method) (( void (*) (t3247 *, t551 *, MethodInfo*))m13476_gshared)(__this, p0, method)
+#define m18394(__this, method) (( t9 * (*) (t3247 *, MethodInfo*))m13477_gshared)(__this, method)
+#define m18395(__this, method) (( void (*) (t3247 *, MethodInfo*))m13478_gshared)(__this, method)
+#define m18396(__this, method) (( void (*) (t3247 *, MethodInfo*))m13479_gshared)(__this, method)
+#define m18397(__this, method) (( bool (*) (t3247 *, MethodInfo*))m13480_gshared)(__this, method)
+#define m18398(__this, method) (( t436 * (*) (t3247 *, MethodInfo*))m13481_gshared)(__this, method)

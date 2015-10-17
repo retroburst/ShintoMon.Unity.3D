@@ -1,9 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t121;
-#include "t117.h"
-struct  t2851 
+#include "t2850.h"
+struct  t2851  : public t2850
 {
-	t121 * f0;
-	int32_t f1;
 };

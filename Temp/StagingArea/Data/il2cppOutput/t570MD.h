@@ -5,14 +5,6 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t570;
-struct t9;
-struct t417;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t751;
 
-#include "t285MD.h"
-#define m2567(__this, p0, p1, method) (( void (*) (t570 *, t9 *, t58, MethodInfo*))m13524_gshared)(__this, p0, p1, method)
-#define m4282(__this, p0, method) (( void (*) (t570 *, t417 *, MethodInfo*))m13525_gshared)(__this, p0, method)
-#define m17951(__this, p0, p1, p2, method) (( t9 * (*) (t570 *, t417 *, t463 *, t9 *, MethodInfo*))m13526_gshared)(__this, p0, p1, p2, method)
-#define m17952(__this, p0, method) (( void (*) (t570 *, t9 *, MethodInfo*))m13527_gshared)(__this, p0, method)
+extern "C" t751 * m3745 (t570 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

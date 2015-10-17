@@ -6,16 +6,13 @@
 
 struct t3727;
 struct t9;
-struct t471;
-struct t471_marshaled;
-struct t462;
-struct t463;
-#include "t58.h"
-#include "t1155.h"
-#include "t852.h"
+struct t915;
+#include "t1164.h"
 
-#include "t3126MD.h"
-#define m23420(__this, p0, p1, method) (( void (*) (t3727 *, t9 *, t58, MethodInfo*))m17349_gshared)(__this, p0, p1, method)
-#define m23421(__this, p0, p1, method) (( t1155  (*) (t3727 *, t471 *, int32_t, MethodInfo*))m17350_gshared)(__this, p0, p1, method)
-#define m23422(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3727 *, t471 *, int32_t, t463 *, t9 *, MethodInfo*))m17351_gshared)(__this, p0, p1, p2, p3, method)
-#define m23423(__this, p0, method) (( t1155  (*) (t3727 *, t9 *, MethodInfo*))m17352_gshared)(__this, p0, method)
+#include "t3715MD.h"
+#define m23243(__this, p0, method) (( void (*) (t3727 *, t915 *, MethodInfo*))m23159_gshared)(__this, p0, method)
+#define m23244(__this, method) (( bool (*) (t3727 *, MethodInfo*))m23160_gshared)(__this, method)
+#define m23245(__this, method) (( t1164  (*) (t3727 *, MethodInfo*))m23161_gshared)(__this, method)
+#define m23246(__this, method) (( t9 * (*) (t3727 *, MethodInfo*))m23162_gshared)(__this, method)
+#define m23247(__this, method) (( t9 * (*) (t3727 *, MethodInfo*))m23163_gshared)(__this, method)
+#define m23248(__this, method) (( t9 * (*) (t3727 *, MethodInfo*))m23164_gshared)(__this, method)

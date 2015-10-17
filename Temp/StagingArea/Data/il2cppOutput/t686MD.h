@@ -5,6 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t686;
-#include "t43.h"
+struct t686_marshaled;
 
-extern "C" void m3169 (t686 * __this, t43  p0, float p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3711 (t686 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+void t686_marshal(const t686& unmarshaled, t686_marshaled& marshaled);
+void t686_marshal_back(const t686_marshaled& marshaled, t686& unmarshaled);
+void t686_marshal_cleanup(t686_marshaled& marshaled);

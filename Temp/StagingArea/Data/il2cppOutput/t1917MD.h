@@ -6,9 +6,10 @@
 
 struct t1917;
 struct t2;
-struct t1093;
-#include "t1094.h"
+struct t1919;
+struct t126;
 
-extern "C" void m10059 (t1917 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m10060 (t1917 * __this, t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m10061 (t1917 * __this, t1093 * p0, t1094  p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m10049 (t1917 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1919* m10050 (t1917 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t126 * m10051 (t1917 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m10052 (t1917 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

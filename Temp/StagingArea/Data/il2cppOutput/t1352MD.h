@@ -5,10 +5,8 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t1352;
-struct t2;
-struct t1093;
-#include "t1094.h"
+struct t1352_marshaled;
 
-extern "C" void m10337 (t1352 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m6928 (t1352 * __this, t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m10338 (t1352 * __this, t1093 * p0, t1094  p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+void t1352_marshal(const t1352& unmarshaled, t1352_marshaled& marshaled);
+void t1352_marshal_back(const t1352_marshaled& marshaled, t1352& unmarshaled);
+void t1352_marshal_cleanup(t1352_marshaled& marshaled);

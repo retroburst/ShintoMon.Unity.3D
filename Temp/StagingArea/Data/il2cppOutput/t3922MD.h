@@ -6,13 +6,12 @@
 
 struct t3922;
 struct t9;
-#include "t297.h"
+struct t121;
+#include "t1935.h"
 
-extern "C" void m24722_gshared (t3922 * __this, MethodInfo* method);
-#define m24722(__this, method) (( void (*) (t3922 *, MethodInfo*))m24722_gshared)(__this, method)
-extern "C" void m24723_gshared (t9 * __this , MethodInfo* method);
-#define m24723(__this , method) (( void (*) (t9 * , MethodInfo*))m24723_gshared)(__this , method)
-extern "C" int32_t m24724_gshared (t3922 * __this, t9 * p0, t9 * p1, MethodInfo* method);
-#define m24724(__this, p0, p1, method) (( int32_t (*) (t3922 *, t9 *, t9 *, MethodInfo*))m24724_gshared)(__this, p0, p1, method)
-extern "C" t3922 * m24725_gshared (t9 * __this , MethodInfo* method);
-#define m24725(__this , method) (( t3922 * (*) (t9 * , MethodInfo*))m24725_gshared)(__this , method)
+#include "t2794MD.h"
+#define m24671(__this, p0, method) (( void (*) (t3922 *, t121 *, MethodInfo*))m13807_gshared)(__this, p0, method)
+#define m24672(__this, method) (( t9 * (*) (t3922 *, MethodInfo*))m13808_gshared)(__this, method)
+#define m24673(__this, method) (( void (*) (t3922 *, MethodInfo*))m13809_gshared)(__this, method)
+#define m24674(__this, method) (( bool (*) (t3922 *, MethodInfo*))m13810_gshared)(__this, method)
+#define m24675(__this, method) (( uint8_t (*) (t3922 *, MethodInfo*))m13811_gshared)(__this, method)

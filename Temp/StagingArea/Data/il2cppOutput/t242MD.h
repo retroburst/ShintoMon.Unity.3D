@@ -5,37 +5,20 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t242;
-struct t2233;
-struct t2880;
-struct t1093;
-struct t1550;
-struct t305;
-struct t76;
-struct t9;
-#include "t1094.h"
+struct t2;
+#include "t13.h"
+#include "t245.h"
+#include "t93.h"
 
-#include "t2881MD.h"
-#define m14647(__this, method) (( void (*) (t242 *, MethodInfo*))m14648_gshared)(__this, method)
-#define m1088(__this, p0, method) (( void (*) (t242 *, t9*, MethodInfo*))m14649_gshared)(__this, p0, method)
-#define m14650(__this, p0, p1, method) (( void (*) (t242 *, t9*, t9*, MethodInfo*))m14651_gshared)(__this, p0, p1, method)
-#define m14652(__this, p0, p1, method) (( void (*) (t242 *, t1093 *, t1094 , MethodInfo*))m14653_gshared)(__this, p0, p1, method)
-#define m14654(__this, method) (( t9* (*) (t242 *, MethodInfo*))m14655_gshared)(__this, method)
-#define m14656(__this, method) (( bool (*) (t242 *, MethodInfo*))m14657_gshared)(__this, method)
-#define m14658(__this, p0, p1, method) (( void (*) (t242 *, t305*, int32_t, MethodInfo*))m14659_gshared)(__this, p0, p1, method)
-#define m14660(__this, p0, method) (( void (*) (t242 *, uint16_t, MethodInfo*))m14661_gshared)(__this, p0, method)
-#define m14662(__this, method) (( t9 * (*) (t242 *, MethodInfo*))m14663_gshared)(__this, method)
-#define m14664(__this, method) (( int32_t (*) (t242 *, MethodInfo*))m14665_gshared)(__this, method)
-#define m14666(__this, p0, p1, method) (( void (*) (t242 *, int32_t, t9*, MethodInfo*))m14667_gshared)(__this, p0, p1, method)
-#define m14668(__this, p0, method) (( void (*) (t242 *, int32_t, MethodInfo*))m14669_gshared)(__this, p0, method)
-#define m14670(__this, p0, p1, p2, method) (( bool (*) (t242 *, int32_t, int32_t, uint16_t, MethodInfo*))m14671_gshared)(__this, p0, p1, p2, method)
-#define m14672(__this, p0, p1, method) (( void (*) (t242 *, t305*, int32_t, MethodInfo*))m14673_gshared)(__this, p0, p1, method)
-#define m14674(__this, p0, p1, p2, method) (( void (*) (t242 *, t305*, int32_t, int32_t, MethodInfo*))m14675_gshared)(__this, p0, p1, p2, method)
-#define m14676(__this, method) (( void (*) (t242 *, MethodInfo*))m14677_gshared)(__this, method)
-#define m14678(__this, p0, method) (( int32_t (*) (t242 *, int32_t, MethodInfo*))m14679_gshared)(__this, p0, method)
-#define m14680(__this, p0, method) (( int32_t (*) (t242 *, uint16_t, MethodInfo*))m14681_gshared)(__this, p0, method)
-#define m14682(__this, p0, method) (( bool (*) (t242 *, uint16_t, MethodInfo*))m14683_gshared)(__this, p0, method)
-#define m14684(__this, method) (( void (*) (t242 *, MethodInfo*))m14685_gshared)(__this, method)
-#define m1095(__this, p0, method) (( bool (*) (t242 *, uint16_t, MethodInfo*))m14686_gshared)(__this, p0, method)
-#define m14687(__this, p0, method) (( bool (*) (t242 *, uint16_t, MethodInfo*))m14688_gshared)(__this, p0, method)
-#define m14689(__this, p0, p1, method) (( void (*) (t242 *, t1093 *, t1094 , MethodInfo*))m14690_gshared)(__this, p0, p1, method)
-#define m14691(__this, p0, method) (( void (*) (t242 *, t9 *, MethodInfo*))m14692_gshared)(__this, p0, method)
+extern "C" void m823 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m824 (t9 * __this , t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m825 (t9 * __this , bool p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double m826 (t9 * __this , double p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float m827 (t9 * __this , float p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t13  m828 (t9 * __this , t13  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t13  m829 (t9 * __this , t13  p0, t245  p1, t245  p2, t245  p3, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t93  m830 (t9 * __this , t93  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m831 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m832 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m833 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m834 (t9 * __this , uint16_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;

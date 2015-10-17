@@ -6,13 +6,13 @@
 
 struct t2834;
 struct t9;
-struct t45;
-struct t91;
+struct t39;
+struct t469;
+struct t470;
+#include "t58.h"
 
-#include "t885MD.h"
-#define m14191(__this, p0, method) (( void (*) (t2834 *, t91 *, MethodInfo*))m13448_gshared)(__this, p0, method)
-#define m14192(__this, method) (( t9 * (*) (t2834 *, MethodInfo*))m13449_gshared)(__this, method)
-#define m14193(__this, method) (( void (*) (t2834 *, MethodInfo*))m13450_gshared)(__this, method)
-#define m14194(__this, method) (( void (*) (t2834 *, MethodInfo*))m13451_gshared)(__this, method)
-#define m14195(__this, method) (( bool (*) (t2834 *, MethodInfo*))m13452_gshared)(__this, method)
-#define m14196(__this, method) (( t45 * (*) (t2834 *, MethodInfo*))m13453_gshared)(__this, method)
+#include "t2715MD.h"
+#define m14115(__this, p0, p1, method) (( void (*) (t2834 *, t9 *, t58, MethodInfo*))m13064_gshared)(__this, p0, p1, method)
+#define m14116(__this, p0, p1, method) (( t39 * (*) (t2834 *, t39 *, t39 *, MethodInfo*))m13065_gshared)(__this, p0, p1, method)
+#define m14117(__this, p0, p1, p2, p3, method) (( t9 * (*) (t2834 *, t39 *, t39 *, t470 *, t9 *, MethodInfo*))m13066_gshared)(__this, p0, p1, p2, p3, method)
+#define m14118(__this, p0, method) (( t39 * (*) (t2834 *, t9 *, MethodInfo*))m13067_gshared)(__this, p0, method)

@@ -6,3 +6,4 @@
 
 struct t852;
 
+extern "C" void m4137 (t852 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,13 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t3756;
+struct t57;
+struct t57_marshaled;
+struct t2;
 #include "t9.h"
 struct  t862  : public t9
 {
-	t3756* f1;
+	t57 * f0;
+	t2* f1;
 	int32_t f2;
-	int32_t f3;
-};
-struct t862_SFs{
-	t3756* f4;
+	float f3;
+	t2* f4;
+	bool f5;
 };

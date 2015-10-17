@@ -6,13 +6,12 @@
 
 struct t2840;
 struct t9;
-struct t45;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t61;
+struct t121;
 
-#include "t285MD.h"
-#define m14275(__this, p0, p1, method) (( void (*) (t2840 *, t9 *, t58, MethodInfo*))m13524_gshared)(__this, p0, p1, method)
-#define m14276(__this, p0, method) (( void (*) (t2840 *, t45 *, MethodInfo*))m13525_gshared)(__this, p0, method)
-#define m14277(__this, p0, p1, p2, method) (( t9 * (*) (t2840 *, t45 *, t463 *, t9 *, MethodInfo*))m13526_gshared)(__this, p0, p1, p2, method)
-#define m14278(__this, p0, method) (( void (*) (t2840 *, t9 *, MethodInfo*))m13527_gshared)(__this, p0, method)
+#include "t2684MD.h"
+#define m14156(__this, p0, method) (( void (*) (t2840 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m14157(__this, method) (( t9 * (*) (t2840 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m14158(__this, method) (( void (*) (t2840 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m14159(__this, method) (( bool (*) (t2840 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m14160(__this, method) (( t61 * (*) (t2840 *, MethodInfo*))m12826_gshared)(__this, method)

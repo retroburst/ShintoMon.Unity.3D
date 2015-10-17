@@ -6,12 +6,16 @@
 
 struct t3411;
 struct t9;
-struct t2;
-struct t713;
+struct t469;
+struct t470;
+#include "t58.h"
+#include "t3400.h"
 
-#include "t3130MD.h"
-#define m20174(__this, p0, method) (( void (*) (t3411 *, t713 *, MethodInfo*))m17305_gshared)(__this, p0, method)
-#define m20175(__this, method) (( t9 * (*) (t3411 *, MethodInfo*))m17306_gshared)(__this, method)
-#define m20176(__this, method) (( void (*) (t3411 *, MethodInfo*))m17307_gshared)(__this, method)
-#define m20177(__this, method) (( bool (*) (t3411 *, MethodInfo*))m17308_gshared)(__this, method)
-#define m20178(__this, method) (( t2* (*) (t3411 *, MethodInfo*))m17309_gshared)(__this, method)
+extern "C" void m19996_gshared (t3411 * __this, t9 * p0, t58 p1, MethodInfo* method);
+#define m19996(__this, p0, p1, method) (( void (*) (t3411 *, t9 *, t58, MethodInfo*))m19996_gshared)(__this, p0, p1, method)
+extern "C" t3400  m19998_gshared (t3411 * __this, int32_t p0, t9 * p1, MethodInfo* method);
+#define m19998(__this, p0, p1, method) (( t3400  (*) (t3411 *, int32_t, t9 *, MethodInfo*))m19998_gshared)(__this, p0, p1, method)
+extern "C" t9 * m20000_gshared (t3411 * __this, int32_t p0, t9 * p1, t470 * p2, t9 * p3, MethodInfo* method);
+#define m20000(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3411 *, int32_t, t9 *, t470 *, t9 *, MethodInfo*))m20000_gshared)(__this, p0, p1, p2, p3, method)
+extern "C" t3400  m20002_gshared (t3411 * __this, t9 * p0, MethodInfo* method);
+#define m20002(__this, p0, method) (( t3400  (*) (t3411 *, t9 *, MethodInfo*))m20002_gshared)(__this, p0, method)

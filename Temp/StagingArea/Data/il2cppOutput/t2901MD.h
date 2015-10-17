@@ -6,14 +6,12 @@
 
 struct t2901;
 struct t9;
-struct t76;
-struct t1550;
+struct t243;
 
-#include "t2898MD.h"
-#define m14763(__this, method) (( void (*) (t2901 *, MethodInfo*))m14756_gshared)(__this, method)
-#define m14764(__this, method) (( uint16_t (*) (t2901 *, MethodInfo*))m14757_gshared)(__this, method)
-#define m14765(__this, method) (( t9 * (*) (t2901 *, MethodInfo*))m14758_gshared)(__this, method)
-#define m14766(__this, method) (( t9 * (*) (t2901 *, MethodInfo*))m14759_gshared)(__this, method)
-#define m14767(__this, method) (( t9* (*) (t2901 *, MethodInfo*))m14760_gshared)(__this, method)
-#define m14768(__this, method) (( bool (*) (t2901 *, MethodInfo*))m14761_gshared)(__this, method)
-#define m14769(__this, method) (( void (*) (t2901 *, MethodInfo*))m14762_gshared)(__this, method)
+#include "t2895MD.h"
+#define m14752(__this, p0, method) (( void (*) (t2901 *, t243 *, MethodInfo*))m14726_gshared)(__this, p0, method)
+#define m14753(__this, method) (( t9 * (*) (t2901 *, MethodInfo*))m14727_gshared)(__this, method)
+#define m14754(__this, method) (( bool (*) (t2901 *, MethodInfo*))m14728_gshared)(__this, method)
+#define m14755(__this, method) (( uint16_t (*) (t2901 *, MethodInfo*))m14729_gshared)(__this, method)
+#define m14756(__this, method) (( void (*) (t2901 *, MethodInfo*))m14730_gshared)(__this, method)
+#define m14757(__this, method) (( void (*) (t2901 *, MethodInfo*))m14731_gshared)(__this, method)

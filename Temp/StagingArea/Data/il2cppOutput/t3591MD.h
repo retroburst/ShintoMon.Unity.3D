@@ -6,16 +6,16 @@
 
 struct t3591;
 struct t9;
-struct t121;
-#include "t3590.h"
+struct t469;
+struct t470;
+#include "t58.h"
+#include "t3579.h"
 
-extern "C" void m22074_gshared (t3591 * __this, t121 * p0, MethodInfo* method);
-#define m22074(__this, p0, method) (( void (*) (t3591 *, t121 *, MethodInfo*))m22074_gshared)(__this, p0, method)
-extern "C" t9 * m22075_gshared (t3591 * __this, MethodInfo* method);
-#define m22075(__this, method) (( t9 * (*) (t3591 *, MethodInfo*))m22075_gshared)(__this, method)
-extern "C" void m22076_gshared (t3591 * __this, MethodInfo* method);
-#define m22076(__this, method) (( void (*) (t3591 *, MethodInfo*))m22076_gshared)(__this, method)
-extern "C" bool m22077_gshared (t3591 * __this, MethodInfo* method);
-#define m22077(__this, method) (( bool (*) (t3591 *, MethodInfo*))m22077_gshared)(__this, method)
-extern "C" t3590  m22078_gshared (t3591 * __this, MethodInfo* method);
-#define m22078(__this, method) (( t3590  (*) (t3591 *, MethodInfo*))m22078_gshared)(__this, method)
+extern "C" void m21983_gshared (t3591 * __this, t9 * p0, t58 p1, MethodInfo* method);
+#define m21983(__this, p0, p1, method) (( void (*) (t3591 *, t9 *, t58, MethodInfo*))m21983_gshared)(__this, p0, p1, method)
+extern "C" t3579  m21984_gshared (t3591 * __this, uint64_t p0, t9 * p1, MethodInfo* method);
+#define m21984(__this, p0, p1, method) (( t3579  (*) (t3591 *, uint64_t, t9 *, MethodInfo*))m21984_gshared)(__this, p0, p1, method)
+extern "C" t9 * m21985_gshared (t3591 * __this, uint64_t p0, t9 * p1, t470 * p2, t9 * p3, MethodInfo* method);
+#define m21985(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3591 *, uint64_t, t9 *, t470 *, t9 *, MethodInfo*))m21985_gshared)(__this, p0, p1, p2, p3, method)
+extern "C" t3579  m21986_gshared (t3591 * __this, t9 * p0, MethodInfo* method);
+#define m21986(__this, p0, method) (( t3579  (*) (t3591 *, t9 *, MethodInfo*))m21986_gshared)(__this, p0, method)

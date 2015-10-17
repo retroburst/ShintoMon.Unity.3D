@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t449;
-struct t450;
-#include "t451.h"
-#include "t442.h"
-#include "t443.h"
-struct  t27  : public t451
+struct t456;
+struct t457;
+#include "t458.h"
+#include "t449.h"
+#include "t450.h"
+struct  t27  : public t458
 {
-	t449 * f23;
-	t449 * f24;
+	t456 * f23;
+	t456 * f24;
 	int32_t f25;
 	bool f26;
 	bool f27;
@@ -19,8 +19,8 @@ struct  t27  : public t451
 	float f32;
 };
 struct t27_SFs{
-	t450* f33;
-	t450* f34;
-	t450* f35;
-	t450* f36;
+	t457* f33;
+	t457* f34;
+	t457* f35;
+	t457* f36;
 };

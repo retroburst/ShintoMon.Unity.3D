@@ -6,11 +6,10 @@
 
 struct t3370;
 struct t9;
-struct t700;
+struct t515;
 
-#include "t2968MD.h"
-#define m19739(__this, p0, method) (( void (*) (t3370 *, t700 *, MethodInfo*))m15537_gshared)(__this, p0, method)
-#define m19740(__this, method) (( t9 * (*) (t3370 *, MethodInfo*))m15538_gshared)(__this, method)
-#define m19741(__this, method) (( void (*) (t3370 *, MethodInfo*))m15539_gshared)(__this, method)
-#define m19742(__this, method) (( bool (*) (t3370 *, MethodInfo*))m15540_gshared)(__this, method)
-#define m19743(__this, method) (( int32_t (*) (t3370 *, MethodInfo*))m15541_gshared)(__this, method)
+#include "t2768MD.h"
+#define m19632(__this, method) (( void (*) (t3370 *, MethodInfo*))m13556_gshared)(__this, method)
+#define m19633(__this , method) (( void (*) (t9 * , MethodInfo*))m13557_gshared)(__this , method)
+#define m19634(__this, p0, p1, method) (( int32_t (*) (t3370 *, t9 *, t9 *, MethodInfo*))m13558_gshared)(__this, p0, p1, method)
+#define m19635(__this , method) (( t3370 * (*) (t9 * , MethodInfo*))m13559_gshared)(__this , method)

@@ -5,16 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3236;
-struct t9;
-struct t429;
-struct t581;
-struct t462;
-struct t463;
-#include "t58.h"
-#include "t1155.h"
+#include "t459.h"
 
-#include "t2687MD.h"
-#define m18697(__this, p0, p1, method) (( void (*) (t3236 *, t9 *, t58, MethodInfo*))m13059_gshared)(__this, p0, p1, method)
-#define m18698(__this, p0, p1, method) (( t1155  (*) (t3236 *, t429 *, t581 *, MethodInfo*))m13060_gshared)(__this, p0, p1, method)
-#define m18699(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3236 *, t429 *, t581 *, t463 *, t9 *, MethodInfo*))m13061_gshared)(__this, p0, p1, p2, p3, method)
-#define m18700(__this, p0, method) (( t1155  (*) (t3236 *, t9 *, MethodInfo*))m13062_gshared)(__this, p0, method)
+extern "C" void m18299_gshared (t3236 * __this, MethodInfo* method);
+#define m18299(__this, method) (( void (*) (t3236 *, MethodInfo*))m18299_gshared)(__this, method)
+extern "C" int32_t m18300_gshared (t3236 * __this, t459  p0, MethodInfo* method);
+#define m18300(__this, p0, method) (( int32_t (*) (t3236 *, t459 , MethodInfo*))m18300_gshared)(__this, p0, method)
+extern "C" bool m18301_gshared (t3236 * __this, t459  p0, t459  p1, MethodInfo* method);
+#define m18301(__this, p0, p1, method) (( bool (*) (t3236 *, t459 , t459 , MethodInfo*))m18301_gshared)(__this, p0, p1, method)

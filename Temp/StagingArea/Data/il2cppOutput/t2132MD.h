@@ -6,3 +6,4 @@
 
 struct t2132;
 
+extern "C" void m11612 (t2132 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

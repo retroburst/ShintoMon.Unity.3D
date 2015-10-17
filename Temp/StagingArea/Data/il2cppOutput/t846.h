@@ -1,9 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t9.h"
-struct  t846  : public t9
+#include "t725.h"
+struct  t846  : public t725
 {
-	float f0;
-	float f1;
-	bool f2;
 };

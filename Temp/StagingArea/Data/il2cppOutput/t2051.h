@@ -1,7 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t1704.h"
-struct  t2051  : public t1704
+struct t2051;
+#include "t9.h"
+struct  t2051  : public t9
 {
-	int32_t f2;
+};
+struct t2051_SFs{
+	t2051 * f0;
+	t2051 * f1;
+	t2051 * f2;
 };

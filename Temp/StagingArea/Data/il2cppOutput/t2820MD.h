@@ -5,8 +5,12 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t2820;
+struct t9;
+struct t41;
 
-#include "t2799MD.h"
-#define m14000(__this, method) (( void (*) (t2820 *, MethodInfo*))m13874_gshared)(__this, method)
-#define m14001(__this, p0, method) (( int32_t (*) (t2820 *, bool, MethodInfo*))m13875_gshared)(__this, p0, method)
-#define m14002(__this, p0, p1, method) (( bool (*) (t2820 *, bool, bool, MethodInfo*))m13876_gshared)(__this, p0, p1, method)
+#include "t2802MD.h"
+#define m13985(__this, p0, method) (( void (*) (t2820 *, t41 *, MethodInfo*))m13871_gshared)(__this, p0, method)
+#define m13986(__this, method) (( t9 * (*) (t2820 *, MethodInfo*))m13872_gshared)(__this, method)
+#define m13987(__this, method) (( void (*) (t2820 *, MethodInfo*))m13873_gshared)(__this, method)
+#define m13988(__this, method) (( bool (*) (t2820 *, MethodInfo*))m13874_gshared)(__this, method)
+#define m13989(__this, method) (( bool (*) (t2820 *, MethodInfo*))m13875_gshared)(__this, method)

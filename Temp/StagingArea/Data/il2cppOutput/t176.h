@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t679.h"
-struct  t176  : public t679
+#include "t686.h"
+struct  t176  : public t686
 {
 	float f0;
 };

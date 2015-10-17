@@ -5,7 +5,4 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t1579;
-struct t9;
 
-extern "C" bool m7812 (t1579 * __this, t9 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" int32_t m7813 (t1579 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

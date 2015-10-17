@@ -1,13 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t304;
-#include "t9.h"
-struct  t303  : public t9
+#include "t117.h"
+struct  t303 
 {
-	t304* f1;
-	int32_t f2;
-	int32_t f3;
+	uint16_t f2;
 };
 struct t303_SFs{
-	t304* f4;
+	uint8_t* f3;
+	uint8_t* f4;
+	double* f5;
+	uint16_t* f6;
+	uint16_t* f7;
+	uint16_t* f8;
+	uint16_t* f9;
 };

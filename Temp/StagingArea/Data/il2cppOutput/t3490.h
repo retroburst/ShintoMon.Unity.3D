@@ -1,12 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t3481;
-#include "t117.h"
-#include "t3483.h"
-struct  t3490 
+#include "t3489.h"
+struct  t3490  : public t3489
 {
-	t3481 * f0;
-	int32_t f1;
-	int32_t f2;
-	t3483  f3;
 };

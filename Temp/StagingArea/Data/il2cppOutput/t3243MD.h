@@ -6,12 +6,12 @@
 
 struct t3243;
 struct t9;
-struct t424;
-struct t579;
+struct t440;
+struct t3229;
 
-#include "t3130MD.h"
-#define m18567(__this, p0, method) (( void (*) (t3243 *, t579 *, MethodInfo*))m17305_gshared)(__this, p0, method)
-#define m18568(__this, method) (( t9 * (*) (t3243 *, MethodInfo*))m17306_gshared)(__this, method)
-#define m18569(__this, method) (( void (*) (t3243 *, MethodInfo*))m17307_gshared)(__this, method)
-#define m18570(__this, method) (( bool (*) (t3243 *, MethodInfo*))m17308_gshared)(__this, method)
-#define m18571(__this, method) (( t424 * (*) (t3243 *, MethodInfo*))m17309_gshared)(__this, method)
+#include "t3068MD.h"
+#define m18325(__this, p0, method) (( void (*) (t3243 *, t3229 *, MethodInfo*))m16400_gshared)(__this, p0, method)
+#define m18326(__this, method) (( t9 * (*) (t3243 *, MethodInfo*))m16401_gshared)(__this, method)
+#define m18327(__this, method) (( void (*) (t3243 *, MethodInfo*))m16402_gshared)(__this, method)
+#define m18328(__this, method) (( bool (*) (t3243 *, MethodInfo*))m16403_gshared)(__this, method)
+#define m18329(__this, method) (( t440 * (*) (t3243 *, MethodInfo*))m16404_gshared)(__this, method)

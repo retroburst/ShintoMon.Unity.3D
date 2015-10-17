@@ -1,10 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t257;
-struct t462;
-struct t463;
-struct t9;
-#include "t464.h"
-struct  t2930  : public t464
+struct t262;
+struct t258;
+#include "t117.h"
+struct  t2930 
 {
+	t262 * f0;
+	int32_t f1;
+	int32_t f2;
+	t258 * f3;
 };

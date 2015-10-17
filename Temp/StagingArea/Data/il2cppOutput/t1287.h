@@ -1,8 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t8.h"
-#include "t1287.h"
-struct  t1287 
+struct t1160;
+struct t311;
+struct t221;
+#include "t9.h"
+struct  t1287  : public t9
 {
-	int32_t f1;
+	t9 * f0;
+	t311* f1;
+	t221* f2;
+	int32_t f3;
 };

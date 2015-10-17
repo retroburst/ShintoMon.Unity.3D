@@ -1,15 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t424;
-struct t509;
-struct t506;
-#include "t320.h"
-#include "t505.h"
-struct  t508  : public t320
+struct t40;
+#include "t9.h"
+struct  t508  : public t9
 {
-	int32_t f16;
-	t424 * f17;
-	t509 * f18;
-	t506 * f19;
-	bool f20;
+	t40 * f0;
+	t40 * f1;
+	int32_t f2;
+	int32_t f3;
 };

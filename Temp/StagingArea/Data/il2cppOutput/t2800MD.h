@@ -5,13 +5,16 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t2800;
-struct t39;
-struct t2;
+struct t9;
+struct t469;
+struct t470;
+#include "t58.h"
 
-#include "t2783MD.h"
-#define m13877(__this, p0, p1, method) (( void (*) (t2800 *, t39 *, bool, MethodInfo*))m13768_gshared)(__this, p0, p1, method)
-#define m13878(__this, method) (( t39 * (*) (t2800 *, MethodInfo*))m13769_gshared)(__this, method)
-#define m13879(__this, p0, method) (( void (*) (t2800 *, t39 *, MethodInfo*))m13770_gshared)(__this, p0, method)
-#define m13880(__this, method) (( bool (*) (t2800 *, MethodInfo*))m13771_gshared)(__this, method)
-#define m13881(__this, p0, method) (( void (*) (t2800 *, bool, MethodInfo*))m13772_gshared)(__this, p0, method)
-#define m13882(__this, method) (( t2* (*) (t2800 *, MethodInfo*))m13773_gshared)(__this, method)
+extern "C" void m13853_gshared (t2800 * __this, t9 * p0, t58 p1, MethodInfo* method);
+#define m13853(__this, p0, p1, method) (( void (*) (t2800 *, t9 *, t58, MethodInfo*))m13853_gshared)(__this, p0, p1, method)
+extern "C" t9 * m13854_gshared (t2800 * __this, t9 * p0, uint8_t p1, MethodInfo* method);
+#define m13854(__this, p0, p1, method) (( t9 * (*) (t2800 *, t9 *, uint8_t, MethodInfo*))m13854_gshared)(__this, p0, p1, method)
+extern "C" t9 * m13855_gshared (t2800 * __this, t9 * p0, uint8_t p1, t470 * p2, t9 * p3, MethodInfo* method);
+#define m13855(__this, p0, p1, p2, p3, method) (( t9 * (*) (t2800 *, t9 *, uint8_t, t470 *, t9 *, MethodInfo*))m13855_gshared)(__this, p0, p1, p2, p3, method)
+extern "C" t9 * m13856_gshared (t2800 * __this, t9 * p0, MethodInfo* method);
+#define m13856(__this, p0, method) (( t9 * (*) (t2800 *, t9 *, MethodInfo*))m13856_gshared)(__this, p0, method)

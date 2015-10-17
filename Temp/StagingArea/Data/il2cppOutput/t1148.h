@@ -1,11 +1,10 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t1149;
-struct t1150;
-#include "t9.h"
-struct  t1148  : public t9
+#include "t725.h"
+#include "t1694.h"
+struct  t1148  : public t725
 {
 	bool f0;
-	t1149 * f1;
-	t1150 * f2;
+	bool f1;
+	int32_t f2;
 };

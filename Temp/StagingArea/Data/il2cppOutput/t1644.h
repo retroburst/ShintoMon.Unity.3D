@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t2;
-struct t1635;
+struct t730;
+struct t1170;
 #include "t9.h"
 struct  t1644  : public t9
 {
-	t2* f0;
-	bool f1;
-	t1635 * f2;
+	uint8_t f0;
+	t730* f1;
+	t1170 * f2;
 };

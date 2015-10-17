@@ -1,8 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t8.h"
-#include "t2086.h"
-struct  t2086 
+#include "t9.h"
+struct  t2086  : public t9
 {
-	int32_t f1;
+	bool f0;
 };

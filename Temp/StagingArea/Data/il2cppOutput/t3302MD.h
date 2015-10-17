@@ -6,13 +6,16 @@
 
 struct t3302;
 struct t9;
-struct t571;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t121;
+#include "t593.h"
 
-#include "t2758MD.h"
-#define m19085(__this, p0, p1, method) (( void (*) (t3302 *, t9 *, t58, MethodInfo*))m13520_gshared)(__this, p0, p1, method)
-#define m19086(__this, p0, method) (( bool (*) (t3302 *, t571 *, MethodInfo*))m13521_gshared)(__this, p0, method)
-#define m19087(__this, p0, p1, p2, method) (( t9 * (*) (t3302 *, t571 *, t463 *, t9 *, MethodInfo*))m13522_gshared)(__this, p0, p1, p2, method)
-#define m19088(__this, p0, method) (( bool (*) (t3302 *, t9 *, MethodInfo*))m13523_gshared)(__this, p0, method)
+extern "C" void m18941_gshared (t3302 * __this, t121 * p0, MethodInfo* method);
+#define m18941(__this, p0, method) (( void (*) (t3302 *, t121 *, MethodInfo*))m18941_gshared)(__this, p0, method)
+extern "C" t9 * m18942_gshared (t3302 * __this, MethodInfo* method);
+#define m18942(__this, method) (( t9 * (*) (t3302 *, MethodInfo*))m18942_gshared)(__this, method)
+extern "C" void m18943_gshared (t3302 * __this, MethodInfo* method);
+#define m18943(__this, method) (( void (*) (t3302 *, MethodInfo*))m18943_gshared)(__this, method)
+extern "C" bool m18944_gshared (t3302 * __this, MethodInfo* method);
+#define m18944(__this, method) (( bool (*) (t3302 *, MethodInfo*))m18944_gshared)(__this, method)
+extern "C" t593  m18945_gshared (t3302 * __this, MethodInfo* method);
+#define m18945(__this, method) (( t593  (*) (t3302 *, MethodInfo*))m18945_gshared)(__this, method)

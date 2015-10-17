@@ -6,12 +6,10 @@
 
 struct t3180;
 struct t9;
-struct t569;
-struct t121;
+struct t421;
 
-#include "t2675MD.h"
-#define m17854(__this, p0, method) (( void (*) (t3180 *, t121 *, MethodInfo*))m12790_gshared)(__this, p0, method)
-#define m17855(__this, method) (( t9 * (*) (t3180 *, MethodInfo*))m12792_gshared)(__this, method)
-#define m17856(__this, method) (( void (*) (t3180 *, MethodInfo*))m12794_gshared)(__this, method)
-#define m17857(__this, method) (( bool (*) (t3180 *, MethodInfo*))m12796_gshared)(__this, method)
-#define m17858(__this, method) (( t569 * (*) (t3180 *, MethodInfo*))m12798_gshared)(__this, method)
+#include "t2768MD.h"
+#define m17709(__this, method) (( void (*) (t3180 *, MethodInfo*))m13556_gshared)(__this, method)
+#define m17710(__this , method) (( void (*) (t9 * , MethodInfo*))m13557_gshared)(__this , method)
+#define m17711(__this, p0, p1, method) (( int32_t (*) (t3180 *, t9 *, t9 *, MethodInfo*))m13558_gshared)(__this, p0, p1, method)
+#define m17712(__this , method) (( t3180 * (*) (t9 * , MethodInfo*))m13559_gshared)(__this , method)

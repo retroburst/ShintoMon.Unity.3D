@@ -6,11 +6,16 @@
 
 struct t3452;
 struct t9;
-struct t744;
+struct t469;
+struct t470;
+#include "t58.h"
+#include "t3442.h"
 
-#include "t2166MD.h"
-#define m20657(__this, method) (( void (*) (t3452 *, MethodInfo*))m13078_gshared)(__this, method)
-#define m20658(__this , method) (( void (*) (t9 * , MethodInfo*))m13079_gshared)(__this , method)
-#define m20659(__this, p0, method) (( int32_t (*) (t3452 *, t9 *, MethodInfo*))m13080_gshared)(__this, p0, method)
-#define m20660(__this, p0, p1, method) (( bool (*) (t3452 *, t9 *, t9 *, MethodInfo*))m13081_gshared)(__this, p0, p1, method)
-#define m20661(__this , method) (( t3452 * (*) (t9 * , MethodInfo*))m13082_gshared)(__this , method)
+extern "C" void m20431_gshared (t3452 * __this, t9 * p0, t58 p1, MethodInfo* method);
+#define m20431(__this, p0, p1, method) (( void (*) (t3452 *, t9 *, t58, MethodInfo*))m20431_gshared)(__this, p0, p1, method)
+extern "C" t3442  m20433_gshared (t3452 * __this, t9 * p0, int32_t p1, MethodInfo* method);
+#define m20433(__this, p0, p1, method) (( t3442  (*) (t3452 *, t9 *, int32_t, MethodInfo*))m20433_gshared)(__this, p0, p1, method)
+extern "C" t9 * m20435_gshared (t3452 * __this, t9 * p0, int32_t p1, t470 * p2, t9 * p3, MethodInfo* method);
+#define m20435(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3452 *, t9 *, int32_t, t470 *, t9 *, MethodInfo*))m20435_gshared)(__this, p0, p1, p2, p3, method)
+extern "C" t3442  m20437_gshared (t3452 * __this, t9 * p0, MethodInfo* method);
+#define m20437(__this, p0, method) (( t3442  (*) (t3452 *, t9 *, MethodInfo*))m20437_gshared)(__this, p0, method)

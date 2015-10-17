@@ -6,15 +6,14 @@
 
 struct t3542;
 struct t9;
-struct t789;
-struct t462;
-struct t463;
+struct t2;
+struct t469;
+struct t470;
 #include "t58.h"
-#include "t1155.h"
-#include "t777.h"
+#include "t3533.h"
 
-#include "t3545MD.h"
-#define m21880(__this, p0, p1, method) (( void (*) (t3542 *, t9 *, t58, MethodInfo*))m21776_gshared)(__this, p0, p1, method)
-#define m21881(__this, p0, p1, method) (( t1155  (*) (t3542 *, uint64_t, t789 *, MethodInfo*))m21777_gshared)(__this, p0, p1, method)
-#define m21882(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3542 *, uint64_t, t789 *, t463 *, t9 *, MethodInfo*))m21778_gshared)(__this, p0, p1, p2, p3, method)
-#define m21883(__this, p0, method) (( t1155  (*) (t3542 *, t9 *, MethodInfo*))m21779_gshared)(__this, p0, method)
+#include "t3543MD.h"
+#define m21472(__this, p0, p1, method) (( void (*) (t3542 *, t9 *, t58, MethodInfo*))m21473_gshared)(__this, p0, p1, method)
+#define m21474(__this, p0, p1, method) (( t3533  (*) (t3542 *, t2*, int64_t, MethodInfo*))m21475_gshared)(__this, p0, p1, method)
+#define m21476(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3542 *, t2*, int64_t, t470 *, t9 *, MethodInfo*))m21477_gshared)(__this, p0, p1, p2, p3, method)
+#define m21478(__this, p0, method) (( t3533  (*) (t3542 *, t9 *, MethodInfo*))m21479_gshared)(__this, p0, method)

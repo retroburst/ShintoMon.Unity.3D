@@ -13,13 +13,13 @@ struct t138;
 typedef t138 Il2CppCodeGenException;
 #include "t127.h"
 typedef t127 Il2CppCodeGenRuntimeTypeHandle;
-#include "t306.h"
-typedef t306 Il2CppCodeGenRuntimeFieldHandle;
-#include "t1577.h"
-typedef t1577 Il2CppCodeGenRuntimeArgumentHandle;
-#include "t1749.h"
-typedef t1749 Il2CppCodeGenRuntimeMethodHandle;
-struct t315;
-typedef t315 Il2CppCodeGenStringBuilder;
-struct t464;
-typedef t464 Il2CppCodeGenMulticastDelegate;
+#include "t313.h"
+typedef t313 Il2CppCodeGenRuntimeFieldHandle;
+#include "t1586.h"
+typedef t1586 Il2CppCodeGenRuntimeArgumentHandle;
+#include "t1758.h"
+typedef t1758 Il2CppCodeGenRuntimeMethodHandle;
+struct t322;
+typedef t322 Il2CppCodeGenStringBuilder;
+struct t471;
+typedef t471 Il2CppCodeGenMulticastDelegate;

@@ -1,8 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t158;
-#include "t3324.h"
-struct  t934  : public t3324
+struct t1206;
+#include "t117.h"
+struct  t934 
 {
-	t158* f1;
+	t1206* f0;
+};
+// Native definition for marshalling of: System.Reflection.ParameterModifier
+struct t934_marshaled
+{
+	int32_t* f0;
 };

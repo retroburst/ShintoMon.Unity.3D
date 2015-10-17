@@ -6,12 +6,31 @@
 
 struct t2714;
 struct t9;
-struct t2411;
-struct t121;
+struct t2694;
+#include "t1164.h"
+#include "t2697.h"
 
-#include "t2675MD.h"
-#define m13093(__this, p0, method) (( void (*) (t2714 *, t121 *, MethodInfo*))m12790_gshared)(__this, p0, method)
-#define m13094(__this, method) (( t9 * (*) (t2714 *, MethodInfo*))m12792_gshared)(__this, method)
-#define m13095(__this, method) (( void (*) (t2714 *, MethodInfo*))m12794_gshared)(__this, method)
-#define m13096(__this, method) (( bool (*) (t2714 *, MethodInfo*))m12796_gshared)(__this, method)
-#define m13097(__this, method) (( t9 * (*) (t2714 *, MethodInfo*))m12798_gshared)(__this, method)
+extern "C" void m13052_gshared (t2714 * __this, t2694 * p0, MethodInfo* method);
+#define m13052(__this, p0, method) (( void (*) (t2714 *, t2694 *, MethodInfo*))m13052_gshared)(__this, p0, method)
+extern "C" t9 * m13053_gshared (t2714 * __this, MethodInfo* method);
+#define m13053(__this, method) (( t9 * (*) (t2714 *, MethodInfo*))m13053_gshared)(__this, method)
+extern "C" t1164  m13054_gshared (t2714 * __this, MethodInfo* method);
+#define m13054(__this, method) (( t1164  (*) (t2714 *, MethodInfo*))m13054_gshared)(__this, method)
+extern "C" t9 * m13055_gshared (t2714 * __this, MethodInfo* method);
+#define m13055(__this, method) (( t9 * (*) (t2714 *, MethodInfo*))m13055_gshared)(__this, method)
+extern "C" t9 * m13056_gshared (t2714 * __this, MethodInfo* method);
+#define m13056(__this, method) (( t9 * (*) (t2714 *, MethodInfo*))m13056_gshared)(__this, method)
+extern "C" bool m13057_gshared (t2714 * __this, MethodInfo* method);
+#define m13057(__this, method) (( bool (*) (t2714 *, MethodInfo*))m13057_gshared)(__this, method)
+extern "C" t2697  m13058_gshared (t2714 * __this, MethodInfo* method);
+#define m13058(__this, method) (( t2697  (*) (t2714 *, MethodInfo*))m13058_gshared)(__this, method)
+extern "C" t9 * m13059_gshared (t2714 * __this, MethodInfo* method);
+#define m13059(__this, method) (( t9 * (*) (t2714 *, MethodInfo*))m13059_gshared)(__this, method)
+extern "C" t9 * m13060_gshared (t2714 * __this, MethodInfo* method);
+#define m13060(__this, method) (( t9 * (*) (t2714 *, MethodInfo*))m13060_gshared)(__this, method)
+extern "C" void m13061_gshared (t2714 * __this, MethodInfo* method);
+#define m13061(__this, method) (( void (*) (t2714 *, MethodInfo*))m13061_gshared)(__this, method)
+extern "C" void m13062_gshared (t2714 * __this, MethodInfo* method);
+#define m13062(__this, method) (( void (*) (t2714 *, MethodInfo*))m13062_gshared)(__this, method)
+extern "C" void m13063_gshared (t2714 * __this, MethodInfo* method);
+#define m13063(__this, method) (( void (*) (t2714 *, MethodInfo*))m13063_gshared)(__this, method)

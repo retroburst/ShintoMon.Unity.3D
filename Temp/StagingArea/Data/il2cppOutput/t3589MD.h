@@ -6,13 +6,15 @@
 
 struct t3589;
 struct t9;
-struct t801;
-#include "t1155.h"
+struct t3576;
 
-#include "t2711MD.h"
-#define m22062(__this, p0, method) (( void (*) (t3589 *, t801 *, MethodInfo*))m13072_gshared)(__this, p0, method)
-#define m22063(__this, method) (( bool (*) (t3589 *, MethodInfo*))m13073_gshared)(__this, method)
-#define m22064(__this, method) (( t1155  (*) (t3589 *, MethodInfo*))m13074_gshared)(__this, method)
-#define m22065(__this, method) (( t9 * (*) (t3589 *, MethodInfo*))m13075_gshared)(__this, method)
-#define m22066(__this, method) (( t9 * (*) (t3589 *, MethodInfo*))m13076_gshared)(__this, method)
-#define m22067(__this, method) (( t9 * (*) (t3589 *, MethodInfo*))m13077_gshared)(__this, method)
+extern "C" void m21970_gshared (t3589 * __this, t3576 * p0, MethodInfo* method);
+#define m21970(__this, p0, method) (( void (*) (t3589 *, t3576 *, MethodInfo*))m21970_gshared)(__this, p0, method)
+extern "C" t9 * m21971_gshared (t3589 * __this, MethodInfo* method);
+#define m21971(__this, method) (( t9 * (*) (t3589 *, MethodInfo*))m21971_gshared)(__this, method)
+extern "C" void m21972_gshared (t3589 * __this, MethodInfo* method);
+#define m21972(__this, method) (( void (*) (t3589 *, MethodInfo*))m21972_gshared)(__this, method)
+extern "C" bool m21973_gshared (t3589 * __this, MethodInfo* method);
+#define m21973(__this, method) (( bool (*) (t3589 *, MethodInfo*))m21973_gshared)(__this, method)
+extern "C" t9 * m21974_gshared (t3589 * __this, MethodInfo* method);
+#define m21974(__this, method) (( t9 * (*) (t3589 *, MethodInfo*))m21974_gshared)(__this, method)

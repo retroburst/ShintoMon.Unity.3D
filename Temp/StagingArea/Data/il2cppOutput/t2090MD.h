@@ -6,10 +6,14 @@
 
 struct t2090;
 struct t9;
-struct t2;
+struct t1345;
+struct t2141;
+struct t469;
+struct t470;
+#include "t58.h"
 
-extern "C" void m11141 (t2090 * __this, t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t9 * m11142 (t2090 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m11143 (t2090 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" uint16_t m11144 (t2090 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m11145 (t2090 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m11951 (t2090 * __this, t9 * p0, t58 p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1345 * m11952 (t2090 * __this, t9 * p0, t2141 * p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1345 * pinvoke_delegate_wrapper_t2090(Il2CppObject* delegate, t9 * p0, t2141 * p1);
+extern "C" t9 * m11953 (t2090 * __this, t9 * p0, t2141 * p1, t470 * p2, t9 * p3, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1345 * m11954 (t2090 * __this, t9 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;

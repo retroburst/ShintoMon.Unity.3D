@@ -6,16 +6,13 @@
 
 struct t3475;
 struct t9;
-struct t462;
-struct t463;
+struct t730;
+struct t469;
+struct t470;
 #include "t58.h"
-#include "t586.h"
 
-extern "C" void m20965_gshared (t3475 * __this, t9 * p0, t58 p1, MethodInfo* method);
-#define m20965(__this, p0, p1, method) (( void (*) (t3475 *, t9 *, t58, MethodInfo*))m20965_gshared)(__this, p0, p1, method)
-extern "C" void m20966_gshared (t3475 * __this, t586  p0, MethodInfo* method);
-#define m20966(__this, p0, method) (( void (*) (t3475 *, t586 , MethodInfo*))m20966_gshared)(__this, p0, method)
-extern "C" t9 * m20967_gshared (t3475 * __this, t586  p0, t463 * p1, t9 * p2, MethodInfo* method);
-#define m20967(__this, p0, p1, p2, method) (( t9 * (*) (t3475 *, t586 , t463 *, t9 *, MethodInfo*))m20967_gshared)(__this, p0, p1, p2, method)
-extern "C" void m20968_gshared (t3475 * __this, t9 * p0, MethodInfo* method);
-#define m20968(__this, p0, method) (( void (*) (t3475 *, t9 *, MethodInfo*))m20968_gshared)(__this, p0, method)
+#include "t2779MD.h"
+#define m20714(__this, p0, p1, method) (( void (*) (t3475 *, t9 *, t58, MethodInfo*))m13607_gshared)(__this, p0, p1, method)
+#define m20715(__this, p0, p1, method) (( int32_t (*) (t3475 *, t730*, t730*, MethodInfo*))m13608_gshared)(__this, p0, p1, method)
+#define m20716(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3475 *, t730*, t730*, t470 *, t9 *, MethodInfo*))m13609_gshared)(__this, p0, p1, p2, p3, method)
+#define m20717(__this, p0, method) (( int32_t (*) (t3475 *, t9 *, MethodInfo*))m13610_gshared)(__this, p0, method)

@@ -6,12 +6,13 @@
 
 struct t3447;
 struct t9;
-struct t744;
-struct t121;
+struct t2;
+struct t469;
+struct t470;
+#include "t58.h"
 
-#include "t2675MD.h"
-#define m20580(__this, p0, method) (( void (*) (t3447 *, t121 *, MethodInfo*))m12790_gshared)(__this, p0, method)
-#define m20581(__this, method) (( t9 * (*) (t3447 *, MethodInfo*))m12792_gshared)(__this, method)
-#define m20582(__this, method) (( void (*) (t3447 *, MethodInfo*))m12794_gshared)(__this, method)
-#define m20583(__this, method) (( bool (*) (t3447 *, MethodInfo*))m12796_gshared)(__this, method)
-#define m20584(__this, method) (( t744 * (*) (t3447 *, MethodInfo*))m12798_gshared)(__this, method)
+#include "t3166MD.h"
+#define m20399(__this, p0, p1, method) (( void (*) (t3447 *, t9 *, t58, MethodInfo*))m17530_gshared)(__this, p0, p1, method)
+#define m20400(__this, p0, p1, method) (( t2* (*) (t3447 *, t2*, int32_t, MethodInfo*))m17531_gshared)(__this, p0, p1, method)
+#define m20401(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3447 *, t2*, int32_t, t470 *, t9 *, MethodInfo*))m17532_gshared)(__this, p0, p1, p2, p3, method)
+#define m20402(__this, p0, method) (( t2* (*) (t3447 *, t9 *, MethodInfo*))m17533_gshared)(__this, p0, method)

@@ -12,11 +12,11 @@ struct  t2158
 			{
 			};
 		};
-		uint8_t t2158__padding[256];
+		uint8_t t2158__padding[32];
 	};
 };
 #pragma pack(pop, tp)
-// Native definition for marshalling of: <PrivateImplementationDetails>/$ArrayType$256
+// Native definition for marshalling of: <PrivateImplementationDetails>/$ArrayType$32
 #pragma pack(push, tp, 1)
 struct t2158_marshaled
 {
@@ -28,7 +28,7 @@ struct t2158_marshaled
 			{
 			};
 		};
-		uint8_t t2158__padding[256];
+		uint8_t t2158__padding[32];
 	};
 };
 #pragma pack(pop, tp)

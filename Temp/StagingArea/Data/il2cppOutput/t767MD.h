@@ -5,12 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t767;
+struct t767_marshaled;
 struct t2;
-#include "t768.h"
-#include "t769.h"
 
-extern "C" void m3859 (t767 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" uint64_t m3860 (t767 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" uint64_t m3861 (t767 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" int32_t m3862 (t767 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t2* m3863 (t767 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m3819 (t767 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3820 (t767 * __this, t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m3821 (t767 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3822 (t767 * __this, t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+void t767_marshal(const t767& unmarshaled, t767_marshaled& marshaled);
+void t767_marshal_back(const t767_marshaled& marshaled, t767& unmarshaled);
+void t767_marshal_cleanup(t767_marshaled& marshaled);

@@ -1,10 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t9.h"
-struct  t679  : public t9
+struct t2;
+#include "t725.h"
+struct  t679  : public t725
 {
-};
-// Native definition for marshalling of: UnityEngine.YieldInstruction
-struct t679_marshaled
-{
+	t2* f0;
 };

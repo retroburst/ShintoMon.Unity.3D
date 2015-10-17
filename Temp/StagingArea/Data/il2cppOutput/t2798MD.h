@@ -5,10 +5,16 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t2798;
+struct t9;
+struct t2790;
 
-extern "C" void m13871_gshared (t2798 * __this, MethodInfo* method);
-#define m13871(__this, method) (( void (*) (t2798 *, MethodInfo*))m13871_gshared)(__this, method)
-extern "C" int32_t m13872_gshared (t2798 * __this, uint8_t p0, MethodInfo* method);
-#define m13872(__this, p0, method) (( int32_t (*) (t2798 *, uint8_t, MethodInfo*))m13872_gshared)(__this, p0, method)
-extern "C" bool m13873_gshared (t2798 * __this, uint8_t p0, uint8_t p1, MethodInfo* method);
-#define m13873(__this, p0, p1, method) (( bool (*) (t2798 *, uint8_t, uint8_t, MethodInfo*))m13873_gshared)(__this, p0, p1, method)
+extern "C" void m13836_gshared (t2798 * __this, t2790 * p0, MethodInfo* method);
+#define m13836(__this, p0, method) (( void (*) (t2798 *, t2790 *, MethodInfo*))m13836_gshared)(__this, p0, method)
+extern "C" t9 * m13837_gshared (t2798 * __this, MethodInfo* method);
+#define m13837(__this, method) (( t9 * (*) (t2798 *, MethodInfo*))m13837_gshared)(__this, method)
+extern "C" void m13838_gshared (t2798 * __this, MethodInfo* method);
+#define m13838(__this, method) (( void (*) (t2798 *, MethodInfo*))m13838_gshared)(__this, method)
+extern "C" bool m13839_gshared (t2798 * __this, MethodInfo* method);
+#define m13839(__this, method) (( bool (*) (t2798 *, MethodInfo*))m13839_gshared)(__this, method)
+extern "C" t9 * m13840_gshared (t2798 * __this, MethodInfo* method);
+#define m13840(__this, method) (( t9 * (*) (t2798 *, MethodInfo*))m13840_gshared)(__this, method)

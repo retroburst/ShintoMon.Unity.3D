@@ -6,13 +6,12 @@
 
 struct t3902;
 struct t9;
-struct t2017;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t1752;
+struct t121;
 
-#include "t2758MD.h"
-#define m24633(__this, p0, p1, method) (( void (*) (t3902 *, t9 *, t58, MethodInfo*))m13520_gshared)(__this, p0, p1, method)
-#define m24634(__this, p0, method) (( bool (*) (t3902 *, t2017 *, MethodInfo*))m13521_gshared)(__this, p0, method)
-#define m24635(__this, p0, p1, p2, method) (( t9 * (*) (t3902 *, t2017 *, t463 *, t9 *, MethodInfo*))m13522_gshared)(__this, p0, p1, p2, method)
-#define m24636(__this, p0, method) (( bool (*) (t3902 *, t9 *, MethodInfo*))m13523_gshared)(__this, p0, method)
+#include "t2684MD.h"
+#define m24573(__this, p0, method) (( void (*) (t3902 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m24574(__this, method) (( t9 * (*) (t3902 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m24575(__this, method) (( void (*) (t3902 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m24576(__this, method) (( bool (*) (t3902 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m24577(__this, method) (( t1752 * (*) (t3902 *, MethodInfo*))m12826_gshared)(__this, method)

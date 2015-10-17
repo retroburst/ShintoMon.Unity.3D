@@ -5,13 +5,8 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3851;
-struct t9;
-struct t1690;
-struct t121;
 
-#include "t2675MD.h"
-#define m24280(__this, p0, method) (( void (*) (t3851 *, t121 *, MethodInfo*))m12790_gshared)(__this, p0, method)
-#define m24281(__this, method) (( t9 * (*) (t3851 *, MethodInfo*))m12792_gshared)(__this, method)
-#define m24282(__this, method) (( void (*) (t3851 *, MethodInfo*))m12794_gshared)(__this, method)
-#define m24283(__this, method) (( bool (*) (t3851 *, MethodInfo*))m12796_gshared)(__this, method)
-#define m24284(__this, method) (( t1690 * (*) (t3851 *, MethodInfo*))m12798_gshared)(__this, method)
+extern "C" void m24324_gshared (t3851 * __this, MethodInfo* method);
+#define m24324(__this, method) (( void (*) (t3851 *, MethodInfo*))m24324_gshared)(__this, method)
+extern "C" int32_t m24325_gshared (t3851 * __this, int32_t p0, int32_t p1, MethodInfo* method);
+#define m24325(__this, p0, p1, method) (( int32_t (*) (t3851 *, int32_t, int32_t, MethodInfo*))m24325_gshared)(__this, p0, p1, method)

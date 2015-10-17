@@ -9,10 +9,10 @@ struct t9;
 struct t158;
 struct t2;
 
-extern "C" void m7032 (t9 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m7033 (t9 * __this , t9 * p0, t9 * p1, t158** p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m7034 (t9 * __this , t9 * p0, t9 * p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m7060 (t9 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m7061 (t9 * __this , t9 * p0, t9 * p1, t158** p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m7062 (t9 * __this , t9 * p0, t9 * p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" bool m680 (t9 * __this, t9 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" int32_t m7035 (t9 * __this , t9 * p0, t158** p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m7063 (t9 * __this , t9 * p0, t158** p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" int32_t m681 (t9 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" t2* m682 (t9 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

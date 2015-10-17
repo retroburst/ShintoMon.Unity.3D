@@ -1,11 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t2;
-#include "t9.h"
-#include "t2141.h"
-struct  t2142  : public t9
+struct t1546;
+#include "t880.h"
+struct  t2142  : public t880
 {
-	t2* f0;
-	uint8_t f1;
-	t2* f2;
+	bool f4;
+	t1546 * f5;
 };

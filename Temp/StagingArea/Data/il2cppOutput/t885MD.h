@@ -5,18 +5,12 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t885;
-struct t9;
-struct t311;
+struct t2;
 
-extern "C" void m13448_gshared (t885 * __this, t311 * p0, MethodInfo* method);
-#define m13448(__this, p0, method) (( void (*) (t885 *, t311 *, MethodInfo*))m13448_gshared)(__this, p0, method)
-extern "C" t9 * m13449_gshared (t885 * __this, MethodInfo* method);
-#define m13449(__this, method) (( t9 * (*) (t885 *, MethodInfo*))m13449_gshared)(__this, method)
-extern "C" void m13450_gshared (t885 * __this, MethodInfo* method);
-#define m13450(__this, method) (( void (*) (t885 *, MethodInfo*))m13450_gshared)(__this, method)
-extern "C" void m13451_gshared (t885 * __this, MethodInfo* method);
-#define m13451(__this, method) (( void (*) (t885 *, MethodInfo*))m13451_gshared)(__this, method)
-extern "C" bool m13452_gshared (t885 * __this, MethodInfo* method);
-#define m13452(__this, method) (( bool (*) (t885 *, MethodInfo*))m13452_gshared)(__this, method)
-extern "C" t9 * m13453_gshared (t885 * __this, MethodInfo* method);
-#define m13453(__this, method) (( t9 * (*) (t885 *, MethodInfo*))m13453_gshared)(__this, method)
+#include "t2697MD.h"
+#define m20489(__this, p0, p1, method) (( void (*) (t885 *, t2*, t2*, MethodInfo*))m12957_gshared)(__this, p0, p1, method)
+#define m4285(__this, method) (( t2* (*) (t885 *, MethodInfo*))m12958_gshared)(__this, method)
+#define m20490(__this, p0, method) (( void (*) (t885 *, t2*, MethodInfo*))m12959_gshared)(__this, p0, method)
+#define m4286(__this, method) (( t2* (*) (t885 *, MethodInfo*))m12960_gshared)(__this, method)
+#define m20491(__this, p0, method) (( void (*) (t885 *, t2*, MethodInfo*))m12961_gshared)(__this, p0, method)
+#define m20492(__this, method) (( t2* (*) (t885 *, MethodInfo*))m12962_gshared)(__this, method)

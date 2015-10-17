@@ -1,9 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t39;
-#include "t117.h"
-struct  t2800 
+struct t9;
+struct t469;
+struct t470;
+#include "t575.h"
+#include "t471.h"
+extern TypeInfo t575_TI;
+struct  t2800  : public t471
 {
-	t39 * f0;
-	bool f1;
 };

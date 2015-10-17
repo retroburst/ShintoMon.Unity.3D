@@ -1,11 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t205;
-struct t462;
-struct t463;
+struct t279;
+struct t469;
+struct t470;
 struct t9;
-#include "t122.h"
-#include "t464.h"
-struct  t3002  : public t464
+#include "t305.h"
+#include "t471.h"
+extern TypeInfo t305_TI;
+struct  t3002  : public t471
 {
 };

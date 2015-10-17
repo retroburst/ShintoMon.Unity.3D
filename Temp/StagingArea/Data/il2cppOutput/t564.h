@@ -1,10 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t743;
-#include "t9.h"
-struct  t564  : public t9
+#include "t117.h"
+#include "t567.h"
+struct  t564 
 {
-};
-struct t564_SFs{
-	t743 * f0;
+	t567  f0;
 };

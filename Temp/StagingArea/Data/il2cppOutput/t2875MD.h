@@ -6,12 +6,13 @@
 
 struct t2875;
 struct t9;
-struct t424;
-struct t121;
+struct t59;
+struct t469;
+struct t470;
+#include "t58.h"
 
-#include "t2675MD.h"
-#define m14632(__this, p0, method) (( void (*) (t2875 *, t121 *, MethodInfo*))m12790_gshared)(__this, p0, method)
-#define m14633(__this, method) (( t9 * (*) (t2875 *, MethodInfo*))m12792_gshared)(__this, method)
-#define m14634(__this, method) (( void (*) (t2875 *, MethodInfo*))m12794_gshared)(__this, method)
-#define m14635(__this, method) (( bool (*) (t2875 *, MethodInfo*))m12796_gshared)(__this, method)
-#define m14636(__this, method) (( t424 * (*) (t2875 *, MethodInfo*))m12798_gshared)(__this, method)
+#include "t2767MD.h"
+#define m14621(__this, p0, p1, method) (( void (*) (t2875 *, t9 *, t58, MethodInfo*))m13548_gshared)(__this, p0, p1, method)
+#define m14622(__this, p0, method) (( bool (*) (t2875 *, t59 *, MethodInfo*))m13549_gshared)(__this, p0, method)
+#define m14623(__this, p0, p1, p2, method) (( t9 * (*) (t2875 *, t59 *, t470 *, t9 *, MethodInfo*))m13550_gshared)(__this, p0, p1, p2, method)
+#define m14624(__this, p0, method) (( bool (*) (t2875 *, t9 *, MethodInfo*))m13551_gshared)(__this, p0, method)

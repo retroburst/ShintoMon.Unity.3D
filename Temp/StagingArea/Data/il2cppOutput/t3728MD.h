@@ -5,15 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3728;
-struct t471;
-struct t471_marshaled;
-struct t2;
-#include "t852.h"
+struct t9;
+struct t826;
+struct t121;
 
-#include "t3127MD.h"
-#define m23341(__this, p0, p1, method) (( void (*) (t3728 *, t471 *, int32_t, MethodInfo*))m17280_gshared)(__this, p0, p1, method)
-#define m23342(__this, method) (( t471 * (*) (t3728 *, MethodInfo*))m17281_gshared)(__this, method)
-#define m23343(__this, p0, method) (( void (*) (t3728 *, t471 *, MethodInfo*))m17282_gshared)(__this, p0, method)
-#define m23344(__this, method) (( int32_t (*) (t3728 *, MethodInfo*))m17283_gshared)(__this, method)
-#define m23345(__this, p0, method) (( void (*) (t3728 *, int32_t, MethodInfo*))m17284_gshared)(__this, p0, method)
-#define m23346(__this, method) (( t2* (*) (t3728 *, MethodInfo*))m17285_gshared)(__this, method)
+#include "t2684MD.h"
+#define m23249(__this, p0, method) (( void (*) (t3728 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m23250(__this, method) (( t9 * (*) (t3728 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m23251(__this, method) (( void (*) (t3728 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m23252(__this, method) (( bool (*) (t3728 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m23253(__this, method) (( t826 * (*) (t3728 *, MethodInfo*))m12826_gshared)(__this, method)

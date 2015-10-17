@@ -5,8 +5,6 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t2068;
-struct t1093;
-#include "t1094.h"
 
-extern "C" void m11042 (t2068 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m11043 (t2068 * __this, t1093 * p0, t1094  p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m11016 (t9 * __this , int32_t* p0, int32_t p1, int32_t p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m11017 (t9 * __this , int32_t* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;

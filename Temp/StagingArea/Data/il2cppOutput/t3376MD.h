@@ -6,14 +6,12 @@
 
 struct t3376;
 struct t9;
-struct t697;
-struct t462;
-struct t463;
-#include "t58.h"
-#include "t3366.h"
+struct t434;
+struct t121;
 
-#include "t3377MD.h"
-#define m19787(__this, p0, p1, method) (( void (*) (t3376 *, t9 *, t58, MethodInfo*))m19788_gshared)(__this, p0, p1, method)
-#define m19789(__this, p0, p1, method) (( t3366  (*) (t3376 *, int32_t, t697 *, MethodInfo*))m19790_gshared)(__this, p0, p1, method)
-#define m19791(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3376 *, int32_t, t697 *, t463 *, t9 *, MethodInfo*))m19792_gshared)(__this, p0, p1, p2, p3, method)
-#define m19793(__this, p0, method) (( t3366  (*) (t3376 *, t9 *, MethodInfo*))m19794_gshared)(__this, p0, method)
+#include "t2684MD.h"
+#define m19698(__this, p0, method) (( void (*) (t3376 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m19699(__this, method) (( t9 * (*) (t3376 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m19700(__this, method) (( void (*) (t3376 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m19701(__this, method) (( bool (*) (t3376 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m19702(__this, method) (( t434 * (*) (t3376 *, MethodInfo*))m12826_gshared)(__this, method)

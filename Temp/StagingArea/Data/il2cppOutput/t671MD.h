@@ -7,4 +7,4 @@
 struct t671;
 struct t2;
 
-extern "C" void m3105 (t671 * __this, t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3122 (t671 * __this, t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;

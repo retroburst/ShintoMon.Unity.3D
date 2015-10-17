@@ -1,17 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t1625;
-struct t1632;
-#include "t1208.h"
-struct  t1339  : public t1208
+struct t1339;
+struct t901;
+#include "t9.h"
+struct  t1339  : public t9
 {
-	t1625 * f2;
-	bool f3;
-	bool f4;
-	bool f5;
-	bool f6;
-	t1632 * f7;
+	t901 * f2;
 };
 struct t1339_SFs{
-	bool f8;
+	t1339 * f0;
+	t1339 * f1;
 };

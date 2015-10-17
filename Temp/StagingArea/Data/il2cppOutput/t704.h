@@ -1,19 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t694;
-#include "t698.h"
-struct  t704  : public t698
+struct t705;
+struct t700;
+#include "t9.h"
+struct  t704  : public t9
 {
-	float f27;
-	float f28;
-	float f29;
-	float f30;
-	float f31;
-	float f32;
-	bool f33;
-	bool f34;
-	bool f35;
-	bool f36;
-	t694 * f37;
-	t694 * f38;
+	t705 * f0;
+	t700 * f1;
+	t705 * f2;
 };

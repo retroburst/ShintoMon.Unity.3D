@@ -6,16 +6,16 @@
 
 struct t2696;
 struct t9;
-struct t121;
-#include "t2688.h"
+struct t469;
+struct t470;
+#include "t58.h"
+#include "t1164.h"
 
-extern "C" void m12970_gshared (t2696 * __this, t121 * p0, MethodInfo* method);
-#define m12970(__this, p0, method) (( void (*) (t2696 *, t121 *, MethodInfo*))m12970_gshared)(__this, p0, method)
-extern "C" t9 * m12971_gshared (t2696 * __this, MethodInfo* method);
-#define m12971(__this, method) (( t9 * (*) (t2696 *, MethodInfo*))m12971_gshared)(__this, method)
-extern "C" void m12972_gshared (t2696 * __this, MethodInfo* method);
-#define m12972(__this, method) (( void (*) (t2696 *, MethodInfo*))m12972_gshared)(__this, method)
-extern "C" bool m12973_gshared (t2696 * __this, MethodInfo* method);
-#define m12973(__this, method) (( bool (*) (t2696 *, MethodInfo*))m12973_gshared)(__this, method)
-extern "C" t2688  m12974_gshared (t2696 * __this, MethodInfo* method);
-#define m12974(__this, method) (( t2688  (*) (t2696 *, MethodInfo*))m12974_gshared)(__this, method)
+extern "C" void m13087_gshared (t2696 * __this, t9 * p0, t58 p1, MethodInfo* method);
+#define m13087(__this, p0, p1, method) (( void (*) (t2696 *, t9 *, t58, MethodInfo*))m13087_gshared)(__this, p0, p1, method)
+extern "C" t1164  m13088_gshared (t2696 * __this, t9 * p0, t9 * p1, MethodInfo* method);
+#define m13088(__this, p0, p1, method) (( t1164  (*) (t2696 *, t9 *, t9 *, MethodInfo*))m13088_gshared)(__this, p0, p1, method)
+extern "C" t9 * m13089_gshared (t2696 * __this, t9 * p0, t9 * p1, t470 * p2, t9 * p3, MethodInfo* method);
+#define m13089(__this, p0, p1, p2, p3, method) (( t9 * (*) (t2696 *, t9 *, t9 *, t470 *, t9 *, MethodInfo*))m13089_gshared)(__this, p0, p1, p2, p3, method)
+extern "C" t1164  m13090_gshared (t2696 * __this, t9 * p0, MethodInfo* method);
+#define m13090(__this, p0, method) (( t1164  (*) (t2696 *, t9 *, MethodInfo*))m13090_gshared)(__this, p0, method)

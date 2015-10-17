@@ -6,16 +6,13 @@
 
 struct t3810;
 struct t9;
-struct t121;
-#include "t3809.h"
+struct t863;
+struct t469;
+struct t470;
+#include "t58.h"
 
-extern "C" void m24054_gshared (t3810 * __this, t121 * p0, MethodInfo* method);
-#define m24054(__this, p0, method) (( void (*) (t3810 *, t121 *, MethodInfo*))m24054_gshared)(__this, p0, method)
-extern "C" t9 * m24055_gshared (t3810 * __this, MethodInfo* method);
-#define m24055(__this, method) (( t9 * (*) (t3810 *, MethodInfo*))m24055_gshared)(__this, method)
-extern "C" void m24056_gshared (t3810 * __this, MethodInfo* method);
-#define m24056(__this, method) (( void (*) (t3810 *, MethodInfo*))m24056_gshared)(__this, method)
-extern "C" bool m24057_gshared (t3810 * __this, MethodInfo* method);
-#define m24057(__this, method) (( bool (*) (t3810 *, MethodInfo*))m24057_gshared)(__this, method)
-extern "C" t3809  m24058_gshared (t3810 * __this, MethodInfo* method);
-#define m24058(__this, method) (( t3809  (*) (t3810 *, MethodInfo*))m24058_gshared)(__this, method)
+#include "t2779MD.h"
+#define m23975(__this, p0, p1, method) (( void (*) (t3810 *, t9 *, t58, MethodInfo*))m13607_gshared)(__this, p0, p1, method)
+#define m23976(__this, p0, p1, method) (( int32_t (*) (t3810 *, t863 *, t863 *, MethodInfo*))m13608_gshared)(__this, p0, p1, method)
+#define m23977(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3810 *, t863 *, t863 *, t470 *, t9 *, MethodInfo*))m13609_gshared)(__this, p0, p1, p2, p3, method)
+#define m23978(__this, p0, method) (( int32_t (*) (t3810 *, t9 *, MethodInfo*))m13610_gshared)(__this, p0, method)

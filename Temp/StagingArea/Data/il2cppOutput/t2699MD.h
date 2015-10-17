@@ -6,12 +6,12 @@
 
 struct t2699;
 struct t9;
-struct t183;
+struct t184;
 struct t121;
 
-#include "t2675MD.h"
-#define m12985(__this, p0, method) (( void (*) (t2699 *, t121 *, MethodInfo*))m12790_gshared)(__this, p0, method)
-#define m12986(__this, method) (( t9 * (*) (t2699 *, MethodInfo*))m12792_gshared)(__this, method)
-#define m12987(__this, method) (( void (*) (t2699 *, MethodInfo*))m12794_gshared)(__this, method)
-#define m12988(__this, method) (( bool (*) (t2699 *, MethodInfo*))m12796_gshared)(__this, method)
-#define m12989(__this, method) (( t9 * (*) (t2699 *, MethodInfo*))m12798_gshared)(__this, method)
+#include "t2684MD.h"
+#define m12968(__this, p0, method) (( void (*) (t2699 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m12969(__this, method) (( t9 * (*) (t2699 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m12970(__this, method) (( void (*) (t2699 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m12971(__this, method) (( bool (*) (t2699 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m12972(__this, method) (( t9 * (*) (t2699 *, MethodInfo*))m12826_gshared)(__this, method)

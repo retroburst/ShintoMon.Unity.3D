@@ -5,9 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3911;
-#include "t269.h"
+struct t9;
+struct t2185;
+struct t121;
 
-extern "C" void m24671_gshared (t3911 * __this, MethodInfo* method);
-#define m24671(__this, method) (( void (*) (t3911 *, MethodInfo*))m24671_gshared)(__this, method)
-extern "C" int32_t m24672_gshared (t3911 * __this, t269  p0, t269  p1, MethodInfo* method);
-#define m24672(__this, p0, p1, method) (( int32_t (*) (t3911 *, t269 , t269 , MethodInfo*))m24672_gshared)(__this, p0, p1, method)
+#include "t2684MD.h"
+#define m24616(__this, p0, method) (( void (*) (t3911 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m24617(__this, method) (( t9 * (*) (t3911 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m24618(__this, method) (( void (*) (t3911 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m24619(__this, method) (( bool (*) (t3911 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m24620(__this, method) (( t9 * (*) (t3911 *, MethodInfo*))m12826_gshared)(__this, method)

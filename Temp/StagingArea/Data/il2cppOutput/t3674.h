@@ -1,27 +1,27 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t1088;
-struct t2506;
-struct t158;
-struct t3672;
-struct t2686;
-struct t1093;
+struct t1095;
+struct t2515;
+struct t152;
 struct t3675;
+struct t3643;
+struct t1100;
+struct t3676;
 #include "t9.h"
 struct  t3674  : public t9
 {
-	t1088* f4;
-	t2506* f5;
-	t158* f6;
-	t3672* f7;
+	t1095* f4;
+	t2515* f5;
+	t152* f6;
+	t3675* f7;
 	int32_t f8;
 	int32_t f9;
 	int32_t f10;
 	int32_t f11;
 	t9* f12;
-	t1093 * f13;
+	t1100 * f13;
 	int32_t f14;
 };
 struct t3674_SFs{
-	t3675 * f15;
+	t3676 * f15;
 };

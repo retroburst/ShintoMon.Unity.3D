@@ -6,9 +6,15 @@
 
 struct t1315;
 struct t2;
-struct t1149;
-struct t1303;
+struct t1312;
+struct t9;
 
-extern "C" void m5574 (t1315 * __this, bool p0, bool p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m5575 (t1315 * __this, t2* p0, t1149 * p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5576 (t1315 * __this, t9 * p0, bool p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5539 (t1315 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m5540 (t1315 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5541 (t1315 * __this, int32_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m5542 (t1315 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5543 (t1315 * __this, t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m5544 (t1315 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5545 (t1315 * __this, t9 * p0, bool p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m5546 (t1315 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m5547 (t1315 * __this, t9 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;

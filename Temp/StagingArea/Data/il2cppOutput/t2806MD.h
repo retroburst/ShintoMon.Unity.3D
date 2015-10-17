@@ -6,26 +6,14 @@
 
 struct t2806;
 struct t9;
-struct t41;
-struct t39;
-struct t3951;
-struct t121;
-struct t76;
-struct t731;
-#include "t2807.h"
 
-#include "t2788MD.h"
-#define m13908(__this, p0, method) (( void (*) (t2806 *, t41 *, MethodInfo*))m13794_gshared)(__this, p0, method)
-#define m13909(__this, p0, method) (( void (*) (t2806 *, t39 *, MethodInfo*))m13795_gshared)(__this, p0, method)
-#define m13910(__this, method) (( void (*) (t2806 *, MethodInfo*))m13796_gshared)(__this, method)
-#define m13911(__this, p0, method) (( bool (*) (t2806 *, t39 *, MethodInfo*))m13797_gshared)(__this, p0, method)
-#define m13912(__this, p0, method) (( bool (*) (t2806 *, t39 *, MethodInfo*))m13798_gshared)(__this, p0, method)
-#define m13913(__this, method) (( t9* (*) (t2806 *, MethodInfo*))m13799_gshared)(__this, method)
-#define m13914(__this, p0, p1, method) (( void (*) (t2806 *, t121 *, int32_t, MethodInfo*))m13800_gshared)(__this, p0, p1, method)
-#define m13915(__this, method) (( t9 * (*) (t2806 *, MethodInfo*))m13801_gshared)(__this, method)
-#define m13916(__this, method) (( bool (*) (t2806 *, MethodInfo*))m13802_gshared)(__this, method)
-#define m13917(__this, method) (( bool (*) (t2806 *, MethodInfo*))m13803_gshared)(__this, method)
-#define m13918(__this, method) (( t9 * (*) (t2806 *, MethodInfo*))m13804_gshared)(__this, method)
-#define m13919(__this, p0, p1, method) (( void (*) (t2806 *, t731*, int32_t, MethodInfo*))m13805_gshared)(__this, p0, p1, method)
-#define m13920(__this, method) (( t2807  (*) (t2806 *, MethodInfo*))m13806_gshared)(__this, method)
-#define m13921(__this, method) (( int32_t (*) (t2806 *, MethodInfo*))m13807_gshared)(__this, method)
+extern "C" void m13894_gshared (t2806 * __this, MethodInfo* method);
+#define m13894(__this, method) (( void (*) (t2806 *, MethodInfo*))m13894_gshared)(__this, method)
+extern "C" void m13895_gshared (t9 * __this , MethodInfo* method);
+#define m13895(__this , method) (( void (*) (t9 * , MethodInfo*))m13895_gshared)(__this , method)
+extern "C" int32_t m13896_gshared (t2806 * __this, t9 * p0, MethodInfo* method);
+#define m13896(__this, p0, method) (( int32_t (*) (t2806 *, t9 *, MethodInfo*))m13896_gshared)(__this, p0, method)
+extern "C" bool m13897_gshared (t2806 * __this, t9 * p0, t9 * p1, MethodInfo* method);
+#define m13897(__this, p0, p1, method) (( bool (*) (t2806 *, t9 *, t9 *, MethodInfo*))m13897_gshared)(__this, p0, p1, method)
+extern "C" t2806 * m13898_gshared (t9 * __this , MethodInfo* method);
+#define m13898(__this , method) (( t2806 * (*) (t9 * , MethodInfo*))m13898_gshared)(__this , method)

@@ -6,13 +6,12 @@
 
 struct t3220;
 struct t9;
-struct t429;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t576;
+struct t430;
 
-#include "t285MD.h"
-#define m18269(__this, p0, p1, method) (( void (*) (t3220 *, t9 *, t58, MethodInfo*))m13524_gshared)(__this, p0, p1, method)
-#define m18270(__this, p0, method) (( void (*) (t3220 *, t429 *, MethodInfo*))m13525_gshared)(__this, p0, method)
-#define m18271(__this, p0, p1, p2, method) (( t9 * (*) (t3220 *, t429 *, t463 *, t9 *, MethodInfo*))m13526_gshared)(__this, p0, p1, p2, method)
-#define m18272(__this, p0, method) (( void (*) (t3220 *, t9 *, MethodInfo*))m13527_gshared)(__this, p0, method)
+#include "t2717MD.h"
+#define m18116(__this, p0, method) (( void (*) (t3220 *, t430 *, MethodInfo*))m13082_gshared)(__this, p0, method)
+#define m18117(__this, method) (( t9 * (*) (t3220 *, MethodInfo*))m13083_gshared)(__this, method)
+#define m18118(__this, method) (( void (*) (t3220 *, MethodInfo*))m13084_gshared)(__this, method)
+#define m18119(__this, method) (( bool (*) (t3220 *, MethodInfo*))m13085_gshared)(__this, method)
+#define m18120(__this, method) (( t576 * (*) (t3220 *, MethodInfo*))m13086_gshared)(__this, method)

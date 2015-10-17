@@ -1,16 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t1149;
-struct t1196;
-struct t1197;
-#include "t1164.h"
-struct  t1176  : public t1164
+struct t1176;
+struct t2;
+#include "t725.h"
+struct  t1176  : public t725
 {
-	bool f15;
+	t2* f1;
 };
 struct t1176_SFs{
-	t1149 * f12;
-	t1149 * f13;
-	t1196 * f14;
-	t1197* f16;
+	t1176 * f0;
 };

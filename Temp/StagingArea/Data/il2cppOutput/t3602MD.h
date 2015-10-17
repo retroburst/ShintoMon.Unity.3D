@@ -6,16 +6,22 @@
 
 struct t3602;
 struct t9;
-struct t121;
-#include "t3601.h"
+struct t796;
+struct t799;
+#include "t1164.h"
+#include "t3596.h"
+#include "t784.h"
 
-extern "C" void m22141_gshared (t3602 * __this, t121 * p0, MethodInfo* method);
-#define m22141(__this, p0, method) (( void (*) (t3602 *, t121 *, MethodInfo*))m22141_gshared)(__this, p0, method)
-extern "C" t9 * m22142_gshared (t3602 * __this, MethodInfo* method);
-#define m22142(__this, method) (( t9 * (*) (t3602 *, MethodInfo*))m22142_gshared)(__this, method)
-extern "C" void m22143_gshared (t3602 * __this, MethodInfo* method);
-#define m22143(__this, method) (( void (*) (t3602 *, MethodInfo*))m22143_gshared)(__this, method)
-extern "C" bool m22144_gshared (t3602 * __this, MethodInfo* method);
-#define m22144(__this, method) (( bool (*) (t3602 *, MethodInfo*))m22144_gshared)(__this, method)
-extern "C" t3601  m22145_gshared (t3602 * __this, MethodInfo* method);
-#define m22145(__this, method) (( t3601  (*) (t3602 *, MethodInfo*))m22145_gshared)(__this, method)
+#include "t3586MD.h"
+#define m22044(__this, p0, method) (( void (*) (t3602 *, t799 *, MethodInfo*))m21940_gshared)(__this, p0, method)
+#define m22045(__this, method) (( t9 * (*) (t3602 *, MethodInfo*))m21941_gshared)(__this, method)
+#define m22046(__this, method) (( t1164  (*) (t3602 *, MethodInfo*))m21942_gshared)(__this, method)
+#define m22047(__this, method) (( t9 * (*) (t3602 *, MethodInfo*))m21943_gshared)(__this, method)
+#define m22048(__this, method) (( t9 * (*) (t3602 *, MethodInfo*))m21944_gshared)(__this, method)
+#define m22049(__this, method) (( bool (*) (t3602 *, MethodInfo*))m21945_gshared)(__this, method)
+#define m22050(__this, method) (( t3596  (*) (t3602 *, MethodInfo*))m21946_gshared)(__this, method)
+#define m22051(__this, method) (( uint64_t (*) (t3602 *, MethodInfo*))m21947_gshared)(__this, method)
+#define m22052(__this, method) (( t796 * (*) (t3602 *, MethodInfo*))m21948_gshared)(__this, method)
+#define m22053(__this, method) (( void (*) (t3602 *, MethodInfo*))m21949_gshared)(__this, method)
+#define m22054(__this, method) (( void (*) (t3602 *, MethodInfo*))m21950_gshared)(__this, method)
+#define m22055(__this, method) (( void (*) (t3602 *, MethodInfo*))m21951_gshared)(__this, method)

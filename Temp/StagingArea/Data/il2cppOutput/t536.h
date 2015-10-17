@@ -1,17 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t537;
-#include "t9.h"
-struct  t536  : public t9
+#include "t345.h"
+struct  t536  : public t345
 {
-};
-struct t536_SFs{
-	t537 * f0;
-	t537 * f1;
-	t537 * f2;
-	t537 * f3;
-	t537 * f4;
-	t537 * f5;
-	t537 * f6;
-	t537 * f7;
+	bool f2;
+	float f3;
+	float f4;
+	float f5;
+	float f6;
+	float f7;
+	float f8;
 };

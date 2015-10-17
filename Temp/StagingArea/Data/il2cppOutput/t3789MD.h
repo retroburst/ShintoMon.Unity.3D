@@ -5,16 +5,42 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3789;
+struct t866;
 struct t9;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t3790;
+struct t121;
+struct t76;
+struct t3787;
+struct t4186;
 
-extern "C" void m23834_gshared (t3789 * __this, t9 * p0, t58 p1, MethodInfo* method);
-#define m23834(__this, p0, p1, method) (( void (*) (t3789 *, t9 *, t58, MethodInfo*))m23834_gshared)(__this, p0, p1, method)
-extern "C" t9 * m23835_gshared (t3789 * __this, t9 * p0, MethodInfo* method);
-#define m23835(__this, p0, method) (( t9 * (*) (t3789 *, t9 *, MethodInfo*))m23835_gshared)(__this, p0, method)
-extern "C" t9 * m23836_gshared (t3789 * __this, t9 * p0, t463 * p1, t9 * p2, MethodInfo* method);
-#define m23836(__this, p0, p1, p2, method) (( t9 * (*) (t3789 *, t9 *, t463 *, t9 *, MethodInfo*))m23836_gshared)(__this, p0, p1, p2, method)
-extern "C" t9 * m23837_gshared (t3789 * __this, t9 * p0, MethodInfo* method);
-#define m23837(__this, p0, method) (( t9 * (*) (t3789 *, t9 *, MethodInfo*))m23837_gshared)(__this, p0, method)
+#include "t2765MD.h"
+#define m23742(__this, p0, method) (( void (*) (t3789 *, t9*, MethodInfo*))m13482_gshared)(__this, p0, method)
+#define m23743(__this, p0, method) (( void (*) (t3789 *, t866 *, MethodInfo*))m13483_gshared)(__this, p0, method)
+#define m23744(__this, method) (( void (*) (t3789 *, MethodInfo*))m13484_gshared)(__this, method)
+#define m23745(__this, p0, p1, method) (( void (*) (t3789 *, int32_t, t866 *, MethodInfo*))m13485_gshared)(__this, p0, p1, method)
+#define m23746(__this, p0, method) (( bool (*) (t3789 *, t866 *, MethodInfo*))m13486_gshared)(__this, p0, method)
+#define m23747(__this, p0, method) (( void (*) (t3789 *, int32_t, MethodInfo*))m13487_gshared)(__this, p0, method)
+#define m23748(__this, p0, method) (( t866 * (*) (t3789 *, int32_t, MethodInfo*))m13488_gshared)(__this, p0, method)
+#define m23749(__this, p0, p1, method) (( void (*) (t3789 *, int32_t, t866 *, MethodInfo*))m13489_gshared)(__this, p0, p1, method)
+#define m23750(__this, method) (( bool (*) (t3789 *, MethodInfo*))m13490_gshared)(__this, method)
+#define m23751(__this, p0, p1, method) (( void (*) (t3789 *, t121 *, int32_t, MethodInfo*))m13491_gshared)(__this, p0, p1, method)
+#define m23752(__this, method) (( t9 * (*) (t3789 *, MethodInfo*))m13492_gshared)(__this, method)
+#define m23753(__this, p0, method) (( int32_t (*) (t3789 *, t9 *, MethodInfo*))m13493_gshared)(__this, p0, method)
+#define m23754(__this, method) (( void (*) (t3789 *, MethodInfo*))m13494_gshared)(__this, method)
+#define m23755(__this, p0, method) (( bool (*) (t3789 *, t9 *, MethodInfo*))m13495_gshared)(__this, p0, method)
+#define m23756(__this, p0, method) (( int32_t (*) (t3789 *, t9 *, MethodInfo*))m13496_gshared)(__this, p0, method)
+#define m23757(__this, p0, p1, method) (( void (*) (t3789 *, int32_t, t9 *, MethodInfo*))m13497_gshared)(__this, p0, p1, method)
+#define m23758(__this, p0, method) (( void (*) (t3789 *, t9 *, MethodInfo*))m13498_gshared)(__this, p0, method)
+#define m23759(__this, p0, method) (( void (*) (t3789 *, int32_t, MethodInfo*))m13499_gshared)(__this, p0, method)
+#define m23760(__this, method) (( bool (*) (t3789 *, MethodInfo*))m13500_gshared)(__this, method)
+#define m23761(__this, method) (( t9 * (*) (t3789 *, MethodInfo*))m13501_gshared)(__this, method)
+#define m23762(__this, method) (( bool (*) (t3789 *, MethodInfo*))m13502_gshared)(__this, method)
+#define m23763(__this, method) (( bool (*) (t3789 *, MethodInfo*))m13503_gshared)(__this, method)
+#define m23764(__this, p0, method) (( t9 * (*) (t3789 *, int32_t, MethodInfo*))m13504_gshared)(__this, p0, method)
+#define m23765(__this, p0, p1, method) (( void (*) (t3789 *, int32_t, t9 *, MethodInfo*))m13505_gshared)(__this, p0, p1, method)
+#define m23766(__this, p0, method) (( bool (*) (t3789 *, t866 *, MethodInfo*))m13506_gshared)(__this, p0, method)
+#define m23767(__this, p0, p1, method) (( void (*) (t3789 *, t3787*, int32_t, MethodInfo*))m13507_gshared)(__this, p0, p1, method)
+#define m23768(__this, method) (( t9* (*) (t3789 *, MethodInfo*))m13508_gshared)(__this, method)
+#define m23769(__this, p0, method) (( int32_t (*) (t3789 *, t866 *, MethodInfo*))m13509_gshared)(__this, p0, method)
+#define m23770(__this, method) (( int32_t (*) (t3789 *, MethodInfo*))m13510_gshared)(__this, method)
+#define m23771(__this, p0, method) (( t866 * (*) (t3789 *, int32_t, MethodInfo*))m13511_gshared)(__this, p0, method)

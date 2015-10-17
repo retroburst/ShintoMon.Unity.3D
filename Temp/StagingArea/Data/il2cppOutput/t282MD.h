@@ -7,9 +7,9 @@
 struct t282;
 struct t9;
 
-extern "C" void m985 (t282 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t9 * m986 (t282 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t9 * m987 (t282 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m988 (t282 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m989 (t282 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m990 (t282 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m969 (t282 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t9 * m970 (t282 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t9 * m971 (t282 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m972 (t282 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m973 (t282 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m974 (t282 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,18 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t1208;
-struct t723;
-struct t2;
-struct t9;
+struct t730;
 #include "t9.h"
 struct  t1649  : public t9
 {
-	t1208 * f0;
-	t723* f1;
-	t723* f2;
-	t2* f3;
 };
 struct t1649_SFs{
-	t9 * f4;
-	bool f5;
+	t730* f0;
+	t730* f1;
+	t730* f2;
+	t730* f3;
+	t730* f4;
+	t730* f5;
+	t730* f6;
+	t730* f7;
+	t730* f8;
+	t730* f9;
+	t730* f10;
+	t730* f11;
+	t730* f12;
+	t730* f13;
+	t730* f14;
 };

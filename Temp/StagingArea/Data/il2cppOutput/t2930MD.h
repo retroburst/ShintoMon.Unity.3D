@@ -6,13 +6,13 @@
 
 struct t2930;
 struct t9;
-struct t257;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t258;
+struct t262;
 
-#include "t2770MD.h"
-#define m15201(__this, p0, p1, method) (( void (*) (t2930 *, t9 *, t58, MethodInfo*))m13579_gshared)(__this, p0, p1, method)
-#define m15202(__this, p0, p1, method) (( int32_t (*) (t2930 *, t257 *, t257 *, MethodInfo*))m13580_gshared)(__this, p0, p1, method)
-#define m15203(__this, p0, p1, p2, p3, method) (( t9 * (*) (t2930 *, t257 *, t257 *, t463 *, t9 *, MethodInfo*))m13581_gshared)(__this, p0, p1, p2, p3, method)
-#define m15204(__this, p0, method) (( int32_t (*) (t2930 *, t9 *, MethodInfo*))m13582_gshared)(__this, p0, method)
+#include "t892MD.h"
+#define m15136(__this, p0, method) (( void (*) (t2930 *, t262 *, MethodInfo*))m13476_gshared)(__this, p0, method)
+#define m15137(__this, method) (( t9 * (*) (t2930 *, MethodInfo*))m13477_gshared)(__this, method)
+#define m15138(__this, method) (( void (*) (t2930 *, MethodInfo*))m13478_gshared)(__this, method)
+#define m15139(__this, method) (( void (*) (t2930 *, MethodInfo*))m13479_gshared)(__this, method)
+#define m15140(__this, method) (( bool (*) (t2930 *, MethodInfo*))m13480_gshared)(__this, method)
+#define m15141(__this, method) (( t258 * (*) (t2930 *, MethodInfo*))m13481_gshared)(__this, method)

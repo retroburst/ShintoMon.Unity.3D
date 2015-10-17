@@ -6,4 +6,3 @@
 
 struct t1571;
 
-extern "C" void m7801 (t1571 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,42 +14,44 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo t1073_TI;
-extern TypeInfo t328_TI;
-extern TypeInfo t1074_TI;
-extern TypeInfo t1079_TI;
-extern TypeInfo t1082_TI;
-extern TypeInfo t1086_TI;
+extern TypeInfo t1080_TI;
+extern TypeInfo t335_TI;
 extern TypeInfo t1081_TI;
-extern TypeInfo t1075_TI;
-extern TypeInfo t1076_TI;
-extern TypeInfo t1101_TI;
-extern TypeInfo t299_TI;
-extern TypeInfo t234_TI;
-extern TypeInfo t1133_TI;
-extern TypeInfo t1077_TI;
-extern TypeInfo t1078_TI;
+extern TypeInfo t1086_TI;
+extern TypeInfo t1089_TI;
+extern TypeInfo t1093_TI;
+extern TypeInfo t1088_TI;
+extern TypeInfo t1082_TI;
+extern TypeInfo t1083_TI;
+extern TypeInfo t1108_TI;
+extern TypeInfo t306_TI;
+extern TypeInfo t235_TI;
+extern TypeInfo t1140_TI;
+extern TypeInfo t1142_TI;
+extern TypeInfo t1084_TI;
+extern TypeInfo t1085_TI;
 #include "utils/RegisterRuntimeInitializeAndCleanup.h"
 #include <map>
 struct TypeInfo;
 struct MethodInfo;
-TypeInfo* g_System_Core_Assembly_Types[16] = 
+TypeInfo* g_System_Core_Assembly_Types[17] = 
 {
-	&t1073_TI,
-	&t328_TI,
-	&t1074_TI,
-	&t1079_TI,
-	&t1082_TI,
-	&t1086_TI,
+	&t1080_TI,
+	&t335_TI,
 	&t1081_TI,
-	&t1075_TI,
-	&t1076_TI,
-	&t1101_TI,
-	&t299_TI,
-	&t234_TI,
-	&t1133_TI,
-	&t1077_TI,
-	&t1078_TI,
+	&t1086_TI,
+	&t1089_TI,
+	&t1093_TI,
+	&t1088_TI,
+	&t1082_TI,
+	&t1083_TI,
+	&t1108_TI,
+	&t306_TI,
+	&t235_TI,
+	&t1140_TI,
+	&t1142_TI,
+	&t1084_TI,
+	&t1085_TI,
 	NULL,
 };
 extern Il2CppImage g_System_Core_dll_Image;
@@ -65,7 +67,7 @@ Il2CppImage g_System_Core_dll_Image =
 	 "System.Core.dll" ,
 	&g_System_Core_Assembly,
 	g_System_Core_Assembly_Types,
-	15,
+	16,
 	NULL,
 };
 static void s_System_CoreRegistration()

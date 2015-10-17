@@ -6,15 +6,16 @@
 
 struct t2991;
 struct t9;
-struct t205;
-struct t462;
-struct t463;
-#include "t58.h"
-#include "t2979.h"
-#include "t274.h"
+struct t121;
+#include "t2989.h"
 
-#include "t2992MD.h"
-#define m15694(__this, p0, p1, method) (( void (*) (t2991 *, t9 *, t58, MethodInfo*))m15695_gshared)(__this, p0, p1, method)
-#define m15696(__this, p0, p1, method) (( t2979  (*) (t2991 *, int32_t, t205 *, MethodInfo*))m15697_gshared)(__this, p0, p1, method)
-#define m15698(__this, p0, p1, p2, p3, method) (( t9 * (*) (t2991 *, int32_t, t205 *, t463 *, t9 *, MethodInfo*))m15699_gshared)(__this, p0, p1, p2, p3, method)
-#define m15700(__this, p0, method) (( t2979  (*) (t2991 *, t9 *, MethodInfo*))m15701_gshared)(__this, p0, method)
+extern "C" void m15655_gshared (t2991 * __this, t121 * p0, MethodInfo* method);
+#define m15655(__this, p0, method) (( void (*) (t2991 *, t121 *, MethodInfo*))m15655_gshared)(__this, p0, method)
+extern "C" t9 * m15656_gshared (t2991 * __this, MethodInfo* method);
+#define m15656(__this, method) (( t9 * (*) (t2991 *, MethodInfo*))m15656_gshared)(__this, method)
+extern "C" void m15657_gshared (t2991 * __this, MethodInfo* method);
+#define m15657(__this, method) (( void (*) (t2991 *, MethodInfo*))m15657_gshared)(__this, method)
+extern "C" bool m15658_gshared (t2991 * __this, MethodInfo* method);
+#define m15658(__this, method) (( bool (*) (t2991 *, MethodInfo*))m15658_gshared)(__this, method)
+extern "C" t2989  m15659_gshared (t2991 * __this, MethodInfo* method);
+#define m15659(__this, method) (( t2989  (*) (t2991 *, MethodInfo*))m15659_gshared)(__this, method)

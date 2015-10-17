@@ -1,12 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t2;
-#include "t1214.h"
-#include "t1215.h"
-struct  t1213  : public t1214
+struct t1214;
+struct t730;
+struct t720;
+#include "t9.h"
+struct  t1213  : public t9
 {
-	bool f6;
-	bool f7;
-	int32_t f8;
-	int32_t f9;
+	t1214 * f0;
+	t730* f1;
+};
+struct t1213_SFs{
+	t720 * f2;
 };

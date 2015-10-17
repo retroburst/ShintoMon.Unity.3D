@@ -5,14 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t366;
-struct t367;
-struct t383;
+struct t9;
+struct t382;
+struct t343;
+struct t469;
+struct t470;
+#include "t58.h"
 
-#include "t3031MD.h"
-#define m2435(__this, p0, p1, method) (( void (*) (t366 *, t367 *, t367 *, MethodInfo*))m16168_gshared)(__this, p0, p1, method)
-#define m16169(__this, method) (( int32_t (*) (t366 *, MethodInfo*))m16170_gshared)(__this, method)
-#define m16171(__this, p0, method) (( void (*) (t366 *, int32_t, MethodInfo*))m16172_gshared)(__this, p0, method)
-#define m16173(__this, method) (( int32_t (*) (t366 *, MethodInfo*))m16174_gshared)(__this, method)
-#define m16175(__this, method) (( int32_t (*) (t366 *, MethodInfo*))m16176_gshared)(__this, method)
-#define m16177(__this, method) (( t383 * (*) (t366 *, MethodInfo*))m16178_gshared)(__this, method)
-#define m16179(__this, p0, method) (( void (*) (t366 *, t383 *, MethodInfo*))m16180_gshared)(__this, p0, method)
+#include "t561MD.h"
+#define m2451(__this, p0, p1, method) (( void (*) (t366 *, t9 *, t58, MethodInfo*))m16221_gshared)(__this, p0, p1, method)
+#define m17085(__this, p0, p1, method) (( void (*) (t366 *, t9 *, t343 *, MethodInfo*))m16223_gshared)(__this, p0, p1, method)
+#define m17086(__this, p0, p1, p2, p3, method) (( t9 * (*) (t366 *, t9 *, t343 *, t470 *, t9 *, MethodInfo*))m16225_gshared)(__this, p0, p1, p2, p3, method)
+#define m17087(__this, p0, method) (( void (*) (t366 *, t9 *, MethodInfo*))m16227_gshared)(__this, p0, method)

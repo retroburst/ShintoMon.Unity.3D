@@ -6,16 +6,13 @@
 
 struct t554;
 struct t9;
-struct t336;
-struct t462;
-struct t463;
+struct t542;
+struct t469;
+struct t470;
 #include "t58.h"
 
-extern "C" void m16013_gshared (t554 * __this, t9 * p0, t58 p1, MethodInfo* method);
-#define m16013(__this, p0, p1, method) (( void (*) (t554 *, t9 *, t58, MethodInfo*))m16013_gshared)(__this, p0, p1, method)
-extern "C" void m16015_gshared (t554 * __this, t9 * p0, t336 * p1, MethodInfo* method);
-#define m16015(__this, p0, p1, method) (( void (*) (t554 *, t9 *, t336 *, MethodInfo*))m16015_gshared)(__this, p0, p1, method)
-extern "C" t9 * m16017_gshared (t554 * __this, t9 * p0, t336 * p1, t463 * p2, t9 * p3, MethodInfo* method);
-#define m16017(__this, p0, p1, p2, p3, method) (( t9 * (*) (t554 *, t9 *, t336 *, t463 *, t9 *, MethodInfo*))m16017_gshared)(__this, p0, p1, p2, p3, method)
-extern "C" void m16019_gshared (t554 * __this, t9 * p0, MethodInfo* method);
-#define m16019(__this, p0, method) (( void (*) (t554 *, t9 *, MethodInfo*))m16019_gshared)(__this, p0, method)
+#include "t3067MD.h"
+#define m2983(__this, p0, p1, method) (( void (*) (t554 *, t9 *, t58, MethodInfo*))m16405_gshared)(__this, p0, p1, method)
+#define m19862(__this, p0, method) (( void (*) (t554 *, t542 *, MethodInfo*))m16406_gshared)(__this, p0, method)
+#define m19863(__this, p0, p1, p2, method) (( t9 * (*) (t554 *, t542 *, t470 *, t9 *, MethodInfo*))m16407_gshared)(__this, p0, p1, p2, method)
+#define m19864(__this, p0, method) (( void (*) (t554 *, t9 *, MethodInfo*))m16408_gshared)(__this, p0, method)

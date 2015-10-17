@@ -6,12 +6,10 @@
 
 struct t3324;
 struct t9;
-struct t821;
-struct t3323;
-struct t158;
+struct t327;
 
-#include "t3322MD.h"
-#define m19274(__this, p0, p1, method) (( void (*) (t3324 *, t9 *, t821 *, MethodInfo*))m19266_gshared)(__this, p0, p1, method)
-#define m19275(__this, p0, method) (( void (*) (t3324 *, t3323 *, MethodInfo*))m19267_gshared)(__this, p0, method)
-#define m19276(__this, p0, method) (( void (*) (t3324 *, t158*, MethodInfo*))m19268_gshared)(__this, p0, method)
-#define m19277(__this, p0, p1, method) (( bool (*) (t3324 *, t9 *, t821 *, MethodInfo*))m19269_gshared)(__this, p0, p1, method)
+#include "t2768MD.h"
+#define m19145(__this, method) (( void (*) (t3324 *, MethodInfo*))m13556_gshared)(__this, method)
+#define m19146(__this , method) (( void (*) (t9 * , MethodInfo*))m13557_gshared)(__this , method)
+#define m19147(__this, p0, p1, method) (( int32_t (*) (t3324 *, t9 *, t9 *, MethodInfo*))m13558_gshared)(__this, p0, p1, method)
+#define m19148(__this , method) (( t3324 * (*) (t9 * , MethodInfo*))m13559_gshared)(__this , method)

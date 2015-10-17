@@ -1,18 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t203;
-struct t230;
-struct t216;
-struct t231;
-struct t235;
-struct t206;
+struct t214;
+struct t269;
 #include "t9.h"
+#include "t224.h"
 struct  t239  : public t9
 {
-	t203 * f0;
-	t230 * f1;
-	t216 * f2;
-	t231 * f3;
-	t235 * f4;
-	t206 * f5;
+	int32_t f0;
+	int32_t f1;
+	int32_t f2;
+	t214 * f3;
+	int32_t f4;
+	int32_t f5;
+	t269* f6;
 };

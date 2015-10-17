@@ -6,12 +6,13 @@
 
 struct t234;
 struct t9;
-struct t462;
-struct t463;
+struct t214;
+struct t469;
+struct t470;
 #include "t58.h"
 
-extern "C" void m1049 (t234 * __this, t9 * p0, t58 p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m1059 (t234 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_t234(Il2CppObject* delegate);
-extern "C" t9 * m4666 (t234 * __this, t463 * p0, t9 * p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m4667 (t234 * __this, t9 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+#include "t292MD.h"
+#define m1062(__this, p0, p1, method) (( void (*) (t234 *, t9 *, t58, MethodInfo*))m13552_gshared)(__this, p0, p1, method)
+#define m1076(__this, p0, method) (( void (*) (t234 *, t214 *, MethodInfo*))m13553_gshared)(__this, p0, method)
+#define m14499(__this, p0, p1, p2, method) (( t9 * (*) (t234 *, t214 *, t470 *, t9 *, MethodInfo*))m13554_gshared)(__this, p0, p1, p2, method)
+#define m14500(__this, p0, method) (( void (*) (t234 *, t9 *, MethodInfo*))m13555_gshared)(__this, p0, method)

@@ -6,16 +6,13 @@
 
 struct t3377;
 struct t9;
-struct t462;
-struct t463;
-#include "t58.h"
-#include "t3366.h"
+struct t434;
+struct t538;
 
-extern "C" void m19788_gshared (t3377 * __this, t9 * p0, t58 p1, MethodInfo* method);
-#define m19788(__this, p0, p1, method) (( void (*) (t3377 *, t9 *, t58, MethodInfo*))m19788_gshared)(__this, p0, p1, method)
-extern "C" t3366  m19790_gshared (t3377 * __this, int32_t p0, t9 * p1, MethodInfo* method);
-#define m19790(__this, p0, p1, method) (( t3366  (*) (t3377 *, int32_t, t9 *, MethodInfo*))m19790_gshared)(__this, p0, p1, method)
-extern "C" t9 * m19792_gshared (t3377 * __this, int32_t p0, t9 * p1, t463 * p2, t9 * p3, MethodInfo* method);
-#define m19792(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3377 *, int32_t, t9 *, t463 *, t9 *, MethodInfo*))m19792_gshared)(__this, p0, p1, p2, p3, method)
-extern "C" t3366  m19794_gshared (t3377 * __this, t9 * p0, MethodInfo* method);
-#define m19794(__this, p0, method) (( t3366  (*) (t3377 *, t9 *, MethodInfo*))m19794_gshared)(__this, p0, method)
+#include "t892MD.h"
+#define m19703(__this, p0, method) (( void (*) (t3377 *, t538 *, MethodInfo*))m13476_gshared)(__this, p0, method)
+#define m19704(__this, method) (( t9 * (*) (t3377 *, MethodInfo*))m13477_gshared)(__this, method)
+#define m19705(__this, method) (( void (*) (t3377 *, MethodInfo*))m13478_gshared)(__this, method)
+#define m19706(__this, method) (( void (*) (t3377 *, MethodInfo*))m13479_gshared)(__this, method)
+#define m19707(__this, method) (( bool (*) (t3377 *, MethodInfo*))m13480_gshared)(__this, method)
+#define m19708(__this, method) (( t434 * (*) (t3377 *, MethodInfo*))m13481_gshared)(__this, method)

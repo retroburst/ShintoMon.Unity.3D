@@ -1,14 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t563;
-#include "t117.h"
-#include "t28.h"
-struct  t561 
+struct t9;
+struct t343;
+struct t469;
+struct t470;
+#include "t122.h"
+#include "t471.h"
+struct  t561  : public t471
 {
-	t28  f0;
-	t28  f1;
-	t28  f2;
-	float f3;
-	float f4;
-	t563 * f5;
 };

@@ -1,7 +1,10 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t722.h"
-struct  t2055  : public t722
+struct t2;
+#include "t2042.h"
+struct  t2055  : public t2042
 {
-	bool f28;
+	t2* f0;
+	int32_t f1;
+	bool f2;
 };

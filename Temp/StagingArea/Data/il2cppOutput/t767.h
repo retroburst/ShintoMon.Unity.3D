@@ -1,12 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t9.h"
-#include "t768.h"
-#include "t769.h"
-struct  t767  : public t9
+struct t2;
+#include "t117.h"
+#include "t766.h"
+struct  t767 
 {
-	int32_t f0;
-	uint64_t f1;
-	uint64_t f2;
-	int32_t f3;
+	t2* f0;
+	t2* f1;
+	t766  f2;
+};
+// Native definition for marshalling of: UnityEngine.HumanBone
+struct t767_marshaled
+{
+	char* f0;
+	char* f1;
+	t766  f2;
 };

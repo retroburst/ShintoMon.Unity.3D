@@ -6,12 +6,15 @@
 
 struct t2759;
 struct t9;
+struct t2;
+struct t10;
+struct t469;
+struct t470;
+#include "t58.h"
+#include "t2749.h"
 
-extern "C" void m13528_gshared (t2759 * __this, MethodInfo* method);
-#define m13528(__this, method) (( void (*) (t2759 *, MethodInfo*))m13528_gshared)(__this, method)
-extern "C" void m13529_gshared (t9 * __this , MethodInfo* method);
-#define m13529(__this , method) (( void (*) (t9 * , MethodInfo*))m13529_gshared)(__this , method)
-extern "C" int32_t m13530_gshared (t2759 * __this, t9 * p0, t9 * p1, MethodInfo* method);
-#define m13530(__this, p0, p1, method) (( int32_t (*) (t2759 *, t9 *, t9 *, MethodInfo*))m13530_gshared)(__this, p0, p1, method)
-extern "C" t2759 * m13531_gshared (t9 * __this , MethodInfo* method);
-#define m13531(__this , method) (( t2759 * (*) (t9 * , MethodInfo*))m13531_gshared)(__this , method)
+#include "t2760MD.h"
+#define m13381(__this, p0, p1, method) (( void (*) (t2759 *, t9 *, t58, MethodInfo*))m13382_gshared)(__this, p0, p1, method)
+#define m13383(__this, p0, p1, method) (( t2749  (*) (t2759 *, t2*, t10 *, MethodInfo*))m13384_gshared)(__this, p0, p1, method)
+#define m13385(__this, p0, p1, p2, p3, method) (( t9 * (*) (t2759 *, t2*, t10 *, t470 *, t9 *, MethodInfo*))m13386_gshared)(__this, p0, p1, p2, p3, method)
+#define m13387(__this, p0, method) (( t2749  (*) (t2759 *, t9 *, MethodInfo*))m13388_gshared)(__this, p0, method)

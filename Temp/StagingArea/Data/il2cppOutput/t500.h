@@ -1,28 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t427;
-struct t498;
-struct t27;
-struct t45;
-#include "t320.h"
-#include "t497.h"
-#include "t28.h"
-#include "t485.h"
-struct  t500  : public t320
+struct t3327;
+#include "t9.h"
+struct  t500  : public t9
 {
-	t427 * f16;
-	t427 * f17;
-	int32_t f18;
-	float f19;
-	float f20;
-	bool f21;
-	float f22;
-	t498 * f23;
-	t27 * f24;
-	t45 * f25;
-	t427 * f26;
-	t45 * f27;
-	t427 * f28;
-	t28  f29;
-	t485  f30;
+	t3327* f1;
+	int32_t f2;
+	int32_t f3;
+};
+struct t500_SFs{
+	t3327* f4;
 };

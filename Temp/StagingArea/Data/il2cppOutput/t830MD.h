@@ -6,22 +6,28 @@
 
 struct t830;
 struct t126;
-struct t1561;
-struct t821;
-struct t921;
+struct t1764;
 struct t9;
+struct t933;
+struct t901;
 struct t158;
-struct t926;
-struct t894;
-struct t152;
-#include "t1784.h"
-#include "t1563.h"
-#include "t918.h"
+#include "t1765.h"
+#include "t313.h"
+#include "t1572.h"
+#include "t925.h"
+#include "t58.h"
 
-extern "C" void m9685 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" int32_t m9686 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t821 * m9687 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t9 * m9688 (t830 * __this, t9 * p0, t158* p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m9689 (t830 * __this, t9 * p0, t9 * p1, t158* p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t152* m9690 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t152* m9691 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m9521 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m9522 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m9523 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m4395 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m4402 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m4396 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m9524 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m4419 (t830 * __this, t9 * p0, t9 * p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t830 * m9525 (t9 * __this , t58 p0, t58 p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t830 * m9526 (t9 * __this , t313  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m9527 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1764 * m9528 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1764 * m9529 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t158* m9530 (t830 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

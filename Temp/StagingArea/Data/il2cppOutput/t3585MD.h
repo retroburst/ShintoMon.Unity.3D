@@ -6,11 +6,15 @@
 
 struct t3585;
 struct t9;
-struct t801;
+struct t3576;
 
-#include "t2708MD.h"
-#define m22041(__this, p0, method) (( void (*) (t3585 *, t801 *, MethodInfo*))m13054_gshared)(__this, p0, method)
-#define m22042(__this, method) (( t9 * (*) (t3585 *, MethodInfo*))m13055_gshared)(__this, method)
-#define m22043(__this, method) (( void (*) (t3585 *, MethodInfo*))m13056_gshared)(__this, method)
-#define m22044(__this, method) (( bool (*) (t3585 *, MethodInfo*))m13057_gshared)(__this, method)
-#define m22045(__this, method) (( t9 * (*) (t3585 *, MethodInfo*))m13058_gshared)(__this, method)
+extern "C" void m21935_gshared (t3585 * __this, t3576 * p0, MethodInfo* method);
+#define m21935(__this, p0, method) (( void (*) (t3585 *, t3576 *, MethodInfo*))m21935_gshared)(__this, p0, method)
+extern "C" t9 * m21936_gshared (t3585 * __this, MethodInfo* method);
+#define m21936(__this, method) (( t9 * (*) (t3585 *, MethodInfo*))m21936_gshared)(__this, method)
+extern "C" void m21937_gshared (t3585 * __this, MethodInfo* method);
+#define m21937(__this, method) (( void (*) (t3585 *, MethodInfo*))m21937_gshared)(__this, method)
+extern "C" bool m21938_gshared (t3585 * __this, MethodInfo* method);
+#define m21938(__this, method) (( bool (*) (t3585 *, MethodInfo*))m21938_gshared)(__this, method)
+extern "C" uint64_t m21939_gshared (t3585 * __this, MethodInfo* method);
+#define m21939(__this, method) (( uint64_t (*) (t3585 *, MethodInfo*))m21939_gshared)(__this, method)

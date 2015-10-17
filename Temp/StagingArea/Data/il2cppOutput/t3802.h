@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
+struct t3803;
 #include "t9.h"
-#include "t3795.h"
 struct  t3802  : public t9
 {
-	t3795  f0;
+	t9* f0;
 };

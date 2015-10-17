@@ -1,23 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t260;
-struct t279;
+struct t261;
+struct t286;
 struct t59;
-struct t280;
+struct t287;
 #include "t4.h"
 struct  t231  : public t4
 {
-	t260* f2;
-	t279 * f3;
-	t279 * f4;
-	t279 * f5;
+	t261* f2;
+	t286 * f3;
+	t286 * f4;
+	t286 * f5;
 	t59 * f6;
-	t279 * f7;
-	t279 * f8;
+	t286 * f7;
+	t286 * f8;
 	t59 * f9;
 	t59 * f10;
-	t279 * f11;
-	t280 * f12;
-	t280 * f13;
-	t280 * f14;
+	t286 * f11;
+	t287 * f12;
+	t287 * f13;
+	t287 * f14;
+	t287 * f15;
 };

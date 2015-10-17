@@ -1,10 +1,10 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t3462;
-#include "t9.h"
-struct  t3462  : public t9
+struct t9;
+struct t469;
+struct t470;
+#include "t885.h"
+#include "t471.h"
+struct  t3462  : public t471
 {
-};
-struct t3462_SFs{
-	t3462 * f0;
 };

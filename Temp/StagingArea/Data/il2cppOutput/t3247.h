@@ -1,8 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
+struct t551;
+struct t436;
 #include "t117.h"
-#include "t3244.h"
 struct  t3247 
 {
-	t3244  f0;
+	t551 * f0;
+	int32_t f1;
+	int32_t f2;
+	t436 * f3;
 };

@@ -1,13 +1,23 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t320;
-#include "t117.h"
-#include "t476.h"
-struct  t477 
+struct t2;
+struct t440;
+struct t770;
+struct t771;
+#include "t9.h"
+#include "t58.h"
+#include "t511.h"
+struct  t477  : public t9
 {
-	int32_t f0;
-	t320 * f1;
-	t320 * f2;
-	t320 * f3;
-	t320 * f4;
+	t58 f0;
+	t2* f1;
+	t511  f2;
+	bool f3;
+	bool f4;
+	t440 * f5;
+	t770 * f6;
+	t771 * f7;
+	bool f8;
+	bool f9;
+	bool f10;
 };

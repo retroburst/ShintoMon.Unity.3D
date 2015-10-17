@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t718.h"
-struct  t1841  : public t718
+#include "t8.h"
+#include "t1841.h"
+struct  t1841 
 {
-	int32_t f0;
 	int32_t f1;
 };

@@ -5,13 +5,14 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t2740;
-struct t2;
-struct t10;
+struct t9;
+struct t29;
+#include "t1164.h"
 
-#include "t2688MD.h"
-#define m13275(__this, p0, p1, method) (( void (*) (t2740 *, t2*, t10 *, MethodInfo*))m12929_gshared)(__this, p0, p1, method)
-#define m13276(__this, method) (( t2* (*) (t2740 *, MethodInfo*))m12930_gshared)(__this, method)
-#define m13277(__this, p0, method) (( void (*) (t2740 *, t2*, MethodInfo*))m12931_gshared)(__this, p0, method)
-#define m13278(__this, method) (( t10 * (*) (t2740 *, MethodInfo*))m12932_gshared)(__this, method)
-#define m13279(__this, p0, method) (( void (*) (t2740 *, t10 *, MethodInfo*))m12933_gshared)(__this, p0, method)
-#define m13280(__this, method) (( t2* (*) (t2740 *, MethodInfo*))m12934_gshared)(__this, method)
+#include "t2720MD.h"
+#define m13230(__this, p0, method) (( void (*) (t2740 *, t29 *, MethodInfo*))m13100_gshared)(__this, p0, method)
+#define m13231(__this, method) (( bool (*) (t2740 *, MethodInfo*))m13101_gshared)(__this, method)
+#define m13232(__this, method) (( t1164  (*) (t2740 *, MethodInfo*))m13102_gshared)(__this, method)
+#define m13233(__this, method) (( t9 * (*) (t2740 *, MethodInfo*))m13103_gshared)(__this, method)
+#define m13234(__this, method) (( t9 * (*) (t2740 *, MethodInfo*))m13104_gshared)(__this, method)
+#define m13235(__this, method) (( t9 * (*) (t2740 *, MethodInfo*))m13105_gshared)(__this, method)

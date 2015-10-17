@@ -1,10 +1,27 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t767.h"
-#include "t777.h"
-#include "t778.h"
-struct  t782  : public t767
+struct t1095;
+struct t2515;
+struct t221;
+struct t1565;
+struct t2667;
+struct t1100;
+struct t3513;
+#include "t9.h"
+struct  t782  : public t9
 {
-	uint64_t f4;
-	uint16_t f5;
+	t1095* f4;
+	t2515* f5;
+	t221* f6;
+	t1565* f7;
+	int32_t f8;
+	int32_t f9;
+	int32_t f10;
+	int32_t f11;
+	t9* f12;
+	t1100 * f13;
+	int32_t f14;
+};
+struct t782_SFs{
+	t3513 * f15;
 };

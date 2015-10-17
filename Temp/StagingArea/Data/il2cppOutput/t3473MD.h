@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3473;
-#include "t586.h"
+struct t9;
+struct t730;
 
-extern "C" void m20958_gshared (t3473 * __this, MethodInfo* method);
-#define m20958(__this, method) (( void (*) (t3473 *, MethodInfo*))m20958_gshared)(__this, method)
-extern "C" int32_t m20959_gshared (t3473 * __this, t586  p0, MethodInfo* method);
-#define m20959(__this, p0, method) (( int32_t (*) (t3473 *, t586 , MethodInfo*))m20959_gshared)(__this, p0, method)
-extern "C" bool m20960_gshared (t3473 * __this, t586  p0, t586  p1, MethodInfo* method);
-#define m20960(__this, p0, p1, method) (( bool (*) (t3473 *, t586 , t586 , MethodInfo*))m20960_gshared)(__this, p0, p1, method)
+#include "t2768MD.h"
+#define m20708(__this, method) (( void (*) (t3473 *, MethodInfo*))m13556_gshared)(__this, method)
+#define m20709(__this , method) (( void (*) (t9 * , MethodInfo*))m13557_gshared)(__this , method)
+#define m20710(__this, p0, p1, method) (( int32_t (*) (t3473 *, t9 *, t9 *, MethodInfo*))m13558_gshared)(__this, p0, p1, method)
+#define m20711(__this , method) (( t3473 * (*) (t9 * , MethodInfo*))m13559_gshared)(__this , method)

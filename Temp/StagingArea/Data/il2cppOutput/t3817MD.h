@@ -6,16 +6,16 @@
 
 struct t3817;
 struct t9;
-struct t462;
-struct t463;
-#include "t58.h"
-#include "t3809.h"
+struct t121;
+#include "t3816.h"
 
-extern "C" void m24117_gshared (t3817 * __this, t9 * p0, t58 p1, MethodInfo* method);
-#define m24117(__this, p0, p1, method) (( void (*) (t3817 *, t9 *, t58, MethodInfo*))m24117_gshared)(__this, p0, p1, method)
-extern "C" t3809  m24118_gshared (t3817 * __this, int32_t p0, int32_t p1, MethodInfo* method);
-#define m24118(__this, p0, p1, method) (( t3809  (*) (t3817 *, int32_t, int32_t, MethodInfo*))m24118_gshared)(__this, p0, p1, method)
-extern "C" t9 * m24119_gshared (t3817 * __this, int32_t p0, int32_t p1, t463 * p2, t9 * p3, MethodInfo* method);
-#define m24119(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3817 *, int32_t, int32_t, t463 *, t9 *, MethodInfo*))m24119_gshared)(__this, p0, p1, p2, p3, method)
-extern "C" t3809  m24120_gshared (t3817 * __this, t9 * p0, MethodInfo* method);
-#define m24120(__this, p0, method) (( t3809  (*) (t3817 *, t9 *, MethodInfo*))m24120_gshared)(__this, p0, method)
+extern "C" void m24012_gshared (t3817 * __this, t121 * p0, MethodInfo* method);
+#define m24012(__this, p0, method) (( void (*) (t3817 *, t121 *, MethodInfo*))m24012_gshared)(__this, p0, method)
+extern "C" t9 * m24013_gshared (t3817 * __this, MethodInfo* method);
+#define m24013(__this, method) (( t9 * (*) (t3817 *, MethodInfo*))m24013_gshared)(__this, method)
+extern "C" void m24014_gshared (t3817 * __this, MethodInfo* method);
+#define m24014(__this, method) (( void (*) (t3817 *, MethodInfo*))m24014_gshared)(__this, method)
+extern "C" bool m24015_gshared (t3817 * __this, MethodInfo* method);
+#define m24015(__this, method) (( bool (*) (t3817 *, MethodInfo*))m24015_gshared)(__this, method)
+extern "C" t3816  m24016_gshared (t3817 * __this, MethodInfo* method);
+#define m24016(__this, method) (( t3816  (*) (t3817 *, MethodInfo*))m24016_gshared)(__this, method)

@@ -1,17 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t723;
-#include "t291.h"
-struct  t881  : public t291
+struct t718;
+#include "t9.h"
+struct  t881  : public t9
 {
-	bool f1;
-	bool f2;
-	int32_t f3;
-	int32_t f4;
-	t723* f5;
-	int32_t f6;
-	bool f7;
-	bool f8;
-	int32_t f9;
-	int32_t f10;
+	t718 * f0;
 };

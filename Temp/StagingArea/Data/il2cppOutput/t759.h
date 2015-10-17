@@ -1,12 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 #include "t117.h"
-#include "t13.h"
 struct  t759 
 {
-	t13  f0;
-	t13  f1;
-	t13  f2;
+	int32_t f0;
+	int32_t f1;
+	int32_t f2;
 	float f3;
-	int32_t f4;
+	float f4;
+	int32_t f5;
+	int32_t f6;
 };

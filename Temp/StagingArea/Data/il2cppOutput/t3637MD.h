@@ -6,14 +6,16 @@
 
 struct t3637;
 struct t9;
-struct t814;
-struct t126;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t121;
+#include "t3631.h"
 
-#include "t2706MD.h"
-#define m22483(__this, p0, p1, method) (( void (*) (t3637 *, t9 *, t58, MethodInfo*))m13036_gshared)(__this, p0, p1, method)
-#define m22484(__this, p0, p1, method) (( t9* (*) (t3637 *, t126 *, t9*, MethodInfo*))m13037_gshared)(__this, p0, p1, method)
-#define m22485(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3637 *, t126 *, t9*, t463 *, t9 *, MethodInfo*))m13038_gshared)(__this, p0, p1, p2, p3, method)
-#define m22486(__this, p0, method) (( t9* (*) (t3637 *, t9 *, MethodInfo*))m13039_gshared)(__this, p0, method)
+extern "C" void m22355_gshared (t3637 * __this, t121 * p0, MethodInfo* method);
+#define m22355(__this, p0, method) (( void (*) (t3637 *, t121 *, MethodInfo*))m22355_gshared)(__this, p0, method)
+extern "C" t9 * m22356_gshared (t3637 * __this, MethodInfo* method);
+#define m22356(__this, method) (( t9 * (*) (t3637 *, MethodInfo*))m22356_gshared)(__this, method)
+extern "C" void m22357_gshared (t3637 * __this, MethodInfo* method);
+#define m22357(__this, method) (( void (*) (t3637 *, MethodInfo*))m22357_gshared)(__this, method)
+extern "C" bool m22358_gshared (t3637 * __this, MethodInfo* method);
+#define m22358(__this, method) (( bool (*) (t3637 *, MethodInfo*))m22358_gshared)(__this, method)
+extern "C" t3631  m22359_gshared (t3637 * __this, MethodInfo* method);
+#define m22359(__this, method) (( t3631  (*) (t3637 *, MethodInfo*))m22359_gshared)(__this, method)

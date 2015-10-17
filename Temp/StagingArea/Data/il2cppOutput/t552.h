@@ -1,10 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t117.h"
-struct ALIGN_TYPE(4) t552 
+struct t553;
+struct t554;
+#include "t9.h"
+struct  t552  : public t9
 {
-	uint8_t f0;
-	uint8_t f1;
-	uint8_t f2;
-	uint8_t f3;
+};
+struct t552_SFs{
+	t553 * f0;
+	t554 * f1;
 };

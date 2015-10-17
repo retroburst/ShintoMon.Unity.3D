@@ -7,8 +7,11 @@
 struct t2917;
 struct t9;
 
-#include "t2908MD.h"
-#define m15042(__this, method) (( void (*) (t2917 *, MethodInfo*))m14901_gshared)(__this, method)
-#define m15043(__this , method) (( void (*) (t9 * , MethodInfo*))m14902_gshared)(__this , method)
-#define m15044(__this, p0, p1, method) (( int32_t (*) (t2917 *, t9 *, t9 *, MethodInfo*))m14903_gshared)(__this, p0, p1, method)
-#define m15045(__this , method) (( t2917 * (*) (t9 * , MethodInfo*))m14904_gshared)(__this , method)
+extern "C" void m14929_gshared (t2917 * __this, MethodInfo* method);
+#define m14929(__this, method) (( void (*) (t2917 *, MethodInfo*))m14929_gshared)(__this, method)
+extern "C" void m14930_gshared (t9 * __this , MethodInfo* method);
+#define m14930(__this , method) (( void (*) (t9 * , MethodInfo*))m14930_gshared)(__this , method)
+extern "C" int32_t m14931_gshared (t2917 * __this, t9 * p0, t9 * p1, MethodInfo* method);
+#define m14931(__this, p0, p1, method) (( int32_t (*) (t2917 *, t9 *, t9 *, MethodInfo*))m14931_gshared)(__this, p0, p1, method)
+extern "C" t2917 * m14932_gshared (t9 * __this , MethodInfo* method);
+#define m14932(__this , method) (( t2917 * (*) (t9 * , MethodInfo*))m14932_gshared)(__this , method)

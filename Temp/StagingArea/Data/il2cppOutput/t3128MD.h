@@ -6,16 +6,14 @@
 
 struct t3128;
 struct t9;
-struct t121;
-#include "t3127.h"
+struct t5;
+struct t469;
+struct t470;
+#include "t58.h"
+#include "t1164.h"
 
-extern "C" void m17286_gshared (t3128 * __this, t121 * p0, MethodInfo* method);
-#define m17286(__this, p0, method) (( void (*) (t3128 *, t121 *, MethodInfo*))m17286_gshared)(__this, p0, method)
-extern "C" t9 * m17287_gshared (t3128 * __this, MethodInfo* method);
-#define m17287(__this, method) (( t9 * (*) (t3128 *, MethodInfo*))m17287_gshared)(__this, method)
-extern "C" void m17288_gshared (t3128 * __this, MethodInfo* method);
-#define m17288(__this, method) (( void (*) (t3128 *, MethodInfo*))m17288_gshared)(__this, method)
-extern "C" bool m17289_gshared (t3128 * __this, MethodInfo* method);
-#define m17289(__this, method) (( bool (*) (t3128 *, MethodInfo*))m17289_gshared)(__this, method)
-extern "C" t3127  m17290_gshared (t3128 * __this, MethodInfo* method);
-#define m17290(__this, method) (( t3127  (*) (t3128 *, MethodInfo*))m17290_gshared)(__this, method)
+#include "t2974MD.h"
+#define m17214(__this, p0, p1, method) (( void (*) (t3128 *, t9 *, t58, MethodInfo*))m15618_gshared)(__this, p0, p1, method)
+#define m17215(__this, p0, p1, method) (( t1164  (*) (t3128 *, int32_t, t5 *, MethodInfo*))m15619_gshared)(__this, p0, p1, method)
+#define m17216(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3128 *, int32_t, t5 *, t470 *, t9 *, MethodInfo*))m15620_gshared)(__this, p0, p1, p2, p3, method)
+#define m17217(__this, p0, method) (( t1164  (*) (t3128 *, t9 *, MethodInfo*))m15621_gshared)(__this, p0, method)

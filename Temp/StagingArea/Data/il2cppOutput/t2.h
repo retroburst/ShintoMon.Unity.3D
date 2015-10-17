@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 struct t2;
-struct t305;
+struct t312;
 #include "t9.h"
 struct  t2  : public t9
 {
@@ -10,5 +10,5 @@ struct  t2  : public t9
 };
 struct t2_SFs{
 	t2* f2;
-	t305* f3;
+	t312* f3;
 };

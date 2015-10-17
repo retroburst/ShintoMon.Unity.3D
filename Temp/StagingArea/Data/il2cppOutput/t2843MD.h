@@ -7,12 +7,12 @@
 struct t2843;
 struct t9;
 struct t45;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t91;
 
-#include "t2770MD.h"
-#define m14285(__this, p0, p1, method) (( void (*) (t2843 *, t9 *, t58, MethodInfo*))m13579_gshared)(__this, p0, p1, method)
-#define m14286(__this, p0, p1, method) (( int32_t (*) (t2843 *, t45 *, t45 *, MethodInfo*))m13580_gshared)(__this, p0, p1, method)
-#define m14287(__this, p0, p1, p2, p3, method) (( t9 * (*) (t2843 *, t45 *, t45 *, t463 *, t9 *, MethodInfo*))m13581_gshared)(__this, p0, p1, p2, p3, method)
-#define m14288(__this, p0, method) (( int32_t (*) (t2843 *, t9 *, MethodInfo*))m13582_gshared)(__this, p0, method)
+#include "t892MD.h"
+#define m14219(__this, p0, method) (( void (*) (t2843 *, t91 *, MethodInfo*))m13476_gshared)(__this, p0, method)
+#define m14220(__this, method) (( t9 * (*) (t2843 *, MethodInfo*))m13477_gshared)(__this, method)
+#define m14221(__this, method) (( void (*) (t2843 *, MethodInfo*))m13478_gshared)(__this, method)
+#define m14222(__this, method) (( void (*) (t2843 *, MethodInfo*))m13479_gshared)(__this, method)
+#define m14223(__this, method) (( bool (*) (t2843 *, MethodInfo*))m13480_gshared)(__this, method)
+#define m14224(__this, method) (( t45 * (*) (t2843 *, MethodInfo*))m13481_gshared)(__this, method)

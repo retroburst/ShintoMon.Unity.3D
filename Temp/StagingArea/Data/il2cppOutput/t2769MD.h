@@ -6,12 +6,8 @@
 
 struct t2769;
 struct t9;
-struct t2228;
-struct t121;
 
-#include "t2675MD.h"
-#define m13574(__this, p0, method) (( void (*) (t2769 *, t121 *, MethodInfo*))m12790_gshared)(__this, p0, method)
-#define m13575(__this, method) (( t9 * (*) (t2769 *, MethodInfo*))m12792_gshared)(__this, method)
-#define m13576(__this, method) (( void (*) (t2769 *, MethodInfo*))m12794_gshared)(__this, method)
-#define m13577(__this, method) (( bool (*) (t2769 *, MethodInfo*))m12796_gshared)(__this, method)
-#define m13578(__this, method) (( t9* (*) (t2769 *, MethodInfo*))m12798_gshared)(__this, method)
+extern "C" void m13560_gshared (t2769 * __this, MethodInfo* method);
+#define m13560(__this, method) (( void (*) (t2769 *, MethodInfo*))m13560_gshared)(__this, method)
+extern "C" int32_t m13561_gshared (t2769 * __this, t9 * p0, t9 * p1, MethodInfo* method);
+#define m13561(__this, p0, p1, method) (( int32_t (*) (t2769 *, t9 *, t9 *, MethodInfo*))m13561_gshared)(__this, p0, p1, method)

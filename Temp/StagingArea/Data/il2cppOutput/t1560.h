@@ -1,8 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t1799;
-#include "t553.h"
-struct  t1560  : public t553
+#include "t117.h"
+#include "t1560.h"
+#include "t122.h"
+struct  t1560 
 {
-	t1799 * f0;
+	void* f1;
+};
+struct t1560_SFs{
+	t1560  f0;
 };

@@ -6,13 +6,14 @@
 
 struct t3441;
 struct t9;
-struct t723;
-struct t462;
-struct t463;
+struct t2;
+struct t469;
+struct t470;
 #include "t58.h"
+#include "t1164.h"
 
-#include "t2770MD.h"
-#define m20506(__this, p0, p1, method) (( void (*) (t3441 *, t9 *, t58, MethodInfo*))m13579_gshared)(__this, p0, p1, method)
-#define m20507(__this, p0, p1, method) (( int32_t (*) (t3441 *, t723*, t723*, MethodInfo*))m13580_gshared)(__this, p0, p1, method)
-#define m20508(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3441 *, t723*, t723*, t463 *, t9 *, MethodInfo*))m13581_gshared)(__this, p0, p1, p2, p3, method)
-#define m20509(__this, p0, method) (( int32_t (*) (t3441 *, t9 *, MethodInfo*))m13582_gshared)(__this, p0, method)
+#include "t3160MD.h"
+#define m20426(__this, p0, p1, method) (( void (*) (t3441 *, t9 *, t58, MethodInfo*))m17557_gshared)(__this, p0, p1, method)
+#define m20427(__this, p0, p1, method) (( t1164  (*) (t3441 *, t2*, int32_t, MethodInfo*))m17558_gshared)(__this, p0, p1, method)
+#define m20428(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3441 *, t2*, int32_t, t470 *, t9 *, MethodInfo*))m17559_gshared)(__this, p0, p1, p2, p3, method)
+#define m20429(__this, p0, method) (( t1164  (*) (t3441 *, t9 *, MethodInfo*))m17560_gshared)(__this, p0, method)

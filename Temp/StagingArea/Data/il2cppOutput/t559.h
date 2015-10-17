@@ -1,9 +1,10 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t5;
 #include "t117.h"
-struct  t559 
+struct ALIGN_TYPE(4) t559 
 {
-	int32_t f0;
-	t5 * f1;
+	uint8_t f0;
+	uint8_t f1;
+	uint8_t f2;
+	uint8_t f3;
 };

@@ -6,12 +6,12 @@
 
 struct t3583;
 struct t9;
-struct t2;
-struct t801;
+struct t2217;
+struct t121;
 
-#include "t2704MD.h"
-#define m22006(__this, p0, method) (( void (*) (t3583 *, t801 *, MethodInfo*))m13019_gshared)(__this, p0, method)
-#define m22007(__this, method) (( t9 * (*) (t3583 *, MethodInfo*))m13020_gshared)(__this, method)
-#define m22008(__this, method) (( void (*) (t3583 *, MethodInfo*))m13021_gshared)(__this, method)
-#define m22009(__this, method) (( bool (*) (t3583 *, MethodInfo*))m13022_gshared)(__this, method)
-#define m22010(__this, method) (( t2* (*) (t3583 *, MethodInfo*))m13023_gshared)(__this, method)
+#include "t2684MD.h"
+#define m21916(__this, p0, method) (( void (*) (t3583 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m21917(__this, method) (( t9 * (*) (t3583 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m21918(__this, method) (( void (*) (t3583 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m21919(__this, method) (( bool (*) (t3583 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m21920(__this, method) (( t9* (*) (t3583 *, MethodInfo*))m12826_gshared)(__this, method)

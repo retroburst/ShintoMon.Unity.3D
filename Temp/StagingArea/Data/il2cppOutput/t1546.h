@@ -1,50 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 struct t2;
-struct t1088;
-struct t221;
+struct t1615;
+struct t1158;
+struct t9;
 #include "t9.h"
 struct  t1546  : public t9
 {
-	bool f0;
-	t2* f1;
+	int32_t f1;
 	t2* f2;
-	t2* f3;
-	t2* f4;
-	t2* f5;
-	int32_t f6;
-	t2* f7;
-	t2* f8;
-	t1088* f9;
-	int32_t f10;
-	int32_t f11;
-	t2* f12;
-	t2* f13;
-	t2* f14;
-	t2* f15;
-	int32_t f16;
-	t2* f17;
-	t2* f18;
-	t1088* f19;
-	int32_t f20;
-	int32_t f21;
-	t2* f22;
-	t2* f23;
-	t1088* f24;
-	int32_t f25;
-	int32_t f26;
-	t2* f27;
-	t2* f28;
-	t2* f29;
-	t2* f30;
-	t2* f31;
-	int32_t f32;
-	bool f33;
-	bool f34;
-	bool f35;
-	t221* f36;
-	int32_t f37;
+	t1615 * f3;
 };
 struct t1546_SFs{
-	t221* f38;
+	bool f0;
+	t1158 * f4;
+	t9 * f5;
 };

@@ -1,27 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t1088;
-struct t2506;
-struct t3162;
-struct t3163;
-struct t3164;
-struct t1093;
-struct t3165;
+struct t424;
 #include "t9.h"
+#include "t425.h"
+#include "t426.h"
+#include "t427.h"
+#include "t428.h"
 struct  t423  : public t9
 {
-	t1088* f4;
-	t2506* f5;
-	t3162* f6;
-	t3163* f7;
+	t424 * f0;
+	int32_t f1;
+	int32_t f2;
+	bool f3;
+	int32_t f4;
+	int32_t f5;
+	int32_t f6;
+	bool f7;
 	int32_t f8;
 	int32_t f9;
-	int32_t f10;
-	int32_t f11;
-	t9* f12;
-	t1093 * f13;
-	int32_t f14;
-};
-struct t423_SFs{
-	t3165 * f15;
+	float f10;
 };

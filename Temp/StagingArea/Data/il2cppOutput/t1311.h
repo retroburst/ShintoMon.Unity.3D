@@ -1,9 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t2;
-#include "t1299.h"
-struct  t1311  : public t1299
+#include "t1234.h"
+struct  t1311  : public t1234
 {
-	t2* f0;
-	bool f1;
 };

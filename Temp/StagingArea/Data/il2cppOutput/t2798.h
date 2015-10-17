@@ -1,6 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t2797.h"
-struct  t2798  : public t2797
+#include "t117.h"
+#include "t2799.h"
+struct  t2798 
 {
+	t2799  f0;
 };

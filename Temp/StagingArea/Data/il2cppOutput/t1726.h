@@ -1,23 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t722;
-struct t291;
-struct t723;
-struct t305;
-struct t1726;
-#include "t1361.h"
-struct  t1726  : public t1361
+struct t2;
+#include "t117.h"
+#include "t1715.h"
+struct  t1726 
 {
-	t722 * f2;
-	t291 * f3;
-	bool f4;
-	t723* f5;
-	int32_t f6;
-	t305* f7;
-	int32_t f8;
-	bool f9;
-	bool f10;
+	t2* f0;
+	int32_t f1;
+	int64_t f2;
+	int64_t f3;
+	int64_t f4;
+	int64_t f5;
 };
-struct t1726_SFs{
-	t1726 * f11;
+// Native definition for marshalling of: System.IO.MonoIOStat
+struct t1726_marshaled
+{
+	char* f0;
+	int32_t f1;
+	int64_t f2;
+	int64_t f3;
+	int64_t f4;
+	int64_t f5;
 };

@@ -5,10 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t307;
-struct t121;
+struct t9;
+struct t469;
+struct t470;
 #include "t58.h"
-#include "t306.h"
 
-extern "C" void m7816 (t9 * __this , t121 * p0, t58 p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m1107 (t9 * __this , t121 * p0, t306  p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" int32_t m7817 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+#include "t2906MD.h"
+#define m14780(__this, p0, p1, method) (( void (*) (t307 *, t9 *, t58, MethodInfo*))m14773_gshared)(__this, p0, p1, method)
+#define m14781(__this, p0, method) (( bool (*) (t307 *, uint16_t, MethodInfo*))m14775_gshared)(__this, p0, method)
+#define m14782(__this, p0, p1, p2, method) (( t9 * (*) (t307 *, uint16_t, t470 *, t9 *, MethodInfo*))m14777_gshared)(__this, p0, p1, p2, method)
+#define m14783(__this, p0, method) (( bool (*) (t307 *, t9 *, MethodInfo*))m14779_gshared)(__this, p0, method)

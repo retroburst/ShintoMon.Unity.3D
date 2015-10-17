@@ -10,9 +10,9 @@ struct t221;
 #include "t42.h"
 
 extern "C" int32_t m489 (t42 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m3117 (t42 * __this, int32_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t2* m3118 (t9 * __this , int32_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3141 (t42 * __this, int32_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m3142 (t9 * __this , int32_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" int32_t m434 (t9 * __this , t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" int32_t m3119 (t9 * __this , t221* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m3143 (t9 * __this , t221* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" int32_t m433 (t9 * __this , t42  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" t42  m482 (t9 * __this , int32_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;

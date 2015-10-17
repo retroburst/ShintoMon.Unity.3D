@@ -6,13 +6,16 @@
 
 struct t3528;
 struct t9;
-struct t785;
-struct t788;
+struct t469;
+struct t470;
+#include "t58.h"
+#include "t3516.h"
 
-#include "t885MD.h"
-#define m21496(__this, p0, method) (( void (*) (t3528 *, t788 *, MethodInfo*))m13448_gshared)(__this, p0, method)
-#define m21497(__this, method) (( t9 * (*) (t3528 *, MethodInfo*))m13449_gshared)(__this, method)
-#define m21498(__this, method) (( void (*) (t3528 *, MethodInfo*))m13450_gshared)(__this, method)
-#define m21499(__this, method) (( void (*) (t3528 *, MethodInfo*))m13451_gshared)(__this, method)
-#define m21500(__this, method) (( bool (*) (t3528 *, MethodInfo*))m13452_gshared)(__this, method)
-#define m21501(__this, method) (( t785 * (*) (t3528 *, MethodInfo*))m13453_gshared)(__this, method)
+extern "C" void m21378_gshared (t3528 * __this, t9 * p0, t58 p1, MethodInfo* method);
+#define m21378(__this, p0, p1, method) (( void (*) (t3528 *, t9 *, t58, MethodInfo*))m21378_gshared)(__this, p0, p1, method)
+extern "C" t3516  m21379_gshared (t3528 * __this, t9 * p0, int64_t p1, MethodInfo* method);
+#define m21379(__this, p0, p1, method) (( t3516  (*) (t3528 *, t9 *, int64_t, MethodInfo*))m21379_gshared)(__this, p0, p1, method)
+extern "C" t9 * m21380_gshared (t3528 * __this, t9 * p0, int64_t p1, t470 * p2, t9 * p3, MethodInfo* method);
+#define m21380(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3528 *, t9 *, int64_t, t470 *, t9 *, MethodInfo*))m21380_gshared)(__this, p0, p1, p2, p3, method)
+extern "C" t3516  m21381_gshared (t3528 * __this, t9 * p0, MethodInfo* method);
+#define m21381(__this, p0, method) (( t3516  (*) (t3528 *, t9 *, MethodInfo*))m21381_gshared)(__this, p0, method)

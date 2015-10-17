@@ -1,9 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t1305.h"
-struct  t1309  : public t1305
+#include "t1307.h"
+struct  t1309  : public t1307
 {
-	int32_t f1;
-	int32_t f2;
-	bool f3;
+	bool f1;
+	bool f2;
 };

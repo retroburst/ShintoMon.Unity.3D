@@ -1,10 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t9.h"
-struct  t1592  : public t9
+struct t2;
+#include "t725.h"
+struct  t1592  : public t725
 {
-	int32_t f0;
-	int32_t f1;
-	int32_t f2;
-	bool f3;
+	t2* f0;
 };

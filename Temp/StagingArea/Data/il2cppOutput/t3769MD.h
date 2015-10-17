@@ -6,12 +6,15 @@
 
 struct t3769;
 struct t9;
-struct t856;
-struct t121;
+struct t478;
+struct t478_marshaled;
+struct t469;
+struct t470;
+#include "t58.h"
+#include "t859.h"
 
-#include "t2675MD.h"
-#define m23684(__this, p0, method) (( void (*) (t3769 *, t121 *, MethodInfo*))m12790_gshared)(__this, p0, method)
-#define m23685(__this, method) (( t9 * (*) (t3769 *, MethodInfo*))m12792_gshared)(__this, method)
-#define m23686(__this, method) (( void (*) (t3769 *, MethodInfo*))m12794_gshared)(__this, method)
-#define m23687(__this, method) (( bool (*) (t3769 *, MethodInfo*))m12796_gshared)(__this, method)
-#define m23688(__this, method) (( t856 * (*) (t3769 *, MethodInfo*))m12798_gshared)(__this, method)
+#include "t3169MD.h"
+#define m23609(__this, p0, p1, method) (( void (*) (t3769 *, t9 *, t58, MethodInfo*))m17553_gshared)(__this, p0, p1, method)
+#define m23610(__this, p0, p1, method) (( int32_t (*) (t3769 *, t478 *, int32_t, MethodInfo*))m17554_gshared)(__this, p0, p1, method)
+#define m23611(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3769 *, t478 *, int32_t, t470 *, t9 *, MethodInfo*))m17555_gshared)(__this, p0, p1, p2, p3, method)
+#define m23612(__this, p0, method) (( int32_t (*) (t3769 *, t9 *, MethodInfo*))m17556_gshared)(__this, p0, method)

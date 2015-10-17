@@ -6,14 +6,26 @@
 
 struct t3407;
 struct t9;
-struct t2;
-struct t462;
-struct t463;
-#include "t58.h"
-#include "t1155.h"
+struct t707;
+struct t704;
+struct t4102;
+struct t121;
+struct t76;
+struct t3398;
+#include "t3408.h"
 
-#include "t3126MD.h"
-#define m20218(__this, p0, p1, method) (( void (*) (t3407 *, t9 *, t58, MethodInfo*))m17349_gshared)(__this, p0, p1, method)
-#define m20219(__this, p0, p1, method) (( t1155  (*) (t3407 *, t2*, int32_t, MethodInfo*))m17350_gshared)(__this, p0, p1, method)
-#define m20220(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3407 *, t2*, int32_t, t463 *, t9 *, MethodInfo*))m17351_gshared)(__this, p0, p1, p2, p3, method)
-#define m20221(__this, p0, method) (( t1155  (*) (t3407 *, t9 *, MethodInfo*))m17352_gshared)(__this, p0, method)
+#include "t2981MD.h"
+#define m19968(__this, p0, method) (( void (*) (t3407 *, t707 *, MethodInfo*))m15595_gshared)(__this, p0, method)
+#define m19969(__this, p0, method) (( void (*) (t3407 *, t704 *, MethodInfo*))m15596_gshared)(__this, p0, method)
+#define m19970(__this, method) (( void (*) (t3407 *, MethodInfo*))m15597_gshared)(__this, method)
+#define m19971(__this, p0, method) (( bool (*) (t3407 *, t704 *, MethodInfo*))m15598_gshared)(__this, p0, method)
+#define m19972(__this, p0, method) (( bool (*) (t3407 *, t704 *, MethodInfo*))m15599_gshared)(__this, p0, method)
+#define m19973(__this, method) (( t9* (*) (t3407 *, MethodInfo*))m15600_gshared)(__this, method)
+#define m19974(__this, p0, p1, method) (( void (*) (t3407 *, t121 *, int32_t, MethodInfo*))m15601_gshared)(__this, p0, p1, method)
+#define m19975(__this, method) (( t9 * (*) (t3407 *, MethodInfo*))m15602_gshared)(__this, method)
+#define m19976(__this, method) (( bool (*) (t3407 *, MethodInfo*))m15603_gshared)(__this, method)
+#define m19977(__this, method) (( bool (*) (t3407 *, MethodInfo*))m15604_gshared)(__this, method)
+#define m19978(__this, method) (( t9 * (*) (t3407 *, MethodInfo*))m15605_gshared)(__this, method)
+#define m19979(__this, p0, p1, method) (( void (*) (t3407 *, t3398*, int32_t, MethodInfo*))m15606_gshared)(__this, p0, p1, method)
+#define m19980(__this, method) (( t3408  (*) (t3407 *, MethodInfo*))m15607_gshared)(__this, method)
+#define m19981(__this, method) (( int32_t (*) (t3407 *, MethodInfo*))m15608_gshared)(__this, method)

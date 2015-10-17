@@ -1,8 +1,10 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t117.h"
-struct  t687 
+#include "t57.h"
+struct  t687  : public t57
 {
-	float f0;
-	float f1;
+};
+// Native definition for marshalling of: UnityEngine.ScriptableObject
+struct t687_marshaled
+{
 };

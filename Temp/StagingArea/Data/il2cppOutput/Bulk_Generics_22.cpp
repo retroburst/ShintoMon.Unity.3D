@@ -7,7 +7,7 @@
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 #include "stringLiterals.h"
-#include "t3797.h"
+#include "t3801.h"
 #include <cstring>
 #include <string.h>
 #include <stdio.h>
@@ -19,178 +19,40 @@
 #include <cmath>
 #include <limits>
 #include <assert.h>
-extern TypeInfo t3797_TI;
-#include "t3797MD.h"
-
-#include "t124.h"
-#include "t9.h"
-#include "t1196.h"
-#include "t125.h"
-#include "t122.h"
-#include "t2.h"
-#include "t132.h"
-#include "t169.h"
-#include "t3798.h"
-#include "t121.h"
-#include "mscorlib_ArrayTypes.h"
-#include "t3799.h"
-#include "t58.h"
-extern TypeInfo t991_TI;
-extern TypeInfo t9_TI;
-extern TypeInfo t1196_TI;
-extern TypeInfo t125_TI;
-extern TypeInfo t132_TI;
-extern TypeInfo t169_TI;
-extern TypeInfo t3798_TI;
-extern TypeInfo t1197_TI;
-extern TypeInfo t124_TI;
-extern TypeInfo t122_TI;
-extern TypeInfo t3799_TI;
-#include "t1196MD.h"
-#include "t9MD.h"
-#include "t132MD.h"
-#include "t169MD.h"
-#include "t3799MD.h"
-#include "t3798MD.h"
-extern Il2CppType t1196_0_0_0;
-extern Il2CppType t3798_0_0_0;
-extern Il2CppType t1197_0_0_0;
-extern Il2CppType t3797_0_0_0;
-extern Il2CppType t3799_0_0_0;
-extern MethodInfo m11969_MI;
-extern MethodInfo m23861_MI;
-extern MethodInfo m336_MI;
-extern MethodInfo m339_MI;
-extern MethodInfo m5706_MI;
-extern MethodInfo m23943_MI;
-extern MethodInfo m23869_MI;
-extern MethodInfo m23951_MI;
-extern MethodInfo m23946_MI;
-struct t1196;
-#include "t126.h"
-#include "t138.h"
-#include "t127.h"
-#include "t556.h"
-struct t2781;
-#include "t2781.h"
-#include "t2794.h"
-extern "C" void m25339_gshared (t2781 * __this, t121 * p0, int32_t p1, t2794 * p2, MethodInfo* method);
-#define m25339(__this, p0, p1, p2, method) (( void (*) (t2781 *, t121 *, int32_t, t2794 *, MethodInfo*))m25339_gshared)(__this, p0, p1, p2, method)
-#define m27879(__this, p0, p1, p2, method) (( void (*) (t1196 *, t121 *, int32_t, t3799 *, MethodInfo*))m25339_gshared)(__this, p0, p1, p2, method)
-struct t1196;
-#include "t1659.h"
-extern "C" void m27880 (t1196 * __this, t1197* p0, int32_t p1, t3799 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern Il2CppGenericMethod m23861_GM;
-extern Il2CppGenericMethod m23874_GM;
-extern Il2CppGenericMethod m23944_GM;
-extern Il2CppGenericMethod m23943_GM;
-extern Il2CppGenericMethod m23866_GM;
-extern Il2CppGenericMethod m23869_GM;
-extern Il2CppGenericMethod m23951_GM;
-extern Il2CppGenericMethod m27879_GM;
-extern Il2CppGenericMethod m27880_GM;
-extern Il2CppGenericMethod m23946_GM;
-
-
-#ifndef _MSC_VER
-#else
-#endif
-
-#include "t3795.h"
-#include "t3791.h"
-extern TypeInfo t3795_TI;
-#include "t3795MD.h"
-#include "t3791MD.h"
-extern Il2CppType t3795_0_0_0;
-extern Il2CppGenericMethod m23924_GM;
-extern Il2CppGenericMethod m23889_GM;
-extern Il2CppGenericMethod m23884_GM;
-extern Il2CppGenericMethod m23927_GM;
-extern Il2CppGenericMethod m23921_GM;
-
-
-#ifndef _MSC_VER
-#else
-#endif
-
-#include "t463.h"
-
-
-#include "t3790.h"
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t3790_TI;
-#include "t3790MD.h"
-
-#include "t1155.h"
-
-
-#include "t3800.h"
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t3800_TI;
-#include "t3800MD.h"
-
-
-
-#include "t3801.h"
-#ifndef _MSC_VER
-#else
-#endif
 extern TypeInfo t3801_TI;
 #include "t3801MD.h"
 
-#include "t568.h"
+#include "t9.h"
+#include "t122.h"
+#include "t125.h"
+#include "t1341.h"
+#include "t863.h"
+#include "t871.h"
+#include "t126.h"
+#include "t2.h"
+#include "t1530.h"
+#include "t124.h"
+#include "UnityEngine_ArrayTypes.h"
+extern TypeInfo t1341_TI;
+extern TypeInfo t863_TI;
+extern TypeInfo t871_TI;
+extern TypeInfo t126_TI;
+extern TypeInfo t2_TI;
+extern TypeInfo t1530_TI;
+#include "t1341MD.h"
+#include "t9MD.h"
+#include "t126MD.h"
+#include "t1530MD.h"
+extern Il2CppType t3801_0_0_0;
+extern MethodInfo m5720_MI;
+extern MethodInfo m2510_MI;
+extern MethodInfo m4409_MI;
+extern MethodInfo m6911_MI;
+extern MethodInfo m5713_MI;
+extern Il2CppGenericMethod m23885_GM;
 
+#include "t121.h"
 
-extern Il2CppGenericMethod m23960_GM;
-extern "C" void m23960_gshared (t3801 * __this, t9 * p0, t58 p1, MethodInfo* method)
-{
-	__this->f0 = (methodPointerType)((MethodInfo*)p1.f0)->method;
-	__this->f3 = p1;
-	__this->f2 = p0;
-}
-extern Il2CppGenericMethod m23962_GM;
-extern "C" t3791  m23962_gshared (t3801 * __this, t9 * p0, uint8_t p1, MethodInfo* method)
-{
-	if(__this->f9 != NULL)
-	{
-		m23962((t3801 *)__this->f9,p0, p1, method);
-	}
-	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->f3.f0));
-	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->f3.f0));
-	if (__this->f2 != NULL && ___methodIsStatic)
-	{
-		typedef t3791  (*FunctionPointerType) (t9 *, t9 * __this, t9 * p0, uint8_t p1, MethodInfo* method);
-		return ((FunctionPointerType)__this->f0)(NULL,__this->f2,p0, p1,(MethodInfo*)(__this->f3.f0));
-	}
-	else if (__this->f2 != NULL || ___methodIsStatic)
-	{
-		typedef t3791  (*FunctionPointerType) (t9 * __this, t9 * p0, uint8_t p1, MethodInfo* method);
-		return ((FunctionPointerType)__this->f0)(__this->f2,p0, p1,(MethodInfo*)(__this->f3.f0));
-	}
-	else
-	{
-		typedef t3791  (*FunctionPointerType) (t9 * __this, uint8_t p1, MethodInfo* method);
-		return ((FunctionPointerType)__this->f0)(p0, p1,(MethodInfo*)(__this->f3.f0));
-	}
-}
-extern Il2CppGenericMethod m23964_GM;
-extern "C" t9 * m23964_gshared (t3801 * __this, t9 * p0, uint8_t p1, t463 * p2, t9 * p3, MethodInfo* method)
-{
-	void *__d_args[3] = {0};
-	__d_args[0] = p0;
-	__d_args[1] = Box(InitializedTypeInfo(&t568_TI), &p1);
-	return (t9 *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)p2, (Il2CppObject*)p3);
-}
-extern Il2CppGenericMethod m23966_GM;
-extern "C" t3791  m23966_gshared (t3801 * __this, t9 * p0, MethodInfo* method)
-{
-	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) p0, 0);
-	return *(t3791 *)UnBox ((Il2CppCodeGenObject*)__result);
-}
 #include "t3802.h"
 #ifndef _MSC_VER
 #else
@@ -198,91 +60,49 @@ extern "C" t3791  m23966_gshared (t3801 * __this, t9 * p0, MethodInfo* method)
 extern TypeInfo t3802_TI;
 #include "t3802MD.h"
 
-extern TypeInfo t1152_TI;
-extern TypeInfo t1155_TI;
-extern TypeInfo t3791_TI;
-extern TypeInfo t2_TI;
-extern Il2CppType t3802_0_0_0;
-extern MethodInfo m11972_MI;
-extern MethodInfo m23969_MI;
-extern Il2CppGenericMethod m23922_GM;
-extern Il2CppGenericMethod m23887_GM;
-extern Il2CppGenericMethod m23969_GM;
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4957_TI;
-
-#include "t1173.h"
-
-
-#include "t3803.h"
-#ifndef _MSC_VER
-#else
-#endif
+#include "t169.h"
+#include "t132.h"
+extern TypeInfo t125_TI;
+extern TypeInfo t169_TI;
 extern TypeInfo t3803_TI;
-#include "t3803MD.h"
-
-#include "t1332.h"
-extern TypeInfo t1173_TI;
-extern TypeInfo t1332_TI;
-#include "t1332MD.h"
-#include "t121MD.h"
+extern TypeInfo t4190_TI;
+extern TypeInfo t132_TI;
+extern TypeInfo t998_TI;
+extern TypeInfo t122_TI;
+extern TypeInfo t121_TI;
+extern TypeInfo t665_TI;
+extern TypeInfo t76_TI;
+extern TypeInfo t124_TI;
+extern TypeInfo t3799_TI;
+extern TypeInfo t4188_TI;
+extern TypeInfo t4189_TI;
+#include "t169MD.h"
+#include "t132MD.h"
+#include "t3804MD.h"
+extern Il2CppType t3802_0_0_0;
 extern Il2CppType t3803_0_0_0;
-extern MethodInfo m5685_MI;
-extern MethodInfo m5689_MI;
-struct t121;
-#include "t896.h"
-struct t121;
-extern "C" t9 * m24739_gshared (t121 * __this, int32_t p0, MethodInfo* method);
-#define m24739(__this, p0, method) (( t9 * (*) (t121 *, int32_t, MethodInfo*))m24739_gshared)(__this, p0, method)
-#define m27888(__this, p0, method) (( t1173 * (*) (t121 *, int32_t, MethodInfo*))m24739_gshared)(__this, p0, method)
-extern Il2CppGenericMethod m23977_GM;
-extern Il2CppGenericMethod m27888_GM;
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4958_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4959_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4960_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4961_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4962_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4963_TI;
-
+extern Il2CppType t4190_0_0_0;
+extern Il2CppType t4188_0_0_0;
+extern MethodInfo m23917_MI;
+extern MethodInfo m561_MI;
+extern MethodInfo m29690_MI;
+extern MethodInfo m29686_MI;
+extern MethodInfo m336_MI;
+extern MethodInfo m339_MI;
+extern MethodInfo m5709_MI;
+extern MethodInfo m4368_MI;
+extern MethodInfo m29691_MI;
+extern MethodInfo m29692_MI;
+extern MethodInfo m29687_MI;
+extern MethodInfo m29688_MI;
+extern Il2CppGenericMethod m23917_GM;
+extern Il2CppGenericMethod m29690_GM;
+extern Il2CppGenericMethod m29686_GM;
+extern Il2CppGenericMethod m23949_GM;
+extern Il2CppGenericMethod m29691_GM;
+extern Il2CppGenericMethod m29692_GM;
+extern Il2CppGenericMethod m29687_GM;
+extern Il2CppGenericMethod m29688_GM;
 
 
 #include "t3804.h"
@@ -290,29 +110,49 @@ extern TypeInfo t4963_TI;
 #else
 #endif
 extern TypeInfo t3804_TI;
-#include "t3804MD.h"
 
-extern TypeInfo t1099_TI;
+#include "t127.h"
+#include "t563.h"
+extern TypeInfo t9_TI;
+extern TypeInfo t563_TI;
+extern TypeInfo t999_TI;
+#include "t871MD.h"
+#include "t563MD.h"
 extern Il2CppType t3804_0_0_0;
-struct t121;
-#define m27899(__this, p0, method) (( t9 * (*) (t121 *, int32_t, MethodInfo*))m24739_gshared)(__this, p0, method)
-extern Il2CppGenericMethod m23982_GM;
-extern Il2CppGenericMethod m27899_GM;
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4964_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4965_TI;
-
-#include "t1230.h"
+extern Il2CppType t871_0_0_0;
+extern Il2CppType t863_0_0_0;
+extern MethodInfo m29693_MI;
+extern MethodInfo m23948_MI;
+extern MethodInfo m4478_MI;
+extern MethodInfo m11997_MI;
+extern MethodInfo m23941_MI;
+extern MethodInfo m23939_MI;
+extern MethodInfo m23944_MI;
+extern MethodInfo m23935_MI;
+extern MethodInfo m29694_MI;
+extern MethodInfo m29695_MI;
+extern MethodInfo m29696_MI;
+extern MethodInfo m29697_MI;
+extern MethodInfo m329_MI;
+extern MethodInfo m7761_MI;
+extern MethodInfo m2909_MI;
+extern MethodInfo m12300_MI;
+extern MethodInfo m12301_MI;
+extern Il2CppGenericMethod m29693_GM;
+extern Il2CppGenericMethod m23952_GM;
+extern Il2CppGenericMethod m23953_GM;
+extern Il2CppGenericMethod m23950_GM;
+extern Il2CppGenericMethod m23948_GM;
+extern Il2CppGenericMethod m4478_GM;
+extern Il2CppGenericMethod m23941_GM;
+extern Il2CppGenericMethod m23951_GM;
+extern Il2CppGenericMethod m23939_GM;
+extern Il2CppGenericMethod m23944_GM;
+extern Il2CppGenericMethod m23935_GM;
+extern Il2CppGenericMethod m29694_GM;
+extern Il2CppGenericMethod m29695_GM;
+extern Il2CppGenericMethod m29696_GM;
+extern Il2CppGenericMethod m29697_GM;
 
 
 #include "t3805.h"
@@ -322,17 +162,1542 @@ extern TypeInfo t4965_TI;
 extern TypeInfo t3805_TI;
 #include "t3805MD.h"
 
-extern TypeInfo t1230_TI;
+#include "mscorlib_ArrayTypes.h"
+#include "t3806.h"
+extern TypeInfo t152_TI;
+extern TypeInfo t3806_TI;
+#include "t1347MD.h"
+#include "t3806MD.h"
 extern Il2CppType t3805_0_0_0;
-struct t121;
-extern "C" t1230  m27910_gshared (t121 * __this, int32_t p0, MethodInfo* method);
-#define m27910(__this, p0, method) (( t1230  (*) (t121 *, int32_t, MethodInfo*))m27910_gshared)(__this, p0, method)
-extern Il2CppGenericMethod m23987_GM;
-extern Il2CppGenericMethod m27910_GM;
+extern Il2CppType t4996_0_0_0;
+extern Il2CppType t2534_0_0_0;
+extern Il2CppType t152_0_0_0;
+extern Il2CppType t3806_0_0_0;
+extern MethodInfo m4473_MI;
+extern MethodInfo m4471_MI;
+extern MethodInfo m11111_MI;
+extern MethodInfo m23959_MI;
+extern MethodInfo m29698_MI;
+extern MethodInfo m28078_MI;
+extern Il2CppGenericMethod m23959_GM;
+extern Il2CppGenericMethod m29698_GM;
+extern Il2CppGenericMethod m28078_GM;
 
 
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t4997_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t4996_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+extern MethodInfo m672_MI;
+extern MethodInfo m671_MI;
+extern Il2CppGenericMethod m23954_GM;
+
+
+#include "t944.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t944_TI;
+#include "t944MD.h"
+
+#include "t58.h"
+#include "t470.h"
+
+
+#include "t3807.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3807_TI;
+#include "t3807MD.h"
+
+
+
+#include "t3808.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3808_TI;
+#include "t3808MD.h"
+
+#include "t3809.h"
+extern TypeInfo t3809_TI;
+#include "t3809MD.h"
+extern Il2CppType t3808_0_0_0;
+extern Il2CppType t4358_0_0_0;
+extern Il2CppType t2445_0_0_0;
+extern Il2CppType t3809_0_0_0;
+extern MethodInfo m23973_MI;
+extern MethodInfo m29699_MI;
+extern MethodInfo m11137_MI;
+extern Il2CppGenericMethod m23973_GM;
+extern Il2CppGenericMethod m29699_GM;
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t4357_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t4358_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+extern TypeInfo t185_TI;
+extern MethodInfo m28087_MI;
+extern MethodInfo m11968_MI;
+extern Il2CppGenericMethod m23969_GM;
+extern Il2CppGenericMethod m28087_GM;
+
+
+#include "t3810.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3810_TI;
+#include "t3810MD.h"
+
+
+
+#include "t3811.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3811_TI;
+#include "t3811MD.h"
+
+#include "t828.h"
+#include "t3777.h"
+extern TypeInfo t158_TI;
+extern TypeInfo t3777_TI;
+#include "t867MD.h"
+#include "t3777MD.h"
+extern Il2CppType t158_0_0_0;
+extern Il2CppType t9_0_0_0;
+extern Il2CppType t3777_0_0_0;
+extern MethodInfo m4203_MI;
+extern MethodInfo m4211_MI;
+extern MethodInfo m23647_MI;
+extern Il2CppGenericMethod m23647_GM;
+
+
+extern Il2CppGenericMethod m23979_GM;
+extern TypeInfo* t158_TI_var;
+extern "C" void m23979_gshared (t3811 * __this, MethodInfo* method)
+{
+	static bool m23979_init;
+	if (!m23979_init)
+	{
+		t158_TI_var = il2cpp_codegen_class_from_type(&t158_0_0_0);
+		m23979_init = true;
+	}
+	{
+		__this->f4 = ((t158*)SZArrayNew(t158_TI_var, 2));
+		m4203(__this, &m4203_MI);
+		return;
+	}
+}
+extern Il2CppGenericMethod m23980_GM;
+extern TypeInfo* t152_TI_var;
+extern "C" t828 * m23980_gshared (t3811 * __this, t2* p0, t9 * p1, MethodInfo* method)
+{
+	static bool m23980_init;
+	if (!m23980_init)
+	{
+		t152_TI_var = il2cpp_codegen_class_from_type(&t152_0_0_0);
+		m23980_init = true;
+	}
+	{
+		t9 * L_0 = p1;
+		t2* L_1 = p0;
+		t152* L_2 = ((t152*)SZArrayNew(t152_TI_var, 2));
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t126_TI));
+		t126 * L_3 = m329(NULL, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), &m329_MI);
+		ArrayElementTypeCheck (L_2, L_3);
+		*((t126 **)(t126 **)SZArrayLdElema(L_2, 0)) = (t126 *)L_3;
+		t152* L_4 = L_2;
+		t126 * L_5 = m329(NULL, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), &m329_MI);
+		ArrayElementTypeCheck (L_4, L_5);
+		*((t126 **)(t126 **)SZArrayLdElema(L_4, 1)) = (t126 *)L_5;
+		t828 * L_6 = m4211(NULL, L_0, L_1, L_4, &m4211_MI);
+		return L_6;
+	}
+}
+extern Il2CppGenericMethod m23981_GM;
+extern "C" t863 * m23981_gshared (t3811 * __this, t9 * p0, t828 * p1, MethodInfo* method)
+{
+	{
+		t9 * L_0 = p0;
+		t828 * L_1 = p1;
+		t3777 * L_2 = (t3777 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		(( void (*) (t3777 *, t9 *, t828 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(L_2, L_0, L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		return L_2;
+	}
+}
+#include "t3812.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3812_TI;
+#include "t3812MD.h"
+
+#include "t3779.h"
+extern TypeInfo t3779_TI;
+#include "t3779MD.h"
+extern Il2CppType t3779_0_0_0;
+extern MethodInfo m23654_MI;
+extern Il2CppGenericMethod m23654_GM;
+
+
+extern Il2CppGenericMethod m23982_GM;
+extern TypeInfo* t158_TI_var;
+extern "C" void m23982_gshared (t3812 * __this, MethodInfo* method)
+{
+	static bool m23982_init;
+	if (!m23982_init)
+	{
+		t158_TI_var = il2cpp_codegen_class_from_type(&t158_0_0_0);
+		m23982_init = true;
+	}
+	{
+		__this->f4 = ((t158*)SZArrayNew(t158_TI_var, 3));
+		m4203(__this, &m4203_MI);
+		return;
+	}
+}
 extern Il2CppGenericMethod m23983_GM;
-extern "C" void m23983_gshared (t3805 * __this, t121 * p0, MethodInfo* method)
+extern TypeInfo* t152_TI_var;
+extern "C" t828 * m23983_gshared (t3812 * __this, t2* p0, t9 * p1, MethodInfo* method)
+{
+	static bool m23983_init;
+	if (!m23983_init)
+	{
+		t152_TI_var = il2cpp_codegen_class_from_type(&t152_0_0_0);
+		m23983_init = true;
+	}
+	{
+		t9 * L_0 = p1;
+		t2* L_1 = p0;
+		t152* L_2 = ((t152*)SZArrayNew(t152_TI_var, 3));
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t126_TI));
+		t126 * L_3 = m329(NULL, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), &m329_MI);
+		ArrayElementTypeCheck (L_2, L_3);
+		*((t126 **)(t126 **)SZArrayLdElema(L_2, 0)) = (t126 *)L_3;
+		t152* L_4 = L_2;
+		t126 * L_5 = m329(NULL, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), &m329_MI);
+		ArrayElementTypeCheck (L_4, L_5);
+		*((t126 **)(t126 **)SZArrayLdElema(L_4, 1)) = (t126 *)L_5;
+		t152* L_6 = L_4;
+		t126 * L_7 = m329(NULL, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)), &m329_MI);
+		ArrayElementTypeCheck (L_6, L_7);
+		*((t126 **)(t126 **)SZArrayLdElema(L_6, 2)) = (t126 *)L_7;
+		t828 * L_8 = m4211(NULL, L_0, L_1, L_6, &m4211_MI);
+		return L_8;
+	}
+}
+extern Il2CppGenericMethod m23984_GM;
+extern "C" t863 * m23984_gshared (t3812 * __this, t9 * p0, t828 * p1, MethodInfo* method)
+{
+	{
+		t9 * L_0 = p0;
+		t828 * L_1 = p1;
+		t3779 * L_2 = (t3779 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		(( void (*) (t3779 *, t9 *, t828 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(L_2, L_0, L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		return L_2;
+	}
+}
+#include "t3813.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3813_TI;
+#include "t3813MD.h"
+
+#include "t3781.h"
+extern TypeInfo t3781_TI;
+#include "t3781MD.h"
+extern Il2CppType t3781_0_0_0;
+extern MethodInfo m23661_MI;
+extern Il2CppGenericMethod m23661_GM;
+
+
+extern Il2CppGenericMethod m23985_GM;
+extern TypeInfo* t158_TI_var;
+extern "C" void m23985_gshared (t3813 * __this, MethodInfo* method)
+{
+	static bool m23985_init;
+	if (!m23985_init)
+	{
+		t158_TI_var = il2cpp_codegen_class_from_type(&t158_0_0_0);
+		m23985_init = true;
+	}
+	{
+		__this->f4 = ((t158*)SZArrayNew(t158_TI_var, 4));
+		m4203(__this, &m4203_MI);
+		return;
+	}
+}
+extern Il2CppGenericMethod m23986_GM;
+extern TypeInfo* t152_TI_var;
+extern "C" t828 * m23986_gshared (t3813 * __this, t2* p0, t9 * p1, MethodInfo* method)
+{
+	static bool m23986_init;
+	if (!m23986_init)
+	{
+		t152_TI_var = il2cpp_codegen_class_from_type(&t152_0_0_0);
+		m23986_init = true;
+	}
+	{
+		t9 * L_0 = p1;
+		t2* L_1 = p0;
+		t152* L_2 = ((t152*)SZArrayNew(t152_TI_var, 4));
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t126_TI));
+		t126 * L_3 = m329(NULL, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), &m329_MI);
+		ArrayElementTypeCheck (L_2, L_3);
+		*((t126 **)(t126 **)SZArrayLdElema(L_2, 0)) = (t126 *)L_3;
+		t152* L_4 = L_2;
+		t126 * L_5 = m329(NULL, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), &m329_MI);
+		ArrayElementTypeCheck (L_4, L_5);
+		*((t126 **)(t126 **)SZArrayLdElema(L_4, 1)) = (t126 *)L_5;
+		t152* L_6 = L_4;
+		t126 * L_7 = m329(NULL, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)), &m329_MI);
+		ArrayElementTypeCheck (L_6, L_7);
+		*((t126 **)(t126 **)SZArrayLdElema(L_6, 2)) = (t126 *)L_7;
+		t152* L_8 = L_6;
+		t126 * L_9 = m329(NULL, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)), &m329_MI);
+		ArrayElementTypeCheck (L_8, L_9);
+		*((t126 **)(t126 **)SZArrayLdElema(L_8, 3)) = (t126 *)L_9;
+		t828 * L_10 = m4211(NULL, L_0, L_1, L_8, &m4211_MI);
+		return L_10;
+	}
+}
+extern Il2CppGenericMethod m23987_GM;
+extern "C" t863 * m23987_gshared (t3813 * __this, t9 * p0, t828 * p1, MethodInfo* method)
+{
+	{
+		t9 * L_0 = p0;
+		t828 * L_1 = p1;
+		t3781 * L_2 = (t3781 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		(( void (*) (t3781 *, t9 *, t828 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_2, L_0, L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		return L_2;
+	}
+}
+#include "t3814.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3814_TI;
+#include "t3814MD.h"
+
+#include "t1100.h"
+#include "t1101.h"
+#include "t3818.h"
+#include "t903.h"
+#include "t2175.h"
+#include "System.Core_ArrayTypes.h"
+#include "t3816.h"
+#include "t1346.h"
+extern TypeInfo t810_TI;
+extern TypeInfo t1000_TI;
+extern TypeInfo t194_TI;
+extern TypeInfo t137_TI;
+extern TypeInfo t3818_TI;
+extern TypeInfo t903_TI;
+extern TypeInfo t2175_TI;
+extern TypeInfo t1095_TI;
+extern TypeInfo t3815_TI;
+extern TypeInfo t3816_TI;
+extern TypeInfo t2695_TI;
+extern TypeInfo t3819_TI;
+extern TypeInfo t1346_TI;
+#include "t3818MD.h"
+#include "t903MD.h"
+#include "t2175MD.h"
+#include "t3819MD.h"
+#include "t121MD.h"
+#include "t1346MD.h"
+extern Il2CppType t810_0_0_0;
+extern Il2CppType t1000_0_0_0;
+extern Il2CppType t194_0_0_0;
+extern Il2CppType t3818_0_0_0;
+extern Il2CppType t3814_0_0_0;
+extern Il2CppType t2175_0_0_0;
+extern Il2CppType t1095_0_0_0;
+extern Il2CppType t3815_0_0_0;
+extern Il2CppType t3816_0_0_0;
+extern Il2CppType t2695_0_0_0;
+extern Il2CppType t3819_0_0_0;
+extern MethodInfo m25794_MI;
+extern MethodInfo m25792_MI;
+extern MethodInfo m25793_MI;
+extern MethodInfo m364_MI;
+extern MethodInfo m365_MI;
+extern MethodInfo m24017_MI;
+extern MethodInfo m24001_MI;
+extern MethodInfo m5721_MI;
+extern MethodInfo m25980_MI;
+extern MethodInfo m7710_MI;
+extern MethodInfo m29022_MI;
+extern MethodInfo m1161_MI;
+extern MethodInfo m11668_MI;
+extern Il2CppGenericMethod m23998_GM;
+extern Il2CppGenericMethod m23990_GM;
+extern Il2CppGenericMethod m25794_GM;
+extern Il2CppGenericMethod m25792_GM;
+extern Il2CppGenericMethod m25793_GM;
+extern Il2CppGenericMethod m24006_GM;
+extern Il2CppGenericMethod m24017_GM;
+extern Il2CppGenericMethod m24001_GM;
+extern Il2CppGenericMethod m13110_GM;
+extern Il2CppGenericMethod m23999_GM;
+extern Il2CppGenericMethod m25980_GM;
+extern Il2CppGenericMethod m24002_GM;
+extern Il2CppGenericMethod m24004_GM;
+extern Il2CppGenericMethod m24026_GM;
+extern Il2CppGenericMethod m24005_GM;
+extern Il2CppGenericMethod m29022_GM;
+extern Il2CppGenericMethod m24000_GM;
+extern Il2CppGenericMethod m24003_GM;
+
+
+extern Il2CppGenericMethod m23988_GM;
+extern "C" void m23988_gshared (t3814 * __this, MethodInfo* method)
+{
+	{
+		m336(__this, &m336_MI);
+		(( void (*) (t3814 *, int32_t, t9*, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, ((int32_t)10), (t9*)NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		return;
+	}
+}
+extern Il2CppGenericMethod m23989_GM;
+extern "C" void m23989_gshared (t3814 * __this, t9* p0, MethodInfo* method)
+{
+	{
+		t9* L_0 = p0;
+		(( void (*) (t3814 *, t9*, t9*, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(__this, L_0, (t9*)NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		return;
+	}
+}
+extern "C" void m23990_gshared (t3814 * __this, t9* p0, t9* p1, MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	t9* V_1 = {0};
+	t9 * V_2 = {0};
+	t9* V_3 = {0};
+	t138 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	t138 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		m336(__this, &m336_MI);
+		t9* L_0 = p0;
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		t132 * L_1 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
+		m339(L_1, (t2*) &_stringLiteral398, &m339_MI);
+		il2cpp_codegen_raise_exception(L_1);
+	}
+
+IL_0017:
+	{
+		V_0 = 0;
+		t9* L_2 = p0;
+		V_1 = ((t9*)IsInst(L_2, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)));
+		t9* L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		t9* L_4 = V_1;
+		int32_t L_5 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3), L_4);
+		V_0 = L_5;
+	}
+
+IL_002d:
+	{
+		int32_t L_6 = V_0;
+		t9* L_7 = p1;
+		(( void (*) (t3814 *, int32_t, t9*, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, L_6, L_7, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t9* L_8 = p0;
+		t9* L_9 = (t9*)InterfaceFuncInvoker0< t9* >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), L_8);
+		V_3 = L_9;
+	}
+
+IL_003c:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0050;
+		}
+
+IL_0041:
+		{
+			t9* L_10 = V_3;
+			t9 * L_11 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), L_10);
+			V_2 = L_11;
+			t9 * L_12 = V_2;
+			(( bool (*) (t3814 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6)->method)(__this, L_12, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
+		}
+
+IL_0050:
+		{
+			t9* L_13 = V_3;
+			bool L_14 = (bool)InterfaceFuncInvoker0< bool >::Invoke(&m364_MI, L_13);
+			if (L_14)
+			{
+				goto IL_0041;
+			}
+		}
+
+IL_005b:
+		{
+			IL2CPP_LEAVE(0x6B, FINALLY_0060);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (t138 *)e.ex;
+		goto FINALLY_0060;
+	}
+
+FINALLY_0060:
+	{ // begin finally (depth: 1)
+		{
+			t9* L_15 = V_3;
+			if (L_15)
+			{
+				goto IL_0064;
+			}
+		}
+
+IL_0063:
+		{
+			IL2CPP_END_FINALLY(96)
+		}
+
+IL_0064:
+		{
+			t9* L_16 = V_3;
+			InterfaceActionInvoker0::Invoke(&m365_MI, L_16);
+			IL2CPP_END_FINALLY(96)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(96)
+	{
+		IL2CPP_JUMP_TBL(0x6B, IL_006b)
+		IL2CPP_RETHROW_IF_UNHANDLED(t138 *)
+	}
+
+IL_006b:
+	{
+		return;
+	}
+}
+extern Il2CppGenericMethod m23991_GM;
+extern "C" void m23991_gshared (t3814 * __this, t1100 * p0, t1101  p1, MethodInfo* method)
+{
+	{
+		m336(__this, &m336_MI);
+		t1100 * L_0 = p0;
+		__this->f8 = L_0;
+		return;
+	}
+}
+extern Il2CppGenericMethod m23992_GM;
+extern "C" t9* m23992_gshared (t3814 * __this, MethodInfo* method)
+{
+	{
+		t3818  L_0 = {0};
+		(( void (*) (t3818 *, t3814 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(&L_0, __this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
+		t3818  L_1 = L_0;
+		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7), &L_1);
+		return (t9*)L_2;
+	}
+}
+extern Il2CppGenericMethod m23993_GM;
+extern "C" bool m23993_gshared (t3814 * __this, MethodInfo* method)
+{
+	{
+		return 0;
+	}
+}
+extern Il2CppGenericMethod m23994_GM;
+extern "C" void m23994_gshared (t3814 * __this, t158* p0, int32_t p1, MethodInfo* method)
+{
+	{
+		t158* L_0 = p0;
+		int32_t L_1 = p1;
+		VirtActionInvoker2< t158*, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9), __this, L_0, L_1);
+		return;
+	}
+}
+extern Il2CppGenericMethod m23995_GM;
+extern "C" void m23995_gshared (t3814 * __this, t9 * p0, MethodInfo* method)
+{
+	{
+		t9 * L_0 = p0;
+		(( bool (*) (t3814 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6)->method)(__this, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
+		return;
+	}
+}
+extern Il2CppGenericMethod m23996_GM;
+extern "C" t9 * m23996_gshared (t3814 * __this, MethodInfo* method)
+{
+	{
+		t3818  L_0 = {0};
+		(( void (*) (t3818 *, t3814 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(&L_0, __this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
+		t3818  L_1 = L_0;
+		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7), &L_1);
+		return (t9 *)L_2;
+	}
+}
+extern Il2CppGenericMethod m23997_GM;
+extern "C" int32_t m23997_gshared (t3814 * __this, MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->f5);
+		return L_0;
+	}
+}
+extern TypeInfo* t2175_TI_var;
+extern "C" void m23998_gshared (t3814 * __this, int32_t p0, t9* p1, MethodInfo* method)
+{
+	static bool m23998_init;
+	if (!m23998_init)
+	{
+		t2175_TI_var = il2cpp_codegen_class_from_type(&t2175_0_0_0);
+		m23998_init = true;
+	}
+	t9* G_B4_0 = {0};
+	t3814 * G_B4_1 = {0};
+	t9* G_B3_0 = {0};
+	t3814 * G_B3_1 = {0};
+	{
+		int32_t L_0 = p0;
+		if ((((int32_t)L_0) >= ((int32_t)0)))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		t903 * L_1 = (t903 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t903_TI));
+		m5721(L_1, (t2*) &_stringLiteral399, &m5721_MI);
+		il2cpp_codegen_raise_exception(L_1);
+	}
+
+IL_0012:
+	{
+		t9* L_2 = p1;
+		t9* L_3 = L_2;
+		G_B3_0 = L_3;
+		G_B3_1 = ((t3814 *)(__this));
+		if (L_3)
+		{
+			G_B4_0 = L_3;
+			G_B4_1 = ((t3814 *)(__this));
+			goto IL_0020;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(t2175_TI_var);
+		t2175 * L_4 = (( t2175 * (*) (t9 * , MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 10)->method)(NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 10));
+		G_B4_0 = ((t9*)(L_4));
+		G_B4_1 = ((t3814 *)(G_B3_1));
+	}
+
+IL_0020:
+	{
+		G_B4_1->f7 = G_B4_0;
+		int32_t L_5 = p0;
+		if (L_5)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		p0 = ((int32_t)10);
+	}
+
+IL_002f:
+	{
+		int32_t L_6 = p0;
+		p0 = ((int32_t)((int32_t)(((int32_t)((float)((float)(((float)L_6))/(float)(0.9f)))))+(int32_t)1));
+		int32_t L_7 = p0;
+		(( void (*) (t3814 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 11)->method)(__this, L_7, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 11));
+		__this->f9 = 0;
+		return;
+	}
+}
+extern TypeInfo* t1095_TI_var;
+extern "C" void m23999_gshared (t3814 * __this, int32_t p0, MethodInfo* method)
+{
+	static bool m23999_init;
+	if (!m23999_init)
+	{
+		t1095_TI_var = il2cpp_codegen_class_from_type(&t1095_0_0_0);
+		m23999_init = true;
+	}
+	{
+		int32_t L_0 = p0;
+		__this->f0 = ((t1095*)SZArrayNew(t1095_TI_var, L_0));
+		int32_t L_1 = p0;
+		__this->f1 = ((t3815*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12), L_1));
+		__this->f4 = (-1);
+		int32_t L_2 = p0;
+		__this->f2 = ((t158*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 13), L_2));
+		__this->f3 = 0;
+		t1095* L_3 = (__this->f0);
+		__this->f6 = (((int32_t)((float)((float)(((float)(((int32_t)(((t121 *)L_3)->max_length)))))*(float)(0.9f)))));
+		int32_t L_4 = (__this->f6);
+		if (L_4)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		t1095* L_5 = (__this->f0);
+		if ((((int32_t)(((int32_t)(((t121 *)L_5)->max_length)))) <= ((int32_t)0)))
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		__this->f6 = 1;
+	}
+
+IL_0068:
+	{
+		return;
+	}
+}
+extern "C" bool m24000_gshared (t3814 * __this, int32_t p0, int32_t p1, t9 * p2, MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	t3816  V_1 = {0};
+	int32_t G_B8_0 = 0;
+	int32_t G_B10_0 = 0;
+	{
+		t1095* L_0 = (__this->f0);
+		int32_t L_1 = p0;
+		int32_t L_2 = L_1;
+		V_0 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_0, L_2))-(int32_t)1));
+		goto IL_00a9;
+	}
+
+IL_0010:
+	{
+		t3815* L_3 = (__this->f1);
+		int32_t L_4 = V_0;
+		V_1 = (*(t3816 *)((t3816 *)(t3816 *)SZArrayLdElema(L_3, L_4)));
+		int32_t L_5 = ((&V_1)->f0);
+		int32_t L_6 = p1;
+		if ((!(((uint32_t)L_5) == ((uint32_t)L_6))))
+		{
+			goto IL_00a1;
+		}
+	}
+	{
+		int32_t L_7 = p1;
+		if ((!(((uint32_t)L_7) == ((uint32_t)((int32_t)-2147483648)))))
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		t9 * L_8 = p2;
+		t9 * L_9 = L_8;
+		if (!((t9 *)L_9))
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		t158* L_10 = (__this->f2);
+		int32_t L_11 = V_0;
+		int32_t L_12 = L_11;
+		t9 * L_13 = (*(t9 **)(t9 **)SZArrayLdElema(L_10, L_12));
+		if (((t9 *)L_13))
+		{
+			goto IL_0082;
+		}
+	}
+
+IL_005b:
+	{
+		t9 * L_14 = p2;
+		t9 * L_15 = L_14;
+		if (((t9 *)L_15))
+		{
+			goto IL_007c;
+		}
+	}
+	{
+		t158* L_16 = (__this->f2);
+		int32_t L_17 = V_0;
+		int32_t L_18 = L_17;
+		t9 * L_19 = (*(t9 **)(t9 **)SZArrayLdElema(L_16, L_18));
+		G_B8_0 = ((((t9*)(t9 *)NULL) == ((t9*)(t9 *)((t9 *)L_19)))? 1 : 0);
+		goto IL_007d;
+	}
+
+IL_007c:
+	{
+		G_B8_0 = 0;
+	}
+
+IL_007d:
+	{
+		G_B10_0 = G_B8_0;
+		goto IL_009a;
+	}
+
+IL_0082:
+	{
+		t9* L_20 = (__this->f7);
+		t9 * L_21 = p2;
+		t158* L_22 = (__this->f2);
+		int32_t L_23 = V_0;
+		int32_t L_24 = L_23;
+		bool L_25 = (bool)InterfaceFuncInvoker2< bool, t9 *, t9 * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 15), L_20, L_21, (*(t9 **)(t9 **)SZArrayLdElema(L_22, L_24)));
+		G_B10_0 = ((int32_t)(L_25));
+	}
+
+IL_009a:
+	{
+		if (!G_B10_0)
+		{
+			goto IL_00a1;
+		}
+	}
+	{
+		return 1;
+	}
+
+IL_00a1:
+	{
+		int32_t L_26 = ((&V_1)->f1);
+		V_0 = L_26;
+	}
+
+IL_00a9:
+	{
+		int32_t L_27 = V_0;
+		if ((!(((uint32_t)L_27) == ((uint32_t)(-1)))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		return 0;
+	}
+}
+extern "C" void m24001_gshared (t3814 * __this, t158* p0, int32_t p1, MethodInfo* method)
+{
+	{
+		t158* L_0 = p0;
+		int32_t L_1 = p1;
+		int32_t L_2 = (__this->f5);
+		(( void (*) (t3814 *, t158*, int32_t, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 16)->method)(__this, L_0, L_1, L_2, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 16));
+		return;
+	}
+}
+extern "C" void m24002_gshared (t3814 * __this, t158* p0, int32_t p1, int32_t p2, MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		t158* L_0 = p0;
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		t132 * L_1 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
+		m339(L_1, (t2*) &_stringLiteral329, &m339_MI);
+		il2cpp_codegen_raise_exception(L_1);
+	}
+
+IL_0011:
+	{
+		int32_t L_2 = p1;
+		if ((((int32_t)L_2) >= ((int32_t)0)))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		t903 * L_3 = (t903 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t903_TI));
+		m5721(L_3, (t2*) &_stringLiteral400, &m5721_MI);
+		il2cpp_codegen_raise_exception(L_3);
+	}
+
+IL_0023:
+	{
+		int32_t L_4 = p1;
+		t158* L_5 = p0;
+		if ((((int32_t)L_4) <= ((int32_t)(((int32_t)(((t121 *)L_5)->max_length))))))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		t563 * L_6 = (t563 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t563_TI));
+		m2909(L_6, (t2*) &_stringLiteral401, &m2909_MI);
+		il2cpp_codegen_raise_exception(L_6);
+	}
+
+IL_0037:
+	{
+		t158* L_7 = p0;
+		int32_t L_8 = p1;
+		int32_t L_9 = p2;
+		if ((((int32_t)((int32_t)((int32_t)(((int32_t)(((t121 *)L_7)->max_length)))-(int32_t)L_8))) >= ((int32_t)L_9)))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		t563 * L_10 = (t563 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t563_TI));
+		m2909(L_10, (t2*) &_stringLiteral402, &m2909_MI);
+		il2cpp_codegen_raise_exception(L_10);
+	}
+
+IL_004d:
+	{
+		V_0 = 0;
+		V_1 = 0;
+		goto IL_007e;
+	}
+
+IL_0056:
+	{
+		int32_t L_11 = V_0;
+		int32_t L_12 = (( int32_t (*) (t3814 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 17)->method)(__this, L_11, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 17));
+		if (!L_12)
+		{
+			goto IL_007a;
+		}
+	}
+	{
+		t158* L_13 = p0;
+		int32_t L_14 = p1;
+		int32_t L_15 = L_14;
+		p1 = ((int32_t)((int32_t)L_15+(int32_t)1));
+		t158* L_16 = (__this->f2);
+		int32_t L_17 = V_0;
+		int32_t L_18 = L_17;
+		*((t9 **)(t9 **)SZArrayLdElema(L_13, L_15)) = (t9 *)(*(t9 **)(t9 **)SZArrayLdElema(L_16, L_18));
+	}
+
+IL_007a:
+	{
+		int32_t L_19 = V_0;
+		V_0 = ((int32_t)((int32_t)L_19+(int32_t)1));
+	}
+
+IL_007e:
+	{
+		int32_t L_20 = V_0;
+		int32_t L_21 = (__this->f3);
+		if ((((int32_t)L_20) >= ((int32_t)L_21)))
+		{
+			goto IL_0091;
+		}
+	}
+	{
+		int32_t L_22 = V_1;
+		int32_t L_23 = p2;
+		if ((((int32_t)L_22) < ((int32_t)L_23)))
+		{
+			goto IL_0056;
+		}
+	}
+
+IL_0091:
+	{
+		return;
+	}
+}
+extern TypeInfo* t3819_TI_var;
+extern TypeInfo* t1095_TI_var;
+extern "C" void m24003_gshared (t3814 * __this, MethodInfo* method)
+{
+	static bool m24003_init;
+	if (!m24003_init)
+	{
+		t3819_TI_var = il2cpp_codegen_class_from_type(&t3819_0_0_0);
+		t1095_TI_var = il2cpp_codegen_class_from_type(&t1095_0_0_0);
+		m24003_init = true;
+	}
+	int32_t V_0 = 0;
+	t1095* V_1 = {0};
+	t3815* V_2 = {0};
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	t158* V_7 = {0};
+	int32_t V_8 = 0;
+	{
+		t1095* L_0 = (__this->f0);
+		IL2CPP_RUNTIME_CLASS_INIT(t3819_TI_var);
+		int32_t L_1 = (( int32_t (*) (t9 * , int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18)->method)(NULL, ((int32_t)((int32_t)((int32_t)((int32_t)(((int32_t)(((t121 *)L_0)->max_length)))<<(int32_t)1))|(int32_t)1)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18));
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		V_1 = ((t1095*)SZArrayNew(t1095_TI_var, L_2));
+		int32_t L_3 = V_0;
+		V_2 = ((t3815*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12), L_3));
+		V_3 = 0;
+		goto IL_00a6;
+	}
+
+IL_0027:
+	{
+		t1095* L_4 = (__this->f0);
+		int32_t L_5 = V_3;
+		int32_t L_6 = L_5;
+		V_4 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_4, L_6))-(int32_t)1));
+		goto IL_009a;
+	}
+
+IL_0038:
+	{
+		t3815* L_7 = V_2;
+		int32_t L_8 = V_4;
+		t158* L_9 = (__this->f2);
+		int32_t L_10 = V_4;
+		int32_t L_11 = L_10;
+		int32_t L_12 = (( int32_t (*) (t3814 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19)->method)(__this, (*(t9 **)(t9 **)SZArrayLdElema(L_9, L_11)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19));
+		int32_t L_13 = L_12;
+		V_8 = L_13;
+		((t3816 *)(t3816 *)SZArrayLdElema(L_7, L_8))->f0 = L_13;
+		int32_t L_14 = V_8;
+		V_5 = L_14;
+		int32_t L_15 = V_5;
+		int32_t L_16 = V_0;
+		V_6 = ((int32_t)((int32_t)((int32_t)((int32_t)L_15&(int32_t)((int32_t)2147483647)))%(int32_t)L_16));
+		t3815* L_17 = V_2;
+		int32_t L_18 = V_4;
+		t1095* L_19 = V_1;
+		int32_t L_20 = V_6;
+		int32_t L_21 = L_20;
+		((t3816 *)(t3816 *)SZArrayLdElema(L_17, L_18))->f1 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_19, L_21))-(int32_t)1));
+		t1095* L_22 = V_1;
+		int32_t L_23 = V_6;
+		int32_t L_24 = V_4;
+		*((int32_t*)(int32_t*)SZArrayLdElema(L_22, L_23)) = (int32_t)((int32_t)((int32_t)L_24+(int32_t)1));
+		t3815* L_25 = (__this->f1);
+		int32_t L_26 = V_4;
+		int32_t L_27 = (((t3816 *)(t3816 *)SZArrayLdElema(L_25, L_26))->f1);
+		V_4 = L_27;
+	}
+
+IL_009a:
+	{
+		int32_t L_28 = V_4;
+		if ((!(((uint32_t)L_28) == ((uint32_t)(-1)))))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		int32_t L_29 = V_3;
+		V_3 = ((int32_t)((int32_t)L_29+(int32_t)1));
+	}
+
+IL_00a6:
+	{
+		int32_t L_30 = V_3;
+		t1095* L_31 = (__this->f0);
+		if ((((int32_t)L_30) < ((int32_t)(((int32_t)(((t121 *)L_31)->max_length))))))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		t1095* L_32 = V_1;
+		__this->f0 = L_32;
+		t3815* L_33 = V_2;
+		__this->f1 = L_33;
+		int32_t L_34 = V_0;
+		V_7 = ((t158*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 13), L_34));
+		t158* L_35 = (__this->f2);
+		t158* L_36 = V_7;
+		int32_t L_37 = (__this->f3);
+		m7710(NULL, (t121 *)(t121 *)L_35, 0, (t121 *)(t121 *)L_36, 0, L_37, &m7710_MI);
+		t158* L_38 = V_7;
+		__this->f2 = L_38;
+		int32_t L_39 = V_0;
+		__this->f6 = (((int32_t)((float)((float)(((float)L_39))*(float)(0.9f)))));
+		return;
+	}
+}
+extern "C" int32_t m24004_gshared (t3814 * __this, int32_t p0, MethodInfo* method)
+{
+	{
+		t3815* L_0 = (__this->f1);
+		int32_t L_1 = p0;
+		int32_t L_2 = (((t3816 *)(t3816 *)SZArrayLdElema(L_0, L_1))->f0);
+		return ((int32_t)((int32_t)L_2&(int32_t)((int32_t)-2147483648)));
+	}
+}
+extern "C" int32_t m24005_gshared (t3814 * __this, t9 * p0, MethodInfo* method)
+{
+	{
+		t9 * L_0 = p0;
+		t9 * L_1 = L_0;
+		if (((t9 *)L_1))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		return ((int32_t)-2147483648);
+	}
+
+IL_0011:
+	{
+		t9* L_2 = (__this->f7);
+		t9 * L_3 = p0;
+		int32_t L_4 = (int32_t)InterfaceFuncInvoker1< int32_t, t9 * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 20), L_2, L_3);
+		return ((int32_t)((int32_t)L_4|(int32_t)((int32_t)-2147483648)));
+	}
+}
+extern "C" bool m24006_gshared (t3814 * __this, t9 * p0, MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		t9 * L_0 = p0;
+		int32_t L_1 = (( int32_t (*) (t3814 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19)->method)(__this, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19));
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		t1095* L_3 = (__this->f0);
+		V_1 = ((int32_t)((int32_t)((int32_t)((int32_t)L_2&(int32_t)((int32_t)2147483647)))%(int32_t)(((int32_t)(((t121 *)L_3)->max_length)))));
+		int32_t L_4 = V_1;
+		int32_t L_5 = V_0;
+		t9 * L_6 = p0;
+		bool L_7 = (( bool (*) (t3814 *, int32_t, int32_t, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21)->method)(__this, L_4, L_5, L_6, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21));
+		if (!L_7)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_0029:
+	{
+		int32_t L_8 = (__this->f5);
+		int32_t L_9 = ((int32_t)((int32_t)L_8+(int32_t)1));
+		V_3 = L_9;
+		__this->f5 = L_9;
+		int32_t L_10 = V_3;
+		int32_t L_11 = (__this->f6);
+		if ((((int32_t)L_10) <= ((int32_t)L_11)))
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		(( void (*) (t3814 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 22)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 22));
+		int32_t L_12 = V_0;
+		t1095* L_13 = (__this->f0);
+		V_1 = ((int32_t)((int32_t)((int32_t)((int32_t)L_12&(int32_t)((int32_t)2147483647)))%(int32_t)(((int32_t)(((t121 *)L_13)->max_length)))));
+	}
+
+IL_005c:
+	{
+		int32_t L_14 = (__this->f4);
+		V_2 = L_14;
+		int32_t L_15 = V_2;
+		if ((!(((uint32_t)L_15) == ((uint32_t)(-1)))))
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		int32_t L_16 = (__this->f3);
+		int32_t L_17 = L_16;
+		V_3 = L_17;
+		__this->f3 = ((int32_t)((int32_t)L_17+(int32_t)1));
+		int32_t L_18 = V_3;
+		V_2 = L_18;
+		goto IL_0098;
+	}
+
+IL_0081:
+	{
+		t3815* L_19 = (__this->f1);
+		int32_t L_20 = V_2;
+		int32_t L_21 = (((t3816 *)(t3816 *)SZArrayLdElema(L_19, L_20))->f1);
+		__this->f4 = L_21;
+	}
+
+IL_0098:
+	{
+		t3815* L_22 = (__this->f1);
+		int32_t L_23 = V_2;
+		int32_t L_24 = V_0;
+		((t3816 *)(t3816 *)SZArrayLdElema(L_22, L_23))->f0 = L_24;
+		t3815* L_25 = (__this->f1);
+		int32_t L_26 = V_2;
+		t1095* L_27 = (__this->f0);
+		int32_t L_28 = V_1;
+		int32_t L_29 = L_28;
+		((t3816 *)(t3816 *)SZArrayLdElema(L_25, L_26))->f1 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_27, L_29))-(int32_t)1));
+		t1095* L_30 = (__this->f0);
+		int32_t L_31 = V_1;
+		int32_t L_32 = V_2;
+		*((int32_t*)(int32_t*)SZArrayLdElema(L_30, L_31)) = (int32_t)((int32_t)((int32_t)L_32+(int32_t)1));
+		t158* L_33 = (__this->f2);
+		int32_t L_34 = V_2;
+		t9 * L_35 = p0;
+		*((t9 **)(t9 **)SZArrayLdElema(L_33, L_34)) = (t9 *)L_35;
+		int32_t L_36 = (__this->f9);
+		__this->f9 = ((int32_t)((int32_t)L_36+(int32_t)1));
+		return 1;
+	}
+}
+extern Il2CppGenericMethod m24007_GM;
+extern "C" void m24007_gshared (t3814 * __this, MethodInfo* method)
+{
+	{
+		__this->f5 = 0;
+		t1095* L_0 = (__this->f0);
+		t1095* L_1 = (__this->f0);
+		m1161(NULL, (t121 *)(t121 *)L_0, 0, (((int32_t)(((t121 *)L_1)->max_length))), &m1161_MI);
+		t158* L_2 = (__this->f2);
+		t158* L_3 = (__this->f2);
+		m1161(NULL, (t121 *)(t121 *)L_2, 0, (((int32_t)(((t121 *)L_3)->max_length))), &m1161_MI);
+		t3815* L_4 = (__this->f1);
+		t3815* L_5 = (__this->f1);
+		m1161(NULL, (t121 *)(t121 *)L_4, 0, (((int32_t)(((t121 *)L_5)->max_length))), &m1161_MI);
+		__this->f4 = (-1);
+		__this->f3 = 0;
+		int32_t L_6 = (__this->f9);
+		__this->f9 = ((int32_t)((int32_t)L_6+(int32_t)1));
+		return;
+	}
+}
+extern Il2CppGenericMethod m24008_GM;
+extern "C" bool m24008_gshared (t3814 * __this, t9 * p0, MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		t9 * L_0 = p0;
+		int32_t L_1 = (( int32_t (*) (t3814 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19)->method)(__this, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19));
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		t1095* L_3 = (__this->f0);
+		V_1 = ((int32_t)((int32_t)((int32_t)((int32_t)L_2&(int32_t)((int32_t)2147483647)))%(int32_t)(((int32_t)(((t121 *)L_3)->max_length)))));
+		int32_t L_4 = V_1;
+		int32_t L_5 = V_0;
+		t9 * L_6 = p0;
+		bool L_7 = (( bool (*) (t3814 *, int32_t, int32_t, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21)->method)(__this, L_4, L_5, L_6, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21));
+		return L_7;
+	}
+}
+extern Il2CppGenericMethod m24009_GM;
+extern "C" bool m24009_gshared (t3814 * __this, t9 * p0, MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	t3816  V_4 = {0};
+	t9 * V_5 = {0};
+	int32_t G_B10_0 = 0;
+	int32_t G_B12_0 = 0;
+	{
+		t9 * L_0 = p0;
+		int32_t L_1 = (( int32_t (*) (t3814 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19)->method)(__this, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19));
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		t1095* L_3 = (__this->f0);
+		V_1 = ((int32_t)((int32_t)((int32_t)((int32_t)L_2&(int32_t)((int32_t)2147483647)))%(int32_t)(((int32_t)(((t121 *)L_3)->max_length)))));
+		t1095* L_4 = (__this->f0);
+		int32_t L_5 = V_1;
+		int32_t L_6 = L_5;
+		V_2 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_4, L_6))-(int32_t)1));
+		int32_t L_7 = V_2;
+		if ((!(((uint32_t)L_7) == ((uint32_t)(-1)))))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_002d:
+	{
+		V_3 = (-1);
+	}
+
+IL_002f:
+	{
+		t3815* L_8 = (__this->f1);
+		int32_t L_9 = V_2;
+		V_4 = (*(t3816 *)((t3816 *)(t3816 *)SZArrayLdElema(L_8, L_9)));
+		int32_t L_10 = ((&V_4)->f0);
+		int32_t L_11 = V_0;
+		if ((!(((uint32_t)L_10) == ((uint32_t)L_11))))
+		{
+			goto IL_00c4;
+		}
+	}
+	{
+		int32_t L_12 = V_0;
+		if ((!(((uint32_t)L_12) == ((uint32_t)((int32_t)-2147483648)))))
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		t9 * L_13 = p0;
+		t9 * L_14 = L_13;
+		if (!((t9 *)L_14))
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		t158* L_15 = (__this->f2);
+		int32_t L_16 = V_2;
+		int32_t L_17 = L_16;
+		t9 * L_18 = (*(t9 **)(t9 **)SZArrayLdElema(L_15, L_17));
+		if (((t9 *)L_18))
+		{
+			goto IL_00a2;
+		}
+	}
+
+IL_007b:
+	{
+		t9 * L_19 = p0;
+		t9 * L_20 = L_19;
+		if (((t9 *)L_20))
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		t158* L_21 = (__this->f2);
+		int32_t L_22 = V_2;
+		int32_t L_23 = L_22;
+		t9 * L_24 = (*(t9 **)(t9 **)SZArrayLdElema(L_21, L_23));
+		G_B10_0 = ((((t9*)(t9 *)NULL) == ((t9*)(t9 *)((t9 *)L_24)))? 1 : 0);
+		goto IL_009d;
+	}
+
+IL_009c:
+	{
+		G_B10_0 = 0;
+	}
+
+IL_009d:
+	{
+		G_B12_0 = G_B10_0;
+		goto IL_00ba;
+	}
+
+IL_00a2:
+	{
+		t9* L_25 = (__this->f7);
+		t158* L_26 = (__this->f2);
+		int32_t L_27 = V_2;
+		int32_t L_28 = L_27;
+		t9 * L_29 = p0;
+		bool L_30 = (bool)InterfaceFuncInvoker2< bool, t9 *, t9 * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 15), L_25, (*(t9 **)(t9 **)SZArrayLdElema(L_26, L_28)), L_29);
+		G_B12_0 = ((int32_t)(L_30));
+	}
+
+IL_00ba:
+	{
+		if (!G_B12_0)
+		{
+			goto IL_00c4;
+		}
+	}
+	{
+		goto IL_00d5;
+	}
+
+IL_00c4:
+	{
+		int32_t L_31 = V_2;
+		V_3 = L_31;
+		int32_t L_32 = ((&V_4)->f1);
+		V_2 = L_32;
+		int32_t L_33 = V_2;
+		if ((!(((uint32_t)L_33) == ((uint32_t)(-1)))))
+		{
+			goto IL_002f;
+		}
+	}
+
+IL_00d5:
+	{
+		int32_t L_34 = V_2;
+		if ((!(((uint32_t)L_34) == ((uint32_t)(-1)))))
+		{
+			goto IL_00de;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_00de:
+	{
+		int32_t L_35 = (__this->f5);
+		__this->f5 = ((int32_t)((int32_t)L_35-(int32_t)1));
+		int32_t L_36 = V_3;
+		if ((!(((uint32_t)L_36) == ((uint32_t)(-1)))))
+		{
+			goto IL_0113;
+		}
+	}
+	{
+		t1095* L_37 = (__this->f0);
+		int32_t L_38 = V_1;
+		t3815* L_39 = (__this->f1);
+		int32_t L_40 = V_2;
+		int32_t L_41 = (((t3816 *)(t3816 *)SZArrayLdElema(L_39, L_40))->f1);
+		*((int32_t*)(int32_t*)SZArrayLdElema(L_37, L_38)) = (int32_t)((int32_t)((int32_t)L_41+(int32_t)1));
+		goto IL_0135;
+	}
+
+IL_0113:
+	{
+		t3815* L_42 = (__this->f1);
+		int32_t L_43 = V_3;
+		t3815* L_44 = (__this->f1);
+		int32_t L_45 = V_2;
+		int32_t L_46 = (((t3816 *)(t3816 *)SZArrayLdElema(L_44, L_45))->f1);
+		((t3816 *)(t3816 *)SZArrayLdElema(L_42, L_43))->f1 = L_46;
+	}
+
+IL_0135:
+	{
+		t3815* L_47 = (__this->f1);
+		int32_t L_48 = V_2;
+		int32_t L_49 = (__this->f4);
+		((t3816 *)(t3816 *)SZArrayLdElema(L_47, L_48))->f1 = L_49;
+		int32_t L_50 = V_2;
+		__this->f4 = L_50;
+		t3815* L_51 = (__this->f1);
+		int32_t L_52 = V_2;
+		((t3816 *)(t3816 *)SZArrayLdElema(L_51, L_52))->f0 = 0;
+		t158* L_53 = (__this->f2);
+		int32_t L_54 = V_2;
+		Initobj (InitializedTypeInfo(&t9_TI), (&V_5));
+		t9 * L_55 = V_5;
+		*((t9 **)(t9 **)SZArrayLdElema(L_53, L_54)) = (t9 *)L_55;
+		int32_t L_56 = (__this->f9);
+		__this->f9 = ((int32_t)((int32_t)L_56+(int32_t)1));
+		return 1;
+	}
+}
+extern Il2CppGenericMethod m24010_GM;
+extern "C" void m24010_gshared (t3814 * __this, t1100 * p0, t1101  p1, MethodInfo* method)
+{
+	{
+		t1346 * L_0 = (t1346 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1346_TI));
+		m11668(L_0, &m11668_MI);
+		il2cpp_codegen_raise_exception(L_0);
+	}
+}
+extern Il2CppGenericMethod m24011_GM;
+extern "C" void m24011_gshared (t3814 * __this, t9 * p0, MethodInfo* method)
+{
+	{
+		t1100 * L_0 = (__this->f8);
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		t1346 * L_1 = (t1346 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1346_TI));
+		m11668(L_1, &m11668_MI);
+		il2cpp_codegen_raise_exception(L_1);
+	}
+}
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t4998_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+#include "t3816MD.h"
+
+
+
+#include "t3817.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3817_TI;
+#include "t3817MD.h"
+
+extern Il2CppType t3817_0_0_0;
+extern MethodInfo m5717_MI;
+struct t121;
+extern "C" t3816  m28092_gshared (t121 * __this, int32_t p0, MethodInfo* method);
+#define m28092(__this, p0, method) (( t3816  (*) (t121 *, int32_t, MethodInfo*))m28092_gshared)(__this, p0, method)
+extern Il2CppGenericMethod m24016_GM;
+extern Il2CppGenericMethod m28092_GM;
+
+
+extern Il2CppGenericMethod m24012_GM;
+extern "C" void m24012_gshared (t3817 * __this, t121 * p0, MethodInfo* method)
 {
 	{
 		t121 * L_0 = p0;
@@ -341,26 +1706,26 @@ extern "C" void m23983_gshared (t3805 * __this, t121 * p0, MethodInfo* method)
 		return;
 	}
 }
-extern Il2CppGenericMethod m23984_GM;
-extern "C" t9 * m23984_gshared (t3805 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24013_GM;
+extern "C" t9 * m24013_gshared (t3817 * __this, MethodInfo* method)
 {
 	{
-		t1230  L_0 = (( t1230  (*) (t3805 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		t1230  L_1 = L_0;
+		t3816  L_0 = (( t3816  (*) (t3817 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t3816  L_1 = L_0;
 		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
 		return L_2;
 	}
 }
-extern Il2CppGenericMethod m23985_GM;
-extern "C" void m23985_gshared (t3805 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24014_GM;
+extern "C" void m24014_gshared (t3817 * __this, MethodInfo* method)
 {
 	{
 		__this->f1 = ((int32_t)-2);
 		return;
 	}
 }
-extern Il2CppGenericMethod m23986_GM;
-extern "C" bool m23986_gshared (t3805 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24015_GM;
+extern "C" bool m24015_gshared (t3817 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t G_B5_0 = 0;
@@ -373,7 +1738,7 @@ extern "C" bool m23986_gshared (t3805 * __this, MethodInfo* method)
 	}
 	{
 		t121 * L_1 = (__this->f0);
-		int32_t L_2 = m5689(L_1, &m5689_MI);
+		int32_t L_2 = m5717(L_1, &m5717_MI);
 		__this->f1 = L_2;
 	}
 
@@ -405,7 +1770,7 @@ IL_003e:
 		return G_B5_0;
 	}
 }
-extern "C" t1230  m23987_gshared (t3805 * __this, MethodInfo* method)
+extern "C" t3816  m24016_gshared (t3817 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f1);
@@ -415,8 +1780,8 @@ extern "C" t1230  m23987_gshared (t3805 * __this, MethodInfo* method)
 		}
 	}
 	{
-		t1332 * L_1 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5685(L_1, (t2*) &_stringLiteral1249, &m5685_MI);
+		t1341 * L_1 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_1, (t2*) &_stringLiteral1248, &m5713_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -429,8 +1794,8 @@ IL_0015:
 		}
 	}
 	{
-		t1332 * L_3 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5685(L_3, (t2*) &_stringLiteral1250, &m5685_MI);
+		t1341 * L_3 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_3, (t2*) &_stringLiteral1249, &m5713_MI);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -438,16 +1803,1195 @@ IL_0029:
 	{
 		t121 * L_4 = (__this->f0);
 		t121 * L_5 = (__this->f0);
-		int32_t L_6 = m5689(L_5, &m5689_MI);
+		int32_t L_6 = m5717(L_5, &m5717_MI);
 		int32_t L_7 = (__this->f1);
-		t1230  L_8 = (( t1230  (*) (t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		t3816  L_8 = (( t3816  (*) (t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
 		return L_8;
 	}
 }
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4966_TI;
+extern TypeInfo t4999_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t5000_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t5001_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+extern Il2CppGenericMethod m24022_GM;
+
+
+extern "C" void m24017_gshared (t3818 * __this, t3814 * p0, MethodInfo* method)
+{
+	{
+		t3814 * L_0 = p0;
+		__this->f0 = L_0;
+		t3814 * L_1 = p0;
+		int32_t L_2 = (L_1->f9);
+		__this->f2 = L_2;
+		return;
+	}
+}
+extern Il2CppGenericMethod m24018_GM;
+extern "C" t9 * m24018_gshared (t3818 * __this, MethodInfo* method)
+{
+	{
+		(( void (*) (t3818 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		int32_t L_0 = (__this->f1);
+		if ((((int32_t)L_0) > ((int32_t)0)))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		t1341 * L_1 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_1, (t2*) &_stringLiteral403, &m5713_MI);
+		il2cpp_codegen_raise_exception(L_1);
+	}
+
+IL_001d:
+	{
+		t9 * L_2 = (__this->f3);
+		t9 * L_3 = L_2;
+		return ((t9 *)L_3);
+	}
+}
+extern Il2CppGenericMethod m24019_GM;
+extern "C" bool m24019_gshared (t3818 * __this, MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		(( void (*) (t3818 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		int32_t L_0 = (__this->f1);
+		if ((((int32_t)L_0) >= ((int32_t)0)))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_0014:
+	{
+		goto IL_0055;
+	}
+
+IL_0019:
+	{
+		int32_t L_1 = (__this->f1);
+		int32_t L_2 = L_1;
+		V_1 = L_2;
+		__this->f1 = ((int32_t)((int32_t)L_2+(int32_t)1));
+		int32_t L_3 = V_1;
+		V_0 = L_3;
+		t3814 * L_4 = (__this->f0);
+		int32_t L_5 = V_0;
+		int32_t L_6 = (( int32_t (*) (t3814 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, L_5, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		if (!L_6)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		t3814 * L_7 = (__this->f0);
+		t158* L_8 = (L_7->f2);
+		int32_t L_9 = V_0;
+		int32_t L_10 = L_9;
+		__this->f3 = (*(t9 **)(t9 **)SZArrayLdElema(L_8, L_10));
+		return 1;
+	}
+
+IL_0055:
+	{
+		int32_t L_11 = (__this->f1);
+		t3814 * L_12 = (__this->f0);
+		int32_t L_13 = (L_12->f3);
+		if ((((int32_t)L_11) < ((int32_t)L_13)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		__this->f1 = (-1);
+		return 0;
+	}
+}
+extern Il2CppGenericMethod m24020_GM;
+extern "C" t9 * m24020_gshared (t3818 * __this, MethodInfo* method)
+{
+	{
+		t9 * L_0 = (__this->f3);
+		return L_0;
+	}
+}
+extern Il2CppGenericMethod m24021_GM;
+extern "C" void m24021_gshared (t3818 * __this, MethodInfo* method)
+{
+	{
+		__this->f0 = (t3814 *)NULL;
+		return;
+	}
+}
+extern "C" void m24022_gshared (t3818 * __this, MethodInfo* method)
+{
+	{
+		t3814 * L_0 = (__this->f0);
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		t1530 * L_1 = (t1530 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1530_TI));
+		m6911(L_1, (t2*)NULL, &m6911_MI);
+		il2cpp_codegen_raise_exception(L_1);
+	}
+
+IL_0012:
+	{
+		t3814 * L_2 = (__this->f0);
+		int32_t L_3 = (L_2->f9);
+		int32_t L_4 = (__this->f2);
+		if ((((int32_t)L_3) == ((int32_t)L_4)))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		t1341 * L_5 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_5, (t2*) &_stringLiteral404, &m5713_MI);
+		il2cpp_codegen_raise_exception(L_5);
+	}
+
+IL_0033:
+	{
+		return;
+	}
+}
+#include "t3819.h"
+#ifndef _MSC_VER
+#else
+#endif
+
+#include "t1085.h"
+#include "t1084.h"
+#include "t313.h"
+#include "t156.h"
+extern TypeInfo t1085_TI;
+#include "t1085MD.h"
+#include "t314MD.h"
+#include "t160MD.h"
+extern MethodInfo m1122_MI;
+extern MethodInfo m4257_MI;
+extern FieldInfo t1085_f0_FieldInfo;
+extern Il2CppGenericMethod m24024_GM;
+extern Il2CppGenericMethod m24025_GM;
+
+
+extern Il2CppGenericMethod m24023_GM;
+extern TypeInfo* t1095_TI_var;
+extern "C" void m24023_gshared (t9 * __this , MethodInfo* method)
+{
+	static bool m24023_init;
+	if (!m24023_init)
+	{
+		t1095_TI_var = il2cpp_codegen_class_from_type(&t1095_0_0_0);
+		m24023_init = true;
+	}
+	{
+		t1095* L_0 = ((t1095*)SZArrayNew(t1095_TI_var, ((int32_t)34)));
+		m1122(NULL, (t121 *)(t121 *)L_0, LoadFieldToken(&t1085_f0_FieldInfo), &m1122_MI);
+		((t3819_SFs*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->static_fields)->f0 = L_0;
+		return;
+	}
+}
+extern "C" bool m24024_gshared (t9 * __this , int32_t p0, MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = p0;
+		if (!((int32_t)((int32_t)L_0&(int32_t)1)))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		int32_t L_1 = p0;
+		double L_2 = sqrt((((double)L_1)));
+		V_0 = (((int32_t)L_2));
+		V_1 = 3;
+		goto IL_0026;
+	}
+
+IL_0018:
+	{
+		int32_t L_3 = p0;
+		int32_t L_4 = V_1;
+		if (((int32_t)((int32_t)L_3%(int32_t)L_4)))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		return 0;
+	}
+
+IL_0022:
+	{
+		int32_t L_5 = V_1;
+		V_1 = ((int32_t)((int32_t)L_5+(int32_t)2));
+	}
+
+IL_0026:
+	{
+		int32_t L_6 = V_1;
+		int32_t L_7 = V_0;
+		if ((((int32_t)L_6) < ((int32_t)L_7)))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		return 1;
+	}
+
+IL_002f:
+	{
+		int32_t L_8 = p0;
+		return ((((int32_t)L_8) == ((int32_t)2))? 1 : 0);
+	}
+}
+extern TypeInfo* t3819_TI_var;
+extern "C" int32_t m24025_gshared (t9 * __this , int32_t p0, MethodInfo* method)
+{
+	static bool m24025_init;
+	if (!m24025_init)
+	{
+		t3819_TI_var = il2cpp_codegen_class_from_type(&t3819_0_0_0);
+		m24025_init = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = p0;
+		V_0 = ((int32_t)((int32_t)((int32_t)((int32_t)L_0&(int32_t)((int32_t)-2)))-(int32_t)1));
+		goto IL_001d;
+	}
+
+IL_000c:
+	{
+		int32_t L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(t3819_TI_var);
+		bool L_2 = (( bool (*) (t9 * , int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(NULL, L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		if (!L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		return L_3;
+	}
+
+IL_0019:
+	{
+		int32_t L_4 = V_0;
+		V_0 = ((int32_t)((int32_t)L_4+(int32_t)2));
+	}
+
+IL_001d:
+	{
+		int32_t L_5 = V_0;
+		if ((((int32_t)L_5) < ((int32_t)((int32_t)2147483647))))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		int32_t L_6 = p0;
+		return L_6;
+	}
+}
+extern TypeInfo* t3819_TI_var;
+extern "C" int32_t m24026_gshared (t9 * __this , int32_t p0, MethodInfo* method)
+{
+	static bool m24026_init;
+	if (!m24026_init)
+	{
+		t3819_TI_var = il2cpp_codegen_class_from_type(&t3819_0_0_0);
+		m24026_init = true;
+	}
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_0020;
+	}
+
+IL_0007:
+	{
+		int32_t L_0 = p0;
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t1095* L_1 = ((t3819_SFs*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->static_fields)->f0;
+		int32_t L_2 = V_0;
+		int32_t L_3 = L_2;
+		if ((((int32_t)L_0) > ((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_1, L_3)))))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t1095* L_4 = ((t3819_SFs*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->static_fields)->f0;
+		int32_t L_5 = V_0;
+		int32_t L_6 = L_5;
+		return (*(int32_t*)(int32_t*)SZArrayLdElema(L_4, L_6));
+	}
+
+IL_001c:
+	{
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0020:
+	{
+		int32_t L_8 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t1095* L_9 = ((t3819_SFs*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->static_fields)->f0;
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)(((t121 *)L_9)->max_length))))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		int32_t L_10 = p0;
+		IL2CPP_RUNTIME_CLASS_INIT(t3819_TI_var);
+		int32_t L_11 = (( int32_t (*) (t9 * , int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(NULL, L_10, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		return L_11;
+	}
+}
+#include "t3820.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3820_TI;
+#include "t3820MD.h"
+
+
+
+extern Il2CppGenericMethod m24027_GM;
+extern "C" void m24027_gshared (t3820 * __this, t9 * p0, t58 p1, MethodInfo* method)
+{
+	__this->f0 = (methodPointerType)((MethodInfo*)p1.f0)->method;
+	__this->f3 = p1;
+	__this->f2 = p0;
+}
+extern Il2CppGenericMethod m24028_GM;
+extern "C" t9 * m24028_gshared (t3820 * __this, t9 * p0, MethodInfo* method)
+{
+	if(__this->f9 != NULL)
+	{
+		m24028((t3820 *)__this->f9,p0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->f3.f0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->f3.f0));
+	if (__this->f2 != NULL && ___methodIsStatic)
+	{
+		typedef t9 * (*FunctionPointerType) (t9 *, t9 * __this, t9 * p0, MethodInfo* method);
+		return ((FunctionPointerType)__this->f0)(NULL,__this->f2,p0,(MethodInfo*)(__this->f3.f0));
+	}
+	else if (__this->f2 != NULL || ___methodIsStatic)
+	{
+		typedef t9 * (*FunctionPointerType) (t9 * __this, t9 * p0, MethodInfo* method);
+		return ((FunctionPointerType)__this->f0)(__this->f2,p0,(MethodInfo*)(__this->f3.f0));
+	}
+	else
+	{
+		typedef t9 * (*FunctionPointerType) (t9 * __this, MethodInfo* method);
+		return ((FunctionPointerType)__this->f0)(p0,(MethodInfo*)(__this->f3.f0));
+	}
+}
+extern Il2CppGenericMethod m24029_GM;
+extern "C" t9 * m24029_gshared (t3820 * __this, t9 * p0, t470 * p1, t9 * p2, MethodInfo* method)
+{
+	void *__d_args[2] = {0};
+	__d_args[0] = p0;
+	return (t9 *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)p1, (Il2CppObject*)p2);
+}
+extern Il2CppGenericMethod m24030_GM;
+extern "C" t9 * m24030_gshared (t3820 * __this, t9 * p0, MethodInfo* method)
+{
+	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) p0, 0);
+	return (t9 *)__result;
+}
+#include "t1205.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t1205_TI;
+#include "t1205MD.h"
+
+#include "t3824.h"
+#include "t3828.h"
+#include "t1668.h"
+#include "t1669.h"
+#include "t3822.h"
+#include "t1164.h"
+#include "t3821.h"
+#include "t3831.h"
+#include "t3826.h"
+#include "t3833.h"
+#include "t2741.h"
+#include "t2827.h"
+extern TypeInfo t2667_TI;
+extern TypeInfo t1668_TI;
+extern TypeInfo t1669_TI;
+extern TypeInfo t3824_TI;
+extern TypeInfo t3828_TI;
+extern TypeInfo t5002_TI;
+extern TypeInfo t5003_TI;
+extern TypeInfo t4193_TI;
+extern TypeInfo t3822_TI;
+extern TypeInfo t4192_TI;
+extern TypeInfo t4210_TI;
+extern TypeInfo t1164_TI;
+extern TypeInfo t3821_TI;
+extern TypeInfo t3831_TI;
+extern TypeInfo t3826_TI;
+extern TypeInfo t3833_TI;
+extern TypeInfo t2741_TI;
+extern TypeInfo t2515_TI;
+extern TypeInfo t221_TI;
+extern TypeInfo t1206_TI;
+extern TypeInfo t1158_TI;
+extern TypeInfo t2827_TI;
+extern TypeInfo t4511_TI;
+#include "t1669MD.h"
+#include "t3824MD.h"
+#include "t3828MD.h"
+#include "t3822MD.h"
+#include "t3821MD.h"
+#include "t3831MD.h"
+#include "t3826MD.h"
+#include "t3833MD.h"
+#include "t2741MD.h"
+#include "t1158MD.h"
+#include "t2827MD.h"
+#include "t1100MD.h"
+#include "t2MD.h"
+#include "t1164MD.h"
+extern Il2CppType t1205_0_0_0;
+extern Il2CppType t2667_0_0_0;
+extern Il2CppType t3824_0_0_0;
+extern Il2CppType t3828_0_0_0;
+extern Il2CppType t5002_0_0_0;
+extern Il2CppType t5003_0_0_0;
+extern Il2CppType t4193_0_0_0;
+extern Il2CppType t4192_0_0_0;
+extern Il2CppType t3822_0_0_0;
+extern Il2CppType t4210_0_0_0;
+extern Il2CppType t3821_0_0_0;
+extern Il2CppType t3831_0_0_0;
+extern Il2CppType t3826_0_0_0;
+extern Il2CppType t3833_0_0_0;
+extern Il2CppType t2741_0_0_0;
+extern Il2CppType t2515_0_0_0;
+extern Il2CppType t221_0_0_0;
+extern Il2CppType t1206_0_0_0;
+extern Il2CppType t2827_0_0_0;
+extern Il2CppType t4511_0_0_0;
+extern Il2CppType t2_0_0_0;
+extern Il2CppType t124_0_0_0;
+extern MethodInfo m24066_MI;
+extern MethodInfo m24055_MI;
+extern MethodInfo m24056_MI;
+extern MethodInfo m29015_MI;
+extern MethodInfo m29016_MI;
+extern MethodInfo m8348_MI;
+extern MethodInfo m24090_MI;
+extern MethodInfo m24125_MI;
+extern MethodInfo m29700_MI;
+extern MethodInfo m29701_MI;
+extern MethodInfo m29702_MI;
+extern MethodInfo m5766_MI;
+extern MethodInfo m24070_MI;
+extern MethodInfo m24078_MI;
+extern MethodInfo m24148_MI;
+extern MethodInfo m24060_MI;
+extern MethodInfo m24152_MI;
+extern MethodInfo m24109_MI;
+extern MethodInfo m24160_MI;
+extern MethodInfo m24054_MI;
+extern MethodInfo m24079_MI;
+extern MethodInfo m8527_MI;
+extern MethodInfo m29062_MI;
+extern MethodInfo m5730_MI;
+extern MethodInfo m5743_MI;
+extern MethodInfo m5742_MI;
+extern MethodInfo m5731_MI;
+extern MethodInfo m7798_MI;
+extern MethodInfo m610_MI;
+extern MethodInfo m5719_MI;
+extern MethodInfo m24071_MI;
+extern MethodInfo m29063_MI;
+extern MethodInfo m5714_MI;
+struct t1205;
+extern "C" void m28119 (t1205 * __this, t4210* p0, int32_t p1, t3821 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+struct t1205;
+#include "t138.h"
+struct t2790;
+#include "t2790.h"
+#include "t3832.h"
+extern "C" void m28122_gshared (t2790 * __this, t121 * p0, int32_t p1, t3832 * p2, MethodInfo* method);
+#define m28122(__this, p0, p1, p2, method) (( void (*) (t2790 *, t121 *, int32_t, t3832 *, MethodInfo*))m28122_gshared)(__this, p0, p1, p2, method)
+#define m28121(__this, p0, p1, p2, method) (( void (*) (t1205 *, t121 *, int32_t, t3831 *, MethodInfo*))m28122_gshared)(__this, p0, p1, p2, method)
+struct t1205;
+extern "C" void m28124 (t1205 * __this, t4192* p0, int32_t p1, t3831 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern Il2CppGenericMethod m24072_GM;
+extern Il2CppGenericMethod m24073_GM;
+extern Il2CppGenericMethod m24066_GM;
+extern Il2CppGenericMethod m24074_GM;
+extern Il2CppGenericMethod m24055_GM;
+extern Il2CppGenericMethod m24075_GM;
+extern Il2CppGenericMethod m24056_GM;
+extern Il2CppGenericMethod m29015_GM;
+extern Il2CppGenericMethod m29016_GM;
+extern Il2CppGenericMethod m24064_GM;
+extern Il2CppGenericMethod m24090_GM;
+extern Il2CppGenericMethod m24125_GM;
+extern Il2CppGenericMethod m24057_GM;
+extern Il2CppGenericMethod m24034_GM;
+extern Il2CppGenericMethod m29700_GM;
+extern Il2CppGenericMethod m29701_GM;
+extern Il2CppGenericMethod m29702_GM;
+extern Il2CppGenericMethod m24080_GM;
+extern Il2CppGenericMethod m24082_GM;
+extern Il2CppGenericMethod m5766_GM;
+extern Il2CppGenericMethod m24070_GM;
+extern Il2CppGenericMethod m24076_GM;
+extern Il2CppGenericMethod m24063_GM;
+extern Il2CppGenericMethod m24059_GM;
+extern Il2CppGenericMethod m24078_GM;
+extern Il2CppGenericMethod m24148_GM;
+extern Il2CppGenericMethod m28119_GM;
+extern Il2CppGenericMethod m24060_GM;
+extern Il2CppGenericMethod m24152_GM;
+extern Il2CppGenericMethod m28121_GM;
+extern Il2CppGenericMethod m24109_GM;
+extern Il2CppGenericMethod m24160_GM;
+extern Il2CppGenericMethod m13240_GM;
+extern Il2CppGenericMethod m24058_GM;
+extern Il2CppGenericMethod m24054_GM;
+extern Il2CppGenericMethod m24079_GM;
+extern Il2CppGenericMethod m28124_GM;
+extern Il2CppGenericMethod m14024_GM;
+extern Il2CppGenericMethod m29062_GM;
+extern Il2CppGenericMethod m24071_GM;
+extern Il2CppGenericMethod m29063_GM;
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+extern MethodInfo m673_MI;
+extern MethodInfo m4293_MI;
+extern Il2CppGenericMethod m24081_GM;
+extern Il2CppGenericMethod m24083_GM;
+
+
+#include "t3823.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3823_TI;
+#include "t3823MD.h"
+
+extern Il2CppType t3823_0_0_0;
+struct t121;
+extern "C" t3822  m28103_gshared (t121 * __this, int32_t p0, MethodInfo* method);
+#define m28103(__this, p0, method) (( t3822  (*) (t121 *, int32_t, MethodInfo*))m28103_gshared)(__this, p0, method)
+extern Il2CppGenericMethod m24089_GM;
+extern Il2CppGenericMethod m28103_GM;
+
+
+extern Il2CppGenericMethod m24085_GM;
+extern "C" void m24085_gshared (t3823 * __this, t121 * p0, MethodInfo* method)
+{
+	{
+		t121 * L_0 = p0;
+		__this->f0 = L_0;
+		__this->f1 = ((int32_t)-2);
+		return;
+	}
+}
+extern Il2CppGenericMethod m24086_GM;
+extern "C" t9 * m24086_gshared (t3823 * __this, MethodInfo* method)
+{
+	{
+		t3822  L_0 = (( t3822  (*) (t3823 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t3822  L_1 = L_0;
+		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
+		return L_2;
+	}
+}
+extern Il2CppGenericMethod m24087_GM;
+extern "C" void m24087_gshared (t3823 * __this, MethodInfo* method)
+{
+	{
+		__this->f1 = ((int32_t)-2);
+		return;
+	}
+}
+extern Il2CppGenericMethod m24088_GM;
+extern "C" bool m24088_gshared (t3823 * __this, MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t G_B5_0 = 0;
+	{
+		int32_t L_0 = (__this->f1);
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		t121 * L_1 = (__this->f0);
+		int32_t L_2 = m5717(L_1, &m5717_MI);
+		__this->f1 = L_2;
+	}
+
+IL_001b:
+	{
+		int32_t L_3 = (__this->f1);
+		if ((((int32_t)L_3) == ((int32_t)(-1))))
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		int32_t L_4 = (__this->f1);
+		int32_t L_5 = ((int32_t)((int32_t)L_4-(int32_t)1));
+		V_0 = L_5;
+		__this->f1 = L_5;
+		int32_t L_6 = V_0;
+		G_B5_0 = ((((int32_t)((((int32_t)L_6) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_003e;
+	}
+
+IL_003d:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_003e:
+	{
+		return G_B5_0;
+	}
+}
+extern "C" t3822  m24089_gshared (t3823 * __this, MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->f1);
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		t1341 * L_1 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_1, (t2*) &_stringLiteral1248, &m5713_MI);
+		il2cpp_codegen_raise_exception(L_1);
+	}
+
+IL_0015:
+	{
+		int32_t L_2 = (__this->f1);
+		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		t1341 * L_3 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_3, (t2*) &_stringLiteral1249, &m5713_MI);
+		il2cpp_codegen_raise_exception(L_3);
+	}
+
+IL_0029:
+	{
+		t121 * L_4 = (__this->f0);
+		t121 * L_5 = (__this->f0);
+		int32_t L_6 = m5717(L_5, &m5717_MI);
+		int32_t L_7 = (__this->f1);
+		t3822  L_8 = (( t3822  (*) (t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		return L_8;
+	}
+}
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t5004_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t4191_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+#include "t3825.h"
+#include "t3827.h"
+extern TypeInfo t3825_TI;
+extern TypeInfo t3827_TI;
+#include "t3827MD.h"
+#include "t3825MD.h"
+extern Il2CppType t3825_0_0_0;
+extern Il2CppType t3827_0_0_0;
+extern MethodInfo m5734_MI;
+extern MethodInfo m24101_MI;
+extern MethodInfo m24061_MI;
+extern MethodInfo m24121_MI;
+extern MethodInfo m24104_MI;
+struct t1205;
+struct t2790;
+#include "t2800.h"
+extern "C" void m25530_gshared (t2790 * __this, t121 * p0, int32_t p1, t2800 * p2, MethodInfo* method);
+#define m25530(__this, p0, p1, p2, method) (( void (*) (t2790 *, t121 *, int32_t, t2800 *, MethodInfo*))m25530_gshared)(__this, p0, p1, p2, method)
+#define m28114(__this, p0, p1, p2, method) (( void (*) (t1205 *, t121 *, int32_t, t3827 *, MethodInfo*))m25530_gshared)(__this, p0, p1, p2, method)
+struct t1205;
+extern "C" void m28115 (t1205 * __this, t221* p0, int32_t p1, t3827 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern Il2CppGenericMethod m24102_GM;
+extern Il2CppGenericMethod m24101_GM;
+extern Il2CppGenericMethod m24061_GM;
+extern Il2CppGenericMethod m24121_GM;
+extern Il2CppGenericMethod m28114_GM;
+extern Il2CppGenericMethod m28115_GM;
+extern Il2CppGenericMethod m24104_GM;
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+extern Il2CppGenericMethod m24116_GM;
+extern Il2CppGenericMethod m24077_GM;
+extern Il2CppGenericMethod m24120_GM;
+extern Il2CppGenericMethod m24114_GM;
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+extern Il2CppGenericMethod m24119_GM;
+extern Il2CppGenericMethod m24117_GM;
+extern Il2CppGenericMethod m24118_GM;
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+#include "t3829.h"
+#include "t3830.h"
+extern TypeInfo t3829_TI;
+extern TypeInfo t3830_TI;
+#include "t3830MD.h"
+#include "t3829MD.h"
+extern Il2CppType t3829_0_0_0;
+extern Il2CppType t3830_0_0_0;
+extern MethodInfo m24136_MI;
+extern MethodInfo m24062_MI;
+extern MethodInfo m24144_MI;
+extern MethodInfo m24139_MI;
+struct t1205;
+struct t2790;
+#include "t2803.h"
+extern "C" void m25532_gshared (t2790 * __this, t121 * p0, int32_t p1, t2803 * p2, MethodInfo* method);
+#define m25532(__this, p0, p1, p2, method) (( void (*) (t2790 *, t121 *, int32_t, t2803 *, MethodInfo*))m25532_gshared)(__this, p0, p1, p2, method)
+#define m28117(__this, p0, p1, p2, method) (( void (*) (t1205 *, t121 *, int32_t, t3830 *, MethodInfo*))m25532_gshared)(__this, p0, p1, p2, method)
+struct t1205;
+extern "C" void m28118 (t1205 * __this, t1206* p0, int32_t p1, t3830 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern Il2CppGenericMethod m24067_GM;
+extern Il2CppGenericMethod m24137_GM;
+extern Il2CppGenericMethod m24136_GM;
+extern Il2CppGenericMethod m24062_GM;
+extern Il2CppGenericMethod m24144_GM;
+extern Il2CppGenericMethod m28117_GM;
+extern Il2CppGenericMethod m28118_GM;
+extern Il2CppGenericMethod m24139_GM;
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3832_TI;
+#include "t3832MD.h"
+
+#include "t575.h"
+
+
+extern Il2CppGenericMethod m24153_GM;
+extern "C" void m24153_gshared (t3832 * __this, t9 * p0, t58 p1, MethodInfo* method)
+{
+	__this->f0 = (methodPointerType)((MethodInfo*)p1.f0)->method;
+	__this->f3 = p1;
+	__this->f2 = p0;
+}
+extern Il2CppGenericMethod m24155_GM;
+extern "C" t3822  m24155_gshared (t3832 * __this, t9 * p0, uint8_t p1, MethodInfo* method)
+{
+	if(__this->f9 != NULL)
+	{
+		m24155((t3832 *)__this->f9,p0, p1, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->f3.f0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->f3.f0));
+	if (__this->f2 != NULL && ___methodIsStatic)
+	{
+		typedef t3822  (*FunctionPointerType) (t9 *, t9 * __this, t9 * p0, uint8_t p1, MethodInfo* method);
+		return ((FunctionPointerType)__this->f0)(NULL,__this->f2,p0, p1,(MethodInfo*)(__this->f3.f0));
+	}
+	else if (__this->f2 != NULL || ___methodIsStatic)
+	{
+		typedef t3822  (*FunctionPointerType) (t9 * __this, t9 * p0, uint8_t p1, MethodInfo* method);
+		return ((FunctionPointerType)__this->f0)(__this->f2,p0, p1,(MethodInfo*)(__this->f3.f0));
+	}
+	else
+	{
+		typedef t3822  (*FunctionPointerType) (t9 * __this, uint8_t p1, MethodInfo* method);
+		return ((FunctionPointerType)__this->f0)(p0, p1,(MethodInfo*)(__this->f3.f0));
+	}
+}
+extern Il2CppGenericMethod m24157_GM;
+extern "C" t9 * m24157_gshared (t3832 * __this, t9 * p0, uint8_t p1, t470 * p2, t9 * p3, MethodInfo* method)
+{
+	void *__d_args[3] = {0};
+	__d_args[0] = p0;
+	__d_args[1] = Box(InitializedTypeInfo(&t575_TI), &p1);
+	return (t9 *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)p2, (Il2CppObject*)p3);
+}
+extern Il2CppGenericMethod m24159_GM;
+extern "C" t3822  m24159_gshared (t3832 * __this, t9 * p0, MethodInfo* method)
+{
+	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) p0, 0);
+	return *(t3822 *)UnBox ((Il2CppCodeGenObject*)__result);
+}
+#ifndef _MSC_VER
+#else
+#endif
+
+extern TypeInfo t1161_TI;
+extern MethodInfo m12000_MI;
+extern MethodInfo m24162_MI;
+extern Il2CppGenericMethod m24115_GM;
+extern Il2CppGenericMethod m24162_GM;
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t5005_TI;
+
+#include "t1182.h"
+
+
+#include "t3834.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3834_TI;
+#include "t3834MD.h"
+
+extern TypeInfo t1182_TI;
+extern Il2CppType t3834_0_0_0;
+struct t121;
+struct t121;
+extern "C" t9 * m24932_gshared (t121 * __this, int32_t p0, MethodInfo* method);
+#define m24932(__this, p0, method) (( t9 * (*) (t121 *, int32_t, MethodInfo*))m24932_gshared)(__this, p0, method)
+#define m28126(__this, p0, method) (( t1182 * (*) (t121 *, int32_t, MethodInfo*))m24932_gshared)(__this, p0, method)
+extern Il2CppGenericMethod m24170_GM;
+extern Il2CppGenericMethod m28126_GM;
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t5006_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t5007_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t5008_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t5009_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t5010_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t5011_TI;
+
+
+
+#include "t3835.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3835_TI;
+#include "t3835MD.h"
+
+extern TypeInfo t1106_TI;
+extern Il2CppType t3835_0_0_0;
+struct t121;
+#define m28137(__this, p0, method) (( t9 * (*) (t121 *, int32_t, MethodInfo*))m24932_gshared)(__this, p0, method)
+extern Il2CppGenericMethod m24175_GM;
+extern Il2CppGenericMethod m28137_GM;
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t5012_TI;
+
+
+
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t5013_TI;
+
+#include "t1239.h"
+
+
+#include "t3836.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3836_TI;
+#include "t3836MD.h"
+
+extern TypeInfo t1239_TI;
+extern Il2CppType t3836_0_0_0;
+struct t121;
+extern "C" t1239  m28148_gshared (t121 * __this, int32_t p0, MethodInfo* method);
+#define m28148(__this, p0, method) (( t1239  (*) (t121 *, int32_t, MethodInfo*))m28148_gshared)(__this, p0, method)
+extern Il2CppGenericMethod m24180_GM;
+extern Il2CppGenericMethod m28148_GM;
+
+
+extern Il2CppGenericMethod m24176_GM;
+extern "C" void m24176_gshared (t3836 * __this, t121 * p0, MethodInfo* method)
+{
+	{
+		t121 * L_0 = p0;
+		__this->f0 = L_0;
+		__this->f1 = ((int32_t)-2);
+		return;
+	}
+}
+extern Il2CppGenericMethod m24177_GM;
+extern "C" t9 * m24177_gshared (t3836 * __this, MethodInfo* method)
+{
+	{
+		t1239  L_0 = (( t1239  (*) (t3836 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t1239  L_1 = L_0;
+		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
+		return L_2;
+	}
+}
+extern Il2CppGenericMethod m24178_GM;
+extern "C" void m24178_gshared (t3836 * __this, MethodInfo* method)
+{
+	{
+		__this->f1 = ((int32_t)-2);
+		return;
+	}
+}
+extern Il2CppGenericMethod m24179_GM;
+extern "C" bool m24179_gshared (t3836 * __this, MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t G_B5_0 = 0;
+	{
+		int32_t L_0 = (__this->f1);
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		t121 * L_1 = (__this->f0);
+		int32_t L_2 = m5717(L_1, &m5717_MI);
+		__this->f1 = L_2;
+	}
+
+IL_001b:
+	{
+		int32_t L_3 = (__this->f1);
+		if ((((int32_t)L_3) == ((int32_t)(-1))))
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		int32_t L_4 = (__this->f1);
+		int32_t L_5 = ((int32_t)((int32_t)L_4-(int32_t)1));
+		V_0 = L_5;
+		__this->f1 = L_5;
+		int32_t L_6 = V_0;
+		G_B5_0 = ((((int32_t)((((int32_t)L_6) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_003e;
+	}
+
+IL_003d:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_003e:
+	{
+		return G_B5_0;
+	}
+}
+extern "C" t1239  m24180_gshared (t3836 * __this, MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->f1);
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		t1341 * L_1 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_1, (t2*) &_stringLiteral1248, &m5713_MI);
+		il2cpp_codegen_raise_exception(L_1);
+	}
+
+IL_0015:
+	{
+		int32_t L_2 = (__this->f1);
+		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		t1341 * L_3 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_3, (t2*) &_stringLiteral1249, &m5713_MI);
+		il2cpp_codegen_raise_exception(L_3);
+	}
+
+IL_0029:
+	{
+		t121 * L_4 = (__this->f0);
+		t121 * L_5 = (__this->f0);
+		int32_t L_6 = m5717(L_5, &m5717_MI);
+		int32_t L_7 = (__this->f1);
+		t1239  L_8 = (( t1239  (*) (t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		return L_8;
+	}
+}
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t5014_TI;
 
 #include "System_ArrayTypes.h"
 
@@ -455,311 +2999,268 @@ extern TypeInfo t4966_TI;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4967_TI;
+extern TypeInfo t5015_TI;
 
 
 
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4968_TI;
+extern TypeInfo t5016_TI;
 
 
 
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4969_TI;
+extern TypeInfo t5017_TI;
 
-#include "t1255.h"
+#include "t1264.h"
 
 
-#include "t3806.h"
+#include "t3837.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t3806_TI;
-#include "t3806MD.h"
+extern TypeInfo t3837_TI;
+#include "t3837MD.h"
 
-extern TypeInfo t1255_TI;
-extern Il2CppType t3806_0_0_0;
+extern TypeInfo t1264_TI;
+extern Il2CppType t3837_0_0_0;
 struct t121;
-#define m27921(__this, p0, method) (( t1255 * (*) (t121 *, int32_t, MethodInfo*))m24739_gshared)(__this, p0, method)
-extern Il2CppGenericMethod m23992_GM;
-extern Il2CppGenericMethod m27921_GM;
+#define m28159(__this, p0, method) (( t1264 * (*) (t121 *, int32_t, MethodInfo*))m24932_gshared)(__this, p0, method)
+extern Il2CppGenericMethod m24185_GM;
+extern Il2CppGenericMethod m28159_GM;
 
 
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4970_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4971_TI;
+extern TypeInfo t5018_TI;
 
 
 
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4972_TI;
+extern TypeInfo t5019_TI;
 
 
 
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4973_TI;
-
-#include "t1258.h"
+extern TypeInfo t5020_TI;
 
 
-#include "t3807.h"
+
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t3807_TI;
-#include "t3807MD.h"
+extern TypeInfo t5021_TI;
 
-extern TypeInfo t1258_TI;
-extern Il2CppType t3807_0_0_0;
+#include "t1267.h"
+
+
+#include "t3838.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t3838_TI;
+#include "t3838MD.h"
+
+extern TypeInfo t1267_TI;
+extern Il2CppType t3838_0_0_0;
 struct t121;
-#define m27932(__this, p0, method) (( t1258 * (*) (t121 *, int32_t, MethodInfo*))m24739_gshared)(__this, p0, method)
-extern Il2CppGenericMethod m23997_GM;
-extern Il2CppGenericMethod m27932_GM;
+#define m28170(__this, p0, method) (( t1267 * (*) (t121 *, int32_t, MethodInfo*))m24932_gshared)(__this, p0, method)
+extern Il2CppGenericMethod m24190_GM;
+extern Il2CppGenericMethod m28170_GM;
 
 
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4974_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4975_TI;
+extern TypeInfo t5022_TI;
 
 
 
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4976_TI;
+extern TypeInfo t5023_TI;
 
 
 
-#include "t1266.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1266_TI;
-#include "t1266MD.h"
+extern TypeInfo t5024_TI;
 
-#include "t3811.h"
-#include "t3815.h"
-#include "t1660.h"
-#include "t3809.h"
-#include "t1093.h"
-#include "t1094.h"
-#include "t3808.h"
-#include "t3817.h"
-#include "t3813.h"
-#include "t3818.h"
-#include "t2976.h"
-extern TypeInfo t2963_TI;
-extern TypeInfo t1659_TI;
-extern TypeInfo t1660_TI;
-extern TypeInfo t3811_TI;
-extern TypeInfo t3815_TI;
-extern TypeInfo t4977_TI;
-extern TypeInfo t4978_TI;
-extern TypeInfo t4158_TI;
-extern TypeInfo t3809_TI;
-extern TypeInfo t76_TI;
-extern TypeInfo t137_TI;
-extern TypeInfo t4157_TI;
-extern TypeInfo t4172_TI;
-extern TypeInfo t3808_TI;
-extern TypeInfo t3817_TI;
-extern TypeInfo t3813_TI;
-extern TypeInfo t3818_TI;
-extern TypeInfo t896_TI;
-extern TypeInfo t2976_TI;
-extern TypeInfo t1088_TI;
-extern TypeInfo t2506_TI;
-extern TypeInfo t556_TI;
-extern TypeInfo t1149_TI;
-extern TypeInfo t126_TI;
-#include "t1660MD.h"
-#include "t3811MD.h"
-#include "t3815MD.h"
-#include "t3809MD.h"
-#include "t3808MD.h"
-#include "t3817MD.h"
-#include "t3813MD.h"
-#include "t3818MD.h"
-#include "t896MD.h"
-#include "t2976MD.h"
-#include "t556MD.h"
-#include "t1149MD.h"
-#include "t1093MD.h"
-#include "t126MD.h"
-#include "t2MD.h"
-#include "t1155MD.h"
-extern Il2CppType t1266_0_0_0;
-extern Il2CppType t2963_0_0_0;
-extern Il2CppType t3811_0_0_0;
-extern Il2CppType t3815_0_0_0;
-extern Il2CppType t4977_0_0_0;
-extern Il2CppType t4978_0_0_0;
-extern Il2CppType t4158_0_0_0;
-extern Il2CppType t4157_0_0_0;
-extern Il2CppType t3809_0_0_0;
-extern Il2CppType t4172_0_0_0;
-extern Il2CppType t3808_0_0_0;
-extern Il2CppType t3817_0_0_0;
-extern Il2CppType t3813_0_0_0;
-extern Il2CppType t3818_0_0_0;
-extern Il2CppType t2976_0_0_0;
-extern Il2CppType t1088_0_0_0;
-extern Il2CppType t2506_0_0_0;
+
+
+#include "t1275.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t1275_TI;
+#include "t1275MD.h"
+
+#include "t3842.h"
+#include "t3846.h"
+#include "t3840.h"
+#include "t3839.h"
+#include "t3848.h"
+#include "t3844.h"
+#include "t3849.h"
+#include "t2986.h"
+extern TypeInfo t2973_TI;
+extern TypeInfo t3842_TI;
+extern TypeInfo t3846_TI;
+extern TypeInfo t5025_TI;
+extern TypeInfo t5026_TI;
+extern TypeInfo t4196_TI;
+extern TypeInfo t3840_TI;
+extern TypeInfo t4195_TI;
+extern TypeInfo t3839_TI;
+extern TypeInfo t3848_TI;
+extern TypeInfo t3844_TI;
+extern TypeInfo t3849_TI;
+extern TypeInfo t2986_TI;
+#include "t3842MD.h"
+#include "t3846MD.h"
+#include "t3840MD.h"
+#include "t3839MD.h"
+#include "t3848MD.h"
+#include "t3844MD.h"
+#include "t3849MD.h"
+#include "t2986MD.h"
+extern Il2CppType t1275_0_0_0;
+extern Il2CppType t2973_0_0_0;
+extern Il2CppType t3842_0_0_0;
+extern Il2CppType t3846_0_0_0;
+extern Il2CppType t5025_0_0_0;
+extern Il2CppType t5026_0_0_0;
+extern Il2CppType t4196_0_0_0;
+extern Il2CppType t4195_0_0_0;
+extern Il2CppType t3840_0_0_0;
+extern Il2CppType t3839_0_0_0;
+extern Il2CppType t3848_0_0_0;
+extern Il2CppType t3844_0_0_0;
+extern Il2CppType t3849_0_0_0;
+extern Il2CppType t2986_0_0_0;
 extern Il2CppType t125_0_0_0;
-extern MethodInfo m24035_MI;
-extern MethodInfo m24023_MI;
-extern MethodInfo m24024_MI;
-extern MethodInfo m28929_MI;
-extern MethodInfo m28930_MI;
-extern MethodInfo m8320_MI;
-extern MethodInfo m24059_MI;
-extern MethodInfo m24094_MI;
-extern MethodInfo m29455_MI;
-extern MethodInfo m29456_MI;
-extern MethodInfo m29457_MI;
-extern MethodInfo m24033_MI;
-extern MethodInfo m364_MI;
-extern MethodInfo m365_MI;
-extern MethodInfo m24039_MI;
-extern MethodInfo m24047_MI;
-extern MethodInfo m24113_MI;
-extern MethodInfo m24028_MI;
-extern MethodInfo m24117_MI;
-extern MethodInfo m24078_MI;
-extern MethodInfo m24121_MI;
-extern MethodInfo m5693_MI;
-extern MethodInfo m2885_MI;
-extern MethodInfo m24022_MI;
-extern MethodInfo m24048_MI;
-extern MethodInfo m8499_MI;
-extern MethodInfo m7682_MI;
-extern MethodInfo m1146_MI;
-extern MethodInfo m5702_MI;
-extern MethodInfo m5715_MI;
-extern MethodInfo m5714_MI;
-extern MethodInfo m329_MI;
-extern MethodInfo m5703_MI;
-extern MethodInfo m7770_MI;
-extern MethodInfo m610_MI;
-extern MethodInfo m5691_MI;
-extern MethodInfo m7733_MI;
-extern MethodInfo m24040_MI;
-extern MethodInfo m28935_MI;
-extern MethodInfo m5686_MI;
-struct t1266;
-extern "C" void m27956 (t1266 * __this, t4172* p0, int32_t p1, t3808 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-struct t1266;
-extern "C" void m27958_gshared (t1266 * __this, t121 * p0, int32_t p1, t3817 * p2, MethodInfo* method);
-#define m27958(__this, p0, p1, p2, method) (( void (*) (t1266 *, t121 *, int32_t, t3817 *, MethodInfo*))m27958_gshared)(__this, p0, p1, p2, method)
-struct t1266;
-extern "C" void m27959 (t1266 * __this, t4157* p0, int32_t p1, t3817 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern Il2CppGenericMethod m24041_GM;
-extern Il2CppGenericMethod m24042_GM;
-extern Il2CppGenericMethod m24035_GM;
-extern Il2CppGenericMethod m24043_GM;
-extern Il2CppGenericMethod m24023_GM;
-extern Il2CppGenericMethod m24044_GM;
-extern Il2CppGenericMethod m24024_GM;
-extern Il2CppGenericMethod m28929_GM;
-extern Il2CppGenericMethod m28930_GM;
-extern Il2CppGenericMethod m24032_GM;
-extern Il2CppGenericMethod m24059_GM;
-extern Il2CppGenericMethod m24094_GM;
-extern Il2CppGenericMethod m24025_GM;
-extern Il2CppGenericMethod m24002_GM;
-extern Il2CppGenericMethod m29455_GM;
-extern Il2CppGenericMethod m29456_GM;
-extern Il2CppGenericMethod m29457_GM;
-extern Il2CppGenericMethod m24049_GM;
-extern Il2CppGenericMethod m24051_GM;
-extern Il2CppGenericMethod m24033_GM;
-extern Il2CppGenericMethod m24039_GM;
-extern Il2CppGenericMethod m24045_GM;
-extern Il2CppGenericMethod m24031_GM;
-extern Il2CppGenericMethod m24027_GM;
-extern Il2CppGenericMethod m24047_GM;
-extern Il2CppGenericMethod m24113_GM;
-extern Il2CppGenericMethod m27956_GM;
-extern Il2CppGenericMethod m24028_GM;
-extern Il2CppGenericMethod m24117_GM;
-extern Il2CppGenericMethod m27958_GM;
-extern Il2CppGenericMethod m24078_GM;
-extern Il2CppGenericMethod m24121_GM;
-extern Il2CppGenericMethod m15599_GM;
-extern Il2CppGenericMethod m24026_GM;
-extern Il2CppGenericMethod m24022_GM;
-extern Il2CppGenericMethod m24048_GM;
-extern Il2CppGenericMethod m27959_GM;
-extern Il2CppGenericMethod m24040_GM;
-extern Il2CppGenericMethod m28935_GM;
+extern MethodInfo m24228_MI;
+extern MethodInfo m24216_MI;
+extern MethodInfo m24217_MI;
+extern MethodInfo m29168_MI;
+extern MethodInfo m29169_MI;
+extern MethodInfo m24252_MI;
+extern MethodInfo m24287_MI;
+extern MethodInfo m29703_MI;
+extern MethodInfo m29704_MI;
+extern MethodInfo m29705_MI;
+extern MethodInfo m24226_MI;
+extern MethodInfo m24232_MI;
+extern MethodInfo m24240_MI;
+extern MethodInfo m24306_MI;
+extern MethodInfo m24221_MI;
+extern MethodInfo m24310_MI;
+extern MethodInfo m24271_MI;
+extern MethodInfo m24314_MI;
+extern MethodInfo m24215_MI;
+extern MethodInfo m24241_MI;
+extern MethodInfo m24233_MI;
+extern MethodInfo m29174_MI;
+struct t1275;
+extern "C" void m28194 (t1275 * __this, t4210* p0, int32_t p1, t3839 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+struct t1275;
+extern "C" void m28196_gshared (t1275 * __this, t121 * p0, int32_t p1, t3848 * p2, MethodInfo* method);
+#define m28196(__this, p0, p1, p2, method) (( void (*) (t1275 *, t121 *, int32_t, t3848 *, MethodInfo*))m28196_gshared)(__this, p0, p1, p2, method)
+struct t1275;
+extern "C" void m28197 (t1275 * __this, t4195* p0, int32_t p1, t3848 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern Il2CppGenericMethod m24234_GM;
+extern Il2CppGenericMethod m24235_GM;
+extern Il2CppGenericMethod m24228_GM;
+extern Il2CppGenericMethod m24236_GM;
+extern Il2CppGenericMethod m24216_GM;
+extern Il2CppGenericMethod m24237_GM;
+extern Il2CppGenericMethod m24217_GM;
+extern Il2CppGenericMethod m29168_GM;
+extern Il2CppGenericMethod m29169_GM;
+extern Il2CppGenericMethod m24225_GM;
+extern Il2CppGenericMethod m24252_GM;
+extern Il2CppGenericMethod m24287_GM;
+extern Il2CppGenericMethod m24218_GM;
+extern Il2CppGenericMethod m24195_GM;
+extern Il2CppGenericMethod m29703_GM;
+extern Il2CppGenericMethod m29704_GM;
+extern Il2CppGenericMethod m29705_GM;
+extern Il2CppGenericMethod m24242_GM;
+extern Il2CppGenericMethod m24244_GM;
+extern Il2CppGenericMethod m24226_GM;
+extern Il2CppGenericMethod m24232_GM;
+extern Il2CppGenericMethod m24238_GM;
+extern Il2CppGenericMethod m24224_GM;
+extern Il2CppGenericMethod m24220_GM;
+extern Il2CppGenericMethod m24240_GM;
+extern Il2CppGenericMethod m24306_GM;
+extern Il2CppGenericMethod m28194_GM;
+extern Il2CppGenericMethod m24221_GM;
+extern Il2CppGenericMethod m24310_GM;
+extern Il2CppGenericMethod m28196_GM;
+extern Il2CppGenericMethod m24271_GM;
+extern Il2CppGenericMethod m24314_GM;
+extern Il2CppGenericMethod m15636_GM;
+extern Il2CppGenericMethod m24219_GM;
+extern Il2CppGenericMethod m24215_GM;
+extern Il2CppGenericMethod m24241_GM;
+extern Il2CppGenericMethod m28197_GM;
+extern Il2CppGenericMethod m24233_GM;
+extern Il2CppGenericMethod m29174_GM;
 
 
-extern Il2CppGenericMethod m23998_GM;
-extern "C" void m23998_gshared (t1266 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24191_GM;
+extern "C" void m24191_gshared (t1275 * __this, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
-		(( void (*) (t1266 *, int32_t, t9*, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, ((int32_t)10), (t9*)NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		(( void (*) (t1275 *, int32_t, t9*, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, ((int32_t)10), (t9*)NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
 		return;
 	}
 }
-extern Il2CppGenericMethod m23999_GM;
-extern "C" void m23999_gshared (t1266 * __this, t9* p0, MethodInfo* method)
+extern Il2CppGenericMethod m24192_GM;
+extern "C" void m24192_gshared (t1275 * __this, t9* p0, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
 		t9* L_0 = p0;
-		(( void (*) (t1266 *, int32_t, t9*, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, ((int32_t)10), L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		(( void (*) (t1275 *, int32_t, t9*, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, ((int32_t)10), L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
 		return;
 	}
 }
-extern Il2CppGenericMethod m24000_GM;
-extern "C" void m24000_gshared (t1266 * __this, t9* p0, MethodInfo* method)
+extern Il2CppGenericMethod m24193_GM;
+extern "C" void m24193_gshared (t1275 * __this, t9* p0, MethodInfo* method)
 {
 	{
 		t9* L_0 = p0;
-		(( void (*) (t1266 *, t9*, t9*, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(__this, L_0, (t9*)NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		(( void (*) (t1275 *, t9*, t9*, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(__this, L_0, (t9*)NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
 		return;
 	}
 }
-extern Il2CppGenericMethod m24001_GM;
-extern "C" void m24001_gshared (t1266 * __this, int32_t p0, MethodInfo* method)
+extern Il2CppGenericMethod m24194_GM;
+extern "C" void m24194_gshared (t1275 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
 		int32_t L_0 = p0;
-		(( void (*) (t1266 *, int32_t, t9*, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, L_0, (t9*)NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		(( void (*) (t1275 *, int32_t, t9*, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, L_0, (t9*)NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
 		return;
 	}
 }
-extern "C" void m24002_gshared (t1266 * __this, t9* p0, t9* p1, MethodInfo* method)
+extern "C" void m24195_gshared (t1275 * __this, t9* p0, t9* p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
-	t3809  V_1 = {0};
+	t3840  V_1 = {0};
 	t9* V_2 = {0};
 	t138 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
@@ -777,7 +3278,7 @@ extern "C" void m24002_gshared (t1266 * __this, t9* p0, t9* p1, MethodInfo* meth
 	}
 	{
 		t132 * L_1 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_1, (t2*) &_stringLiteral1379, &m339_MI);
+		m339(L_1, (t2*) &_stringLiteral1378, &m339_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -788,7 +3289,7 @@ IL_0014:
 		V_0 = L_3;
 		int32_t L_4 = V_0;
 		t9* L_5 = p1;
-		(( void (*) (t1266 *, int32_t, t9*, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, L_4, L_5, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		(( void (*) (t1275 *, int32_t, t9*, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, L_4, L_5, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
 		t9* L_6 = p0;
 		t9* L_7 = (t9*)InterfaceFuncInvoker0< t9* >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3), L_6);
 		V_2 = L_7;
@@ -804,10 +3305,10 @@ IL_002a:
 IL_002c:
 		{
 			t9* L_8 = V_2;
-			t3809  L_9 = (t3809 )InterfaceFuncInvoker0< t3809  >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), L_8);
+			t3840  L_9 = (t3840 )InterfaceFuncInvoker0< t3840  >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), L_8);
 			V_1 = L_9;
-			int32_t L_10 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)((&V_1), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
-			int32_t L_11 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6)->method)((&V_1), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
+			int32_t L_10 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)((&V_1), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+			int32_t L_11 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6)->method)((&V_1), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
 			VirtActionInvoker2< int32_t, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7), __this, L_10, L_11);
 		}
 
@@ -865,34 +3366,34 @@ IL_005c:
 		return;
 	}
 }
-extern Il2CppGenericMethod m24003_GM;
-extern "C" void m24003_gshared (t1266 * __this, t1093 * p0, t1094  p1, MethodInfo* method)
+extern Il2CppGenericMethod m24196_GM;
+extern "C" void m24196_gshared (t1275 * __this, t1100 * p0, t1101  p1, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
-		t1093 * L_0 = p0;
+		t1100 * L_0 = p0;
 		__this->f13 = L_0;
 		return;
 	}
 }
-extern Il2CppGenericMethod m24004_GM;
-extern "C" t9* m24004_gshared (t1266 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24197_GM;
+extern "C" t9* m24197_gshared (t1275 * __this, MethodInfo* method)
 {
 	{
-		t3811 * L_0 = (( t3811 * (*) (t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
+		t3842 * L_0 = (( t3842 * (*) (t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
 		return L_0;
 	}
 }
-extern Il2CppGenericMethod m24005_GM;
-extern "C" t9* m24005_gshared (t1266 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24198_GM;
+extern "C" t9* m24198_gshared (t1275 * __this, MethodInfo* method)
 {
 	{
-		t3815 * L_0 = (( t3815 * (*) (t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9));
+		t3846 * L_0 = (( t3846 * (*) (t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9));
 		return L_0;
 	}
 }
-extern Il2CppGenericMethod m24006_GM;
-extern "C" t9 * m24006_gshared (t1266 * __this, t9 * p0, MethodInfo* method)
+extern Il2CppGenericMethod m24199_GM;
+extern "C" t9 * m24199_gshared (t1275 * __this, t9 * p0, MethodInfo* method)
 {
 	{
 		t9 * L_0 = p0;
@@ -911,7 +3412,7 @@ extern "C" t9 * m24006_gshared (t1266 * __this, t9 * p0, MethodInfo* method)
 	}
 	{
 		t9 * L_3 = p0;
-		int32_t L_4 = (( int32_t (*) (t1266 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12)->method)(__this, L_3, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12));
+		int32_t L_4 = (( int32_t (*) (t1275 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12)->method)(__this, L_3, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12));
 		int32_t L_5 = (int32_t)VirtFuncInvoker1< int32_t, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 13), __this, L_4);
 		int32_t L_6 = L_5;
 		t9 * L_7 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 14), &L_6);
@@ -923,32 +3424,32 @@ IL_0029:
 		return NULL;
 	}
 }
-extern Il2CppGenericMethod m24007_GM;
-extern "C" void m24007_gshared (t1266 * __this, t9 * p0, t9 * p1, MethodInfo* method)
+extern Il2CppGenericMethod m24200_GM;
+extern "C" void m24200_gshared (t1275 * __this, t9 * p0, t9 * p1, MethodInfo* method)
 {
 	{
 		t9 * L_0 = p0;
-		int32_t L_1 = (( int32_t (*) (t1266 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12)->method)(__this, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12));
+		int32_t L_1 = (( int32_t (*) (t1275 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12)->method)(__this, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12));
 		t9 * L_2 = p1;
-		int32_t L_3 = (( int32_t (*) (t1266 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 15)->method)(__this, L_2, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 15));
+		int32_t L_3 = (( int32_t (*) (t1275 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 15)->method)(__this, L_2, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 15));
 		VirtActionInvoker2< int32_t, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 16), __this, L_1, L_3);
 		return;
 	}
 }
-extern Il2CppGenericMethod m24008_GM;
-extern "C" void m24008_gshared (t1266 * __this, t9 * p0, t9 * p1, MethodInfo* method)
+extern Il2CppGenericMethod m24201_GM;
+extern "C" void m24201_gshared (t1275 * __this, t9 * p0, t9 * p1, MethodInfo* method)
 {
 	{
 		t9 * L_0 = p0;
-		int32_t L_1 = (( int32_t (*) (t1266 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12)->method)(__this, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12));
+		int32_t L_1 = (( int32_t (*) (t1275 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12)->method)(__this, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12));
 		t9 * L_2 = p1;
-		int32_t L_3 = (( int32_t (*) (t1266 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 15)->method)(__this, L_2, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 15));
+		int32_t L_3 = (( int32_t (*) (t1275 *, t9 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 15)->method)(__this, L_2, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 15));
 		VirtActionInvoker2< int32_t, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7), __this, L_1, L_3);
 		return;
 	}
 }
-extern Il2CppGenericMethod m24009_GM;
-extern "C" bool m24009_gshared (t1266 * __this, t9 * p0, MethodInfo* method)
+extern Il2CppGenericMethod m24202_GM;
+extern "C" bool m24202_gshared (t1275 * __this, t9 * p0, MethodInfo* method)
 {
 	{
 		t9 * L_0 = p0;
@@ -959,7 +3460,7 @@ extern "C" bool m24009_gshared (t1266 * __this, t9 * p0, MethodInfo* method)
 	}
 	{
 		t132 * L_1 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_1, (t2*) &_stringLiteral409, &m339_MI);
+		m339(L_1, (t2*) &_stringLiteral408, &m339_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -982,8 +3483,8 @@ IL_0023:
 		return 0;
 	}
 }
-extern Il2CppGenericMethod m24010_GM;
-extern "C" void m24010_gshared (t1266 * __this, t9 * p0, MethodInfo* method)
+extern Il2CppGenericMethod m24203_GM;
+extern "C" void m24203_gshared (t1275 * __this, t9 * p0, MethodInfo* method)
 {
 	{
 		t9 * L_0 = p0;
@@ -994,7 +3495,7 @@ extern "C" void m24010_gshared (t1266 * __this, t9 * p0, MethodInfo* method)
 	}
 	{
 		t132 * L_1 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_1, (t2*) &_stringLiteral409, &m339_MI);
+		m339(L_1, (t2*) &_stringLiteral408, &m339_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -1016,62 +3517,62 @@ IL_0023:
 		return;
 	}
 }
-extern Il2CppGenericMethod m24011_GM;
-extern "C" bool m24011_gshared (t1266 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24204_GM;
+extern "C" bool m24204_gshared (t1275 * __this, MethodInfo* method)
 {
 	{
 		return 0;
 	}
 }
-extern Il2CppGenericMethod m24012_GM;
-extern "C" t9 * m24012_gshared (t1266 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24205_GM;
+extern "C" t9 * m24205_gshared (t1275 * __this, MethodInfo* method)
 {
 	{
 		return __this;
 	}
 }
-extern Il2CppGenericMethod m24013_GM;
-extern "C" bool m24013_gshared (t1266 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24206_GM;
+extern "C" bool m24206_gshared (t1275 * __this, MethodInfo* method)
 {
 	{
 		return 0;
 	}
 }
-extern Il2CppGenericMethod m24014_GM;
-extern "C" void m24014_gshared (t1266 * __this, t3809  p0, MethodInfo* method)
+extern Il2CppGenericMethod m24207_GM;
+extern "C" void m24207_gshared (t1275 * __this, t3840  p0, MethodInfo* method)
 {
 	{
-		int32_t L_0 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)((&p0), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
-		int32_t L_1 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6)->method)((&p0), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
+		int32_t L_0 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)((&p0), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		int32_t L_1 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6)->method)((&p0), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
 		VirtActionInvoker2< int32_t, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7), __this, L_0, L_1);
 		return;
 	}
 }
-extern Il2CppGenericMethod m24015_GM;
-extern "C" bool m24015_gshared (t1266 * __this, t3809  p0, MethodInfo* method)
+extern Il2CppGenericMethod m24208_GM;
+extern "C" bool m24208_gshared (t1275 * __this, t3840  p0, MethodInfo* method)
 {
 	{
-		t3809  L_0 = p0;
-		bool L_1 = (( bool (*) (t1266 *, t3809 , MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18)->method)(__this, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18));
+		t3840  L_0 = p0;
+		bool L_1 = (( bool (*) (t1275 *, t3840 , MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18)->method)(__this, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18));
 		return L_1;
 	}
 }
-extern Il2CppGenericMethod m24016_GM;
-extern "C" void m24016_gshared (t1266 * __this, t4157* p0, int32_t p1, MethodInfo* method)
+extern Il2CppGenericMethod m24209_GM;
+extern "C" void m24209_gshared (t1275 * __this, t4195* p0, int32_t p1, MethodInfo* method)
 {
 	{
-		t4157* L_0 = p0;
+		t4195* L_0 = p0;
 		int32_t L_1 = p1;
-		(( void (*) (t1266 *, t4157*, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19)->method)(__this, L_0, L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19));
+		(( void (*) (t1275 *, t4195*, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19)->method)(__this, L_0, L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19));
 		return;
 	}
 }
-extern Il2CppGenericMethod m24017_GM;
-extern "C" bool m24017_gshared (t1266 * __this, t3809  p0, MethodInfo* method)
+extern Il2CppGenericMethod m24210_GM;
+extern "C" bool m24210_gshared (t1275 * __this, t3840  p0, MethodInfo* method)
 {
 	{
-		t3809  L_0 = p0;
-		bool L_1 = (( bool (*) (t1266 *, t3809 , MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18)->method)(__this, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18));
+		t3840  L_0 = p0;
+		bool L_1 = (( bool (*) (t1275 *, t3840 , MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18)->method)(__this, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18));
 		if (L_1)
 		{
 			goto IL_000b;
@@ -1083,42 +3584,42 @@ extern "C" bool m24017_gshared (t1266 * __this, t3809  p0, MethodInfo* method)
 
 IL_000b:
 	{
-		int32_t L_2 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)((&p0), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		int32_t L_2 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)((&p0), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
 		bool L_3 = (bool)VirtFuncInvoker1< bool, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 17), __this, L_2);
 		return L_3;
 	}
 }
-extern Il2CppGenericMethod m24018_GM;
-extern TypeInfo* t4172_TI_var;
-extern "C" void m24018_gshared (t1266 * __this, t121 * p0, int32_t p1, MethodInfo* method)
+extern Il2CppGenericMethod m24211_GM;
+extern TypeInfo* t4210_TI_var;
+extern "C" void m24211_gshared (t1275 * __this, t121 * p0, int32_t p1, MethodInfo* method)
 {
-	static bool m24018_init;
-	if (!m24018_init)
+	static bool m24211_init;
+	if (!m24211_init)
 	{
-		t4172_TI_var = il2cpp_codegen_class_from_type(&t4172_0_0_0);
-		m24018_init = true;
+		t4210_TI_var = il2cpp_codegen_class_from_type(&t4210_0_0_0);
+		m24211_init = true;
 	}
-	t4157* V_0 = {0};
-	t4172* V_1 = {0};
+	t4195* V_0 = {0};
+	t4210* V_1 = {0};
 	int32_t G_B5_0 = 0;
-	t4172* G_B5_1 = {0};
-	t1266 * G_B5_2 = {0};
+	t4210* G_B5_1 = {0};
+	t1275 * G_B5_2 = {0};
 	int32_t G_B4_0 = 0;
-	t4172* G_B4_1 = {0};
-	t1266 * G_B4_2 = {0};
+	t4210* G_B4_1 = {0};
+	t1275 * G_B4_2 = {0};
 	{
 		t121 * L_0 = p0;
-		V_0 = ((t4157*)IsInst(L_0, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 20)));
-		t4157* L_1 = V_0;
+		V_0 = ((t4195*)IsInst(L_0, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 20)));
+		t4195* L_1 = V_0;
 		if (!L_1)
 		{
 			goto IL_0013;
 		}
 	}
 	{
-		t4157* L_2 = V_0;
+		t4195* L_2 = V_0;
 		int32_t L_3 = p1;
-		(( void (*) (t1266 *, t4157*, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19)->method)(__this, L_2, L_3, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19));
+		(( void (*) (t1275 *, t4195*, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19)->method)(__this, L_2, L_3, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19));
 		return;
 	}
 
@@ -1126,44 +3627,44 @@ IL_0013:
 	{
 		t121 * L_4 = p0;
 		int32_t L_5 = p1;
-		(( void (*) (t1266 *, t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21)->method)(__this, L_4, L_5, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21));
+		(( void (*) (t1275 *, t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21)->method)(__this, L_4, L_5, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21));
 		t121 * L_6 = p0;
-		V_1 = ((t4172*)IsInst(L_6, t4172_TI_var));
-		t4172* L_7 = V_1;
+		V_1 = ((t4210*)IsInst(L_6, t4210_TI_var));
+		t4210* L_7 = V_1;
 		if (!L_7)
 		{
 			goto IL_004b;
 		}
 	}
 	{
-		t4172* L_8 = V_1;
+		t4210* L_8 = V_1;
 		int32_t L_9 = p1;
-		t3808 * L_10 = ((t1266_SFs*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 22)->static_fields)->f15;
+		t3839 * L_10 = ((t1275_SFs*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 22)->static_fields)->f15;
 		G_B4_0 = L_9;
 		G_B4_1 = L_8;
-		G_B4_2 = ((t1266 *)(__this));
+		G_B4_2 = ((t1275 *)(__this));
 		if (L_10)
 		{
 			G_B5_0 = L_9;
 			G_B5_1 = L_8;
-			G_B5_2 = ((t1266 *)(__this));
+			G_B5_2 = ((t1275 *)(__this));
 			goto IL_0040;
 		}
 	}
 	{
 		t58 L_11 = { IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 23) };
-		t3808 * L_12 = (t3808 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 24));
-		(( void (*) (t3808 *, t9 *, t58, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 25)->method)(L_12, NULL, L_11, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 25));
-		((t1266_SFs*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 22)->static_fields)->f15 = L_12;
+		t3839 * L_12 = (t3839 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 24));
+		(( void (*) (t3839 *, t9 *, t58, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 25)->method)(L_12, NULL, L_11, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 25));
+		((t1275_SFs*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 22)->static_fields)->f15 = L_12;
 		G_B5_0 = G_B4_0;
 		G_B5_1 = G_B4_1;
-		G_B5_2 = ((t1266 *)(G_B4_2));
+		G_B5_2 = ((t1275 *)(G_B4_2));
 	}
 
 IL_0040:
 	{
-		t3808 * L_13 = ((t1266_SFs*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 22)->static_fields)->f15;
-		(( void (*) (t1266 *, t4172*, int32_t, t3808 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 26)->method)(G_B5_2, G_B5_1, G_B5_0, L_13, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 26));
+		t3839 * L_13 = ((t1275_SFs*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 22)->static_fields)->f15;
+		(( void (*) (t1275 *, t4210*, int32_t, t3839 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 26)->method)(G_B5_2, G_B5_1, G_B5_0, L_13, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 26));
 		return;
 	}
 
@@ -1172,51 +3673,51 @@ IL_004b:
 		t121 * L_14 = p0;
 		int32_t L_15 = p1;
 		t58 L_16 = { IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 27) };
-		t3817 * L_17 = (t3817 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 28));
-		(( void (*) (t3817 *, t9 *, t58, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 29)->method)(L_17, NULL, L_16, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 29));
-		(( void (*) (t1266 *, t121 *, int32_t, t3817 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 30)->method)(__this, L_14, L_15, L_17, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 30));
+		t3848 * L_17 = (t3848 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 28));
+		(( void (*) (t3848 *, t9 *, t58, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 29)->method)(L_17, NULL, L_16, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 29));
+		(( void (*) (t1275 *, t121 *, int32_t, t3848 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 30)->method)(__this, L_14, L_15, L_17, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 30));
 		return;
 	}
 }
-extern Il2CppGenericMethod m24019_GM;
-extern "C" t9 * m24019_gshared (t1266 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24212_GM;
+extern "C" t9 * m24212_gshared (t1275 * __this, MethodInfo* method)
 {
 	{
-		t3813  L_0 = {0};
-		(( void (*) (t3813 *, t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 32)->method)(&L_0, __this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 32));
-		t3813  L_1 = L_0;
+		t3844  L_0 = {0};
+		(( void (*) (t3844 *, t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 32)->method)(&L_0, __this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 32));
+		t3844  L_1 = L_0;
 		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 31), &L_1);
 		return (t9 *)L_2;
 	}
 }
-extern Il2CppGenericMethod m24020_GM;
-extern "C" t9* m24020_gshared (t1266 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24213_GM;
+extern "C" t9* m24213_gshared (t1275 * __this, MethodInfo* method)
 {
 	{
-		t3813  L_0 = {0};
-		(( void (*) (t3813 *, t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 32)->method)(&L_0, __this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 32));
-		t3813  L_1 = L_0;
+		t3844  L_0 = {0};
+		(( void (*) (t3844 *, t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 32)->method)(&L_0, __this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 32));
+		t3844  L_1 = L_0;
 		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 31), &L_1);
 		return (t9*)L_2;
 	}
 }
-extern Il2CppGenericMethod m24021_GM;
-extern "C" t9 * m24021_gshared (t1266 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24214_GM;
+extern "C" t9 * m24214_gshared (t1275 * __this, MethodInfo* method)
 {
 	{
-		t3818 * L_0 = (t3818 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 33));
-		(( void (*) (t3818 *, t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 34)->method)(L_0, __this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 34));
+		t3849 * L_0 = (t3849 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 33));
+		(( void (*) (t3849 *, t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 34)->method)(L_0, __this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 34));
 		return L_0;
 	}
 }
-extern "C" int32_t m24022_gshared (t1266 * __this, MethodInfo* method)
+extern "C" int32_t m24215_gshared (t1275 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f10);
 		return L_0;
 	}
 }
-extern "C" int32_t m24023_gshared (t1266 * __this, int32_t p0, MethodInfo* method)
+extern "C" int32_t m24216_gshared (t1275 * __this, int32_t p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -1231,7 +3732,7 @@ extern "C" int32_t m24023_gshared (t1266 * __this, int32_t p0, MethodInfo* metho
 	}
 	{
 		t132 * L_3 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_3, (t2*) &_stringLiteral409, &m339_MI);
+		m339(L_3, (t2*) &_stringLiteral408, &m339_MI);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -1241,9 +3742,9 @@ IL_0013:
 		int32_t L_5 = p0;
 		int32_t L_6 = (int32_t)InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 35), L_4, L_5);
 		V_0 = ((int32_t)((int32_t)L_6|(int32_t)((int32_t)-2147483648)));
-		t1088* L_7 = (__this->f4);
+		t1095* L_7 = (__this->f4);
 		int32_t L_8 = V_0;
-		t1088* L_9 = (__this->f4);
+		t1095* L_9 = (__this->f4);
 		int32_t L_10 = ((int32_t)((int32_t)((int32_t)((int32_t)L_8&(int32_t)((int32_t)2147483647)))%(int32_t)(((int32_t)(((t121 *)L_9)->max_length)))));
 		V_1 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_7, L_10))-(int32_t)1));
 		goto IL_008f;
@@ -1251,9 +3752,9 @@ IL_0013:
 
 IL_0042:
 	{
-		t2506* L_11 = (__this->f5);
+		t2515* L_11 = (__this->f5);
 		int32_t L_12 = V_1;
-		int32_t L_13 = (((t1659 *)(t1659 *)SZArrayLdElema(L_11, L_12))->f0);
+		int32_t L_13 = (((t1668 *)(t1668 *)SZArrayLdElema(L_11, L_12))->f0);
 		int32_t L_14 = V_0;
 		if ((!(((uint32_t)L_13) == ((uint32_t)L_14))))
 		{
@@ -1262,7 +3763,7 @@ IL_0042:
 	}
 	{
 		t9* L_15 = (__this->f12);
-		t1088* L_16 = (__this->f6);
+		t1095* L_16 = (__this->f6);
 		int32_t L_17 = V_1;
 		int32_t L_18 = L_17;
 		int32_t L_19 = p0;
@@ -1273,7 +3774,7 @@ IL_0042:
 		}
 	}
 	{
-		t1088* L_21 = (__this->f7);
+		t1095* L_21 = (__this->f7);
 		int32_t L_22 = V_1;
 		int32_t L_23 = L_22;
 		return (*(int32_t*)(int32_t*)SZArrayLdElema(L_21, L_23));
@@ -1281,9 +3782,9 @@ IL_0042:
 
 IL_007d:
 	{
-		t2506* L_24 = (__this->f5);
+		t2515* L_24 = (__this->f5);
 		int32_t L_25 = V_1;
-		int32_t L_26 = (((t1659 *)(t1659 *)SZArrayLdElema(L_24, L_25))->f1);
+		int32_t L_26 = (((t1668 *)(t1668 *)SZArrayLdElema(L_24, L_25))->f1);
 		V_1 = L_26;
 	}
 
@@ -1296,12 +3797,12 @@ IL_008f:
 		}
 	}
 	{
-		t1660 * L_28 = (t1660 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1660_TI));
-		m8320(L_28, &m8320_MI);
+		t1669 * L_28 = (t1669 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1669_TI));
+		m8348(L_28, &m8348_MI);
 		il2cpp_codegen_raise_exception(L_28);
 	}
 }
-extern "C" void m24024_gshared (t1266 * __this, int32_t p0, int32_t p1, MethodInfo* method)
+extern "C" void m24217_gshared (t1275 * __this, int32_t p0, int32_t p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -1319,7 +3820,7 @@ extern "C" void m24024_gshared (t1266 * __this, int32_t p0, int32_t p1, MethodIn
 	}
 	{
 		t132 * L_3 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_3, (t2*) &_stringLiteral409, &m339_MI);
+		m339(L_3, (t2*) &_stringLiteral408, &m339_MI);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -1330,9 +3831,9 @@ IL_0013:
 		int32_t L_6 = (int32_t)InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 35), L_4, L_5);
 		V_0 = ((int32_t)((int32_t)L_6|(int32_t)((int32_t)-2147483648)));
 		int32_t L_7 = V_0;
-		t1088* L_8 = (__this->f4);
+		t1095* L_8 = (__this->f4);
 		V_1 = ((int32_t)((int32_t)((int32_t)((int32_t)L_7&(int32_t)((int32_t)2147483647)))%(int32_t)(((int32_t)(((t121 *)L_8)->max_length)))));
-		t1088* L_9 = (__this->f4);
+		t1095* L_9 = (__this->f4);
 		int32_t L_10 = V_1;
 		int32_t L_11 = L_10;
 		V_2 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_9, L_11))-(int32_t)1));
@@ -1346,9 +3847,9 @@ IL_0013:
 
 IL_0048:
 	{
-		t2506* L_13 = (__this->f5);
+		t2515* L_13 = (__this->f5);
 		int32_t L_14 = V_2;
-		int32_t L_15 = (((t1659 *)(t1659 *)SZArrayLdElema(L_13, L_14))->f0);
+		int32_t L_15 = (((t1668 *)(t1668 *)SZArrayLdElema(L_13, L_14))->f0);
 		int32_t L_16 = V_0;
 		if ((!(((uint32_t)L_15) == ((uint32_t)L_16))))
 		{
@@ -1357,7 +3858,7 @@ IL_0048:
 	}
 	{
 		t9* L_17 = (__this->f12);
-		t1088* L_18 = (__this->f6);
+		t1095* L_18 = (__this->f6);
 		int32_t L_19 = V_2;
 		int32_t L_20 = L_19;
 		int32_t L_21 = p0;
@@ -1375,9 +3876,9 @@ IL_0078:
 	{
 		int32_t L_23 = V_2;
 		V_3 = L_23;
-		t2506* L_24 = (__this->f5);
+		t2515* L_24 = (__this->f5);
 		int32_t L_25 = V_2;
-		int32_t L_26 = (((t1659 *)(t1659 *)SZArrayLdElema(L_24, L_25))->f1);
+		int32_t L_26 = (((t1668 *)(t1668 *)SZArrayLdElema(L_24, L_25))->f1);
 		V_2 = L_26;
 		int32_t L_27 = V_2;
 		if ((!(((uint32_t)L_27) == ((uint32_t)(-1)))))
@@ -1407,9 +3908,9 @@ IL_0090:
 		}
 	}
 	{
-		(( void (*) (t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 37)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 37));
+		(( void (*) (t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 37)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 37));
 		int32_t L_33 = V_0;
-		t1088* L_34 = (__this->f4);
+		t1095* L_34 = (__this->f4);
 		V_1 = ((int32_t)((int32_t)((int32_t)((int32_t)L_33&(int32_t)((int32_t)2147483647)))%(int32_t)(((int32_t)(((t121 *)L_34)->max_length)))));
 	}
 
@@ -1435,29 +3936,29 @@ IL_00c9:
 
 IL_00ea:
 	{
-		t2506* L_40 = (__this->f5);
+		t2515* L_40 = (__this->f5);
 		int32_t L_41 = V_2;
-		int32_t L_42 = (((t1659 *)(t1659 *)SZArrayLdElema(L_40, L_41))->f1);
+		int32_t L_42 = (((t1668 *)(t1668 *)SZArrayLdElema(L_40, L_41))->f1);
 		__this->f9 = L_42;
 	}
 
 IL_0101:
 	{
-		t2506* L_43 = (__this->f5);
+		t2515* L_43 = (__this->f5);
 		int32_t L_44 = V_2;
-		t1088* L_45 = (__this->f4);
+		t1095* L_45 = (__this->f4);
 		int32_t L_46 = V_1;
 		int32_t L_47 = L_46;
-		((t1659 *)(t1659 *)SZArrayLdElema(L_43, L_44))->f1 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_45, L_47))-(int32_t)1));
-		t1088* L_48 = (__this->f4);
+		((t1668 *)(t1668 *)SZArrayLdElema(L_43, L_44))->f1 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_45, L_47))-(int32_t)1));
+		t1095* L_48 = (__this->f4);
 		int32_t L_49 = V_1;
 		int32_t L_50 = V_2;
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_48, L_49)) = (int32_t)((int32_t)((int32_t)L_50+(int32_t)1));
-		t2506* L_51 = (__this->f5);
+		t2515* L_51 = (__this->f5);
 		int32_t L_52 = V_2;
 		int32_t L_53 = V_0;
-		((t1659 *)(t1659 *)SZArrayLdElema(L_51, L_52))->f0 = L_53;
-		t1088* L_54 = (__this->f6);
+		((t1668 *)(t1668 *)SZArrayLdElema(L_51, L_52))->f0 = L_53;
+		t1095* L_54 = (__this->f6);
 		int32_t L_55 = V_2;
 		int32_t L_56 = p0;
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_54, L_55)) = (int32_t)L_56;
@@ -1473,19 +3974,19 @@ IL_0148:
 		}
 	}
 	{
-		t2506* L_58 = (__this->f5);
+		t2515* L_58 = (__this->f5);
 		int32_t L_59 = V_3;
-		t2506* L_60 = (__this->f5);
+		t2515* L_60 = (__this->f5);
 		int32_t L_61 = V_2;
-		int32_t L_62 = (((t1659 *)(t1659 *)SZArrayLdElema(L_60, L_61))->f1);
-		((t1659 *)(t1659 *)SZArrayLdElema(L_58, L_59))->f1 = L_62;
-		t2506* L_63 = (__this->f5);
+		int32_t L_62 = (((t1668 *)(t1668 *)SZArrayLdElema(L_60, L_61))->f1);
+		((t1668 *)(t1668 *)SZArrayLdElema(L_58, L_59))->f1 = L_62;
+		t2515* L_63 = (__this->f5);
 		int32_t L_64 = V_2;
-		t1088* L_65 = (__this->f4);
+		t1095* L_65 = (__this->f4);
 		int32_t L_66 = V_1;
 		int32_t L_67 = L_66;
-		((t1659 *)(t1659 *)SZArrayLdElema(L_63, L_64))->f1 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_65, L_67))-(int32_t)1));
-		t1088* L_68 = (__this->f4);
+		((t1668 *)(t1668 *)SZArrayLdElema(L_63, L_64))->f1 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_65, L_67))-(int32_t)1));
+		t1095* L_68 = (__this->f4);
 		int32_t L_69 = V_1;
 		int32_t L_70 = V_2;
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_68, L_69)) = (int32_t)((int32_t)((int32_t)L_70+(int32_t)1));
@@ -1493,7 +3994,7 @@ IL_0148:
 
 IL_0194:
 	{
-		t1088* L_71 = (__this->f7);
+		t1095* L_71 = (__this->f7);
 		int32_t L_72 = V_2;
 		int32_t L_73 = p1;
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_71, L_72)) = (int32_t)L_73;
@@ -1502,20 +4003,20 @@ IL_0194:
 		return;
 	}
 }
-extern TypeInfo* t2976_TI_var;
-extern "C" void m24025_gshared (t1266 * __this, int32_t p0, t9* p1, MethodInfo* method)
+extern TypeInfo* t2986_TI_var;
+extern "C" void m24218_gshared (t1275 * __this, int32_t p0, t9* p1, MethodInfo* method)
 {
-	static bool m24025_init;
-	if (!m24025_init)
+	static bool m24218_init;
+	if (!m24218_init)
 	{
-		t2976_TI_var = il2cpp_codegen_class_from_type(&t2976_0_0_0);
-		m24025_init = true;
+		t2986_TI_var = il2cpp_codegen_class_from_type(&t2986_0_0_0);
+		m24218_init = true;
 	}
 	t9* V_0 = {0};
-	t1266 * G_B4_0 = {0};
-	t1266 * G_B3_0 = {0};
+	t1275 * G_B4_0 = {0};
+	t1275 * G_B3_0 = {0};
 	t9* G_B5_0 = {0};
-	t1266 * G_B5_1 = {0};
+	t1275 * G_B5_1 = {0};
 	{
 		int32_t L_0 = p0;
 		if ((((int32_t)L_0) >= ((int32_t)0)))
@@ -1524,18 +4025,18 @@ extern "C" void m24025_gshared (t1266 * __this, int32_t p0, t9* p1, MethodInfo* 
 		}
 	}
 	{
-		t896 * L_1 = (t896 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t896_TI));
-		m5693(L_1, (t2*) &_stringLiteral400, &m5693_MI);
+		t903 * L_1 = (t903 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t903_TI));
+		m5721(L_1, (t2*) &_stringLiteral399, &m5721_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_000f:
 	{
 		t9* L_2 = p1;
-		G_B3_0 = ((t1266 *)(__this));
+		G_B3_0 = ((t1275 *)(__this));
 		if (!L_2)
 		{
-			G_B4_0 = ((t1266 *)(__this));
+			G_B4_0 = ((t1275 *)(__this));
 			goto IL_0018;
 		}
 	}
@@ -1544,16 +4045,16 @@ IL_000f:
 		V_0 = L_3;
 		t9* L_4 = V_0;
 		G_B5_0 = L_4;
-		G_B5_1 = ((t1266 *)(G_B3_0));
+		G_B5_1 = ((t1275 *)(G_B3_0));
 		goto IL_001d;
 	}
 
 IL_0018:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(t2976_TI_var);
-		t2976 * L_5 = (( t2976 * (*) (t9 * , MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 38)->method)(NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 38));
+		IL2CPP_RUNTIME_CLASS_INIT(t2986_TI_var);
+		t2986 * L_5 = (( t2986 * (*) (t9 * , MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 38)->method)(NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 38));
 		G_B5_0 = ((t9*)(L_5));
-		G_B5_1 = ((t1266 *)(G_B4_0));
+		G_B5_1 = ((t1275 *)(G_B4_0));
 	}
 
 IL_001d:
@@ -1574,34 +4075,34 @@ IL_002b:
 		int32_t L_7 = p0;
 		p0 = ((int32_t)((int32_t)(((int32_t)((float)((float)(((float)L_7))/(float)(0.9f)))))+(int32_t)1));
 		int32_t L_8 = p0;
-		(( void (*) (t1266 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 39)->method)(__this, L_8, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 39));
+		(( void (*) (t1275 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 39)->method)(__this, L_8, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 39));
 		__this->f14 = 0;
 		return;
 	}
 }
-extern TypeInfo* t1088_TI_var;
-extern TypeInfo* t2506_TI_var;
-extern "C" void m24026_gshared (t1266 * __this, int32_t p0, MethodInfo* method)
+extern TypeInfo* t1095_TI_var;
+extern TypeInfo* t2515_TI_var;
+extern "C" void m24219_gshared (t1275 * __this, int32_t p0, MethodInfo* method)
 {
-	static bool m24026_init;
-	if (!m24026_init)
+	static bool m24219_init;
+	if (!m24219_init)
 	{
-		t1088_TI_var = il2cpp_codegen_class_from_type(&t1088_0_0_0);
-		t2506_TI_var = il2cpp_codegen_class_from_type(&t2506_0_0_0);
-		m24026_init = true;
+		t1095_TI_var = il2cpp_codegen_class_from_type(&t1095_0_0_0);
+		t2515_TI_var = il2cpp_codegen_class_from_type(&t2515_0_0_0);
+		m24219_init = true;
 	}
 	{
 		int32_t L_0 = p0;
-		__this->f4 = ((t1088*)SZArrayNew(t1088_TI_var, L_0));
+		__this->f4 = ((t1095*)SZArrayNew(t1095_TI_var, L_0));
 		int32_t L_1 = p0;
-		__this->f5 = ((t2506*)SZArrayNew(t2506_TI_var, L_1));
+		__this->f5 = ((t2515*)SZArrayNew(t2515_TI_var, L_1));
 		__this->f9 = (-1);
 		int32_t L_2 = p0;
-		__this->f6 = ((t1088*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 40), L_2));
+		__this->f6 = ((t1095*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 40), L_2));
 		int32_t L_3 = p0;
-		__this->f7 = ((t1088*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 41), L_3));
+		__this->f7 = ((t1095*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 41), L_3));
 		__this->f8 = 0;
-		t1088* L_4 = (__this->f4);
+		t1095* L_4 = (__this->f4);
 		__this->f11 = (((int32_t)((float)((float)(((float)(((int32_t)(((t121 *)L_4)->max_length)))))*(float)(0.9f)))));
 		int32_t L_5 = (__this->f11);
 		if (L_5)
@@ -1610,7 +4111,7 @@ extern "C" void m24026_gshared (t1266 * __this, int32_t p0, MethodInfo* method)
 		}
 	}
 	{
-		t1088* L_6 = (__this->f4);
+		t1095* L_6 = (__this->f4);
 		if ((((int32_t)(((int32_t)(((t121 *)L_6)->max_length)))) <= ((int32_t)0)))
 		{
 			goto IL_006e;
@@ -1625,7 +4126,7 @@ IL_006e:
 		return;
 	}
 }
-extern "C" void m24027_gshared (t1266 * __this, t121 * p0, int32_t p1, MethodInfo* method)
+extern "C" void m24220_gshared (t1275 * __this, t121 * p0, int32_t p1, MethodInfo* method)
 {
 	{
 		t121 * L_0 = p0;
@@ -1636,7 +4137,7 @@ extern "C" void m24027_gshared (t1266 * __this, t121 * p0, int32_t p1, MethodInf
 	}
 	{
 		t132 * L_1 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_1, (t2*) &_stringLiteral330, &m339_MI);
+		m339(L_1, (t2*) &_stringLiteral329, &m339_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -1649,8 +4150,8 @@ IL_000e:
 		}
 	}
 	{
-		t896 * L_3 = (t896 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t896_TI));
-		m5693(L_3, (t2*) &_stringLiteral401, &m5693_MI);
+		t903 * L_3 = (t903 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t903_TI));
+		m5721(L_3, (t2*) &_stringLiteral400, &m5721_MI);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -1658,22 +4159,22 @@ IL_001d:
 	{
 		int32_t L_4 = p1;
 		t121 * L_5 = p0;
-		int32_t L_6 = m5689(L_5, &m5689_MI);
+		int32_t L_6 = m5717(L_5, &m5717_MI);
 		if ((((int32_t)L_4) <= ((int32_t)L_6)))
 		{
 			goto IL_0031;
 		}
 	}
 	{
-		t556 * L_7 = (t556 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t556_TI));
-		m2885(L_7, (t2*) &_stringLiteral402, &m2885_MI);
+		t563 * L_7 = (t563 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t563_TI));
+		m2909(L_7, (t2*) &_stringLiteral401, &m2909_MI);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
 IL_0031:
 	{
 		t121 * L_8 = p0;
-		int32_t L_9 = m5689(L_8, &m5689_MI);
+		int32_t L_9 = m5717(L_8, &m5717_MI);
 		int32_t L_10 = p1;
 		int32_t L_11 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 42), __this);
 		if ((((int32_t)((int32_t)((int32_t)L_9-(int32_t)L_10))) >= ((int32_t)L_11)))
@@ -1682,8 +4183,8 @@ IL_0031:
 		}
 	}
 	{
-		t556 * L_12 = (t556 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t556_TI));
-		m2885(L_12, (t2*) &_stringLiteral403, &m2885_MI);
+		t563 * L_12 = (t563 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t563_TI));
+		m2909(L_12, (t2*) &_stringLiteral402, &m2909_MI);
 		il2cpp_codegen_raise_exception(L_12);
 	}
 
@@ -1692,84 +4193,84 @@ IL_004c:
 		return;
 	}
 }
-extern "C" t3809  m24028_gshared (t9 * __this , int32_t p0, int32_t p1, MethodInfo* method)
+extern "C" t3840  m24221_gshared (t9 * __this , int32_t p0, int32_t p1, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
 		int32_t L_1 = p1;
-		t3809  L_2 = {0};
-		(( void (*) (t3809 *, int32_t, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 44)->method)(&L_2, L_0, L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 44));
+		t3840  L_2 = {0};
+		(( void (*) (t3840 *, int32_t, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 44)->method)(&L_2, L_0, L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 44));
 		return L_2;
 	}
 }
-extern Il2CppGenericMethod m24029_GM;
-extern "C" int32_t m24029_gshared (t9 * __this , int32_t p0, int32_t p1, MethodInfo* method)
+extern Il2CppGenericMethod m24222_GM;
+extern "C" int32_t m24222_gshared (t9 * __this , int32_t p0, int32_t p1, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
 		return L_0;
 	}
 }
-extern Il2CppGenericMethod m24030_GM;
-extern "C" int32_t m24030_gshared (t9 * __this , int32_t p0, int32_t p1, MethodInfo* method)
+extern Il2CppGenericMethod m24223_GM;
+extern "C" int32_t m24223_gshared (t9 * __this , int32_t p0, int32_t p1, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p1;
 		return L_0;
 	}
 }
-extern "C" void m24031_gshared (t1266 * __this, t4157* p0, int32_t p1, MethodInfo* method)
+extern "C" void m24224_gshared (t1275 * __this, t4195* p0, int32_t p1, MethodInfo* method)
 {
 	{
-		t4157* L_0 = p0;
+		t4195* L_0 = p0;
 		int32_t L_1 = p1;
-		(( void (*) (t1266 *, t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21)->method)(__this, (t121 *)(t121 *)L_0, L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21));
-		t4157* L_2 = p0;
+		(( void (*) (t1275 *, t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21)->method)(__this, (t121 *)(t121 *)L_0, L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21));
+		t4195* L_2 = p0;
 		int32_t L_3 = p1;
 		t58 L_4 = { IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 27) };
-		t3817 * L_5 = (t3817 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 28));
-		(( void (*) (t3817 *, t9 *, t58, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 29)->method)(L_5, NULL, L_4, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 29));
-		(( void (*) (t1266 *, t4157*, int32_t, t3817 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 45)->method)(__this, L_2, L_3, L_5, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 45));
+		t3848 * L_5 = (t3848 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 28));
+		(( void (*) (t3848 *, t9 *, t58, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 29)->method)(L_5, NULL, L_4, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 29));
+		(( void (*) (t1275 *, t4195*, int32_t, t3848 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 45)->method)(__this, L_2, L_3, L_5, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 45));
 		return;
 	}
 }
-extern TypeInfo* t1088_TI_var;
-extern TypeInfo* t2506_TI_var;
-extern "C" void m24032_gshared (t1266 * __this, MethodInfo* method)
+extern TypeInfo* t1095_TI_var;
+extern TypeInfo* t2515_TI_var;
+extern "C" void m24225_gshared (t1275 * __this, MethodInfo* method)
 {
-	static bool m24032_init;
-	if (!m24032_init)
+	static bool m24225_init;
+	if (!m24225_init)
 	{
-		t1088_TI_var = il2cpp_codegen_class_from_type(&t1088_0_0_0);
-		t2506_TI_var = il2cpp_codegen_class_from_type(&t2506_0_0_0);
-		m24032_init = true;
+		t1095_TI_var = il2cpp_codegen_class_from_type(&t1095_0_0_0);
+		t2515_TI_var = il2cpp_codegen_class_from_type(&t2515_0_0_0);
+		m24225_init = true;
 	}
 	int32_t V_0 = 0;
-	t1088* V_1 = {0};
-	t2506* V_2 = {0};
+	t1095* V_1 = {0};
+	t2515* V_2 = {0};
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
 	int32_t V_6 = 0;
-	t1088* V_7 = {0};
-	t1088* V_8 = {0};
+	t1095* V_7 = {0};
+	t1095* V_8 = {0};
 	int32_t V_9 = 0;
 	{
-		t1088* L_0 = (__this->f4);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1149_TI));
-		int32_t L_1 = m8499(NULL, ((int32_t)((int32_t)((int32_t)((int32_t)(((int32_t)(((t121 *)L_0)->max_length)))<<(int32_t)1))|(int32_t)1)), &m8499_MI);
+		t1095* L_0 = (__this->f4);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1158_TI));
+		int32_t L_1 = m8527(NULL, ((int32_t)((int32_t)((int32_t)((int32_t)(((int32_t)(((t121 *)L_0)->max_length)))<<(int32_t)1))|(int32_t)1)), &m8527_MI);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
-		V_1 = ((t1088*)SZArrayNew(t1088_TI_var, L_2));
+		V_1 = ((t1095*)SZArrayNew(t1095_TI_var, L_2));
 		int32_t L_3 = V_0;
-		V_2 = ((t2506*)SZArrayNew(t2506_TI_var, L_3));
+		V_2 = ((t2515*)SZArrayNew(t2515_TI_var, L_3));
 		V_3 = 0;
 		goto IL_00ab;
 	}
 
 IL_0027:
 	{
-		t1088* L_4 = (__this->f4);
+		t1095* L_4 = (__this->f4);
 		int32_t L_5 = V_3;
 		int32_t L_6 = L_5;
 		V_4 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_4, L_6))-(int32_t)1));
@@ -1778,34 +4279,34 @@ IL_0027:
 
 IL_0035:
 	{
-		t2506* L_7 = V_2;
+		t2515* L_7 = V_2;
 		int32_t L_8 = V_4;
 		t9* L_9 = (__this->f12);
-		t1088* L_10 = (__this->f6);
+		t1095* L_10 = (__this->f6);
 		int32_t L_11 = V_4;
 		int32_t L_12 = L_11;
 		int32_t L_13 = (int32_t)InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 35), L_9, (*(int32_t*)(int32_t*)SZArrayLdElema(L_10, L_12)));
 		int32_t L_14 = ((int32_t)((int32_t)L_13|(int32_t)((int32_t)-2147483648)));
 		V_9 = L_14;
-		((t1659 *)(t1659 *)SZArrayLdElema(L_7, L_8))->f0 = L_14;
+		((t1668 *)(t1668 *)SZArrayLdElema(L_7, L_8))->f0 = L_14;
 		int32_t L_15 = V_9;
 		V_5 = L_15;
 		int32_t L_16 = V_5;
 		int32_t L_17 = V_0;
 		V_6 = ((int32_t)((int32_t)((int32_t)((int32_t)L_16&(int32_t)((int32_t)2147483647)))%(int32_t)L_17));
-		t2506* L_18 = V_2;
+		t2515* L_18 = V_2;
 		int32_t L_19 = V_4;
-		t1088* L_20 = V_1;
+		t1095* L_20 = V_1;
 		int32_t L_21 = V_6;
 		int32_t L_22 = L_21;
-		((t1659 *)(t1659 *)SZArrayLdElema(L_18, L_19))->f1 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_20, L_22))-(int32_t)1));
-		t1088* L_23 = V_1;
+		((t1668 *)(t1668 *)SZArrayLdElema(L_18, L_19))->f1 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_20, L_22))-(int32_t)1));
+		t1095* L_23 = V_1;
 		int32_t L_24 = V_6;
 		int32_t L_25 = V_4;
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_23, L_24)) = (int32_t)((int32_t)((int32_t)L_25+(int32_t)1));
-		t2506* L_26 = (__this->f5);
+		t2515* L_26 = (__this->f5);
 		int32_t L_27 = V_4;
-		int32_t L_28 = (((t1659 *)(t1659 *)SZArrayLdElema(L_26, L_27))->f1);
+		int32_t L_28 = (((t1668 *)(t1668 *)SZArrayLdElema(L_26, L_27))->f1);
 		V_4 = L_28;
 	}
 
@@ -1825,39 +4326,39 @@ IL_00a2:
 IL_00ab:
 	{
 		int32_t L_31 = V_3;
-		t1088* L_32 = (__this->f4);
+		t1095* L_32 = (__this->f4);
 		if ((((int32_t)L_31) < ((int32_t)(((int32_t)(((t121 *)L_32)->max_length))))))
 		{
 			goto IL_0027;
 		}
 	}
 	{
-		t1088* L_33 = V_1;
+		t1095* L_33 = V_1;
 		__this->f4 = L_33;
-		t2506* L_34 = V_2;
+		t2515* L_34 = V_2;
 		__this->f5 = L_34;
 		int32_t L_35 = V_0;
-		V_7 = ((t1088*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 40), L_35));
+		V_7 = ((t1095*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 40), L_35));
 		int32_t L_36 = V_0;
-		V_8 = ((t1088*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 41), L_36));
-		t1088* L_37 = (__this->f6);
-		t1088* L_38 = V_7;
+		V_8 = ((t1095*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 41), L_36));
+		t1095* L_37 = (__this->f6);
+		t1095* L_38 = V_7;
 		int32_t L_39 = (__this->f8);
-		m7682(NULL, (t121 *)(t121 *)L_37, 0, (t121 *)(t121 *)L_38, 0, L_39, &m7682_MI);
-		t1088* L_40 = (__this->f7);
-		t1088* L_41 = V_8;
+		m7710(NULL, (t121 *)(t121 *)L_37, 0, (t121 *)(t121 *)L_38, 0, L_39, &m7710_MI);
+		t1095* L_40 = (__this->f7);
+		t1095* L_41 = V_8;
 		int32_t L_42 = (__this->f8);
-		m7682(NULL, (t121 *)(t121 *)L_40, 0, (t121 *)(t121 *)L_41, 0, L_42, &m7682_MI);
-		t1088* L_43 = V_7;
+		m7710(NULL, (t121 *)(t121 *)L_40, 0, (t121 *)(t121 *)L_41, 0, L_42, &m7710_MI);
+		t1095* L_43 = V_7;
 		__this->f6 = L_43;
-		t1088* L_44 = V_8;
+		t1095* L_44 = V_8;
 		__this->f7 = L_44;
 		int32_t L_45 = V_0;
 		__this->f11 = (((int32_t)((float)((float)(((float)L_45))*(float)(0.9f)))));
 		return;
 	}
 }
-extern "C" void m24033_gshared (t1266 * __this, int32_t p0, int32_t p1, MethodInfo* method)
+extern "C" void m24226_gshared (t1275 * __this, int32_t p0, int32_t p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -1874,7 +4375,7 @@ extern "C" void m24033_gshared (t1266 * __this, int32_t p0, int32_t p1, MethodIn
 	}
 	{
 		t132 * L_3 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_3, (t2*) &_stringLiteral409, &m339_MI);
+		m339(L_3, (t2*) &_stringLiteral408, &m339_MI);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -1885,9 +4386,9 @@ IL_0013:
 		int32_t L_6 = (int32_t)InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 35), L_4, L_5);
 		V_0 = ((int32_t)((int32_t)L_6|(int32_t)((int32_t)-2147483648)));
 		int32_t L_7 = V_0;
-		t1088* L_8 = (__this->f4);
+		t1095* L_8 = (__this->f4);
 		V_1 = ((int32_t)((int32_t)((int32_t)((int32_t)L_7&(int32_t)((int32_t)2147483647)))%(int32_t)(((int32_t)(((t121 *)L_8)->max_length)))));
-		t1088* L_9 = (__this->f4);
+		t1095* L_9 = (__this->f4);
 		int32_t L_10 = V_1;
 		int32_t L_11 = L_10;
 		V_2 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_9, L_11))-(int32_t)1));
@@ -1896,9 +4397,9 @@ IL_0013:
 
 IL_0044:
 	{
-		t2506* L_12 = (__this->f5);
+		t2515* L_12 = (__this->f5);
 		int32_t L_13 = V_2;
-		int32_t L_14 = (((t1659 *)(t1659 *)SZArrayLdElema(L_12, L_13))->f0);
+		int32_t L_14 = (((t1668 *)(t1668 *)SZArrayLdElema(L_12, L_13))->f0);
 		int32_t L_15 = V_0;
 		if ((!(((uint32_t)L_14) == ((uint32_t)L_15))))
 		{
@@ -1907,7 +4408,7 @@ IL_0044:
 	}
 	{
 		t9* L_16 = (__this->f12);
-		t1088* L_17 = (__this->f6);
+		t1095* L_17 = (__this->f6);
 		int32_t L_18 = V_2;
 		int32_t L_19 = L_18;
 		int32_t L_20 = p0;
@@ -1918,16 +4419,16 @@ IL_0044:
 		}
 	}
 	{
-		t556 * L_22 = (t556 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t556_TI));
-		m2885(L_22, (t2*) &_stringLiteral1381, &m2885_MI);
+		t563 * L_22 = (t563 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t563_TI));
+		m2909(L_22, (t2*) &_stringLiteral1380, &m2909_MI);
 		il2cpp_codegen_raise_exception(L_22);
 	}
 
 IL_007d:
 	{
-		t2506* L_23 = (__this->f5);
+		t2515* L_23 = (__this->f5);
 		int32_t L_24 = V_2;
-		int32_t L_25 = (((t1659 *)(t1659 *)SZArrayLdElema(L_23, L_24))->f1);
+		int32_t L_25 = (((t1668 *)(t1668 *)SZArrayLdElema(L_23, L_24))->f1);
 		V_2 = L_25;
 	}
 
@@ -1952,9 +4453,9 @@ IL_008f:
 		}
 	}
 	{
-		(( void (*) (t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 37)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 37));
+		(( void (*) (t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 37)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 37));
 		int32_t L_31 = V_0;
-		t1088* L_32 = (__this->f4);
+		t1095* L_32 = (__this->f4);
 		V_1 = ((int32_t)((int32_t)((int32_t)((int32_t)L_31&(int32_t)((int32_t)2147483647)))%(int32_t)(((int32_t)(((t121 *)L_32)->max_length)))));
 	}
 
@@ -1980,33 +4481,33 @@ IL_00c3:
 
 IL_00e2:
 	{
-		t2506* L_38 = (__this->f5);
+		t2515* L_38 = (__this->f5);
 		int32_t L_39 = V_2;
-		int32_t L_40 = (((t1659 *)(t1659 *)SZArrayLdElema(L_38, L_39))->f1);
+		int32_t L_40 = (((t1668 *)(t1668 *)SZArrayLdElema(L_38, L_39))->f1);
 		__this->f9 = L_40;
 	}
 
 IL_00f9:
 	{
-		t2506* L_41 = (__this->f5);
+		t2515* L_41 = (__this->f5);
 		int32_t L_42 = V_2;
 		int32_t L_43 = V_0;
-		((t1659 *)(t1659 *)SZArrayLdElema(L_41, L_42))->f0 = L_43;
-		t2506* L_44 = (__this->f5);
+		((t1668 *)(t1668 *)SZArrayLdElema(L_41, L_42))->f0 = L_43;
+		t2515* L_44 = (__this->f5);
 		int32_t L_45 = V_2;
-		t1088* L_46 = (__this->f4);
+		t1095* L_46 = (__this->f4);
 		int32_t L_47 = V_1;
 		int32_t L_48 = L_47;
-		((t1659 *)(t1659 *)SZArrayLdElema(L_44, L_45))->f1 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_46, L_48))-(int32_t)1));
-		t1088* L_49 = (__this->f4);
+		((t1668 *)(t1668 *)SZArrayLdElema(L_44, L_45))->f1 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_46, L_48))-(int32_t)1));
+		t1095* L_49 = (__this->f4);
 		int32_t L_50 = V_1;
 		int32_t L_51 = V_2;
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_49, L_50)) = (int32_t)((int32_t)((int32_t)L_51+(int32_t)1));
-		t1088* L_52 = (__this->f6);
+		t1095* L_52 = (__this->f6);
 		int32_t L_53 = V_2;
 		int32_t L_54 = p0;
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_52, L_53)) = (int32_t)L_54;
-		t1088* L_55 = (__this->f7);
+		t1095* L_55 = (__this->f7);
 		int32_t L_56 = V_2;
 		int32_t L_57 = p1;
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_55, L_56)) = (int32_t)L_57;
@@ -2015,23 +4516,23 @@ IL_00f9:
 		return;
 	}
 }
-extern Il2CppGenericMethod m24034_GM;
-extern "C" void m24034_gshared (t1266 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24227_GM;
+extern "C" void m24227_gshared (t1275 * __this, MethodInfo* method)
 {
 	{
 		__this->f10 = 0;
-		t1088* L_0 = (__this->f4);
-		t1088* L_1 = (__this->f4);
-		m1146(NULL, (t121 *)(t121 *)L_0, 0, (((int32_t)(((t121 *)L_1)->max_length))), &m1146_MI);
-		t1088* L_2 = (__this->f6);
-		t1088* L_3 = (__this->f6);
-		m1146(NULL, (t121 *)(t121 *)L_2, 0, (((int32_t)(((t121 *)L_3)->max_length))), &m1146_MI);
-		t1088* L_4 = (__this->f7);
-		t1088* L_5 = (__this->f7);
-		m1146(NULL, (t121 *)(t121 *)L_4, 0, (((int32_t)(((t121 *)L_5)->max_length))), &m1146_MI);
-		t2506* L_6 = (__this->f5);
-		t2506* L_7 = (__this->f5);
-		m1146(NULL, (t121 *)(t121 *)L_6, 0, (((int32_t)(((t121 *)L_7)->max_length))), &m1146_MI);
+		t1095* L_0 = (__this->f4);
+		t1095* L_1 = (__this->f4);
+		m1161(NULL, (t121 *)(t121 *)L_0, 0, (((int32_t)(((t121 *)L_1)->max_length))), &m1161_MI);
+		t1095* L_2 = (__this->f6);
+		t1095* L_3 = (__this->f6);
+		m1161(NULL, (t121 *)(t121 *)L_2, 0, (((int32_t)(((t121 *)L_3)->max_length))), &m1161_MI);
+		t1095* L_4 = (__this->f7);
+		t1095* L_5 = (__this->f7);
+		m1161(NULL, (t121 *)(t121 *)L_4, 0, (((int32_t)(((t121 *)L_5)->max_length))), &m1161_MI);
+		t2515* L_6 = (__this->f5);
+		t2515* L_7 = (__this->f5);
+		m1161(NULL, (t121 *)(t121 *)L_6, 0, (((int32_t)(((t121 *)L_7)->max_length))), &m1161_MI);
 		__this->f9 = (-1);
 		__this->f8 = 0;
 		int32_t L_8 = (__this->f14);
@@ -2039,7 +4540,7 @@ extern "C" void m24034_gshared (t1266 * __this, MethodInfo* method)
 		return;
 	}
 }
-extern "C" bool m24035_gshared (t1266 * __this, int32_t p0, MethodInfo* method)
+extern "C" bool m24228_gshared (t1275 * __this, int32_t p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -2054,7 +4555,7 @@ extern "C" bool m24035_gshared (t1266 * __this, int32_t p0, MethodInfo* method)
 	}
 	{
 		t132 * L_3 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_3, (t2*) &_stringLiteral409, &m339_MI);
+		m339(L_3, (t2*) &_stringLiteral408, &m339_MI);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -2064,9 +4565,9 @@ IL_0013:
 		int32_t L_5 = p0;
 		int32_t L_6 = (int32_t)InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 35), L_4, L_5);
 		V_0 = ((int32_t)((int32_t)L_6|(int32_t)((int32_t)-2147483648)));
-		t1088* L_7 = (__this->f4);
+		t1095* L_7 = (__this->f4);
 		int32_t L_8 = V_0;
-		t1088* L_9 = (__this->f4);
+		t1095* L_9 = (__this->f4);
 		int32_t L_10 = ((int32_t)((int32_t)((int32_t)((int32_t)L_8&(int32_t)((int32_t)2147483647)))%(int32_t)(((int32_t)(((t121 *)L_9)->max_length)))));
 		V_1 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_7, L_10))-(int32_t)1));
 		goto IL_0084;
@@ -2074,9 +4575,9 @@ IL_0013:
 
 IL_0042:
 	{
-		t2506* L_11 = (__this->f5);
+		t2515* L_11 = (__this->f5);
 		int32_t L_12 = V_1;
-		int32_t L_13 = (((t1659 *)(t1659 *)SZArrayLdElema(L_11, L_12))->f0);
+		int32_t L_13 = (((t1668 *)(t1668 *)SZArrayLdElema(L_11, L_12))->f0);
 		int32_t L_14 = V_0;
 		if ((!(((uint32_t)L_13) == ((uint32_t)L_14))))
 		{
@@ -2085,7 +4586,7 @@ IL_0042:
 	}
 	{
 		t9* L_15 = (__this->f12);
-		t1088* L_16 = (__this->f6);
+		t1095* L_16 = (__this->f6);
 		int32_t L_17 = V_1;
 		int32_t L_18 = L_17;
 		int32_t L_19 = p0;
@@ -2101,9 +4602,9 @@ IL_0042:
 
 IL_0072:
 	{
-		t2506* L_21 = (__this->f5);
+		t2515* L_21 = (__this->f5);
 		int32_t L_22 = V_1;
-		int32_t L_23 = (((t1659 *)(t1659 *)SZArrayLdElema(L_21, L_22))->f1);
+		int32_t L_23 = (((t1668 *)(t1668 *)SZArrayLdElema(L_21, L_22))->f1);
 		V_1 = L_23;
 	}
 
@@ -2119,22 +4620,22 @@ IL_0084:
 		return 0;
 	}
 }
-extern Il2CppGenericMethod m24036_GM;
-extern TypeInfo* t2976_TI_var;
-extern "C" bool m24036_gshared (t1266 * __this, int32_t p0, MethodInfo* method)
+extern Il2CppGenericMethod m24229_GM;
+extern TypeInfo* t2986_TI_var;
+extern "C" bool m24229_gshared (t1275 * __this, int32_t p0, MethodInfo* method)
 {
-	static bool m24036_init;
-	if (!m24036_init)
+	static bool m24229_init;
+	if (!m24229_init)
 	{
-		t2976_TI_var = il2cpp_codegen_class_from_type(&t2976_0_0_0);
-		m24036_init = true;
+		t2986_TI_var = il2cpp_codegen_class_from_type(&t2986_0_0_0);
+		m24229_init = true;
 	}
 	t9* V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(t2976_TI_var);
-		t2976 * L_0 = (( t2976 * (*) (t9 * , MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 46)->method)(NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 46));
+		IL2CPP_RUNTIME_CLASS_INIT(t2986_TI_var);
+		t2986 * L_0 = (( t2986 * (*) (t9 * , MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 46)->method)(NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 46));
 		V_0 = L_0;
 		V_1 = 0;
 		goto IL_0048;
@@ -2142,7 +4643,7 @@ extern "C" bool m24036_gshared (t1266 * __this, int32_t p0, MethodInfo* method)
 
 IL_000a:
 	{
-		t1088* L_1 = (__this->f4);
+		t1095* L_1 = (__this->f4);
 		int32_t L_2 = V_1;
 		int32_t L_3 = L_2;
 		V_2 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_1, L_3))-(int32_t)1));
@@ -2152,7 +4653,7 @@ IL_000a:
 IL_0017:
 	{
 		t9* L_4 = V_0;
-		t1088* L_5 = (__this->f7);
+		t1095* L_5 = (__this->f7);
 		int32_t L_6 = V_2;
 		int32_t L_7 = L_6;
 		int32_t L_8 = p0;
@@ -2168,9 +4669,9 @@ IL_0017:
 
 IL_002e:
 	{
-		t2506* L_10 = (__this->f5);
+		t2515* L_10 = (__this->f5);
 		int32_t L_11 = V_2;
-		int32_t L_12 = (((t1659 *)(t1659 *)SZArrayLdElema(L_10, L_11))->f1);
+		int32_t L_12 = (((t1668 *)(t1668 *)SZArrayLdElema(L_10, L_11))->f1);
 		V_2 = L_12;
 	}
 
@@ -2190,7 +4691,7 @@ IL_0040:
 IL_0048:
 	{
 		int32_t L_15 = V_1;
-		t1088* L_16 = (__this->f4);
+		t1095* L_16 = (__this->f4);
 		if ((((int32_t)L_15) < ((int32_t)(((int32_t)(((t121 *)L_16)->max_length))))))
 		{
 			goto IL_000a;
@@ -2200,12 +4701,12 @@ IL_0048:
 		return 0;
 	}
 }
-extern Il2CppGenericMethod m24037_GM;
-extern "C" void m24037_gshared (t1266 * __this, t1093 * p0, t1094  p1, MethodInfo* method)
+extern Il2CppGenericMethod m24230_GM;
+extern "C" void m24230_gshared (t1275 * __this, t1100 * p0, t1101  p1, MethodInfo* method)
 {
-	t4157* V_0 = {0};
+	t4195* V_0 = {0};
 	{
-		t1093 * L_0 = p0;
+		t1100 * L_0 = p0;
 		if (L_0)
 		{
 			goto IL_000e;
@@ -2213,19 +4714,19 @@ extern "C" void m24037_gshared (t1266 * __this, t1093 * p0, t1094  p1, MethodInf
 	}
 	{
 		t132 * L_1 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_1, (t2*) &_stringLiteral418, &m339_MI);
+		m339(L_1, (t2*) &_stringLiteral417, &m339_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_000e:
 	{
-		t1093 * L_2 = p0;
+		t1100 * L_2 = p0;
 		int32_t L_3 = (__this->f14);
-		m5702(L_2, (t2*) &_stringLiteral420, L_3, &m5702_MI);
-		t1093 * L_4 = p0;
+		m5730(L_2, (t2*) &_stringLiteral419, L_3, &m5730_MI);
+		t1100 * L_4 = p0;
 		t9* L_5 = (__this->f12);
-		m5715(L_4, (t2*) &_stringLiteral422, L_5, &m5715_MI);
-		V_0 = (t4157*)NULL;
+		m5743(L_4, (t2*) &_stringLiteral421, L_5, &m5743_MI);
+		V_0 = (t4195*)NULL;
 		int32_t L_6 = (__this->f10);
 		if ((((int32_t)L_6) <= ((int32_t)0)))
 		{
@@ -2234,30 +4735,30 @@ IL_000e:
 	}
 	{
 		int32_t L_7 = (__this->f10);
-		V_0 = ((t4157*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 48), L_7));
-		t4157* L_8 = V_0;
-		(( void (*) (t1266 *, t4157*, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19)->method)(__this, L_8, 0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19));
+		V_0 = ((t4195*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 48), L_7));
+		t4195* L_8 = V_0;
+		(( void (*) (t1275 *, t4195*, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19)->method)(__this, L_8, 0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19));
 	}
 
 IL_004f:
 	{
-		t1093 * L_9 = p0;
-		t1088* L_10 = (__this->f4);
-		m5702(L_9, (t2*) &_stringLiteral1382, (((int32_t)(((t121 *)L_10)->max_length))), &m5702_MI);
-		t1093 * L_11 = p0;
-		t4157* L_12 = V_0;
-		m5715(L_11, (t2*) &_stringLiteral1383, (t9 *)(t9 *)L_12, &m5715_MI);
+		t1100 * L_9 = p0;
+		t1095* L_10 = (__this->f4);
+		m5730(L_9, (t2*) &_stringLiteral1381, (((int32_t)(((t121 *)L_10)->max_length))), &m5730_MI);
+		t1100 * L_11 = p0;
+		t4195* L_12 = V_0;
+		m5743(L_11, (t2*) &_stringLiteral1382, (t9 *)(t9 *)L_12, &m5743_MI);
 		return;
 	}
 }
-extern Il2CppGenericMethod m24038_GM;
-extern "C" void m24038_gshared (t1266 * __this, t9 * p0, MethodInfo* method)
+extern Il2CppGenericMethod m24231_GM;
+extern "C" void m24231_gshared (t1275 * __this, t9 * p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
-	t4157* V_1 = {0};
+	t4195* V_1 = {0};
 	int32_t V_2 = 0;
 	{
-		t1093 * L_0 = (__this->f13);
+		t1100 * L_0 = (__this->f13);
 		if (L_0)
 		{
 			goto IL_0009;
@@ -2269,21 +4770,21 @@ extern "C" void m24038_gshared (t1266 * __this, t9 * p0, MethodInfo* method)
 
 IL_0009:
 	{
-		t1093 * L_1 = (__this->f13);
-		int32_t L_2 = m5714(L_1, (t2*) &_stringLiteral420, &m5714_MI);
+		t1100 * L_1 = (__this->f13);
+		int32_t L_2 = m5742(L_1, (t2*) &_stringLiteral419, &m5742_MI);
 		__this->f14 = L_2;
-		t1093 * L_3 = (__this->f13);
+		t1100 * L_3 = (__this->f13);
 		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t126_TI));
 		t126 * L_4 = m329(NULL, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 49)), &m329_MI);
-		t9 * L_5 = m5703(L_3, (t2*) &_stringLiteral422, L_4, &m5703_MI);
+		t9 * L_5 = m5731(L_3, (t2*) &_stringLiteral421, L_4, &m5731_MI);
 		__this->f12 = ((t9*)Castclass(L_5, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 50)));
-		t1093 * L_6 = (__this->f13);
-		int32_t L_7 = m5714(L_6, (t2*) &_stringLiteral1382, &m5714_MI);
+		t1100 * L_6 = (__this->f13);
+		int32_t L_7 = m5742(L_6, (t2*) &_stringLiteral1381, &m5742_MI);
 		V_0 = L_7;
-		t1093 * L_8 = (__this->f13);
+		t1100 * L_8 = (__this->f13);
 		t126 * L_9 = m329(NULL, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 51)), &m329_MI);
-		t9 * L_10 = m5703(L_8, (t2*) &_stringLiteral1383, L_9, &m5703_MI);
-		V_1 = ((t4157*)Castclass(L_10, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 20)));
+		t9 * L_10 = m5731(L_8, (t2*) &_stringLiteral1382, L_9, &m5731_MI);
+		V_1 = ((t4195*)Castclass(L_10, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 20)));
 		int32_t L_11 = V_0;
 		if ((((int32_t)L_11) >= ((int32_t)((int32_t)10))))
 		{
@@ -2297,9 +4798,9 @@ IL_0009:
 IL_007d:
 	{
 		int32_t L_12 = V_0;
-		(( void (*) (t1266 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 39)->method)(__this, L_12, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 39));
+		(( void (*) (t1275 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 39)->method)(__this, L_12, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 39));
 		__this->f10 = 0;
-		t4157* L_13 = V_1;
+		t4195* L_13 = V_1;
 		if (!L_13)
 		{
 			goto IL_00ba;
@@ -2312,12 +4813,12 @@ IL_007d:
 
 IL_0092:
 	{
-		t4157* L_14 = V_1;
+		t4195* L_14 = V_1;
 		int32_t L_15 = V_2;
-		int32_t L_16 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(((t3809 *)(t3809 *)SZArrayLdElema(L_14, L_15)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
-		t4157* L_17 = V_1;
+		int32_t L_16 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(((t3840 *)(t3840 *)SZArrayLdElema(L_14, L_15)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		t4195* L_17 = V_1;
 		int32_t L_18 = V_2;
-		int32_t L_19 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6)->method)(((t3809 *)(t3809 *)SZArrayLdElema(L_17, L_18)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
+		int32_t L_19 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6)->method)(((t3840 *)(t3840 *)SZArrayLdElema(L_17, L_18)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
 		VirtActionInvoker2< int32_t, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7), __this, L_16, L_19);
 		int32_t L_20 = V_2;
 		V_2 = ((int32_t)((int32_t)L_20+(int32_t)1));
@@ -2326,7 +4827,7 @@ IL_0092:
 IL_00b4:
 	{
 		int32_t L_21 = V_2;
-		t4157* L_22 = V_1;
+		t4195* L_22 = V_1;
 		if ((((int32_t)L_21) < ((int32_t)(((int32_t)(((t121 *)L_22)->max_length))))))
 		{
 			goto IL_0092;
@@ -2337,11 +4838,11 @@ IL_00ba:
 	{
 		int32_t L_23 = (__this->f14);
 		__this->f14 = ((int32_t)((int32_t)L_23+(int32_t)1));
-		__this->f13 = (t1093 *)NULL;
+		__this->f13 = (t1100 *)NULL;
 		return;
 	}
 }
-extern "C" bool m24039_gshared (t1266 * __this, int32_t p0, MethodInfo* method)
+extern "C" bool m24232_gshared (t1275 * __this, int32_t p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -2360,7 +4861,7 @@ extern "C" bool m24039_gshared (t1266 * __this, int32_t p0, MethodInfo* method)
 	}
 	{
 		t132 * L_3 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_3, (t2*) &_stringLiteral409, &m339_MI);
+		m339(L_3, (t2*) &_stringLiteral408, &m339_MI);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -2371,9 +4872,9 @@ IL_0013:
 		int32_t L_6 = (int32_t)InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 35), L_4, L_5);
 		V_0 = ((int32_t)((int32_t)L_6|(int32_t)((int32_t)-2147483648)));
 		int32_t L_7 = V_0;
-		t1088* L_8 = (__this->f4);
+		t1095* L_8 = (__this->f4);
 		V_1 = ((int32_t)((int32_t)((int32_t)((int32_t)L_7&(int32_t)((int32_t)2147483647)))%(int32_t)(((int32_t)(((t121 *)L_8)->max_length)))));
-		t1088* L_9 = (__this->f4);
+		t1095* L_9 = (__this->f4);
 		int32_t L_10 = V_1;
 		int32_t L_11 = L_10;
 		V_2 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_9, L_11))-(int32_t)1));
@@ -2394,9 +4895,9 @@ IL_0048:
 
 IL_004a:
 	{
-		t2506* L_13 = (__this->f5);
+		t2515* L_13 = (__this->f5);
 		int32_t L_14 = V_2;
-		int32_t L_15 = (((t1659 *)(t1659 *)SZArrayLdElema(L_13, L_14))->f0);
+		int32_t L_15 = (((t1668 *)(t1668 *)SZArrayLdElema(L_13, L_14))->f0);
 		int32_t L_16 = V_0;
 		if ((!(((uint32_t)L_15) == ((uint32_t)L_16))))
 		{
@@ -2405,7 +4906,7 @@ IL_004a:
 	}
 	{
 		t9* L_17 = (__this->f12);
-		t1088* L_18 = (__this->f6);
+		t1095* L_18 = (__this->f6);
 		int32_t L_19 = V_2;
 		int32_t L_20 = L_19;
 		int32_t L_21 = p0;
@@ -2423,9 +4924,9 @@ IL_007a:
 	{
 		int32_t L_23 = V_2;
 		V_3 = L_23;
-		t2506* L_24 = (__this->f5);
+		t2515* L_24 = (__this->f5);
 		int32_t L_25 = V_2;
-		int32_t L_26 = (((t1659 *)(t1659 *)SZArrayLdElema(L_24, L_25))->f1);
+		int32_t L_26 = (((t1668 *)(t1668 *)SZArrayLdElema(L_24, L_25))->f1);
 		V_2 = L_26;
 		int32_t L_27 = V_2;
 		if ((!(((uint32_t)L_27) == ((uint32_t)(-1)))))
@@ -2457,42 +4958,42 @@ IL_0098:
 		}
 	}
 	{
-		t1088* L_31 = (__this->f4);
+		t1095* L_31 = (__this->f4);
 		int32_t L_32 = V_1;
-		t2506* L_33 = (__this->f5);
+		t2515* L_33 = (__this->f5);
 		int32_t L_34 = V_2;
-		int32_t L_35 = (((t1659 *)(t1659 *)SZArrayLdElema(L_33, L_34))->f1);
+		int32_t L_35 = (((t1668 *)(t1668 *)SZArrayLdElema(L_33, L_34))->f1);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_31, L_32)) = (int32_t)((int32_t)((int32_t)L_35+(int32_t)1));
 		goto IL_00e9;
 	}
 
 IL_00c7:
 	{
-		t2506* L_36 = (__this->f5);
+		t2515* L_36 = (__this->f5);
 		int32_t L_37 = V_3;
-		t2506* L_38 = (__this->f5);
+		t2515* L_38 = (__this->f5);
 		int32_t L_39 = V_2;
-		int32_t L_40 = (((t1659 *)(t1659 *)SZArrayLdElema(L_38, L_39))->f1);
-		((t1659 *)(t1659 *)SZArrayLdElema(L_36, L_37))->f1 = L_40;
+		int32_t L_40 = (((t1668 *)(t1668 *)SZArrayLdElema(L_38, L_39))->f1);
+		((t1668 *)(t1668 *)SZArrayLdElema(L_36, L_37))->f1 = L_40;
 	}
 
 IL_00e9:
 	{
-		t2506* L_41 = (__this->f5);
+		t2515* L_41 = (__this->f5);
 		int32_t L_42 = V_2;
 		int32_t L_43 = (__this->f9);
-		((t1659 *)(t1659 *)SZArrayLdElema(L_41, L_42))->f1 = L_43;
+		((t1668 *)(t1668 *)SZArrayLdElema(L_41, L_42))->f1 = L_43;
 		int32_t L_44 = V_2;
 		__this->f9 = L_44;
-		t2506* L_45 = (__this->f5);
+		t2515* L_45 = (__this->f5);
 		int32_t L_46 = V_2;
-		((t1659 *)(t1659 *)SZArrayLdElema(L_45, L_46))->f0 = 0;
-		t1088* L_47 = (__this->f6);
+		((t1668 *)(t1668 *)SZArrayLdElema(L_45, L_46))->f0 = 0;
+		t1095* L_47 = (__this->f6);
 		int32_t L_48 = V_2;
 		Initobj (InitializedTypeInfo(&t125_TI), (&V_4));
 		int32_t L_49 = V_4;
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_47, L_48)) = (int32_t)L_49;
-		t1088* L_50 = (__this->f7);
+		t1095* L_50 = (__this->f7);
 		int32_t L_51 = V_2;
 		Initobj (InitializedTypeInfo(&t125_TI), (&V_5));
 		int32_t L_52 = V_5;
@@ -2502,7 +5003,7 @@ IL_00e9:
 		return 1;
 	}
 }
-extern "C" bool m24040_gshared (t1266 * __this, int32_t p0, int32_t* p1, MethodInfo* method)
+extern "C" bool m24233_gshared (t1275 * __this, int32_t p0, int32_t* p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -2518,7 +5019,7 @@ extern "C" bool m24040_gshared (t1266 * __this, int32_t p0, int32_t* p1, MethodI
 	}
 	{
 		t132 * L_3 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_3, (t2*) &_stringLiteral409, &m339_MI);
+		m339(L_3, (t2*) &_stringLiteral408, &m339_MI);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -2528,9 +5029,9 @@ IL_0013:
 		int32_t L_5 = p0;
 		int32_t L_6 = (int32_t)InterfaceFuncInvoker1< int32_t, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 35), L_4, L_5);
 		V_0 = ((int32_t)((int32_t)L_6|(int32_t)((int32_t)-2147483648)));
-		t1088* L_7 = (__this->f4);
+		t1095* L_7 = (__this->f4);
 		int32_t L_8 = V_0;
-		t1088* L_9 = (__this->f4);
+		t1095* L_9 = (__this->f4);
 		int32_t L_10 = ((int32_t)((int32_t)((int32_t)((int32_t)L_8&(int32_t)((int32_t)2147483647)))%(int32_t)(((int32_t)(((t121 *)L_9)->max_length)))));
 		V_1 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_7, L_10))-(int32_t)1));
 		goto IL_0096;
@@ -2538,9 +5039,9 @@ IL_0013:
 
 IL_0042:
 	{
-		t2506* L_11 = (__this->f5);
+		t2515* L_11 = (__this->f5);
 		int32_t L_12 = V_1;
-		int32_t L_13 = (((t1659 *)(t1659 *)SZArrayLdElema(L_11, L_12))->f0);
+		int32_t L_13 = (((t1668 *)(t1668 *)SZArrayLdElema(L_11, L_12))->f0);
 		int32_t L_14 = V_0;
 		if ((!(((uint32_t)L_13) == ((uint32_t)L_14))))
 		{
@@ -2549,7 +5050,7 @@ IL_0042:
 	}
 	{
 		t9* L_15 = (__this->f12);
-		t1088* L_16 = (__this->f6);
+		t1095* L_16 = (__this->f6);
 		int32_t L_17 = V_1;
 		int32_t L_18 = L_17;
 		int32_t L_19 = p0;
@@ -2561,7 +5062,7 @@ IL_0042:
 	}
 	{
 		int32_t* L_21 = p1;
-		t1088* L_22 = (__this->f7);
+		t1095* L_22 = (__this->f7);
 		int32_t L_23 = V_1;
 		int32_t L_24 = L_23;
 		*L_21 = (*(int32_t*)(int32_t*)SZArrayLdElema(L_22, L_24));
@@ -2570,9 +5071,9 @@ IL_0042:
 
 IL_0084:
 	{
-		t2506* L_25 = (__this->f5);
+		t2515* L_25 = (__this->f5);
 		int32_t L_26 = V_1;
-		int32_t L_27 = (((t1659 *)(t1659 *)SZArrayLdElema(L_25, L_26))->f1);
+		int32_t L_27 = (((t1668 *)(t1668 *)SZArrayLdElema(L_25, L_26))->f1);
 		V_1 = L_27;
 	}
 
@@ -2592,23 +5093,23 @@ IL_0096:
 		return 0;
 	}
 }
-extern "C" t3811 * m24041_gshared (t1266 * __this, MethodInfo* method)
+extern "C" t3842 * m24234_gshared (t1275 * __this, MethodInfo* method)
 {
 	{
-		t3811 * L_0 = (t3811 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 52));
-		(( void (*) (t3811 *, t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 53)->method)(L_0, __this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 53));
+		t3842 * L_0 = (t3842 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 52));
+		(( void (*) (t3842 *, t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 53)->method)(L_0, __this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 53));
 		return L_0;
 	}
 }
-extern "C" t3815 * m24042_gshared (t1266 * __this, MethodInfo* method)
+extern "C" t3846 * m24235_gshared (t1275 * __this, MethodInfo* method)
 {
 	{
-		t3815 * L_0 = (t3815 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 54));
-		(( void (*) (t3815 *, t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 55)->method)(L_0, __this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 55));
+		t3846 * L_0 = (t3846 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 54));
+		(( void (*) (t3846 *, t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 55)->method)(L_0, __this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 55));
 		return L_0;
 	}
 }
-extern "C" int32_t m24043_gshared (t1266 * __this, t9 * p0, MethodInfo* method)
+extern "C" int32_t m24236_gshared (t1275 * __this, t9 * p0, MethodInfo* method)
 {
 	{
 		t9 * L_0 = p0;
@@ -2619,7 +5120,7 @@ extern "C" int32_t m24043_gshared (t1266 * __this, t9 * p0, MethodInfo* method)
 	}
 	{
 		t132 * L_1 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_1, (t2*) &_stringLiteral409, &m339_MI);
+		m339(L_1, (t2*) &_stringLiteral408, &m339_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -2634,11 +5135,11 @@ IL_000e:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t126_TI));
 		t126 * L_3 = m329(NULL, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 56)), &m329_MI);
-		t2* L_4 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m7770_MI, L_3);
+		t2* L_4 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m7798_MI, L_3);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_5 = m610(NULL, (t2*) &_stringLiteral1384, L_4, &m610_MI);
-		t556 * L_6 = (t556 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t556_TI));
-		m5691(L_6, L_5, (t2*) &_stringLiteral409, &m5691_MI);
+		t2* L_5 = m610(NULL, (t2*) &_stringLiteral1383, L_4, &m610_MI);
+		t563 * L_6 = (t563 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t563_TI));
+		m5719(L_6, L_5, (t2*) &_stringLiteral408, &m5719_MI);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -2648,7 +5149,7 @@ IL_003a:
 		return ((*(int32_t*)((int32_t*)UnBox (L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 10)))));
 	}
 }
-extern "C" int32_t m24044_gshared (t1266 * __this, t9 * p0, MethodInfo* method)
+extern "C" int32_t m24237_gshared (t1275 * __this, t9 * p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -2661,7 +5162,7 @@ extern "C" int32_t m24044_gshared (t1266 * __this, t9 * p0, MethodInfo* method)
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t126_TI));
 		t126 * L_1 = m329(NULL, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 57)), &m329_MI);
-		bool L_2 = (bool)VirtFuncInvoker0< bool >::Invoke(&m7733_MI, L_1);
+		bool L_2 = (bool)VirtFuncInvoker0< bool >::Invoke(&m7761_MI, L_1);
 		if (L_2)
 		{
 			goto IL_001e;
@@ -2684,11 +5185,11 @@ IL_001e:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t126_TI));
 		t126 * L_5 = m329(NULL, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 57)), &m329_MI);
-		t2* L_6 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m7770_MI, L_5);
+		t2* L_6 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m7798_MI, L_5);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_7 = m610(NULL, (t2*) &_stringLiteral1384, L_6, &m610_MI);
-		t556 * L_8 = (t556 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t556_TI));
-		m5691(L_8, L_7, (t2*) &_stringLiteral611, &m5691_MI);
+		t2* L_7 = m610(NULL, (t2*) &_stringLiteral1383, L_6, &m610_MI);
+		t563 * L_8 = (t563 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t563_TI));
+		m5719(L_8, L_7, (t2*) &_stringLiteral610, &m5719_MI);
 		il2cpp_codegen_raise_exception(L_8);
 	}
 
@@ -2698,18 +5199,18 @@ IL_004a:
 		return ((*(int32_t*)((int32_t*)UnBox (L_9, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 14)))));
 	}
 }
-extern TypeInfo* t2976_TI_var;
-extern "C" bool m24045_gshared (t1266 * __this, t3809  p0, MethodInfo* method)
+extern TypeInfo* t2986_TI_var;
+extern "C" bool m24238_gshared (t1275 * __this, t3840  p0, MethodInfo* method)
 {
-	static bool m24045_init;
-	if (!m24045_init)
+	static bool m24238_init;
+	if (!m24238_init)
 	{
-		t2976_TI_var = il2cpp_codegen_class_from_type(&t2976_0_0_0);
-		m24045_init = true;
+		t2986_TI_var = il2cpp_codegen_class_from_type(&t2986_0_0_0);
+		m24238_init = true;
 	}
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)((&p0), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		int32_t L_0 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)((&p0), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
 		bool L_1 = (bool)VirtFuncInvoker2< bool, int32_t, int32_t* >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 58), __this, L_0, (&V_0));
 		if (L_1)
 		{
@@ -2722,24 +5223,24 @@ extern "C" bool m24045_gshared (t1266 * __this, t3809  p0, MethodInfo* method)
 
 IL_0013:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(t2976_TI_var);
-		t2976 * L_2 = (( t2976 * (*) (t9 * , MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 46)->method)(NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 46));
-		int32_t L_3 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6)->method)((&p0), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
+		IL2CPP_RUNTIME_CLASS_INIT(t2986_TI_var);
+		t2986 * L_2 = (( t2986 * (*) (t9 * , MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 46)->method)(NULL, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 46));
+		int32_t L_3 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6)->method)((&p0), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
 		int32_t L_4 = V_0;
 		bool L_5 = (bool)VirtFuncInvoker2< bool, int32_t, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 59), L_2, L_3, L_4);
 		return L_5;
 	}
 }
-extern Il2CppGenericMethod m24046_GM;
-extern "C" t3813  m24046_gshared (t1266 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24239_GM;
+extern "C" t3844  m24239_gshared (t1275 * __this, MethodInfo* method)
 {
 	{
-		t3813  L_0 = {0};
-		(( void (*) (t3813 *, t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 32)->method)(&L_0, __this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 32));
+		t3844  L_0 = {0};
+		(( void (*) (t3844 *, t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 32)->method)(&L_0, __this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 32));
 		return L_0;
 	}
 }
-extern "C" t1155  m24047_gshared (t9 * __this , int32_t p0, int32_t p1, MethodInfo* method)
+extern "C" t1164  m24240_gshared (t9 * __this , int32_t p0, int32_t p1, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
@@ -2748,8 +5249,8 @@ extern "C" t1155  m24047_gshared (t9 * __this , int32_t p0, int32_t p1, MethodIn
 		int32_t L_3 = p1;
 		int32_t L_4 = L_3;
 		t9 * L_5 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 14), &L_4);
-		t1155  L_6 = {0};
-		m5686(&L_6, L_2, L_5, &m5686_MI);
+		t1164  L_6 = {0};
+		m5714(&L_6, L_2, L_5, &m5714_MI);
 		return L_6;
 	}
 }
@@ -2775,32 +5276,28 @@ extern "C" t1155  m24047_gshared (t9 * __this , int32_t p0, int32_t p1, MethodIn
 #else
 #endif
 
-extern TypeInfo t221_TI;
-extern Il2CppType t221_0_0_0;
-extern MethodInfo m673_MI;
-extern MethodInfo m4269_MI;
-extern Il2CppGenericMethod m24050_GM;
-extern Il2CppGenericMethod m24052_GM;
+extern Il2CppGenericMethod m24243_GM;
+extern Il2CppGenericMethod m24245_GM;
 
 
-extern "C" void m24048_gshared (t3809 * __this, int32_t p0, int32_t p1, MethodInfo* method)
+extern "C" void m24241_gshared (t3840 * __this, int32_t p0, int32_t p1, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
-		(( void (*) (t3809 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		(( void (*) (t3840 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
 		int32_t L_1 = p1;
-		(( void (*) (t3809 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(__this, L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		(( void (*) (t3840 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(__this, L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
 		return;
 	}
 }
-extern "C" int32_t m24049_gshared (t3809 * __this, MethodInfo* method)
+extern "C" int32_t m24242_gshared (t3840 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f0);
 		return L_0;
 	}
 }
-extern "C" void m24050_gshared (t3809 * __this, int32_t p0, MethodInfo* method)
+extern "C" void m24243_gshared (t3840 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
@@ -2808,14 +5305,14 @@ extern "C" void m24050_gshared (t3809 * __this, int32_t p0, MethodInfo* method)
 		return;
 	}
 }
-extern "C" int32_t m24051_gshared (t3809 * __this, MethodInfo* method)
+extern "C" int32_t m24244_gshared (t3840 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f1);
 		return L_0;
 	}
 }
-extern "C" void m24052_gshared (t3809 * __this, int32_t p0, MethodInfo* method)
+extern "C" void m24245_gshared (t3840 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
@@ -2823,15 +5320,15 @@ extern "C" void m24052_gshared (t3809 * __this, int32_t p0, MethodInfo* method)
 		return;
 	}
 }
-extern Il2CppGenericMethod m24053_GM;
+extern Il2CppGenericMethod m24246_GM;
 extern TypeInfo* t221_TI_var;
-extern "C" t2* m24053_gshared (t3809 * __this, MethodInfo* method)
+extern "C" t2* m24246_gshared (t3840 * __this, MethodInfo* method)
 {
-	static bool m24053_init;
-	if (!m24053_init)
+	static bool m24246_init;
+	if (!m24246_init)
 	{
 		t221_TI_var = il2cpp_codegen_class_from_type(&t221_0_0_0);
-		m24053_init = true;
+		m24246_init = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -2857,10 +5354,10 @@ extern "C" t2* m24053_gshared (t3809 * __this, MethodInfo* method)
 	t221* G_B6_3 = {0};
 	{
 		t221* L_0 = ((t221*)SZArrayNew(t221_TI_var, 5));
-		ArrayElementTypeCheck (L_0, (t2*) &_stringLiteral344);
-		*((t2**)(t2**)SZArrayLdElema(L_0, 0)) = (t2*)(t2*) &_stringLiteral344;
+		ArrayElementTypeCheck (L_0, (t2*) &_stringLiteral343);
+		*((t2**)(t2**)SZArrayLdElema(L_0, 0)) = (t2*)(t2*) &_stringLiteral343;
 		t221* L_1 = L_0;
-		int32_t L_2 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		int32_t L_2 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
 		int32_t L_3 = L_2;
 		t9 * L_4 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3), &L_3);
 		G_B1_0 = 1;
@@ -2875,7 +5372,7 @@ extern "C" t2* m24053_gshared (t3809 * __this, MethodInfo* method)
 		}
 	}
 	{
-		int32_t L_5 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		int32_t L_5 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
 		V_0 = L_5;
 		t2* L_6 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m673_MI, Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3), (&V_0)));
 		G_B3_0 = L_6;
@@ -2900,10 +5397,10 @@ IL_0038:
 		ArrayElementTypeCheck (G_B3_2, G_B3_0);
 		*((t2**)(t2**)SZArrayLdElema(G_B3_2, G_B3_1)) = (t2*)G_B3_0;
 		t221* L_8 = G_B3_3;
-		ArrayElementTypeCheck (L_8, (t2*) &_stringLiteral388);
-		*((t2**)(t2**)SZArrayLdElema(L_8, 2)) = (t2*)(t2*) &_stringLiteral388;
+		ArrayElementTypeCheck (L_8, (t2*) &_stringLiteral387);
+		*((t2**)(t2**)SZArrayLdElema(L_8, 2)) = (t2*)(t2*) &_stringLiteral387;
 		t221* L_9 = L_8;
-		int32_t L_10 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		int32_t L_10 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
 		int32_t L_11 = L_10;
 		t9 * L_12 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), &L_11);
 		G_B4_0 = 3;
@@ -2918,7 +5415,7 @@ IL_0038:
 		}
 	}
 	{
-		int32_t L_13 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		int32_t L_13 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
 		V_1 = L_13;
 		t2* L_14 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m673_MI, Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), (&V_1)));
 		G_B6_0 = L_14;
@@ -2943,30 +5440,30 @@ IL_006b:
 		ArrayElementTypeCheck (G_B6_2, G_B6_0);
 		*((t2**)(t2**)SZArrayLdElema(G_B6_2, G_B6_1)) = (t2*)G_B6_0;
 		t221* L_16 = G_B6_3;
-		ArrayElementTypeCheck (L_16, (t2*) &_stringLiteral345);
-		*((t2**)(t2**)SZArrayLdElema(L_16, 4)) = (t2*)(t2*) &_stringLiteral345;
+		ArrayElementTypeCheck (L_16, (t2*) &_stringLiteral344);
+		*((t2**)(t2**)SZArrayLdElema(L_16, 4)) = (t2*)(t2*) &_stringLiteral344;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_17 = m4269(NULL, L_16, &m4269_MI);
+		t2* L_17 = m4293(NULL, L_16, &m4293_MI);
 		return L_17;
 	}
 }
-#include "t3810.h"
+#include "t3841.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t3810_TI;
-#include "t3810MD.h"
+extern TypeInfo t3841_TI;
+#include "t3841MD.h"
 
-extern Il2CppType t3810_0_0_0;
+extern Il2CppType t3841_0_0_0;
 struct t121;
-extern "C" t3809  m27943_gshared (t121 * __this, int32_t p0, MethodInfo* method);
-#define m27943(__this, p0, method) (( t3809  (*) (t121 *, int32_t, MethodInfo*))m27943_gshared)(__this, p0, method)
-extern Il2CppGenericMethod m24058_GM;
-extern Il2CppGenericMethod m27943_GM;
+extern "C" t3840  m28181_gshared (t121 * __this, int32_t p0, MethodInfo* method);
+#define m28181(__this, p0, method) (( t3840  (*) (t121 *, int32_t, MethodInfo*))m28181_gshared)(__this, p0, method)
+extern Il2CppGenericMethod m24251_GM;
+extern Il2CppGenericMethod m28181_GM;
 
 
-extern Il2CppGenericMethod m24054_GM;
-extern "C" void m24054_gshared (t3810 * __this, t121 * p0, MethodInfo* method)
+extern Il2CppGenericMethod m24247_GM;
+extern "C" void m24247_gshared (t3841 * __this, t121 * p0, MethodInfo* method)
 {
 	{
 		t121 * L_0 = p0;
@@ -2975,26 +5472,26 @@ extern "C" void m24054_gshared (t3810 * __this, t121 * p0, MethodInfo* method)
 		return;
 	}
 }
-extern Il2CppGenericMethod m24055_GM;
-extern "C" t9 * m24055_gshared (t3810 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24248_GM;
+extern "C" t9 * m24248_gshared (t3841 * __this, MethodInfo* method)
 {
 	{
-		t3809  L_0 = (( t3809  (*) (t3810 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		t3809  L_1 = L_0;
+		t3840  L_0 = (( t3840  (*) (t3841 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t3840  L_1 = L_0;
 		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
 		return L_2;
 	}
 }
-extern Il2CppGenericMethod m24056_GM;
-extern "C" void m24056_gshared (t3810 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24249_GM;
+extern "C" void m24249_gshared (t3841 * __this, MethodInfo* method)
 {
 	{
 		__this->f1 = ((int32_t)-2);
 		return;
 	}
 }
-extern Il2CppGenericMethod m24057_GM;
-extern "C" bool m24057_gshared (t3810 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24250_GM;
+extern "C" bool m24250_gshared (t3841 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t G_B5_0 = 0;
@@ -3007,7 +5504,7 @@ extern "C" bool m24057_gshared (t3810 * __this, MethodInfo* method)
 	}
 	{
 		t121 * L_1 = (__this->f0);
-		int32_t L_2 = m5689(L_1, &m5689_MI);
+		int32_t L_2 = m5717(L_1, &m5717_MI);
 		__this->f1 = L_2;
 	}
 
@@ -3039,7 +5536,7 @@ IL_003e:
 		return G_B5_0;
 	}
 }
-extern "C" t3809  m24058_gshared (t3810 * __this, MethodInfo* method)
+extern "C" t3840  m24251_gshared (t3841 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f1);
@@ -3049,8 +5546,8 @@ extern "C" t3809  m24058_gshared (t3810 * __this, MethodInfo* method)
 		}
 	}
 	{
-		t1332 * L_1 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5685(L_1, (t2*) &_stringLiteral1249, &m5685_MI);
+		t1341 * L_1 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_1, (t2*) &_stringLiteral1248, &m5713_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -3063,8 +5560,8 @@ IL_0015:
 		}
 	}
 	{
-		t1332 * L_3 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5685(L_3, (t2*) &_stringLiteral1250, &m5685_MI);
+		t1341 * L_3 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_3, (t2*) &_stringLiteral1249, &m5713_MI);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -3072,23 +5569,23 @@ IL_0029:
 	{
 		t121 * L_4 = (__this->f0);
 		t121 * L_5 = (__this->f0);
-		int32_t L_6 = m5689(L_5, &m5689_MI);
+		int32_t L_6 = m5717(L_5, &m5717_MI);
 		int32_t L_7 = (__this->f1);
-		t3809  L_8 = (( t3809  (*) (t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		t3840  L_8 = (( t3840  (*) (t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
 		return L_8;
 	}
 }
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4979_TI;
+extern TypeInfo t5027_TI;
 
 
 
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4156_TI;
+extern TypeInfo t4194_TI;
 
 
 
@@ -3096,36 +5593,36 @@ extern TypeInfo t4156_TI;
 #else
 #endif
 
-#include "t3812.h"
-#include "t3814.h"
-extern TypeInfo t3812_TI;
-extern TypeInfo t3814_TI;
-#include "t3814MD.h"
-#include "t3812MD.h"
-extern Il2CppType t3812_0_0_0;
-extern Il2CppType t3814_0_0_0;
-extern MethodInfo m24070_MI;
-extern MethodInfo m24029_MI;
-extern MethodInfo m24090_MI;
-extern MethodInfo m24073_MI;
-struct t1266;
-extern "C" void m27954_gshared (t1266 * __this, t121 * p0, int32_t p1, t3814 * p2, MethodInfo* method);
-#define m27954(__this, p0, p1, p2, method) (( void (*) (t1266 *, t121 *, int32_t, t3814 *, MethodInfo*))m27954_gshared)(__this, p0, p1, p2, method)
-struct t1266;
-extern "C" void m27955 (t1266 * __this, t1088* p0, int32_t p1, t3814 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern Il2CppGenericMethod m24071_GM;
-extern Il2CppGenericMethod m24070_GM;
-extern Il2CppGenericMethod m24090_GM;
-extern Il2CppGenericMethod m27954_GM;
-extern Il2CppGenericMethod m27955_GM;
-extern Il2CppGenericMethod m24073_GM;
+#include "t3843.h"
+#include "t3845.h"
+extern TypeInfo t3843_TI;
+extern TypeInfo t3845_TI;
+#include "t3845MD.h"
+#include "t3843MD.h"
+extern Il2CppType t3843_0_0_0;
+extern Il2CppType t3845_0_0_0;
+extern MethodInfo m24263_MI;
+extern MethodInfo m24222_MI;
+extern MethodInfo m24283_MI;
+extern MethodInfo m24266_MI;
+struct t1275;
+extern "C" void m28192_gshared (t1275 * __this, t121 * p0, int32_t p1, t3845 * p2, MethodInfo* method);
+#define m28192(__this, p0, p1, p2, method) (( void (*) (t1275 *, t121 *, int32_t, t3845 *, MethodInfo*))m28192_gshared)(__this, p0, p1, p2, method)
+struct t1275;
+extern "C" void m28193 (t1275 * __this, t1095* p0, int32_t p1, t3845 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern Il2CppGenericMethod m24264_GM;
+extern Il2CppGenericMethod m24263_GM;
+extern Il2CppGenericMethod m24283_GM;
+extern Il2CppGenericMethod m28192_GM;
+extern Il2CppGenericMethod m28193_GM;
+extern Il2CppGenericMethod m24266_GM;
 
 
-extern "C" void m24059_gshared (t3811 * __this, t1266 * p0, MethodInfo* method)
+extern "C" void m24252_gshared (t3842 * __this, t1275 * p0, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
-		t1266 * L_0 = p0;
+		t1275 * L_0 = p0;
 		if (L_0)
 		{
 			goto IL_0014;
@@ -3133,164 +5630,164 @@ extern "C" void m24059_gshared (t3811 * __this, t1266 * p0, MethodInfo* method)
 	}
 	{
 		t132 * L_1 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_1, (t2*) &_stringLiteral1379, &m339_MI);
+		m339(L_1, (t2*) &_stringLiteral1378, &m339_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_0014:
 	{
-		t1266 * L_2 = p0;
+		t1275 * L_2 = p0;
 		__this->f0 = L_2;
 		return;
 	}
 }
-extern Il2CppGenericMethod m24060_GM;
-extern "C" void m24060_gshared (t3811 * __this, int32_t p0, MethodInfo* method)
+extern Il2CppGenericMethod m24253_GM;
+extern "C" void m24253_gshared (t3842 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		t169 * L_0 = (t169 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t169_TI));
-		m5706(L_0, (t2*) &_stringLiteral1386, &m5706_MI);
+		m5734(L_0, (t2*) &_stringLiteral1385, &m5734_MI);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
-extern Il2CppGenericMethod m24061_GM;
-extern "C" void m24061_gshared (t3811 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24254_GM;
+extern "C" void m24254_gshared (t3842 * __this, MethodInfo* method)
 {
 	{
 		t169 * L_0 = (t169 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t169_TI));
-		m5706(L_0, (t2*) &_stringLiteral1386, &m5706_MI);
+		m5734(L_0, (t2*) &_stringLiteral1385, &m5734_MI);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
-extern Il2CppGenericMethod m24062_GM;
-extern "C" bool m24062_gshared (t3811 * __this, int32_t p0, MethodInfo* method)
+extern Il2CppGenericMethod m24255_GM;
+extern "C" bool m24255_gshared (t3842 * __this, int32_t p0, MethodInfo* method)
 {
 	{
-		t1266 * L_0 = (__this->f0);
+		t1275 * L_0 = (__this->f0);
 		int32_t L_1 = p0;
 		bool L_2 = (bool)VirtFuncInvoker1< bool, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0), L_0, L_1);
 		return L_2;
 	}
 }
-extern Il2CppGenericMethod m24063_GM;
-extern "C" bool m24063_gshared (t3811 * __this, int32_t p0, MethodInfo* method)
+extern Il2CppGenericMethod m24256_GM;
+extern "C" bool m24256_gshared (t3842 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		t169 * L_0 = (t169 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t169_TI));
-		m5706(L_0, (t2*) &_stringLiteral1386, &m5706_MI);
+		m5734(L_0, (t2*) &_stringLiteral1385, &m5734_MI);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
-extern Il2CppGenericMethod m24064_GM;
-extern "C" t9* m24064_gshared (t3811 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24257_GM;
+extern "C" t9* m24257_gshared (t3842 * __this, MethodInfo* method)
 {
 	{
-		t3812  L_0 = (( t3812  (*) (t3811 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
-		t3812  L_1 = L_0;
+		t3843  L_0 = (( t3843  (*) (t3842 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		t3843  L_1 = L_0;
 		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), &L_1);
 		return (t9*)L_2;
 	}
 }
-extern Il2CppGenericMethod m24065_GM;
-extern "C" void m24065_gshared (t3811 * __this, t121 * p0, int32_t p1, MethodInfo* method)
+extern Il2CppGenericMethod m24258_GM;
+extern "C" void m24258_gshared (t3842 * __this, t121 * p0, int32_t p1, MethodInfo* method)
 {
-	t1088* V_0 = {0};
+	t1095* V_0 = {0};
 	{
 		t121 * L_0 = p0;
-		V_0 = ((t1088*)IsInst(L_0, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)));
-		t1088* L_1 = V_0;
+		V_0 = ((t1095*)IsInst(L_0, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)));
+		t1095* L_1 = V_0;
 		if (!L_1)
 		{
 			goto IL_0013;
 		}
 	}
 	{
-		t1088* L_2 = V_0;
+		t1095* L_2 = V_0;
 		int32_t L_3 = p1;
-		VirtActionInvoker2< t1088*, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), __this, L_2, L_3);
+		VirtActionInvoker2< t1095*, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), __this, L_2, L_3);
 		return;
 	}
 
 IL_0013:
 	{
-		t1266 * L_4 = (__this->f0);
+		t1275 * L_4 = (__this->f0);
 		t121 * L_5 = p0;
 		int32_t L_6 = p1;
-		(( void (*) (t1266 *, t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_4, L_5, L_6, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
-		t1266 * L_7 = (__this->f0);
+		(( void (*) (t1275 *, t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_4, L_5, L_6, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		t1275 * L_7 = (__this->f0);
 		t121 * L_8 = p0;
 		int32_t L_9 = p1;
 		t58 L_10 = { IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6) };
-		t3814 * L_11 = (t3814 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7));
-		(( void (*) (t3814 *, t9 *, t58, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(L_11, NULL, L_10, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
-		(( void (*) (t1266 *, t121 *, int32_t, t3814 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9)->method)(L_7, L_8, L_9, L_11, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9));
+		t3845 * L_11 = (t3845 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7));
+		(( void (*) (t3845 *, t9 *, t58, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(L_11, NULL, L_10, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
+		(( void (*) (t1275 *, t121 *, int32_t, t3845 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9)->method)(L_7, L_8, L_9, L_11, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9));
 		return;
 	}
 }
-extern Il2CppGenericMethod m24066_GM;
-extern "C" t9 * m24066_gshared (t3811 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24259_GM;
+extern "C" t9 * m24259_gshared (t3842 * __this, MethodInfo* method)
 {
 	{
-		t3812  L_0 = (( t3812  (*) (t3811 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
-		t3812  L_1 = L_0;
+		t3843  L_0 = (( t3843  (*) (t3842 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		t3843  L_1 = L_0;
 		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), &L_1);
 		return (t9 *)L_2;
 	}
 }
-extern Il2CppGenericMethod m24067_GM;
-extern "C" bool m24067_gshared (t3811 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24260_GM;
+extern "C" bool m24260_gshared (t3842 * __this, MethodInfo* method)
 {
 	{
 		return 1;
 	}
 }
-extern Il2CppGenericMethod m24068_GM;
-extern "C" bool m24068_gshared (t3811 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24261_GM;
+extern "C" bool m24261_gshared (t3842 * __this, MethodInfo* method)
 {
 	{
 		return 0;
 	}
 }
-extern Il2CppGenericMethod m24069_GM;
-extern "C" t9 * m24069_gshared (t3811 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24262_GM;
+extern "C" t9 * m24262_gshared (t3842 * __this, MethodInfo* method)
 {
 	{
-		t1266 * L_0 = (__this->f0);
-		t9 * L_1 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m11969_MI, L_0);
+		t1275 * L_0 = (__this->f0);
+		t9 * L_1 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m11997_MI, L_0);
 		return L_1;
 	}
 }
-extern "C" void m24070_gshared (t3811 * __this, t1088* p0, int32_t p1, MethodInfo* method)
+extern "C" void m24263_gshared (t3842 * __this, t1095* p0, int32_t p1, MethodInfo* method)
 {
 	{
-		t1266 * L_0 = (__this->f0);
-		t1088* L_1 = p0;
+		t1275 * L_0 = (__this->f0);
+		t1095* L_1 = p0;
 		int32_t L_2 = p1;
-		(( void (*) (t1266 *, t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_0, (t121 *)(t121 *)L_1, L_2, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
-		t1266 * L_3 = (__this->f0);
-		t1088* L_4 = p0;
+		(( void (*) (t1275 *, t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_0, (t121 *)(t121 *)L_1, L_2, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		t1275 * L_3 = (__this->f0);
+		t1095* L_4 = p0;
 		int32_t L_5 = p1;
 		t58 L_6 = { IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6) };
-		t3814 * L_7 = (t3814 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7));
-		(( void (*) (t3814 *, t9 *, t58, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(L_7, NULL, L_6, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
-		(( void (*) (t1266 *, t1088*, int32_t, t3814 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 10)->method)(L_3, L_4, L_5, L_7, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 10));
+		t3845 * L_7 = (t3845 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7));
+		(( void (*) (t3845 *, t9 *, t58, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(L_7, NULL, L_6, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
+		(( void (*) (t1275 *, t1095*, int32_t, t3845 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 10)->method)(L_3, L_4, L_5, L_7, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 10));
 		return;
 	}
 }
-extern "C" t3812  m24071_gshared (t3811 * __this, MethodInfo* method)
+extern "C" t3843  m24264_gshared (t3842 * __this, MethodInfo* method)
 {
 	{
-		t1266 * L_0 = (__this->f0);
-		t3812  L_1 = {0};
-		(( void (*) (t3812 *, t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 11)->method)(&L_1, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 11));
+		t1275 * L_0 = (__this->f0);
+		t3843  L_1 = {0};
+		(( void (*) (t3843 *, t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 11)->method)(&L_1, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 11));
 		return L_1;
 	}
 }
-extern Il2CppGenericMethod m24072_GM;
-extern "C" int32_t m24072_gshared (t3811 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24265_GM;
+extern "C" int32_t m24265_gshared (t3842 * __this, MethodInfo* method)
 {
 	{
-		t1266 * L_0 = (__this->f0);
+		t1275 * L_0 = (__this->f0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12), L_0);
 		return L_1;
 	}
@@ -3299,56 +5796,56 @@ extern "C" int32_t m24072_gshared (t3811 * __this, MethodInfo* method)
 #else
 #endif
 
-extern Il2CppGenericMethod m24085_GM;
-extern Il2CppGenericMethod m24089_GM;
-extern Il2CppGenericMethod m24083_GM;
+extern Il2CppGenericMethod m24278_GM;
+extern Il2CppGenericMethod m24282_GM;
+extern Il2CppGenericMethod m24276_GM;
 
 
-extern "C" void m24073_gshared (t3812 * __this, t1266 * p0, MethodInfo* method)
+extern "C" void m24266_gshared (t3843 * __this, t1275 * p0, MethodInfo* method)
 {
 	{
-		t1266 * L_0 = p0;
-		t3813  L_1 = (( t3813  (*) (t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t1275 * L_0 = p0;
+		t3844  L_1 = (( t3844  (*) (t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
 		__this->f0 = L_1;
 		return;
 	}
 }
-extern Il2CppGenericMethod m24074_GM;
-extern "C" t9 * m24074_gshared (t3812 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24267_GM;
+extern "C" t9 * m24267_gshared (t3843 * __this, MethodInfo* method)
 {
 	{
-		t3813 * L_0 = &(__this->f0);
-		int32_t L_1 = (( int32_t (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		t3844 * L_0 = &(__this->f0);
+		int32_t L_1 = (( int32_t (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
 		int32_t L_2 = L_1;
 		t9 * L_3 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), &L_2);
 		return L_3;
 	}
 }
-extern Il2CppGenericMethod m24075_GM;
-extern "C" void m24075_gshared (t3812 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24268_GM;
+extern "C" void m24268_gshared (t3843 * __this, MethodInfo* method)
 {
 	{
-		t3813 * L_0 = &(__this->f0);
-		(( void (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		t3844 * L_0 = &(__this->f0);
+		(( void (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
 		return;
 	}
 }
-extern Il2CppGenericMethod m24076_GM;
-extern "C" bool m24076_gshared (t3812 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24269_GM;
+extern "C" bool m24269_gshared (t3843 * __this, MethodInfo* method)
 {
 	{
-		t3813 * L_0 = &(__this->f0);
-		bool L_1 = (( bool (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		t3844 * L_0 = &(__this->f0);
+		bool L_1 = (( bool (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
 		return L_1;
 	}
 }
-extern Il2CppGenericMethod m24077_GM;
-extern "C" int32_t m24077_gshared (t3812 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24270_GM;
+extern "C" int32_t m24270_gshared (t3843 * __this, MethodInfo* method)
 {
 	{
-		t3813 * L_0 = &(__this->f0);
-		t3809 * L_1 = &(L_0->f3);
-		int32_t L_2 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		t3844 * L_0 = &(__this->f0);
+		t3840 * L_1 = &(L_0->f3);
+		int32_t L_2 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
 		return L_2;
 	}
 }
@@ -3356,81 +5853,77 @@ extern "C" int32_t m24077_gshared (t3812 * __this, MethodInfo* method)
 #else
 #endif
 
-#include "t1521.h"
-extern TypeInfo t1521_TI;
-#include "t1521MD.h"
-extern MethodInfo m6883_MI;
-extern Il2CppGenericMethod m24088_GM;
-extern Il2CppGenericMethod m24086_GM;
-extern Il2CppGenericMethod m24087_GM;
+extern Il2CppGenericMethod m24281_GM;
+extern Il2CppGenericMethod m24279_GM;
+extern Il2CppGenericMethod m24280_GM;
 
 
-extern "C" void m24078_gshared (t3813 * __this, t1266 * p0, MethodInfo* method)
+extern "C" void m24271_gshared (t3844 * __this, t1275 * p0, MethodInfo* method)
 {
 	{
-		t1266 * L_0 = p0;
+		t1275 * L_0 = p0;
 		__this->f0 = L_0;
-		t1266 * L_1 = p0;
+		t1275 * L_1 = p0;
 		int32_t L_2 = (L_1->f14);
 		__this->f2 = L_2;
 		return;
 	}
 }
-extern Il2CppGenericMethod m24079_GM;
-extern "C" t9 * m24079_gshared (t3813 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24272_GM;
+extern "C" t9 * m24272_gshared (t3844 * __this, MethodInfo* method)
 {
 	{
-		(( void (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		t3809  L_0 = (__this->f3);
-		t3809  L_1 = L_0;
+		(( void (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t3840  L_0 = (__this->f3);
+		t3840  L_1 = L_0;
 		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
 		return L_2;
 	}
 }
-extern Il2CppGenericMethod m24080_GM;
-extern "C" t1155  m24080_gshared (t3813 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24273_GM;
+extern "C" t1164  m24273_gshared (t3844 * __this, MethodInfo* method)
 {
 	{
-		(( void (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		t3809 * L_0 = &(__this->f3);
-		int32_t L_1 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		(( void (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t3840 * L_0 = &(__this->f3);
+		int32_t L_1 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
 		int32_t L_2 = L_1;
 		t9 * L_3 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3), &L_2);
-		t3809 * L_4 = &(__this->f3);
-		int32_t L_5 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(L_4, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		t3840 * L_4 = &(__this->f3);
+		int32_t L_5 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(L_4, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
 		int32_t L_6 = L_5;
 		t9 * L_7 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), &L_6);
-		t1155  L_8 = {0};
-		m5686(&L_8, L_3, L_7, &m5686_MI);
+		t1164  L_8 = {0};
+		m5714(&L_8, L_3, L_7, &m5714_MI);
 		return L_8;
 	}
 }
-extern Il2CppGenericMethod m24081_GM;
-extern "C" t9 * m24081_gshared (t3813 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24274_GM;
+extern "C" t9 * m24274_gshared (t3844 * __this, MethodInfo* method)
 {
 	{
-		int32_t L_0 = (( int32_t (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
+		int32_t L_0 = (( int32_t (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
 		int32_t L_1 = L_0;
 		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3), &L_1);
 		return L_2;
 	}
 }
-extern Il2CppGenericMethod m24082_GM;
-extern "C" t9 * m24082_gshared (t3813 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24275_GM;
+extern "C" t9 * m24275_gshared (t3844 * __this, MethodInfo* method)
 {
 	{
-		int32_t L_0 = (( int32_t (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7));
+		int32_t L_0 = (( int32_t (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7));
 		int32_t L_1 = L_0;
 		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), &L_1);
 		return L_2;
 	}
 }
-extern "C" bool m24083_gshared (t3813 * __this, MethodInfo* method)
+extern "C" bool m24276_gshared (t3844 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		(( void (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
+		(( void (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
 		int32_t L_0 = (__this->f1);
 		if ((((int32_t)L_0) >= ((int32_t)0)))
 		{
@@ -3454,26 +5947,26 @@ IL_0013:
 		__this->f1 = ((int32_t)((int32_t)L_2+(int32_t)1));
 		int32_t L_3 = V_1;
 		V_0 = L_3;
-		t1266 * L_4 = (__this->f0);
-		t2506* L_5 = (L_4->f5);
+		t1275 * L_4 = (__this->f0);
+		t2515* L_5 = (L_4->f5);
 		int32_t L_6 = V_0;
-		int32_t L_7 = (((t1659 *)(t1659 *)SZArrayLdElema(L_5, L_6))->f0);
+		int32_t L_7 = (((t1668 *)(t1668 *)SZArrayLdElema(L_5, L_6))->f0);
 		if (!((int32_t)((int32_t)L_7&(int32_t)((int32_t)-2147483648))))
 		{
 			goto IL_0072;
 		}
 	}
 	{
-		t1266 * L_8 = (__this->f0);
-		t1088* L_9 = (L_8->f6);
+		t1275 * L_8 = (__this->f0);
+		t1095* L_9 = (L_8->f6);
 		int32_t L_10 = V_0;
 		int32_t L_11 = L_10;
-		t1266 * L_12 = (__this->f0);
-		t1088* L_13 = (L_12->f7);
+		t1275 * L_12 = (__this->f0);
+		t1095* L_13 = (L_12->f7);
 		int32_t L_14 = V_0;
 		int32_t L_15 = L_14;
-		t3809  L_16 = {0};
-		(( void (*) (t3809 *, int32_t, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9)->method)(&L_16, (*(int32_t*)(int32_t*)SZArrayLdElema(L_9, L_11)), (*(int32_t*)(int32_t*)SZArrayLdElema(L_13, L_15)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9));
+		t3840  L_16 = {0};
+		(( void (*) (t3840 *, int32_t, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9)->method)(&L_16, (*(int32_t*)(int32_t*)SZArrayLdElema(L_9, L_11)), (*(int32_t*)(int32_t*)SZArrayLdElema(L_13, L_15)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9));
 		__this->f3 = L_16;
 		return 1;
 	}
@@ -3481,7 +5974,7 @@ IL_0013:
 IL_0072:
 	{
 		int32_t L_17 = (__this->f1);
-		t1266 * L_18 = (__this->f0);
+		t1275 * L_18 = (__this->f0);
 		int32_t L_19 = (L_18->f8);
 		if ((((int32_t)L_17) < ((int32_t)L_19)))
 		{
@@ -3493,50 +5986,50 @@ IL_0072:
 		return 0;
 	}
 }
-extern Il2CppGenericMethod m24084_GM;
-extern "C" t3809  m24084_gshared (t3813 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24277_GM;
+extern "C" t3840  m24277_gshared (t3844 * __this, MethodInfo* method)
 {
 	{
-		t3809  L_0 = (__this->f3);
+		t3840  L_0 = (__this->f3);
 		return L_0;
 	}
 }
-extern "C" int32_t m24085_gshared (t3813 * __this, MethodInfo* method)
+extern "C" int32_t m24278_gshared (t3844 * __this, MethodInfo* method)
 {
 	{
-		(( void (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		t3809 * L_0 = &(__this->f3);
-		int32_t L_1 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		(( void (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t3840 * L_0 = &(__this->f3);
+		int32_t L_1 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
 		return L_1;
 	}
 }
-extern "C" int32_t m24086_gshared (t3813 * __this, MethodInfo* method)
+extern "C" int32_t m24279_gshared (t3844 * __this, MethodInfo* method)
 {
 	{
-		(( void (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		t3809 * L_0 = &(__this->f3);
-		int32_t L_1 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		(( void (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t3840 * L_0 = &(__this->f3);
+		int32_t L_1 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
 		return L_1;
 	}
 }
-extern "C" void m24087_gshared (t3813 * __this, MethodInfo* method)
+extern "C" void m24280_gshared (t3844 * __this, MethodInfo* method)
 {
 	{
-		t1266 * L_0 = (__this->f0);
+		t1275 * L_0 = (__this->f0);
 		if (L_0)
 		{
 			goto IL_000f;
 		}
 	}
 	{
-		t1521 * L_1 = (t1521 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1521_TI));
-		m6883(L_1, (t2*)NULL, &m6883_MI);
+		t1530 * L_1 = (t1530 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1530_TI));
+		m6911(L_1, (t2*)NULL, &m6911_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_000f:
 	{
-		t1266 * L_2 = (__this->f0);
+		t1275 * L_2 = (__this->f0);
 		int32_t L_3 = (L_2->f14);
 		int32_t L_4 = (__this->f2);
 		if ((((int32_t)L_3) == ((int32_t)L_4)))
@@ -3545,8 +6038,8 @@ IL_000f:
 		}
 	}
 	{
-		t1332 * L_5 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5685(L_5, (t2*) &_stringLiteral1385, &m5685_MI);
+		t1341 * L_5 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_5, (t2*) &_stringLiteral1384, &m5713_MI);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -3555,10 +6048,10 @@ IL_002d:
 		return;
 	}
 }
-extern "C" void m24088_gshared (t3813 * __this, MethodInfo* method)
+extern "C" void m24281_gshared (t3844 * __this, MethodInfo* method)
 {
 	{
-		(( void (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
+		(( void (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
 		int32_t L_0 = (__this->f1);
 		if ((((int32_t)L_0) > ((int32_t)0)))
 		{
@@ -3566,8 +6059,8 @@ extern "C" void m24088_gshared (t3813 * __this, MethodInfo* method)
 		}
 	}
 	{
-		t1332 * L_1 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5685(L_1, (t2*) &_stringLiteral404, &m5685_MI);
+		t1341 * L_1 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_1, (t2*) &_stringLiteral403, &m5713_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -3576,10 +6069,10 @@ IL_001a:
 		return;
 	}
 }
-extern "C" void m24089_gshared (t3813 * __this, MethodInfo* method)
+extern "C" void m24282_gshared (t3844 * __this, MethodInfo* method)
 {
 	{
-		__this->f0 = (t1266 *)NULL;
+		__this->f0 = (t1275 *)NULL;
 		return;
 	}
 }
@@ -3589,18 +6082,18 @@ extern "C" void m24089_gshared (t3813 * __this, MethodInfo* method)
 
 
 
-extern "C" void m24090_gshared (t3814 * __this, t9 * p0, t58 p1, MethodInfo* method)
+extern "C" void m24283_gshared (t3845 * __this, t9 * p0, t58 p1, MethodInfo* method)
 {
 	__this->f0 = (methodPointerType)((MethodInfo*)p1.f0)->method;
 	__this->f3 = p1;
 	__this->f2 = p0;
 }
-extern Il2CppGenericMethod m24091_GM;
-extern "C" int32_t m24091_gshared (t3814 * __this, int32_t p0, int32_t p1, MethodInfo* method)
+extern Il2CppGenericMethod m24284_GM;
+extern "C" int32_t m24284_gshared (t3845 * __this, int32_t p0, int32_t p1, MethodInfo* method)
 {
 	if(__this->f9 != NULL)
 	{
-		m24091((t3814 *)__this->f9,p0, p1, method);
+		m24284((t3845 *)__this->f9,p0, p1, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->f3.f0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->f3.f0));
@@ -3612,16 +6105,16 @@ extern "C" int32_t m24091_gshared (t3814 * __this, int32_t p0, int32_t p1, Metho
 	typedef int32_t (*FunctionPointerType) (t9 * __this, int32_t p0, int32_t p1, MethodInfo* method);
 	return ((FunctionPointerType)__this->f0)(__this->f2,p0, p1,(MethodInfo*)(__this->f3.f0));
 }
-extern Il2CppGenericMethod m24092_GM;
-extern "C" t9 * m24092_gshared (t3814 * __this, int32_t p0, int32_t p1, t463 * p2, t9 * p3, MethodInfo* method)
+extern Il2CppGenericMethod m24285_GM;
+extern "C" t9 * m24285_gshared (t3845 * __this, int32_t p0, int32_t p1, t470 * p2, t9 * p3, MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = Box(InitializedTypeInfo(&t125_TI), &p0);
 	__d_args[1] = Box(InitializedTypeInfo(&t125_TI), &p1);
 	return (t9 *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)p2, (Il2CppObject*)p3);
 }
-extern Il2CppGenericMethod m24093_GM;
-extern "C" int32_t m24093_gshared (t3814 * __this, t9 * p0, MethodInfo* method)
+extern Il2CppGenericMethod m24286_GM;
+extern "C" int32_t m24286_gshared (t3845 * __this, t9 * p0, MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) p0, 0);
 	return *(int32_t*)UnBox ((Il2CppCodeGenObject*)__result);
@@ -3630,23 +6123,23 @@ extern "C" int32_t m24093_gshared (t3814 * __this, t9 * p0, MethodInfo* method)
 #else
 #endif
 
-#include "t3816.h"
-extern TypeInfo t3816_TI;
-#include "t3816MD.h"
-extern Il2CppType t3816_0_0_0;
-extern MethodInfo m24105_MI;
-extern MethodInfo m24030_MI;
-extern MethodInfo m24108_MI;
-extern Il2CppGenericMethod m24106_GM;
-extern Il2CppGenericMethod m24105_GM;
-extern Il2CppGenericMethod m24108_GM;
+#include "t3847.h"
+extern TypeInfo t3847_TI;
+#include "t3847MD.h"
+extern Il2CppType t3847_0_0_0;
+extern MethodInfo m24298_MI;
+extern MethodInfo m24223_MI;
+extern MethodInfo m24301_MI;
+extern Il2CppGenericMethod m24299_GM;
+extern Il2CppGenericMethod m24298_GM;
+extern Il2CppGenericMethod m24301_GM;
 
 
-extern "C" void m24094_gshared (t3815 * __this, t1266 * p0, MethodInfo* method)
+extern "C" void m24287_gshared (t3846 * __this, t1275 * p0, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
-		t1266 * L_0 = p0;
+		t1275 * L_0 = p0;
 		if (L_0)
 		{
 			goto IL_0014;
@@ -3654,164 +6147,164 @@ extern "C" void m24094_gshared (t3815 * __this, t1266 * p0, MethodInfo* method)
 	}
 	{
 		t132 * L_1 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_1, (t2*) &_stringLiteral1379, &m339_MI);
+		m339(L_1, (t2*) &_stringLiteral1378, &m339_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_0014:
 	{
-		t1266 * L_2 = p0;
+		t1275 * L_2 = p0;
 		__this->f0 = L_2;
 		return;
 	}
 }
-extern Il2CppGenericMethod m24095_GM;
-extern "C" void m24095_gshared (t3815 * __this, int32_t p0, MethodInfo* method)
+extern Il2CppGenericMethod m24288_GM;
+extern "C" void m24288_gshared (t3846 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		t169 * L_0 = (t169 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t169_TI));
-		m5706(L_0, (t2*) &_stringLiteral1386, &m5706_MI);
+		m5734(L_0, (t2*) &_stringLiteral1385, &m5734_MI);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
-extern Il2CppGenericMethod m24096_GM;
-extern "C" void m24096_gshared (t3815 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24289_GM;
+extern "C" void m24289_gshared (t3846 * __this, MethodInfo* method)
 {
 	{
 		t169 * L_0 = (t169 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t169_TI));
-		m5706(L_0, (t2*) &_stringLiteral1386, &m5706_MI);
+		m5734(L_0, (t2*) &_stringLiteral1385, &m5734_MI);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
-extern Il2CppGenericMethod m24097_GM;
-extern "C" bool m24097_gshared (t3815 * __this, int32_t p0, MethodInfo* method)
+extern Il2CppGenericMethod m24290_GM;
+extern "C" bool m24290_gshared (t3846 * __this, int32_t p0, MethodInfo* method)
 {
 	{
-		t1266 * L_0 = (__this->f0);
+		t1275 * L_0 = (__this->f0);
 		int32_t L_1 = p0;
-		bool L_2 = (( bool (*) (t1266 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(L_0, L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		bool L_2 = (( bool (*) (t1275 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(L_0, L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
 		return L_2;
 	}
 }
-extern Il2CppGenericMethod m24098_GM;
-extern "C" bool m24098_gshared (t3815 * __this, int32_t p0, MethodInfo* method)
+extern Il2CppGenericMethod m24291_GM;
+extern "C" bool m24291_gshared (t3846 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		t169 * L_0 = (t169 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t169_TI));
-		m5706(L_0, (t2*) &_stringLiteral1386, &m5706_MI);
+		m5734(L_0, (t2*) &_stringLiteral1385, &m5734_MI);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
-extern Il2CppGenericMethod m24099_GM;
-extern "C" t9* m24099_gshared (t3815 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24292_GM;
+extern "C" t9* m24292_gshared (t3846 * __this, MethodInfo* method)
 {
 	{
-		t3816  L_0 = (( t3816  (*) (t3815 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
-		t3816  L_1 = L_0;
+		t3847  L_0 = (( t3847  (*) (t3846 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		t3847  L_1 = L_0;
 		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), &L_1);
 		return (t9*)L_2;
 	}
 }
-extern Il2CppGenericMethod m24100_GM;
-extern "C" void m24100_gshared (t3815 * __this, t121 * p0, int32_t p1, MethodInfo* method)
+extern Il2CppGenericMethod m24293_GM;
+extern "C" void m24293_gshared (t3846 * __this, t121 * p0, int32_t p1, MethodInfo* method)
 {
-	t1088* V_0 = {0};
+	t1095* V_0 = {0};
 	{
 		t121 * L_0 = p0;
-		V_0 = ((t1088*)IsInst(L_0, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)));
-		t1088* L_1 = V_0;
+		V_0 = ((t1095*)IsInst(L_0, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)));
+		t1095* L_1 = V_0;
 		if (!L_1)
 		{
 			goto IL_0013;
 		}
 	}
 	{
-		t1088* L_2 = V_0;
+		t1095* L_2 = V_0;
 		int32_t L_3 = p1;
-		VirtActionInvoker2< t1088*, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), __this, L_2, L_3);
+		VirtActionInvoker2< t1095*, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), __this, L_2, L_3);
 		return;
 	}
 
 IL_0013:
 	{
-		t1266 * L_4 = (__this->f0);
+		t1275 * L_4 = (__this->f0);
 		t121 * L_5 = p0;
 		int32_t L_6 = p1;
-		(( void (*) (t1266 *, t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_4, L_5, L_6, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
-		t1266 * L_7 = (__this->f0);
+		(( void (*) (t1275 *, t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_4, L_5, L_6, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		t1275 * L_7 = (__this->f0);
 		t121 * L_8 = p0;
 		int32_t L_9 = p1;
 		t58 L_10 = { IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6) };
-		t3814 * L_11 = (t3814 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7));
-		(( void (*) (t3814 *, t9 *, t58, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(L_11, NULL, L_10, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
-		(( void (*) (t1266 *, t121 *, int32_t, t3814 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9)->method)(L_7, L_8, L_9, L_11, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9));
+		t3845 * L_11 = (t3845 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7));
+		(( void (*) (t3845 *, t9 *, t58, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(L_11, NULL, L_10, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
+		(( void (*) (t1275 *, t121 *, int32_t, t3845 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9)->method)(L_7, L_8, L_9, L_11, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9));
 		return;
 	}
 }
-extern Il2CppGenericMethod m24101_GM;
-extern "C" t9 * m24101_gshared (t3815 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24294_GM;
+extern "C" t9 * m24294_gshared (t3846 * __this, MethodInfo* method)
 {
 	{
-		t3816  L_0 = (( t3816  (*) (t3815 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
-		t3816  L_1 = L_0;
+		t3847  L_0 = (( t3847  (*) (t3846 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		t3847  L_1 = L_0;
 		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), &L_1);
 		return (t9 *)L_2;
 	}
 }
-extern Il2CppGenericMethod m24102_GM;
-extern "C" bool m24102_gshared (t3815 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24295_GM;
+extern "C" bool m24295_gshared (t3846 * __this, MethodInfo* method)
 {
 	{
 		return 1;
 	}
 }
-extern Il2CppGenericMethod m24103_GM;
-extern "C" bool m24103_gshared (t3815 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24296_GM;
+extern "C" bool m24296_gshared (t3846 * __this, MethodInfo* method)
 {
 	{
 		return 0;
 	}
 }
-extern Il2CppGenericMethod m24104_GM;
-extern "C" t9 * m24104_gshared (t3815 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24297_GM;
+extern "C" t9 * m24297_gshared (t3846 * __this, MethodInfo* method)
 {
 	{
-		t1266 * L_0 = (__this->f0);
-		t9 * L_1 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m11969_MI, L_0);
+		t1275 * L_0 = (__this->f0);
+		t9 * L_1 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m11997_MI, L_0);
 		return L_1;
 	}
 }
-extern "C" void m24105_gshared (t3815 * __this, t1088* p0, int32_t p1, MethodInfo* method)
+extern "C" void m24298_gshared (t3846 * __this, t1095* p0, int32_t p1, MethodInfo* method)
 {
 	{
-		t1266 * L_0 = (__this->f0);
-		t1088* L_1 = p0;
+		t1275 * L_0 = (__this->f0);
+		t1095* L_1 = p0;
 		int32_t L_2 = p1;
-		(( void (*) (t1266 *, t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_0, (t121 *)(t121 *)L_1, L_2, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
-		t1266 * L_3 = (__this->f0);
-		t1088* L_4 = p0;
+		(( void (*) (t1275 *, t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_0, (t121 *)(t121 *)L_1, L_2, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		t1275 * L_3 = (__this->f0);
+		t1095* L_4 = p0;
 		int32_t L_5 = p1;
 		t58 L_6 = { IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6) };
-		t3814 * L_7 = (t3814 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7));
-		(( void (*) (t3814 *, t9 *, t58, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(L_7, NULL, L_6, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
-		(( void (*) (t1266 *, t1088*, int32_t, t3814 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 10)->method)(L_3, L_4, L_5, L_7, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 10));
+		t3845 * L_7 = (t3845 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7));
+		(( void (*) (t3845 *, t9 *, t58, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(L_7, NULL, L_6, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
+		(( void (*) (t1275 *, t1095*, int32_t, t3845 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 10)->method)(L_3, L_4, L_5, L_7, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 10));
 		return;
 	}
 }
-extern "C" t3816  m24106_gshared (t3815 * __this, MethodInfo* method)
+extern "C" t3847  m24299_gshared (t3846 * __this, MethodInfo* method)
 {
 	{
-		t1266 * L_0 = (__this->f0);
-		t3816  L_1 = {0};
-		(( void (*) (t3816 *, t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 11)->method)(&L_1, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 11));
+		t1275 * L_0 = (__this->f0);
+		t3847  L_1 = {0};
+		(( void (*) (t3847 *, t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 11)->method)(&L_1, L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 11));
 		return L_1;
 	}
 }
-extern Il2CppGenericMethod m24107_GM;
-extern "C" int32_t m24107_gshared (t3815 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24300_GM;
+extern "C" int32_t m24300_gshared (t3846 * __this, MethodInfo* method)
 {
 	{
-		t1266 * L_0 = (__this->f0);
+		t1275 * L_0 = (__this->f0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12), L_0);
 		return L_1;
 	}
@@ -3822,51 +6315,51 @@ extern "C" int32_t m24107_gshared (t3815 * __this, MethodInfo* method)
 
 
 
-extern "C" void m24108_gshared (t3816 * __this, t1266 * p0, MethodInfo* method)
+extern "C" void m24301_gshared (t3847 * __this, t1275 * p0, MethodInfo* method)
 {
 	{
-		t1266 * L_0 = p0;
-		t3813  L_1 = (( t3813  (*) (t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t1275 * L_0 = p0;
+		t3844  L_1 = (( t3844  (*) (t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
 		__this->f0 = L_1;
 		return;
 	}
 }
-extern Il2CppGenericMethod m24109_GM;
-extern "C" t9 * m24109_gshared (t3816 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24302_GM;
+extern "C" t9 * m24302_gshared (t3847 * __this, MethodInfo* method)
 {
 	{
-		t3813 * L_0 = &(__this->f0);
-		int32_t L_1 = (( int32_t (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		t3844 * L_0 = &(__this->f0);
+		int32_t L_1 = (( int32_t (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
 		int32_t L_2 = L_1;
 		t9 * L_3 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), &L_2);
 		return L_3;
 	}
 }
-extern Il2CppGenericMethod m24110_GM;
-extern "C" void m24110_gshared (t3816 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24303_GM;
+extern "C" void m24303_gshared (t3847 * __this, MethodInfo* method)
 {
 	{
-		t3813 * L_0 = &(__this->f0);
-		(( void (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		t3844 * L_0 = &(__this->f0);
+		(( void (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
 		return;
 	}
 }
-extern Il2CppGenericMethod m24111_GM;
-extern "C" bool m24111_gshared (t3816 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24304_GM;
+extern "C" bool m24304_gshared (t3847 * __this, MethodInfo* method)
 {
 	{
-		t3813 * L_0 = &(__this->f0);
-		bool L_1 = (( bool (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		t3844 * L_0 = &(__this->f0);
+		bool L_1 = (( bool (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
 		return L_1;
 	}
 }
-extern Il2CppGenericMethod m24112_GM;
-extern "C" int32_t m24112_gshared (t3816 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24305_GM;
+extern "C" int32_t m24305_gshared (t3847 * __this, MethodInfo* method)
 {
 	{
-		t3813 * L_0 = &(__this->f0);
-		t3809 * L_1 = &(L_0->f3);
-		int32_t L_2 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		t3844 * L_0 = &(__this->f0);
+		t3840 * L_1 = &(L_0->f3);
+		int32_t L_2 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_1, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
 		return L_2;
 	}
 }
@@ -3876,42 +6369,42 @@ extern "C" int32_t m24112_gshared (t3816 * __this, MethodInfo* method)
 
 
 
-extern "C" void m24113_gshared (t3808 * __this, t9 * p0, t58 p1, MethodInfo* method)
+extern "C" void m24306_gshared (t3839 * __this, t9 * p0, t58 p1, MethodInfo* method)
 {
 	__this->f0 = (methodPointerType)((MethodInfo*)p1.f0)->method;
 	__this->f3 = p1;
 	__this->f2 = p0;
 }
-extern Il2CppGenericMethod m24114_GM;
-extern "C" t1155  m24114_gshared (t3808 * __this, int32_t p0, int32_t p1, MethodInfo* method)
+extern Il2CppGenericMethod m24307_GM;
+extern "C" t1164  m24307_gshared (t3839 * __this, int32_t p0, int32_t p1, MethodInfo* method)
 {
 	if(__this->f9 != NULL)
 	{
-		m24114((t3808 *)__this->f9,p0, p1, method);
+		m24307((t3839 *)__this->f9,p0, p1, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->f3.f0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->f3.f0));
 	if (__this->f2 != NULL && ___methodIsStatic)
 	{
-		typedef t1155  (*FunctionPointerType) (t9 *, t9 * __this, int32_t p0, int32_t p1, MethodInfo* method);
+		typedef t1164  (*FunctionPointerType) (t9 *, t9 * __this, int32_t p0, int32_t p1, MethodInfo* method);
 		return ((FunctionPointerType)__this->f0)(NULL,__this->f2,p0, p1,(MethodInfo*)(__this->f3.f0));
 	}
-	typedef t1155  (*FunctionPointerType) (t9 * __this, int32_t p0, int32_t p1, MethodInfo* method);
+	typedef t1164  (*FunctionPointerType) (t9 * __this, int32_t p0, int32_t p1, MethodInfo* method);
 	return ((FunctionPointerType)__this->f0)(__this->f2,p0, p1,(MethodInfo*)(__this->f3.f0));
 }
-extern Il2CppGenericMethod m24115_GM;
-extern "C" t9 * m24115_gshared (t3808 * __this, int32_t p0, int32_t p1, t463 * p2, t9 * p3, MethodInfo* method)
+extern Il2CppGenericMethod m24308_GM;
+extern "C" t9 * m24308_gshared (t3839 * __this, int32_t p0, int32_t p1, t470 * p2, t9 * p3, MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = Box(InitializedTypeInfo(&t125_TI), &p0);
 	__d_args[1] = Box(InitializedTypeInfo(&t125_TI), &p1);
 	return (t9 *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)p2, (Il2CppObject*)p3);
 }
-extern Il2CppGenericMethod m24116_GM;
-extern "C" t1155  m24116_gshared (t3808 * __this, t9 * p0, MethodInfo* method)
+extern Il2CppGenericMethod m24309_GM;
+extern "C" t1164  m24309_gshared (t3839 * __this, t9 * p0, MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) p0, 0);
-	return *(t1155 *)UnBox ((Il2CppCodeGenObject*)__result);
+	return *(t1164 *)UnBox ((Il2CppCodeGenObject*)__result);
 }
 #ifndef _MSC_VER
 #else
@@ -3919,169 +6412,161 @@ extern "C" t1155  m24116_gshared (t3808 * __this, t9 * p0, MethodInfo* method)
 
 
 
-extern "C" void m24117_gshared (t3817 * __this, t9 * p0, t58 p1, MethodInfo* method)
+extern "C" void m24310_gshared (t3848 * __this, t9 * p0, t58 p1, MethodInfo* method)
 {
 	__this->f0 = (methodPointerType)((MethodInfo*)p1.f0)->method;
 	__this->f3 = p1;
 	__this->f2 = p0;
 }
-extern Il2CppGenericMethod m24118_GM;
-extern "C" t3809  m24118_gshared (t3817 * __this, int32_t p0, int32_t p1, MethodInfo* method)
+extern Il2CppGenericMethod m24311_GM;
+extern "C" t3840  m24311_gshared (t3848 * __this, int32_t p0, int32_t p1, MethodInfo* method)
 {
 	if(__this->f9 != NULL)
 	{
-		m24118((t3817 *)__this->f9,p0, p1, method);
+		m24311((t3848 *)__this->f9,p0, p1, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->f3.f0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->f3.f0));
 	if (__this->f2 != NULL && ___methodIsStatic)
 	{
-		typedef t3809  (*FunctionPointerType) (t9 *, t9 * __this, int32_t p0, int32_t p1, MethodInfo* method);
+		typedef t3840  (*FunctionPointerType) (t9 *, t9 * __this, int32_t p0, int32_t p1, MethodInfo* method);
 		return ((FunctionPointerType)__this->f0)(NULL,__this->f2,p0, p1,(MethodInfo*)(__this->f3.f0));
 	}
-	typedef t3809  (*FunctionPointerType) (t9 * __this, int32_t p0, int32_t p1, MethodInfo* method);
+	typedef t3840  (*FunctionPointerType) (t9 * __this, int32_t p0, int32_t p1, MethodInfo* method);
 	return ((FunctionPointerType)__this->f0)(__this->f2,p0, p1,(MethodInfo*)(__this->f3.f0));
 }
-extern Il2CppGenericMethod m24119_GM;
-extern "C" t9 * m24119_gshared (t3817 * __this, int32_t p0, int32_t p1, t463 * p2, t9 * p3, MethodInfo* method)
+extern Il2CppGenericMethod m24312_GM;
+extern "C" t9 * m24312_gshared (t3848 * __this, int32_t p0, int32_t p1, t470 * p2, t9 * p3, MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = Box(InitializedTypeInfo(&t125_TI), &p0);
 	__d_args[1] = Box(InitializedTypeInfo(&t125_TI), &p1);
 	return (t9 *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)p2, (Il2CppObject*)p3);
 }
-extern Il2CppGenericMethod m24120_GM;
-extern "C" t3809  m24120_gshared (t3817 * __this, t9 * p0, MethodInfo* method)
+extern Il2CppGenericMethod m24313_GM;
+extern "C" t3840  m24313_gshared (t3848 * __this, t9 * p0, MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) p0, 0);
-	return *(t3809 *)UnBox ((Il2CppCodeGenObject*)__result);
+	return *(t3840 *)UnBox ((Il2CppCodeGenObject*)__result);
 }
 #ifndef _MSC_VER
 #else
 #endif
 
-extern MethodInfo m24123_MI;
-extern Il2CppGenericMethod m24123_GM;
+extern MethodInfo m24316_MI;
+extern Il2CppGenericMethod m24316_GM;
 
 
-extern "C" void m24121_gshared (t3818 * __this, t1266 * p0, MethodInfo* method)
+extern "C" void m24314_gshared (t3849 * __this, t1275 * p0, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
-		t1266 * L_0 = p0;
-		t3813  L_1 = (( t3813  (*) (t1266 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t1275 * L_0 = p0;
+		t3844  L_1 = (( t3844  (*) (t1275 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
 		__this->f0 = L_1;
 		return;
 	}
 }
-extern Il2CppGenericMethod m24122_GM;
-extern "C" bool m24122_gshared (t3818 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24315_GM;
+extern "C" bool m24315_gshared (t3849 * __this, MethodInfo* method)
 {
 	{
-		t3813 * L_0 = &(__this->f0);
-		bool L_1 = (( bool (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		t3844 * L_0 = &(__this->f0);
+		bool L_1 = (( bool (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
 		return L_1;
 	}
 }
-extern "C" t1155  m24123_gshared (t3818 * __this, MethodInfo* method)
+extern "C" t1164  m24316_gshared (t3849 * __this, MethodInfo* method)
 {
 	{
-		t3813  L_0 = (__this->f0);
-		t3813  L_1 = L_0;
+		t3844  L_0 = (__this->f0);
+		t3844  L_1 = L_0;
 		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), &L_1);
-		t1155  L_3 = (t1155 )InterfaceFuncInvoker0< t1155  >::Invoke(&m11972_MI, L_2);
+		t1164  L_3 = (t1164 )InterfaceFuncInvoker0< t1164  >::Invoke(&m12000_MI, L_2);
 		return L_3;
 	}
 }
-extern Il2CppGenericMethod m24124_GM;
-extern "C" t9 * m24124_gshared (t3818 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24317_GM;
+extern "C" t9 * m24317_gshared (t3849 * __this, MethodInfo* method)
 {
-	t3809  V_0 = {0};
+	t3840  V_0 = {0};
 	{
-		t3813 * L_0 = &(__this->f0);
-		t3809  L_1 = (( t3809  (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		t3844 * L_0 = &(__this->f0);
+		t3840  L_1 = (( t3840  (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
 		V_0 = L_1;
-		int32_t L_2 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)((&V_0), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		int32_t L_2 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)((&V_0), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
 		int32_t L_3 = L_2;
 		t9 * L_4 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), &L_3);
 		return L_4;
 	}
 }
-extern Il2CppGenericMethod m24125_GM;
-extern "C" t9 * m24125_gshared (t3818 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24318_GM;
+extern "C" t9 * m24318_gshared (t3849 * __this, MethodInfo* method)
 {
-	t3809  V_0 = {0};
+	t3840  V_0 = {0};
 	{
-		t3813 * L_0 = &(__this->f0);
-		t3809  L_1 = (( t3809  (*) (t3813 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		t3844 * L_0 = &(__this->f0);
+		t3840  L_1 = (( t3840  (*) (t3844 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(L_0, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
 		V_0 = L_1;
-		int32_t L_2 = (( int32_t (*) (t3809 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6)->method)((&V_0), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
+		int32_t L_2 = (( int32_t (*) (t3840 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6)->method)((&V_0), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6));
 		int32_t L_3 = L_2;
 		t9 * L_4 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7), &L_3);
 		return L_4;
 	}
 }
-extern Il2CppGenericMethod m24126_GM;
-extern "C" t9 * m24126_gshared (t3818 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24319_GM;
+extern "C" t9 * m24319_gshared (t3849 * __this, MethodInfo* method)
 {
 	{
-		t1155  L_0 = (t1155 )VirtFuncInvoker0< t1155  >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8), __this);
-		t1155  L_1 = L_0;
-		t9 * L_2 = Box(InitializedTypeInfo(&t1155_TI), &L_1);
+		t1164  L_0 = (t1164 )VirtFuncInvoker0< t1164  >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8), __this);
+		t1164  L_1 = L_0;
+		t9 * L_2 = Box(InitializedTypeInfo(&t1164_TI), &L_1);
 		return L_2;
 	}
 }
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t2646_TI;
+extern TypeInfo t2655_TI;
 
 
 
-#include "t3819.h"
+#include "t3850.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t3819_TI;
-#include "t3819MD.h"
+extern TypeInfo t3850_TI;
+#include "t3850MD.h"
 
-#include "t3820.h"
-extern TypeInfo t152_TI;
-extern TypeInfo t3820_TI;
-#include "t1338MD.h"
-#include "t3820MD.h"
-extern Il2CppType t3819_0_0_0;
-extern Il2CppType t2194_0_0_0;
-extern Il2CppType t2436_0_0_0;
-extern Il2CppType t152_0_0_0;
-extern Il2CppType t3820_0_0_0;
-extern MethodInfo m4449_MI;
-extern MethodInfo m4447_MI;
-extern MethodInfo m11083_MI;
-extern MethodInfo m24131_MI;
-extern MethodInfo m29458_MI;
-extern MethodInfo m11109_MI;
-extern Il2CppGenericMethod m24131_GM;
-extern Il2CppGenericMethod m29458_GM;
+#include "t3851.h"
+extern TypeInfo t3851_TI;
+#include "t3851MD.h"
+extern Il2CppType t3850_0_0_0;
+extern Il2CppType t2203_0_0_0;
+extern Il2CppType t3851_0_0_0;
+extern MethodInfo m24324_MI;
+extern MethodInfo m29706_MI;
+extern Il2CppGenericMethod m24324_GM;
+extern Il2CppGenericMethod m29706_GM;
 
 
-extern Il2CppGenericMethod m24127_GM;
-extern "C" void m24127_gshared (t3819 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24320_GM;
+extern "C" void m24320_gshared (t3850 * __this, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
 		return;
 	}
 }
-extern Il2CppGenericMethod m24128_GM;
-extern "C" void m24128_gshared (t9 * __this , MethodInfo* method)
+extern Il2CppGenericMethod m24321_GM;
+extern "C" void m24321_gshared (t9 * __this , MethodInfo* method)
 {
-	t3820 * L_2417_System_Collections_Generic_EqualityComparer_1_DefaultComparer = (t3820 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
-	(( void (*) (t3820 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_2417_System_Collections_Generic_EqualityComparer_1_DefaultComparer, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
-	((t3819_SFs*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->static_fields)->f0 = L_2417_System_Collections_Generic_EqualityComparer_1_DefaultComparer;
+	t3851 * L_2417_System_Collections_Generic_EqualityComparer_1_DefaultComparer = (t3851 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+	(( void (*) (t3851 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->method)(L_2417_System_Collections_Generic_EqualityComparer_1_DefaultComparer, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+	((t3850_SFs*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->static_fields)->f0 = L_2417_System_Collections_Generic_EqualityComparer_1_DefaultComparer;
 }
-extern Il2CppGenericMethod m24129_GM;
-extern "C" int32_t m24129_gshared (t3819 * __this, t9 * p0, t9 * p1, MethodInfo* method)
+extern Il2CppGenericMethod m24322_GM;
+extern "C" int32_t m24322_gshared (t3850 * __this, t9 * p0, t9 * p1, MethodInfo* method)
 {
 	int32_t G_B4_0 = 0;
 	{
@@ -4149,17 +6634,17 @@ IL_0010:
 
 IL_0033:
 	{
-		t556 * L_8 = (t556 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t556_TI));
-		m11109(L_8, &m11109_MI);
+		t563 * L_8 = (t563 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t563_TI));
+		m11137(L_8, &m11137_MI);
 		il2cpp_codegen_raise_exception(L_8);
 	}
 }
-extern Il2CppGenericMethod m24130_GM;
-extern "C" t3819 * m24130_gshared (t9 * __this , MethodInfo* method)
+extern Il2CppGenericMethod m24323_GM;
+extern "C" t3850 * m24323_gshared (t9 * __this , MethodInfo* method)
 {
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
-		t3819 * L_0 = ((t3819_SFs*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->static_fields)->f0;
+		t3850 * L_0 = ((t3850_SFs*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->static_fields)->f0;
 		return L_0;
 	}
 }
@@ -4167,22 +6652,20 @@ extern "C" t3819 * m24130_gshared (t9 * __this , MethodInfo* method)
 #else
 #endif
 
-extern TypeInfo t2194_TI;
-extern TypeInfo t185_TI;
-extern MethodInfo m29459_MI;
-extern MethodInfo m11940_MI;
-extern Il2CppGenericMethod m29459_GM;
+extern TypeInfo t2203_TI;
+extern MethodInfo m29707_MI;
+extern Il2CppGenericMethod m29707_GM;
 
 
-extern "C" void m24131_gshared (t3820 * __this, MethodInfo* method)
+extern "C" void m24324_gshared (t3851 * __this, MethodInfo* method)
 {
 	{
-		(( void (*) (t3819 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		(( void (*) (t3850 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
 		return;
 	}
 }
-extern Il2CppGenericMethod m24132_GM;
-extern "C" int32_t m24132_gshared (t3820 * __this, int32_t p0, int32_t p1, MethodInfo* method)
+extern Il2CppGenericMethod m24325_GM;
+extern "C" int32_t m24325_gshared (t3851 * __this, int32_t p0, int32_t p1, MethodInfo* method)
 {
 	int32_t G_B4_0 = 0;
 	{
@@ -4268,43 +6751,43 @@ IL_003e:
 		int32_t L_23 = p1;
 		int32_t L_24 = L_23;
 		t9 * L_25 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_24);
-		int32_t L_26 = (int32_t)InterfaceFuncInvoker1< int32_t, t9 * >::Invoke(&m11940_MI, ((t9 *)Castclass(L_22, InitializedTypeInfo(&t185_TI))), L_25);
+		int32_t L_26 = (int32_t)InterfaceFuncInvoker1< int32_t, t9 * >::Invoke(&m11968_MI, ((t9 *)Castclass(L_22, InitializedTypeInfo(&t185_TI))), L_25);
 		return L_26;
 	}
 
 IL_0062:
 	{
-		t556 * L_27 = (t556 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t556_TI));
-		m2885(L_27, (t2*) &_stringLiteral1378, &m2885_MI);
+		t563 * L_27 = (t563 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t563_TI));
+		m2909(L_27, (t2*) &_stringLiteral1377, &m2909_MI);
 		il2cpp_codegen_raise_exception(L_27);
 	}
 }
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4980_TI;
+extern TypeInfo t5028_TI;
 
-#include "t1284.h"
+#include "t1293.h"
 
 
-#include "t3821.h"
+#include "t3852.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t3821_TI;
-#include "t3821MD.h"
+extern TypeInfo t3852_TI;
+#include "t3852MD.h"
 
-extern TypeInfo t1284_TI;
-extern Il2CppType t3821_0_0_0;
+extern TypeInfo t1293_TI;
+extern Il2CppType t3852_0_0_0;
 struct t121;
-extern "C" t1284  m27963_gshared (t121 * __this, int32_t p0, MethodInfo* method);
-#define m27963(__this, p0, method) (( t1284  (*) (t121 *, int32_t, MethodInfo*))m27963_gshared)(__this, p0, method)
-extern Il2CppGenericMethod m24137_GM;
-extern Il2CppGenericMethod m27963_GM;
+extern "C" t1293  m28201_gshared (t121 * __this, int32_t p0, MethodInfo* method);
+#define m28201(__this, p0, method) (( t1293  (*) (t121 *, int32_t, MethodInfo*))m28201_gshared)(__this, p0, method)
+extern Il2CppGenericMethod m24330_GM;
+extern Il2CppGenericMethod m28201_GM;
 
 
-extern Il2CppGenericMethod m24133_GM;
-extern "C" void m24133_gshared (t3821 * __this, t121 * p0, MethodInfo* method)
+extern Il2CppGenericMethod m24326_GM;
+extern "C" void m24326_gshared (t3852 * __this, t121 * p0, MethodInfo* method)
 {
 	{
 		t121 * L_0 = p0;
@@ -4313,26 +6796,26 @@ extern "C" void m24133_gshared (t3821 * __this, t121 * p0, MethodInfo* method)
 		return;
 	}
 }
-extern Il2CppGenericMethod m24134_GM;
-extern "C" t9 * m24134_gshared (t3821 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24327_GM;
+extern "C" t9 * m24327_gshared (t3852 * __this, MethodInfo* method)
 {
 	{
-		t1284  L_0 = (( t1284  (*) (t3821 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		t1284  L_1 = L_0;
+		t1293  L_0 = (( t1293  (*) (t3852 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t1293  L_1 = L_0;
 		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
 		return L_2;
 	}
 }
-extern Il2CppGenericMethod m24135_GM;
-extern "C" void m24135_gshared (t3821 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24328_GM;
+extern "C" void m24328_gshared (t3852 * __this, MethodInfo* method)
 {
 	{
 		__this->f1 = ((int32_t)-2);
 		return;
 	}
 }
-extern Il2CppGenericMethod m24136_GM;
-extern "C" bool m24136_gshared (t3821 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24329_GM;
+extern "C" bool m24329_gshared (t3852 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t G_B5_0 = 0;
@@ -4345,7 +6828,7 @@ extern "C" bool m24136_gshared (t3821 * __this, MethodInfo* method)
 	}
 	{
 		t121 * L_1 = (__this->f0);
-		int32_t L_2 = m5689(L_1, &m5689_MI);
+		int32_t L_2 = m5717(L_1, &m5717_MI);
 		__this->f1 = L_2;
 	}
 
@@ -4377,7 +6860,7 @@ IL_003e:
 		return G_B5_0;
 	}
 }
-extern "C" t1284  m24137_gshared (t3821 * __this, MethodInfo* method)
+extern "C" t1293  m24330_gshared (t3852 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f1);
@@ -4387,8 +6870,8 @@ extern "C" t1284  m24137_gshared (t3821 * __this, MethodInfo* method)
 		}
 	}
 	{
-		t1332 * L_1 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5685(L_1, (t2*) &_stringLiteral1249, &m5685_MI);
+		t1341 * L_1 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_1, (t2*) &_stringLiteral1248, &m5713_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -4401,8 +6884,8 @@ IL_0015:
 		}
 	}
 	{
-		t1332 * L_3 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5685(L_3, (t2*) &_stringLiteral1250, &m5685_MI);
+		t1341 * L_3 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_3, (t2*) &_stringLiteral1249, &m5713_MI);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -4410,59 +6893,59 @@ IL_0029:
 	{
 		t121 * L_4 = (__this->f0);
 		t121 * L_5 = (__this->f0);
-		int32_t L_6 = m5689(L_5, &m5689_MI);
+		int32_t L_6 = m5717(L_5, &m5717_MI);
 		int32_t L_7 = (__this->f1);
-		t1284  L_8 = (( t1284  (*) (t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		t1293  L_8 = (( t1293  (*) (t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
 		return L_8;
 	}
 }
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4981_TI;
+extern TypeInfo t5029_TI;
 
 
 
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4982_TI;
+extern TypeInfo t5030_TI;
 
 
 
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4983_TI;
+extern TypeInfo t5031_TI;
 
 
 
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4984_TI;
+extern TypeInfo t5032_TI;
 
-#include "t1320.h"
+#include "t1329.h"
 
 
-#include "t3822.h"
+#include "t3853.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t3822_TI;
-#include "t3822MD.h"
+extern TypeInfo t3853_TI;
+#include "t3853MD.h"
 
-extern TypeInfo t1320_TI;
-extern Il2CppType t3822_0_0_0;
+extern TypeInfo t1329_TI;
+extern Il2CppType t3853_0_0_0;
 struct t121;
-extern "C" t1320  m27974_gshared (t121 * __this, int32_t p0, MethodInfo* method);
-#define m27974(__this, p0, method) (( t1320  (*) (t121 *, int32_t, MethodInfo*))m27974_gshared)(__this, p0, method)
-extern Il2CppGenericMethod m24142_GM;
-extern Il2CppGenericMethod m27974_GM;
+extern "C" t1329  m28212_gshared (t121 * __this, int32_t p0, MethodInfo* method);
+#define m28212(__this, p0, method) (( t1329  (*) (t121 *, int32_t, MethodInfo*))m28212_gshared)(__this, p0, method)
+extern Il2CppGenericMethod m24335_GM;
+extern Il2CppGenericMethod m28212_GM;
 
 
-extern Il2CppGenericMethod m24138_GM;
-extern "C" void m24138_gshared (t3822 * __this, t121 * p0, MethodInfo* method)
+extern Il2CppGenericMethod m24331_GM;
+extern "C" void m24331_gshared (t3853 * __this, t121 * p0, MethodInfo* method)
 {
 	{
 		t121 * L_0 = p0;
@@ -4471,26 +6954,26 @@ extern "C" void m24138_gshared (t3822 * __this, t121 * p0, MethodInfo* method)
 		return;
 	}
 }
-extern Il2CppGenericMethod m24139_GM;
-extern "C" t9 * m24139_gshared (t3822 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24332_GM;
+extern "C" t9 * m24332_gshared (t3853 * __this, MethodInfo* method)
 {
 	{
-		t1320  L_0 = (( t1320  (*) (t3822 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		t1320  L_1 = L_0;
+		t1329  L_0 = (( t1329  (*) (t3853 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		t1329  L_1 = L_0;
 		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
 		return L_2;
 	}
 }
-extern Il2CppGenericMethod m24140_GM;
-extern "C" void m24140_gshared (t3822 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24333_GM;
+extern "C" void m24333_gshared (t3853 * __this, MethodInfo* method)
 {
 	{
 		__this->f1 = ((int32_t)-2);
 		return;
 	}
 }
-extern Il2CppGenericMethod m24141_GM;
-extern "C" bool m24141_gshared (t3822 * __this, MethodInfo* method)
+extern Il2CppGenericMethod m24334_GM;
+extern "C" bool m24334_gshared (t3853 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t G_B5_0 = 0;
@@ -4503,7 +6986,7 @@ extern "C" bool m24141_gshared (t3822 * __this, MethodInfo* method)
 	}
 	{
 		t121 * L_1 = (__this->f0);
-		int32_t L_2 = m5689(L_1, &m5689_MI);
+		int32_t L_2 = m5717(L_1, &m5717_MI);
 		__this->f1 = L_2;
 	}
 
@@ -4535,7 +7018,7 @@ IL_003e:
 		return G_B5_0;
 	}
 }
-extern "C" t1320  m24142_gshared (t3822 * __this, MethodInfo* method)
+extern "C" t1329  m24335_gshared (t3853 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f1);
@@ -4545,8 +7028,8 @@ extern "C" t1320  m24142_gshared (t3822 * __this, MethodInfo* method)
 		}
 	}
 	{
-		t1332 * L_1 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5685(L_1, (t2*) &_stringLiteral1249, &m5685_MI);
+		t1341 * L_1 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_1, (t2*) &_stringLiteral1248, &m5713_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -4559,8 +7042,8 @@ IL_0015:
 		}
 	}
 	{
-		t1332 * L_3 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5685(L_3, (t2*) &_stringLiteral1250, &m5685_MI);
+		t1341 * L_3 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_3, (t2*) &_stringLiteral1249, &m5713_MI);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -4568,469 +7051,23 @@ IL_0029:
 	{
 		t121 * L_4 = (__this->f0);
 		t121 * L_5 = (__this->f0);
-		int32_t L_6 = m5689(L_5, &m5689_MI);
+		int32_t L_6 = m5717(L_5, &m5717_MI);
 		int32_t L_7 = (__this->f1);
-		t1320  L_8 = (( t1320  (*) (t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		t1329  L_8 = (( t1329  (*) (t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
 		return L_8;
 	}
 }
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4985_TI;
+extern TypeInfo t5033_TI;
 
 
 
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t4986_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4987_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4988_TI;
-
-#include "t168.h"
-
-
-#include "t3823.h"
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t3823_TI;
-#include "t3823MD.h"
-
-extern TypeInfo t168_TI;
-extern Il2CppType t3823_0_0_0;
-struct t121;
-extern "C" uint32_t m27985_gshared (t121 * __this, int32_t p0, MethodInfo* method);
-#define m27985(__this, p0, method) (( uint32_t (*) (t121 *, int32_t, MethodInfo*))m27985_gshared)(__this, p0, method)
-extern Il2CppGenericMethod m24147_GM;
-extern Il2CppGenericMethod m27985_GM;
-
-
-extern Il2CppGenericMethod m24143_GM;
-extern "C" void m24143_gshared (t3823 * __this, t121 * p0, MethodInfo* method)
-{
-	{
-		t121 * L_0 = p0;
-		__this->f0 = L_0;
-		__this->f1 = ((int32_t)-2);
-		return;
-	}
-}
-extern Il2CppGenericMethod m24144_GM;
-extern "C" t9 * m24144_gshared (t3823 * __this, MethodInfo* method)
-{
-	{
-		uint32_t L_0 = (( uint32_t (*) (t3823 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		uint32_t L_1 = L_0;
-		t9 * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
-		return L_2;
-	}
-}
-extern Il2CppGenericMethod m24145_GM;
-extern "C" void m24145_gshared (t3823 * __this, MethodInfo* method)
-{
-	{
-		__this->f1 = ((int32_t)-2);
-		return;
-	}
-}
-extern Il2CppGenericMethod m24146_GM;
-extern "C" bool m24146_gshared (t3823 * __this, MethodInfo* method)
-{
-	int32_t V_0 = 0;
-	int32_t G_B5_0 = 0;
-	{
-		int32_t L_0 = (__this->f1);
-		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
-		{
-			goto IL_001b;
-		}
-	}
-	{
-		t121 * L_1 = (__this->f0);
-		int32_t L_2 = m5689(L_1, &m5689_MI);
-		__this->f1 = L_2;
-	}
-
-IL_001b:
-	{
-		int32_t L_3 = (__this->f1);
-		if ((((int32_t)L_3) == ((int32_t)(-1))))
-		{
-			goto IL_003d;
-		}
-	}
-	{
-		int32_t L_4 = (__this->f1);
-		int32_t L_5 = ((int32_t)((int32_t)L_4-(int32_t)1));
-		V_0 = L_5;
-		__this->f1 = L_5;
-		int32_t L_6 = V_0;
-		G_B5_0 = ((((int32_t)((((int32_t)L_6) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		goto IL_003e;
-	}
-
-IL_003d:
-	{
-		G_B5_0 = 0;
-	}
-
-IL_003e:
-	{
-		return G_B5_0;
-	}
-}
-extern "C" uint32_t m24147_gshared (t3823 * __this, MethodInfo* method)
-{
-	{
-		int32_t L_0 = (__this->f1);
-		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
-		{
-			goto IL_0015;
-		}
-	}
-	{
-		t1332 * L_1 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5685(L_1, (t2*) &_stringLiteral1249, &m5685_MI);
-		il2cpp_codegen_raise_exception(L_1);
-	}
-
-IL_0015:
-	{
-		int32_t L_2 = (__this->f1);
-		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
-		{
-			goto IL_0029;
-		}
-	}
-	{
-		t1332 * L_3 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5685(L_3, (t2*) &_stringLiteral1250, &m5685_MI);
-		il2cpp_codegen_raise_exception(L_3);
-	}
-
-IL_0029:
-	{
-		t121 * L_4 = (__this->f0);
-		t121 * L_5 = (__this->f0);
-		int32_t L_6 = m5689(L_5, &m5689_MI);
-		int32_t L_7 = (__this->f1);
-		uint32_t L_8 = (( uint32_t (*) (t121 *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
-		return L_8;
-	}
-}
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4989_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4990_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4991_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4992_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4993_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4994_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t2204_TI;
-
-
-
-#include "t3824.h"
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t3824_TI;
-#include "t3824MD.h"
-
-extern Il2CppType t3824_0_0_0;
-extern Il2CppType t2204_0_0_0;
-struct t121;
-#define m27996(__this, p0, method) (( t9* (*) (t121 *, int32_t, MethodInfo*))m24739_gshared)(__this, p0, method)
-extern Il2CppGenericMethod m24152_GM;
-extern Il2CppGenericMethod m27996_GM;
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4995_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4996_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4997_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4998_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t2205_TI;
-
-
-
-#include "t3825.h"
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t3825_TI;
-#include "t3825MD.h"
-
-extern Il2CppType t3825_0_0_0;
-extern Il2CppType t2205_0_0_0;
-struct t121;
-#define m28007(__this, p0, method) (( t9* (*) (t121 *, int32_t, MethodInfo*))m24739_gshared)(__this, p0, method)
-extern Il2CppGenericMethod m24157_GM;
-extern Il2CppGenericMethod m28007_GM;
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t4999_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t5000_TI;
-
-#include "t1400.h"
-
-
-#include "t3826.h"
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t3826_TI;
-#include "t3826MD.h"
-
-extern TypeInfo t1400_TI;
-extern Il2CppType t3826_0_0_0;
-struct t121;
-#define m28018(__this, p0, method) (( t1400 * (*) (t121 *, int32_t, MethodInfo*))m24739_gshared)(__this, p0, method)
-extern Il2CppGenericMethod m24162_GM;
-extern Il2CppGenericMethod m28018_GM;
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t5001_TI;
-
-#include "Mono.Security_ArrayTypes.h"
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t5002_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t5003_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t5004_TI;
-
-#include "t1520.h"
-
-
-#include "t3827.h"
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t3827_TI;
-#include "t3827MD.h"
-
-extern TypeInfo t1520_TI;
-extern Il2CppType t3827_0_0_0;
-struct t121;
-#define m28029(__this, p0, method) (( t1520 * (*) (t121 *, int32_t, MethodInfo*))m24739_gshared)(__this, p0, method)
-extern Il2CppGenericMethod m24167_GM;
-extern Il2CppGenericMethod m28029_GM;
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t5005_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t5006_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t5007_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t5008_TI;
-
-#include "t1493.h"
-
-
-#include "t3828.h"
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t3828_TI;
-#include "t3828MD.h"
-
-extern TypeInfo t1493_TI;
-extern Il2CppType t3828_0_0_0;
-struct t121;
-struct t121;
-extern "C" int32_t m24937_gshared (t121 * __this, int32_t p0, MethodInfo* method);
-#define m24937(__this, p0, method) (( int32_t (*) (t121 *, int32_t, MethodInfo*))m24937_gshared)(__this, p0, method)
-#define m28040(__this, p0, method) (( int32_t (*) (t121 *, int32_t, MethodInfo*))m24937_gshared)(__this, p0, method)
-extern Il2CppGenericMethod m24172_GM;
-extern Il2CppGenericMethod m28040_GM;
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t5009_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t5010_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t5011_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t2212_TI;
-
-#include "t186.h"
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t2213_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t2215_TI;
-
-#include "t327.h"
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t2216_TI;
-
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t2243_TI;
-
-#include "t897.h"
-
-
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t2244_TI;
+extern TypeInfo t5034_TI;
 
 
 

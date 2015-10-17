@@ -6,4 +6,3 @@
 
 struct t1839;
 
-extern "C" void m9763 (t1839 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

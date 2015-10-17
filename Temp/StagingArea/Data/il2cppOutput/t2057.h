@@ -1,8 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t722.h"
-struct  t2057  : public t722
+#include "t729.h"
+struct  t2057  : public t729
 {
-	bool f28;
-	bool f29;
 };

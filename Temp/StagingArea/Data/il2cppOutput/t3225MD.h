@@ -7,12 +7,10 @@
 struct t3225;
 struct t9;
 struct t424;
-struct t437;
 
-#include "t885MD.h"
-#define m18328(__this, p0, method) (( void (*) (t3225 *, t437 *, MethodInfo*))m13448_gshared)(__this, p0, method)
-#define m18329(__this, method) (( t9 * (*) (t3225 *, MethodInfo*))m13449_gshared)(__this, method)
-#define m18330(__this, method) (( void (*) (t3225 *, MethodInfo*))m13450_gshared)(__this, method)
-#define m18331(__this, method) (( void (*) (t3225 *, MethodInfo*))m13451_gshared)(__this, method)
-#define m18332(__this, method) (( bool (*) (t3225 *, MethodInfo*))m13452_gshared)(__this, method)
-#define m18333(__this, method) (( t424 * (*) (t3225 *, MethodInfo*))m13453_gshared)(__this, method)
+#include "t2175MD.h"
+#define m18143(__this, method) (( void (*) (t3225 *, MethodInfo*))m13106_gshared)(__this, method)
+#define m18144(__this , method) (( void (*) (t9 * , MethodInfo*))m13107_gshared)(__this , method)
+#define m18145(__this, p0, method) (( int32_t (*) (t3225 *, t9 *, MethodInfo*))m13108_gshared)(__this, p0, method)
+#define m18146(__this, p0, p1, method) (( bool (*) (t3225 *, t9 *, t9 *, MethodInfo*))m13109_gshared)(__this, p0, p1, method)
+#define m18147(__this , method) (( t3225 * (*) (t9 * , MethodInfo*))m13110_gshared)(__this , method)

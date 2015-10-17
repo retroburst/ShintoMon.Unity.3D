@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t9.h"
-#include "t434.h"
-#include "t28.h"
-struct  t689  : public t9
+#include "t117.h"
+struct  t689 
 {
-	t434  f0;
-	t434  f1;
-	t434  f2;
-	t28  f3;
-	bool f4;
-	bool f5;
+	float f0;
+	float f1;
+	float f2;
+	float f3;
+	int32_t f4;
+	int32_t f5;
+	int32_t f6;
+	int32_t f7;
 };

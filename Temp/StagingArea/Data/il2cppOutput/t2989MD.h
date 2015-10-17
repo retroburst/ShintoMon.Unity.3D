@@ -5,13 +5,14 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t2989;
-struct t9;
-struct t205;
-struct t276;
+struct t279;
+struct t2;
+#include "t305.h"
 
-#include "t2972MD.h"
-#define m15681(__this, p0, method) (( void (*) (t2989 *, t276 *, MethodInfo*))m15572_gshared)(__this, p0, method)
-#define m15682(__this, method) (( t9 * (*) (t2989 *, MethodInfo*))m15573_gshared)(__this, method)
-#define m15683(__this, method) (( void (*) (t2989 *, MethodInfo*))m15574_gshared)(__this, method)
-#define m15684(__this, method) (( bool (*) (t2989 *, MethodInfo*))m15575_gshared)(__this, method)
-#define m15685(__this, method) (( t205 * (*) (t2989 *, MethodInfo*))m15576_gshared)(__this, method)
+#include "t2975MD.h"
+#define m15643(__this, p0, p1, method) (( void (*) (t2989 *, int32_t, t279 *, MethodInfo*))m15549_gshared)(__this, p0, p1, method)
+#define m15644(__this, method) (( int32_t (*) (t2989 *, MethodInfo*))m15550_gshared)(__this, method)
+#define m15645(__this, p0, method) (( void (*) (t2989 *, int32_t, MethodInfo*))m15551_gshared)(__this, p0, method)
+#define m15646(__this, method) (( t279 * (*) (t2989 *, MethodInfo*))m15552_gshared)(__this, method)
+#define m15647(__this, p0, method) (( void (*) (t2989 *, t279 *, MethodInfo*))m15553_gshared)(__this, p0, method)
+#define m15648(__this, method) (( t2* (*) (t2989 *, MethodInfo*))m15554_gshared)(__this, method)

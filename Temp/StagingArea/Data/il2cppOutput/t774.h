@@ -1,13 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t2;
-struct t775;
-#include "t767.h"
-struct  t774  : public t767
+#include "t9.h"
+#include "t775.h"
+#include "t776.h"
+struct  t774  : public t9
 {
-	t2* f4;
-	uint32_t f5;
-	bool f6;
-	t2* f7;
-	t775 * f8;
+	int32_t f0;
+	uint64_t f1;
+	uint64_t f2;
+	int32_t f3;
 };

@@ -5,13 +5,8 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3108;
-struct t9;
-struct t390;
-struct t121;
+struct t394;
 
-#include "t2675MD.h"
-#define m17079(__this, p0, method) (( void (*) (t3108 *, t121 *, MethodInfo*))m12790_gshared)(__this, p0, method)
-#define m17080(__this, method) (( t9 * (*) (t3108 *, MethodInfo*))m12792_gshared)(__this, method)
-#define m17081(__this, method) (( void (*) (t3108 *, MethodInfo*))m12794_gshared)(__this, method)
-#define m17082(__this, method) (( bool (*) (t3108 *, MethodInfo*))m12796_gshared)(__this, method)
-#define m17083(__this, method) (( t390 * (*) (t3108 *, MethodInfo*))m12798_gshared)(__this, method)
+#include "t2769MD.h"
+#define m16876(__this, method) (( void (*) (t3108 *, MethodInfo*))m13560_gshared)(__this, method)
+#define m16877(__this, p0, p1, method) (( int32_t (*) (t3108 *, t394 *, t394 *, MethodInfo*))m13561_gshared)(__this, p0, p1, method)

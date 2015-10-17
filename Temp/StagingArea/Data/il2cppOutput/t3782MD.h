@@ -5,14 +5,16 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3782;
-struct t821;
-struct t2;
 struct t9;
-struct t856;
+struct t469;
+struct t470;
+#include "t58.h"
 
-extern "C" void m23792_gshared (t3782 * __this, MethodInfo* method);
-#define m23792(__this, method) (( void (*) (t3782 *, MethodInfo*))m23792_gshared)(__this, method)
-extern "C" t821 * m23793_gshared (t3782 * __this, t2* p0, t9 * p1, MethodInfo* method);
-#define m23793(__this, p0, p1, method) (( t821 * (*) (t3782 *, t2*, t9 *, MethodInfo*))m23793_gshared)(__this, p0, p1, method)
-extern "C" t856 * m23794_gshared (t3782 * __this, t9 * p0, t821 * p1, MethodInfo* method);
-#define m23794(__this, p0, p1, method) (( t856 * (*) (t3782 *, t9 *, t821 *, MethodInfo*))m23794_gshared)(__this, p0, p1, method)
+extern "C" void m23664_gshared (t3782 * __this, t9 * p0, t58 p1, MethodInfo* method);
+#define m23664(__this, p0, p1, method) (( void (*) (t3782 *, t9 *, t58, MethodInfo*))m23664_gshared)(__this, p0, p1, method)
+extern "C" void m23665_gshared (t3782 * __this, t9 * p0, t9 * p1, t9 * p2, t9 * p3, MethodInfo* method);
+#define m23665(__this, p0, p1, p2, p3, method) (( void (*) (t3782 *, t9 *, t9 *, t9 *, t9 *, MethodInfo*))m23665_gshared)(__this, p0, p1, p2, p3, method)
+extern "C" t9 * m23666_gshared (t3782 * __this, t9 * p0, t9 * p1, t9 * p2, t9 * p3, t470 * p4, t9 * p5, MethodInfo* method);
+#define m23666(__this, p0, p1, p2, p3, p4, p5, method) (( t9 * (*) (t3782 *, t9 *, t9 *, t9 *, t9 *, t470 *, t9 *, MethodInfo*))m23666_gshared)(__this, p0, p1, p2, p3, p4, p5, method)
+extern "C" void m23667_gshared (t3782 * __this, t9 * p0, MethodInfo* method);
+#define m23667(__this, p0, method) (( void (*) (t3782 *, t9 *, MethodInfo*))m23667_gshared)(__this, p0, method)

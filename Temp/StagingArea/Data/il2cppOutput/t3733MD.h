@@ -6,13 +6,12 @@
 
 struct t3733;
 struct t9;
-struct t471;
-struct t471_marshaled;
-struct t853;
+struct t2621;
+struct t121;
 
-#include "t3130MD.h"
-#define m23376(__this, p0, method) (( void (*) (t3733 *, t853 *, MethodInfo*))m17305_gshared)(__this, p0, method)
-#define m23377(__this, method) (( t9 * (*) (t3733 *, MethodInfo*))m17306_gshared)(__this, method)
-#define m23378(__this, method) (( void (*) (t3733 *, MethodInfo*))m17307_gshared)(__this, method)
-#define m23379(__this, method) (( bool (*) (t3733 *, MethodInfo*))m17308_gshared)(__this, method)
-#define m23380(__this, method) (( t471 * (*) (t3733 *, MethodInfo*))m17309_gshared)(__this, method)
+#include "t2684MD.h"
+#define m23274(__this, p0, method) (( void (*) (t3733 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m23275(__this, method) (( t9 * (*) (t3733 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m23276(__this, method) (( void (*) (t3733 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m23277(__this, method) (( bool (*) (t3733 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m23278(__this, method) (( t9 * (*) (t3733 *, MethodInfo*))m12826_gshared)(__this, method)

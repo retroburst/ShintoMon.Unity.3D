@@ -8,10 +8,10 @@ struct t154;
 struct t39;
 struct t2;
 
-#include "t2688MD.h"
-#define m14048(__this, p0, p1, method) (( void (*) (t154 *, t39 *, t39 *, MethodInfo*))m12929_gshared)(__this, p0, p1, method)
-#define m14049(__this, method) (( t39 * (*) (t154 *, MethodInfo*))m12930_gshared)(__this, method)
-#define m14050(__this, p0, method) (( void (*) (t154 *, t39 *, MethodInfo*))m12931_gshared)(__this, p0, method)
-#define m523(__this, method) (( t39 * (*) (t154 *, MethodInfo*))m12932_gshared)(__this, method)
-#define m14051(__this, p0, method) (( void (*) (t154 *, t39 *, MethodInfo*))m12933_gshared)(__this, p0, method)
-#define m14052(__this, method) (( t2* (*) (t154 *, MethodInfo*))m12934_gshared)(__this, method)
+#include "t2697MD.h"
+#define m14076(__this, p0, p1, method) (( void (*) (t154 *, t39 *, t39 *, MethodInfo*))m12957_gshared)(__this, p0, p1, method)
+#define m14077(__this, method) (( t39 * (*) (t154 *, MethodInfo*))m12958_gshared)(__this, method)
+#define m14078(__this, p0, method) (( void (*) (t154 *, t39 *, MethodInfo*))m12959_gshared)(__this, p0, method)
+#define m523(__this, method) (( t39 * (*) (t154 *, MethodInfo*))m12960_gshared)(__this, method)
+#define m14079(__this, p0, method) (( void (*) (t154 *, t39 *, MethodInfo*))m12961_gshared)(__this, p0, method)
+#define m14080(__this, method) (( t2* (*) (t154 *, MethodInfo*))m12962_gshared)(__this, method)

@@ -6,21 +6,16 @@
 
 struct t3154;
 struct t9;
-struct t414;
-struct t580;
-#include "t1155.h"
-#include "t3150.h"
+struct t121;
+#include "t568.h"
 
-#include "t3131MD.h"
-#define m17590(__this, p0, method) (( void (*) (t3154 *, t580 *, MethodInfo*))m17310_gshared)(__this, p0, method)
-#define m17591(__this, method) (( t9 * (*) (t3154 *, MethodInfo*))m17311_gshared)(__this, method)
-#define m17592(__this, method) (( t1155  (*) (t3154 *, MethodInfo*))m17312_gshared)(__this, method)
-#define m17593(__this, method) (( t9 * (*) (t3154 *, MethodInfo*))m17313_gshared)(__this, method)
-#define m17594(__this, method) (( t9 * (*) (t3154 *, MethodInfo*))m17314_gshared)(__this, method)
-#define m17595(__this, method) (( bool (*) (t3154 *, MethodInfo*))m17315_gshared)(__this, method)
-#define m17596(__this, method) (( t3150  (*) (t3154 *, MethodInfo*))m17316_gshared)(__this, method)
-#define m17597(__this, method) (( t9 * (*) (t3154 *, MethodInfo*))m17317_gshared)(__this, method)
-#define m17598(__this, method) (( int32_t (*) (t3154 *, MethodInfo*))m17318_gshared)(__this, method)
-#define m17599(__this, method) (( void (*) (t3154 *, MethodInfo*))m17319_gshared)(__this, method)
-#define m17600(__this, method) (( void (*) (t3154 *, MethodInfo*))m17320_gshared)(__this, method)
-#define m17601(__this, method) (( void (*) (t3154 *, MethodInfo*))m17321_gshared)(__this, method)
+extern "C" void m17390_gshared (t3154 * __this, t121 * p0, MethodInfo* method);
+#define m17390(__this, p0, method) (( void (*) (t3154 *, t121 *, MethodInfo*))m17390_gshared)(__this, p0, method)
+extern "C" t9 * m17391_gshared (t3154 * __this, MethodInfo* method);
+#define m17391(__this, method) (( t9 * (*) (t3154 *, MethodInfo*))m17391_gshared)(__this, method)
+extern "C" void m17392_gshared (t3154 * __this, MethodInfo* method);
+#define m17392(__this, method) (( void (*) (t3154 *, MethodInfo*))m17392_gshared)(__this, method)
+extern "C" bool m17393_gshared (t3154 * __this, MethodInfo* method);
+#define m17393(__this, method) (( bool (*) (t3154 *, MethodInfo*))m17393_gshared)(__this, method)
+extern "C" t568  m17394_gshared (t3154 * __this, MethodInfo* method);
+#define m17394(__this, method) (( t568  (*) (t3154 *, MethodInfo*))m17394_gshared)(__this, method)

@@ -6,22 +6,14 @@
 
 struct t3399;
 struct t9;
-struct t2;
-struct t694;
-struct t711;
-#include "t1155.h"
-#include "t3395.h"
+struct t704;
+struct t469;
+struct t470;
+#include "t58.h"
+#include "t1164.h"
 
-#include "t2705MD.h"
-#define m20038(__this, p0, method) (( void (*) (t3399 *, t711 *, MethodInfo*))m13024_gshared)(__this, p0, method)
-#define m20039(__this, method) (( t9 * (*) (t3399 *, MethodInfo*))m13025_gshared)(__this, method)
-#define m20040(__this, method) (( t1155  (*) (t3399 *, MethodInfo*))m13026_gshared)(__this, method)
-#define m20041(__this, method) (( t9 * (*) (t3399 *, MethodInfo*))m13027_gshared)(__this, method)
-#define m20042(__this, method) (( t9 * (*) (t3399 *, MethodInfo*))m13028_gshared)(__this, method)
-#define m20043(__this, method) (( bool (*) (t3399 *, MethodInfo*))m13029_gshared)(__this, method)
-#define m20044(__this, method) (( t3395  (*) (t3399 *, MethodInfo*))m13030_gshared)(__this, method)
-#define m20045(__this, method) (( t2* (*) (t3399 *, MethodInfo*))m13031_gshared)(__this, method)
-#define m20046(__this, method) (( t694 * (*) (t3399 *, MethodInfo*))m13032_gshared)(__this, method)
-#define m20047(__this, method) (( void (*) (t3399 *, MethodInfo*))m13033_gshared)(__this, method)
-#define m20048(__this, method) (( void (*) (t3399 *, MethodInfo*))m13034_gshared)(__this, method)
-#define m20049(__this, method) (( void (*) (t3399 *, MethodInfo*))m13035_gshared)(__this, method)
+#include "t2974MD.h"
+#define m19991(__this, p0, p1, method) (( void (*) (t3399 *, t9 *, t58, MethodInfo*))m15618_gshared)(__this, p0, p1, method)
+#define m19992(__this, p0, p1, method) (( t1164  (*) (t3399 *, int32_t, t704 *, MethodInfo*))m15619_gshared)(__this, p0, p1, method)
+#define m19993(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3399 *, int32_t, t704 *, t470 *, t9 *, MethodInfo*))m15620_gshared)(__this, p0, p1, p2, p3, method)
+#define m19994(__this, p0, method) (( t1164  (*) (t3399 *, t9 *, MethodInfo*))m15621_gshared)(__this, p0, method)

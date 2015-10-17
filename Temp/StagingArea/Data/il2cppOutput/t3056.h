@@ -1,6 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t3055;
+struct t630;
 struct t9;
 #include "t9.h"
 struct  t3056  : public t9

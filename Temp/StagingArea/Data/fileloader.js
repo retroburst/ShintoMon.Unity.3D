@@ -26,8 +26,8 @@ Module.expectedDataFileDownloads++;
     var REMOTE_PACKAGE_NAME = typeof Module['locateFile'] === 'function' ?
                               Module['locateFile'](REMOTE_PACKAGE_BASE) :
                               ((Module['filePackagePrefixURL'] || '') + REMOTE_PACKAGE_BASE);
-    var REMOTE_PACKAGE_SIZE = 37820717;
-    var PACKAGE_UUID = '3e4b8f82-9c61-4815-914b-1690e3daf1cf';
+    var REMOTE_PACKAGE_SIZE = 41201773;
+    var PACKAGE_UUID = '825d8638-2df3-4a61-8b2c-c33fa5ad1eca';
   
     function fetchRemotePackage(packageName, packageSize, callback, errback) {
       var xhr = new XMLHttpRequest();
@@ -125,12 +125,12 @@ Module['FS_createPath']('/', 'Resources', true, true);
         this.requests[this.name] = null;
       },
     };
-      new DataRequest(0, 245300, 0, 0).open('GET', '/mainData');
-    new DataRequest(245300, 245795, 0, 0).open('GET', '/methods_pointedto_by_uievents.xml');
-    new DataRequest(245795, 28125743, 0, 0).open('GET', '/sharedassets0.assets');
-    new DataRequest(28125743, 35705837, 0, 0).open('GET', '/sharedassets0.resource');
-    new DataRequest(35705837, 37280873, 0, 0).open('GET', '/Resources/unity_default_resources');
-    new DataRequest(37280873, 37820717, 0, 0).open('GET', '/Resources/unity_builtin_extra');
+      new DataRequest(0, 245484, 0, 0).open('GET', '/mainData');
+    new DataRequest(245484, 245979, 0, 0).open('GET', '/methods_pointedto_by_uievents.xml');
+    new DataRequest(245979, 31506799, 0, 0).open('GET', '/sharedassets0.assets');
+    new DataRequest(31506799, 39086893, 0, 0).open('GET', '/sharedassets0.resource');
+    new DataRequest(39086893, 40661929, 0, 0).open('GET', '/Resources/unity_default_resources');
+    new DataRequest(40661929, 41201773, 0, 0).open('GET', '/Resources/unity_builtin_extra');
 
     function processPackageData(arrayBuffer) {
       Module.finishedDataFileDownloads++;

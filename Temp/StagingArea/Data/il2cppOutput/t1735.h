@@ -1,33 +1,23 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t1736;
-struct t2;
-struct t1737;
-struct t723;
-struct t126;
-struct t1649;
-#include "t1336.h"
-#include "t1738.h"
-struct  t1735  : public t1336
+struct t729;
+struct t298;
+struct t730;
+struct t312;
+struct t1735;
+#include "t1370.h"
+struct  t1735  : public t1370
 {
-	t1736* f10;
-	t2* f11;
-	t2* f12;
-	t1737* f13;
-	t2* f14;
-	t2* f15;
-	uint32_t f16;
-	int32_t f17;
-	uint32_t f18;
-	bool f19;
-	t723* f20;
-	t126 * f21;
-	t126 * f22;
-	t126 * f23;
-	t126 * f24;
-	bool f25;
-	bool f26;
-	t1649 * f27;
-	bool f28;
-	t2* f29;
+	t729 * f2;
+	t298 * f3;
+	bool f4;
+	t730* f5;
+	int32_t f6;
+	t312* f7;
+	int32_t f8;
+	bool f9;
+	bool f10;
+};
+struct t1735_SFs{
+	t1735 * f11;
 };

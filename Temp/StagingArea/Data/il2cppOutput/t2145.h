@@ -1,34 +1,10 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t117.h"
-#pragma pack(push, tp, 1)
-struct  t2145 
+struct t2145;
+#include "t9.h"
+struct  t2145  : public t9
 {
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t t2145__padding[16];
-	};
 };
-#pragma pack(pop, tp)
-// Native definition for marshalling of: <PrivateImplementationDetails>/$ArrayType$16
-#pragma pack(push, tp, 1)
-struct t2145_marshaled
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t t2145__padding[16];
-	};
+struct t2145_SFs{
+	t2145 * f0;
 };
-#pragma pack(pop, tp)

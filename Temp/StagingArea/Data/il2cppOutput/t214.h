@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 struct t232;
-struct t245;
+struct t246;
 struct t226;
 #include "t9.h"
 struct  t214  : public t9
 {
 	int32_t f1;
-	t245* f2;
+	t246* f2;
 	t226 * f3;
 	t226 * f4;
 	float f5;

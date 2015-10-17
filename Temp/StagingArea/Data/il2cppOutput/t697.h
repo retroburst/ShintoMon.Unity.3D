@@ -1,11 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t698;
-struct t693;
-#include "t9.h"
-struct  t697  : public t9
+struct t469;
+struct t470;
+struct t9;
+#include "t122.h"
+#include "t125.h"
+#include "t471.h"
+extern TypeInfo t125_TI;
+struct  t697  : public t471
 {
-	t698 * f0;
-	t693 * f1;
-	t698 * f2;
 };

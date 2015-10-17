@@ -6,4 +6,4 @@
 
 struct t248;
 
-extern "C" void m856 (t248 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m855 (t248 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

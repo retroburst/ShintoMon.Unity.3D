@@ -5,6 +5,8 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t1517;
-struct t9;
+struct t1517_marshaled;
 
-extern "C" void m6867 (t9 * __this , t9 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+void t1517_marshal(const t1517& unmarshaled, t1517_marshaled& marshaled);
+void t1517_marshal_back(const t1517_marshaled& marshaled, t1517& unmarshaled);
+void t1517_marshal_cleanup(t1517_marshaled& marshaled);

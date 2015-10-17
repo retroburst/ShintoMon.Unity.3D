@@ -1,12 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t117.h"
-#include "t123.h"
-struct  t714 
+#include "t9.h"
+#include "t28.h"
+struct  t714  : public t9
 {
 };
 struct t714_SFs{
-	float f0;
-	float f1;
-	bool f2;
+	int32_t f0;
+	int32_t f1;
+	t28  f2;
+	bool f3;
 };

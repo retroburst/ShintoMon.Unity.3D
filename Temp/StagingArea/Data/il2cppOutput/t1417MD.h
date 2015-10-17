@@ -5,8 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t1417;
-struct t1404;
-struct t723;
+struct t9;
+struct t1409;
+struct t469;
+struct t470;
+#include "t58.h"
+#include "t1414.h"
 
-extern "C" t1404 * m6163 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t723* m6164 (t9 * __this , int32_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m6865 (t1417 * __this, t9 * p0, t58 p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m6866 (t1417 * __this, t1409 * p0, int32_t p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool pinvoke_delegate_wrapper_t1417(Il2CppObject* delegate, t1409 * p0, int32_t p1);
+extern "C" t9 * m6867 (t1417 * __this, t1409 * p0, int32_t p1, t470 * p2, t9 * p3, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m6868 (t1417 * __this, t9 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;

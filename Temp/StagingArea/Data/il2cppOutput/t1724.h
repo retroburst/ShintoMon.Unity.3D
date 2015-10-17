@@ -1,15 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
+struct t730;
+struct t469;
+struct t470;
 struct t9;
-struct t138;
-struct t1476;
-#include "t9.h"
-struct  t1724  : public t9
+#include "t122.h"
+#include "t125.h"
+#include "t471.h"
+extern TypeInfo t125_TI;
+struct  t1724  : public t471
 {
-	t9 * f0;
-	bool f1;
-	bool f2;
-	t138 * f3;
-	int32_t f4;
-	t1476 * f5;
 };

@@ -1,8 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t8.h"
-#include "t2141.h"
-struct  t2141 
+#include "t1436.h"
+struct  t2141  : public t1436
 {
-	uint8_t f1;
 };

@@ -6,26 +6,13 @@
 
 struct t3254;
 struct t9;
-struct t440;
-struct t429;
-struct t4033;
-struct t121;
-struct t76;
-struct t3211;
-#include "t3255.h"
+struct t436;
+struct t469;
+struct t470;
+#include "t58.h"
 
-#include "t2703MD.h"
-#define m18639(__this, p0, method) (( void (*) (t3254 *, t440 *, MethodInfo*))m13005_gshared)(__this, p0, method)
-#define m18640(__this, p0, method) (( void (*) (t3254 *, t429 *, MethodInfo*))m13006_gshared)(__this, p0, method)
-#define m18641(__this, method) (( void (*) (t3254 *, MethodInfo*))m13007_gshared)(__this, method)
-#define m18642(__this, p0, method) (( bool (*) (t3254 *, t429 *, MethodInfo*))m13008_gshared)(__this, p0, method)
-#define m18643(__this, p0, method) (( bool (*) (t3254 *, t429 *, MethodInfo*))m13009_gshared)(__this, p0, method)
-#define m18644(__this, method) (( t9* (*) (t3254 *, MethodInfo*))m13010_gshared)(__this, method)
-#define m18645(__this, p0, p1, method) (( void (*) (t3254 *, t121 *, int32_t, MethodInfo*))m13011_gshared)(__this, p0, p1, method)
-#define m18646(__this, method) (( t9 * (*) (t3254 *, MethodInfo*))m13012_gshared)(__this, method)
-#define m18647(__this, method) (( bool (*) (t3254 *, MethodInfo*))m13013_gshared)(__this, method)
-#define m18648(__this, method) (( bool (*) (t3254 *, MethodInfo*))m13014_gshared)(__this, method)
-#define m18649(__this, method) (( t9 * (*) (t3254 *, MethodInfo*))m13015_gshared)(__this, method)
-#define m18650(__this, p0, p1, method) (( void (*) (t3254 *, t3211*, int32_t, MethodInfo*))m13016_gshared)(__this, p0, p1, method)
-#define m18651(__this, method) (( t3255  (*) (t3254 *, MethodInfo*))m13017_gshared)(__this, method)
-#define m18652(__this, method) (( int32_t (*) (t3254 *, MethodInfo*))m13018_gshared)(__this, method)
+#include "t292MD.h"
+#define m18477(__this, p0, p1, method) (( void (*) (t3254 *, t9 *, t58, MethodInfo*))m13552_gshared)(__this, p0, p1, method)
+#define m18478(__this, p0, method) (( void (*) (t3254 *, t436 *, MethodInfo*))m13553_gshared)(__this, p0, method)
+#define m18479(__this, p0, p1, p2, method) (( t9 * (*) (t3254 *, t436 *, t470 *, t9 *, MethodInfo*))m13554_gshared)(__this, p0, p1, p2, method)
+#define m18480(__this, p0, method) (( void (*) (t3254 *, t9 *, MethodInfo*))m13555_gshared)(__this, p0, method)

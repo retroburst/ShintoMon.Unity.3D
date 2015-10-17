@@ -6,14 +6,16 @@
 
 struct t3401;
 struct t9;
-struct t694;
-struct t2;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t121;
+#include "t3400.h"
 
-#include "t2706MD.h"
-#define m20072(__this, p0, p1, method) (( void (*) (t3401 *, t9 *, t58, MethodInfo*))m13036_gshared)(__this, p0, p1, method)
-#define m20073(__this, p0, p1, method) (( t694 * (*) (t3401 *, t2*, t694 *, MethodInfo*))m13037_gshared)(__this, p0, p1, method)
-#define m20074(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3401 *, t2*, t694 *, t463 *, t9 *, MethodInfo*))m13038_gshared)(__this, p0, p1, p2, p3, method)
-#define m20075(__this, p0, method) (( t694 * (*) (t3401 *, t9 *, MethodInfo*))m13039_gshared)(__this, p0, method)
+extern "C" void m19923_gshared (t3401 * __this, t121 * p0, MethodInfo* method);
+#define m19923(__this, p0, method) (( void (*) (t3401 *, t121 *, MethodInfo*))m19923_gshared)(__this, p0, method)
+extern "C" t9 * m19924_gshared (t3401 * __this, MethodInfo* method);
+#define m19924(__this, method) (( t9 * (*) (t3401 *, MethodInfo*))m19924_gshared)(__this, method)
+extern "C" void m19925_gshared (t3401 * __this, MethodInfo* method);
+#define m19925(__this, method) (( void (*) (t3401 *, MethodInfo*))m19925_gshared)(__this, method)
+extern "C" bool m19926_gshared (t3401 * __this, MethodInfo* method);
+#define m19926(__this, method) (( bool (*) (t3401 *, MethodInfo*))m19926_gshared)(__this, method)
+extern "C" t3400  m19927_gshared (t3401 * __this, MethodInfo* method);
+#define m19927(__this, method) (( t3400  (*) (t3401 *, MethodInfo*))m19927_gshared)(__this, method)

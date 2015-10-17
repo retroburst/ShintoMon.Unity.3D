@@ -1,10 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t395;
-struct t392;
-#include "t335.h"
-struct  t394  : public t335
+#include "t345.h"
+struct  t394  : public t345
 {
-	t395 * f10;
-	t392 * f11;
 };

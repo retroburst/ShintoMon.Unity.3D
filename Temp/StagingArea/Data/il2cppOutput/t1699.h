@@ -1,8 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t1690.h"
-#include "t1700.h"
-struct  t1699  : public t1690
+struct t221;
+#include "t9.h"
+struct  t1699  : public t9
 {
-	int32_t f4;
+	bool f0;
+	int32_t f1;
+	t221* f2;
+	t221* f3;
 };

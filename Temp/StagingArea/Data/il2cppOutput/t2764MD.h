@@ -7,10 +7,15 @@
 struct t2764;
 struct t9;
 struct t121;
+#include "t141.h"
 
-#include "t2765MD.h"
-#define m13549(__this, p0, method) (( void (*) (t2764 *, t121 *, MethodInfo*))m13550_gshared)(__this, p0, method)
-#define m13551(__this, method) (( t9 * (*) (t2764 *, MethodInfo*))m13552_gshared)(__this, method)
-#define m13553(__this, method) (( void (*) (t2764 *, MethodInfo*))m13554_gshared)(__this, method)
-#define m13555(__this, method) (( bool (*) (t2764 *, MethodInfo*))m13556_gshared)(__this, method)
-#define m13557(__this, method) (( uint16_t (*) (t2764 *, MethodInfo*))m13558_gshared)(__this, method)
+extern "C" void m13403_gshared (t2764 * __this, t121 * p0, MethodInfo* method);
+#define m13403(__this, p0, method) (( void (*) (t2764 *, t121 *, MethodInfo*))m13403_gshared)(__this, p0, method)
+extern "C" t9 * m13404_gshared (t2764 * __this, MethodInfo* method);
+#define m13404(__this, method) (( t9 * (*) (t2764 *, MethodInfo*))m13404_gshared)(__this, method)
+extern "C" void m13405_gshared (t2764 * __this, MethodInfo* method);
+#define m13405(__this, method) (( void (*) (t2764 *, MethodInfo*))m13405_gshared)(__this, method)
+extern "C" bool m13406_gshared (t2764 * __this, MethodInfo* method);
+#define m13406(__this, method) (( bool (*) (t2764 *, MethodInfo*))m13406_gshared)(__this, method)
+extern "C" t141  m13407_gshared (t2764 * __this, MethodInfo* method);
+#define m13407(__this, method) (( t141  (*) (t2764 *, MethodInfo*))m13407_gshared)(__this, method)

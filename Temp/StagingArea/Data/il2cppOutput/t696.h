@@ -1,10 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t9;
 #include "t9.h"
-#include "t705.h"
+#include "t441.h"
+#include "t28.h"
 struct  t696  : public t9
 {
-	int32_t f0;
-	t9 * f1;
+	t441  f0;
+	t441  f1;
+	t441  f2;
+	t28  f3;
+	bool f4;
+	bool f5;
 };

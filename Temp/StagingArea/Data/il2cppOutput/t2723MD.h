@@ -6,12 +6,12 @@
 
 struct t2723;
 struct t9;
-struct t2;
-struct t29;
+struct t2420;
+struct t121;
 
-#include "t2704MD.h"
-#define m13146(__this, p0, method) (( void (*) (t2723 *, t29 *, MethodInfo*))m13019_gshared)(__this, p0, method)
-#define m13147(__this, method) (( t9 * (*) (t2723 *, MethodInfo*))m13020_gshared)(__this, method)
-#define m13148(__this, method) (( void (*) (t2723 *, MethodInfo*))m13021_gshared)(__this, method)
-#define m13149(__this, method) (( bool (*) (t2723 *, MethodInfo*))m13022_gshared)(__this, method)
-#define m13150(__this, method) (( t2* (*) (t2723 *, MethodInfo*))m13023_gshared)(__this, method)
+#include "t2684MD.h"
+#define m13121(__this, p0, method) (( void (*) (t2723 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m13122(__this, method) (( t9 * (*) (t2723 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m13123(__this, method) (( void (*) (t2723 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m13124(__this, method) (( bool (*) (t2723 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m13125(__this, method) (( t9 * (*) (t2723 *, MethodInfo*))m12826_gshared)(__this, method)

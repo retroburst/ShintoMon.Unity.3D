@@ -6,12 +6,15 @@
 
 struct t3908;
 struct t9;
-struct t137;
-struct t121;
+struct t469;
+struct t470;
+#include "t58.h"
 
-#include "t2675MD.h"
-#define m24656(__this, p0, method) (( void (*) (t3908 *, t121 *, MethodInfo*))m12790_gshared)(__this, p0, method)
-#define m24657(__this, method) (( t9 * (*) (t3908 *, MethodInfo*))m12792_gshared)(__this, method)
-#define m24658(__this, method) (( void (*) (t3908 *, MethodInfo*))m12794_gshared)(__this, method)
-#define m24659(__this, method) (( bool (*) (t3908 *, MethodInfo*))m12796_gshared)(__this, method)
-#define m24660(__this, method) (( t9 * (*) (t3908 *, MethodInfo*))m12798_gshared)(__this, method)
+extern "C" void m24603_gshared (t3908 * __this, t9 * p0, t58 p1, MethodInfo* method);
+#define m24603(__this, p0, p1, method) (( void (*) (t3908 *, t9 *, t58, MethodInfo*))m24603_gshared)(__this, p0, p1, method)
+extern "C" t9 * m24604_gshared (t3908 * __this, t9 * p0, MethodInfo* method);
+#define m24604(__this, p0, method) (( t9 * (*) (t3908 *, t9 *, MethodInfo*))m24604_gshared)(__this, p0, method)
+extern "C" t9 * m24605_gshared (t3908 * __this, t9 * p0, t470 * p1, t9 * p2, MethodInfo* method);
+#define m24605(__this, p0, p1, p2, method) (( t9 * (*) (t3908 *, t9 *, t470 *, t9 *, MethodInfo*))m24605_gshared)(__this, p0, p1, p2, method)
+extern "C" t9 * m24606_gshared (t3908 * __this, t9 * p0, MethodInfo* method);
+#define m24606(__this, p0, method) (( t9 * (*) (t3908 *, t9 *, MethodInfo*))m24606_gshared)(__this, p0, method)

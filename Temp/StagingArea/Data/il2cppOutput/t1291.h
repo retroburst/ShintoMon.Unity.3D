@@ -1,16 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t117.h"
-struct  t1291 
+struct t1170;
+#include "t9.h"
+struct  t1291  : public t9
 {
-	int32_t f0;
-	int32_t f1;
-	bool f2;
-};
-// Native definition for marshalling of: System.Text.RegularExpressions.Interval
-struct t1291_marshaled
-{
-	int32_t f0;
-	int32_t f1;
-	int32_t f2;
+	t1170 * f0;
 };

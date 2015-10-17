@@ -5,9 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3520;
-struct t784;
+struct t9;
+struct t2211;
+struct t121;
 
-#include "t2718MD.h"
-#define m21420(__this, method) (( void (*) (t3520 *, MethodInfo*))m13113_gshared)(__this, method)
-#define m21421(__this, p0, method) (( int32_t (*) (t3520 *, t784 *, MethodInfo*))m13114_gshared)(__this, p0, method)
-#define m21422(__this, p0, p1, method) (( bool (*) (t3520 *, t784 *, t784 *, MethodInfo*))m13115_gshared)(__this, p0, p1, method)
+#include "t2684MD.h"
+#define m21311(__this, p0, method) (( void (*) (t3520 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m21312(__this, method) (( t9 * (*) (t3520 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m21313(__this, method) (( void (*) (t3520 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m21314(__this, method) (( bool (*) (t3520 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m21315(__this, method) (( t9* (*) (t3520 *, MethodInfo*))m12826_gshared)(__this, method)

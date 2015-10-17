@@ -1,13 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t9.h"
-#include "t58.h"
-struct  t688  : public t9
+#include "t8.h"
+#include "t688.h"
+struct  t688 
 {
-	t58 f0;
-};
-// Native definition for marshalling of: UnityEngine.Gradient
-struct t688_marshaled
-{
-	t58 f0;
+	int32_t f1;
 };

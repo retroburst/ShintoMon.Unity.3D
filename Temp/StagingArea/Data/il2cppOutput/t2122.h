@@ -1,9 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t9.h"
-struct  t2122  : public t9
+#include "t1369.h"
+struct  t2122  : public t1369
 {
-};
-struct t2122_SFs{
-	bool f0;
 };

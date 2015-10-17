@@ -5,14 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t564;
-struct t565;
-#include "t28.h"
-#include "t561.h"
+struct t9;
+struct t5;
+struct t402;
 
-extern "C" void m3715 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m3716 (t9 * __this , t28  p0, t28  p1, float p2, int32_t p3, float p4, float p5, t561 * p6, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m3717 (t9 * __this , t28 * p0, t28 * p1, float p2, int32_t p3, float p4, float p5, t561 * p6, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t561  m2627 (t9 * __this , t28  p0, t28  p1, float p2, int32_t p3, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t561  m3718 (t9 * __this , t28  p0, t28  p1, float p2, int32_t p3, float p4, float p5, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t565* m2523 (t9 * __this , t28  p0, t28  p1, float p2, int32_t p3, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t565* m3719 (t9 * __this , t28 * p0, t28 * p1, float p2, int32_t p3, float p4, float p5, MethodInfo* method) IL2CPP_METHOD_ATTR;
+#include "t2982MD.h"
+#define m17207(__this, p0, method) (( void (*) (t564 *, t402 *, MethodInfo*))m15609_gshared)(__this, p0, method)
+#define m17208(__this, method) (( t9 * (*) (t564 *, MethodInfo*))m15610_gshared)(__this, method)
+#define m17209(__this, method) (( void (*) (t564 *, MethodInfo*))m15611_gshared)(__this, method)
+#define m2520(__this, method) (( bool (*) (t564 *, MethodInfo*))m15612_gshared)(__this, method)
+#define m2519(__this, method) (( t5 * (*) (t564 *, MethodInfo*))m15613_gshared)(__this, method)

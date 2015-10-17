@@ -6,13 +6,10 @@
 
 struct t3338;
 struct t9;
-struct t508;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t578;
 
-#include "t2770MD.h"
-#define m19430(__this, p0, p1, method) (( void (*) (t3338 *, t9 *, t58, MethodInfo*))m13579_gshared)(__this, p0, p1, method)
-#define m19431(__this, p0, p1, method) (( int32_t (*) (t3338 *, t508 *, t508 *, MethodInfo*))m13580_gshared)(__this, p0, p1, method)
-#define m19432(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3338 *, t508 *, t508 *, t463 *, t9 *, MethodInfo*))m13581_gshared)(__this, p0, p1, p2, p3, method)
-#define m19433(__this, p0, method) (( int32_t (*) (t3338 *, t9 *, MethodInfo*))m13582_gshared)(__this, p0, method)
+#include "t2768MD.h"
+#define m19301(__this, method) (( void (*) (t3338 *, MethodInfo*))m13556_gshared)(__this, method)
+#define m19302(__this , method) (( void (*) (t9 * , MethodInfo*))m13557_gshared)(__this , method)
+#define m19303(__this, p0, p1, method) (( int32_t (*) (t3338 *, t9 *, t9 *, MethodInfo*))m13558_gshared)(__this, p0, p1, method)
+#define m19304(__this , method) (( t3338 * (*) (t9 * , MethodInfo*))m13559_gshared)(__this , method)

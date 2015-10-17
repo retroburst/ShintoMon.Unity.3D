@@ -1,8 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t2;
-#include "t1360.h"
-struct  t556  : public t1360
+#include "t557.h"
+struct  t556  : public t557
 {
-	t2* f12;
 };

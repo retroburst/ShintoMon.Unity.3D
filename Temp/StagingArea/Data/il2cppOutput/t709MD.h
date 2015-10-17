@@ -5,13 +5,20 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t709;
-struct t9;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t701;
+struct t537;
+struct t708;
+struct t2;
 
-extern "C" void m3241 (t709 * __this, t9 * p0, t58 p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m3242 (t709 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_t709(Il2CppObject* delegate);
-extern "C" t9 * m3243 (t709 * __this, t463 * p0, t9 * p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m3244 (t709 * __this, t9 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3225 (t709 * __this, float p0, float p1, float p2, float p3, t701 * p4, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3226 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t701 * m3227 (t709 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3228 (t709 * __this, t701 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t537 * m3229 (t709 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3230 (t709 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3231 (t709 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3232 (t709 * __this, float p0, float p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3233 (t709 * __this, float p0, float p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3234 (t709 * __this, t701 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3235 (t709 * __this, t708* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m3236 (t709 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

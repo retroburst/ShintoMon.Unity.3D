@@ -5,15 +5,12 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t354;
-struct t9;
-struct t371;
-struct t336;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t134;
+#include "t28.h"
+#include "t391.h"
 
-#include "t554MD.h"
-#define m2422(__this, p0, p1, method) (( void (*) (t354 *, t9 *, t58, MethodInfo*))m16013_gshared)(__this, p0, p1, method)
-#define m16862(__this, p0, p1, method) (( void (*) (t354 *, t9 *, t336 *, MethodInfo*))m16015_gshared)(__this, p0, p1, method)
-#define m16863(__this, p0, p1, p2, p3, method) (( t9 * (*) (t354 *, t9 *, t336 *, t463 *, t9 *, MethodInfo*))m16017_gshared)(__this, p0, p1, p2, p3, method)
-#define m16864(__this, p0, method) (( void (*) (t354 *, t9 *, MethodInfo*))m16019_gshared)(__this, p0, method)
+extern "C" void m1341 (t354 * __this, t134 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t28  m1342 (t354 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m1343 (t354 * __this, t28  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m1344 (t354 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m1345 (t354 * __this, int32_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;

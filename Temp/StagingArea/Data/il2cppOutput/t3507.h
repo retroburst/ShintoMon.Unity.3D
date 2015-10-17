@@ -1,8 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t117.h"
-#include "t3504.h"
-struct  t3507 
+struct t469;
+struct t470;
+struct t9;
+#include "t593.h"
+#include "t471.h"
+extern TypeInfo t593_TI;
+struct  t3507  : public t471
 {
-	t3504  f0;
 };

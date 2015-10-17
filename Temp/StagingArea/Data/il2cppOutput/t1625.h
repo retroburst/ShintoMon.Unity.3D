@@ -1,20 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t2;
-struct t1518;
-struct t9;
-#include "t9.h"
-struct  t1625  : public t9
+#include "t8.h"
+#include "t1625.h"
+struct  t1625 
 {
-	t1518 * f4;
-	t2* f5;
-	t2* f6;
-	t2* f7;
-};
-struct t1625_SFs{
-	bool f0;
-	t2* f1;
-	bool f2;
-	t2* f3;
-	t9 * f8;
+	int32_t f1;
 };

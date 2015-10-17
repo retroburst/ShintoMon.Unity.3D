@@ -1,13 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t9;
-struct t280;
-#include "t9.h"
-struct  t408  : public t9
+#include "t409.h"
+struct  t408  : public t409
 {
-	float f0;
-	float f1;
-	int32_t f2;
-	t9 * f3;
-	t280 * f4;
 };

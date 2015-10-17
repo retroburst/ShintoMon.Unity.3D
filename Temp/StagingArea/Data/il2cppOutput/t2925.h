@@ -1,10 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t2925;
-#include "t9.h"
-struct  t2925  : public t9
+struct t469;
+struct t470;
+struct t9;
+#include "t122.h"
+#include "t303.h"
+#include "t471.h"
+extern TypeInfo t303_TI;
+struct  t2925  : public t471
 {
-};
-struct t2925_SFs{
-	t2925 * f0;
 };

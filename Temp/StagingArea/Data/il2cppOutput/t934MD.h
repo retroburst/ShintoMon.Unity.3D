@@ -5,11 +5,8 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t934;
-struct t57;
-struct t57_marshaled;
-struct t821;
-struct t158;
+struct t934_marshaled;
 
-#include "t3755MD.h"
-#define m4445(__this, p0, p1, p2, method) (( void (*) (t934 *, t57 *, t821 *, bool, MethodInfo*))m23488_gshared)(__this, p0, p1, p2, method)
-#define m23489(__this, p0, method) (( void (*) (t934 *, t158*, MethodInfo*))m23490_gshared)(__this, p0, method)
+void t934_marshal(const t934& unmarshaled, t934_marshaled& marshaled);
+void t934_marshal_back(const t934_marshaled& marshaled, t934& unmarshaled);
+void t934_marshal_cleanup(t934_marshaled& marshaled);

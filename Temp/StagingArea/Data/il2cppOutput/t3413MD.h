@@ -6,13 +6,11 @@
 
 struct t3413;
 struct t9;
-struct t2;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t704;
 
-#include "t3132MD.h"
-#define m20191(__this, p0, p1, method) (( void (*) (t3413 *, t9 *, t58, MethodInfo*))m17322_gshared)(__this, p0, p1, method)
-#define m20192(__this, p0, p1, method) (( t2* (*) (t3413 *, t2*, int32_t, MethodInfo*))m17323_gshared)(__this, p0, p1, method)
-#define m20193(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3413 *, t2*, int32_t, t463 *, t9 *, MethodInfo*))m17324_gshared)(__this, p0, p1, p2, p3, method)
-#define m20194(__this, p0, method) (( t2* (*) (t3413 *, t9 *, MethodInfo*))m17325_gshared)(__this, p0, method)
+#include "t2175MD.h"
+#define m20009(__this, method) (( void (*) (t3413 *, MethodInfo*))m13106_gshared)(__this, method)
+#define m20010(__this , method) (( void (*) (t9 * , MethodInfo*))m13107_gshared)(__this , method)
+#define m20011(__this, p0, method) (( int32_t (*) (t3413 *, t9 *, MethodInfo*))m13108_gshared)(__this, p0, method)
+#define m20012(__this, p0, p1, method) (( bool (*) (t3413 *, t9 *, t9 *, MethodInfo*))m13109_gshared)(__this, p0, p1, method)
+#define m20013(__this , method) (( t3413 * (*) (t9 * , MethodInfo*))m13110_gshared)(__this , method)

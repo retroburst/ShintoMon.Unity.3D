@@ -1,27 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t1088;
-struct t2506;
-struct t1998;
-struct t158;
-struct t3544;
-struct t1093;
-struct t3545;
-#include "t9.h"
-struct  t3543  : public t9
+struct t9;
+struct t469;
+struct t470;
+#include "t3533.h"
+#include "t299.h"
+#include "t471.h"
+extern TypeInfo t299_TI;
+struct  t3543  : public t471
 {
-	t1088* f4;
-	t2506* f5;
-	t1998* f6;
-	t158* f7;
-	int32_t f8;
-	int32_t f9;
-	int32_t f10;
-	int32_t f11;
-	t9* f12;
-	t1093 * f13;
-	int32_t f14;
-};
-struct t3543_SFs{
-	t3545 * f15;
 };

@@ -5,14 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t1647;
-struct t1635;
-struct t2;
-struct t723;
+struct t1650;
+struct t76;
+struct t1652;
 
-extern "C" void m8260 (t1647 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m8261 (t1647 * __this, t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m8262 (t1647 * __this, t723* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m8263 (t1647 * __this, t1635 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t1635 * m8264 (t1647 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m8265 (t1647 * __this, t1635 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t2* m8266 (t1647 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m8241 (t1647 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t9 * m8242 (t1647 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1650 * m8243 (t1647 * __this, int32_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m8244 (t1647 * __this, t1650 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1652 * m8245 (t1647 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m8246 (t1647 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

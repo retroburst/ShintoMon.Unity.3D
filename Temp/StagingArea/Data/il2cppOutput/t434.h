@@ -1,10 +1,10 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t117.h"
-struct  t434 
+struct t611;
+#include "t45.h"
+struct  t434  : public t45
 {
-	float f0;
-	float f1;
-	float f2;
-	float f3;
+};
+struct t434_SFs{
+	t611 * f2;
 };

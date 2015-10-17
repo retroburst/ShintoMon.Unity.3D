@@ -6,9 +6,18 @@
 
 struct t1292;
 struct t9;
-struct t992;
+struct t121;
+struct t76;
 
-extern "C" void m5425 (t1292 * __this, t9 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t9 * m5426 (t1292 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m5427 (t1292 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5428 (t1292 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5973 (t1292 * __this, int32_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t m8452 (t1292 * __this, int32_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m8453 (t1292 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m8454 (t1292 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m5930 (t1292 * __this, int32_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5974 (t1292 * __this, int32_t p0, bool p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m5929 (t1292 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t9 * m8455 (t1292 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m8456 (t1292 * __this, t121 * p0, int32_t p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m8457 (t1292 * __this, int32_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m8458 (t1292 * __this, int32_t p0, bool p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t9 * m8459 (t1292 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

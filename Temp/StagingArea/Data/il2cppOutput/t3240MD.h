@@ -5,13 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3240;
-struct t424;
-struct t2;
+#include "t459.h"
 
-#include "t3127MD.h"
-#define m18542(__this, p0, p1, method) (( void (*) (t3240 *, t424 *, int32_t, MethodInfo*))m17280_gshared)(__this, p0, p1, method)
-#define m18543(__this, method) (( t424 * (*) (t3240 *, MethodInfo*))m17281_gshared)(__this, method)
-#define m18544(__this, p0, method) (( void (*) (t3240 *, t424 *, MethodInfo*))m17282_gshared)(__this, p0, method)
-#define m18545(__this, method) (( int32_t (*) (t3240 *, MethodInfo*))m17283_gshared)(__this, method)
-#define m18546(__this, p0, method) (( void (*) (t3240 *, int32_t, MethodInfo*))m17284_gshared)(__this, p0, method)
-#define m18547(__this, method) (( t2* (*) (t3240 *, MethodInfo*))m17285_gshared)(__this, method)
+extern "C" void m18314_gshared (t3240 * __this, MethodInfo* method);
+#define m18314(__this, method) (( void (*) (t3240 *, MethodInfo*))m18314_gshared)(__this, method)
+extern "C" int32_t m18315_gshared (t3240 * __this, t459  p0, t459  p1, MethodInfo* method);
+#define m18315(__this, p0, p1, method) (( int32_t (*) (t3240 *, t459 , t459 , MethodInfo*))m18315_gshared)(__this, p0, p1, method)

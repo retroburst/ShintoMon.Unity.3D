@@ -6,10 +6,12 @@
 
 struct t2928;
 struct t9;
-struct t257;
+struct t469;
+struct t470;
+#include "t58.h"
 
-#include "t2759MD.h"
-#define m15195(__this, method) (( void (*) (t2928 *, MethodInfo*))m13528_gshared)(__this, method)
-#define m15196(__this , method) (( void (*) (t9 * , MethodInfo*))m13529_gshared)(__this , method)
-#define m15197(__this, p0, p1, method) (( int32_t (*) (t2928 *, t9 *, t9 *, MethodInfo*))m13530_gshared)(__this, p0, p1, method)
-#define m15198(__this , method) (( t2928 * (*) (t9 * , MethodInfo*))m13531_gshared)(__this , method)
+#include "t2919MD.h"
+#define m15076(__this, p0, p1, method) (( void (*) (t2928 *, t9 *, t58, MethodInfo*))m14935_gshared)(__this, p0, p1, method)
+#define m15077(__this, p0, p1, method) (( int32_t (*) (t2928 *, uint16_t, uint16_t, MethodInfo*))m14936_gshared)(__this, p0, p1, method)
+#define m15078(__this, p0, p1, p2, p3, method) (( t9 * (*) (t2928 *, uint16_t, uint16_t, t470 *, t9 *, MethodInfo*))m14937_gshared)(__this, p0, p1, p2, p3, method)
+#define m15079(__this, p0, method) (( int32_t (*) (t2928 *, t9 *, MethodInfo*))m14938_gshared)(__this, p0, method)

@@ -5,16 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t1973;
-struct t1425;
-struct t723;
-struct t1403;
+struct t126;
+struct t1170;
+struct t9;
+#include "t1101.h"
 
-extern "C" void m10350 (t1973 * __this, t1425 * p0, bool p1, t723* p2, t723* p3, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m10351 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" uint32_t m10352 (t1973 * __this, uint32_t p0, int32_t p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m10353 (t9 * __this , t723* p0, t723* p1, t1403* p2, bool p3, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m10354 (t9 * __this , t723* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m10355 (t1973 * __this, t723* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m10356 (t1973 * __this, t723* p0, t723* p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m10357 (t1973 * __this, t723* p0, t723* p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t723* m10358 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m10305 (t1973 * __this, t126 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m10306 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m10307 (t1973 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m10308 (t1973 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1170 * m10309 (t9 * __this , t126 * p0, t126 * p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m10310 (t9 * __this , t1170 * p0, t9 * p1, t1101  p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m10311 (t1973 * __this, t9 * p0, t1101  p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m10312 (t1973 * __this, t9 * p0, t1101  p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m10313 (t1973 * __this, t9 * p0, t1101  p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m10314 (t1973 * __this, t9 * p0, t1101  p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1973 * m10315 (t9 * __this , t126 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;

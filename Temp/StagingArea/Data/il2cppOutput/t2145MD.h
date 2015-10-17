@@ -5,8 +5,16 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t2145;
-struct t2145_marshaled;
+struct t1707;
+#include "t304.h"
+#include "t270.h"
 
-void t2145_marshal(const t2145& unmarshaled, t2145_marshaled& marshaled);
-void t2145_marshal_back(const t2145_marshaled& marshaled, t2145& unmarshaled);
-void t2145_marshal_cleanup(t2145_marshaled& marshaled);
+extern "C" void m11848 (t2145 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m11849 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2145 * m11850 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m11851 (t2145 * __this, t270  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m11852 (t9 * __this , t270  p0, t1707 * p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t270  m11853 (t2145 * __this, t270  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t270  m11854 (t2145 * __this, t270  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t304  m11855 (t2145 * __this, t270  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t304  m11856 (t2145 * __this, t270  p0, t304  p1, MethodInfo* method) IL2CPP_METHOD_ATTR;

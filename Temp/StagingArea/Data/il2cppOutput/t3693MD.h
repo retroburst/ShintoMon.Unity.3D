@@ -7,13 +7,21 @@
 struct t3693;
 struct t9;
 struct t2;
-struct t462;
-struct t463;
-#include "t58.h"
-#include "t909.h"
+struct t823;
+struct t913;
+#include "t1164.h"
+#include "t919.h"
 
-#include "t3682MD.h"
-#define m23034(__this, p0, p1, method) (( void (*) (t3693 *, t9 *, t58, MethodInfo*))m22954_gshared)(__this, p0, p1, method)
-#define m23035(__this, p0, p1, method) (( t909  (*) (t3693 *, t2*, t909 , MethodInfo*))m22955_gshared)(__this, p0, p1, method)
-#define m23036(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3693 *, t2*, t909 , t463 *, t9 *, MethodInfo*))m22956_gshared)(__this, p0, p1, p2, p3, method)
-#define m23037(__this, p0, method) (( t909  (*) (t3693 *, t9 *, MethodInfo*))m22957_gshared)(__this, p0, method)
+#include "t2714MD.h"
+#define m22929(__this, p0, method) (( void (*) (t3693 *, t913 *, MethodInfo*))m13052_gshared)(__this, p0, method)
+#define m22930(__this, method) (( t9 * (*) (t3693 *, MethodInfo*))m13053_gshared)(__this, method)
+#define m22931(__this, method) (( t1164  (*) (t3693 *, MethodInfo*))m13054_gshared)(__this, method)
+#define m22932(__this, method) (( t9 * (*) (t3693 *, MethodInfo*))m13055_gshared)(__this, method)
+#define m22933(__this, method) (( t9 * (*) (t3693 *, MethodInfo*))m13056_gshared)(__this, method)
+#define m22934(__this, method) (( bool (*) (t3693 *, MethodInfo*))m13057_gshared)(__this, method)
+#define m22935(__this, method) (( t919  (*) (t3693 *, MethodInfo*))m13058_gshared)(__this, method)
+#define m22936(__this, method) (( t2* (*) (t3693 *, MethodInfo*))m13059_gshared)(__this, method)
+#define m22937(__this, method) (( t823 * (*) (t3693 *, MethodInfo*))m13060_gshared)(__this, method)
+#define m22938(__this, method) (( void (*) (t3693 *, MethodInfo*))m13061_gshared)(__this, method)
+#define m22939(__this, method) (( void (*) (t3693 *, MethodInfo*))m13062_gshared)(__this, method)
+#define m22940(__this, method) (( void (*) (t3693 *, MethodInfo*))m13063_gshared)(__this, method)

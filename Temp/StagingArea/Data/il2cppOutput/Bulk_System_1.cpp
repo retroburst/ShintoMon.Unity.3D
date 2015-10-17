@@ -7,7 +7,7 @@
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 #include "stringLiterals.h"
-#include "t1280.h"
+#include "t1289.h"
 #include <cstring>
 #include <string.h>
 #include <stdio.h>
@@ -19,163 +19,163 @@
 #include <cmath>
 #include <limits>
 #include <assert.h>
-extern TypeInfo t1280_TI;
-#include "t1280MD.h"
+extern TypeInfo t1289_TI;
+#include "t1289MD.h"
 
 #include "t122.h"
 #include "t125.h"
-#include "t1279.h"
+#include "t1288.h"
 #include "t9.h"
-extern TypeInfo t1279_TI;
-#include "t1281MD.h"
-extern MethodInfo m5371_MI;
+extern TypeInfo t1288_TI;
+#include "t1290MD.h"
+extern MethodInfo m5399_MI;
 
 #include "t121.h"
 
-extern MethodInfo m5324_MI;
-extern "C" void m5324 (t1280 * __this, MethodInfo* method)
+extern MethodInfo m5352_MI;
+extern "C" void m5352 (t1289 * __this, MethodInfo* method)
 {
 	{
-		m5371(__this, &m5371_MI);
+		m5399(__this, &m5399_MI);
 		return;
 	}
 }
-extern MethodInfo m5325_MI;
-extern "C" void m5325 (t1280 * __this, int32_t p0, MethodInfo* method)
+extern MethodInfo m5353_MI;
+extern "C" void m5353 (t1289 * __this, int32_t p0, MethodInfo* method)
 {
 	{
-		t1279 * L_0 = &(__this->f1);
+		t1288 * L_0 = &(__this->f1);
 		int32_t L_1 = p0;
 		L_0->f0 = L_1;
 		return;
 	}
 }
-extern MethodInfo m5326_MI;
-extern "C" int32_t m5326 (t1280 * __this, MethodInfo* method)
+extern MethodInfo m5354_MI;
+extern "C" int32_t m5354 (t1289 * __this, MethodInfo* method)
 {
 	{
-		t1279 * L_0 = &(__this->f1);
+		t1288 * L_0 = &(__this->f1);
 		int32_t L_1 = (L_0->f1);
 		return L_1;
 	}
 }
-extern MethodInfo m5327_MI;
-extern "C" void m5327 (t1280 * __this, int32_t p0, MethodInfo* method)
+extern MethodInfo m5355_MI;
+extern "C" void m5355 (t1289 * __this, int32_t p0, MethodInfo* method)
 {
 	{
-		t1279 * L_0 = &(__this->f1);
+		t1288 * L_0 = &(__this->f1);
 		int32_t L_1 = p0;
 		L_0->f1 = L_1;
 		return;
 	}
 }
-extern MethodInfo m5328_MI;
-extern "C" int32_t m5328 (t1280 * __this, int32_t p0, MethodInfo* method)
+extern MethodInfo m5356_MI;
+extern "C" int32_t m5356 (t1289 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
-		t1279 * L_1 = &(__this->f1);
+		t1288 * L_1 = &(__this->f1);
 		int32_t L_2 = (L_1->f0);
 		return ((int32_t)((int32_t)L_0-(int32_t)L_2));
 	}
 }
-extern MethodInfo m5329_MI;
-extern "C" t9 * m5329 (t1280 * __this, MethodInfo* method)
+extern MethodInfo m5357_MI;
+extern "C" t9 * m5357 (t1289 * __this, MethodInfo* method)
 {
 	{
-		t1279  L_0 = (__this->f1);
-		t1279  L_1 = L_0;
-		t9 * L_2 = Box(InitializedTypeInfo(&t1279_TI), &L_1);
+		t1288  L_0 = (__this->f1);
+		t1288  L_1 = L_0;
+		t9 * L_2 = Box(InitializedTypeInfo(&t1288_TI), &L_1);
 		return L_2;
 	}
 }
-extern MethodInfo m5330_MI;
-extern "C" void m5330 (t1280 * __this, t9 * p0, MethodInfo* method)
+extern MethodInfo m5358_MI;
+extern "C" void m5358 (t1289 * __this, t9 * p0, MethodInfo* method)
 {
 	{
 		t9 * L_0 = p0;
-		__this->f1 = ((*(t1279 *)((t1279 *)UnBox (L_0, InitializedTypeInfo(&t1279_TI)))));
+		__this->f1 = ((*(t1288 *)((t1288 *)UnBox (L_0, InitializedTypeInfo(&t1288_TI)))));
 		return;
 	}
 }
-#include "t1282.h"
+#include "t1291.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1282_TI;
-#include "t1282MD.h"
+extern TypeInfo t1291_TI;
+#include "t1291MD.h"
 
-#include "t1161.h"
-#include "t302.h"
-#include "t1268.h"
-#include "t1269.h"
-#include "mscorlib_ArrayTypes.h"
-#include "t1278.h"
-#include "t168.h"
-#include "t296.h"
-#include "t124.h"
-#include "t1274.h"
-#include "t1283.h"
-#include "t2.h"
-#include "t1270.h"
+#include "t1170.h"
+#include "t309.h"
 #include "t1277.h"
-extern TypeInfo t1161_TI;
+#include "t1278.h"
+#include "mscorlib_ArrayTypes.h"
+#include "t1287.h"
+#include "t168.h"
+#include "t303.h"
+#include "t124.h"
+#include "t1283.h"
+#include "t1292.h"
+#include "t2.h"
+#include "t1279.h"
+#include "t1286.h"
+extern TypeInfo t1170_TI;
 extern TypeInfo t125_TI;
-extern TypeInfo t304_TI;
-extern TypeInfo t302_TI;
+extern TypeInfo t311_TI;
+extern TypeInfo t309_TI;
 extern TypeInfo t122_TI;
 extern TypeInfo t121_TI;
-extern TypeInfo t1278_TI;
-extern TypeInfo t296_TI;
-extern TypeInfo t1277_TI;
+extern TypeInfo t1287_TI;
+extern TypeInfo t303_TI;
+extern TypeInfo t1286_TI;
 extern TypeInfo t9_TI;
-#include "t1161MD.h"
+#include "t1170MD.h"
 #include "t9MD.h"
-#include "t1278MD.h"
-#include "t296MD.h"
-#include "t1283MD.h"
+#include "t1287MD.h"
+#include "t303MD.h"
+#include "t1292MD.h"
 #include "t2MD.h"
-extern Il2CppType t304_0_0_0;
-extern MethodInfo m5694_MI;
+extern Il2CppType t311_0_0_0;
+extern MethodInfo m5722_MI;
 extern MethodInfo m336_MI;
-extern MethodInfo m5698_MI;
-extern MethodInfo m5900_MI;
-extern MethodInfo m5315_MI;
-extern MethodInfo m5365_MI;
-extern MethodInfo m5367_MI;
+extern MethodInfo m5726_MI;
+extern MethodInfo m5928_MI;
+extern MethodInfo m5343_MI;
+extern MethodInfo m5393_MI;
+extern MethodInfo m5395_MI;
+extern MethodInfo m5392_MI;
+extern MethodInfo m5394_MI;
+extern MethodInfo m2793_MI;
+extern MethodInfo m5929_MI;
+extern MethodInfo m5930_MI;
+extern MethodInfo m2723_MI;
+extern MethodInfo m5931_MI;
+extern MethodInfo m2738_MI;
+extern MethodInfo m5397_MI;
+extern MethodInfo m5398_MI;
 extern MethodInfo m5364_MI;
-extern MethodInfo m5366_MI;
-extern MethodInfo m2769_MI;
-extern MethodInfo m5901_MI;
-extern MethodInfo m5902_MI;
-extern MethodInfo m2699_MI;
-extern MethodInfo m5903_MI;
-extern MethodInfo m2714_MI;
-extern MethodInfo m5369_MI;
-extern MethodInfo m5370_MI;
-extern MethodInfo m5336_MI;
-extern MethodInfo m5361_MI;
-extern MethodInfo m5368_MI;
-extern MethodInfo m5904_MI;
-extern MethodInfo m5373_MI;
-extern MethodInfo m5332_MI;
-extern MethodInfo m5709_MI;
-extern MethodInfo m5372_MI;
+extern MethodInfo m5389_MI;
+extern MethodInfo m5396_MI;
+extern MethodInfo m5932_MI;
+extern MethodInfo m5401_MI;
+extern MethodInfo m5360_MI;
+extern MethodInfo m5737_MI;
+extern MethodInfo m5400_MI;
 
 
-extern MethodInfo m5331_MI;
-extern "C" void m5331 (t1282 * __this, MethodInfo* method)
+extern MethodInfo m5359_MI;
+extern "C" void m5359 (t1291 * __this, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1161_TI));
-		t1161 * L_0 = (t1161 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1161_TI));
-		m5698(L_0, &m5698_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1170_TI));
+		t1170 * L_0 = (t1170 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1170_TI));
+		m5726(L_0, &m5726_MI);
 		__this->f0 = L_0;
 		return;
 	}
 }
-extern "C" uint16_t m5332 (t9 * __this , uint16_t p0, uint16_t p1, MethodInfo* method)
+extern "C" uint16_t m5360 (t9 * __this , uint16_t p0, uint16_t p1, MethodInfo* method)
 {
 	{
 		uint16_t L_0 = p0;
@@ -183,68 +183,68 @@ extern "C" uint16_t m5332 (t9 * __this , uint16_t p0, uint16_t p1, MethodInfo* m
 		return (((uint16_t)((int32_t)((int32_t)L_0|(int32_t)((int32_t)((int32_t)L_1&(int32_t)((int32_t)65280)))))));
 	}
 }
-extern MethodInfo m5333_MI;
-extern TypeInfo* t304_TI_var;
-extern "C" t9 * m5333 (t1282 * __this, MethodInfo* method)
+extern MethodInfo m5361_MI;
+extern TypeInfo* t311_TI_var;
+extern "C" t9 * m5361 (t1291 * __this, MethodInfo* method)
 {
-	static bool m5333_init;
-	if (!m5333_init)
+	static bool m5361_init;
+	if (!m5361_init)
 	{
-		t304_TI_var = il2cpp_codegen_class_from_type(&t304_0_0_0);
-		m5333_init = true;
+		t311_TI_var = il2cpp_codegen_class_from_type(&t311_0_0_0);
+		m5361_init = true;
 	}
-	t304* V_0 = {0};
+	t311* V_0 = {0};
 	{
-		t1161 * L_0 = (__this->f0);
-		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5694_MI, L_0);
-		V_0 = ((t304*)SZArrayNew(t304_TI_var, L_1));
-		t1161 * L_2 = (__this->f0);
-		t304* L_3 = V_0;
-		VirtActionInvoker1< t121 * >::Invoke(&m5900_MI, L_2, (t121 *)(t121 *)L_3);
-		t304* L_4 = V_0;
-		t1278 * L_5 = (t1278 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1278_TI));
-		m5315(L_5, L_4, &m5315_MI);
+		t1170 * L_0 = (__this->f0);
+		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5722_MI, L_0);
+		V_0 = ((t311*)SZArrayNew(t311_TI_var, L_1));
+		t1170 * L_2 = (__this->f0);
+		t311* L_3 = V_0;
+		VirtActionInvoker1< t121 * >::Invoke(&m5928_MI, L_2, (t121 *)(t121 *)L_3);
+		t311* L_4 = V_0;
+		t1287 * L_5 = (t1287 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1287_TI));
+		m5343(L_5, L_4, &m5343_MI);
 		return L_5;
 	}
 }
-extern MethodInfo m5334_MI;
-extern "C" void m5334 (t1282 * __this, MethodInfo* method)
+extern MethodInfo m5362_MI;
+extern "C" void m5362 (t1291 * __this, MethodInfo* method)
 {
 	{
-		m5365(__this, 0, &m5365_MI);
+		m5393(__this, 0, &m5393_MI);
 		return;
 	}
 }
-extern MethodInfo m5335_MI;
-extern "C" void m5335 (t1282 * __this, MethodInfo* method)
+extern MethodInfo m5363_MI;
+extern "C" void m5363 (t1291 * __this, MethodInfo* method)
 {
 	{
-		m5365(__this, 1, &m5365_MI);
+		m5393(__this, 1, &m5393_MI);
 		return;
 	}
 }
-extern "C" void m5336 (t1282 * __this, int32_t p0, MethodInfo* method)
+extern "C" void m5364 (t1291 * __this, int32_t p0, MethodInfo* method)
 {
 	uint32_t V_0 = 0;
 	{
 		int32_t L_0 = p0;
 		V_0 = L_0;
 		uint32_t L_1 = V_0;
-		m5367(__this, (((uint16_t)((int32_t)((int32_t)L_1&(int32_t)((int32_t)65535))))), &m5367_MI);
+		m5395(__this, (((uint16_t)((int32_t)((int32_t)L_1&(int32_t)((int32_t)65535))))), &m5395_MI);
 		uint32_t L_2 = V_0;
-		m5367(__this, (((uint16_t)((int32_t)((uint32_t)L_2>>((int32_t)16))))), &m5367_MI);
+		m5395(__this, (((uint16_t)((int32_t)((uint32_t)L_2>>((int32_t)16))))), &m5395_MI);
 		return;
 	}
 }
-extern MethodInfo m5337_MI;
-extern "C" void m5337 (t1282 * __this, uint16_t p0, bool p1, bool p2, bool p3, MethodInfo* method)
+extern MethodInfo m5365_MI;
+extern "C" void m5365 (t1291 * __this, uint16_t p0, bool p1, bool p2, bool p3, MethodInfo* method)
 {
 	{
 		bool L_0 = p1;
 		bool L_1 = p2;
 		bool L_2 = p3;
-		uint16_t L_3 = m5364(NULL, L_0, L_1, L_2, 0, &m5364_MI);
-		m5366(__this, 5, L_3, &m5366_MI);
+		uint16_t L_3 = m5392(NULL, L_0, L_1, L_2, 0, &m5392_MI);
+		m5394(__this, 5, L_3, &m5394_MI);
 		bool L_4 = p2;
 		if (!L_4)
 		{
@@ -253,62 +253,62 @@ extern "C" void m5337 (t1282 * __this, uint16_t p0, bool p1, bool p2, bool p3, M
 	}
 	{
 		uint16_t L_5 = p0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		uint16_t L_6 = m2769(NULL, L_5, &m2769_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		uint16_t L_6 = m2793(NULL, L_5, &m2793_MI);
 		p0 = L_6;
 	}
 
 IL_001f:
 	{
 		uint16_t L_7 = p0;
-		m5367(__this, L_7, &m5367_MI);
+		m5395(__this, L_7, &m5395_MI);
 		return;
 	}
 }
-extern MethodInfo m5338_MI;
-extern "C" void m5338 (t1282 * __this, uint16_t p0, bool p1, bool p2, MethodInfo* method)
+extern MethodInfo m5366_MI;
+extern "C" void m5366 (t1291 * __this, uint16_t p0, bool p1, bool p2, MethodInfo* method)
 {
 	{
 		bool L_0 = p1;
 		bool L_1 = p2;
-		uint16_t L_2 = m5364(NULL, L_0, 0, L_1, 0, &m5364_MI);
-		m5366(__this, 6, L_2, &m5366_MI);
+		uint16_t L_2 = m5392(NULL, L_0, 0, L_1, 0, &m5392_MI);
+		m5394(__this, 6, L_2, &m5394_MI);
 		uint16_t L_3 = p0;
-		m5367(__this, L_3, &m5367_MI);
+		m5395(__this, L_3, &m5395_MI);
 		return;
 	}
 }
-extern MethodInfo m5339_MI;
-extern "C" void m5339 (t1282 * __this, uint16_t p0, bool p1, bool p2, MethodInfo* method)
+extern MethodInfo m5367_MI;
+extern "C" void m5367 (t1291 * __this, uint16_t p0, bool p1, bool p2, MethodInfo* method)
 {
 	{
 		bool L_0 = p1;
 		bool L_1 = p2;
-		uint16_t L_2 = m5364(NULL, L_0, 0, L_1, 0, &m5364_MI);
-		m5366(__this, 7, L_2, &m5366_MI);
+		uint16_t L_2 = m5392(NULL, L_0, 0, L_1, 0, &m5392_MI);
+		m5394(__this, 7, L_2, &m5394_MI);
 		uint16_t L_3 = p0;
-		m5367(__this, L_3, &m5367_MI);
+		m5395(__this, L_3, &m5395_MI);
 		return;
 	}
 }
-extern MethodInfo m5340_MI;
-extern "C" void m5340 (t1282 * __this, uint16_t p0, uint16_t p1, bool p2, bool p3, bool p4, MethodInfo* method)
+extern MethodInfo m5368_MI;
+extern "C" void m5368 (t1291 * __this, uint16_t p0, uint16_t p1, bool p2, bool p3, bool p4, MethodInfo* method)
 {
 	{
 		bool L_0 = p2;
 		bool L_1 = p3;
 		bool L_2 = p4;
-		uint16_t L_3 = m5364(NULL, L_0, L_1, L_2, 0, &m5364_MI);
-		m5366(__this, 8, L_3, &m5366_MI);
+		uint16_t L_3 = m5392(NULL, L_0, L_1, L_2, 0, &m5392_MI);
+		m5394(__this, 8, L_3, &m5394_MI);
 		uint16_t L_4 = p0;
-		m5367(__this, L_4, &m5367_MI);
+		m5395(__this, L_4, &m5395_MI);
 		uint16_t L_5 = p1;
-		m5367(__this, L_5, &m5367_MI);
+		m5395(__this, L_5, &m5395_MI);
 		return;
 	}
 }
-extern MethodInfo m5341_MI;
-extern "C" void m5341 (t1282 * __this, uint16_t p0, t1283 * p1, bool p2, bool p3, bool p4, MethodInfo* method)
+extern MethodInfo m5369_MI;
+extern "C" void m5369 (t1291 * __this, uint16_t p0, t1292 * p1, bool p2, bool p3, bool p4, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -318,15 +318,15 @@ extern "C" void m5341 (t1282 * __this, uint16_t p0, t1283 * p1, bool p2, bool p3
 		bool L_0 = p2;
 		bool L_1 = p3;
 		bool L_2 = p4;
-		uint16_t L_3 = m5364(NULL, L_0, L_1, L_2, 0, &m5364_MI);
-		m5366(__this, ((int32_t)9), L_3, &m5366_MI);
+		uint16_t L_3 = m5392(NULL, L_0, L_1, L_2, 0, &m5392_MI);
+		m5394(__this, ((int32_t)9), L_3, &m5394_MI);
 		uint16_t L_4 = p0;
-		m5367(__this, L_4, &m5367_MI);
-		t1283 * L_5 = p1;
-		int32_t L_6 = m5901(L_5, &m5901_MI);
+		m5395(__this, L_4, &m5395_MI);
+		t1292 * L_5 = p1;
+		int32_t L_6 = m5929(L_5, &m5929_MI);
 		V_0 = ((int32_t)((int32_t)((int32_t)((int32_t)L_6+(int32_t)((int32_t)15)))>>(int32_t)4));
 		int32_t L_7 = V_0;
-		m5367(__this, (((uint16_t)L_7)), &m5367_MI);
+		m5395(__this, (((uint16_t)L_7)), &m5395_MI);
 		V_1 = 0;
 		goto IL_007d;
 	}
@@ -341,8 +341,8 @@ IL_0035:
 IL_003e:
 	{
 		int32_t L_8 = V_1;
-		t1283 * L_9 = p1;
-		int32_t L_10 = m5901(L_9, &m5901_MI);
+		t1292 * L_9 = p1;
+		int32_t L_10 = m5929(L_9, &m5929_MI);
 		if ((((int32_t)L_8) < ((int32_t)L_10)))
 		{
 			goto IL_004f;
@@ -354,11 +354,11 @@ IL_003e:
 
 IL_004f:
 	{
-		t1283 * L_11 = p1;
+		t1292 * L_11 = p1;
 		int32_t L_12 = V_1;
 		int32_t L_13 = L_12;
 		V_1 = ((int32_t)((int32_t)L_13+(int32_t)1));
-		bool L_14 = m5902(L_11, L_13, &m5902_MI);
+		bool L_14 = m5930(L_11, L_13, &m5930_MI);
 		if (!L_14)
 		{
 			goto IL_006a;
@@ -388,7 +388,7 @@ IL_006e:
 IL_0076:
 	{
 		uint16_t L_19 = V_2;
-		m5367(__this, L_19, &m5367_MI);
+		m5395(__this, L_19, &m5395_MI);
 	}
 
 IL_007d:
@@ -405,21 +405,21 @@ IL_007d:
 		return;
 	}
 }
-extern MethodInfo m5342_MI;
-extern "C" void m5342 (t1282 * __this, t2* p0, bool p1, bool p2, MethodInfo* method)
+extern MethodInfo m5370_MI;
+extern "C" void m5370 (t1291 * __this, t2* p0, bool p1, bool p2, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
 		bool L_0 = p1;
 		bool L_1 = p2;
-		uint16_t L_2 = m5364(NULL, 0, L_0, L_1, 0, &m5364_MI);
-		m5366(__this, 3, L_2, &m5366_MI);
+		uint16_t L_2 = m5392(NULL, 0, L_0, L_1, 0, &m5392_MI);
+		m5394(__this, 3, L_2, &m5394_MI);
 		t2* L_3 = p0;
-		int32_t L_4 = m2699(L_3, &m2699_MI);
+		int32_t L_4 = m2723(L_3, &m2723_MI);
 		V_0 = L_4;
 		int32_t L_5 = V_0;
-		m5367(__this, (((uint16_t)L_5)), &m5367_MI);
+		m5395(__this, (((uint16_t)L_5)), &m5395_MI);
 		bool L_6 = p1;
 		if (!L_6)
 		{
@@ -428,7 +428,7 @@ extern "C" void m5342 (t1282 * __this, t2* p0, bool p1, bool p2, MethodInfo* met
 	}
 	{
 		t2* L_7 = p0;
-		t2* L_8 = m5903(L_7, &m5903_MI);
+		t2* L_8 = m5931(L_7, &m5931_MI);
 		p0 = L_8;
 	}
 
@@ -442,8 +442,8 @@ IL_0034:
 	{
 		t2* L_9 = p0;
 		int32_t L_10 = V_1;
-		uint16_t L_11 = m2714(L_9, L_10, &m2714_MI);
-		m5367(__this, L_11, &m5367_MI);
+		uint16_t L_11 = m2738(L_9, L_10, &m2738_MI);
+		m5395(__this, L_11, &m5395_MI);
 		int32_t L_12 = V_1;
 		V_1 = ((int32_t)((int32_t)L_12+(int32_t)1));
 	}
@@ -461,51 +461,51 @@ IL_0045:
 		return;
 	}
 }
-extern MethodInfo m5343_MI;
-extern "C" void m5343 (t1282 * __this, uint16_t p0, MethodInfo* method)
+extern MethodInfo m5371_MI;
+extern "C" void m5371 (t1291 * __this, uint16_t p0, MethodInfo* method)
 {
 	{
-		m5366(__this, 2, 0, &m5366_MI);
+		m5394(__this, 2, 0, &m5394_MI);
 		uint16_t L_0 = p0;
-		m5367(__this, L_0, &m5367_MI);
+		m5395(__this, L_0, &m5395_MI);
 		return;
 	}
 }
-extern MethodInfo m5344_MI;
-extern "C" void m5344 (t1282 * __this, int32_t p0, MethodInfo* method)
+extern MethodInfo m5372_MI;
+extern "C" void m5372 (t1291 * __this, int32_t p0, MethodInfo* method)
 {
 	{
-		m5365(__this, ((int32_t)11), &m5365_MI);
+		m5393(__this, ((int32_t)11), &m5393_MI);
 		int32_t L_0 = p0;
-		m5367(__this, (((uint16_t)L_0)), &m5367_MI);
+		m5395(__this, (((uint16_t)L_0)), &m5395_MI);
 		return;
 	}
 }
-extern MethodInfo m5345_MI;
-extern "C" void m5345 (t1282 * __this, int32_t p0, MethodInfo* method)
+extern MethodInfo m5373_MI;
+extern "C" void m5373 (t1291 * __this, int32_t p0, MethodInfo* method)
 {
 	{
-		m5365(__this, ((int32_t)12), &m5365_MI);
+		m5393(__this, ((int32_t)12), &m5393_MI);
 		int32_t L_0 = p0;
-		m5367(__this, (((uint16_t)L_0)), &m5367_MI);
+		m5395(__this, (((uint16_t)L_0)), &m5395_MI);
 		return;
 	}
 }
-extern MethodInfo m5346_MI;
-extern "C" void m5346 (t1282 * __this, int32_t p0, int32_t p1, bool p2, t1277 * p3, MethodInfo* method)
+extern MethodInfo m5374_MI;
+extern "C" void m5374 (t1291 * __this, int32_t p0, int32_t p1, bool p2, t1286 * p3, MethodInfo* method)
 {
-	t1282 * G_B2_0 = {0};
-	t1282 * G_B1_0 = {0};
+	t1291 * G_B2_0 = {0};
+	t1291 * G_B1_0 = {0};
 	int32_t G_B3_0 = 0;
-	t1282 * G_B3_1 = {0};
+	t1291 * G_B3_1 = {0};
 	{
-		t1277 * L_0 = p3;
-		m5369(__this, L_0, &m5369_MI);
-		m5365(__this, ((int32_t)14), &m5365_MI);
+		t1286 * L_0 = p3;
+		m5397(__this, L_0, &m5397_MI);
+		m5393(__this, ((int32_t)14), &m5393_MI);
 		int32_t L_1 = p0;
-		m5367(__this, (((uint16_t)L_1)), &m5367_MI);
+		m5395(__this, (((uint16_t)L_1)), &m5395_MI);
 		int32_t L_2 = p1;
-		m5367(__this, (((uint16_t)L_2)), &m5367_MI);
+		m5395(__this, (((uint16_t)L_2)), &m5395_MI);
 		bool L_3 = p2;
 		G_B1_0 = __this;
 		if (!L_3)
@@ -528,222 +528,222 @@ IL_002d:
 
 IL_002e:
 	{
-		m5367(G_B3_1, (((uint16_t)G_B3_0)), &m5367_MI);
-		t1277 * L_4 = p3;
-		m5370(__this, L_4, &m5370_MI);
+		m5395(G_B3_1, (((uint16_t)G_B3_0)), &m5395_MI);
+		t1286 * L_4 = p3;
+		m5398(__this, L_4, &m5398_MI);
 		return;
 	}
 }
-extern MethodInfo m5347_MI;
-extern "C" void m5347 (t1282 * __this, MethodInfo* method)
+extern MethodInfo m5375_MI;
+extern "C" void m5375 (t1291 * __this, MethodInfo* method)
 {
 	{
-		m5365(__this, ((int32_t)13), &m5365_MI);
+		m5393(__this, ((int32_t)13), &m5393_MI);
 		return;
 	}
 }
-extern MethodInfo m5348_MI;
-extern "C" void m5348 (t1282 * __this, int32_t p0, bool p1, bool p2, MethodInfo* method)
+extern MethodInfo m5376_MI;
+extern "C" void m5376 (t1291 * __this, int32_t p0, bool p1, bool p2, MethodInfo* method)
 {
 	{
 		bool L_0 = p1;
 		bool L_1 = p2;
-		uint16_t L_2 = m5364(NULL, 0, L_0, L_1, 0, &m5364_MI);
-		m5366(__this, 4, L_2, &m5366_MI);
+		uint16_t L_2 = m5392(NULL, 0, L_0, L_1, 0, &m5392_MI);
+		m5394(__this, 4, L_2, &m5394_MI);
 		int32_t L_3 = p0;
-		m5367(__this, (((uint16_t)L_3)), &m5367_MI);
+		m5395(__this, (((uint16_t)L_3)), &m5395_MI);
 		return;
 	}
 }
-extern MethodInfo m5349_MI;
-extern "C" void m5349 (t1282 * __this, int32_t p0, t1277 * p1, MethodInfo* method)
+extern MethodInfo m5377_MI;
+extern "C" void m5377 (t1291 * __this, int32_t p0, t1286 * p1, MethodInfo* method)
 {
 	{
-		t1277 * L_0 = p1;
-		m5369(__this, L_0, &m5369_MI);
-		m5365(__this, ((int32_t)15), &m5365_MI);
-		t1277 * L_1 = p1;
-		m5370(__this, L_1, &m5370_MI);
+		t1286 * L_0 = p1;
+		m5397(__this, L_0, &m5397_MI);
+		m5393(__this, ((int32_t)15), &m5393_MI);
+		t1286 * L_1 = p1;
+		m5398(__this, L_1, &m5398_MI);
 		int32_t L_2 = p0;
-		m5367(__this, (((uint16_t)L_2)), &m5367_MI);
+		m5395(__this, (((uint16_t)L_2)), &m5395_MI);
 		return;
 	}
 }
-extern MethodInfo m5350_MI;
-extern "C" void m5350 (t1282 * __this, t1277 * p0, MethodInfo* method)
+extern MethodInfo m5378_MI;
+extern "C" void m5378 (t1291 * __this, t1286 * p0, MethodInfo* method)
 {
 	{
-		t1277 * L_0 = p0;
-		m5369(__this, L_0, &m5369_MI);
-		m5365(__this, ((int32_t)16), &m5365_MI);
-		t1277 * L_1 = p0;
-		m5370(__this, L_1, &m5370_MI);
+		t1286 * L_0 = p0;
+		m5397(__this, L_0, &m5397_MI);
+		m5393(__this, ((int32_t)16), &m5393_MI);
+		t1286 * L_1 = p0;
+		m5398(__this, L_1, &m5398_MI);
 		return;
 	}
 }
-extern MethodInfo m5351_MI;
-extern "C" void m5351 (t1282 * __this, t1277 * p0, t1277 * p1, MethodInfo* method)
+extern MethodInfo m5379_MI;
+extern "C" void m5379 (t1291 * __this, t1286 * p0, t1286 * p1, MethodInfo* method)
 {
 	{
-		t1277 * L_0 = p0;
-		m5369(__this, L_0, &m5369_MI);
-		t1277 * L_1 = p1;
-		m5369(__this, L_1, &m5369_MI);
-		m5365(__this, ((int32_t)17), &m5365_MI);
-		t1277 * L_2 = p0;
-		m5370(__this, L_2, &m5370_MI);
-		t1277 * L_3 = p1;
-		m5370(__this, L_3, &m5370_MI);
+		t1286 * L_0 = p0;
+		m5397(__this, L_0, &m5397_MI);
+		t1286 * L_1 = p1;
+		m5397(__this, L_1, &m5397_MI);
+		m5393(__this, ((int32_t)17), &m5393_MI);
+		t1286 * L_2 = p0;
+		m5398(__this, L_2, &m5398_MI);
+		t1286 * L_3 = p1;
+		m5398(__this, L_3, &m5398_MI);
 		return;
 	}
 }
-extern MethodInfo m5352_MI;
-extern "C" void m5352 (t1282 * __this, t1277 * p0, MethodInfo* method)
+extern MethodInfo m5380_MI;
+extern "C" void m5380 (t1291 * __this, t1286 * p0, MethodInfo* method)
 {
 	{
-		t1277 * L_0 = p0;
-		m5369(__this, L_0, &m5369_MI);
-		m5366(__this, ((int32_t)18), 0, &m5366_MI);
-		t1277 * L_1 = p0;
-		m5370(__this, L_1, &m5370_MI);
+		t1286 * L_0 = p0;
+		m5397(__this, L_0, &m5397_MI);
+		m5394(__this, ((int32_t)18), 0, &m5394_MI);
+		t1286 * L_1 = p0;
+		m5398(__this, L_1, &m5398_MI);
 		return;
 	}
 }
-extern MethodInfo m5353_MI;
-extern "C" void m5353 (t1282 * __this, t1277 * p0, MethodInfo* method)
+extern MethodInfo m5381_MI;
+extern "C" void m5381 (t1291 * __this, t1286 * p0, MethodInfo* method)
 {
 	{
-		t1277 * L_0 = p0;
-		m5369(__this, L_0, &m5369_MI);
-		m5366(__this, ((int32_t)19), 0, &m5366_MI);
-		t1277 * L_1 = p0;
-		m5370(__this, L_1, &m5370_MI);
+		t1286 * L_0 = p0;
+		m5397(__this, L_0, &m5397_MI);
+		m5394(__this, ((int32_t)19), 0, &m5394_MI);
+		t1286 * L_1 = p0;
+		m5398(__this, L_1, &m5398_MI);
 		return;
 	}
 }
-extern MethodInfo m5354_MI;
-extern "C" void m5354 (t1282 * __this, int32_t p0, int32_t p1, bool p2, t1277 * p3, MethodInfo* method)
+extern MethodInfo m5382_MI;
+extern "C" void m5382 (t1291 * __this, int32_t p0, int32_t p1, bool p2, t1286 * p3, MethodInfo* method)
 {
 	{
-		t1277 * L_0 = p3;
-		m5369(__this, L_0, &m5369_MI);
+		t1286 * L_0 = p3;
+		m5397(__this, L_0, &m5397_MI);
 		bool L_1 = p2;
-		uint16_t L_2 = m5364(NULL, 0, 0, 0, L_1, &m5364_MI);
-		m5366(__this, ((int32_t)20), L_2, &m5366_MI);
-		t1277 * L_3 = p3;
-		m5370(__this, L_3, &m5370_MI);
+		uint16_t L_2 = m5392(NULL, 0, 0, 0, L_1, &m5392_MI);
+		m5394(__this, ((int32_t)20), L_2, &m5394_MI);
+		t1286 * L_3 = p3;
+		m5398(__this, L_3, &m5398_MI);
 		int32_t L_4 = p0;
-		m5336(__this, L_4, &m5336_MI);
+		m5364(__this, L_4, &m5364_MI);
 		int32_t L_5 = p1;
-		m5336(__this, L_5, &m5336_MI);
+		m5364(__this, L_5, &m5364_MI);
 		return;
 	}
 }
-extern MethodInfo m5355_MI;
-extern "C" void m5355 (t1282 * __this, t1277 * p0, MethodInfo* method)
+extern MethodInfo m5383_MI;
+extern "C" void m5383 (t1291 * __this, t1286 * p0, MethodInfo* method)
 {
 	{
-		t1277 * L_0 = p0;
-		VirtActionInvoker1< t1277 * >::Invoke(&m5361_MI, __this, L_0);
-		m5365(__this, ((int32_t)21), &m5365_MI);
+		t1286 * L_0 = p0;
+		VirtActionInvoker1< t1286 * >::Invoke(&m5389_MI, __this, L_0);
+		m5393(__this, ((int32_t)21), &m5393_MI);
 		return;
 	}
 }
-extern MethodInfo m5356_MI;
-extern "C" void m5356 (t1282 * __this, int32_t p0, int32_t p1, bool p2, t1277 * p3, MethodInfo* method)
+extern MethodInfo m5384_MI;
+extern "C" void m5384 (t1291 * __this, int32_t p0, int32_t p1, bool p2, t1286 * p3, MethodInfo* method)
 {
 	{
-		t1277 * L_0 = p3;
-		m5369(__this, L_0, &m5369_MI);
+		t1286 * L_0 = p3;
+		m5397(__this, L_0, &m5397_MI);
 		bool L_1 = p2;
-		uint16_t L_2 = m5364(NULL, 0, 0, 0, L_1, &m5364_MI);
-		m5366(__this, ((int32_t)22), L_2, &m5366_MI);
-		t1277 * L_3 = p3;
-		m5370(__this, L_3, &m5370_MI);
+		uint16_t L_2 = m5392(NULL, 0, 0, 0, L_1, &m5392_MI);
+		m5394(__this, ((int32_t)22), L_2, &m5394_MI);
+		t1286 * L_3 = p3;
+		m5398(__this, L_3, &m5398_MI);
 		int32_t L_4 = p0;
-		m5336(__this, L_4, &m5336_MI);
+		m5364(__this, L_4, &m5364_MI);
 		int32_t L_5 = p1;
-		m5336(__this, L_5, &m5336_MI);
+		m5364(__this, L_5, &m5364_MI);
 		return;
 	}
 }
-extern MethodInfo m5357_MI;
-extern "C" void m5357 (t1282 * __this, t1277 * p0, MethodInfo* method)
+extern MethodInfo m5385_MI;
+extern "C" void m5385 (t1291 * __this, t1286 * p0, MethodInfo* method)
 {
 	{
-		t1277 * L_0 = p0;
-		m5369(__this, L_0, &m5369_MI);
-		m5365(__this, ((int32_t)10), &m5365_MI);
-		t1277 * L_1 = p0;
-		m5370(__this, L_1, &m5370_MI);
+		t1286 * L_0 = p0;
+		m5397(__this, L_0, &m5397_MI);
+		m5393(__this, ((int32_t)10), &m5393_MI);
+		t1286 * L_1 = p0;
+		m5398(__this, L_1, &m5398_MI);
 		return;
 	}
 }
-extern MethodInfo m5358_MI;
-extern "C" void m5358 (t1282 * __this, bool p0, int32_t p1, t1277 * p2, MethodInfo* method)
+extern MethodInfo m5386_MI;
+extern "C" void m5386 (t1291 * __this, bool p0, int32_t p1, t1286 * p2, MethodInfo* method)
 {
 	{
-		t1277 * L_0 = p2;
-		m5369(__this, L_0, &m5369_MI);
+		t1286 * L_0 = p2;
+		m5397(__this, L_0, &m5397_MI);
 		bool L_1 = p0;
-		uint16_t L_2 = m5364(NULL, 0, 0, L_1, 0, &m5364_MI);
-		m5366(__this, ((int32_t)23), L_2, &m5366_MI);
-		t1277 * L_3 = p2;
-		m5370(__this, L_3, &m5370_MI);
+		uint16_t L_2 = m5392(NULL, 0, 0, L_1, 0, &m5392_MI);
+		m5394(__this, ((int32_t)23), L_2, &m5394_MI);
+		t1286 * L_3 = p2;
+		m5398(__this, L_3, &m5398_MI);
 		int32_t L_4 = p1;
-		m5367(__this, (((uint16_t)L_4)), &m5367_MI);
+		m5395(__this, (((uint16_t)L_4)), &m5395_MI);
 		return;
 	}
 }
-extern MethodInfo m5359_MI;
-extern "C" void m5359 (t1282 * __this, int32_t p0, int32_t p1, int32_t p2, MethodInfo* method)
+extern MethodInfo m5387_MI;
+extern "C" void m5387 (t1291 * __this, int32_t p0, int32_t p1, int32_t p2, MethodInfo* method)
 {
 	{
-		m5365(__this, ((int32_t)24), &m5365_MI);
+		m5393(__this, ((int32_t)24), &m5393_MI);
 		int32_t L_0 = p0;
-		m5336(__this, L_0, &m5336_MI);
+		m5364(__this, L_0, &m5364_MI);
 		int32_t L_1 = p1;
-		m5336(__this, L_1, &m5336_MI);
+		m5364(__this, L_1, &m5364_MI);
 		int32_t L_2 = p2;
-		m5336(__this, L_2, &m5336_MI);
+		m5364(__this, L_2, &m5364_MI);
 		return;
 	}
 }
-extern MethodInfo m5360_MI;
-extern "C" t1277 * m5360 (t1282 * __this, MethodInfo* method)
+extern MethodInfo m5388_MI;
+extern "C" t1286 * m5388 (t1291 * __this, MethodInfo* method)
 {
 	{
-		t1280 * L_0 = (t1280 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1280_TI));
-		m5324(L_0, &m5324_MI);
+		t1289 * L_0 = (t1289 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1289_TI));
+		m5352(L_0, &m5352_MI);
 		return L_0;
 	}
 }
-extern "C" void m5361 (t1282 * __this, t1277 * p0, MethodInfo* method)
+extern "C" void m5389 (t1291 * __this, t1286 * p0, MethodInfo* method)
 {
-	t1280 * V_0 = {0};
+	t1289 * V_0 = {0};
 	{
-		t1277 * L_0 = p0;
-		V_0 = ((t1280 *)Castclass(L_0, InitializedTypeInfo(&t1280_TI)));
+		t1286 * L_0 = p0;
+		V_0 = ((t1289 *)Castclass(L_0, InitializedTypeInfo(&t1289_TI)));
 		goto IL_002f;
 	}
 
 IL_000c:
 	{
-		t1161 * L_1 = (__this->f0);
-		t1280 * L_2 = V_0;
-		int32_t L_3 = m5326(L_2, &m5326_MI);
-		t1280 * L_4 = V_0;
-		int32_t L_5 = m5368(__this, &m5368_MI);
-		int32_t L_6 = m5328(L_4, L_5, &m5328_MI);
+		t1170 * L_1 = (__this->f0);
+		t1289 * L_2 = V_0;
+		int32_t L_3 = m5354(L_2, &m5354_MI);
+		t1289 * L_4 = V_0;
+		int32_t L_5 = m5396(__this, &m5396_MI);
+		int32_t L_6 = m5356(L_4, L_5, &m5356_MI);
 		uint16_t L_7 = (((uint16_t)L_6));
-		t9 * L_8 = Box(InitializedTypeInfo(&t302_TI), &L_7);
-		VirtActionInvoker2< int32_t, t9 * >::Invoke(&m5904_MI, L_1, L_3, L_8);
+		t9 * L_8 = Box(InitializedTypeInfo(&t309_TI), &L_7);
+		VirtActionInvoker2< int32_t, t9 * >::Invoke(&m5932_MI, L_1, L_3, L_8);
 	}
 
 IL_002f:
 	{
-		t1280 * L_9 = V_0;
-		bool L_10 = m5373(L_9, &m5373_MI);
+		t1289 * L_9 = V_0;
+		bool L_10 = m5401(L_9, &m5401_MI);
 		if (L_10)
 		{
 			goto IL_000c;
@@ -753,21 +753,21 @@ IL_002f:
 		return;
 	}
 }
-extern MethodInfo m5362_MI;
-extern "C" void m5362 (t1282 * __this, MethodInfo* method)
+extern MethodInfo m5390_MI;
+extern "C" void m5390 (t1291 * __this, MethodInfo* method)
 {
 	{
 		return;
 	}
 }
-extern MethodInfo m5363_MI;
-extern "C" void m5363 (t1282 * __this, MethodInfo* method)
+extern MethodInfo m5391_MI;
+extern "C" void m5391 (t1291 * __this, MethodInfo* method)
 {
 	{
 		return;
 	}
 }
-extern "C" uint16_t m5364 (t9 * __this , bool p0, bool p1, bool p2, bool p3, MethodInfo* method)
+extern "C" uint16_t m5392 (t9 * __this , bool p0, bool p1, bool p2, bool p3, MethodInfo* method)
 {
 	uint16_t V_0 = {0};
 	{
@@ -828,122 +828,122 @@ IL_003e:
 		return L_8;
 	}
 }
-extern "C" void m5365 (t1282 * __this, uint16_t p0, MethodInfo* method)
+extern "C" void m5393 (t1291 * __this, uint16_t p0, MethodInfo* method)
 {
 	{
 		uint16_t L_0 = p0;
-		m5366(__this, L_0, 0, &m5366_MI);
+		m5394(__this, L_0, 0, &m5394_MI);
 		return;
 	}
 }
-extern "C" void m5366 (t1282 * __this, uint16_t p0, uint16_t p1, MethodInfo* method)
+extern "C" void m5394 (t1291 * __this, uint16_t p0, uint16_t p1, MethodInfo* method)
 {
 	{
 		uint16_t L_0 = p0;
 		uint16_t L_1 = p1;
-		uint16_t L_2 = m5332(NULL, L_0, L_1, &m5332_MI);
-		m5367(__this, L_2, &m5367_MI);
+		uint16_t L_2 = m5360(NULL, L_0, L_1, &m5360_MI);
+		m5395(__this, L_2, &m5395_MI);
 		return;
 	}
 }
-extern "C" void m5367 (t1282 * __this, uint16_t p0, MethodInfo* method)
+extern "C" void m5395 (t1291 * __this, uint16_t p0, MethodInfo* method)
 {
 	{
-		t1161 * L_0 = (__this->f0);
+		t1170 * L_0 = (__this->f0);
 		uint16_t L_1 = p0;
 		uint16_t L_2 = L_1;
-		t9 * L_3 = Box(InitializedTypeInfo(&t302_TI), &L_2);
-		VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5709_MI, L_0, L_3);
+		t9 * L_3 = Box(InitializedTypeInfo(&t309_TI), &L_2);
+		VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5737_MI, L_0, L_3);
 		return;
 	}
 }
-extern "C" int32_t m5368 (t1282 * __this, MethodInfo* method)
+extern "C" int32_t m5396 (t1291 * __this, MethodInfo* method)
 {
 	{
-		t1161 * L_0 = (__this->f0);
-		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5694_MI, L_0);
+		t1170 * L_0 = (__this->f0);
+		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5722_MI, L_0);
 		return L_1;
 	}
 }
-extern "C" void m5369 (t1282 * __this, t1277 * p0, MethodInfo* method)
+extern "C" void m5397 (t1291 * __this, t1286 * p0, MethodInfo* method)
 {
-	t1280 * V_0 = {0};
+	t1289 * V_0 = {0};
 	{
-		t1277 * L_0 = p0;
-		V_0 = ((t1280 *)Castclass(L_0, InitializedTypeInfo(&t1280_TI)));
-		t1280 * L_1 = V_0;
-		int32_t L_2 = m5368(__this, &m5368_MI);
-		m5325(L_1, L_2, &m5325_MI);
+		t1286 * L_0 = p0;
+		V_0 = ((t1289 *)Castclass(L_0, InitializedTypeInfo(&t1289_TI)));
+		t1289 * L_1 = V_0;
+		int32_t L_2 = m5396(__this, &m5396_MI);
+		m5353(L_1, L_2, &m5353_MI);
 		return;
 	}
 }
-extern "C" void m5370 (t1282 * __this, t1277 * p0, MethodInfo* method)
+extern "C" void m5398 (t1291 * __this, t1286 * p0, MethodInfo* method)
 {
-	t1280 * V_0 = {0};
+	t1289 * V_0 = {0};
 	{
-		t1277 * L_0 = p0;
-		V_0 = ((t1280 *)Castclass(L_0, InitializedTypeInfo(&t1280_TI)));
-		t1280 * L_1 = V_0;
-		int32_t L_2 = m5368(__this, &m5368_MI);
-		m5327(L_1, L_2, &m5327_MI);
-		m5367(__this, 0, &m5367_MI);
-		t1280 * L_3 = V_0;
-		m5372(L_3, &m5372_MI);
+		t1286 * L_0 = p0;
+		V_0 = ((t1289 *)Castclass(L_0, InitializedTypeInfo(&t1289_TI)));
+		t1289 * L_1 = V_0;
+		int32_t L_2 = m5396(__this, &m5396_MI);
+		m5355(L_1, L_2, &m5355_MI);
+		m5395(__this, 0, &m5395_MI);
+		t1289 * L_3 = V_0;
+		m5400(L_3, &m5400_MI);
 		return;
 	}
 }
-#include "t1281.h"
+#include "t1290.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1281_TI;
+extern TypeInfo t1290_TI;
 
-#include "t870.h"
-extern TypeInfo t870_TI;
-#include "t1277MD.h"
-#include "t870MD.h"
-extern MethodInfo m5314_MI;
-extern MethodInfo m4470_MI;
-extern MethodInfo m5905_MI;
-extern MethodInfo m4208_MI;
-extern MethodInfo m4640_MI;
-extern MethodInfo m4645_MI;
-extern MethodInfo m5906_MI;
+#include "t877.h"
+extern TypeInfo t877_TI;
+#include "t1286MD.h"
+#include "t877MD.h"
+extern MethodInfo m5342_MI;
+extern MethodInfo m4494_MI;
+extern MethodInfo m5933_MI;
+extern MethodInfo m4232_MI;
+extern MethodInfo m4664_MI;
+extern MethodInfo m4669_MI;
+extern MethodInfo m5934_MI;
 
 
-extern "C" void m5371 (t1281 * __this, MethodInfo* method)
+extern "C" void m5399 (t1290 * __this, MethodInfo* method)
 {
 	{
-		m5314(__this, &m5314_MI);
-		t870 * L_0 = (t870 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t870_TI));
-		m4470(L_0, &m4470_MI);
+		m5342(__this, &m5342_MI);
+		t877 * L_0 = (t877 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t877_TI));
+		m4494(L_0, &m4494_MI);
 		__this->f0 = L_0;
 		return;
 	}
 }
-extern "C" void m5372 (t1281 * __this, MethodInfo* method)
+extern "C" void m5400 (t1290 * __this, MethodInfo* method)
 {
 	{
-		t870 * L_0 = (__this->f0);
-		t9 * L_1 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5905_MI, __this);
-		VirtActionInvoker1< t9 * >::Invoke(&m4208_MI, L_0, L_1);
+		t877 * L_0 = (__this->f0);
+		t9 * L_1 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5933_MI, __this);
+		VirtActionInvoker1< t9 * >::Invoke(&m4232_MI, L_0, L_1);
 		return;
 	}
 }
-extern "C" bool m5373 (t1281 * __this, MethodInfo* method)
+extern "C" bool m5401 (t1290 * __this, MethodInfo* method)
 {
 	{
-		t870 * L_0 = (__this->f0);
-		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m4640_MI, L_0);
+		t877 * L_0 = (__this->f0);
+		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m4664_MI, L_0);
 		if ((((int32_t)L_1) <= ((int32_t)0)))
 		{
 			goto IL_0024;
 		}
 	}
 	{
-		t870 * L_2 = (__this->f0);
-		t9 * L_3 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m4645_MI, L_2);
-		VirtActionInvoker1< t9 * >::Invoke(&m5906_MI, __this, L_3);
+		t877 * L_2 = (__this->f0);
+		t9 * L_3 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m4669_MI, L_2);
+		VirtActionInvoker1< t9 * >::Invoke(&m5934_MI, __this, L_3);
 		return 1;
 	}
 
@@ -952,17 +952,17 @@ IL_0024:
 		return 0;
 	}
 }
-#include "t1284.h"
+#include "t1293.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1284_TI;
-#include "t1284MD.h"
+extern TypeInfo t1293_TI;
+#include "t1293MD.h"
 
 
 
-extern MethodInfo m5374_MI;
-extern "C" bool m5374 (t1284 * __this, MethodInfo* method)
+extern MethodInfo m5402_MI;
+extern "C" bool m5402 (t1293 * __this, MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
@@ -988,8 +988,8 @@ IL_001b:
 		return G_B3_0;
 	}
 }
-extern MethodInfo m5375_MI;
-extern "C" int32_t m5375 (t1284 * __this, MethodInfo* method)
+extern MethodInfo m5403_MI;
+extern "C" int32_t m5403 (t1293 * __this, MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
@@ -1017,8 +1017,8 @@ IL_0022:
 		return G_B3_0;
 	}
 }
-extern MethodInfo m5376_MI;
-extern "C" int32_t m5376 (t1284 * __this, MethodInfo* method)
+extern MethodInfo m5404_MI;
+extern "C" int32_t m5404 (t1293 * __this, MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
@@ -1048,27 +1048,27 @@ IL_0030:
 		return G_B3_0;
 	}
 }
-#include "t1285.h"
+#include "t1294.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1285_TI;
-#include "t1285MD.h"
+extern TypeInfo t1294_TI;
+#include "t1294MD.h"
 
-#include "t1360.h"
-extern TypeInfo t1360_TI;
-extern TypeInfo t1088_TI;
-#include "t1360MD.h"
-extern Il2CppType t1088_0_0_0;
-extern MethodInfo m5872_MI;
+#include "t1369.h"
+extern TypeInfo t1369_TI;
+extern TypeInfo t1095_TI;
+#include "t1369MD.h"
+extern Il2CppType t1095_0_0_0;
+extern MethodInfo m5900_MI;
 
 
-extern MethodInfo m5377_MI;
-extern "C" int32_t m5377 (t1285 * __this, MethodInfo* method)
+extern MethodInfo m5405_MI;
+extern "C" int32_t m5405 (t1294 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		t1088* L_0 = (__this->f0);
+		t1095* L_0 = (__this->f0);
 		int32_t L_1 = (__this->f1);
 		int32_t L_2 = ((int32_t)((int32_t)L_1-(int32_t)1));
 		V_0 = L_2;
@@ -1078,58 +1078,58 @@ extern "C" int32_t m5377 (t1285 * __this, MethodInfo* method)
 		return (*(int32_t*)(int32_t*)SZArrayLdElema(L_0, L_4));
 	}
 }
-extern MethodInfo m5378_MI;
-extern TypeInfo* t1088_TI_var;
-extern "C" void m5378 (t1285 * __this, int32_t p0, MethodInfo* method)
+extern MethodInfo m5406_MI;
+extern TypeInfo* t1095_TI_var;
+extern "C" void m5406 (t1294 * __this, int32_t p0, MethodInfo* method)
 {
-	static bool m5378_init;
-	if (!m5378_init)
+	static bool m5406_init;
+	if (!m5406_init)
 	{
-		t1088_TI_var = il2cpp_codegen_class_from_type(&t1088_0_0_0);
-		m5378_init = true;
+		t1095_TI_var = il2cpp_codegen_class_from_type(&t1095_0_0_0);
+		m5406_init = true;
 	}
 	int32_t V_0 = 0;
-	t1088* V_1 = {0};
+	t1095* V_1 = {0};
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		t1088* L_0 = (__this->f0);
+		t1095* L_0 = (__this->f0);
 		if (L_0)
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		__this->f0 = ((t1088*)SZArrayNew(t1088_TI_var, 8));
+		__this->f0 = ((t1095*)SZArrayNew(t1095_TI_var, 8));
 		goto IL_006e;
 	}
 
 IL_001c:
 	{
 		int32_t L_1 = (__this->f1);
-		t1088* L_2 = (__this->f0);
+		t1095* L_2 = (__this->f0);
 		if ((!(((uint32_t)L_1) == ((uint32_t)(((int32_t)(((t121 *)L_2)->max_length)))))))
 		{
 			goto IL_006e;
 		}
 	}
 	{
-		t1088* L_3 = (__this->f0);
+		t1095* L_3 = (__this->f0);
 		V_0 = (((int32_t)(((t121 *)L_3)->max_length)));
 		int32_t L_4 = V_0;
 		int32_t L_5 = V_0;
 		V_0 = ((int32_t)((int32_t)L_4+(int32_t)((int32_t)((int32_t)L_5>>(int32_t)1))));
 		int32_t L_6 = V_0;
-		V_1 = ((t1088*)SZArrayNew(t1088_TI_var, L_6));
+		V_1 = ((t1095*)SZArrayNew(t1095_TI_var, L_6));
 		V_2 = 0;
 		goto IL_005b;
 	}
 
 IL_004c:
 	{
-		t1088* L_7 = V_1;
+		t1095* L_7 = V_1;
 		int32_t L_8 = V_2;
-		t1088* L_9 = (__this->f0);
+		t1095* L_9 = (__this->f0);
 		int32_t L_10 = V_2;
 		int32_t L_11 = L_10;
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_7, L_8)) = (int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_9, L_11));
@@ -1147,13 +1147,13 @@ IL_005b:
 		}
 	}
 	{
-		t1088* L_15 = V_1;
+		t1095* L_15 = V_1;
 		__this->f0 = L_15;
 	}
 
 IL_006e:
 	{
-		t1088* L_16 = (__this->f0);
+		t1095* L_16 = (__this->f0);
 		int32_t L_17 = (__this->f1);
 		int32_t L_18 = L_17;
 		V_3 = L_18;
@@ -1164,16 +1164,16 @@ IL_006e:
 		return;
 	}
 }
-extern MethodInfo m5379_MI;
-extern "C" int32_t m5379 (t1285 * __this, MethodInfo* method)
+extern MethodInfo m5407_MI;
+extern "C" int32_t m5407 (t1294 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f1);
 		return L_0;
 	}
 }
-extern MethodInfo m5380_MI;
-extern "C" void m5380 (t1285 * __this, int32_t p0, MethodInfo* method)
+extern MethodInfo m5408_MI;
+extern "C" void m5408 (t1294 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
@@ -1184,8 +1184,8 @@ extern "C" void m5380 (t1285 * __this, int32_t p0, MethodInfo* method)
 		}
 	}
 	{
-		t1360 * L_2 = (t1360 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1360_TI));
-		m5872(L_2, (t2*) &_stringLiteral693, &m5872_MI);
+		t1369 * L_2 = (t1369 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1369_TI));
+		m5900(L_2, (t2*) &_stringLiteral692, &m5900_MI);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -1197,35 +1197,35 @@ IL_0017:
 	}
 }
 // Conversion methods for marshalling of: System.Text.RegularExpressions.Interpreter/IntStack
-void t1285_marshal(const t1285& unmarshaled, t1285_marshaled& marshaled)
+void t1294_marshal(const t1294& unmarshaled, t1294_marshaled& marshaled)
 {
 	marshaled.f0 = il2cpp_codegen_marshal_array<int32_t>((Il2CppCodeGenArray*)unmarshaled.f0);
 	marshaled.f1 = unmarshaled.f1;
 }
-void t1285_marshal_back(const t1285_marshaled& marshaled, t1285& unmarshaled)
+void t1294_marshal_back(const t1294_marshaled& marshaled, t1294& unmarshaled)
 {
-	unmarshaled.f0 = (t1088*)il2cpp_codegen_marshal_array_result(&t125_TI, marshaled.f0, 1);
+	unmarshaled.f0 = (t1095*)il2cpp_codegen_marshal_array_result(&t125_TI, marshaled.f0, 1);
 	unmarshaled.f1 = marshaled.f1;
 }
 // Conversion method for clean up from marshalling of: System.Text.RegularExpressions.Interpreter/IntStack
-void t1285_marshal_cleanup(t1285_marshaled& marshaled)
+void t1294_marshal_cleanup(t1294_marshaled& marshaled)
 {
 }
-#include "t1286.h"
+#include "t1295.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1286_TI;
-#include "t1286MD.h"
+extern TypeInfo t1295_TI;
+#include "t1295MD.h"
 
 
 
-extern MethodInfo m5381_MI;
-extern "C" void m5381 (t1286 * __this, t1286 * p0, int32_t p1, int32_t p2, bool p3, int32_t p4, MethodInfo* method)
+extern MethodInfo m5409_MI;
+extern "C" void m5409 (t1295 * __this, t1295 * p0, int32_t p1, int32_t p2, bool p3, int32_t p4, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
-		t1286 * L_0 = p0;
+		t1295 * L_0 = p0;
 		__this->f5 = L_0;
 		int32_t L_1 = p1;
 		__this->f1 = L_1;
@@ -1240,16 +1240,16 @@ extern "C" void m5381 (t1286 * __this, t1286 * p0, int32_t p1, int32_t p2, bool 
 		return;
 	}
 }
-extern MethodInfo m5382_MI;
-extern "C" int32_t m5382 (t1286 * __this, MethodInfo* method)
+extern MethodInfo m5410_MI;
+extern "C" int32_t m5410 (t1295 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f6);
 		return L_0;
 	}
 }
-extern MethodInfo m5383_MI;
-extern "C" void m5383 (t1286 * __this, int32_t p0, MethodInfo* method)
+extern MethodInfo m5411_MI;
+extern "C" void m5411 (t1295 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
@@ -1257,16 +1257,16 @@ extern "C" void m5383 (t1286 * __this, int32_t p0, MethodInfo* method)
 		return;
 	}
 }
-extern MethodInfo m5384_MI;
-extern "C" int32_t m5384 (t1286 * __this, MethodInfo* method)
+extern MethodInfo m5412_MI;
+extern "C" int32_t m5412 (t1295 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f0);
 		return L_0;
 	}
 }
-extern MethodInfo m5385_MI;
-extern "C" void m5385 (t1286 * __this, int32_t p0, MethodInfo* method)
+extern MethodInfo m5413_MI;
+extern "C" void m5413 (t1295 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
@@ -1274,8 +1274,8 @@ extern "C" void m5385 (t1286 * __this, int32_t p0, MethodInfo* method)
 		return;
 	}
 }
-extern MethodInfo m5386_MI;
-extern "C" bool m5386 (t1286 * __this, MethodInfo* method)
+extern MethodInfo m5414_MI;
+extern "C" bool m5414 (t1295 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f1);
@@ -1283,8 +1283,8 @@ extern "C" bool m5386 (t1286 * __this, MethodInfo* method)
 		return ((((int32_t)((((int32_t)L_0) > ((int32_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-extern MethodInfo m5387_MI;
-extern "C" bool m5387 (t1286 * __this, MethodInfo* method)
+extern MethodInfo m5415_MI;
+extern "C" bool m5415 (t1295 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f2);
@@ -1292,154 +1292,154 @@ extern "C" bool m5387 (t1286 * __this, MethodInfo* method)
 		return ((((int32_t)((((int32_t)L_0) > ((int32_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-extern MethodInfo m5388_MI;
-extern "C" bool m5388 (t1286 * __this, MethodInfo* method)
+extern MethodInfo m5416_MI;
+extern "C" bool m5416 (t1295 * __this, MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->f3);
 		return L_0;
 	}
 }
-extern MethodInfo m5389_MI;
-extern "C" int32_t m5389 (t1286 * __this, MethodInfo* method)
+extern MethodInfo m5417_MI;
+extern "C" int32_t m5417 (t1295 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f4);
 		return L_0;
 	}
 }
-extern MethodInfo m5390_MI;
-extern "C" t1286 * m5390 (t1286 * __this, MethodInfo* method)
+extern MethodInfo m5418_MI;
+extern "C" t1295 * m5418 (t1295 * __this, MethodInfo* method)
 {
 	{
-		t1286 * L_0 = (__this->f5);
+		t1295 * L_0 = (__this->f5);
 		return L_0;
 	}
 }
-#include "t1287.h"
+#include "t1296.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1287_TI;
-#include "t1287MD.h"
+extern TypeInfo t1296_TI;
+#include "t1296MD.h"
 
 
 
-#include "t1288.h"
+#include "t1297.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1288_TI;
-#include "t1288MD.h"
+extern TypeInfo t1297_TI;
+#include "t1297MD.h"
 
-#include "t1289.h"
-#include "t1252.h"
-#include "t930.h"
+#include "t1298.h"
+#include "t1261.h"
+#include "t937.h"
 #include "System_ArrayTypes.h"
-#include "t1258.h"
-#include "t1255.h"
-#include "t1256.h"
-#include "t1253.h"
-#include "t1259.h"
-extern TypeInfo t1252_TI;
-extern TypeInfo t1289_TI;
-extern TypeInfo t305_TI;
+#include "t1267.h"
+#include "t1264.h"
+#include "t1265.h"
+#include "t1262.h"
+#include "t1268.h"
+extern TypeInfo t1261_TI;
+extern TypeInfo t1298_TI;
+extern TypeInfo t312_TI;
 extern TypeInfo t2_TI;
-extern TypeInfo t1290_TI;
-extern TypeInfo t1255_TI;
-extern TypeInfo t1253_TI;
-extern TypeInfo t1258_TI;
-extern TypeInfo t1259_TI;
-#include "t1253MD.h"
-#include "t1252MD.h"
-#include "t1289MD.h"
-#include "t1275MD.h"
+extern TypeInfo t1299_TI;
+extern TypeInfo t1264_TI;
+extern TypeInfo t1262_TI;
+extern TypeInfo t1267_TI;
+extern TypeInfo t1268_TI;
+#include "t1262MD.h"
+#include "t1261MD.h"
+#include "t1298MD.h"
+#include "t1284MD.h"
 #include "t121MD.h"
-#include "t1255MD.h"
-#include "t1258MD.h"
-#include "t1256MD.h"
-#include "t1259MD.h"
-extern Il2CppType t305_0_0_0;
-extern Il2CppType t1290_0_0_0;
-extern MethodInfo m5217_MI;
-extern MethodInfo m5392_MI;
-extern MethodInfo m5395_MI;
-extern MethodInfo m5411_MI;
-extern MethodInfo m5254_MI;
-extern MethodInfo m5406_MI;
-extern MethodInfo m5397_MI;
-extern MethodInfo m5400_MI;
-extern MethodInfo m5475_MI;
-extern MethodInfo m5478_MI;
-extern MethodInfo m5477_MI;
-extern MethodInfo m5398_MI;
-extern MethodInfo m5407_MI;
-extern MethodInfo m5396_MI;
-extern MethodInfo m5401_MI;
-extern MethodInfo m5402_MI;
-extern MethodInfo m5403_MI;
-extern MethodInfo m5404_MI;
-extern MethodInfo m5405_MI;
-extern MethodInfo m2767_MI;
-extern MethodInfo m5312_MI;
-extern MethodInfo m5394_MI;
-extern MethodInfo m5399_MI;
-extern MethodInfo m1090_MI;
-extern MethodInfo m5408_MI;
-extern MethodInfo m5874_MI;
-extern MethodInfo m5223_MI;
-extern MethodInfo m5240_MI;
-extern MethodInfo m5232_MI;
-extern MethodInfo m5409_MI;
+#include "t1264MD.h"
+#include "t1267MD.h"
+#include "t1265MD.h"
+#include "t1268MD.h"
+extern Il2CppType t312_0_0_0;
+extern Il2CppType t1299_0_0_0;
+extern MethodInfo m5245_MI;
+extern MethodInfo m5420_MI;
+extern MethodInfo m5423_MI;
+extern MethodInfo m5439_MI;
+extern MethodInfo m5282_MI;
+extern MethodInfo m5434_MI;
+extern MethodInfo m5425_MI;
+extern MethodInfo m5428_MI;
+extern MethodInfo m5503_MI;
+extern MethodInfo m5506_MI;
+extern MethodInfo m5505_MI;
+extern MethodInfo m5426_MI;
+extern MethodInfo m5435_MI;
+extern MethodInfo m5424_MI;
+extern MethodInfo m5429_MI;
+extern MethodInfo m5430_MI;
+extern MethodInfo m5431_MI;
+extern MethodInfo m5432_MI;
+extern MethodInfo m5433_MI;
+extern MethodInfo m2791_MI;
+extern MethodInfo m5340_MI;
+extern MethodInfo m5422_MI;
+extern MethodInfo m5427_MI;
+extern MethodInfo m1105_MI;
+extern MethodInfo m5436_MI;
+extern MethodInfo m5902_MI;
 extern MethodInfo m5251_MI;
-extern MethodInfo m5252_MI;
-extern MethodInfo m5410_MI;
-extern MethodInfo m5236_MI;
-extern MethodInfo m5255_MI;
-extern MethodInfo m5246_MI;
+extern MethodInfo m5268_MI;
+extern MethodInfo m5260_MI;
+extern MethodInfo m5437_MI;
+extern MethodInfo m5279_MI;
+extern MethodInfo m5280_MI;
+extern MethodInfo m5438_MI;
+extern MethodInfo m5264_MI;
+extern MethodInfo m5283_MI;
+extern MethodInfo m5274_MI;
 
 
-extern MethodInfo m5391_MI;
-extern TypeInfo* t1088_TI_var;
-extern "C" void m5391 (t1288 * __this, t304* p0, MethodInfo* method)
+extern MethodInfo m5419_MI;
+extern TypeInfo* t1095_TI_var;
+extern "C" void m5419 (t1297 * __this, t311* p0, MethodInfo* method)
 {
-	static bool m5391_init;
-	if (!m5391_init)
+	static bool m5419_init;
+	if (!m5419_init)
 	{
-		t1088_TI_var = il2cpp_codegen_class_from_type(&t1088_0_0_0);
-		m5391_init = true;
+		t1095_TI_var = il2cpp_codegen_class_from_type(&t1095_0_0_0);
+		m5419_init = true;
 	}
-	t1285  V_0 = {0};
+	t1294  V_0 = {0};
 	{
-		Initobj (InitializedTypeInfo(&t1285_TI), (&V_0));
-		t1285  L_0 = V_0;
+		Initobj (InitializedTypeInfo(&t1294_TI), (&V_0));
+		t1294  L_0 = V_0;
 		__this->f11 = L_0;
-		m5217(__this, &m5217_MI);
-		t304* L_1 = p0;
+		m5245(__this, &m5245_MI);
+		t311* L_1 = p0;
 		__this->f1 = L_1;
-		__this->f7 = (t1289 *)NULL;
-		int32_t L_2 = m5392(__this, 1, &m5392_MI);
+		__this->f7 = (t1298 *)NULL;
+		int32_t L_2 = m5420(__this, 1, &m5420_MI);
 		__this->f5 = ((int32_t)((int32_t)L_2+(int32_t)1));
-		int32_t L_3 = m5392(__this, 3, &m5392_MI);
+		int32_t L_3 = m5420(__this, 3, &m5420_MI);
 		__this->f6 = L_3;
 		__this->f2 = 7;
 		int32_t L_4 = (__this->f5);
-		__this->f16 = ((t1088*)SZArrayNew(t1088_TI_var, L_4));
+		__this->f16 = ((t1095*)SZArrayNew(t1095_TI_var, L_4));
 		return;
 	}
 }
-extern "C" int32_t m5392 (t1288 * __this, int32_t p0, MethodInfo* method)
+extern "C" int32_t m5420 (t1297 * __this, int32_t p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		t304* L_0 = (__this->f1);
+		t311* L_0 = (__this->f1);
 		int32_t L_1 = p0;
 		int32_t L_2 = ((int32_t)((int32_t)L_1+(int32_t)1));
 		V_0 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_0, L_2));
 		int32_t L_3 = V_0;
 		V_0 = ((int32_t)((int32_t)L_3<<(int32_t)((int32_t)16)));
 		int32_t L_4 = V_0;
-		t304* L_5 = (__this->f1);
+		t311* L_5 = (__this->f1);
 		int32_t L_6 = p0;
 		int32_t L_7 = L_6;
 		V_0 = ((int32_t)((int32_t)L_4+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_5, L_7))));
@@ -1447,8 +1447,8 @@ extern "C" int32_t m5392 (t1288 * __this, int32_t p0, MethodInfo* method)
 		return L_8;
 	}
 }
-extern MethodInfo m5393_MI;
-extern "C" t1252 * m5393 (t1288 * __this, t930 * p0, t2* p1, int32_t p2, int32_t p3, MethodInfo* method)
+extern MethodInfo m5421_MI;
+extern "C" t1261 * m5421 (t1297 * __this, t937 * p0, t2* p1, int32_t p2, int32_t p3, MethodInfo* method)
 {
 	{
 		t2* L_0 = p1;
@@ -1459,38 +1459,38 @@ extern "C" t1252 * m5393 (t1288 * __this, t930 * p0, t2* p1, int32_t p2, int32_t
 		__this->f8 = L_2;
 		int32_t* L_3 = &(__this->f8);
 		int32_t L_4 = (__this->f2);
-		bool L_5 = m5395(__this, 1, L_3, L_4, &m5395_MI);
+		bool L_5 = m5423(__this, 1, L_3, L_4, &m5423_MI);
 		if (!L_5)
 		{
 			goto IL_0036;
 		}
 	}
 	{
-		t930 * L_6 = p0;
-		t1252 * L_7 = m5411(__this, L_6, &m5411_MI);
+		t937 * L_6 = p0;
+		t1261 * L_7 = m5439(__this, L_6, &m5439_MI);
 		return L_7;
 	}
 
 IL_0036:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1252_TI));
-		t1252 * L_8 = m5254(NULL, &m5254_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1261_TI));
+		t1261 * L_8 = m5282(NULL, &m5282_MI);
 		return L_8;
 	}
 }
-extern "C" void m5394 (t1288 * __this, MethodInfo* method)
+extern "C" void m5422 (t1297 * __this, MethodInfo* method)
 {
-	t1286 * V_0 = {0};
+	t1295 * V_0 = {0};
 	{
-		m5406(__this, &m5406_MI);
-		V_0 = (t1286 *)NULL;
-		__this->f9 = (t1286 *)NULL;
-		t1286 * L_0 = V_0;
+		m5434(__this, &m5434_MI);
+		V_0 = (t1295 *)NULL;
+		__this->f9 = (t1295 *)NULL;
+		t1295 * L_0 = V_0;
 		__this->f10 = L_0;
 		return;
 	}
 }
-extern "C" bool m5395 (t1288 * __this, int32_t p0, int32_t* p1, int32_t p2, MethodInfo* method)
+extern "C" bool m5423 (t1297 * __this, int32_t p0, int32_t* p1, int32_t p2, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	uint16_t V_1 = 0;
@@ -1525,7 +1525,7 @@ extern "C" bool m5395 (t1288 * __this, int32_t p0, int32_t* p1, int32_t p2, Meth
 	int32_t V_30 = 0;
 	uint16_t V_31 = {0};
 	int32_t V_32 = 0;
-	t1286 * V_33 = {0};
+	t1295 * V_33 = {0};
 	int32_t V_34 = 0;
 	int32_t V_35 = 0;
 	int32_t V_36 = 0;
@@ -1555,14 +1555,14 @@ extern "C" bool m5395 (t1288 * __this, int32_t p0, int32_t* p1, int32_t p2, Meth
 	int32_t G_B96_0 = 0;
 	int32_t G_B162_0 = 0;
 	int32_t G_B162_1 = 0;
-	t1288 * G_B162_2 = {0};
+	t1297 * G_B162_2 = {0};
 	int32_t G_B161_0 = 0;
 	int32_t G_B161_1 = 0;
-	t1288 * G_B161_2 = {0};
+	t1297 * G_B161_2 = {0};
 	int32_t G_B163_0 = 0;
 	int32_t G_B163_1 = 0;
 	int32_t G_B163_2 = 0;
-	t1288 * G_B163_3 = {0};
+	t1297 * G_B163_3 = {0};
 	{
 		int32_t* L_0 = p1;
 		V_0 = (*((int32_t*)L_0));
@@ -1575,7 +1575,7 @@ IL_0003:
 
 IL_0008:
 	{
-		t304* L_1 = (__this->f1);
+		t311* L_1 = (__this->f1);
 		int32_t L_2 = p2;
 		int32_t L_3 = L_2;
 		V_1 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_1, L_3));
@@ -1693,11 +1693,11 @@ IL_0008:
 
 IL_0096:
 	{
-		t304* L_8 = (__this->f1);
+		t311* L_8 = (__this->f1);
 		int32_t L_9 = p2;
 		int32_t L_10 = ((int32_t)((int32_t)L_9+(int32_t)1));
 		V_4 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_8, L_10));
-		t304* L_11 = (__this->f1);
+		t311* L_11 = (__this->f1);
 		int32_t L_12 = p2;
 		int32_t L_13 = ((int32_t)((int32_t)L_12+(int32_t)2));
 		V_5 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_11, L_13));
@@ -1731,7 +1731,7 @@ IL_00d2:
 		int32_t L_22 = V_5;
 		V_8 = ((int32_t)((int32_t)((int32_t)((int32_t)L_20-(int32_t)L_21))+(int32_t)L_22));
 		V_9 = 0;
-		t304* L_23 = (__this->f1);
+		t311* L_23 = (__this->f1);
 		int32_t L_24 = p2;
 		int32_t L_25 = ((int32_t)((int32_t)L_24+(int32_t)3));
 		V_10 = (((uint16_t)((int32_t)((int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_23, L_25))&(int32_t)((int32_t)255)))));
@@ -1749,7 +1749,7 @@ IL_00d2:
 		}
 	}
 	{
-		t304* L_28 = (__this->f1);
+		t311* L_28 = (__this->f1);
 		int32_t L_29 = p2;
 		int32_t L_30 = ((int32_t)((int32_t)L_29+(int32_t)4));
 		V_53 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_28, L_30));
@@ -1804,7 +1804,7 @@ IL_014a:
 	{
 		int32_t L_36 = p2;
 		int32_t L_37 = V_4;
-		bool L_38 = m5397(__this, (&V_0), ((int32_t)((int32_t)L_36+(int32_t)L_37)), &m5397_MI);
+		bool L_38 = m5425(__this, (&V_0), ((int32_t)((int32_t)L_36+(int32_t)L_37)), &m5425_MI);
 		if (!L_38)
 		{
 			goto IL_0160;
@@ -1831,7 +1831,7 @@ IL_0165:
 		V_0 = 0;
 		int32_t L_40 = p2;
 		int32_t L_41 = V_4;
-		bool L_42 = m5397(__this, (&V_0), ((int32_t)((int32_t)L_40+(int32_t)L_41)), &m5397_MI);
+		bool L_42 = m5425(__this, (&V_0), ((int32_t)((int32_t)L_40+(int32_t)L_41)), &m5425_MI);
 		if (!L_42)
 		{
 			goto IL_0184;
@@ -1863,7 +1863,7 @@ IL_018f:
 	{
 		t2* L_45 = (__this->f3);
 		int32_t L_46 = V_7;
-		uint16_t L_47 = m2714(L_45, ((int32_t)((int32_t)L_46-(int32_t)1)), &m2714_MI);
+		uint16_t L_47 = m2738(L_45, ((int32_t)((int32_t)L_46-(int32_t)1)), &m2738_MI);
 		if ((!(((uint32_t)L_47) == ((uint32_t)((int32_t)10)))))
 		{
 			goto IL_01f8;
@@ -1935,7 +1935,7 @@ IL_01e2:
 	{
 		int32_t L_58 = p2;
 		int32_t L_59 = V_4;
-		bool L_60 = m5397(__this, (&V_0), ((int32_t)((int32_t)L_58+(int32_t)L_59)), &m5397_MI);
+		bool L_60 = m5425(__this, (&V_0), ((int32_t)((int32_t)L_58+(int32_t)L_59)), &m5425_MI);
 		if (!L_60)
 		{
 			goto IL_01f8;
@@ -2038,7 +2038,7 @@ IL_025f:
 		V_0 = G_B48_0;
 		int32_t L_76 = p2;
 		int32_t L_77 = V_4;
-		bool L_78 = m5397(__this, (&V_0), ((int32_t)((int32_t)L_76+(int32_t)L_77)), &m5397_MI);
+		bool L_78 = m5425(__this, (&V_0), ((int32_t)((int32_t)L_76+(int32_t)L_77)), &m5425_MI);
 		if (!L_78)
 		{
 			goto IL_0276;
@@ -2065,7 +2065,7 @@ IL_0280:
 
 IL_0285:
 	{
-		t1289 * L_79 = (__this->f7);
+		t1298 * L_79 = (__this->f7);
 		if (L_79)
 		{
 			goto IL_02ab;
@@ -2080,7 +2080,7 @@ IL_0285:
 	}
 	{
 		int32_t L_81 = V_4;
-		t304* L_82 = (__this->f1);
+		t311* L_82 = (__this->f1);
 		int32_t L_83 = p2;
 		int32_t L_84 = ((int32_t)((int32_t)L_83+(int32_t)4));
 		if ((!(((uint32_t)L_81) == ((uint32_t)((int32_t)((int32_t)6+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_82, L_84))))))))
@@ -2091,30 +2091,30 @@ IL_0285:
 
 IL_02ab:
 	{
-		t304* L_85 = (__this->f1);
+		t311* L_85 = (__this->f1);
 		int32_t L_86 = p2;
 		int32_t L_87 = ((int32_t)((int32_t)L_86+(int32_t)3));
 		V_11 = ((((int32_t)((((int32_t)(((uint16_t)((int32_t)((int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_85, L_87))&(int32_t)((int32_t)1024)))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		t1289 * L_88 = (__this->f7);
+		t1298 * L_88 = (__this->f7);
 		if (L_88)
 		{
 			goto IL_0304;
 		}
 	}
 	{
-		t304* L_89 = (__this->f1);
+		t311* L_89 = (__this->f1);
 		int32_t L_90 = p2;
 		int32_t L_91 = ((int32_t)((int32_t)L_90+(int32_t)3));
 		V_12 = ((((int32_t)((((int32_t)(((uint16_t)((int32_t)((int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_89, L_91))&(int32_t)((int32_t)512)))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		int32_t L_92 = p2;
-		t2* L_93 = m5400(__this, ((int32_t)((int32_t)L_92+(int32_t)3)), &m5400_MI);
+		t2* L_93 = m5428(__this, ((int32_t)((int32_t)L_92+(int32_t)3)), &m5428_MI);
 		V_13 = L_93;
 		t2* L_94 = V_13;
 		bool L_95 = V_12;
 		bool L_96 = V_11;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1289_TI));
-		t1289 * L_97 = (t1289 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1289_TI));
-		m5475(L_97, L_94, L_95, L_96, &m5475_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1298_TI));
+		t1298 * L_97 = (t1298 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1298_TI));
+		m5503(L_97, L_94, L_95, L_96, &m5503_MI);
 		__this->f7 = L_97;
 	}
 
@@ -2132,11 +2132,11 @@ IL_0309:
 		}
 	}
 	{
-		t1289 * L_99 = (__this->f7);
+		t1298 * L_99 = (__this->f7);
 		t2* L_100 = (__this->f3);
 		int32_t L_101 = V_7;
 		int32_t L_102 = V_9;
-		int32_t L_103 = m5478(L_99, L_100, L_101, L_102, &m5478_MI);
+		int32_t L_103 = m5506(L_99, L_100, L_101, L_102, &m5506_MI);
 		V_7 = L_103;
 		int32_t L_104 = V_7;
 		if ((((int32_t)L_104) == ((int32_t)(-1))))
@@ -2146,8 +2146,8 @@ IL_0309:
 	}
 	{
 		int32_t L_105 = V_7;
-		t1289 * L_106 = (__this->f7);
-		int32_t L_107 = m5477(L_106, &m5477_MI);
+		t1298 * L_106 = (__this->f7);
+		int32_t L_107 = m5505(L_106, &m5505_MI);
 		V_7 = ((int32_t)((int32_t)L_105+(int32_t)L_107));
 	}
 
@@ -2158,11 +2158,11 @@ IL_033f:
 
 IL_0344:
 	{
-		t1289 * L_108 = (__this->f7);
+		t1298 * L_108 = (__this->f7);
 		t2* L_109 = (__this->f3);
 		int32_t L_110 = V_7;
 		int32_t L_111 = V_8;
-		int32_t L_112 = m5478(L_108, L_109, L_110, L_111, &m5478_MI);
+		int32_t L_112 = m5506(L_108, L_109, L_110, L_111, &m5506_MI);
 		V_7 = L_112;
 	}
 
@@ -2205,7 +2205,7 @@ IL_037e:
 		V_0 = G_B69_0;
 		int32_t L_119 = p2;
 		int32_t L_120 = V_4;
-		bool L_121 = m5397(__this, (&V_0), ((int32_t)((int32_t)L_119+(int32_t)L_120)), &m5397_MI);
+		bool L_121 = m5425(__this, (&V_0), ((int32_t)((int32_t)L_119+(int32_t)L_120)), &m5425_MI);
 		if (!L_121)
 		{
 			goto IL_0395;
@@ -2292,7 +2292,7 @@ IL_03df:
 		V_0 = L_132;
 		int32_t L_133 = p2;
 		int32_t L_134 = V_4;
-		bool L_135 = m5397(__this, (&V_0), ((int32_t)((int32_t)L_133+(int32_t)L_134)), &m5397_MI);
+		bool L_135 = m5425(__this, (&V_0), ((int32_t)((int32_t)L_133+(int32_t)L_134)), &m5425_MI);
 		if (!L_135)
 		{
 			goto IL_03f8;
@@ -2371,7 +2371,7 @@ IL_043a:
 		int32_t L_145 = V_7;
 		V_0 = L_145;
 		int32_t L_146 = p2;
-		bool L_147 = m5395(__this, 1, (&V_0), ((int32_t)((int32_t)L_146+(int32_t)3)), &m5395_MI);
+		bool L_147 = m5423(__this, 1, (&V_0), ((int32_t)((int32_t)L_146+(int32_t)3)), &m5423_MI);
 		if (!L_147)
 		{
 			goto IL_047b;
@@ -2403,7 +2403,7 @@ IL_0464:
 		V_0 = G_B96_0;
 		int32_t L_153 = p2;
 		int32_t L_154 = V_4;
-		bool L_155 = m5397(__this, (&V_0), ((int32_t)((int32_t)L_153+(int32_t)L_154)), &m5397_MI);
+		bool L_155 = m5425(__this, (&V_0), ((int32_t)((int32_t)L_153+(int32_t)L_154)), &m5425_MI);
 		if (!L_155)
 		{
 			goto IL_047b;
@@ -2484,11 +2484,11 @@ IL_04bd:
 
 IL_04c2:
 	{
-		t304* L_165 = (__this->f1);
+		t311* L_165 = (__this->f1);
 		int32_t L_166 = p2;
 		int32_t L_167 = ((int32_t)((int32_t)L_166+(int32_t)1));
 		int32_t L_168 = V_0;
-		bool L_169 = m5398(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_165, L_167)), L_168, &m5398_MI);
+		bool L_169 = m5426(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_165, L_167)), L_168, &m5426_MI);
 		if (L_169)
 		{
 			goto IL_04dd;
@@ -2511,7 +2511,7 @@ IL_04e7:
 		V_14 = ((((int32_t)((((int32_t)(((uint16_t)((int32_t)((int32_t)L_171&(int32_t)((int32_t)1024)))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		uint16_t L_172 = V_3;
 		V_15 = ((((int32_t)((((int32_t)(((uint16_t)((int32_t)((int32_t)L_172&(int32_t)((int32_t)512)))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		t304* L_173 = (__this->f1);
+		t311* L_173 = (__this->f1);
 		int32_t L_174 = p2;
 		int32_t L_175 = ((int32_t)((int32_t)L_174+(int32_t)1));
 		V_16 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_173, L_175));
@@ -2567,7 +2567,7 @@ IL_0551:
 		t2* L_184 = (__this->f3);
 		int32_t L_185 = V_0;
 		int32_t L_186 = V_17;
-		uint16_t L_187 = m2714(L_184, ((int32_t)((int32_t)L_185+(int32_t)L_186)), &m2714_MI);
+		uint16_t L_187 = m2738(L_184, ((int32_t)((int32_t)L_185+(int32_t)L_186)), &m2738_MI);
 		V_18 = L_187;
 		bool L_188 = V_15;
 		if (!L_188)
@@ -2577,15 +2577,15 @@ IL_0551:
 	}
 	{
 		uint16_t L_189 = V_18;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		uint16_t L_190 = m2769(NULL, L_189, &m2769_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		uint16_t L_190 = m2793(NULL, L_189, &m2793_MI);
 		V_18 = L_190;
 	}
 
 IL_0572:
 	{
 		uint16_t L_191 = V_18;
-		t304* L_192 = (__this->f1);
+		t311* L_192 = (__this->f1);
 		int32_t L_193 = p2;
 		int32_t L_194 = L_193;
 		p2 = ((int32_t)((int32_t)L_194+(int32_t)1));
@@ -2638,10 +2638,10 @@ IL_05ab:
 		V_19 = ((((int32_t)((((int32_t)(((uint16_t)((int32_t)((int32_t)L_202&(int32_t)((int32_t)1024)))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		uint16_t L_203 = V_3;
 		V_20 = ((((int32_t)((((int32_t)(((uint16_t)((int32_t)((int32_t)L_203&(int32_t)((int32_t)512)))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		t304* L_204 = (__this->f1);
+		t311* L_204 = (__this->f1);
 		int32_t L_205 = p2;
 		int32_t L_206 = ((int32_t)((int32_t)L_205+(int32_t)1));
-		int32_t L_207 = m5407(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_204, L_206)), &m5407_MI);
+		int32_t L_207 = m5435(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_204, L_206)), &m5435_MI);
 		V_21 = L_207;
 		int32_t L_208 = V_21;
 		if ((((int32_t)L_208) >= ((int32_t)0)))
@@ -2655,13 +2655,13 @@ IL_05ab:
 
 IL_05ea:
 	{
-		t1290* L_209 = (__this->f13);
+		t1299* L_209 = (__this->f13);
 		int32_t L_210 = V_21;
-		int32_t L_211 = m5375(((t1284 *)(t1284 *)SZArrayLdElema(L_209, L_210)), &m5375_MI);
+		int32_t L_211 = m5403(((t1293 *)(t1293 *)SZArrayLdElema(L_209, L_210)), &m5403_MI);
 		V_22 = L_211;
-		t1290* L_212 = (__this->f13);
+		t1299* L_212 = (__this->f13);
 		int32_t L_213 = V_21;
-		int32_t L_214 = m5376(((t1284 *)(t1284 *)SZArrayLdElema(L_212, L_213)), &m5376_MI);
+		int32_t L_214 = m5404(((t1293 *)(t1293 *)SZArrayLdElema(L_212, L_213)), &m5404_MI);
 		V_23 = L_214;
 		bool L_215 = V_19;
 		if (!L_215)
@@ -2722,14 +2722,14 @@ IL_0657:
 		t2* L_224 = (__this->f3);
 		int32_t L_225 = V_0;
 		int32_t L_226 = V_24;
-		uint16_t L_227 = m2714(L_224, ((int32_t)((int32_t)L_225+(int32_t)L_226)), &m2714_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		uint16_t L_228 = m2769(NULL, L_227, &m2769_MI);
+		uint16_t L_227 = m2738(L_224, ((int32_t)((int32_t)L_225+(int32_t)L_226)), &m2738_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		uint16_t L_228 = m2793(NULL, L_227, &m2793_MI);
 		t2* L_229 = (__this->f3);
 		int32_t L_230 = V_22;
 		int32_t L_231 = V_24;
-		uint16_t L_232 = m2714(L_229, ((int32_t)((int32_t)L_230+(int32_t)L_231)), &m2714_MI);
-		uint16_t L_233 = m2769(NULL, L_232, &m2769_MI);
+		uint16_t L_232 = m2738(L_229, ((int32_t)((int32_t)L_230+(int32_t)L_231)), &m2738_MI);
+		uint16_t L_233 = m2793(NULL, L_232, &m2793_MI);
 		if ((((int32_t)L_228) == ((int32_t)L_233)))
 		{
 			goto IL_068a;
@@ -2769,11 +2769,11 @@ IL_06a6:
 		t2* L_237 = (__this->f3);
 		int32_t L_238 = V_0;
 		int32_t L_239 = V_25;
-		uint16_t L_240 = m2714(L_237, ((int32_t)((int32_t)L_238+(int32_t)L_239)), &m2714_MI);
+		uint16_t L_240 = m2738(L_237, ((int32_t)((int32_t)L_238+(int32_t)L_239)), &m2738_MI);
 		t2* L_241 = (__this->f3);
 		int32_t L_242 = V_22;
 		int32_t L_243 = V_25;
-		uint16_t L_244 = m2714(L_241, ((int32_t)((int32_t)L_242+(int32_t)L_243)), &m2714_MI);
+		uint16_t L_244 = m2738(L_241, ((int32_t)((int32_t)L_242+(int32_t)L_243)), &m2738_MI);
 		if ((((int32_t)L_240) == ((int32_t)L_244)))
 		{
 			goto IL_06cf;
@@ -2821,7 +2821,7 @@ IL_06ea:
 IL_06ef:
 	{
 		int32_t L_251 = p0;
-		bool L_252 = m5396(__this, L_251, (&V_0), (&p2), 0, &m5396_MI);
+		bool L_252 = m5424(__this, L_251, (&V_0), (&p2), 0, &m5424_MI);
 		if (L_252)
 		{
 			goto IL_0705;
@@ -2839,14 +2839,14 @@ IL_0705:
 IL_070a:
 	{
 		int32_t L_253 = p2;
-		t304* L_254 = (__this->f1);
+		t311* L_254 = (__this->f1);
 		int32_t L_255 = p2;
 		int32_t L_256 = ((int32_t)((int32_t)L_255+(int32_t)1));
 		V_26 = ((int32_t)((int32_t)L_253+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_254, L_256))));
 		int32_t L_257 = p2;
 		p2 = ((int32_t)((int32_t)L_257+(int32_t)2));
 		int32_t L_258 = p0;
-		bool L_259 = m5396(__this, L_258, (&V_0), (&p2), 1, &m5396_MI);
+		bool L_259 = m5424(__this, L_258, (&V_0), (&p2), 1, &m5424_MI);
 		if (L_259)
 		{
 			goto IL_0733;
@@ -2865,11 +2865,11 @@ IL_0733:
 
 IL_073c:
 	{
-		t304* L_261 = (__this->f1);
+		t311* L_261 = (__this->f1);
 		int32_t L_262 = p2;
 		int32_t L_263 = ((int32_t)((int32_t)L_262+(int32_t)1));
 		int32_t L_264 = V_0;
-		m5401(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_261, L_263)), L_264, &m5401_MI);
+		m5429(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_261, L_263)), L_264, &m5429_MI);
 		int32_t L_265 = p2;
 		p2 = ((int32_t)((int32_t)L_265+(int32_t)2));
 		goto IL_0fee;
@@ -2877,11 +2877,11 @@ IL_073c:
 
 IL_0757:
 	{
-		t304* L_266 = (__this->f1);
+		t311* L_266 = (__this->f1);
 		int32_t L_267 = p2;
 		int32_t L_268 = ((int32_t)((int32_t)L_267+(int32_t)1));
 		int32_t L_269 = V_0;
-		m5402(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_266, L_268)), L_269, &m5402_MI);
+		m5430(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_266, L_268)), L_269, &m5430_MI);
 		int32_t L_270 = p2;
 		p2 = ((int32_t)((int32_t)L_270+(int32_t)2));
 		goto IL_0fee;
@@ -2892,7 +2892,7 @@ IL_0772:
 		int32_t L_271 = V_0;
 		V_27 = L_271;
 		int32_t L_272 = p2;
-		bool L_273 = m5395(__this, 1, (&V_0), ((int32_t)((int32_t)L_272+(int32_t)5)), &m5395_MI);
+		bool L_273 = m5423(__this, 1, (&V_0), ((int32_t)((int32_t)L_272+(int32_t)5)), &m5423_MI);
 		if (L_273)
 		{
 			goto IL_078b;
@@ -2904,13 +2904,13 @@ IL_0772:
 
 IL_078b:
 	{
-		t304* L_274 = (__this->f1);
+		t311* L_274 = (__this->f1);
 		int32_t L_275 = p2;
 		int32_t L_276 = ((int32_t)((int32_t)L_275+(int32_t)1));
-		t304* L_277 = (__this->f1);
+		t311* L_277 = (__this->f1);
 		int32_t L_278 = p2;
 		int32_t L_279 = ((int32_t)((int32_t)L_278+(int32_t)2));
-		t304* L_280 = (__this->f1);
+		t311* L_280 = (__this->f1);
 		int32_t L_281 = p2;
 		int32_t L_282 = ((int32_t)((int32_t)L_281+(int32_t)3));
 		G_B161_0 = ((int32_t)((*(uint16_t*)(uint16_t*)SZArrayLdElema(L_277, L_279))));
@@ -2943,7 +2943,7 @@ IL_07b6:
 IL_07b7:
 	{
 		int32_t L_283 = V_27;
-		bool L_284 = m5403(G_B163_3, G_B163_2, G_B163_1, G_B163_0, L_283, &m5403_MI);
+		bool L_284 = m5431(G_B163_3, G_B163_2, G_B163_1, G_B163_0, L_283, &m5431_MI);
 		if (L_284)
 		{
 			goto IL_07c8;
@@ -2956,7 +2956,7 @@ IL_07b7:
 IL_07c8:
 	{
 		int32_t L_285 = p2;
-		t304* L_286 = (__this->f1);
+		t311* L_286 = (__this->f1);
 		int32_t L_287 = p2;
 		int32_t L_288 = ((int32_t)((int32_t)L_287+(int32_t)4));
 		p2 = ((int32_t)((int32_t)L_285+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_286, L_288))));
@@ -2970,10 +2970,10 @@ IL_07db:
 
 IL_07e0:
 	{
-		t304* L_289 = (__this->f1);
+		t311* L_289 = (__this->f1);
 		int32_t L_290 = p2;
 		int32_t L_291 = ((int32_t)((int32_t)L_290+(int32_t)2));
-		int32_t L_292 = m5407(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_289, L_291)), &m5407_MI);
+		int32_t L_292 = m5435(__this, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_289, L_291)), &m5435_MI);
 		V_28 = L_292;
 		int32_t L_293 = V_28;
 		if ((((int32_t)L_293) >= ((int32_t)0)))
@@ -2983,7 +2983,7 @@ IL_07e0:
 	}
 	{
 		int32_t L_294 = p2;
-		t304* L_295 = (__this->f1);
+		t311* L_295 = (__this->f1);
 		int32_t L_296 = p2;
 		int32_t L_297 = ((int32_t)((int32_t)L_296+(int32_t)1));
 		p2 = ((int32_t)((int32_t)L_294+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_295, L_297))));
@@ -3004,7 +3004,7 @@ IL_0812:
 IL_0817:
 	{
 		int32_t L_299 = p2;
-		bool L_300 = m5395(__this, 1, (&V_0), ((int32_t)((int32_t)L_299+(int32_t)2)), &m5395_MI);
+		bool L_300 = m5423(__this, 1, (&V_0), ((int32_t)((int32_t)L_299+(int32_t)2)), &m5423_MI);
 		if (L_300)
 		{
 			goto IL_082d;
@@ -3017,7 +3017,7 @@ IL_0817:
 IL_082d:
 	{
 		int32_t L_301 = p2;
-		t304* L_302 = (__this->f1);
+		t311* L_302 = (__this->f1);
 		int32_t L_303 = p2;
 		int32_t L_304 = ((int32_t)((int32_t)L_303+(int32_t)1));
 		p2 = ((int32_t)((int32_t)L_301+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_302, L_304))));
@@ -3026,12 +3026,12 @@ IL_082d:
 
 IL_0840:
 	{
-		int32_t L_305 = m5404(__this, &m5404_MI);
+		int32_t L_305 = m5432(__this, &m5432_MI);
 		V_29 = L_305;
 		int32_t L_306 = V_0;
 		V_30 = L_306;
 		int32_t L_307 = p2;
-		bool L_308 = m5395(__this, 1, (&V_30), ((int32_t)((int32_t)L_307+(int32_t)3)), &m5395_MI);
+		bool L_308 = m5423(__this, 1, (&V_30), ((int32_t)((int32_t)L_307+(int32_t)3)), &m5423_MI);
 		if (!L_308)
 		{
 			goto IL_086f;
@@ -3039,7 +3039,7 @@ IL_0840:
 	}
 	{
 		int32_t L_309 = p2;
-		t304* L_310 = (__this->f1);
+		t311* L_310 = (__this->f1);
 		int32_t L_311 = p2;
 		int32_t L_312 = ((int32_t)((int32_t)L_311+(int32_t)1));
 		p2 = ((int32_t)((int32_t)L_309+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_310, L_312))));
@@ -3049,9 +3049,9 @@ IL_0840:
 IL_086f:
 	{
 		int32_t L_313 = V_29;
-		m5405(__this, L_313, &m5405_MI);
+		m5433(__this, L_313, &m5433_MI);
 		int32_t L_314 = p2;
-		t304* L_315 = (__this->f1);
+		t311* L_315 = (__this->f1);
 		int32_t L_316 = p2;
 		int32_t L_317 = ((int32_t)((int32_t)L_316+(int32_t)2));
 		p2 = ((int32_t)((int32_t)L_314+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_315, L_317))));
@@ -3064,10 +3064,10 @@ IL_0885:
 
 IL_088a:
 	{
-		int32_t L_318 = m5404(__this, &m5404_MI);
+		int32_t L_318 = m5432(__this, &m5432_MI);
 		V_32 = L_318;
 		int32_t L_319 = p2;
-		bool L_320 = m5395(__this, 1, (&V_0), ((int32_t)((int32_t)L_319+(int32_t)2)), &m5395_MI);
+		bool L_320 = m5423(__this, 1, (&V_0), ((int32_t)((int32_t)L_319+(int32_t)2)), &m5423_MI);
 		if (!L_320)
 		{
 			goto IL_08a8;
@@ -3080,13 +3080,13 @@ IL_088a:
 IL_08a8:
 	{
 		int32_t L_321 = V_32;
-		m5405(__this, L_321, &m5405_MI);
+		m5433(__this, L_321, &m5433_MI);
 		int32_t L_322 = p2;
-		t304* L_323 = (__this->f1);
+		t311* L_323 = (__this->f1);
 		int32_t L_324 = p2;
 		int32_t L_325 = ((int32_t)((int32_t)L_324+(int32_t)1));
 		p2 = ((int32_t)((int32_t)L_322+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_323, L_325))));
-		t304* L_326 = (__this->f1);
+		t311* L_326 = (__this->f1);
 		int32_t L_327 = p2;
 		int32_t L_328 = L_327;
 		V_31 = (((uint16_t)((int32_t)((int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_326, L_328))&(int32_t)((int32_t)255)))));
@@ -3103,7 +3103,7 @@ IL_08a8:
 IL_08db:
 	{
 		int32_t L_330 = p2;
-		t304* L_331 = (__this->f1);
+		t311* L_331 = (__this->f1);
 		int32_t L_332 = p2;
 		int32_t L_333 = ((int32_t)((int32_t)L_332+(int32_t)1));
 		p2 = ((int32_t)((int32_t)L_330+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_331, L_333))));
@@ -3112,21 +3112,21 @@ IL_08db:
 
 IL_08ee:
 	{
-		t1286 * L_334 = (__this->f9);
+		t1295 * L_334 = (__this->f9);
 		int32_t L_335 = p2;
-		int32_t L_336 = m5392(__this, ((int32_t)((int32_t)L_335+(int32_t)2)), &m5392_MI);
+		int32_t L_336 = m5420(__this, ((int32_t)((int32_t)L_335+(int32_t)2)), &m5420_MI);
 		int32_t L_337 = p2;
-		int32_t L_338 = m5392(__this, ((int32_t)((int32_t)L_337+(int32_t)4)), &m5392_MI);
+		int32_t L_338 = m5420(__this, ((int32_t)((int32_t)L_337+(int32_t)4)), &m5420_MI);
 		uint16_t L_339 = V_3;
 		int32_t L_340 = p2;
-		t1286 * L_341 = (t1286 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1286_TI));
-		m5381(L_341, L_334, L_336, L_338, ((((int32_t)((((int32_t)(((uint16_t)((int32_t)((int32_t)L_339&(int32_t)((int32_t)2048)))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0), ((int32_t)((int32_t)L_340+(int32_t)6)), &m5381_MI);
+		t1295 * L_341 = (t1295 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1295_TI));
+		m5409(L_341, L_334, L_336, L_338, ((((int32_t)((((int32_t)(((uint16_t)((int32_t)((int32_t)L_339&(int32_t)((int32_t)2048)))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0), ((int32_t)((int32_t)L_340+(int32_t)6)), &m5409_MI);
 		__this->f9 = L_341;
 		int32_t L_342 = p2;
-		t304* L_343 = (__this->f1);
+		t311* L_343 = (__this->f1);
 		int32_t L_344 = p2;
 		int32_t L_345 = ((int32_t)((int32_t)L_344+(int32_t)1));
-		bool L_346 = m5395(__this, 1, (&V_0), ((int32_t)((int32_t)L_342+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_343, L_345)))), &m5395_MI);
+		bool L_346 = m5423(__this, 1, (&V_0), ((int32_t)((int32_t)L_342+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_343, L_345)))), &m5423_MI);
 		if (!L_346)
 		{
 			goto IL_0941;
@@ -3138,19 +3138,19 @@ IL_08ee:
 
 IL_0941:
 	{
-		t1286 * L_347 = (__this->f9);
-		t1286 * L_348 = m5390(L_347, &m5390_MI);
+		t1295 * L_347 = (__this->f9);
+		t1295 * L_348 = m5418(L_347, &m5418_MI);
 		__this->f9 = L_348;
 		goto IL_1067;
 	}
 
 IL_0957:
 	{
-		t1286 * L_349 = (__this->f9);
+		t1295 * L_349 = (__this->f9);
 		V_33 = L_349;
-		t1286 * L_350 = (__this->f12);
-		t1286 * L_351 = V_33;
-		if ((!(((t9*)(t1286 *)L_350) == ((t9*)(t1286 *)L_351))))
+		t1295 * L_350 = (__this->f12);
+		t1295 * L_351 = V_33;
+		if ((!(((t9*)(t1295 *)L_350) == ((t9*)(t1295 *)L_351))))
 		{
 			goto IL_0971;
 		}
@@ -3161,49 +3161,49 @@ IL_0957:
 
 IL_0971:
 	{
-		t1286 * L_352 = V_33;
-		int32_t L_353 = m5384(L_352, &m5384_MI);
+		t1295 * L_352 = V_33;
+		int32_t L_353 = m5412(L_352, &m5412_MI);
 		V_34 = L_353;
-		t1286 * L_354 = V_33;
-		int32_t L_355 = m5382(L_354, &m5382_MI);
+		t1295 * L_354 = V_33;
+		int32_t L_355 = m5410(L_354, &m5410_MI);
 		V_35 = L_355;
 		goto IL_09e5;
 	}
 
 IL_0988:
 	{
-		t1286 * L_356 = V_33;
-		t1286 * L_357 = L_356;
-		int32_t L_358 = m5382(L_357, &m5382_MI);
-		m5383(L_357, ((int32_t)((int32_t)L_358+(int32_t)1)), &m5383_MI);
-		t1286 * L_359 = V_33;
+		t1295 * L_356 = V_33;
+		t1295 * L_357 = L_356;
+		int32_t L_358 = m5410(L_357, &m5410_MI);
+		m5411(L_357, ((int32_t)((int32_t)L_358+(int32_t)1)), &m5411_MI);
+		t1295 * L_359 = V_33;
 		int32_t L_360 = V_0;
-		m5385(L_359, L_360, &m5385_MI);
-		t1286 * L_361 = V_33;
+		m5413(L_359, L_360, &m5413_MI);
+		t1295 * L_361 = V_33;
 		__this->f12 = L_361;
-		t1286 * L_362 = V_33;
-		int32_t L_363 = m5389(L_362, &m5389_MI);
-		bool L_364 = m5395(__this, 1, (&V_0), L_363, &m5395_MI);
+		t1295 * L_362 = V_33;
+		int32_t L_363 = m5417(L_362, &m5417_MI);
+		bool L_364 = m5423(__this, 1, (&V_0), L_363, &m5423_MI);
 		if (L_364)
 		{
 			goto IL_09d3;
 		}
 	}
 	{
-		t1286 * L_365 = V_33;
+		t1295 * L_365 = V_33;
 		int32_t L_366 = V_34;
-		m5385(L_365, L_366, &m5385_MI);
-		t1286 * L_367 = V_33;
+		m5413(L_365, L_366, &m5413_MI);
+		t1295 * L_367 = V_33;
 		int32_t L_368 = V_35;
-		m5383(L_367, L_368, &m5383_MI);
+		m5411(L_367, L_368, &m5411_MI);
 		goto IL_1067;
 	}
 
 IL_09d3:
 	{
-		t1286 * L_369 = (__this->f12);
-		t1286 * L_370 = V_33;
-		if ((((t9*)(t1286 *)L_369) == ((t9*)(t1286 *)L_370)))
+		t1295 * L_369 = (__this->f12);
+		t1295 * L_370 = V_33;
+		if ((((t9*)(t1295 *)L_369) == ((t9*)(t1295 *)L_370)))
 		{
 			goto IL_09e5;
 		}
@@ -3214,8 +3214,8 @@ IL_09d3:
 
 IL_09e5:
 	{
-		t1286 * L_371 = V_33;
-		bool L_372 = m5386(L_371, &m5386_MI);
+		t1295 * L_371 = V_33;
+		bool L_372 = m5414(L_371, &m5414_MI);
 		if (!L_372)
 		{
 			goto IL_0988;
@@ -3223,20 +3223,20 @@ IL_09e5:
 	}
 	{
 		int32_t L_373 = V_0;
-		t1286 * L_374 = V_33;
-		int32_t L_375 = m5384(L_374, &m5384_MI);
+		t1295 * L_374 = V_33;
+		int32_t L_375 = m5412(L_374, &m5412_MI);
 		if ((!(((uint32_t)L_373) == ((uint32_t)L_375))))
 		{
 			goto IL_0a35;
 		}
 	}
 	{
-		t1286 * L_376 = V_33;
-		t1286 * L_377 = m5390(L_376, &m5390_MI);
+		t1295 * L_376 = V_33;
+		t1295 * L_377 = m5418(L_376, &m5418_MI);
 		__this->f9 = L_377;
-		__this->f12 = (t1286 *)NULL;
+		__this->f12 = (t1295 *)NULL;
 		int32_t L_378 = p2;
-		bool L_379 = m5395(__this, 1, (&V_0), ((int32_t)((int32_t)L_378+(int32_t)1)), &m5395_MI);
+		bool L_379 = m5423(__this, 1, (&V_0), ((int32_t)((int32_t)L_378+(int32_t)1)), &m5423_MI);
 		if (!L_379)
 		{
 			goto IL_0a28;
@@ -3248,15 +3248,15 @@ IL_09e5:
 
 IL_0a28:
 	{
-		t1286 * L_380 = V_33;
+		t1295 * L_380 = V_33;
 		__this->f9 = L_380;
 		goto IL_1067;
 	}
 
 IL_0a35:
 	{
-		t1286 * L_381 = V_33;
-		bool L_382 = m5388(L_381, &m5388_MI);
+		t1295 * L_381 = V_33;
+		bool L_382 = m5416(L_381, &m5416_MI);
 		if (!L_382)
 		{
 			goto IL_0b0d;
@@ -3268,14 +3268,14 @@ IL_0a35:
 
 IL_0a46:
 	{
-		t1286 * L_383 = V_33;
-		t1286 * L_384 = m5390(L_383, &m5390_MI);
+		t1295 * L_383 = V_33;
+		t1295 * L_384 = m5418(L_383, &m5418_MI);
 		__this->f9 = L_384;
-		__this->f12 = (t1286 *)NULL;
-		int32_t L_385 = m5404(__this, &m5404_MI);
+		__this->f12 = (t1295 *)NULL;
+		int32_t L_385 = m5432(__this, &m5432_MI);
 		V_36 = L_385;
 		int32_t L_386 = p2;
-		bool L_387 = m5395(__this, 1, (&V_0), ((int32_t)((int32_t)L_386+(int32_t)1)), &m5395_MI);
+		bool L_387 = m5423(__this, 1, (&V_0), ((int32_t)((int32_t)L_386+(int32_t)1)), &m5423_MI);
 		if (!L_387)
 		{
 			goto IL_0a78;
@@ -3288,11 +3288,11 @@ IL_0a46:
 IL_0a78:
 	{
 		int32_t L_388 = V_36;
-		m5405(__this, L_388, &m5405_MI);
-		t1286 * L_389 = V_33;
+		m5433(__this, L_388, &m5433_MI);
+		t1295 * L_389 = V_33;
 		__this->f9 = L_389;
-		t1286 * L_390 = V_33;
-		bool L_391 = m5387(L_390, &m5387_MI);
+		t1295 * L_390 = V_33;
+		bool L_391 = m5415(L_390, &m5415_MI);
 		if (!L_391)
 		{
 			goto IL_0a99;
@@ -3304,38 +3304,38 @@ IL_0a78:
 
 IL_0a99:
 	{
-		t1286 * L_392 = V_33;
-		t1286 * L_393 = L_392;
-		int32_t L_394 = m5382(L_393, &m5382_MI);
-		m5383(L_393, ((int32_t)((int32_t)L_394+(int32_t)1)), &m5383_MI);
-		t1286 * L_395 = V_33;
+		t1295 * L_392 = V_33;
+		t1295 * L_393 = L_392;
+		int32_t L_394 = m5410(L_393, &m5410_MI);
+		m5411(L_393, ((int32_t)((int32_t)L_394+(int32_t)1)), &m5411_MI);
+		t1295 * L_395 = V_33;
 		int32_t L_396 = V_0;
-		m5385(L_395, L_396, &m5385_MI);
-		t1286 * L_397 = V_33;
+		m5413(L_395, L_396, &m5413_MI);
+		t1295 * L_397 = V_33;
 		__this->f12 = L_397;
-		t1286 * L_398 = V_33;
-		int32_t L_399 = m5389(L_398, &m5389_MI);
-		bool L_400 = m5395(__this, 1, (&V_0), L_399, &m5395_MI);
+		t1295 * L_398 = V_33;
+		int32_t L_399 = m5417(L_398, &m5417_MI);
+		bool L_400 = m5423(__this, 1, (&V_0), L_399, &m5423_MI);
 		if (L_400)
 		{
 			goto IL_0ae4;
 		}
 	}
 	{
-		t1286 * L_401 = V_33;
+		t1295 * L_401 = V_33;
 		int32_t L_402 = V_34;
-		m5385(L_401, L_402, &m5385_MI);
-		t1286 * L_403 = V_33;
+		m5413(L_401, L_402, &m5413_MI);
+		t1295 * L_403 = V_33;
 		int32_t L_404 = V_35;
-		m5383(L_403, L_404, &m5383_MI);
+		m5411(L_403, L_404, &m5411_MI);
 		goto IL_1067;
 	}
 
 IL_0ae4:
 	{
-		t1286 * L_405 = (__this->f12);
-		t1286 * L_406 = V_33;
-		if ((((t9*)(t1286 *)L_405) == ((t9*)(t1286 *)L_406)))
+		t1295 * L_405 = (__this->f12);
+		t1295 * L_406 = V_33;
+		if ((((t9*)(t1295 *)L_405) == ((t9*)(t1295 *)L_406)))
 		{
 			goto IL_0af6;
 		}
@@ -3347,8 +3347,8 @@ IL_0ae4:
 IL_0af6:
 	{
 		int32_t L_407 = V_0;
-		t1286 * L_408 = V_33;
-		int32_t L_409 = m5384(L_408, &m5384_MI);
+		t1295 * L_408 = V_33;
+		int32_t L_409 = m5412(L_408, &m5412_MI);
 		if ((!(((uint32_t)L_407) == ((uint32_t)L_409))))
 		{
 			goto IL_0b08;
@@ -3365,78 +3365,78 @@ IL_0b08:
 
 IL_0b0d:
 	{
-		t1285 * L_410 = &(__this->f11);
-		int32_t L_411 = m5379(L_410, &m5379_MI);
+		t1294 * L_410 = &(__this->f11);
+		int32_t L_411 = m5407(L_410, &m5407_MI);
 		V_37 = L_411;
 		goto IL_0bd7;
 	}
 
 IL_0b1f:
 	{
-		int32_t L_412 = m5404(__this, &m5404_MI);
+		int32_t L_412 = m5432(__this, &m5432_MI);
 		V_38 = L_412;
 		int32_t L_413 = V_0;
 		V_39 = L_413;
-		t1286 * L_414 = V_33;
-		int32_t L_415 = m5384(L_414, &m5384_MI);
+		t1295 * L_414 = V_33;
+		int32_t L_415 = m5412(L_414, &m5412_MI);
 		V_40 = L_415;
-		t1286 * L_416 = V_33;
-		t1286 * L_417 = L_416;
-		int32_t L_418 = m5382(L_417, &m5382_MI);
-		m5383(L_417, ((int32_t)((int32_t)L_418+(int32_t)1)), &m5383_MI);
-		t1286 * L_419 = V_33;
+		t1295 * L_416 = V_33;
+		t1295 * L_417 = L_416;
+		int32_t L_418 = m5410(L_417, &m5410_MI);
+		m5411(L_417, ((int32_t)((int32_t)L_418+(int32_t)1)), &m5411_MI);
+		t1295 * L_419 = V_33;
 		int32_t L_420 = V_0;
-		m5385(L_419, L_420, &m5385_MI);
-		t1286 * L_421 = V_33;
+		m5413(L_419, L_420, &m5413_MI);
+		t1295 * L_421 = V_33;
 		__this->f12 = L_421;
-		t1286 * L_422 = V_33;
-		int32_t L_423 = m5389(L_422, &m5389_MI);
-		bool L_424 = m5395(__this, 1, (&V_0), L_423, &m5395_MI);
+		t1295 * L_422 = V_33;
+		int32_t L_423 = m5417(L_422, &m5417_MI);
+		bool L_424 = m5423(__this, 1, (&V_0), L_423, &m5423_MI);
 		if (L_424)
 		{
 			goto IL_0b8c;
 		}
 	}
 	{
-		t1286 * L_425 = V_33;
-		t1286 * L_426 = L_425;
-		int32_t L_427 = m5382(L_426, &m5382_MI);
-		m5383(L_426, ((int32_t)((int32_t)L_427-(int32_t)1)), &m5383_MI);
-		t1286 * L_428 = V_33;
+		t1295 * L_425 = V_33;
+		t1295 * L_426 = L_425;
+		int32_t L_427 = m5410(L_426, &m5410_MI);
+		m5411(L_426, ((int32_t)((int32_t)L_427-(int32_t)1)), &m5411_MI);
+		t1295 * L_428 = V_33;
 		int32_t L_429 = V_40;
-		m5385(L_428, L_429, &m5385_MI);
+		m5413(L_428, L_429, &m5413_MI);
 		int32_t L_430 = V_38;
-		m5405(__this, L_430, &m5405_MI);
+		m5433(__this, L_430, &m5433_MI);
 		goto IL_0be3;
 	}
 
 IL_0b8c:
 	{
-		t1286 * L_431 = (__this->f12);
-		t1286 * L_432 = V_33;
-		if ((((t9*)(t1286 *)L_431) == ((t9*)(t1286 *)L_432)))
+		t1295 * L_431 = (__this->f12);
+		t1295 * L_432 = V_33;
+		if ((((t9*)(t1295 *)L_431) == ((t9*)(t1295 *)L_432)))
 		{
 			goto IL_0bab;
 		}
 	}
 	{
-		t1285 * L_433 = &(__this->f11);
+		t1294 * L_433 = &(__this->f11);
 		int32_t L_434 = V_37;
-		m5380(L_433, L_434, &m5380_MI);
+		m5408(L_433, L_434, &m5408_MI);
 		goto IL_0ff3;
 	}
 
 IL_0bab:
 	{
-		t1285 * L_435 = &(__this->f11);
+		t1294 * L_435 = &(__this->f11);
 		int32_t L_436 = V_38;
-		m5378(L_435, L_436, &m5378_MI);
-		t1285 * L_437 = &(__this->f11);
+		m5406(L_435, L_436, &m5406_MI);
+		t1294 * L_437 = &(__this->f11);
 		int32_t L_438 = V_39;
-		m5378(L_437, L_438, &m5378_MI);
+		m5406(L_437, L_438, &m5406_MI);
 		int32_t L_439 = V_0;
-		t1286 * L_440 = V_33;
-		int32_t L_441 = m5384(L_440, &m5384_MI);
+		t1295 * L_440 = V_33;
+		int32_t L_441 = m5412(L_440, &m5412_MI);
 		if ((!(((uint32_t)L_439) == ((uint32_t)L_441))))
 		{
 			goto IL_0bd7;
@@ -3448,8 +3448,8 @@ IL_0bab:
 
 IL_0bd7:
 	{
-		t1286 * L_442 = V_33;
-		bool L_443 = m5387(L_442, &m5387_MI);
+		t1295 * L_442 = V_33;
+		bool L_443 = m5415(L_442, &m5415_MI);
 		if (!L_443)
 		{
 			goto IL_0b1f;
@@ -3458,33 +3458,33 @@ IL_0bd7:
 
 IL_0be3:
 	{
-		t1286 * L_444 = V_33;
-		t1286 * L_445 = m5390(L_444, &m5390_MI);
+		t1295 * L_444 = V_33;
+		t1295 * L_445 = m5418(L_444, &m5418_MI);
 		__this->f9 = L_445;
 		goto IL_0c6a;
 	}
 
 IL_0bf5:
 	{
-		__this->f12 = (t1286 *)NULL;
+		__this->f12 = (t1295 *)NULL;
 		int32_t L_446 = p2;
-		bool L_447 = m5395(__this, 1, (&V_0), ((int32_t)((int32_t)L_446+(int32_t)1)), &m5395_MI);
+		bool L_447 = m5423(__this, 1, (&V_0), ((int32_t)((int32_t)L_446+(int32_t)1)), &m5423_MI);
 		if (!L_447)
 		{
 			goto IL_0c1f;
 		}
 	}
 	{
-		t1285 * L_448 = &(__this->f11);
+		t1294 * L_448 = &(__this->f11);
 		int32_t L_449 = V_37;
-		m5380(L_448, L_449, &m5380_MI);
+		m5408(L_448, L_449, &m5408_MI);
 		goto IL_0ff3;
 	}
 
 IL_0c1f:
 	{
-		t1285 * L_450 = &(__this->f11);
-		int32_t L_451 = m5379(L_450, &m5379_MI);
+		t1294 * L_450 = &(__this->f11);
+		int32_t L_451 = m5407(L_450, &m5407_MI);
 		int32_t L_452 = V_37;
 		if ((!(((uint32_t)L_451) == ((uint32_t)L_452))))
 		{
@@ -3492,23 +3492,23 @@ IL_0c1f:
 		}
 	}
 	{
-		t1286 * L_453 = V_33;
+		t1295 * L_453 = V_33;
 		__this->f9 = L_453;
 		goto IL_1067;
 	}
 
 IL_0c3e:
 	{
-		t1286 * L_454 = V_33;
-		t1286 * L_455 = L_454;
-		int32_t L_456 = m5382(L_455, &m5382_MI);
-		m5383(L_455, ((int32_t)((int32_t)L_456-(int32_t)1)), &m5383_MI);
-		t1285 * L_457 = &(__this->f11);
-		int32_t L_458 = m5377(L_457, &m5377_MI);
+		t1295 * L_454 = V_33;
+		t1295 * L_455 = L_454;
+		int32_t L_456 = m5410(L_455, &m5410_MI);
+		m5411(L_455, ((int32_t)((int32_t)L_456-(int32_t)1)), &m5411_MI);
+		t1294 * L_457 = &(__this->f11);
+		int32_t L_458 = m5405(L_457, &m5405_MI);
 		V_0 = L_458;
-		t1285 * L_459 = &(__this->f11);
-		int32_t L_460 = m5377(L_459, &m5377_MI);
-		m5405(__this, L_460, &m5405_MI);
+		t1294 * L_459 = &(__this->f11);
+		int32_t L_460 = m5405(L_459, &m5405_MI);
+		m5433(__this, L_460, &m5433_MI);
 	}
 
 IL_0c6a:
@@ -3518,27 +3518,27 @@ IL_0c6a:
 
 IL_0c6f:
 	{
-		t1286 * L_461 = (__this->f10);
+		t1295 * L_461 = (__this->f10);
 		int32_t L_462 = p2;
-		int32_t L_463 = m5392(__this, ((int32_t)((int32_t)L_462+(int32_t)2)), &m5392_MI);
+		int32_t L_463 = m5420(__this, ((int32_t)((int32_t)L_462+(int32_t)2)), &m5420_MI);
 		int32_t L_464 = p2;
-		int32_t L_465 = m5392(__this, ((int32_t)((int32_t)L_464+(int32_t)4)), &m5392_MI);
+		int32_t L_465 = m5420(__this, ((int32_t)((int32_t)L_464+(int32_t)4)), &m5420_MI);
 		uint16_t L_466 = V_3;
 		int32_t L_467 = p2;
-		t1286 * L_468 = (t1286 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1286_TI));
-		m5381(L_468, L_461, L_463, L_465, ((((int32_t)((((int32_t)(((uint16_t)((int32_t)((int32_t)L_466&(int32_t)((int32_t)2048)))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0), ((int32_t)((int32_t)L_467+(int32_t)6)), &m5381_MI);
+		t1295 * L_468 = (t1295 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1295_TI));
+		m5409(L_468, L_461, L_463, L_465, ((((int32_t)((((int32_t)(((uint16_t)((int32_t)((int32_t)L_466&(int32_t)((int32_t)2048)))))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0), ((int32_t)((int32_t)L_467+(int32_t)6)), &m5409_MI);
 		__this->f10 = L_468;
-		t1286 * L_469 = (__this->f10);
+		t1295 * L_469 = (__this->f10);
 		int32_t L_470 = V_0;
-		m5385(L_469, L_470, &m5385_MI);
-		int32_t L_471 = m5404(__this, &m5404_MI);
+		m5413(L_469, L_470, &m5413_MI);
+		int32_t L_471 = m5432(__this, &m5432_MI);
 		V_41 = L_471;
 		int32_t L_472 = p2;
-		t304* L_473 = (__this->f1);
+		t311* L_473 = (__this->f1);
 		int32_t L_474 = p2;
 		int32_t L_475 = ((int32_t)((int32_t)L_474+(int32_t)1));
 		p2 = ((int32_t)((int32_t)L_472+(int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_473, L_475))));
-		t304* L_476 = (__this->f1);
+		t311* L_476 = (__this->f1);
 		int32_t L_477 = p2;
 		int32_t L_478 = L_477;
 		V_42 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_476, L_478));
@@ -3592,7 +3592,7 @@ IL_0d11:
 		}
 	}
 	{
-		t304* L_486 = (__this->f1);
+		t311* L_486 = (__this->f1);
 		int32_t L_487 = p2;
 		int32_t L_488 = ((int32_t)((int32_t)L_487+(int32_t)1));
 		V_48 = ((int32_t)((int32_t)(*(uint16_t*)(uint16_t*)SZArrayLdElema(L_486, L_488))-(int32_t)1));
@@ -3600,7 +3600,7 @@ IL_0d11:
 
 IL_0d38:
 	{
-		t304* L_489 = (__this->f1);
+		t311* L_489 = (__this->f1);
 		int32_t L_490 = p2;
 		int32_t L_491 = V_48;
 		int32_t L_492 = ((int32_t)((int32_t)((int32_t)((int32_t)L_490+(int32_t)2))+(int32_t)L_491));
@@ -3610,7 +3610,7 @@ IL_0d38:
 
 IL_0d4c:
 	{
-		t304* L_493 = (__this->f1);
+		t311* L_493 = (__this->f1);
 		int32_t L_494 = p2;
 		int32_t L_495 = ((int32_t)((int32_t)L_494+(int32_t)1));
 		V_43 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_493, L_495));
@@ -3626,8 +3626,8 @@ IL_0d58:
 	}
 	{
 		int32_t L_497 = V_43;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		uint16_t L_498 = m2767(NULL, (((uint16_t)L_497)), &m2767_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		uint16_t L_498 = m2791(NULL, (((uint16_t)L_497)), &m2791_MI);
 		V_44 = L_498;
 		goto IL_0d79;
 	}
@@ -3658,33 +3658,33 @@ IL_0d8f:
 
 IL_0d92:
 	{
-		t1286 * L_501 = (__this->f10);
-		bool L_502 = m5388(L_501, &m5388_MI);
+		t1295 * L_501 = (__this->f10);
+		bool L_502 = m5416(L_501, &m5416_MI);
 		if (!L_502)
 		{
 			goto IL_0ebf;
 		}
 	}
 	{
-		t1286 * L_503 = (__this->f10);
-		bool L_504 = m5386(L_503, &m5386_MI);
+		t1295 * L_503 = (__this->f10);
+		bool L_504 = m5414(L_503, &m5414_MI);
 		if (L_504)
 		{
 			goto IL_0de1;
 		}
 	}
 	{
-		t1286 * L_505 = (__this->f10);
-		int32_t L_506 = m5389(L_505, &m5389_MI);
-		bool L_507 = m5395(__this, 2, (&V_0), L_506, &m5395_MI);
+		t1295 * L_505 = (__this->f10);
+		int32_t L_506 = m5417(L_505, &m5417_MI);
+		bool L_507 = m5423(__this, 2, (&V_0), L_506, &m5423_MI);
 		if (L_507)
 		{
 			goto IL_0de1;
 		}
 	}
 	{
-		t1286 * L_508 = (__this->f10);
-		t1286 * L_509 = m5390(L_508, &m5390_MI);
+		t1295 * L_508 = (__this->f10);
+		t1295 * L_509 = m5418(L_508, &m5418_MI);
 		__this->f10 = L_509;
 		goto IL_1067;
 	}
@@ -3719,7 +3719,7 @@ IL_0de1:
 		int32_t L_516 = V_43;
 		t2* L_517 = (__this->f3);
 		int32_t L_518 = V_49;
-		uint16_t L_519 = m2714(L_517, L_518, &m2714_MI);
+		uint16_t L_519 = m2738(L_517, L_518, &m2738_MI);
 		if ((((int32_t)L_516) == ((int32_t)L_519)))
 		{
 			goto IL_0e2c;
@@ -3729,7 +3729,7 @@ IL_0de1:
 		int32_t L_520 = V_44;
 		t2* L_521 = (__this->f3);
 		int32_t L_522 = V_49;
-		uint16_t L_523 = m2714(L_521, L_522, &m2714_MI);
+		uint16_t L_523 = m2738(L_521, L_522, &m2738_MI);
 		if ((!(((uint32_t)L_520) == ((uint32_t)L_523))))
 		{
 			goto IL_0e47;
@@ -3738,9 +3738,9 @@ IL_0de1:
 
 IL_0e2c:
 	{
-		__this->f12 = (t1286 *)NULL;
+		__this->f12 = (t1295 *)NULL;
 		int32_t L_524 = p2;
-		bool L_525 = m5395(__this, 1, (&V_0), L_524, &m5395_MI);
+		bool L_525 = m5423(__this, 1, (&V_0), L_524, &m5423_MI);
 		if (!L_525)
 		{
 			goto IL_0e47;
@@ -3752,16 +3752,16 @@ IL_0e2c:
 
 IL_0e47:
 	{
-		t1286 * L_526 = (__this->f10);
-		bool L_527 = m5387(L_526, &m5387_MI);
+		t1295 * L_526 = (__this->f10);
+		bool L_527 = m5415(L_526, &m5415_MI);
 		if (!L_527)
 		{
 			goto IL_0e6d;
 		}
 	}
 	{
-		t1286 * L_528 = (__this->f10);
-		t1286 * L_529 = m5390(L_528, &m5390_MI);
+		t1295 * L_528 = (__this->f10);
+		t1295 * L_529 = m5418(L_528, &m5418_MI);
 		__this->f10 = L_529;
 		goto IL_1067;
 	}
@@ -3769,18 +3769,18 @@ IL_0e47:
 IL_0e6d:
 	{
 		int32_t L_530 = V_41;
-		m5405(__this, L_530, &m5405_MI);
-		t1286 * L_531 = (__this->f10);
-		int32_t L_532 = m5389(L_531, &m5389_MI);
-		bool L_533 = m5395(__this, 2, (&V_0), L_532, &m5395_MI);
+		m5433(__this, L_530, &m5433_MI);
+		t1295 * L_531 = (__this->f10);
+		int32_t L_532 = m5417(L_531, &m5417_MI);
+		bool L_533 = m5423(__this, 2, (&V_0), L_532, &m5423_MI);
 		if (L_533)
 		{
 			goto IL_0ea4;
 		}
 	}
 	{
-		t1286 * L_534 = (__this->f10);
-		t1286 * L_535 = m5390(L_534, &m5390_MI);
+		t1295 * L_534 = (__this->f10);
+		t1295 * L_535 = m5418(L_534, &m5418_MI);
 		__this->f10 = L_535;
 		goto IL_1067;
 	}
@@ -3792,33 +3792,33 @@ IL_0ea4:
 
 IL_0ea9:
 	{
-		t1286 * L_536 = (__this->f10);
-		t1286 * L_537 = m5390(L_536, &m5390_MI);
+		t1295 * L_536 = (__this->f10);
+		t1295 * L_537 = m5418(L_536, &m5418_MI);
 		__this->f10 = L_537;
 		goto IL_0ff3;
 	}
 
 IL_0ebf:
 	{
-		t1286 * L_538 = (__this->f10);
-		int32_t L_539 = m5389(L_538, &m5389_MI);
-		bool L_540 = m5395(__this, 2, (&V_0), L_539, &m5395_MI);
+		t1295 * L_538 = (__this->f10);
+		int32_t L_539 = m5417(L_538, &m5417_MI);
+		bool L_540 = m5423(__this, 2, (&V_0), L_539, &m5423_MI);
 		if (L_540)
 		{
 			goto IL_0eee;
 		}
 	}
 	{
-		t1286 * L_541 = (__this->f10);
-		t1286 * L_542 = m5390(L_541, &m5390_MI);
+		t1295 * L_541 = (__this->f10);
+		t1295 * L_542 = m5418(L_541, &m5418_MI);
 		__this->f10 = L_542;
 		goto IL_1067;
 	}
 
 IL_0eee:
 	{
-		t1286 * L_543 = (__this->f10);
-		int32_t L_544 = m5382(L_543, &m5382_MI);
+		t1295 * L_543 = (__this->f10);
+		int32_t L_544 = m5410(L_543, &m5410_MI);
 		if ((((int32_t)L_544) <= ((int32_t)0)))
 		{
 			goto IL_0f1f;
@@ -3826,10 +3826,10 @@ IL_0eee:
 	}
 	{
 		int32_t L_545 = V_0;
-		t1286 * L_546 = (__this->f10);
-		int32_t L_547 = m5384(L_546, &m5384_MI);
-		t1286 * L_548 = (__this->f10);
-		int32_t L_549 = m5382(L_548, &m5382_MI);
+		t1295 * L_546 = (__this->f10);
+		int32_t L_547 = m5412(L_546, &m5412_MI);
+		t1295 * L_548 = (__this->f10);
+		int32_t L_549 = m5410(L_548, &m5410_MI);
 		V_50 = ((int32_t)((int32_t)((int32_t)((int32_t)L_545-(int32_t)L_547))/(int32_t)L_549));
 		goto IL_0f22;
 	}
@@ -3869,7 +3869,7 @@ IL_0f22:
 		int32_t L_556 = V_43;
 		t2* L_557 = (__this->f3);
 		int32_t L_558 = V_51;
-		uint16_t L_559 = m2714(L_557, L_558, &m2714_MI);
+		uint16_t L_559 = m2738(L_557, L_558, &m2738_MI);
 		if ((((int32_t)L_556) == ((int32_t)L_559)))
 		{
 			goto IL_0f6d;
@@ -3879,7 +3879,7 @@ IL_0f22:
 		int32_t L_560 = V_44;
 		t2* L_561 = (__this->f3);
 		int32_t L_562 = V_51;
-		uint16_t L_563 = m2714(L_561, L_562, &m2714_MI);
+		uint16_t L_563 = m2738(L_561, L_562, &m2738_MI);
 		if ((!(((uint32_t)L_560) == ((uint32_t)L_563))))
 		{
 			goto IL_0f88;
@@ -3888,9 +3888,9 @@ IL_0f22:
 
 IL_0f6d:
 	{
-		__this->f12 = (t1286 *)NULL;
+		__this->f12 = (t1295 *)NULL;
 		int32_t L_564 = p2;
-		bool L_565 = m5395(__this, 1, (&V_0), L_564, &m5395_MI);
+		bool L_565 = m5423(__this, 1, (&V_0), L_564, &m5423_MI);
 		if (!L_565)
 		{
 			goto IL_0f88;
@@ -3902,20 +3902,20 @@ IL_0f6d:
 
 IL_0f88:
 	{
-		t1286 * L_566 = (__this->f10);
-		t1286 * L_567 = L_566;
-		int32_t L_568 = m5382(L_567, &m5382_MI);
-		m5383(L_567, ((int32_t)((int32_t)L_568-(int32_t)1)), &m5383_MI);
-		t1286 * L_569 = (__this->f10);
-		bool L_570 = m5386(L_569, &m5386_MI);
+		t1295 * L_566 = (__this->f10);
+		t1295 * L_567 = L_566;
+		int32_t L_568 = m5410(L_567, &m5410_MI);
+		m5411(L_567, ((int32_t)((int32_t)L_568-(int32_t)1)), &m5411_MI);
+		t1295 * L_569 = (__this->f10);
+		bool L_570 = m5414(L_569, &m5414_MI);
 		if (L_570)
 		{
 			goto IL_0fc1;
 		}
 	}
 	{
-		t1286 * L_571 = (__this->f10);
-		t1286 * L_572 = m5390(L_571, &m5390_MI);
+		t1295 * L_571 = (__this->f10);
+		t1295 * L_572 = m5418(L_571, &m5418_MI);
 		__this->f10 = L_572;
 		goto IL_1067;
 	}
@@ -3926,14 +3926,14 @@ IL_0fc1:
 		int32_t L_574 = V_50;
 		V_0 = ((int32_t)((int32_t)L_573-(int32_t)L_574));
 		int32_t L_575 = V_41;
-		m5405(__this, L_575, &m5405_MI);
+		m5433(__this, L_575, &m5433_MI);
 		goto IL_0f22;
 	}
 
 IL_0fd3:
 	{
-		t1286 * L_576 = (__this->f10);
-		t1286 * L_577 = m5390(L_576, &m5390_MI);
+		t1295 * L_576 = (__this->f10);
+		t1295 * L_577 = m5418(L_576, &m5418_MI);
 		__this->f10 = L_577;
 		goto IL_0ff3;
 	}
@@ -3979,28 +3979,28 @@ IL_100e:
 
 IL_1010:
 	{
-		t1286 * L_583 = (__this->f10);
-		t1286 * L_584 = L_583;
-		int32_t L_585 = m5382(L_584, &m5382_MI);
-		m5383(L_584, ((int32_t)((int32_t)L_585+(int32_t)1)), &m5383_MI);
-		t1286 * L_586 = (__this->f10);
-		bool L_587 = m5387(L_586, &m5387_MI);
+		t1295 * L_583 = (__this->f10);
+		t1295 * L_584 = L_583;
+		int32_t L_585 = m5410(L_584, &m5410_MI);
+		m5411(L_584, ((int32_t)((int32_t)L_585+(int32_t)1)), &m5411_MI);
+		t1295 * L_586 = (__this->f10);
+		bool L_587 = m5415(L_586, &m5415_MI);
 		if (L_587)
 		{
 			goto IL_1053;
 		}
 	}
 	{
-		t1286 * L_588 = (__this->f10);
-		bool L_589 = m5388(L_588, &m5388_MI);
+		t1295 * L_588 = (__this->f10);
+		bool L_589 = m5416(L_588, &m5416_MI);
 		if (!L_589)
 		{
 			goto IL_1055;
 		}
 	}
 	{
-		t1286 * L_590 = (__this->f10);
-		bool L_591 = m5386(L_590, &m5386_MI);
+		t1295 * L_590 = (__this->f10);
+		bool L_591 = m5414(L_590, &m5414_MI);
 		if (!L_591)
 		{
 			goto IL_1055;
@@ -4014,8 +4014,8 @@ IL_1053:
 
 IL_1055:
 	{
-		t1286 * L_592 = (__this->f10);
-		int32_t L_593 = m5389(L_592, &m5389_MI);
+		t1295 * L_592 = (__this->f10);
+		int32_t L_593 = m5417(L_592, &m5417_MI);
 		p2 = L_593;
 		goto IL_0003;
 	}
@@ -4048,16 +4048,16 @@ IL_107f:
 
 IL_1081:
 	{
-		t1286 * L_597 = (__this->f10);
-		bool L_598 = m5388(L_597, &m5388_MI);
+		t1295 * L_597 = (__this->f10);
+		bool L_598 = m5416(L_597, &m5416_MI);
 		if (L_598)
 		{
 			goto IL_10a3;
 		}
 	}
 	{
-		t1286 * L_599 = (__this->f10);
-		bool L_600 = m5386(L_599, &m5386_MI);
+		t1295 * L_599 = (__this->f10);
+		bool L_600 = m5414(L_599, &m5414_MI);
 		if (!L_600)
 		{
 			goto IL_10a3;
@@ -4070,8 +4070,8 @@ IL_1081:
 IL_10a3:
 	{
 		int32_t* L_601 = p1;
-		t1286 * L_602 = (__this->f10);
-		int32_t L_603 = m5384(L_602, &m5384_MI);
+		t1295 * L_602 = (__this->f10);
+		int32_t L_603 = m5412(L_602, &m5412_MI);
 		*((int32_t*)(L_601)) = (int32_t)L_603;
 		return 0;
 	}
@@ -4081,7 +4081,7 @@ IL_10b2:
 		return 0;
 	}
 }
-extern "C" bool m5396 (t1288 * __this, int32_t p0, int32_t* p1, int32_t* p2, bool p3, MethodInfo* method)
+extern "C" bool m5424 (t1297 * __this, int32_t p0, int32_t* p1, int32_t* p2, bool p3, MethodInfo* method)
 {
 	bool V_0 = false;
 	uint16_t V_1 = 0x0;
@@ -4105,7 +4105,7 @@ extern "C" bool m5396 (t1288 * __this, int32_t p0, int32_t* p1, int32_t* p2, boo
 
 IL_0004:
 	{
-		t304* L_0 = (__this->f1);
+		t311* L_0 = (__this->f1);
 		int32_t* L_1 = p2;
 		int32_t L_2 = (*((int32_t*)L_1));
 		V_4 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_0, L_2));
@@ -4151,7 +4151,7 @@ IL_0059:
 		V_13 = L_14;
 		*((int32_t*)(L_12)) = (int32_t)L_14;
 		int32_t L_15 = V_13;
-		uint16_t L_16 = m2714(L_11, L_15, &m2714_MI);
+		uint16_t L_16 = m2738(L_11, L_15, &m2738_MI);
 		V_1 = L_16;
 		goto IL_009b;
 	}
@@ -4178,7 +4178,7 @@ IL_0084:
 		V_13 = L_22;
 		*((int32_t*)(L_20)) = (int32_t)((int32_t)((int32_t)L_22+(int32_t)1));
 		int32_t L_23 = V_13;
-		uint16_t L_24 = m2714(L_19, L_23, &m2714_MI);
+		uint16_t L_24 = m2738(L_19, L_23, &m2738_MI);
 		V_1 = L_24;
 	}
 
@@ -4192,8 +4192,8 @@ IL_009b:
 	}
 	{
 		uint16_t L_26 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		uint16_t L_27 = m2769(NULL, L_26, &m2769_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		uint16_t L_27 = m2793(NULL, L_26, &m2793_MI);
 		V_1 = L_27;
 	}
 
@@ -4267,7 +4267,7 @@ IL_00f4:
 IL_00f6:
 	{
 		uint16_t L_31 = V_1;
-		t304* L_32 = (__this->f1);
+		t311* L_32 = (__this->f1);
 		int32_t* L_33 = p2;
 		int32_t* L_34 = p2;
 		int32_t L_35 = (*((int32_t*)L_34));
@@ -4292,7 +4292,7 @@ IL_0113:
 
 IL_0118:
 	{
-		t304* L_39 = (__this->f1);
+		t311* L_39 = (__this->f1);
 		int32_t* L_40 = p2;
 		int32_t* L_41 = p2;
 		int32_t L_42 = (*((int32_t*)L_41));
@@ -4301,7 +4301,7 @@ IL_0118:
 		int32_t L_43 = V_13;
 		int32_t L_44 = L_43;
 		uint16_t L_45 = V_1;
-		bool L_46 = m5312(NULL, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_39, L_44)), L_45, &m5312_MI);
+		bool L_46 = m5340(NULL, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_39, L_44)), L_45, &m5340_MI);
 		if (!L_46)
 		{
 			goto IL_013a;
@@ -4319,7 +4319,7 @@ IL_013a:
 
 IL_013f:
 	{
-		t304* L_48 = (__this->f1);
+		t311* L_48 = (__this->f1);
 		int32_t* L_49 = p2;
 		int32_t* L_50 = p2;
 		int32_t L_51 = (*((int32_t*)L_50));
@@ -4328,7 +4328,7 @@ IL_013f:
 		int32_t L_52 = V_13;
 		int32_t L_53 = L_52;
 		uint16_t L_54 = V_1;
-		bool L_55 = m5312(NULL, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_48, L_53)), L_54, &m5312_MI);
+		bool L_55 = m5340(NULL, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_48, L_53)), L_54, &m5340_MI);
 		if (L_55)
 		{
 			goto IL_0161;
@@ -4346,7 +4346,7 @@ IL_0161:
 
 IL_0166:
 	{
-		t304* L_57 = (__this->f1);
+		t311* L_57 = (__this->f1);
 		int32_t* L_58 = p2;
 		int32_t* L_59 = p2;
 		int32_t L_60 = (*((int32_t*)L_59));
@@ -4355,7 +4355,7 @@ IL_0166:
 		int32_t L_61 = V_13;
 		int32_t L_62 = L_61;
 		V_7 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_57, L_62));
-		t304* L_63 = (__this->f1);
+		t311* L_63 = (__this->f1);
 		int32_t* L_64 = p2;
 		int32_t* L_65 = p2;
 		int32_t L_66 = (*((int32_t*)L_65));
@@ -4391,7 +4391,7 @@ IL_01a3:
 
 IL_01a8:
 	{
-		t304* L_74 = (__this->f1);
+		t311* L_74 = (__this->f1);
 		int32_t* L_75 = p2;
 		int32_t* L_76 = p2;
 		int32_t L_77 = (*((int32_t*)L_76));
@@ -4400,7 +4400,7 @@ IL_01a8:
 		int32_t L_78 = V_13;
 		int32_t L_79 = L_78;
 		V_9 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_74, L_79));
-		t304* L_80 = (__this->f1);
+		t311* L_80 = (__this->f1);
 		int32_t* L_81 = p2;
 		int32_t* L_82 = p2;
 		int32_t L_83 = (*((int32_t*)L_82));
@@ -4440,7 +4440,7 @@ IL_01f4:
 
 IL_01f9:
 	{
-		t304* L_95 = (__this->f1);
+		t311* L_95 = (__this->f1);
 		int32_t L_96 = V_11;
 		int32_t L_97 = V_12;
 		int32_t L_98 = ((int32_t)((int32_t)L_96+(int32_t)((int32_t)((int32_t)L_97>>(int32_t)4))));
@@ -4473,31 +4473,31 @@ IL_0221:
 		return L_102;
 	}
 }
-extern "C" bool m5397 (t1288 * __this, int32_t* p0, int32_t p1, MethodInfo* method)
+extern "C" bool m5425 (t1297 * __this, int32_t* p0, int32_t p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		m5394(__this, &m5394_MI);
+		m5422(__this, &m5422_MI);
 		int32_t* L_0 = p0;
 		V_0 = (*((int32_t*)L_0));
-		t1290* L_1 = (__this->f13);
-		t1088* L_2 = (__this->f16);
+		t1299* L_1 = (__this->f13);
+		t1095* L_2 = (__this->f16);
 		int32_t L_3 = 0;
 		int32_t L_4 = V_0;
-		((t1284 *)(t1284 *)SZArrayLdElema(L_1, (*(int32_t*)(int32_t*)SZArrayLdElema(L_2, L_3))))->f0 = L_4;
+		((t1293 *)(t1293 *)SZArrayLdElema(L_1, (*(int32_t*)(int32_t*)SZArrayLdElema(L_2, L_3))))->f0 = L_4;
 		int32_t L_5 = p1;
-		bool L_6 = m5395(__this, 1, (&V_0), L_5, &m5395_MI);
+		bool L_6 = m5423(__this, 1, (&V_0), L_5, &m5423_MI);
 		if (!L_6)
 		{
 			goto IL_004f;
 		}
 	}
 	{
-		t1290* L_7 = (__this->f13);
-		t1088* L_8 = (__this->f16);
+		t1299* L_7 = (__this->f13);
+		t1095* L_8 = (__this->f16);
 		int32_t L_9 = 0;
 		int32_t L_10 = V_0;
-		((t1284 *)(t1284 *)SZArrayLdElema(L_7, (*(int32_t*)(int32_t*)SZArrayLdElema(L_8, L_9))))->f1 = L_10;
+		((t1293 *)(t1293 *)SZArrayLdElema(L_7, (*(int32_t*)(int32_t*)SZArrayLdElema(L_8, L_9))))->f1 = L_10;
 		int32_t* L_11 = p0;
 		int32_t L_12 = V_0;
 		*((int32_t*)(L_11)) = (int32_t)L_12;
@@ -4509,7 +4509,7 @@ IL_004f:
 		return 0;
 	}
 }
-extern "C" bool m5398 (t1288 * __this, uint16_t p0, int32_t p1, MethodInfo* method)
+extern "C" bool m5426 (t1297 * __this, uint16_t p0, int32_t p1, MethodInfo* method)
 {
 	uint16_t V_0 = {0};
 	int32_t G_B6_0 = 0;
@@ -4578,7 +4578,7 @@ IL_0038:
 	{
 		t2* L_4 = (__this->f3);
 		int32_t L_5 = p1;
-		uint16_t L_6 = m2714(L_4, ((int32_t)((int32_t)L_5-(int32_t)1)), &m2714_MI);
+		uint16_t L_6 = m2738(L_4, ((int32_t)((int32_t)L_5-(int32_t)1)), &m2738_MI);
 		G_B6_0 = ((((int32_t)L_6) == ((int32_t)((int32_t)10)))? 1 : 0);
 		goto IL_0053;
 	}
@@ -4620,7 +4620,7 @@ IL_005e:
 	{
 		t2* L_13 = (__this->f3);
 		int32_t L_14 = p1;
-		uint16_t L_15 = m2714(L_13, L_14, &m2714_MI);
+		uint16_t L_15 = m2738(L_13, L_14, &m2738_MI);
 		G_B12_0 = ((((int32_t)L_15) == ((int32_t)((int32_t)10)))? 1 : 0);
 		goto IL_008b;
 	}
@@ -4658,7 +4658,7 @@ IL_008f:
 	{
 		t2* L_18 = (__this->f3);
 		int32_t L_19 = p1;
-		uint16_t L_20 = m2714(L_18, L_19, &m2714_MI);
+		uint16_t L_20 = m2738(L_18, L_19, &m2738_MI);
 		G_B18_0 = ((((int32_t)L_20) == ((int32_t)((int32_t)10)))? 1 : 0);
 		goto IL_00ae;
 	}
@@ -4703,8 +4703,8 @@ IL_00c6:
 	{
 		t2* L_25 = (__this->f3);
 		int32_t L_26 = p1;
-		uint16_t L_27 = m2714(L_25, L_26, &m2714_MI);
-		bool L_28 = m5399(__this, L_27, &m5399_MI);
+		uint16_t L_27 = m2738(L_25, L_26, &m2738_MI);
+		bool L_28 = m5427(__this, L_27, &m5427_MI);
 		return L_28;
 	}
 
@@ -4720,8 +4720,8 @@ IL_00df:
 	{
 		t2* L_31 = (__this->f3);
 		int32_t L_32 = p1;
-		uint16_t L_33 = m2714(L_31, ((int32_t)((int32_t)L_32-(int32_t)1)), &m2714_MI);
-		bool L_34 = m5399(__this, L_33, &m5399_MI);
+		uint16_t L_33 = m2738(L_31, ((int32_t)((int32_t)L_32-(int32_t)1)), &m2738_MI);
+		bool L_34 = m5427(__this, L_33, &m5427_MI);
 		return L_34;
 	}
 
@@ -4729,12 +4729,12 @@ IL_0100:
 	{
 		t2* L_35 = (__this->f3);
 		int32_t L_36 = p1;
-		uint16_t L_37 = m2714(L_35, L_36, &m2714_MI);
-		bool L_38 = m5399(__this, L_37, &m5399_MI);
+		uint16_t L_37 = m2738(L_35, L_36, &m2738_MI);
+		bool L_38 = m5427(__this, L_37, &m5427_MI);
 		t2* L_39 = (__this->f3);
 		int32_t L_40 = p1;
-		uint16_t L_41 = m2714(L_39, ((int32_t)((int32_t)L_40-(int32_t)1)), &m2714_MI);
-		bool L_42 = m5399(__this, L_41, &m5399_MI);
+		uint16_t L_41 = m2738(L_39, ((int32_t)((int32_t)L_40-(int32_t)1)), &m2738_MI);
+		bool L_42 = m5427(__this, L_41, &m5427_MI);
 		return ((((int32_t)((((int32_t)L_38) == ((int32_t)L_42))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -4761,8 +4761,8 @@ IL_0139:
 	{
 		t2* L_45 = (__this->f3);
 		int32_t L_46 = p1;
-		uint16_t L_47 = m2714(L_45, L_46, &m2714_MI);
-		bool L_48 = m5399(__this, L_47, &m5399_MI);
+		uint16_t L_47 = m2738(L_45, L_46, &m2738_MI);
+		bool L_48 = m5427(__this, L_47, &m5427_MI);
 		return ((((int32_t)L_48) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -4778,8 +4778,8 @@ IL_0155:
 	{
 		t2* L_51 = (__this->f3);
 		int32_t L_52 = p1;
-		uint16_t L_53 = m2714(L_51, ((int32_t)((int32_t)L_52-(int32_t)1)), &m2714_MI);
-		bool L_54 = m5399(__this, L_53, &m5399_MI);
+		uint16_t L_53 = m2738(L_51, ((int32_t)((int32_t)L_52-(int32_t)1)), &m2738_MI);
+		bool L_54 = m5427(__this, L_53, &m5427_MI);
 		return ((((int32_t)L_54) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -4787,12 +4787,12 @@ IL_0179:
 	{
 		t2* L_55 = (__this->f3);
 		int32_t L_56 = p1;
-		uint16_t L_57 = m2714(L_55, L_56, &m2714_MI);
-		bool L_58 = m5399(__this, L_57, &m5399_MI);
+		uint16_t L_57 = m2738(L_55, L_56, &m2738_MI);
+		bool L_58 = m5427(__this, L_57, &m5427_MI);
 		t2* L_59 = (__this->f3);
 		int32_t L_60 = p1;
-		uint16_t L_61 = m2714(L_59, ((int32_t)((int32_t)L_60-(int32_t)1)), &m2714_MI);
-		bool L_62 = m5399(__this, L_61, &m5399_MI);
+		uint16_t L_61 = m2738(L_59, ((int32_t)((int32_t)L_60-(int32_t)1)), &m2738_MI);
+		bool L_62 = m5427(__this, L_61, &m5427_MI);
 		return ((((int32_t)L_58) == ((int32_t)L_62))? 1 : 0);
 	}
 
@@ -4801,45 +4801,45 @@ IL_01a2:
 		return 0;
 	}
 }
-extern "C" bool m5399 (t1288 * __this, uint16_t p0, MethodInfo* method)
+extern "C" bool m5427 (t1297 * __this, uint16_t p0, MethodInfo* method)
 {
 	{
 		uint16_t L_0 = p0;
-		bool L_1 = m5312(NULL, 3, L_0, &m5312_MI);
+		bool L_1 = m5340(NULL, 3, L_0, &m5340_MI);
 		return L_1;
 	}
 }
-extern TypeInfo* t305_TI_var;
-extern "C" t2* m5400 (t1288 * __this, int32_t p0, MethodInfo* method)
+extern TypeInfo* t312_TI_var;
+extern "C" t2* m5428 (t1297 * __this, int32_t p0, MethodInfo* method)
 {
-	static bool m5400_init;
-	if (!m5400_init)
+	static bool m5428_init;
+	if (!m5428_init)
 	{
-		t305_TI_var = il2cpp_codegen_class_from_type(&t305_0_0_0);
-		m5400_init = true;
+		t312_TI_var = il2cpp_codegen_class_from_type(&t312_0_0_0);
+		m5428_init = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	t305* V_2 = {0};
+	t312* V_2 = {0};
 	int32_t V_3 = 0;
 	{
-		t304* L_0 = (__this->f1);
+		t311* L_0 = (__this->f1);
 		int32_t L_1 = p0;
 		int32_t L_2 = ((int32_t)((int32_t)L_1+(int32_t)1));
 		V_0 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_0, L_2));
 		int32_t L_3 = p0;
 		V_1 = ((int32_t)((int32_t)L_3+(int32_t)2));
 		int32_t L_4 = V_0;
-		V_2 = ((t305*)SZArrayNew(t305_TI_var, L_4));
+		V_2 = ((t312*)SZArrayNew(t312_TI_var, L_4));
 		V_3 = 0;
 		goto IL_0030;
 	}
 
 IL_001d:
 	{
-		t305* L_5 = V_2;
+		t312* L_5 = V_2;
 		int32_t L_6 = V_3;
-		t304* L_7 = (__this->f1);
+		t311* L_7 = (__this->f1);
 		int32_t L_8 = V_1;
 		int32_t L_9 = L_8;
 		V_1 = ((int32_t)((int32_t)L_9+(int32_t)1));
@@ -4859,18 +4859,18 @@ IL_0030:
 		}
 	}
 	{
-		t305* L_14 = V_2;
+		t312* L_14 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		t2* L_15 = (t2*)il2cpp_codegen_object_new ((&t2_TI));
-		L_15 = m1102(L_15, L_14, &m1090_MI);
+		L_15 = m1117(L_15, L_14, &m1105_MI);
 		return L_15;
 	}
 }
-extern "C" void m5401 (t1288 * __this, int32_t p0, int32_t p1, MethodInfo* method)
+extern "C" void m5429 (t1297 * __this, int32_t p0, int32_t p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		t1088* L_0 = (__this->f16);
+		t1095* L_0 = (__this->f16);
 		int32_t L_1 = p0;
 		int32_t L_2 = L_1;
 		V_0 = (*(int32_t*)(int32_t*)SZArrayLdElema(L_0, L_2));
@@ -4882,9 +4882,9 @@ extern "C" void m5401 (t1288 * __this, int32_t p0, int32_t p1, MethodInfo* metho
 		}
 	}
 	{
-		t1290* L_5 = (__this->f13);
+		t1299* L_5 = (__this->f13);
 		int32_t L_6 = V_0;
-		bool L_7 = m5374(((t1284 *)(t1284 *)SZArrayLdElema(L_5, L_6)), &m5374_MI);
+		bool L_7 = m5402(((t1293 *)(t1293 *)SZArrayLdElema(L_5, L_6)), &m5402_MI);
 		if (!L_7)
 		{
 			goto IL_003c;
@@ -4894,9 +4894,9 @@ extern "C" void m5401 (t1288 * __this, int32_t p0, int32_t p1, MethodInfo* metho
 IL_002b:
 	{
 		int32_t L_8 = V_0;
-		int32_t L_9 = m5408(__this, L_8, &m5408_MI);
+		int32_t L_9 = m5436(__this, L_8, &m5436_MI);
 		V_0 = L_9;
-		t1088* L_10 = (__this->f16);
+		t1095* L_10 = (__this->f16);
 		int32_t L_11 = p0;
 		int32_t L_12 = V_0;
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_10, L_11)) = (int32_t)L_12;
@@ -4904,30 +4904,30 @@ IL_002b:
 
 IL_003c:
 	{
-		t1290* L_13 = (__this->f13);
+		t1299* L_13 = (__this->f13);
 		int32_t L_14 = V_0;
 		int32_t L_15 = p1;
-		((t1284 *)(t1284 *)SZArrayLdElema(L_13, L_14))->f0 = L_15;
+		((t1293 *)(t1293 *)SZArrayLdElema(L_13, L_14))->f0 = L_15;
 		return;
 	}
 }
-extern "C" void m5402 (t1288 * __this, int32_t p0, int32_t p1, MethodInfo* method)
+extern "C" void m5430 (t1297 * __this, int32_t p0, int32_t p1, MethodInfo* method)
 {
 	{
-		t1290* L_0 = (__this->f13);
-		t1088* L_1 = (__this->f16);
+		t1299* L_0 = (__this->f13);
+		t1095* L_1 = (__this->f16);
 		int32_t L_2 = p0;
 		int32_t L_3 = L_2;
 		int32_t L_4 = p1;
-		((t1284 *)(t1284 *)SZArrayLdElema(L_0, (*(int32_t*)(int32_t*)SZArrayLdElema(L_1, L_3))))->f1 = L_4;
+		((t1293 *)(t1293 *)SZArrayLdElema(L_0, (*(int32_t*)(int32_t*)SZArrayLdElema(L_1, L_3))))->f1 = L_4;
 		return;
 	}
 }
-extern "C" bool m5403 (t1288 * __this, int32_t p0, int32_t p1, bool p2, int32_t p3, MethodInfo* method)
+extern "C" bool m5431 (t1297 * __this, int32_t p0, int32_t p1, bool p2, int32_t p3, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		t1088* L_0 = (__this->f16);
+		t1095* L_0 = (__this->f16);
 		int32_t L_1 = p1;
 		int32_t L_2 = L_1;
 		V_0 = (*(int32_t*)(int32_t*)SZArrayLdElema(L_0, L_2));
@@ -4938,9 +4938,9 @@ extern "C" bool m5403 (t1288 * __this, int32_t p0, int32_t p1, bool p2, int32_t 
 		}
 	}
 	{
-		t1290* L_4 = (__this->f13);
+		t1299* L_4 = (__this->f13);
 		int32_t L_5 = V_0;
-		int32_t L_6 = m5375(((t1284 *)(t1284 *)SZArrayLdElema(L_4, L_5)), &m5375_MI);
+		int32_t L_6 = m5403(((t1293 *)(t1293 *)SZArrayLdElema(L_4, L_5)), &m5403_MI);
 		if ((((int32_t)L_6) >= ((int32_t)0)))
 		{
 			goto IL_0029;
@@ -4969,30 +4969,30 @@ IL_0029:
 	}
 	{
 		int32_t L_9 = p0;
-		t1290* L_10 = (__this->f13);
+		t1299* L_10 = (__this->f13);
 		int32_t L_11 = V_0;
-		int32_t L_12 = m5375(((t1284 *)(t1284 *)SZArrayLdElema(L_10, L_11)), &m5375_MI);
-		t1290* L_13 = (__this->f13);
+		int32_t L_12 = m5403(((t1293 *)(t1293 *)SZArrayLdElema(L_10, L_11)), &m5403_MI);
+		t1299* L_13 = (__this->f13);
 		int32_t L_14 = V_0;
-		int32_t L_15 = m5376(((t1284 *)(t1284 *)SZArrayLdElema(L_13, L_14)), &m5376_MI);
-		m5401(__this, L_9, ((int32_t)((int32_t)L_12+(int32_t)L_15)), &m5401_MI);
+		int32_t L_15 = m5404(((t1293 *)(t1293 *)SZArrayLdElema(L_13, L_14)), &m5404_MI);
+		m5429(__this, L_9, ((int32_t)((int32_t)L_12+(int32_t)L_15)), &m5429_MI);
 		int32_t L_16 = p0;
 		int32_t L_17 = p3;
-		m5402(__this, L_16, L_17, &m5402_MI);
+		m5430(__this, L_16, L_17, &m5430_MI);
 	}
 
 IL_0069:
 	{
-		t1088* L_18 = (__this->f16);
+		t1095* L_18 = (__this->f16);
 		int32_t L_19 = p1;
-		t1290* L_20 = (__this->f13);
+		t1299* L_20 = (__this->f13);
 		int32_t L_21 = V_0;
-		int32_t L_22 = (((t1284 *)(t1284 *)SZArrayLdElema(L_20, L_21))->f2);
+		int32_t L_22 = (((t1293 *)(t1293 *)SZArrayLdElema(L_20, L_21))->f2);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_18, L_19)) = (int32_t)L_22;
 		return 1;
 	}
 }
-extern "C" int32_t m5404 (t1288 * __this, MethodInfo* method)
+extern "C" int32_t m5432 (t1297 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f15);
@@ -5001,7 +5001,7 @@ extern "C" int32_t m5404 (t1288 * __this, MethodInfo* method)
 		return L_1;
 	}
 }
-extern "C" void m5405 (t1288 * __this, int32_t p0, MethodInfo* method)
+extern "C" void m5433 (t1297 * __this, int32_t p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -5012,7 +5012,7 @@ extern "C" void m5405 (t1288 * __this, int32_t p0, MethodInfo* method)
 
 IL_0007:
 	{
-		t1088* L_0 = (__this->f16);
+		t1095* L_0 = (__this->f16);
 		int32_t L_1 = V_0;
 		int32_t L_2 = L_1;
 		V_1 = (*(int32_t*)(int32_t*)SZArrayLdElema(L_0, L_2));
@@ -5021,9 +5021,9 @@ IL_0007:
 
 IL_0015:
 	{
-		t1290* L_3 = (__this->f13);
+		t1299* L_3 = (__this->f13);
 		int32_t L_4 = V_1;
-		int32_t L_5 = (((t1284 *)(t1284 *)SZArrayLdElema(L_3, L_4))->f2);
+		int32_t L_5 = (((t1293 *)(t1293 *)SZArrayLdElema(L_3, L_4))->f2);
 		V_1 = L_5;
 	}
 
@@ -5037,7 +5037,7 @@ IL_0027:
 		}
 	}
 	{
-		t1088* L_8 = (__this->f16);
+		t1095* L_8 = (__this->f16);
 		int32_t L_9 = V_0;
 		int32_t L_10 = V_1;
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_8, L_9)) = (int32_t)L_10;
@@ -5048,7 +5048,7 @@ IL_0027:
 IL_003b:
 	{
 		int32_t L_12 = V_0;
-		t1088* L_13 = (__this->f16);
+		t1095* L_13 = (__this->f16);
 		if ((((int32_t)L_12) < ((int32_t)(((int32_t)(((t121 *)L_13)->max_length))))))
 		{
 			goto IL_0007;
@@ -5058,21 +5058,21 @@ IL_003b:
 		return;
 	}
 }
-extern TypeInfo* t1290_TI_var;
-extern "C" void m5406 (t1288 * __this, MethodInfo* method)
+extern TypeInfo* t1299_TI_var;
+extern "C" void m5434 (t1297 * __this, MethodInfo* method)
 {
-	static bool m5406_init;
-	if (!m5406_init)
+	static bool m5434_init;
+	if (!m5434_init)
 	{
-		t1290_TI_var = il2cpp_codegen_class_from_type(&t1290_0_0_0);
-		m5406_init = true;
+		t1299_TI_var = il2cpp_codegen_class_from_type(&t1299_0_0_0);
+		m5434_init = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		t1088* L_0 = (__this->f16);
+		t1095* L_0 = (__this->f16);
 		V_0 = (((int32_t)(((t121 *)L_0)->max_length)));
-		t1290* L_1 = (__this->f13);
+		t1299* L_1 = (__this->f13);
 		if (L_1)
 		{
 			goto IL_0023;
@@ -5080,7 +5080,7 @@ extern "C" void m5406 (t1288 * __this, MethodInfo* method)
 	}
 	{
 		int32_t L_2 = V_0;
-		__this->f13 = ((t1290*)SZArrayNew(t1290_TI_var, ((int32_t)((int32_t)L_2*(int32_t)((int32_t)10)))));
+		__this->f13 = ((t1299*)SZArrayNew(t1299_TI_var, ((int32_t)((int32_t)L_2*(int32_t)((int32_t)10)))));
 	}
 
 IL_0023:
@@ -5091,19 +5091,19 @@ IL_0023:
 
 IL_002a:
 	{
-		t1088* L_3 = (__this->f16);
+		t1095* L_3 = (__this->f16);
 		int32_t L_4 = V_1;
 		int32_t L_5 = V_1;
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_3, L_4)) = (int32_t)L_5;
-		t1290* L_6 = (__this->f13);
+		t1299* L_6 = (__this->f13);
 		int32_t L_7 = V_1;
-		((t1284 *)(t1284 *)SZArrayLdElema(L_6, L_7))->f0 = (-1);
-		t1290* L_8 = (__this->f13);
+		((t1293 *)(t1293 *)SZArrayLdElema(L_6, L_7))->f0 = (-1);
+		t1299* L_8 = (__this->f13);
 		int32_t L_9 = V_1;
-		((t1284 *)(t1284 *)SZArrayLdElema(L_8, L_9))->f1 = (-1);
-		t1290* L_10 = (__this->f13);
+		((t1293 *)(t1293 *)SZArrayLdElema(L_8, L_9))->f1 = (-1);
+		t1299* L_10 = (__this->f13);
 		int32_t L_11 = V_1;
-		((t1284 *)(t1284 *)SZArrayLdElema(L_10, L_11))->f2 = (-1);
+		((t1293 *)(t1293 *)SZArrayLdElema(L_10, L_11))->f2 = (-1);
 		int32_t L_12 = V_1;
 		V_1 = ((int32_t)((int32_t)L_12+(int32_t)1));
 	}
@@ -5124,11 +5124,11 @@ IL_006d:
 		return;
 	}
 }
-extern "C" int32_t m5407 (t1288 * __this, int32_t p0, MethodInfo* method)
+extern "C" int32_t m5435 (t1297 * __this, int32_t p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		t1088* L_0 = (__this->f16);
+		t1095* L_0 = (__this->f16);
 		int32_t L_1 = p0;
 		int32_t L_2 = L_1;
 		V_0 = (*(int32_t*)(int32_t*)SZArrayLdElema(L_0, L_2));
@@ -5137,9 +5137,9 @@ extern "C" int32_t m5407 (t1288 * __this, int32_t p0, MethodInfo* method)
 
 IL_000e:
 	{
-		t1290* L_3 = (__this->f13);
+		t1299* L_3 = (__this->f13);
 		int32_t L_4 = V_0;
-		int32_t L_5 = (((t1284 *)(t1284 *)SZArrayLdElema(L_3, L_4))->f2);
+		int32_t L_5 = (((t1293 *)(t1293 *)SZArrayLdElema(L_3, L_4))->f2);
 		V_0 = L_5;
 	}
 
@@ -5152,9 +5152,9 @@ IL_0020:
 		}
 	}
 	{
-		t1290* L_7 = (__this->f13);
+		t1299* L_7 = (__this->f13);
 		int32_t L_8 = V_0;
-		bool L_9 = m5374(((t1284 *)(t1284 *)SZArrayLdElema(L_7, L_8)), &m5374_MI);
+		bool L_9 = m5402(((t1293 *)(t1293 *)SZArrayLdElema(L_7, L_8)), &m5402_MI);
 		if (!L_9)
 		{
 			goto IL_000e;
@@ -5167,33 +5167,33 @@ IL_003d:
 		return L_10;
 	}
 }
-extern TypeInfo* t1290_TI_var;
-extern "C" int32_t m5408 (t1288 * __this, int32_t p0, MethodInfo* method)
+extern TypeInfo* t1299_TI_var;
+extern "C" int32_t m5436 (t1297 * __this, int32_t p0, MethodInfo* method)
 {
-	static bool m5408_init;
-	if (!m5408_init)
+	static bool m5436_init;
+	if (!m5436_init)
 	{
-		t1290_TI_var = il2cpp_codegen_class_from_type(&t1290_0_0_0);
-		m5408_init = true;
+		t1299_TI_var = il2cpp_codegen_class_from_type(&t1299_0_0_0);
+		m5436_init = true;
 	}
-	t1290* V_0 = {0};
+	t1299* V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
 		int32_t L_0 = (__this->f15);
-		t1290* L_1 = (__this->f13);
+		t1299* L_1 = (__this->f13);
 		if ((!(((uint32_t)L_0) == ((uint32_t)(((int32_t)(((t121 *)L_1)->max_length)))))))
 		{
 			goto IL_0037;
 		}
 	}
 	{
-		t1290* L_2 = (__this->f13);
-		V_0 = ((t1290*)SZArrayNew(t1290_TI_var, ((int32_t)((int32_t)(((int32_t)(((t121 *)L_2)->max_length)))*(int32_t)2))));
-		t1290* L_3 = (__this->f13);
-		t1290* L_4 = V_0;
-		VirtActionInvoker2< t121 *, int32_t >::Invoke(&m5874_MI, L_3, (t121 *)(t121 *)L_4, 0);
-		t1290* L_5 = V_0;
+		t1299* L_2 = (__this->f13);
+		V_0 = ((t1299*)SZArrayNew(t1299_TI_var, ((int32_t)((int32_t)(((int32_t)(((t121 *)L_2)->max_length)))*(int32_t)2))));
+		t1299* L_3 = (__this->f13);
+		t1299* L_4 = V_0;
+		VirtActionInvoker2< t121 *, int32_t >::Invoke(&m5902_MI, L_3, (t121 *)(t121 *)L_4, 0);
+		t1299* L_5 = V_0;
 		__this->f13 = L_5;
 	}
 
@@ -5205,24 +5205,24 @@ IL_0037:
 		__this->f15 = ((int32_t)((int32_t)L_7+(int32_t)1));
 		int32_t L_8 = V_2;
 		V_1 = L_8;
-		t1290* L_9 = (__this->f13);
+		t1299* L_9 = (__this->f13);
 		int32_t L_10 = V_1;
-		t1290* L_11 = (__this->f13);
+		t1299* L_11 = (__this->f13);
 		int32_t L_12 = V_1;
 		int32_t L_13 = (-1);
 		V_2 = L_13;
-		((t1284 *)(t1284 *)SZArrayLdElema(L_11, L_12))->f1 = L_13;
+		((t1293 *)(t1293 *)SZArrayLdElema(L_11, L_12))->f1 = L_13;
 		int32_t L_14 = V_2;
-		((t1284 *)(t1284 *)SZArrayLdElema(L_9, L_10))->f0 = L_14;
-		t1290* L_15 = (__this->f13);
+		((t1293 *)(t1293 *)SZArrayLdElema(L_9, L_10))->f0 = L_14;
+		t1299* L_15 = (__this->f13);
 		int32_t L_16 = V_1;
 		int32_t L_17 = p0;
-		((t1284 *)(t1284 *)SZArrayLdElema(L_15, L_16))->f2 = L_17;
+		((t1293 *)(t1293 *)SZArrayLdElema(L_15, L_16))->f2 = L_17;
 		int32_t L_18 = V_1;
 		return L_18;
 	}
 }
-extern "C" void m5409 (t1288 * __this, int32_t p0, int32_t* p1, int32_t* p2, MethodInfo* method)
+extern "C" void m5437 (t1297 * __this, int32_t p0, int32_t* p1, int32_t* p2, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -5230,7 +5230,7 @@ extern "C" void m5409 (t1288 * __this, int32_t p0, int32_t* p1, int32_t* p2, Met
 		*((int32_t*)(L_0)) = (int32_t)(-1);
 		int32_t* L_1 = p2;
 		*((int32_t*)(L_1)) = (int32_t)0;
-		t1088* L_2 = (__this->f16);
+		t1095* L_2 = (__this->f16);
 		int32_t L_3 = p0;
 		int32_t L_4 = L_3;
 		V_0 = (*(int32_t*)(int32_t*)SZArrayLdElema(L_2, L_4));
@@ -5239,9 +5239,9 @@ extern "C" void m5409 (t1288 * __this, int32_t p0, int32_t* p1, int32_t* p2, Met
 
 IL_0014:
 	{
-		t1290* L_5 = (__this->f13);
+		t1299* L_5 = (__this->f13);
 		int32_t L_6 = V_0;
-		bool L_7 = m5374(((t1284 *)(t1284 *)SZArrayLdElema(L_5, L_6)), &m5374_MI);
+		bool L_7 = m5402(((t1293 *)(t1293 *)SZArrayLdElema(L_5, L_6)), &m5402_MI);
 		if (L_7)
 		{
 			goto IL_002f;
@@ -5274,9 +5274,9 @@ IL_003a:
 
 IL_0040:
 	{
-		t1290* L_13 = (__this->f13);
+		t1299* L_13 = (__this->f13);
 		int32_t L_14 = V_0;
-		int32_t L_15 = (((t1284 *)(t1284 *)SZArrayLdElema(L_13, L_14))->f2);
+		int32_t L_15 = (((t1293 *)(t1293 *)SZArrayLdElema(L_13, L_14))->f2);
 		V_0 = L_15;
 	}
 
@@ -5292,25 +5292,25 @@ IL_0052:
 		return;
 	}
 }
-extern "C" void m5410 (t1288 * __this, t1258 * p0, int32_t p1, int32_t p2, MethodInfo* method)
+extern "C" void m5438 (t1297 * __this, t1267 * p0, int32_t p1, int32_t p2, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	t1255 * V_2 = {0};
+	t1264 * V_2 = {0};
 	{
 		V_0 = 1;
-		t1290* L_0 = (__this->f13);
+		t1299* L_0 = (__this->f13);
 		int32_t L_1 = p1;
-		int32_t L_2 = (((t1284 *)(t1284 *)SZArrayLdElema(L_0, L_1))->f2);
+		int32_t L_2 = (((t1293 *)(t1293 *)SZArrayLdElema(L_0, L_1))->f2);
 		V_1 = L_2;
 		goto IL_0089;
 	}
 
 IL_0019:
 	{
-		t1290* L_3 = (__this->f13);
+		t1299* L_3 = (__this->f13);
 		int32_t L_4 = V_1;
-		bool L_5 = m5374(((t1284 *)(t1284 *)SZArrayLdElema(L_3, L_4)), &m5374_MI);
+		bool L_5 = m5402(((t1293 *)(t1293 *)SZArrayLdElema(L_3, L_4)), &m5402_MI);
 		if (L_5)
 		{
 			goto IL_0034;
@@ -5323,30 +5323,30 @@ IL_0019:
 IL_0034:
 	{
 		t2* L_6 = (__this->f3);
-		t1290* L_7 = (__this->f13);
+		t1299* L_7 = (__this->f13);
 		int32_t L_8 = V_1;
-		int32_t L_9 = m5375(((t1284 *)(t1284 *)SZArrayLdElema(L_7, L_8)), &m5375_MI);
-		t1290* L_10 = (__this->f13);
+		int32_t L_9 = m5403(((t1293 *)(t1293 *)SZArrayLdElema(L_7, L_8)), &m5403_MI);
+		t1299* L_10 = (__this->f13);
 		int32_t L_11 = V_1;
-		int32_t L_12 = m5376(((t1284 *)(t1284 *)SZArrayLdElema(L_10, L_11)), &m5376_MI);
-		t1255 * L_13 = (t1255 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1255_TI));
-		m5223(L_13, L_6, L_9, L_12, &m5223_MI);
+		int32_t L_12 = m5404(((t1293 *)(t1293 *)SZArrayLdElema(L_10, L_11)), &m5404_MI);
+		t1264 * L_13 = (t1264 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1264_TI));
+		m5251(L_13, L_6, L_9, L_12, &m5251_MI);
 		V_2 = L_13;
-		t1258 * L_14 = p0;
-		t1256 * L_15 = m5240(L_14, &m5240_MI);
-		t1255 * L_16 = V_2;
+		t1267 * L_14 = p0;
+		t1265 * L_15 = m5268(L_14, &m5268_MI);
+		t1264 * L_16 = V_2;
 		int32_t L_17 = p2;
 		int32_t L_18 = V_0;
-		m5232(L_15, L_16, ((int32_t)((int32_t)((int32_t)((int32_t)L_17-(int32_t)1))-(int32_t)L_18)), &m5232_MI);
+		m5260(L_15, L_16, ((int32_t)((int32_t)((int32_t)((int32_t)L_17-(int32_t)1))-(int32_t)L_18)), &m5260_MI);
 		int32_t L_19 = V_0;
 		V_0 = ((int32_t)((int32_t)L_19+(int32_t)1));
 	}
 
 IL_0077:
 	{
-		t1290* L_20 = (__this->f13);
+		t1299* L_20 = (__this->f13);
 		int32_t L_21 = V_1;
-		int32_t L_22 = (((t1284 *)(t1284 *)SZArrayLdElema(L_20, L_21))->f2);
+		int32_t L_22 = (((t1293 *)(t1293 *)SZArrayLdElema(L_20, L_21))->f2);
 		V_1 = L_22;
 	}
 
@@ -5362,15 +5362,15 @@ IL_0089:
 		return;
 	}
 }
-extern "C" t1252 * m5411 (t1288 * __this, t930 * p0, MethodInfo* method)
+extern "C" t1261 * m5439 (t1297 * __this, t937 * p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	t1258 * V_2 = {0};
-	t1252 * V_3 = {0};
+	t1267 * V_2 = {0};
+	t1261 * V_3 = {0};
 	int32_t V_4 = 0;
 	{
-		m5409(__this, 0, (&V_1), (&V_0), &m5409_MI);
+		m5437(__this, 0, (&V_1), (&V_0), &m5437_MI);
 		bool L_0 = (__this->f0);
 		if (L_0)
 		{
@@ -5378,42 +5378,42 @@ extern "C" t1252 * m5411 (t1288 * __this, t930 * p0, MethodInfo* method)
 		}
 	}
 	{
-		t930 * L_1 = p0;
+		t937 * L_1 = p0;
 		t2* L_2 = (__this->f3);
 		int32_t L_3 = (__this->f4);
-		t1290* L_4 = (__this->f13);
+		t1299* L_4 = (__this->f13);
 		int32_t L_5 = V_1;
-		int32_t L_6 = m5375(((t1284 *)(t1284 *)SZArrayLdElema(L_4, L_5)), &m5375_MI);
-		t1290* L_7 = (__this->f13);
+		int32_t L_6 = m5403(((t1293 *)(t1293 *)SZArrayLdElema(L_4, L_5)), &m5403_MI);
+		t1299* L_7 = (__this->f13);
 		int32_t L_8 = V_1;
-		int32_t L_9 = m5376(((t1284 *)(t1284 *)SZArrayLdElema(L_7, L_8)), &m5376_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1252_TI));
-		t1252 * L_10 = (t1252 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1252_TI));
-		m5251(L_10, L_1, __this, L_2, L_3, 0, L_6, L_9, &m5251_MI);
+		int32_t L_9 = m5404(((t1293 *)(t1293 *)SZArrayLdElema(L_7, L_8)), &m5404_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1261_TI));
+		t1261 * L_10 = (t1261 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1261_TI));
+		m5279(L_10, L_1, __this, L_2, L_3, 0, L_6, L_9, &m5279_MI);
 		return L_10;
 	}
 
 IL_004d:
 	{
-		t930 * L_11 = p0;
+		t937 * L_11 = p0;
 		t2* L_12 = (__this->f3);
 		int32_t L_13 = (__this->f4);
-		t1088* L_14 = (__this->f16);
-		t1290* L_15 = (__this->f13);
+		t1095* L_14 = (__this->f16);
+		t1299* L_15 = (__this->f13);
 		int32_t L_16 = V_1;
-		int32_t L_17 = m5375(((t1284 *)(t1284 *)SZArrayLdElema(L_15, L_16)), &m5375_MI);
-		t1290* L_18 = (__this->f13);
+		int32_t L_17 = m5403(((t1293 *)(t1293 *)SZArrayLdElema(L_15, L_16)), &m5403_MI);
+		t1299* L_18 = (__this->f13);
 		int32_t L_19 = V_1;
-		int32_t L_20 = m5376(((t1284 *)(t1284 *)SZArrayLdElema(L_18, L_19)), &m5376_MI);
+		int32_t L_20 = m5404(((t1293 *)(t1293 *)SZArrayLdElema(L_18, L_19)), &m5404_MI);
 		int32_t L_21 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1252_TI));
-		t1252 * L_22 = (t1252 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1252_TI));
-		m5252(L_22, L_11, __this, L_12, L_13, (((int32_t)(((t121 *)L_14)->max_length))), L_17, L_20, L_21, &m5252_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1261_TI));
+		t1261 * L_22 = (t1261 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1261_TI));
+		m5280(L_22, L_11, __this, L_12, L_13, (((int32_t)(((t121 *)L_14)->max_length))), L_17, L_20, L_21, &m5280_MI);
 		V_3 = L_22;
-		t1252 * L_23 = V_3;
+		t1261 * L_23 = V_3;
 		int32_t L_24 = V_1;
 		int32_t L_25 = V_0;
-		m5410(__this, L_23, L_24, L_25, &m5410_MI);
+		m5438(__this, L_23, L_24, L_25, &m5438_MI);
 		V_4 = 1;
 		goto IL_0107;
 	}
@@ -5421,7 +5421,7 @@ IL_004d:
 IL_009d:
 	{
 		int32_t L_26 = V_4;
-		m5409(__this, L_26, (&V_1), (&V_0), &m5409_MI);
+		m5437(__this, L_26, (&V_1), (&V_0), &m5437_MI);
 		int32_t L_27 = V_1;
 		if ((((int32_t)L_27) >= ((int32_t)0)))
 		{
@@ -5429,8 +5429,8 @@ IL_009d:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1258_TI));
-		t1258 * L_28 = ((t1258_SFs*)InitializedTypeInfo(&t1258_TI)->static_fields)->f3;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1267_TI));
+		t1267 * L_28 = ((t1267_SFs*)InitializedTypeInfo(&t1267_TI)->static_fields)->f3;
 		V_2 = L_28;
 		goto IL_00f3;
 	}
@@ -5438,30 +5438,30 @@ IL_009d:
 IL_00bb:
 	{
 		t2* L_29 = (__this->f3);
-		t1290* L_30 = (__this->f13);
+		t1299* L_30 = (__this->f13);
 		int32_t L_31 = V_1;
-		int32_t L_32 = m5375(((t1284 *)(t1284 *)SZArrayLdElema(L_30, L_31)), &m5375_MI);
-		t1290* L_33 = (__this->f13);
+		int32_t L_32 = m5403(((t1293 *)(t1293 *)SZArrayLdElema(L_30, L_31)), &m5403_MI);
+		t1299* L_33 = (__this->f13);
 		int32_t L_34 = V_1;
-		int32_t L_35 = m5376(((t1284 *)(t1284 *)SZArrayLdElema(L_33, L_34)), &m5376_MI);
+		int32_t L_35 = m5404(((t1293 *)(t1293 *)SZArrayLdElema(L_33, L_34)), &m5404_MI);
 		int32_t L_36 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1258_TI));
-		t1258 * L_37 = (t1258 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1258_TI));
-		m5236(L_37, L_29, L_32, L_35, L_36, &m5236_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1267_TI));
+		t1267 * L_37 = (t1267 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1267_TI));
+		m5264(L_37, L_29, L_32, L_35, L_36, &m5264_MI);
 		V_2 = L_37;
-		t1258 * L_38 = V_2;
+		t1267 * L_38 = V_2;
 		int32_t L_39 = V_1;
 		int32_t L_40 = V_0;
-		m5410(__this, L_38, L_39, L_40, &m5410_MI);
+		m5438(__this, L_38, L_39, L_40, &m5438_MI);
 	}
 
 IL_00f3:
 	{
-		t1252 * L_41 = V_3;
-		t1259 * L_42 = (t1259 *)VirtFuncInvoker0< t1259 * >::Invoke(&m5255_MI, L_41);
-		t1258 * L_43 = V_2;
+		t1261 * L_41 = V_3;
+		t1268 * L_42 = (t1268 *)VirtFuncInvoker0< t1268 * >::Invoke(&m5283_MI, L_41);
+		t1267 * L_43 = V_2;
 		int32_t L_44 = V_4;
-		m5246(L_42, L_43, L_44, &m5246_MI);
+		m5274(L_42, L_43, L_44, &m5274_MI);
 		int32_t L_45 = V_4;
 		V_4 = ((int32_t)((int32_t)L_45+(int32_t)1));
 	}
@@ -5469,30 +5469,30 @@ IL_00f3:
 IL_0107:
 	{
 		int32_t L_46 = V_4;
-		t1088* L_47 = (__this->f16);
+		t1095* L_47 = (__this->f16);
 		if ((((int32_t)L_46) < ((int32_t)(((int32_t)(((t121 *)L_47)->max_length))))))
 		{
 			goto IL_009d;
 		}
 	}
 	{
-		t1252 * L_48 = V_3;
+		t1261 * L_48 = V_3;
 		return L_48;
 	}
 }
-#include "t1291.h"
+#include "t1300.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1291_TI;
-#include "t1291MD.h"
+extern TypeInfo t1300_TI;
+#include "t1300MD.h"
 
-extern MethodInfo m5416_MI;
-extern MethodInfo m5421_MI;
+extern MethodInfo m5444_MI;
+extern MethodInfo m5449_MI;
 
 
-extern MethodInfo m5412_MI;
-extern "C" void m5412 (t1291 * __this, int32_t p0, int32_t p1, MethodInfo* method)
+extern MethodInfo m5440_MI;
+extern "C" void m5440 (t1300 * __this, int32_t p0, int32_t p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -5522,29 +5522,29 @@ IL_000f:
 		return;
 	}
 }
-extern MethodInfo m5413_MI;
-extern "C" t1291  m5413 (t9 * __this , MethodInfo* method)
+extern MethodInfo m5441_MI;
+extern "C" t1300  m5441 (t9 * __this , MethodInfo* method)
 {
-	t1291  V_0 = {0};
+	t1300  V_0 = {0};
 	{
 		(&V_0)->f0 = 0;
 		int32_t L_0 = ((&V_0)->f0);
 		(&V_0)->f1 = ((int32_t)((int32_t)L_0-(int32_t)1));
 		(&V_0)->f2 = 1;
-		t1291  L_1 = V_0;
+		t1300  L_1 = V_0;
 		return L_1;
 	}
 }
-extern MethodInfo m5414_MI;
-extern "C" bool m5414 (t1291 * __this, MethodInfo* method)
+extern MethodInfo m5442_MI;
+extern "C" bool m5442 (t1300 * __this, MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->f2);
 		return ((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
 }
-extern MethodInfo m5415_MI;
-extern "C" bool m5415 (t1291 * __this, MethodInfo* method)
+extern MethodInfo m5443_MI;
+extern "C" bool m5443 (t1300 * __this, MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
@@ -5571,7 +5571,7 @@ IL_001c:
 		return G_B3_0;
 	}
 }
-extern "C" bool m5416 (t1291 * __this, MethodInfo* method)
+extern "C" bool m5444 (t1300 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f0);
@@ -5579,11 +5579,11 @@ extern "C" bool m5416 (t1291 * __this, MethodInfo* method)
 		return ((((int32_t)L_0) > ((int32_t)L_1))? 1 : 0);
 	}
 }
-extern MethodInfo m5417_MI;
-extern "C" int32_t m5417 (t1291 * __this, MethodInfo* method)
+extern MethodInfo m5445_MI;
+extern "C" int32_t m5445 (t1300 * __this, MethodInfo* method)
 {
 	{
-		bool L_0 = m5416(__this, &m5416_MI);
+		bool L_0 = m5444(__this, &m5444_MI);
 		if (!L_0)
 		{
 			goto IL_000d;
@@ -5600,19 +5600,19 @@ IL_000d:
 		return ((int32_t)((int32_t)((int32_t)((int32_t)L_1-(int32_t)L_2))+(int32_t)1));
 	}
 }
-extern MethodInfo m5418_MI;
-extern "C" bool m5418 (t1291 * __this, t1291  p0, MethodInfo* method)
+extern MethodInfo m5446_MI;
+extern "C" bool m5446 (t1300 * __this, t1300  p0, MethodInfo* method)
 {
 	int32_t G_B6_0 = 0;
 	{
-		bool L_0 = m5416(__this, &m5416_MI);
+		bool L_0 = m5444(__this, &m5444_MI);
 		if (L_0)
 		{
 			goto IL_0017;
 		}
 	}
 	{
-		bool L_1 = m5416((&p0), &m5416_MI);
+		bool L_1 = m5444((&p0), &m5444_MI);
 		if (!L_1)
 		{
 			goto IL_0019;
@@ -5650,19 +5650,19 @@ IL_0040:
 		return ((((int32_t)G_B6_0) == ((int32_t)0))? 1 : 0);
 	}
 }
-extern MethodInfo m5419_MI;
-extern "C" bool m5419 (t1291 * __this, t1291  p0, MethodInfo* method)
+extern MethodInfo m5447_MI;
+extern "C" bool m5447 (t1300 * __this, t1300  p0, MethodInfo* method)
 {
 	int32_t G_B6_0 = 0;
 	{
-		bool L_0 = m5416(__this, &m5416_MI);
+		bool L_0 = m5444(__this, &m5444_MI);
 		if (L_0)
 		{
 			goto IL_0017;
 		}
 	}
 	{
-		bool L_1 = m5416((&p0), &m5416_MI);
+		bool L_1 = m5444((&p0), &m5444_MI);
 		if (!L_1)
 		{
 			goto IL_0019;
@@ -5700,19 +5700,19 @@ IL_0041:
 		return G_B6_0;
 	}
 }
-extern MethodInfo m5420_MI;
-extern "C" bool m5420 (t1291 * __this, t1291  p0, MethodInfo* method)
+extern MethodInfo m5448_MI;
+extern "C" bool m5448 (t1300 * __this, t1300  p0, MethodInfo* method)
 {
 	int32_t G_B8_0 = 0;
 	{
-		bool L_0 = m5416(__this, &m5416_MI);
+		bool L_0 = m5444(__this, &m5444_MI);
 		if (L_0)
 		{
 			goto IL_0019;
 		}
 	}
 	{
-		bool L_1 = m5416((&p0), &m5416_MI);
+		bool L_1 = m5444((&p0), &m5444_MI);
 		if (!L_1)
 		{
 			goto IL_0019;
@@ -5724,7 +5724,7 @@ extern "C" bool m5420 (t1291 * __this, t1291  p0, MethodInfo* method)
 
 IL_0019:
 	{
-		bool L_2 = m5416(__this, &m5416_MI);
+		bool L_2 = m5444(__this, &m5444_MI);
 		if (!L_2)
 		{
 			goto IL_0026;
@@ -5760,7 +5760,7 @@ IL_004d:
 		return G_B8_0;
 	}
 }
-extern "C" bool m5421 (t1291 * __this, int32_t p0, MethodInfo* method)
+extern "C" bool m5449 (t1300 * __this, int32_t p0, MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
@@ -5788,20 +5788,20 @@ IL_001b:
 		return G_B3_0;
 	}
 }
-extern MethodInfo m5422_MI;
-extern "C" bool m5422 (t1291 * __this, t1291  p0, MethodInfo* method)
+extern MethodInfo m5450_MI;
+extern "C" bool m5450 (t1300 * __this, t1300  p0, MethodInfo* method)
 {
 	int32_t G_B8_0 = 0;
 	int32_t G_B10_0 = 0;
 	{
-		bool L_0 = m5416(__this, &m5416_MI);
+		bool L_0 = m5444(__this, &m5444_MI);
 		if (L_0)
 		{
 			goto IL_0017;
 		}
 	}
 	{
-		bool L_1 = m5416((&p0), &m5416_MI);
+		bool L_1 = m5444((&p0), &m5444_MI);
 		if (!L_1)
 		{
 			goto IL_0019;
@@ -5816,7 +5816,7 @@ IL_0017:
 IL_0019:
 	{
 		int32_t L_2 = ((&p0)->f0);
-		bool L_3 = m5421(__this, L_2, &m5421_MI);
+		bool L_3 = m5449(__this, L_2, &m5449_MI);
 		if (!L_3)
 		{
 			goto IL_003d;
@@ -5824,7 +5824,7 @@ IL_0019:
 	}
 	{
 		int32_t L_4 = ((&p0)->f1);
-		bool L_5 = m5421(__this, L_4, &m5421_MI);
+		bool L_5 = m5449(__this, L_4, &m5449_MI);
 		if (!L_5)
 		{
 			goto IL_0064;
@@ -5834,7 +5834,7 @@ IL_0019:
 IL_003d:
 	{
 		int32_t L_6 = ((&p0)->f1);
-		bool L_7 = m5421(__this, L_6, &m5421_MI);
+		bool L_7 = m5449(__this, L_6, &m5449_MI);
 		if (!L_7)
 		{
 			goto IL_0061;
@@ -5842,7 +5842,7 @@ IL_003d:
 	}
 	{
 		int32_t L_8 = ((&p0)->f0);
-		bool L_9 = m5421(__this, L_8, &m5421_MI);
+		bool L_9 = m5449(__this, L_8, &m5449_MI);
 		G_B8_0 = ((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
 		goto IL_0062;
 	}
@@ -5868,11 +5868,11 @@ IL_0065:
 		return G_B10_0;
 	}
 }
-extern MethodInfo m5423_MI;
-extern "C" void m5423 (t1291 * __this, t1291  p0, MethodInfo* method)
+extern MethodInfo m5451_MI;
+extern "C" void m5451 (t1300 * __this, t1300  p0, MethodInfo* method)
 {
 	{
-		bool L_0 = m5416((&p0), &m5416_MI);
+		bool L_0 = m5444((&p0), &m5444_MI);
 		if (!L_0)
 		{
 			goto IL_000d;
@@ -5884,7 +5884,7 @@ extern "C" void m5423 (t1291 * __this, t1291  p0, MethodInfo* method)
 
 IL_000d:
 	{
-		bool L_1 = m5416(__this, &m5416_MI);
+		bool L_1 = m5444(__this, &m5444_MI);
 		if (!L_1)
 		{
 			goto IL_0032;
@@ -5930,79 +5930,79 @@ IL_0070:
 		return;
 	}
 }
-extern MethodInfo m5424_MI;
-extern "C" int32_t m5424 (t1291 * __this, t9 * p0, MethodInfo* method)
+extern MethodInfo m5452_MI;
+extern "C" int32_t m5452 (t1300 * __this, t9 * p0, MethodInfo* method)
 {
-	t1291  V_0 = {0};
+	t1300  V_0 = {0};
 	{
 		int32_t L_0 = (__this->f0);
 		t9 * L_1 = p0;
-		V_0 = ((*(t1291 *)((t1291 *)UnBox (L_1, InitializedTypeInfo(&t1291_TI)))));
+		V_0 = ((*(t1300 *)((t1300 *)UnBox (L_1, InitializedTypeInfo(&t1300_TI)))));
 		int32_t L_2 = ((&V_0)->f0);
 		return ((int32_t)((int32_t)L_0-(int32_t)L_2));
 	}
 }
 // Conversion methods for marshalling of: System.Text.RegularExpressions.Interval
-void t1291_marshal(const t1291& unmarshaled, t1291_marshaled& marshaled)
+void t1300_marshal(const t1300& unmarshaled, t1300_marshaled& marshaled)
 {
 	marshaled.f0 = unmarshaled.f0;
 	marshaled.f1 = unmarshaled.f1;
 	marshaled.f2 = unmarshaled.f2;
 }
-void t1291_marshal_back(const t1291_marshaled& marshaled, t1291& unmarshaled)
+void t1300_marshal_back(const t1300_marshaled& marshaled, t1300& unmarshaled)
 {
 	unmarshaled.f0 = marshaled.f0;
 	unmarshaled.f1 = marshaled.f1;
 	unmarshaled.f2 = marshaled.f2;
 }
 // Conversion method for clean up from marshalling of: System.Text.RegularExpressions.Interval
-void t1291_marshal_cleanup(t1291_marshaled& marshaled)
+void t1300_marshal_cleanup(t1300_marshaled& marshaled)
 {
 }
-#include "t1292.h"
+#include "t1301.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1292_TI;
-#include "t1292MD.h"
+extern TypeInfo t1301_TI;
+#include "t1301MD.h"
 
-#include "t1332.h"
-extern TypeInfo t991_TI;
-extern TypeInfo t1332_TI;
-extern TypeInfo t992_TI;
-#include "t1332MD.h"
-extern MethodInfo m5673_MI;
-extern MethodInfo m5692_MI;
-extern MethodInfo m5907_MI;
-extern MethodInfo m5428_MI;
+#include "t1341.h"
+extern TypeInfo t998_TI;
+extern TypeInfo t1341_TI;
+extern TypeInfo t999_TI;
+#include "t1341MD.h"
+extern MethodInfo m5701_MI;
+extern MethodInfo m5720_MI;
+extern MethodInfo m5935_MI;
+extern MethodInfo m5456_MI;
 
 
-extern MethodInfo m5425_MI;
-extern "C" void m5425 (t1292 * __this, t9 * p0, MethodInfo* method)
+extern MethodInfo m5453_MI;
+extern "C" void m5453 (t1301 * __this, t9 * p0, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
 		t9 * L_0 = p0;
 		__this->f0 = L_0;
-		VirtActionInvoker0::Invoke(&m5428_MI, __this);
+		VirtActionInvoker0::Invoke(&m5456_MI, __this);
 		return;
 	}
 }
-extern MethodInfo m5426_MI;
-extern "C" t9 * m5426 (t1292 * __this, MethodInfo* method)
+extern MethodInfo m5454_MI;
+extern "C" t9 * m5454 (t1301 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f1);
 		t9 * L_1 = (__this->f0);
-		int32_t L_2 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(&m5673_MI, L_1);
+		int32_t L_2 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(&m5701_MI, L_1);
 		if ((((int32_t)L_0) < ((int32_t)L_2)))
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		t1332 * L_3 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5692(L_3, &m5692_MI);
+		t1341 * L_3 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5720(L_3, &m5720_MI);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -6010,26 +6010,26 @@ IL_001c:
 	{
 		t9 * L_4 = (__this->f0);
 		int32_t L_5 = (__this->f1);
-		t9 * L_6 = (t9 *)InterfaceFuncInvoker1< t9 *, int32_t >::Invoke(&m5907_MI, L_4, L_5);
+		t9 * L_6 = (t9 *)InterfaceFuncInvoker1< t9 *, int32_t >::Invoke(&m5935_MI, L_4, L_5);
 		return L_6;
 	}
 }
-extern MethodInfo m5427_MI;
-extern "C" bool m5427 (t1292 * __this, MethodInfo* method)
+extern MethodInfo m5455_MI;
+extern "C" bool m5455 (t1301 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
 		int32_t L_0 = (__this->f1);
 		t9 * L_1 = (__this->f0);
-		int32_t L_2 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(&m5673_MI, L_1);
+		int32_t L_2 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(&m5701_MI, L_1);
 		if ((((int32_t)L_0) <= ((int32_t)L_2)))
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		t1332 * L_3 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5692(L_3, &m5692_MI);
+		t1341 * L_3 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5720(L_3, &m5720_MI);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -6041,174 +6041,174 @@ IL_001c:
 		__this->f1 = L_5;
 		int32_t L_6 = V_0;
 		t9 * L_7 = (__this->f0);
-		int32_t L_8 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(&m5673_MI, L_7);
+		int32_t L_8 = (int32_t)InterfaceFuncInvoker0< int32_t >::Invoke(&m5701_MI, L_7);
 		return ((((int32_t)L_6) < ((int32_t)L_8))? 1 : 0);
 	}
 }
-extern "C" void m5428 (t1292 * __this, MethodInfo* method)
+extern "C" void m5456 (t1301 * __this, MethodInfo* method)
 {
 	{
 		__this->f1 = (-1);
 		return;
 	}
 }
-#include "t1293.h"
+#include "t1302.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1293_TI;
-#include "t1293MD.h"
+extern TypeInfo t1302_TI;
+#include "t1302MD.h"
 
 #include "t58.h"
 #include "t156.h"
-#include "t463.h"
+#include "t470.h"
 
 
-extern MethodInfo m5429_MI;
-extern "C" void m5429 (t1293 * __this, t9 * p0, t58 p1, MethodInfo* method)
+extern MethodInfo m5457_MI;
+extern "C" void m5457 (t1302 * __this, t9 * p0, t58 p1, MethodInfo* method)
 {
 	__this->f0 = (methodPointerType)((MethodInfo*)p1.f0)->method;
 	__this->f3 = p1;
 	__this->f2 = p0;
 }
-extern MethodInfo m5430_MI;
-extern "C" double m5430 (t1293 * __this, t1291  p0, MethodInfo* method)
+extern MethodInfo m5458_MI;
+extern "C" double m5458 (t1302 * __this, t1300  p0, MethodInfo* method)
 {
 	if(__this->f9 != NULL)
 	{
-		m5430((t1293 *)__this->f9,p0, method);
+		m5458((t1302 *)__this->f9,p0, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->f3.f0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->f3.f0));
 	if (__this->f2 != NULL && ___methodIsStatic)
 	{
-		typedef double (*FunctionPointerType) (t9 *, t9 * __this, t1291  p0, MethodInfo* method);
+		typedef double (*FunctionPointerType) (t9 *, t9 * __this, t1300  p0, MethodInfo* method);
 		return ((FunctionPointerType)__this->f0)(NULL,__this->f2,p0,(MethodInfo*)(__this->f3.f0));
 	}
-	typedef double (*FunctionPointerType) (t9 * __this, t1291  p0, MethodInfo* method);
+	typedef double (*FunctionPointerType) (t9 * __this, t1300  p0, MethodInfo* method);
 	return ((FunctionPointerType)__this->f0)(__this->f2,p0,(MethodInfo*)(__this->f3.f0));
 }
-extern TypeInfo t1291_TI;
-extern "C" double pinvoke_delegate_wrapper_t1293(Il2CppObject* delegate, t1291  p0)
+extern TypeInfo t1300_TI;
+extern "C" double pinvoke_delegate_wrapper_t1302(Il2CppObject* delegate, t1300  p0)
 {
-	typedef double (STDCALL *native_function_ptr_type)(t1291_marshaled);
+	typedef double (STDCALL *native_function_ptr_type)(t1300_marshaled);
 	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
 	// Marshaling of parameter 'p0' to native representation
-	t1291_marshaled _p0_marshaled = { 0 };
-	t1291_marshal(p0, _p0_marshaled);
+	t1300_marshaled _p0_marshaled = { 0 };
+	t1300_marshal(p0, _p0_marshaled);
 
 	// Native function invocation and marshaling of return value back from native representation
 	double _return_value = _il2cpp_pinvoke_func(_p0_marshaled);
 
 	// Marshaling cleanup of parameter 'p0' native representation
-	t1291_marshal_cleanup(_p0_marshaled);
+	t1300_marshal_cleanup(_p0_marshaled);
 
 	return _return_value;
 }
-extern MethodInfo m5431_MI;
-extern "C" t9 * m5431 (t1293 * __this, t1291  p0, t463 * p1, t9 * p2, MethodInfo* method)
+extern MethodInfo m5459_MI;
+extern "C" t9 * m5459 (t1302 * __this, t1300  p0, t470 * p1, t9 * p2, MethodInfo* method)
 {
 	void *__d_args[2] = {0};
-	__d_args[0] = Box(InitializedTypeInfo(&t1291_TI), &p0);
+	__d_args[0] = Box(InitializedTypeInfo(&t1300_TI), &p0);
 	return (t9 *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)p1, (Il2CppObject*)p2);
 }
-extern MethodInfo m5432_MI;
-extern "C" double m5432 (t1293 * __this, t9 * p0, MethodInfo* method)
+extern MethodInfo m5460_MI;
+extern "C" double m5460 (t1302 * __this, t9 * p0, MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) p0, 0);
 	return *(double*)UnBox ((Il2CppCodeGenObject*)__result);
 }
-#include "t1294.h"
+#include "t1303.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1294_TI;
-#include "t1294MD.h"
+extern TypeInfo t1303_TI;
+#include "t1303MD.h"
 
 extern TypeInfo t156_TI;
 extern TypeInfo t76_TI;
 extern TypeInfo t124_TI;
 extern TypeInfo t137_TI;
-extern MethodInfo m5696_MI;
-extern MethodInfo m5908_MI;
-extern MethodInfo m5909_MI;
-extern MethodInfo m5433_MI;
-extern MethodInfo m5436_MI;
-extern MethodInfo m5439_MI;
-extern MethodInfo m5438_MI;
-extern MethodInfo m5434_MI;
-extern MethodInfo m5435_MI;
-extern MethodInfo m5699_MI;
+extern MethodInfo m5724_MI;
+extern MethodInfo m5936_MI;
+extern MethodInfo m5937_MI;
+extern MethodInfo m5461_MI;
+extern MethodInfo m5464_MI;
+extern MethodInfo m5467_MI;
+extern MethodInfo m5466_MI;
+extern MethodInfo m5462_MI;
+extern MethodInfo m5463_MI;
+extern MethodInfo m5727_MI;
 extern MethodInfo m361_MI;
-extern MethodInfo m5689_MI;
-extern MethodInfo m5690_MI;
+extern MethodInfo m5717_MI;
+extern MethodInfo m5718_MI;
 extern MethodInfo m364_MI;
 extern MethodInfo m365_MI;
 
 
-extern "C" void m5433 (t1294 * __this, MethodInfo* method)
+extern "C" void m5461 (t1303 * __this, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1161_TI));
-		t1161 * L_0 = (t1161 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1161_TI));
-		m5698(L_0, &m5698_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1170_TI));
+		t1170 * L_0 = (t1170 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1170_TI));
+		m5726(L_0, &m5726_MI);
 		__this->f0 = L_0;
 		return;
 	}
 }
-extern "C" t1291  m5434 (t1294 * __this, int32_t p0, MethodInfo* method)
+extern "C" t1300  m5462 (t1303 * __this, int32_t p0, MethodInfo* method)
 {
 	{
-		t1161 * L_0 = (__this->f0);
+		t1170 * L_0 = (__this->f0);
 		int32_t L_1 = p0;
-		t9 * L_2 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5696_MI, L_0, L_1);
-		return ((*(t1291 *)((t1291 *)UnBox (L_2, InitializedTypeInfo(&t1291_TI)))));
+		t9 * L_2 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5724_MI, L_0, L_1);
+		return ((*(t1300 *)((t1300 *)UnBox (L_2, InitializedTypeInfo(&t1300_TI)))));
 	}
 }
-extern "C" void m5435 (t1294 * __this, t1291  p0, MethodInfo* method)
+extern "C" void m5463 (t1303 * __this, t1300  p0, MethodInfo* method)
 {
 	{
-		t1161 * L_0 = (__this->f0);
-		t1291  L_1 = p0;
-		t1291  L_2 = L_1;
-		t9 * L_3 = Box(InitializedTypeInfo(&t1291_TI), &L_2);
-		VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5709_MI, L_0, L_3);
+		t1170 * L_0 = (__this->f0);
+		t1300  L_1 = p0;
+		t1300  L_2 = L_1;
+		t9 * L_3 = Box(InitializedTypeInfo(&t1300_TI), &L_2);
+		VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5737_MI, L_0, L_3);
 		return;
 	}
 }
-extern "C" void m5436 (t1294 * __this, MethodInfo* method)
+extern "C" void m5464 (t1303 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
-	t1291  V_1 = {0};
-	t1291  V_2 = {0};
+	t1300  V_1 = {0};
+	t1300  V_2 = {0};
 	{
-		t1161 * L_0 = (__this->f0);
-		VirtActionInvoker0::Invoke(&m5908_MI, L_0);
+		t1170 * L_0 = (__this->f0);
+		VirtActionInvoker0::Invoke(&m5936_MI, L_0);
 		V_0 = 0;
 		goto IL_0083;
 	}
 
 IL_0012:
 	{
-		t1161 * L_1 = (__this->f0);
+		t1170 * L_1 = (__this->f0);
 		int32_t L_2 = V_0;
-		t9 * L_3 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5696_MI, L_1, L_2);
-		V_1 = ((*(t1291 *)((t1291 *)UnBox (L_3, InitializedTypeInfo(&t1291_TI)))));
-		t1161 * L_4 = (__this->f0);
+		t9 * L_3 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5724_MI, L_1, L_2);
+		V_1 = ((*(t1300 *)((t1300 *)UnBox (L_3, InitializedTypeInfo(&t1300_TI)))));
+		t1170 * L_4 = (__this->f0);
 		int32_t L_5 = V_0;
-		t9 * L_6 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5696_MI, L_4, ((int32_t)((int32_t)L_5+(int32_t)1)));
-		V_2 = ((*(t1291 *)((t1291 *)UnBox (L_6, InitializedTypeInfo(&t1291_TI)))));
-		t1291  L_7 = V_2;
-		bool L_8 = m5418((&V_1), L_7, &m5418_MI);
+		t9 * L_6 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5724_MI, L_4, ((int32_t)((int32_t)L_5+(int32_t)1)));
+		V_2 = ((*(t1300 *)((t1300 *)UnBox (L_6, InitializedTypeInfo(&t1300_TI)))));
+		t1300  L_7 = V_2;
+		bool L_8 = m5446((&V_1), L_7, &m5446_MI);
 		if (!L_8)
 		{
 			goto IL_0052;
 		}
 	}
 	{
-		t1291  L_9 = V_2;
-		bool L_10 = m5419((&V_1), L_9, &m5419_MI);
+		t1300  L_9 = V_2;
+		bool L_10 = m5447((&V_1), L_9, &m5447_MI);
 		if (!L_10)
 		{
 			goto IL_007f;
@@ -6217,17 +6217,17 @@ IL_0012:
 
 IL_0052:
 	{
-		t1291  L_11 = V_2;
-		m5423((&V_1), L_11, &m5423_MI);
-		t1161 * L_12 = (__this->f0);
+		t1300  L_11 = V_2;
+		m5451((&V_1), L_11, &m5451_MI);
+		t1170 * L_12 = (__this->f0);
 		int32_t L_13 = V_0;
-		t1291  L_14 = V_1;
-		t1291  L_15 = L_14;
-		t9 * L_16 = Box(InitializedTypeInfo(&t1291_TI), &L_15);
-		VirtActionInvoker2< int32_t, t9 * >::Invoke(&m5904_MI, L_12, L_13, L_16);
-		t1161 * L_17 = (__this->f0);
+		t1300  L_14 = V_1;
+		t1300  L_15 = L_14;
+		t9 * L_16 = Box(InitializedTypeInfo(&t1300_TI), &L_15);
+		VirtActionInvoker2< int32_t, t9 * >::Invoke(&m5932_MI, L_12, L_13, L_16);
+		t1170 * L_17 = (__this->f0);
 		int32_t L_18 = V_0;
-		VirtActionInvoker1< int32_t >::Invoke(&m5909_MI, L_17, ((int32_t)((int32_t)L_18+(int32_t)1)));
+		VirtActionInvoker1< int32_t >::Invoke(&m5937_MI, L_17, ((int32_t)((int32_t)L_18+(int32_t)1)));
 		goto IL_0083;
 	}
 
@@ -6240,8 +6240,8 @@ IL_007f:
 IL_0083:
 	{
 		int32_t L_20 = V_0;
-		t1161 * L_21 = (__this->f0);
-		int32_t L_22 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5694_MI, L_21);
+		t1170 * L_21 = (__this->f0);
+		int32_t L_22 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5722_MI, L_21);
 		if ((((int32_t)L_20) < ((int32_t)((int32_t)((int32_t)L_22-(int32_t)1)))))
 		{
 			goto IL_0012;
@@ -6251,29 +6251,29 @@ IL_0083:
 		return;
 	}
 }
-extern MethodInfo m5437_MI;
-extern "C" t1294 * m5437 (t1294 * __this, t1293 * p0, MethodInfo* method)
+extern MethodInfo m5465_MI;
+extern "C" t1303 * m5465 (t1303 * __this, t1302 * p0, MethodInfo* method)
 {
-	t1294 * V_0 = {0};
+	t1303 * V_0 = {0};
 	{
-		t1294 * L_0 = (t1294 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1294_TI));
-		m5433(L_0, &m5433_MI);
+		t1303 * L_0 = (t1303 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1303_TI));
+		m5461(L_0, &m5461_MI);
 		V_0 = L_0;
-		m5436(__this, &m5436_MI);
-		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5439_MI, __this);
-		t1294 * L_2 = V_0;
-		t1293 * L_3 = p0;
-		m5438(__this, 0, ((int32_t)((int32_t)L_1-(int32_t)1)), L_2, L_3, &m5438_MI);
-		t1294 * L_4 = V_0;
-		t1161 * L_5 = (L_4->f0);
-		VirtActionInvoker0::Invoke(&m5908_MI, L_5);
-		t1294 * L_6 = V_0;
+		m5464(__this, &m5464_MI);
+		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5467_MI, __this);
+		t1303 * L_2 = V_0;
+		t1302 * L_3 = p0;
+		m5466(__this, 0, ((int32_t)((int32_t)L_1-(int32_t)1)), L_2, L_3, &m5466_MI);
+		t1303 * L_4 = V_0;
+		t1170 * L_5 = (L_4->f0);
+		VirtActionInvoker0::Invoke(&m5936_MI, L_5);
+		t1303 * L_6 = V_0;
 		return L_6;
 	}
 }
-extern "C" void m5438 (t1294 * __this, int32_t p0, int32_t p1, t1294 * p2, t1293 * p3, MethodInfo* method)
+extern "C" void m5466 (t1303 * __this, int32_t p0, int32_t p1, t1303 * p2, t1302 * p3, MethodInfo* method)
 {
-	t1291  V_0 = {0};
+	t1300  V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	double V_3 = 0.0;
@@ -6282,10 +6282,10 @@ extern "C" void m5438 (t1294 * __this, int32_t p0, int32_t p1, t1294 * p2, t1293
 	int32_t V_6 = 0;
 	double V_7 = 0.0;
 	int32_t V_8 = 0;
-	t1291  V_9 = {0};
-	t1291  V_10 = {0};
-	t1291  V_11 = {0};
-	t1291  V_12 = {0};
+	t1300  V_9 = {0};
+	t1300  V_10 = {0};
+	t1300  V_11 = {0};
+	t1300  V_12 = {0};
 	{
 		(&V_0)->f2 = 0;
 		V_1 = (-1);
@@ -6299,7 +6299,7 @@ extern "C" void m5438 (t1294 * __this, int32_t p0, int32_t p1, t1294 * p2, t1293
 IL_001e:
 	{
 		int32_t L_1 = V_4;
-		t1291  L_2 = m5434(__this, L_1, &m5434_MI);
+		t1300  L_2 = m5462(__this, L_1, &m5462_MI);
 		V_9 = L_2;
 		int32_t L_3 = ((&V_9)->f0);
 		(&V_0)->f0 = L_3;
@@ -6312,19 +6312,19 @@ IL_001e:
 IL_004a:
 	{
 		int32_t L_5 = V_6;
-		t1291  L_6 = m5434(__this, L_5, &m5434_MI);
+		t1300  L_6 = m5462(__this, L_5, &m5462_MI);
 		V_10 = L_6;
 		int32_t L_7 = ((&V_10)->f1);
 		(&V_0)->f1 = L_7;
 		double L_8 = V_5;
-		t1293 * L_9 = p3;
+		t1302 * L_9 = p3;
 		int32_t L_10 = V_6;
-		t1291  L_11 = m5434(__this, L_10, &m5434_MI);
-		double L_12 = (double)VirtFuncInvoker1< double, t1291  >::Invoke(&m5430_MI, L_9, L_11);
+		t1300  L_11 = m5462(__this, L_10, &m5462_MI);
+		double L_12 = (double)VirtFuncInvoker1< double, t1300  >::Invoke(&m5458_MI, L_9, L_11);
 		V_5 = ((double)((double)L_8+(double)L_12));
-		t1293 * L_13 = p3;
-		t1291  L_14 = V_0;
-		double L_15 = (double)VirtFuncInvoker1< double, t1291  >::Invoke(&m5430_MI, L_13, L_14);
+		t1302 * L_13 = p3;
+		t1300  L_14 = V_0;
+		double L_15 = (double)VirtFuncInvoker1< double, t1300  >::Invoke(&m5458_MI, L_13, L_14);
 		V_7 = L_15;
 		double L_16 = V_7;
 		double L_17 = V_5;
@@ -6394,10 +6394,10 @@ IL_00ae:
 
 IL_00c5:
 	{
-		t1294 * L_31 = p2;
+		t1303 * L_31 = p2;
 		int32_t L_32 = V_8;
-		t1291  L_33 = m5434(__this, L_32, &m5434_MI);
-		m5435(L_31, L_33, &m5435_MI);
+		t1300  L_33 = m5462(__this, L_32, &m5462_MI);
+		m5463(L_31, L_33, &m5463_MI);
 		int32_t L_34 = V_8;
 		V_8 = ((int32_t)((int32_t)L_34+(int32_t)1));
 	}
@@ -6418,18 +6418,18 @@ IL_00d9:
 IL_00e6:
 	{
 		int32_t L_37 = V_1;
-		t1291  L_38 = m5434(__this, L_37, &m5434_MI);
+		t1300  L_38 = m5462(__this, L_37, &m5462_MI);
 		V_11 = L_38;
 		int32_t L_39 = ((&V_11)->f0);
 		(&V_0)->f0 = L_39;
 		int32_t L_40 = V_2;
-		t1291  L_41 = m5434(__this, L_40, &m5434_MI);
+		t1300  L_41 = m5462(__this, L_40, &m5462_MI);
 		V_12 = L_41;
 		int32_t L_42 = ((&V_12)->f1);
 		(&V_0)->f1 = L_42;
-		t1294 * L_43 = p2;
-		t1291  L_44 = V_0;
-		m5435(L_43, L_44, &m5435_MI);
+		t1303 * L_43 = p2;
+		t1300  L_44 = V_0;
+		m5463(L_43, L_44, &m5463_MI);
 		int32_t L_45 = V_1;
 		int32_t L_46 = p0;
 		if ((((int32_t)L_45) <= ((int32_t)L_46)))
@@ -6440,9 +6440,9 @@ IL_00e6:
 	{
 		int32_t L_47 = p0;
 		int32_t L_48 = V_1;
-		t1294 * L_49 = p2;
-		t1293 * L_50 = p3;
-		m5438(__this, L_47, ((int32_t)((int32_t)L_48-(int32_t)1)), L_49, L_50, &m5438_MI);
+		t1303 * L_49 = p2;
+		t1302 * L_50 = p3;
+		m5466(__this, L_47, ((int32_t)((int32_t)L_48-(int32_t)1)), L_49, L_50, &m5466_MI);
 	}
 
 IL_012f:
@@ -6457,9 +6457,9 @@ IL_012f:
 	{
 		int32_t L_53 = V_2;
 		int32_t L_54 = p1;
-		t1294 * L_55 = p2;
-		t1293 * L_56 = p3;
-		m5438(__this, ((int32_t)((int32_t)L_53+(int32_t)1)), L_54, L_55, L_56, &m5438_MI);
+		t1303 * L_55 = p2;
+		t1302 * L_56 = p3;
+		m5466(__this, ((int32_t)((int32_t)L_53+(int32_t)1)), L_54, L_55, L_56, &m5466_MI);
 	}
 
 IL_0143:
@@ -6467,33 +6467,33 @@ IL_0143:
 		return;
 	}
 }
-extern "C" int32_t m5439 (t1294 * __this, MethodInfo* method)
+extern "C" int32_t m5467 (t1303 * __this, MethodInfo* method)
 {
 	{
-		t1161 * L_0 = (__this->f0);
-		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5694_MI, L_0);
+		t1170 * L_0 = (__this->f0);
+		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5722_MI, L_0);
 		return L_1;
 	}
 }
-extern MethodInfo m5440_MI;
-extern "C" bool m5440 (t1294 * __this, MethodInfo* method)
+extern MethodInfo m5468_MI;
+extern "C" bool m5468 (t1303 * __this, MethodInfo* method)
 {
 	{
 		return 0;
 	}
 }
-extern MethodInfo m5441_MI;
-extern "C" t9 * m5441 (t1294 * __this, MethodInfo* method)
+extern MethodInfo m5469_MI;
+extern "C" t9 * m5469 (t1303 * __this, MethodInfo* method)
 {
 	{
-		t1161 * L_0 = (__this->f0);
+		t1170 * L_0 = (__this->f0);
 		return L_0;
 	}
 }
-extern MethodInfo m5442_MI;
-extern "C" void m5442 (t1294 * __this, t121 * p0, int32_t p1, MethodInfo* method)
+extern MethodInfo m5470_MI;
+extern "C" void m5470 (t1303 * __this, t121 * p0, int32_t p1, MethodInfo* method)
 {
-	t1291  V_0 = {0};
+	t1300  V_0 = {0};
 	t9 * V_1 = {0};
 	t9 * V_2 = {0};
 	t138 * __last_unhandled_exception = 0;
@@ -6503,8 +6503,8 @@ extern "C" void m5442 (t1294 * __this, t121 * p0, int32_t p1, MethodInfo* method
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		t1161 * L_0 = (__this->f0);
-		t9 * L_1 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5699_MI, L_0);
+		t1170 * L_0 = (__this->f0);
+		t9 * L_1 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5727_MI, L_0);
 		V_1 = L_1;
 	}
 
@@ -6519,10 +6519,10 @@ IL_0011:
 		{
 			t9 * L_2 = V_1;
 			t9 * L_3 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m361_MI, L_2);
-			V_0 = ((*(t1291 *)((t1291 *)UnBox (L_3, InitializedTypeInfo(&t1291_TI)))));
+			V_0 = ((*(t1300 *)((t1300 *)UnBox (L_3, InitializedTypeInfo(&t1300_TI)))));
 			int32_t L_4 = p1;
 			t121 * L_5 = p0;
-			int32_t L_6 = m5689(L_5, &m5689_MI);
+			int32_t L_6 = m5717(L_5, &m5717_MI);
 			if ((((int32_t)L_4) <= ((int32_t)L_6)))
 			{
 				goto IL_002e;
@@ -6537,13 +6537,13 @@ IL_0029:
 IL_002e:
 		{
 			t121 * L_7 = p0;
-			t1291  L_8 = V_0;
-			t1291  L_9 = L_8;
-			t9 * L_10 = Box(InitializedTypeInfo(&t1291_TI), &L_9);
+			t1300  L_8 = V_0;
+			t1300  L_9 = L_8;
+			t9 * L_10 = Box(InitializedTypeInfo(&t1300_TI), &L_9);
 			int32_t L_11 = p1;
 			int32_t L_12 = L_11;
 			p1 = ((int32_t)((int32_t)L_12+(int32_t)1));
-			m5690(L_7, L_10, L_12, &m5690_MI);
+			m5718(L_7, L_10, L_12, &m5718_MI);
 		}
 
 IL_0040:
@@ -6602,219 +6602,219 @@ IL_0062:
 		return;
 	}
 }
-extern MethodInfo m5443_MI;
-extern "C" t9 * m5443 (t1294 * __this, MethodInfo* method)
+extern MethodInfo m5471_MI;
+extern "C" t9 * m5471 (t1303 * __this, MethodInfo* method)
 {
 	{
-		t1161 * L_0 = (__this->f0);
-		t1292 * L_1 = (t1292 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1292_TI));
-		m5425(L_1, L_0, &m5425_MI);
+		t1170 * L_0 = (__this->f0);
+		t1301 * L_1 = (t1301 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1301_TI));
+		m5453(L_1, L_0, &m5453_MI);
 		return L_1;
 	}
 }
-#include "t1295.h"
+#include "t1304.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1295_TI;
-#include "t1295MD.h"
+extern TypeInfo t1304_TI;
+#include "t1304MD.h"
 
-#include "t1149.h"
-#include "t1296.h"
-#include "t1267.h"
-#include "t1297.h"
-#include "t1298.h"
-#include "t556.h"
-#include "t1306.h"
-#include "t1312.h"
-#include "t1299.h"
-#include "t1309.h"
-#include "t1313.h"
-#include "t1316.h"
-#include "t1311.h"
-#include "t1300.h"
-#include "t1307.h"
-#include "t1308.h"
-#include "t1310.h"
-#include "t1314.h"
-#include "t1315.h"
+#include "t1158.h"
+#include "t1305.h"
 #include "t1276.h"
-extern TypeInfo t1149_TI;
-extern TypeInfo t1296_TI;
-extern TypeInfo t876_TI;
-extern TypeInfo t1306_TI;
-extern TypeInfo t1297_TI;
-extern TypeInfo t1313_TI;
-extern TypeInfo t1316_TI;
-extern TypeInfo t1311_TI;
-extern TypeInfo t1312_TI;
-extern TypeInfo t1309_TI;
-extern TypeInfo t1308_TI;
-extern TypeInfo t1300_TI;
-extern TypeInfo t1307_TI;
-extern TypeInfo t1310_TI;
-extern TypeInfo t158_TI;
+#include "t1306.h"
+#include "t1307.h"
+#include "t563.h"
+#include "t1315.h"
+#include "t1321.h"
+#include "t1308.h"
+#include "t1318.h"
+#include "t1322.h"
+#include "t1325.h"
+#include "t1320.h"
+#include "t1309.h"
+#include "t1316.h"
+#include "t1317.h"
+#include "t1319.h"
+#include "t1323.h"
+#include "t1324.h"
+#include "t1285.h"
+extern TypeInfo t1158_TI;
+extern TypeInfo t1305_TI;
+extern TypeInfo t883_TI;
 extern TypeInfo t1315_TI;
-extern TypeInfo t1314_TI;
-extern TypeInfo t556_TI;
-extern TypeInfo t658_TI;
-extern TypeInfo t1299_TI;
-#include "t1149MD.h"
+extern TypeInfo t1306_TI;
+extern TypeInfo t1322_TI;
+extern TypeInfo t1325_TI;
+extern TypeInfo t1320_TI;
+extern TypeInfo t1321_TI;
+extern TypeInfo t1318_TI;
+extern TypeInfo t1317_TI;
+extern TypeInfo t1309_TI;
+extern TypeInfo t1316_TI;
+extern TypeInfo t1319_TI;
+extern TypeInfo t158_TI;
+extern TypeInfo t1324_TI;
+extern TypeInfo t1323_TI;
+extern TypeInfo t563_TI;
+extern TypeInfo t665_TI;
+extern TypeInfo t1308_TI;
+#include "t1158MD.h"
 #include "t125MD.h"
-#include "t1296MD.h"
-#include "t1306MD.h"
-#include "t1297MD.h"
-#include "t1313MD.h"
-#include "t1316MD.h"
-#include "t1311MD.h"
-#include "t1298MD.h"
-#include "t1312MD.h"
-#include "t1309MD.h"
-#include "t1308MD.h"
-#include "t1300MD.h"
-#include "t1307MD.h"
-#include "t1310MD.h"
+#include "t1305MD.h"
 #include "t1315MD.h"
-#include "t1314MD.h"
-#include "t556MD.h"
+#include "t1306MD.h"
+#include "t1322MD.h"
+#include "t1325MD.h"
+#include "t1320MD.h"
+#include "t1307MD.h"
+#include "t1321MD.h"
+#include "t1318MD.h"
+#include "t1317MD.h"
+#include "t1309MD.h"
+#include "t1316MD.h"
+#include "t1319MD.h"
+#include "t1324MD.h"
+#include "t1323MD.h"
+#include "t563MD.h"
 extern Il2CppType t158_0_0_0;
-extern MethodInfo m5883_MI;
-extern MethodInfo m5448_MI;
-extern MethodInfo m5464_MI;
-extern MethodInfo m5897_MI;
-extern MethodInfo m4276_MI;
-extern MethodInfo m5462_MI;
-extern MethodInfo m2715_MI;
-extern MethodInfo m5850_MI;
-extern MethodInfo m5910_MI;
-extern MethodInfo m5508_MI;
-extern MethodInfo m5452_MI;
-extern MethodInfo m5466_MI;
-extern MethodInfo m5509_MI;
-extern MethodInfo m5474_MI;
-extern MethodInfo m5708_MI;
-extern MethodInfo m5514_MI;
-extern MethodInfo m5512_MI;
-extern MethodInfo m5894_MI;
-extern MethodInfo m5707_MI;
-extern MethodInfo m5503_MI;
-extern MethodInfo m5472_MI;
-extern MethodInfo m5465_MI;
-extern MethodInfo m5469_MI;
-extern MethodInfo m5562_MI;
-extern MethodInfo m5471_MI;
-extern MethodInfo m5578_MI;
-extern MethodInfo m5460_MI;
-extern MethodInfo m5459_MI;
-extern MethodInfo m5456_MI;
-extern MethodInfo m5468_MI;
-extern MethodInfo m5453_MI;
-extern MethodInfo m5556_MI;
-extern MethodInfo m5504_MI;
-extern MethodInfo m5534_MI;
-extern MethodInfo m5535_MI;
-extern MethodInfo m5536_MI;
-extern MethodInfo m5537_MI;
-extern MethodInfo m5551_MI;
-extern MethodInfo m5553_MI;
-extern MethodInfo m5457_MI;
-extern MethodInfo m5526_MI;
-extern MethodInfo m2739_MI;
-extern MethodInfo m5528_MI;
-extern MethodInfo m511_MI;
-extern MethodInfo m5470_MI;
-extern MethodInfo m5511_MI;
-extern MethodInfo m5523_MI;
-extern MethodInfo m5455_MI;
-extern MethodInfo m5544_MI;
-extern MethodInfo m5454_MI;
-extern MethodInfo m5548_MI;
-extern MethodInfo m5461_MI;
-extern MethodInfo m5515_MI;
-extern MethodInfo m5520_MI;
-extern MethodInfo m5516_MI;
-extern MethodInfo m5546_MI;
-extern MethodInfo m5545_MI;
-extern MethodInfo m5539_MI;
-extern MethodInfo m5473_MI;
-extern MethodInfo m5577_MI;
-extern MethodInfo m5581_MI;
-extern MethodInfo m5580_MI;
-extern MethodInfo m5458_MI;
-extern MethodInfo m515_MI;
-extern MethodInfo m5582_MI;
-extern MethodInfo m5463_MI;
-extern MethodInfo m5449_MI;
-extern MethodInfo m5311_MI;
-extern MethodInfo m399_MI;
-extern MethodInfo m5574_MI;
-extern MethodInfo m5567_MI;
-extern MethodInfo m590_MI;
-extern MethodInfo m5691_MI;
-extern MethodInfo m5446_MI;
-extern MethodInfo m5447_MI;
-extern MethodInfo m5899_MI;
-extern MethodInfo m5896_MI;
-extern MethodInfo m5898_MI;
-extern MethodInfo m5513_MI;
-extern MethodInfo m5445_MI;
-extern MethodInfo m5853_MI;
-extern MethodInfo m5467_MI;
 extern MethodInfo m5911_MI;
-extern MethodInfo m4344_MI;
-extern MethodInfo m5575_MI;
-extern MethodInfo m5569_MI;
+extern MethodInfo m5476_MI;
+extern MethodInfo m5492_MI;
+extern MethodInfo m5925_MI;
+extern MethodInfo m4300_MI;
+extern MethodInfo m5490_MI;
+extern MethodInfo m2739_MI;
+extern MethodInfo m5878_MI;
+extern MethodInfo m5938_MI;
+extern MethodInfo m5536_MI;
+extern MethodInfo m5480_MI;
+extern MethodInfo m5494_MI;
+extern MethodInfo m5537_MI;
+extern MethodInfo m5502_MI;
+extern MethodInfo m5736_MI;
+extern MethodInfo m5542_MI;
 extern MethodInfo m5540_MI;
-extern MethodInfo m5521_MI;
-extern MethodInfo m4419_MI;
+extern MethodInfo m5922_MI;
+extern MethodInfo m5735_MI;
+extern MethodInfo m5531_MI;
+extern MethodInfo m5500_MI;
+extern MethodInfo m5493_MI;
+extern MethodInfo m5497_MI;
+extern MethodInfo m5590_MI;
+extern MethodInfo m5499_MI;
+extern MethodInfo m5606_MI;
+extern MethodInfo m5488_MI;
+extern MethodInfo m5487_MI;
+extern MethodInfo m5484_MI;
+extern MethodInfo m5496_MI;
+extern MethodInfo m5481_MI;
+extern MethodInfo m5584_MI;
+extern MethodInfo m5532_MI;
+extern MethodInfo m5562_MI;
+extern MethodInfo m5563_MI;
+extern MethodInfo m5564_MI;
+extern MethodInfo m5565_MI;
+extern MethodInfo m5579_MI;
+extern MethodInfo m5581_MI;
+extern MethodInfo m5485_MI;
+extern MethodInfo m5554_MI;
+extern MethodInfo m2763_MI;
+extern MethodInfo m5556_MI;
+extern MethodInfo m511_MI;
+extern MethodInfo m5498_MI;
+extern MethodInfo m5539_MI;
+extern MethodInfo m5551_MI;
+extern MethodInfo m5483_MI;
+extern MethodInfo m5572_MI;
+extern MethodInfo m5482_MI;
+extern MethodInfo m5576_MI;
+extern MethodInfo m5489_MI;
+extern MethodInfo m5543_MI;
+extern MethodInfo m5548_MI;
+extern MethodInfo m5544_MI;
+extern MethodInfo m5574_MI;
+extern MethodInfo m5573_MI;
+extern MethodInfo m5567_MI;
+extern MethodInfo m5501_MI;
+extern MethodInfo m5605_MI;
+extern MethodInfo m5609_MI;
+extern MethodInfo m5608_MI;
+extern MethodInfo m5486_MI;
+extern MethodInfo m515_MI;
+extern MethodInfo m5610_MI;
+extern MethodInfo m5491_MI;
+extern MethodInfo m5477_MI;
+extern MethodInfo m5339_MI;
+extern MethodInfo m399_MI;
+extern MethodInfo m5602_MI;
+extern MethodInfo m5595_MI;
+extern MethodInfo m590_MI;
+extern MethodInfo m5719_MI;
+extern MethodInfo m5474_MI;
+extern MethodInfo m5475_MI;
+extern MethodInfo m5927_MI;
+extern MethodInfo m5924_MI;
+extern MethodInfo m5926_MI;
+extern MethodInfo m5541_MI;
+extern MethodInfo m5473_MI;
+extern MethodInfo m5881_MI;
+extern MethodInfo m5495_MI;
+extern MethodInfo m5939_MI;
+extern MethodInfo m4368_MI;
+extern MethodInfo m5603_MI;
+extern MethodInfo m5597_MI;
+extern MethodInfo m5568_MI;
+extern MethodInfo m5549_MI;
+extern MethodInfo m4443_MI;
 
 
-extern MethodInfo m5444_MI;
-extern "C" void m5444 (t1295 * __this, MethodInfo* method)
+extern MethodInfo m5472_MI;
+extern "C" void m5472 (t1304 * __this, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1161_TI));
-		t1161 * L_0 = (t1161 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1161_TI));
-		m5698(L_0, &m5698_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1170_TI));
+		t1170 * L_0 = (t1170 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1170_TI));
+		m5726(L_0, &m5726_MI);
 		__this->f2 = L_0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1149_TI));
-		t1149 * L_1 = (t1149 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1149_TI));
-		m5883(L_1, &m5883_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1158_TI));
+		t1158 * L_1 = (t1158 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1158_TI));
+		m5911(L_1, &m5911_MI);
 		__this->f3 = L_1;
 		return;
 	}
 }
-extern "C" int32_t m5445 (t9 * __this , t2* p0, int32_t* p1, MethodInfo* method)
+extern "C" int32_t m5473 (t9 * __this , t2* p0, int32_t* p1, MethodInfo* method)
 {
 	{
 		t2* L_0 = p0;
 		int32_t* L_1 = p1;
-		int32_t L_2 = m5448(NULL, L_0, L_1, ((int32_t)10), 1, ((int32_t)2147483647), &m5448_MI);
+		int32_t L_2 = m5476(NULL, L_0, L_1, ((int32_t)10), 1, ((int32_t)2147483647), &m5476_MI);
 		return L_2;
 	}
 }
-extern "C" int32_t m5446 (t9 * __this , t2* p0, int32_t* p1, MethodInfo* method)
+extern "C" int32_t m5474 (t9 * __this , t2* p0, int32_t* p1, MethodInfo* method)
 {
 	{
 		t2* L_0 = p0;
 		int32_t* L_1 = p1;
-		int32_t L_2 = m5448(NULL, L_0, L_1, 8, 1, 3, &m5448_MI);
+		int32_t L_2 = m5476(NULL, L_0, L_1, 8, 1, 3, &m5476_MI);
 		return L_2;
 	}
 }
-extern "C" int32_t m5447 (t9 * __this , t2* p0, int32_t* p1, int32_t p2, MethodInfo* method)
+extern "C" int32_t m5475 (t9 * __this , t2* p0, int32_t* p1, int32_t p2, MethodInfo* method)
 {
 	{
 		t2* L_0 = p0;
 		int32_t* L_1 = p1;
 		int32_t L_2 = p2;
 		int32_t L_3 = p2;
-		int32_t L_4 = m5448(NULL, L_0, L_1, ((int32_t)16), L_2, L_3, &m5448_MI);
+		int32_t L_4 = m5476(NULL, L_0, L_1, ((int32_t)16), L_2, L_3, &m5476_MI);
 		return L_4;
 	}
 }
-extern "C" int32_t m5448 (t9 * __this , t2* p0, int32_t* p1, int32_t p2, int32_t p3, int32_t p4, MethodInfo* method)
+extern "C" int32_t m5476 (t9 * __this , t2* p0, int32_t* p1, int32_t p2, int32_t p3, int32_t p4, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -6847,10 +6847,10 @@ IL_001b:
 		int32_t L_4 = V_0;
 		int32_t L_5 = L_4;
 		V_0 = ((int32_t)((int32_t)L_5+(int32_t)1));
-		uint16_t L_6 = m2714(L_3, L_5, &m2714_MI);
+		uint16_t L_6 = m2738(L_3, L_5, &m2738_MI);
 		int32_t L_7 = p2;
 		int32_t L_8 = V_2;
-		int32_t L_9 = m5464(NULL, L_6, L_7, L_8, &m5464_MI);
+		int32_t L_9 = m5492(NULL, L_6, L_7, L_8, &m5492_MI);
 		V_3 = L_9;
 		int32_t L_10 = V_3;
 		if ((((int32_t)L_10) >= ((int32_t)0)))
@@ -6886,7 +6886,7 @@ IL_0048:
 	{
 		int32_t L_18 = V_0;
 		t2* L_19 = p0;
-		int32_t L_20 = m2699(L_19, &m2699_MI);
+		int32_t L_20 = m2723(L_19, &m2723_MI);
 		if ((((int32_t)L_18) < ((int32_t)L_20)))
 		{
 			goto IL_001b;
@@ -6915,16 +6915,16 @@ IL_0065:
 		return L_25;
 	}
 }
-extern "C" t2* m5449 (t9 * __this , t2* p0, int32_t* p1, MethodInfo* method)
+extern "C" t2* m5477 (t9 * __this , t2* p0, int32_t* p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
 		t2* L_0 = p0;
 		int32_t* L_1 = p1;
-		uint16_t L_2 = m2714(L_0, (*((int32_t*)L_1)), &m2714_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		bool L_3 = m5897(NULL, L_2, &m5897_MI);
+		uint16_t L_2 = m2738(L_0, (*((int32_t*)L_1)), &m2738_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		bool L_3 = m5925(NULL, L_2, &m5925_MI);
 		if (!L_3)
 		{
 			goto IL_002f;
@@ -6933,7 +6933,7 @@ extern "C" t2* m5449 (t9 * __this , t2* p0, int32_t* p1, MethodInfo* method)
 	{
 		t2* L_4 = p0;
 		int32_t* L_5 = p1;
-		int32_t L_6 = m5448(NULL, L_4, L_5, ((int32_t)10), 1, 0, &m5448_MI);
+		int32_t L_6 = m5476(NULL, L_4, L_5, ((int32_t)10), 1, 0, &m5476_MI);
 		V_0 = L_6;
 		int32_t L_7 = V_0;
 		if ((((int32_t)L_7) <= ((int32_t)0)))
@@ -6942,7 +6942,7 @@ extern "C" t2* m5449 (t9 * __this , t2* p0, int32_t* p1, MethodInfo* method)
 		}
 	}
 	{
-		t2* L_8 = m4276((&V_0), &m4276_MI);
+		t2* L_8 = m4300((&V_0), &m4300_MI);
 		return L_8;
 	}
 
@@ -6962,8 +6962,8 @@ IL_0037:
 	{
 		t2* L_10 = p0;
 		int32_t* L_11 = p1;
-		uint16_t L_12 = m2714(L_10, (*((int32_t*)L_11)), &m2714_MI);
-		bool L_13 = m5462(NULL, L_12, &m5462_MI);
+		uint16_t L_12 = m2738(L_10, (*((int32_t*)L_11)), &m2738_MI);
+		bool L_13 = m5490(NULL, L_12, &m5490_MI);
 		if (L_13)
 		{
 			goto IL_004e;
@@ -6999,7 +6999,7 @@ IL_0059:
 		int32_t L_19 = V_1;
 		int32_t* L_20 = p1;
 		int32_t L_21 = V_1;
-		t2* L_22 = m2715(L_18, L_19, ((int32_t)((int32_t)(*((int32_t*)L_20))-(int32_t)L_21)), &m2715_MI);
+		t2* L_22 = m2739(L_18, L_19, ((int32_t)((int32_t)(*((int32_t*)L_20))-(int32_t)L_21)), &m2739_MI);
 		return L_22;
 	}
 
@@ -7008,11 +7008,11 @@ IL_006f:
 		return (t2*)NULL;
 	}
 }
-extern MethodInfo m5450_MI;
-extern "C" t1296 * m5450 (t1295 * __this, t2* p0, int32_t p1, MethodInfo* method)
+extern MethodInfo m5478_MI;
+extern "C" t1305 * m5478 (t1304 * __this, t2* p0, int32_t p1, MethodInfo* method)
 {
-	t1296 * V_0 = {0};
-	t1296 * V_1 = {0};
+	t1305 * V_0 = {0};
+	t1305 * V_1 = {0};
 	t138 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	t138 * __exception_local = 0;
@@ -7023,10 +7023,10 @@ extern "C" t1296 * m5450 (t1295 * __this, t2* p0, int32_t p1, MethodInfo* method
 		t2* L_0 = p0;
 		__this->f0 = L_0;
 		__this->f1 = 0;
-		t1161 * L_1 = (__this->f2);
-		VirtActionInvoker0::Invoke(&m5850_MI, L_1);
-		t1149 * L_2 = (__this->f3);
-		VirtActionInvoker0::Invoke(&m5910_MI, L_2);
+		t1170 * L_1 = (__this->f2);
+		VirtActionInvoker0::Invoke(&m5878_MI, L_1);
+		t1158 * L_2 = (__this->f3);
+		VirtActionInvoker0::Invoke(&m5938_MI, L_2);
 		__this->f4 = 0;
 	}
 
@@ -7034,17 +7034,17 @@ IL_002b:
 	try
 	{ // begin try (depth: 1)
 		{
-			t1296 * L_3 = (t1296 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1296_TI));
-			m5508(L_3, &m5508_MI);
+			t1305 * L_3 = (t1305 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1305_TI));
+			m5536(L_3, &m5536_MI);
 			V_0 = L_3;
-			t1296 * L_4 = V_0;
+			t1305 * L_4 = V_0;
 			int32_t L_5 = p1;
-			m5452(__this, L_4, L_5, (t1298 *)NULL, &m5452_MI);
-			m5466(__this, &m5466_MI);
-			t1296 * L_6 = V_0;
+			m5480(__this, L_4, L_5, (t1307 *)NULL, &m5480_MI);
+			m5494(__this, &m5494_MI);
+			t1305 * L_6 = V_0;
 			int32_t L_7 = (__this->f4);
-			m5509(L_6, L_7, &m5509_MI);
-			t1296 * L_8 = V_0;
+			m5537(L_6, L_7, &m5537_MI);
+			t1305 * L_8 = V_0;
 			V_1 = L_8;
 			goto IL_006a;
 		}
@@ -7057,99 +7057,99 @@ IL_0053:
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__exception_local = (t138 *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (&t876_TI, e.ex->object.klass))
+		if(il2cpp_codegen_class_is_assignable_from (&t883_TI, e.ex->object.klass))
 			goto CATCH_0058;
 		throw e;
 	}
 
 CATCH_0058:
 	{ // begin catch(System.IndexOutOfRangeException)
-		t556 * L_9 = m5474(__this, (t2*) &_stringLiteral694, &m5474_MI);
+		t563 * L_9 = m5502(__this, (t2*) &_stringLiteral693, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_9);
 		goto IL_006a;
 	} // end catch (depth: 1)
 
 IL_006a:
 	{
-		t1296 * L_10 = V_1;
+		t1305 * L_10 = V_1;
 		return L_10;
 	}
 }
-extern MethodInfo m5451_MI;
-extern "C" int32_t m5451 (t1295 * __this, t1149 * p0, MethodInfo* method)
+extern MethodInfo m5479_MI;
+extern "C" int32_t m5479 (t1304 * __this, t1158 * p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	t1306 * V_2 = {0};
+	t1315 * V_2 = {0};
 	t2* V_3 = {0};
 	int32_t V_4 = 0;
 	t2* G_B4_0 = {0};
 	{
-		t1161 * L_0 = (__this->f2);
-		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5694_MI, L_0);
+		t1170 * L_0 = (__this->f2);
+		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5722_MI, L_0);
 		V_0 = L_1;
-		t1149 * L_2 = p0;
+		t1158 * L_2 = p0;
 		int32_t L_3 = 0;
 		t9 * L_4 = Box(InitializedTypeInfo(&t125_TI), &L_3);
-		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5708_MI, L_2, (t2*) &_stringLiteral695, L_4);
+		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5736_MI, L_2, (t2*) &_stringLiteral694, L_4);
 		V_1 = 0;
 		goto IL_00a5;
 	}
 
 IL_0024:
 	{
-		t1161 * L_5 = (__this->f2);
+		t1170 * L_5 = (__this->f2);
 		int32_t L_6 = V_1;
-		t9 * L_7 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5696_MI, L_5, L_6);
-		V_2 = ((t1306 *)Castclass(L_7, InitializedTypeInfo(&t1306_TI)));
-		t1306 * L_8 = V_2;
-		t2* L_9 = m5514(L_8, &m5514_MI);
+		t9 * L_7 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5724_MI, L_5, L_6);
+		V_2 = ((t1315 *)Castclass(L_7, InitializedTypeInfo(&t1315_TI)));
+		t1315 * L_8 = V_2;
+		t2* L_9 = m5542(L_8, &m5542_MI);
 		if (!L_9)
 		{
 			goto IL_004c;
 		}
 	}
 	{
-		t1306 * L_10 = V_2;
-		t2* L_11 = m5514(L_10, &m5514_MI);
+		t1315 * L_10 = V_2;
+		t2* L_11 = m5542(L_10, &m5542_MI);
 		G_B4_0 = L_11;
 		goto IL_005b;
 	}
 
 IL_004c:
 	{
-		t1306 * L_12 = V_2;
-		int32_t L_13 = m5512(L_12, &m5512_MI);
+		t1315 * L_12 = V_2;
+		int32_t L_13 = m5540(L_12, &m5540_MI);
 		V_4 = L_13;
-		t2* L_14 = m4276((&V_4), &m4276_MI);
+		t2* L_14 = m4300((&V_4), &m4300_MI);
 		G_B4_0 = L_14;
 	}
 
 IL_005b:
 	{
 		V_3 = G_B4_0;
-		t1149 * L_15 = p0;
+		t1158 * L_15 = p0;
 		t2* L_16 = V_3;
-		bool L_17 = (bool)VirtFuncInvoker1< bool, t9 * >::Invoke(&m5894_MI, L_15, L_16);
+		bool L_17 = (bool)VirtFuncInvoker1< bool, t9 * >::Invoke(&m5922_MI, L_15, L_16);
 		if (!L_17)
 		{
 			goto IL_008f;
 		}
 	}
 	{
-		t1149 * L_18 = p0;
+		t1158 * L_18 = p0;
 		t2* L_19 = V_3;
-		t9 * L_20 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5707_MI, L_18, L_19);
-		t1306 * L_21 = V_2;
-		int32_t L_22 = m5512(L_21, &m5512_MI);
+		t9 * L_20 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5735_MI, L_18, L_19);
+		t1315 * L_21 = V_2;
+		int32_t L_22 = m5540(L_21, &m5540_MI);
 		if ((((int32_t)((*(int32_t*)((int32_t*)UnBox (L_20, InitializedTypeInfo(&t125_TI)))))) == ((int32_t)L_22)))
 		{
 			goto IL_008a;
 		}
 	}
 	{
-		t1360 * L_23 = (t1360 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1360_TI));
-		m5872(L_23, (t2*) &_stringLiteral696, &m5872_MI);
+		t1369 * L_23 = (t1369 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1369_TI));
+		m5900(L_23, (t2*) &_stringLiteral695, &m5900_MI);
 		il2cpp_codegen_raise_exception(L_23);
 	}
 
@@ -7160,13 +7160,13 @@ IL_008a:
 
 IL_008f:
 	{
-		t1149 * L_24 = p0;
+		t1158 * L_24 = p0;
 		t2* L_25 = V_3;
-		t1306 * L_26 = V_2;
-		int32_t L_27 = m5512(L_26, &m5512_MI);
+		t1315 * L_26 = V_2;
+		int32_t L_27 = m5540(L_26, &m5540_MI);
 		int32_t L_28 = L_27;
 		t9 * L_29 = Box(InitializedTypeInfo(&t125_TI), &L_28);
-		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5708_MI, L_24, L_25, L_29);
+		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5736_MI, L_24, L_25, L_29);
 	}
 
 IL_00a1:
@@ -7189,13 +7189,13 @@ IL_00a5:
 		return L_33;
 	}
 }
-extern "C" void m5452 (t1295 * __this, t1297 * p0, int32_t p1, t1298 * p2, MethodInfo* method)
+extern "C" void m5480 (t1304 * __this, t1306 * p0, int32_t p1, t1307 * p2, MethodInfo* method)
 {
 	bool V_0 = false;
-	t1312 * V_1 = {0};
+	t1321 * V_1 = {0};
 	t2* V_2 = {0};
-	t1297 * V_3 = {0};
-	t1299 * V_4 = {0};
+	t1306 * V_3 = {0};
+	t1308 * V_4 = {0};
 	bool V_5 = false;
 	uint16_t V_6 = 0x0;
 	uint16_t V_7 = {0};
@@ -7209,32 +7209,32 @@ extern "C" void m5452 (t1295 * __this, t1297 * p0, int32_t p1, t1298 * p2, Metho
 	bool V_15 = false;
 	bool V_16 = false;
 	int32_t V_17 = 0;
-	t1309 * V_18 = {0};
+	t1318 * V_18 = {0};
 	int32_t V_19 = 0;
 	uint16_t V_20 = 0x0;
 	int32_t G_B11_0 = 0;
 	int32_t G_B15_0 = 0;
 	int32_t G_B19_0 = 0;
 	{
-		t1297 * L_0 = p0;
-		V_0 = ((!(((t9*)(t1296 *)((t1296 *)IsInst(L_0, InitializedTypeInfo(&t1296_TI)))) <= ((t9*)(t9 *)NULL)))? 1 : 0);
-		V_1 = (t1312 *)NULL;
+		t1306 * L_0 = p0;
+		V_0 = ((!(((t9*)(t1305 *)((t1305 *)IsInst(L_0, InitializedTypeInfo(&t1305_TI)))) <= ((t9*)(t9 *)NULL)))? 1 : 0);
+		V_1 = (t1321 *)NULL;
 		V_2 = (t2*)NULL;
-		t1297 * L_1 = (t1297 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1297_TI));
-		m5503(L_1, &m5503_MI);
+		t1306 * L_1 = (t1306 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1306_TI));
+		m5531(L_1, &m5531_MI);
 		V_3 = L_1;
-		V_4 = (t1299 *)NULL;
+		V_4 = (t1308 *)NULL;
 		V_5 = 0;
 	}
 
 IL_001a:
 	{
 		int32_t L_2 = p1;
-		bool L_3 = m5472(NULL, L_2, &m5472_MI);
-		m5465(__this, L_3, &m5465_MI);
+		bool L_3 = m5500(NULL, L_2, &m5500_MI);
+		m5493(__this, L_3, &m5493_MI);
 		int32_t L_4 = (__this->f1);
 		t2* L_5 = (__this->f0);
-		int32_t L_6 = m2699(L_5, &m2699_MI);
+		int32_t L_6 = m2723(L_5, &m2723_MI);
 		if ((((int32_t)L_4) < ((int32_t)L_6)))
 		{
 			goto IL_0041;
@@ -7252,7 +7252,7 @@ IL_0041:
 		V_19 = L_9;
 		__this->f1 = ((int32_t)((int32_t)L_9+(int32_t)1));
 		int32_t L_10 = V_19;
-		uint16_t L_11 = m2714(L_7, L_10, &m2714_MI);
+		uint16_t L_11 = m2738(L_7, L_10, &m2738_MI);
 		V_6 = L_11;
 		uint16_t L_12 = V_6;
 		V_20 = L_12;
@@ -7346,7 +7346,7 @@ IL_00b5:
 IL_00cc:
 	{
 		int32_t L_17 = p1;
-		bool L_18 = m5469(NULL, L_17, &m5469_MI);
+		bool L_18 = m5497(NULL, L_17, &m5497_MI);
 		if (!L_18)
 		{
 			goto IL_00dd;
@@ -7366,8 +7366,8 @@ IL_00de:
 	{
 		V_7 = G_B11_0;
 		uint16_t L_19 = V_7;
-		t1313 * L_20 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
-		m5562(L_20, L_19, &m5562_MI);
+		t1322 * L_20 = (t1322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1322_TI));
+		m5590(L_20, L_19, &m5590_MI);
 		V_4 = L_20;
 		goto IL_0270;
 	}
@@ -7375,7 +7375,7 @@ IL_00de:
 IL_00ee:
 	{
 		int32_t L_21 = p1;
-		bool L_22 = m5469(NULL, L_21, &m5469_MI);
+		bool L_22 = m5497(NULL, L_21, &m5497_MI);
 		if (!L_22)
 		{
 			goto IL_00ff;
@@ -7395,8 +7395,8 @@ IL_0100:
 	{
 		V_8 = G_B15_0;
 		uint16_t L_23 = V_8;
-		t1313 * L_24 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
-		m5562(L_24, L_23, &m5562_MI);
+		t1322 * L_24 = (t1322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1322_TI));
+		m5590(L_24, L_23, &m5590_MI);
 		V_4 = L_24;
 		goto IL_0270;
 	}
@@ -7404,7 +7404,7 @@ IL_0100:
 IL_0110:
 	{
 		int32_t L_25 = p1;
-		bool L_26 = m5471(NULL, L_25, &m5471_MI);
+		bool L_26 = m5499(NULL, L_25, &m5499_MI);
 		if (!L_26)
 		{
 			goto IL_0121;
@@ -7424,16 +7424,16 @@ IL_0122:
 	{
 		V_9 = G_B19_0;
 		uint16_t L_27 = V_9;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		t1316 * L_28 = (t1316 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1316_TI));
-		m5578(L_28, L_27, 0, &m5578_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		t1325 * L_28 = (t1325 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1325_TI));
+		m5606(L_28, L_27, 0, &m5606_MI);
 		V_4 = L_28;
 		goto IL_0270;
 	}
 
 IL_0133:
 	{
-		int32_t L_29 = m5460(__this, &m5460_MI);
+		int32_t L_29 = m5488(__this, &m5488_MI);
 		V_10 = L_29;
 		int32_t L_30 = V_10;
 		if ((((int32_t)L_30) < ((int32_t)0)))
@@ -7450,9 +7450,9 @@ IL_0133:
 IL_014d:
 	{
 		int32_t L_32 = p1;
-		t1299 * L_33 = m5459(__this, L_32, &m5459_MI);
+		t1308 * L_33 = m5487(__this, L_32, &m5487_MI);
 		V_4 = L_33;
-		t1299 * L_34 = V_4;
+		t1308 * L_34 = V_4;
 		if (L_34)
 		{
 			goto IL_017d;
@@ -7465,7 +7465,7 @@ IL_014d:
 		V_19 = L_37;
 		__this->f1 = ((int32_t)((int32_t)L_37+(int32_t)1));
 		int32_t L_38 = V_19;
-		uint16_t L_39 = m2714(L_35, L_38, &m2714_MI);
+		uint16_t L_39 = m2738(L_35, L_38, &m2738_MI);
 		V_6 = L_39;
 	}
 
@@ -7477,7 +7477,7 @@ IL_017d:
 IL_0182:
 	{
 		int32_t L_40 = p1;
-		t1299 * L_41 = m5456(__this, L_40, &m5456_MI);
+		t1308 * L_41 = m5484(__this, L_40, &m5484_MI);
 		V_4 = L_41;
 		goto IL_0270;
 	}
@@ -7485,11 +7485,11 @@ IL_0182:
 IL_0190:
 	{
 		int32_t L_42 = p1;
-		bool L_43 = m5468(NULL, L_42, &m5468_MI);
+		bool L_43 = m5496(NULL, L_42, &m5496_MI);
 		V_11 = L_43;
-		t1299 * L_44 = m5453(__this, (&p1), &m5453_MI);
+		t1308 * L_44 = m5481(__this, (&p1), &m5481_MI);
 		V_4 = L_44;
-		t1299 * L_45 = V_4;
+		t1308 * L_45 = V_4;
 		if (L_45)
 		{
 			goto IL_01d5;
@@ -7504,7 +7504,7 @@ IL_0190:
 	}
 	{
 		int32_t L_47 = p1;
-		bool L_48 = m5468(NULL, L_47, &m5468_MI);
+		bool L_48 = m5496(NULL, L_47, &m5496_MI);
 		bool L_49 = V_11;
 		if ((((int32_t)L_48) == ((int32_t)L_49)))
 		{
@@ -7512,13 +7512,13 @@ IL_0190:
 		}
 	}
 	{
-		t1297 * L_50 = V_3;
+		t1306 * L_50 = V_3;
 		t2* L_51 = V_2;
 		int32_t L_52 = p1;
-		bool L_53 = m5468(NULL, L_52, &m5468_MI);
-		t1311 * L_54 = (t1311 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1311_TI));
-		m5556(L_54, L_51, L_53, &m5556_MI);
-		m5504(L_50, L_54, &m5504_MI);
+		bool L_53 = m5496(NULL, L_52, &m5496_MI);
+		t1320 * L_54 = (t1320 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1320_TI));
+		m5584(L_54, L_51, L_53, &m5584_MI);
+		m5532(L_50, L_54, &m5532_MI);
 		V_2 = (t2*)NULL;
 	}
 
@@ -7547,58 +7547,58 @@ IL_01e2:
 		}
 	}
 	{
-		t1297 * L_56 = V_3;
+		t1306 * L_56 = V_3;
 		t2* L_57 = V_2;
 		int32_t L_58 = p1;
-		bool L_59 = m5468(NULL, L_58, &m5468_MI);
-		t1311 * L_60 = (t1311 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1311_TI));
-		m5556(L_60, L_57, L_59, &m5556_MI);
-		m5504(L_56, L_60, &m5504_MI);
+		bool L_59 = m5496(NULL, L_58, &m5496_MI);
+		t1320 * L_60 = (t1320 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1320_TI));
+		m5584(L_60, L_57, L_59, &m5584_MI);
+		m5532(L_56, L_60, &m5532_MI);
 		V_2 = (t2*)NULL;
 	}
 
 IL_01fc:
 	{
-		t1298 * L_61 = p2;
+		t1307 * L_61 = p2;
 		if (!L_61)
 		{
 			goto IL_0241;
 		}
 	}
 	{
-		t1298 * L_62 = p2;
-		t1299 * L_63 = m5534(L_62, &m5534_MI);
+		t1307 * L_62 = p2;
+		t1308 * L_63 = m5562(L_62, &m5562_MI);
 		if (L_63)
 		{
 			goto IL_0219;
 		}
 	}
 	{
-		t1298 * L_64 = p2;
-		t1297 * L_65 = V_3;
-		m5535(L_64, L_65, &m5535_MI);
+		t1307 * L_64 = p2;
+		t1306 * L_65 = V_3;
+		m5563(L_64, L_65, &m5563_MI);
 		goto IL_023c;
 	}
 
 IL_0219:
 	{
-		t1298 * L_66 = p2;
-		t1299 * L_67 = m5536(L_66, &m5536_MI);
+		t1307 * L_66 = p2;
+		t1308 * L_67 = m5564(L_66, &m5564_MI);
 		if (L_67)
 		{
 			goto IL_0230;
 		}
 	}
 	{
-		t1298 * L_68 = p2;
-		t1297 * L_69 = V_3;
-		m5537(L_68, L_69, &m5537_MI);
+		t1307 * L_68 = p2;
+		t1306 * L_69 = V_3;
+		m5565(L_68, L_69, &m5565_MI);
 		goto IL_023c;
 	}
 
 IL_0230:
 	{
-		t556 * L_70 = m5474(__this, (t2*) &_stringLiteral697, &m5474_MI);
+		t563 * L_70 = m5502(__this, (t2*) &_stringLiteral696, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_70);
 	}
 
@@ -7609,36 +7609,36 @@ IL_023c:
 
 IL_0241:
 	{
-		t1312 * L_71 = V_1;
+		t1321 * L_71 = V_1;
 		if (L_71)
 		{
 			goto IL_024d;
 		}
 	}
 	{
-		t1312 * L_72 = (t1312 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1312_TI));
-		m5551(L_72, &m5551_MI);
+		t1321 * L_72 = (t1321 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1321_TI));
+		m5579(L_72, &m5579_MI);
 		V_1 = L_72;
 	}
 
 IL_024d:
 	{
-		t1312 * L_73 = V_1;
-		t1297 * L_74 = V_3;
-		m5553(L_73, L_74, &m5553_MI);
+		t1321 * L_73 = V_1;
+		t1306 * L_74 = V_3;
+		m5581(L_73, L_74, &m5581_MI);
 	}
 
 IL_0254:
 	{
-		t1297 * L_75 = (t1297 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1297_TI));
-		m5503(L_75, &m5503_MI);
+		t1306 * L_75 = (t1306 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1306_TI));
+		m5531(L_75, &m5531_MI);
 		V_3 = L_75;
 		goto IL_001a;
 	}
 
 IL_025f:
 	{
-		t556 * L_76 = m5474(__this, (t2*) &_stringLiteral698, &m5474_MI);
+		t563 * L_76 = m5502(__this, (t2*) &_stringLiteral697, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_76);
 	}
 
@@ -7650,11 +7650,11 @@ IL_026b:
 IL_0270:
 	{
 		int32_t L_77 = p1;
-		bool L_78 = m5472(NULL, L_77, &m5472_MI);
-		m5465(__this, L_78, &m5465_MI);
+		bool L_78 = m5500(NULL, L_77, &m5500_MI);
+		m5493(__this, L_78, &m5493_MI);
 		int32_t L_79 = (__this->f1);
 		t2* L_80 = (__this->f0);
-		int32_t L_81 = m2699(L_80, &m2699_MI);
+		int32_t L_81 = m2723(L_80, &m2723_MI);
 		if ((((int32_t)L_79) >= ((int32_t)L_81)))
 		{
 			goto IL_0413;
@@ -7663,7 +7663,7 @@ IL_0270:
 	{
 		t2* L_82 = (__this->f0);
 		int32_t L_83 = (__this->f1);
-		uint16_t L_84 = m2714(L_82, L_83, &m2714_MI);
+		uint16_t L_84 = m2738(L_82, L_83, &m2738_MI);
 		V_12 = L_84;
 		V_13 = 0;
 		V_14 = 0;
@@ -7758,7 +7758,7 @@ IL_032f:
 	{
 		int32_t L_94 = (__this->f1);
 		t2* L_95 = (__this->f0);
-		int32_t L_96 = m2699(L_95, &m2699_MI);
+		int32_t L_96 = m2723(L_95, &m2723_MI);
 		if ((((int32_t)((int32_t)((int32_t)L_94+(int32_t)1))) >= ((int32_t)L_96)))
 		{
 			goto IL_0382;
@@ -7770,7 +7770,7 @@ IL_032f:
 		int32_t L_98 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_98+(int32_t)1));
 		int32_t L_99 = p1;
-		bool L_100 = m5457(__this, (&V_13), (&V_14), L_99, &m5457_MI);
+		bool L_100 = m5485(__this, (&V_13), (&V_14), L_99, &m5485_MI);
 		V_16 = L_100;
 		bool L_101 = V_16;
 		if (L_101)
@@ -7793,11 +7793,11 @@ IL_0382:
 	}
 	{
 		int32_t L_104 = p1;
-		bool L_105 = m5472(NULL, L_104, &m5472_MI);
-		m5465(__this, L_105, &m5465_MI);
+		bool L_105 = m5500(NULL, L_104, &m5500_MI);
+		m5493(__this, L_105, &m5493_MI);
 		int32_t L_106 = (__this->f1);
 		t2* L_107 = (__this->f0);
-		int32_t L_108 = m2699(L_107, &m2699_MI);
+		int32_t L_108 = m2723(L_107, &m2723_MI);
 		if ((((int32_t)L_106) >= ((int32_t)L_108)))
 		{
 			goto IL_03d4;
@@ -7806,7 +7806,7 @@ IL_0382:
 	{
 		t2* L_109 = (__this->f0);
 		int32_t L_110 = (__this->f1);
-		uint16_t L_111 = m2714(L_109, L_110, &m2714_MI);
+		uint16_t L_111 = m2738(L_109, L_110, &m2738_MI);
 		if ((!(((uint32_t)L_111) == ((uint32_t)((int32_t)63)))))
 		{
 			goto IL_03d4;
@@ -7823,42 +7823,42 @@ IL_03d4:
 		int32_t L_113 = V_13;
 		int32_t L_114 = V_14;
 		bool L_115 = V_15;
-		t1309 * L_116 = (t1309 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1309_TI));
-		m5526(L_116, L_113, L_114, L_115, &m5526_MI);
+		t1318 * L_116 = (t1318 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1318_TI));
+		m5554(L_116, L_113, L_114, L_115, &m5554_MI);
 		V_18 = L_116;
-		t1299 * L_117 = V_4;
+		t1308 * L_117 = V_4;
 		if (L_117)
 		{
 			goto IL_0406;
 		}
 	}
 	{
-		t1309 * L_118 = V_18;
-		t2* L_119 = m2739((&V_6), &m2739_MI);
+		t1318 * L_118 = V_18;
+		t2* L_119 = m2763((&V_6), &m2763_MI);
 		int32_t L_120 = p1;
-		bool L_121 = m5468(NULL, L_120, &m5468_MI);
-		t1311 * L_122 = (t1311 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1311_TI));
-		m5556(L_122, L_119, L_121, &m5556_MI);
-		m5528(L_118, L_122, &m5528_MI);
+		bool L_121 = m5496(NULL, L_120, &m5496_MI);
+		t1320 * L_122 = (t1320 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1320_TI));
+		m5584(L_122, L_119, L_121, &m5584_MI);
+		m5556(L_118, L_122, &m5556_MI);
 		goto IL_040f;
 	}
 
 IL_0406:
 	{
-		t1309 * L_123 = V_18;
-		t1299 * L_124 = V_4;
-		m5528(L_123, L_124, &m5528_MI);
+		t1318 * L_123 = V_18;
+		t1308 * L_124 = V_4;
+		m5556(L_123, L_124, &m5556_MI);
 	}
 
 IL_040f:
 	{
-		t1309 * L_125 = V_18;
+		t1318 * L_125 = V_18;
 		V_4 = L_125;
 	}
 
 IL_0413:
 	{
-		t1299 * L_126 = V_4;
+		t1308 * L_126 = V_4;
 		if (L_126)
 		{
 			goto IL_0439;
@@ -7882,7 +7882,7 @@ IL_0426:
 		t2* L_129 = V_2;
 		uint16_t L_130 = V_6;
 		uint16_t L_131 = L_130;
-		t9 * L_132 = Box(InitializedTypeInfo(&t296_TI), &L_131);
+		t9 * L_132 = Box(InitializedTypeInfo(&t303_TI), &L_131);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		t2* L_133 = m511(NULL, L_129, L_132, &m511_MI);
 		V_2 = L_133;
@@ -7898,22 +7898,22 @@ IL_0439:
 		}
 	}
 	{
-		t1297 * L_135 = V_3;
+		t1306 * L_135 = V_3;
 		t2* L_136 = V_2;
 		int32_t L_137 = p1;
-		bool L_138 = m5468(NULL, L_137, &m5468_MI);
-		t1311 * L_139 = (t1311 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1311_TI));
-		m5556(L_139, L_136, L_138, &m5556_MI);
-		m5504(L_135, L_139, &m5504_MI);
+		bool L_138 = m5496(NULL, L_137, &m5496_MI);
+		t1320 * L_139 = (t1320 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1320_TI));
+		m5584(L_139, L_136, L_138, &m5584_MI);
+		m5532(L_135, L_139, &m5532_MI);
 		V_2 = (t2*)NULL;
 	}
 
 IL_0453:
 	{
-		t1297 * L_140 = V_3;
-		t1299 * L_141 = V_4;
-		m5504(L_140, L_141, &m5504_MI);
-		V_4 = (t1299 *)NULL;
+		t1306 * L_140 = V_3;
+		t1308 * L_141 = V_4;
+		m5532(L_140, L_141, &m5532_MI);
+		V_4 = (t1308 *)NULL;
 	}
 
 IL_045e:
@@ -7927,7 +7927,7 @@ IL_045e:
 	{
 		int32_t L_143 = (__this->f1);
 		t2* L_144 = (__this->f0);
-		int32_t L_145 = m2699(L_144, &m2699_MI);
+		int32_t L_145 = m2723(L_144, &m2723_MI);
 		if ((((int32_t)L_143) < ((int32_t)L_145)))
 		{
 			goto IL_047f;
@@ -7958,7 +7958,7 @@ IL_0484:
 		}
 	}
 	{
-		t556 * L_148 = m5474(__this, (t2*) &_stringLiteral699, &m5474_MI);
+		t563 * L_148 = m5502(__this, (t2*) &_stringLiteral698, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_148);
 	}
 
@@ -7978,7 +7978,7 @@ IL_049d:
 		}
 	}
 	{
-		t556 * L_151 = m5474(__this, (t2*) &_stringLiteral700, &m5474_MI);
+		t563 * L_151 = m5502(__this, (t2*) &_stringLiteral699, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_151);
 	}
 
@@ -7991,76 +7991,76 @@ IL_04b6:
 		}
 	}
 	{
-		t1297 * L_153 = V_3;
+		t1306 * L_153 = V_3;
 		t2* L_154 = V_2;
 		int32_t L_155 = p1;
-		bool L_156 = m5468(NULL, L_155, &m5468_MI);
-		t1311 * L_157 = (t1311 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1311_TI));
-		m5556(L_157, L_154, L_156, &m5556_MI);
-		m5504(L_153, L_157, &m5504_MI);
+		bool L_156 = m5496(NULL, L_155, &m5496_MI);
+		t1320 * L_157 = (t1320 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1320_TI));
+		m5584(L_157, L_154, L_156, &m5584_MI);
+		m5532(L_153, L_157, &m5532_MI);
 	}
 
 IL_04ce:
 	{
-		t1298 * L_158 = p2;
+		t1307 * L_158 = p2;
 		if (!L_158)
 		{
 			goto IL_04fe;
 		}
 	}
 	{
-		t1298 * L_159 = p2;
-		t1299 * L_160 = m5534(L_159, &m5534_MI);
+		t1307 * L_159 = p2;
+		t1308 * L_160 = m5562(L_159, &m5562_MI);
 		if (L_160)
 		{
 			goto IL_04eb;
 		}
 	}
 	{
-		t1298 * L_161 = p2;
-		t1297 * L_162 = V_3;
-		m5535(L_161, L_162, &m5535_MI);
+		t1307 * L_161 = p2;
+		t1306 * L_162 = V_3;
+		m5563(L_161, L_162, &m5563_MI);
 		goto IL_04f2;
 	}
 
 IL_04eb:
 	{
-		t1298 * L_163 = p2;
-		t1297 * L_164 = V_3;
-		m5537(L_163, L_164, &m5537_MI);
+		t1307 * L_163 = p2;
+		t1306 * L_164 = V_3;
+		m5565(L_163, L_164, &m5565_MI);
 	}
 
 IL_04f2:
 	{
-		t1297 * L_165 = p0;
-		t1298 * L_166 = p2;
-		m5504(L_165, L_166, &m5504_MI);
+		t1306 * L_165 = p0;
+		t1307 * L_166 = p2;
+		m5532(L_165, L_166, &m5532_MI);
 		goto IL_051e;
 	}
 
 IL_04fe:
 	{
-		t1312 * L_167 = V_1;
+		t1321 * L_167 = V_1;
 		if (!L_167)
 		{
 			goto IL_0517;
 		}
 	}
 	{
-		t1312 * L_168 = V_1;
-		t1297 * L_169 = V_3;
-		m5553(L_168, L_169, &m5553_MI);
-		t1297 * L_170 = p0;
-		t1312 * L_171 = V_1;
-		m5504(L_170, L_171, &m5504_MI);
+		t1321 * L_168 = V_1;
+		t1306 * L_169 = V_3;
+		m5581(L_168, L_169, &m5581_MI);
+		t1306 * L_170 = p0;
+		t1321 * L_171 = V_1;
+		m5532(L_170, L_171, &m5532_MI);
 		goto IL_051e;
 	}
 
 IL_0517:
 	{
-		t1297 * L_172 = p0;
-		t1297 * L_173 = V_3;
-		m5504(L_172, L_173, &m5504_MI);
+		t1306 * L_172 = p0;
+		t1306 * L_173 = V_3;
+		m5532(L_172, L_173, &m5532_MI);
 	}
 
 IL_051e:
@@ -8068,32 +8068,32 @@ IL_051e:
 		return;
 	}
 }
-extern "C" t1299 * m5453 (t1295 * __this, int32_t* p0, MethodInfo* method)
+extern "C" t1308 * m5481 (t1304 * __this, int32_t* p0, MethodInfo* method)
 {
-	t1297 * V_0 = {0};
-	t1297 * V_1 = {0};
-	t1297 * V_2 = {0};
+	t1306 * V_0 = {0};
+	t1306 * V_1 = {0};
+	t1306 * V_2 = {0};
 	int32_t V_3 = {0};
-	t1297 * V_4 = {0};
-	t1300 * V_5 = {0};
-	t1297 * V_6 = {0};
+	t1306 * V_4 = {0};
+	t1309 * V_5 = {0};
+	t1306 * V_6 = {0};
 	uint16_t V_7 = 0x0;
 	t2* V_8 = {0};
-	t1306 * V_9 = {0};
+	t1315 * V_9 = {0};
 	t2* V_10 = {0};
-	t1307 * V_11 = {0};
-	t1298 * V_12 = {0};
+	t1316 * V_11 = {0};
+	t1307 * V_12 = {0};
 	int32_t V_13 = 0;
 	t2* V_14 = {0};
-	t1300 * V_15 = {0};
-	t1297 * V_16 = {0};
-	t1297 * V_17 = {0};
+	t1309 * V_15 = {0};
+	t1306 * V_16 = {0};
+	t1306 * V_17 = {0};
 	uint16_t V_18 = 0x0;
 	int32_t V_19 = 0;
 	{
 		t2* L_0 = (__this->f0);
 		int32_t L_1 = (__this->f1);
-		uint16_t L_2 = m2714(L_0, L_1, &m2714_MI);
+		uint16_t L_2 = m2738(L_0, L_1, &m2738_MI);
 		if ((((int32_t)L_2) == ((int32_t)((int32_t)63))))
 		{
 			goto IL_004e;
@@ -8101,35 +8101,35 @@ extern "C" t1299 * m5453 (t1295 * __this, int32_t* p0, MethodInfo* method)
 	}
 	{
 		int32_t* L_3 = p0;
-		bool L_4 = m5470(NULL, (*((int32_t*)L_3)), &m5470_MI);
+		bool L_4 = m5498(NULL, (*((int32_t*)L_3)), &m5498_MI);
 		if (!L_4)
 		{
 			goto IL_002f;
 		}
 	}
 	{
-		t1297 * L_5 = (t1297 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1297_TI));
-		m5503(L_5, &m5503_MI);
+		t1306 * L_5 = (t1306 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1306_TI));
+		m5531(L_5, &m5531_MI);
 		V_0 = L_5;
 		goto IL_0042;
 	}
 
 IL_002f:
 	{
-		t1306 * L_6 = (t1306 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1306_TI));
-		m5511(L_6, &m5511_MI);
+		t1315 * L_6 = (t1315 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1315_TI));
+		m5539(L_6, &m5539_MI);
 		V_0 = L_6;
-		t1161 * L_7 = (__this->f2);
-		t1297 * L_8 = V_0;
-		VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5709_MI, L_7, L_8);
+		t1170 * L_7 = (__this->f2);
+		t1306 * L_8 = V_0;
+		VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5737_MI, L_7, L_8);
 	}
 
 IL_0042:
 	{
-		t1297 * L_9 = V_0;
+		t1306 * L_9 = V_0;
 		int32_t* L_10 = p0;
-		m5452(__this, L_9, (*((int32_t*)L_10)), (t1298 *)NULL, &m5452_MI);
-		t1297 * L_11 = V_0;
+		m5480(__this, L_9, (*((int32_t*)L_10)), (t1307 *)NULL, &m5480_MI);
+		t1306 * L_11 = V_0;
 		return L_11;
 	}
 
@@ -8139,7 +8139,7 @@ IL_004e:
 		__this->f1 = ((int32_t)((int32_t)L_12+(int32_t)1));
 		t2* L_13 = (__this->f0);
 		int32_t L_14 = (__this->f1);
-		uint16_t L_15 = m2714(L_13, L_14, &m2714_MI);
+		uint16_t L_15 = m2738(L_13, L_14, &m2738_MI);
 		V_18 = L_15;
 		uint16_t L_16 = V_18;
 		if (((int32_t)((int32_t)L_16-(int32_t)((int32_t)33))) == 0)
@@ -8260,13 +8260,13 @@ IL_00f9:
 	{
 		int32_t L_22 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_22+(int32_t)1));
-		t1297 * L_23 = (t1297 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1297_TI));
-		m5503(L_23, &m5503_MI);
+		t1306 * L_23 = (t1306 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1306_TI));
+		m5531(L_23, &m5531_MI);
 		V_1 = L_23;
-		t1297 * L_24 = V_1;
+		t1306 * L_24 = V_1;
 		int32_t* L_25 = p0;
-		m5452(__this, L_24, (*((int32_t*)L_25)), (t1298 *)NULL, &m5452_MI);
-		t1297 * L_26 = V_1;
+		m5480(__this, L_24, (*((int32_t*)L_25)), (t1307 *)NULL, &m5480_MI);
+		t1306 * L_26 = V_1;
 		return L_26;
 	}
 
@@ -8274,13 +8274,13 @@ IL_0119:
 	{
 		int32_t L_27 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_27+(int32_t)1));
-		t1308 * L_28 = (t1308 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1308_TI));
-		m5523(L_28, &m5523_MI);
+		t1317 * L_28 = (t1317 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1317_TI));
+		m5551(L_28, &m5551_MI);
 		V_2 = L_28;
-		t1297 * L_29 = V_2;
+		t1306 * L_29 = V_2;
 		int32_t* L_30 = p0;
-		m5452(__this, L_29, (*((int32_t*)L_30)), (t1298 *)NULL, &m5452_MI);
-		t1297 * L_31 = V_2;
+		m5480(__this, L_29, (*((int32_t*)L_30)), (t1307 *)NULL, &m5480_MI);
+		t1306 * L_31 = V_2;
 		return L_31;
 	}
 
@@ -8288,10 +8288,10 @@ IL_0139:
 	{
 		int32_t* L_32 = p0;
 		V_3 = (*((int32_t*)L_32));
-		m5455(__this, (&V_3), 0, &m5455_MI);
+		m5483(__this, (&V_3), 0, &m5483_MI);
 		t2* L_33 = (__this->f0);
 		int32_t L_34 = (__this->f1);
-		uint16_t L_35 = m2714(L_33, L_34, &m2714_MI);
+		uint16_t L_35 = m2738(L_33, L_34, &m2738_MI);
 		if ((!(((uint32_t)L_35) == ((uint32_t)((int32_t)45)))))
 		{
 			goto IL_0174;
@@ -8300,14 +8300,14 @@ IL_0139:
 	{
 		int32_t L_36 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_36+(int32_t)1));
-		m5455(__this, (&V_3), 1, &m5455_MI);
+		m5483(__this, (&V_3), 1, &m5483_MI);
 	}
 
 IL_0174:
 	{
 		t2* L_37 = (__this->f0);
 		int32_t L_38 = (__this->f1);
-		uint16_t L_39 = m2714(L_37, L_38, &m2714_MI);
+		uint16_t L_39 = m2738(L_37, L_38, &m2738_MI);
 		if ((!(((uint32_t)L_39) == ((uint32_t)((int32_t)58)))))
 		{
 			goto IL_01ae;
@@ -8316,13 +8316,13 @@ IL_0174:
 	{
 		int32_t L_40 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_40+(int32_t)1));
-		t1297 * L_41 = (t1297 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1297_TI));
-		m5503(L_41, &m5503_MI);
+		t1306 * L_41 = (t1306 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1306_TI));
+		m5531(L_41, &m5531_MI);
 		V_4 = L_41;
-		t1297 * L_42 = V_4;
+		t1306 * L_42 = V_4;
 		int32_t L_43 = V_3;
-		m5452(__this, L_42, L_43, (t1298 *)NULL, &m5452_MI);
-		t1297 * L_44 = V_4;
+		m5480(__this, L_42, L_43, (t1307 *)NULL, &m5480_MI);
+		t1306 * L_44 = V_4;
 		return L_44;
 	}
 
@@ -8330,7 +8330,7 @@ IL_01ae:
 	{
 		t2* L_45 = (__this->f0);
 		int32_t L_46 = (__this->f1);
-		uint16_t L_47 = m2714(L_45, L_46, &m2714_MI);
+		uint16_t L_47 = m2738(L_45, L_46, &m2738_MI);
 		if ((!(((uint32_t)L_47) == ((uint32_t)((int32_t)41)))))
 		{
 			goto IL_01d9;
@@ -8342,22 +8342,22 @@ IL_01ae:
 		int32_t* L_49 = p0;
 		int32_t L_50 = V_3;
 		*((int32_t*)(L_49)) = (int32_t)L_50;
-		return (t1299 *)NULL;
+		return (t1308 *)NULL;
 	}
 
 IL_01d9:
 	{
-		t556 * L_51 = m5474(__this, (t2*) &_stringLiteral701, &m5474_MI);
+		t563 * L_51 = m5502(__this, (t2*) &_stringLiteral700, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_51);
 	}
 
 IL_01e5:
 	{
-		t1300 * L_52 = (t1300 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1300_TI));
-		m5544(L_52, &m5544_MI);
+		t1309 * L_52 = (t1309 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1309_TI));
+		m5572(L_52, &m5572_MI);
 		V_5 = L_52;
-		t1300 * L_53 = V_5;
-		bool L_54 = m5454(__this, L_53, &m5454_MI);
+		t1309 * L_53 = V_5;
+		bool L_54 = m5482(__this, L_53, &m5482_MI);
 		if (L_54)
 		{
 			goto IL_01fe;
@@ -8369,16 +8369,16 @@ IL_01e5:
 
 IL_01fe:
 	{
-		t1297 * L_55 = (t1297 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1297_TI));
-		m5503(L_55, &m5503_MI);
+		t1306 * L_55 = (t1306 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1306_TI));
+		m5531(L_55, &m5531_MI);
 		V_6 = L_55;
-		t1297 * L_56 = V_6;
+		t1306 * L_56 = V_6;
 		int32_t* L_57 = p0;
-		m5452(__this, L_56, (*((int32_t*)L_57)), (t1298 *)NULL, &m5452_MI);
-		t1300 * L_58 = V_5;
-		t1297 * L_59 = V_6;
-		m5548(L_58, L_59, &m5548_MI);
-		t1300 * L_60 = V_5;
+		m5480(__this, L_56, (*((int32_t*)L_57)), (t1307 *)NULL, &m5480_MI);
+		t1309 * L_58 = V_5;
+		t1306 * L_59 = V_6;
+		m5576(L_58, L_59, &m5576_MI);
+		t1309 * L_60 = V_5;
 		return L_60;
 	}
 
@@ -8386,7 +8386,7 @@ IL_021c:
 	{
 		t2* L_61 = (__this->f0);
 		int32_t L_62 = (__this->f1);
-		uint16_t L_63 = m2714(L_61, L_62, &m2714_MI);
+		uint16_t L_63 = m2738(L_61, L_62, &m2738_MI);
 		if ((!(((uint32_t)L_63) == ((uint32_t)((int32_t)60)))))
 		{
 			goto IL_023d;
@@ -8406,11 +8406,11 @@ IL_0241:
 	{
 		int32_t L_64 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_64+(int32_t)1));
-		t2* L_65 = m5461(__this, &m5461_MI);
+		t2* L_65 = m5489(__this, &m5489_MI);
 		V_8 = L_65;
 		t2* L_66 = (__this->f0);
 		int32_t L_67 = (__this->f1);
-		uint16_t L_68 = m2714(L_66, L_67, &m2714_MI);
+		uint16_t L_68 = m2738(L_66, L_67, &m2738_MI);
 		uint16_t L_69 = V_7;
 		if ((!(((uint32_t)L_68) == ((uint32_t)L_69))))
 		{
@@ -8425,7 +8425,7 @@ IL_0241:
 		}
 	}
 	{
-		t556 * L_71 = m5474(__this, (t2*) &_stringLiteral702, &m5474_MI);
+		t563 * L_71 = m5502(__this, (t2*) &_stringLiteral701, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_71);
 	}
 
@@ -8433,19 +8433,19 @@ IL_0282:
 	{
 		int32_t L_72 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_72+(int32_t)1));
-		t1306 * L_73 = (t1306 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1306_TI));
-		m5511(L_73, &m5511_MI);
+		t1315 * L_73 = (t1315 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1315_TI));
+		m5539(L_73, &m5539_MI);
 		V_9 = L_73;
-		t1306 * L_74 = V_9;
+		t1315 * L_74 = V_9;
 		t2* L_75 = V_8;
-		m5515(L_74, L_75, &m5515_MI);
-		t1161 * L_76 = (__this->f2);
-		t1306 * L_77 = V_9;
-		VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5709_MI, L_76, L_77);
-		t1306 * L_78 = V_9;
+		m5543(L_74, L_75, &m5543_MI);
+		t1170 * L_76 = (__this->f2);
+		t1315 * L_77 = V_9;
+		VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5737_MI, L_76, L_77);
+		t1315 * L_78 = V_9;
 		int32_t* L_79 = p0;
-		m5452(__this, L_78, (*((int32_t*)L_79)), (t1298 *)NULL, &m5452_MI);
-		t1306 * L_80 = V_9;
+		m5480(__this, L_78, (*((int32_t*)L_79)), (t1307 *)NULL, &m5480_MI);
+		t1315 * L_80 = V_9;
 		return L_80;
 	}
 
@@ -8453,7 +8453,7 @@ IL_02bc:
 	{
 		t2* L_81 = (__this->f0);
 		int32_t L_82 = (__this->f1);
-		uint16_t L_83 = m2714(L_81, L_82, &m2714_MI);
+		uint16_t L_83 = m2738(L_81, L_82, &m2738_MI);
 		if ((!(((uint32_t)L_83) == ((uint32_t)((int32_t)45)))))
 		{
 			goto IL_036a;
@@ -8462,7 +8462,7 @@ IL_02bc:
 	{
 		int32_t L_84 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_84+(int32_t)1));
-		t2* L_85 = m5461(__this, &m5461_MI);
+		t2* L_85 = m5489(__this, &m5489_MI);
 		V_10 = L_85;
 		t2* L_86 = V_10;
 		if (!L_86)
@@ -8473,7 +8473,7 @@ IL_02bc:
 	{
 		t2* L_87 = (__this->f0);
 		int32_t L_88 = (__this->f1);
-		uint16_t L_89 = m2714(L_87, L_88, &m2714_MI);
+		uint16_t L_89 = m2738(L_87, L_88, &m2738_MI);
 		uint16_t L_90 = V_7;
 		if ((((int32_t)L_89) == ((int32_t)L_90)))
 		{
@@ -8483,7 +8483,7 @@ IL_02bc:
 
 IL_0309:
 	{
-		t556 * L_91 = m5474(__this, (t2*) &_stringLiteral703, &m5474_MI);
+		t563 * L_91 = m5502(__this, (t2*) &_stringLiteral702, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_91);
 	}
 
@@ -8491,41 +8491,41 @@ IL_0315:
 	{
 		int32_t L_92 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_92+(int32_t)1));
-		t1307 * L_93 = (t1307 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1307_TI));
-		m5520(L_93, &m5520_MI);
+		t1316 * L_93 = (t1316 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1316_TI));
+		m5548(L_93, &m5548_MI);
 		V_11 = L_93;
-		t1307 * L_94 = V_11;
+		t1316 * L_94 = V_11;
 		t2* L_95 = V_8;
-		m5515(L_94, L_95, &m5515_MI);
-		t1307 * L_96 = V_11;
-		bool L_97 = m5516(L_96, &m5516_MI);
+		m5543(L_94, L_95, &m5543_MI);
+		t1316 * L_96 = V_11;
+		bool L_97 = m5544(L_96, &m5544_MI);
 		if (!L_97)
 		{
 			goto IL_034d;
 		}
 	}
 	{
-		t1161 * L_98 = (__this->f2);
-		t1307 * L_99 = V_11;
-		VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5709_MI, L_98, L_99);
+		t1170 * L_98 = (__this->f2);
+		t1316 * L_99 = V_11;
+		VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5737_MI, L_98, L_99);
 	}
 
 IL_034d:
 	{
-		t1149 * L_100 = (__this->f3);
-		t1307 * L_101 = V_11;
+		t1158 * L_100 = (__this->f3);
+		t1316 * L_101 = V_11;
 		t2* L_102 = V_10;
-		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5708_MI, L_100, L_101, L_102);
-		t1307 * L_103 = V_11;
+		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5736_MI, L_100, L_101, L_102);
+		t1316 * L_103 = V_11;
 		int32_t* L_104 = p0;
-		m5452(__this, L_103, (*((int32_t*)L_104)), (t1298 *)NULL, &m5452_MI);
-		t1307 * L_105 = V_11;
+		m5480(__this, L_103, (*((int32_t*)L_104)), (t1307 *)NULL, &m5480_MI);
+		t1316 * L_105 = V_11;
 		return L_105;
 	}
 
 IL_036a:
 	{
-		t556 * L_106 = m5474(__this, (t2*) &_stringLiteral702, &m5474_MI);
+		t563 * L_106 = m5502(__this, (t2*) &_stringLiteral701, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_106);
 	}
 
@@ -8535,7 +8535,7 @@ IL_0376:
 		__this->f1 = ((int32_t)((int32_t)L_107+(int32_t)1));
 		int32_t L_108 = (__this->f1);
 		V_13 = L_108;
-		t2* L_109 = m5461(__this, &m5461_MI);
+		t2* L_109 = m5489(__this, &m5489_MI);
 		V_14 = L_109;
 		t2* L_110 = V_14;
 		if (!L_110)
@@ -8546,7 +8546,7 @@ IL_0376:
 	{
 		t2* L_111 = (__this->f0);
 		int32_t L_112 = (__this->f1);
-		uint16_t L_113 = m2714(L_111, L_112, &m2714_MI);
+		uint16_t L_113 = m2738(L_111, L_112, &m2738_MI);
 		if ((((int32_t)L_113) == ((int32_t)((int32_t)41))))
 		{
 			goto IL_043a;
@@ -8557,12 +8557,12 @@ IL_03b3:
 	{
 		int32_t L_114 = V_13;
 		__this->f1 = L_114;
-		t1300 * L_115 = (t1300 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1300_TI));
-		m5544(L_115, &m5544_MI);
+		t1309 * L_115 = (t1309 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1309_TI));
+		m5572(L_115, &m5572_MI);
 		V_15 = L_115;
 		t2* L_116 = (__this->f0);
 		int32_t L_117 = (__this->f1);
-		uint16_t L_118 = m2714(L_116, L_117, &m2714_MI);
+		uint16_t L_118 = m2738(L_116, L_117, &m2738_MI);
 		if ((!(((uint32_t)L_118) == ((uint32_t)((int32_t)63)))))
 		{
 			goto IL_0406;
@@ -8571,15 +8571,15 @@ IL_03b3:
 	{
 		int32_t L_119 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_119+(int32_t)1));
-		t1300 * L_120 = V_15;
-		bool L_121 = m5454(__this, L_120, &m5454_MI);
+		t1309 * L_120 = V_15;
+		bool L_121 = m5482(__this, L_120, &m5482_MI);
 		if (L_121)
 		{
 			goto IL_0401;
 		}
 	}
 	{
-		t556 * L_122 = m5474(__this, (t2*) &_stringLiteral704, &m5474_MI);
+		t563 * L_122 = m5502(__this, (t2*) &_stringLiteral703, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_122);
 	}
 
@@ -8590,24 +8590,24 @@ IL_0401:
 
 IL_0406:
 	{
-		t1300 * L_123 = V_15;
-		m5546(L_123, 0, &m5546_MI);
-		t1300 * L_124 = V_15;
-		m5545(L_124, 0, &m5545_MI);
+		t1309 * L_123 = V_15;
+		m5574(L_123, 0, &m5574_MI);
+		t1309 * L_124 = V_15;
+		m5573(L_124, 0, &m5573_MI);
 	}
 
 IL_0416:
 	{
-		t1297 * L_125 = (t1297 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1297_TI));
-		m5503(L_125, &m5503_MI);
+		t1306 * L_125 = (t1306 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1306_TI));
+		m5531(L_125, &m5531_MI);
 		V_16 = L_125;
-		t1297 * L_126 = V_16;
+		t1306 * L_126 = V_16;
 		int32_t* L_127 = p0;
-		m5452(__this, L_126, (*((int32_t*)L_127)), (t1298 *)NULL, &m5452_MI);
-		t1300 * L_128 = V_15;
-		t1297 * L_129 = V_16;
-		m5548(L_128, L_129, &m5548_MI);
-		t1300 * L_130 = V_15;
+		m5480(__this, L_126, (*((int32_t*)L_127)), (t1307 *)NULL, &m5480_MI);
+		t1309 * L_128 = V_15;
+		t1306 * L_129 = V_16;
+		m5576(L_128, L_129, &m5576_MI);
+		t1309 * L_130 = V_15;
 		V_12 = L_130;
 		goto IL_046c;
 	}
@@ -8618,28 +8618,28 @@ IL_043a:
 		__this->f1 = ((int32_t)((int32_t)L_131+(int32_t)1));
 		t2* L_132 = V_14;
 		int32_t* L_133 = p0;
-		bool L_134 = m5468(NULL, (*((int32_t*)L_133)), &m5468_MI);
-		t1311 * L_135 = (t1311 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1311_TI));
-		m5556(L_135, L_132, L_134, &m5556_MI);
-		t1310 * L_136 = (t1310 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1310_TI));
-		m5539(L_136, L_135, &m5539_MI);
+		bool L_134 = m5496(NULL, (*((int32_t*)L_133)), &m5496_MI);
+		t1320 * L_135 = (t1320 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1320_TI));
+		m5584(L_135, L_132, L_134, &m5584_MI);
+		t1319 * L_136 = (t1319 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1319_TI));
+		m5567(L_136, L_135, &m5567_MI);
 		V_12 = L_136;
-		t1149 * L_137 = (__this->f3);
-		t1298 * L_138 = V_12;
+		t1158 * L_137 = (__this->f3);
+		t1307 * L_138 = V_12;
 		t2* L_139 = V_14;
-		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5708_MI, L_137, L_138, L_139);
+		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5736_MI, L_137, L_138, L_139);
 	}
 
 IL_046c:
 	{
-		t1297 * L_140 = (t1297 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1297_TI));
-		m5503(L_140, &m5503_MI);
+		t1306 * L_140 = (t1306 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1306_TI));
+		m5531(L_140, &m5531_MI);
 		V_17 = L_140;
-		t1297 * L_141 = V_17;
+		t1306 * L_141 = V_17;
 		int32_t* L_142 = p0;
-		t1298 * L_143 = V_12;
-		m5452(__this, L_141, (*((int32_t*)L_142)), L_143, &m5452_MI);
-		t1297 * L_144 = V_17;
+		t1307 * L_143 = V_12;
+		m5480(__this, L_141, (*((int32_t*)L_142)), L_143, &m5480_MI);
+		t1306 * L_144 = V_17;
 		return L_144;
 	}
 
@@ -8654,14 +8654,14 @@ IL_0495:
 	{
 		int32_t L_146 = (__this->f1);
 		t2* L_147 = (__this->f0);
-		int32_t L_148 = m2699(L_147, &m2699_MI);
+		int32_t L_148 = m2723(L_147, &m2723_MI);
 		if ((((int32_t)L_146) < ((int32_t)L_148)))
 		{
 			goto IL_04b7;
 		}
 	}
 	{
-		t556 * L_149 = m5474(__this, (t2*) &_stringLiteral705, &m5474_MI);
+		t563 * L_149 = m5502(__this, (t2*) &_stringLiteral704, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_149);
 	}
 
@@ -8673,29 +8673,29 @@ IL_04b7:
 		V_19 = L_152;
 		__this->f1 = ((int32_t)((int32_t)L_152+(int32_t)1));
 		int32_t L_153 = V_19;
-		uint16_t L_154 = m2714(L_150, L_153, &m2714_MI);
+		uint16_t L_154 = m2738(L_150, L_153, &m2738_MI);
 		if ((!(((uint32_t)L_154) == ((uint32_t)((int32_t)41)))))
 		{
 			goto IL_0495;
 		}
 	}
 	{
-		return (t1299 *)NULL;
+		return (t1308 *)NULL;
 	}
 
 IL_04de:
 	{
-		t556 * L_155 = m5474(__this, (t2*) &_stringLiteral706, &m5474_MI);
+		t563 * L_155 = m5502(__this, (t2*) &_stringLiteral705, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_155);
 	}
 }
-extern "C" bool m5454 (t1295 * __this, t1300 * p0, MethodInfo* method)
+extern "C" bool m5482 (t1304 * __this, t1309 * p0, MethodInfo* method)
 {
 	uint16_t V_0 = 0x0;
 	{
 		t2* L_0 = (__this->f0);
 		int32_t L_1 = (__this->f1);
-		uint16_t L_2 = m2714(L_0, L_1, &m2714_MI);
+		uint16_t L_2 = m2738(L_0, L_1, &m2738_MI);
 		if ((!(((uint32_t)L_2) == ((uint32_t)((int32_t)60)))))
 		{
 			goto IL_0075;
@@ -8704,7 +8704,7 @@ extern "C" bool m5454 (t1295 * __this, t1300 * p0, MethodInfo* method)
 	{
 		t2* L_3 = (__this->f0);
 		int32_t L_4 = (__this->f1);
-		uint16_t L_5 = m2714(L_3, ((int32_t)((int32_t)L_4+(int32_t)1)), &m2714_MI);
+		uint16_t L_5 = m2738(L_3, ((int32_t)((int32_t)L_4+(int32_t)1)), &m2738_MI);
 		V_0 = L_5;
 		uint16_t L_6 = V_0;
 		if ((((int32_t)L_6) == ((int32_t)((int32_t)33))))
@@ -8725,15 +8725,15 @@ extern "C" bool m5454 (t1295 * __this, t1300 * p0, MethodInfo* method)
 
 IL_0041:
 	{
-		t1300 * L_8 = p0;
-		m5546(L_8, 0, &m5546_MI);
+		t1309 * L_8 = p0;
+		m5574(L_8, 0, &m5574_MI);
 		goto IL_005b;
 	}
 
 IL_004d:
 	{
-		t1300 * L_9 = p0;
-		m5546(L_9, 1, &m5546_MI);
+		t1309 * L_9 = p0;
+		m5574(L_9, 1, &m5574_MI);
 		goto IL_005b;
 	}
 
@@ -8744,8 +8744,8 @@ IL_0059:
 
 IL_005b:
 	{
-		t1300 * L_10 = p0;
-		m5545(L_10, 1, &m5545_MI);
+		t1309 * L_10 = p0;
+		m5573(L_10, 1, &m5573_MI);
 		int32_t L_11 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_11+(int32_t)2));
 		goto IL_00cb;
@@ -8755,7 +8755,7 @@ IL_0075:
 	{
 		t2* L_12 = (__this->f0);
 		int32_t L_13 = (__this->f1);
-		uint16_t L_14 = m2714(L_12, L_13, &m2714_MI);
+		uint16_t L_14 = m2738(L_12, L_13, &m2738_MI);
 		V_0 = L_14;
 		uint16_t L_15 = V_0;
 		if ((((int32_t)L_15) == ((int32_t)((int32_t)33))))
@@ -8776,15 +8776,15 @@ IL_0075:
 
 IL_009c:
 	{
-		t1300 * L_17 = p0;
-		m5546(L_17, 0, &m5546_MI);
+		t1309 * L_17 = p0;
+		m5574(L_17, 0, &m5574_MI);
 		goto IL_00b6;
 	}
 
 IL_00a8:
 	{
-		t1300 * L_18 = p0;
-		m5546(L_18, 1, &m5546_MI);
+		t1309 * L_18 = p0;
+		m5574(L_18, 1, &m5574_MI);
 		goto IL_00b6;
 	}
 
@@ -8795,8 +8795,8 @@ IL_00b4:
 
 IL_00b6:
 	{
-		t1300 * L_19 = p0;
-		m5545(L_19, 0, &m5545_MI);
+		t1309 * L_19 = p0;
+		m5573(L_19, 0, &m5573_MI);
 		int32_t L_20 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_20+(int32_t)1));
 	}
@@ -8806,7 +8806,7 @@ IL_00cb:
 		return 1;
 	}
 }
-extern "C" void m5455 (t1295 * __this, int32_t* p0, bool p1, MethodInfo* method)
+extern "C" void m5483 (t1304 * __this, int32_t* p0, bool p1, MethodInfo* method)
 {
 	uint16_t V_0 = 0x0;
 	{
@@ -8817,7 +8817,7 @@ IL_0005:
 	{
 		t2* L_0 = (__this->f0);
 		int32_t L_1 = (__this->f1);
-		uint16_t L_2 = m2714(L_0, L_1, &m2714_MI);
+		uint16_t L_2 = m2738(L_0, L_1, &m2738_MI);
 		V_0 = L_2;
 		uint16_t L_3 = V_0;
 		if (((int32_t)((int32_t)L_3-(int32_t)((int32_t)105))) == 0)
@@ -9017,39 +9017,39 @@ IL_00ef:
 	}
 }
 extern TypeInfo* t158_TI_var;
-extern "C" t1299 * m5456 (t1295 * __this, int32_t p0, MethodInfo* method)
+extern "C" t1308 * m5484 (t1304 * __this, int32_t p0, MethodInfo* method)
 {
-	static bool m5456_init;
-	if (!m5456_init)
+	static bool m5484_init;
+	if (!m5484_init)
 	{
 		t158_TI_var = il2cpp_codegen_class_from_type(&t158_0_0_0);
-		m5456_init = true;
+		m5484_init = true;
 	}
 	bool V_0 = false;
 	bool V_1 = false;
-	t1316 * V_2 = {0};
+	t1325 * V_2 = {0};
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	bool V_5 = false;
 	bool V_6 = false;
 	int32_t V_7 = 0;
-	t1316 * G_B24_0 = {0};
-	t1316 * G_B23_0 = {0};
+	t1325 * G_B24_0 = {0};
+	t1325 * G_B23_0 = {0};
 	int32_t G_B25_0 = 0;
-	t1316 * G_B25_1 = {0};
-	t1316 * G_B28_0 = {0};
-	t1316 * G_B27_0 = {0};
+	t1325 * G_B25_1 = {0};
+	t1325 * G_B28_0 = {0};
+	t1325 * G_B27_0 = {0};
 	int32_t G_B29_0 = 0;
-	t1316 * G_B29_1 = {0};
-	t1316 * G_B32_0 = {0};
-	t1316 * G_B31_0 = {0};
+	t1325 * G_B29_1 = {0};
+	t1325 * G_B32_0 = {0};
+	t1325 * G_B31_0 = {0};
 	int32_t G_B33_0 = 0;
-	t1316 * G_B33_1 = {0};
+	t1325 * G_B33_1 = {0};
 	{
 		V_0 = 0;
 		t2* L_0 = (__this->f0);
 		int32_t L_1 = (__this->f1);
-		uint16_t L_2 = m2714(L_0, L_1, &m2714_MI);
+		uint16_t L_2 = m2738(L_0, L_1, &m2738_MI);
 		if ((!(((uint32_t)L_2) == ((uint32_t)((int32_t)94)))))
 		{
 			goto IL_002a;
@@ -9064,26 +9064,26 @@ extern "C" t1299 * m5456 (t1295 * __this, int32_t p0, MethodInfo* method)
 IL_002a:
 	{
 		int32_t L_4 = p0;
-		bool L_5 = m5473(NULL, L_4, &m5473_MI);
+		bool L_5 = m5501(NULL, L_4, &m5501_MI);
 		V_1 = L_5;
 		bool L_6 = V_0;
 		int32_t L_7 = p0;
-		bool L_8 = m5468(NULL, L_7, &m5468_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		t1316 * L_9 = (t1316 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1316_TI));
-		m5577(L_9, L_6, L_8, &m5577_MI);
+		bool L_8 = m5496(NULL, L_7, &m5496_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		t1325 * L_9 = (t1325 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1325_TI));
+		m5605(L_9, L_6, L_8, &m5605_MI);
 		V_2 = L_9;
 		t2* L_10 = (__this->f0);
 		int32_t L_11 = (__this->f1);
-		uint16_t L_12 = m2714(L_10, L_11, &m2714_MI);
+		uint16_t L_12 = m2738(L_10, L_11, &m2738_MI);
 		if ((!(((uint32_t)L_12) == ((uint32_t)((int32_t)93)))))
 		{
 			goto IL_006c;
 		}
 	}
 	{
-		t1316 * L_13 = V_2;
-		m5581(L_13, ((int32_t)93), &m5581_MI);
+		t1325 * L_13 = V_2;
+		m5609(L_13, ((int32_t)93), &m5609_MI);
 		int32_t L_14 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_14+(int32_t)1));
 	}
@@ -9105,7 +9105,7 @@ IL_007c:
 		V_7 = L_17;
 		__this->f1 = ((int32_t)((int32_t)L_17+(int32_t)1));
 		int32_t L_18 = V_7;
-		uint16_t L_19 = m2714(L_15, L_18, &m2714_MI);
+		uint16_t L_19 = m2738(L_15, L_18, &m2738_MI);
 		V_3 = L_19;
 		int32_t L_20 = V_3;
 		if ((!(((uint32_t)L_20) == ((uint32_t)((int32_t)93)))))
@@ -9154,7 +9154,7 @@ IL_00ca:
 		}
 	}
 	{
-		int32_t L_25 = m5460(__this, &m5460_MI);
+		int32_t L_25 = m5488(__this, &m5488_MI);
 		V_3 = L_25;
 		int32_t L_26 = V_3;
 		if ((((int32_t)L_26) < ((int32_t)0)))
@@ -9174,7 +9174,7 @@ IL_00e5:
 		V_7 = L_29;
 		__this->f1 = ((int32_t)((int32_t)L_29+(int32_t)1));
 		int32_t L_30 = V_7;
-		uint16_t L_31 = m2714(L_27, L_30, &m2714_MI);
+		uint16_t L_31 = m2738(L_27, L_30, &m2738_MI);
 		V_3 = L_31;
 		int32_t L_32 = V_3;
 		V_7 = L_32;
@@ -9269,7 +9269,7 @@ IL_0171:
 
 IL_0178:
 	{
-		t1316 * L_39 = V_2;
+		t1325 * L_39 = V_2;
 		bool L_40 = V_1;
 		G_B23_0 = L_39;
 		if (!L_40)
@@ -9293,13 +9293,13 @@ IL_0186:
 IL_0187:
 	{
 		int32_t L_41 = V_3;
-		m5580(G_B25_1, G_B25_0, ((((int32_t)L_41) == ((int32_t)((int32_t)68)))? 1 : 0), &m5580_MI);
+		m5608(G_B25_1, G_B25_0, ((((int32_t)L_41) == ((int32_t)((int32_t)68)))? 1 : 0), &m5608_MI);
 		goto IL_01ec;
 	}
 
 IL_0196:
 	{
-		t1316 * L_42 = V_2;
+		t1325 * L_42 = V_2;
 		bool L_43 = V_1;
 		G_B27_0 = L_42;
 		if (!L_43)
@@ -9323,13 +9323,13 @@ IL_01a3:
 IL_01a4:
 	{
 		int32_t L_44 = V_3;
-		m5580(G_B29_1, G_B29_0, ((((int32_t)L_44) == ((int32_t)((int32_t)87)))? 1 : 0), &m5580_MI);
+		m5608(G_B29_1, G_B29_0, ((((int32_t)L_44) == ((int32_t)((int32_t)87)))? 1 : 0), &m5608_MI);
 		goto IL_01ec;
 	}
 
 IL_01b3:
 	{
-		t1316 * L_45 = V_2;
+		t1325 * L_45 = V_2;
 		bool L_46 = V_1;
 		G_B31_0 = L_45;
 		if (!L_46)
@@ -9353,16 +9353,16 @@ IL_01c1:
 IL_01c2:
 	{
 		int32_t L_47 = V_3;
-		m5580(G_B33_1, G_B33_0, ((((int32_t)L_47) == ((int32_t)((int32_t)83)))? 1 : 0), &m5580_MI);
+		m5608(G_B33_1, G_B33_0, ((((int32_t)L_47) == ((int32_t)((int32_t)83)))? 1 : 0), &m5608_MI);
 		goto IL_01ec;
 	}
 
 IL_01d1:
 	{
-		t1316 * L_48 = V_2;
-		uint16_t L_49 = m5458(__this, &m5458_MI);
+		t1325 * L_48 = V_2;
+		uint16_t L_49 = m5486(__this, &m5486_MI);
 		int32_t L_50 = V_3;
-		m5580(L_48, L_49, ((((int32_t)L_50) == ((int32_t)((int32_t)80)))? 1 : 0), &m5580_MI);
+		m5608(L_48, L_49, ((((int32_t)L_50) == ((int32_t)((int32_t)80)))? 1 : 0), &m5608_MI);
 		goto IL_01ec;
 	}
 
@@ -9384,8 +9384,8 @@ IL_01ec:
 		int32_t L_53 = L_52;
 		t9 * L_54 = Box(InitializedTypeInfo(&t125_TI), &L_53);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_55 = m511(NULL, (t2*) &_stringLiteral707, L_54, &m511_MI);
-		t556 * L_56 = m5474(__this, L_55, &m5474_MI);
+		t2* L_55 = m511(NULL, (t2*) &_stringLiteral706, L_54, &m511_MI);
+		t563 * L_56 = m5502(__this, L_55, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_56);
 	}
 
@@ -9413,8 +9413,8 @@ IL_0212:
 	}
 	{
 		t158* L_60 = ((t158*)SZArrayNew(t158_TI_var, 5));
-		ArrayElementTypeCheck (L_60, (t2*) &_stringLiteral344);
-		*((t9 **)(t9 **)SZArrayLdElema(L_60, 0)) = (t9 *)(t2*) &_stringLiteral344;
+		ArrayElementTypeCheck (L_60, (t2*) &_stringLiteral343);
+		*((t9 **)(t9 **)SZArrayLdElema(L_60, 0)) = (t9 *)(t2*) &_stringLiteral343;
 		t158* L_61 = L_60;
 		int32_t L_62 = V_4;
 		int32_t L_63 = L_62;
@@ -9422,8 +9422,8 @@ IL_0212:
 		ArrayElementTypeCheck (L_61, L_64);
 		*((t9 **)(t9 **)SZArrayLdElema(L_61, 1)) = (t9 *)L_64;
 		t158* L_65 = L_61;
-		ArrayElementTypeCheck (L_65, (t2*) &_stringLiteral172);
-		*((t9 **)(t9 **)SZArrayLdElema(L_65, 2)) = (t9 *)(t2*) &_stringLiteral172;
+		ArrayElementTypeCheck (L_65, (t2*) &_stringLiteral171);
+		*((t9 **)(t9 **)SZArrayLdElema(L_65, 2)) = (t9 *)(t2*) &_stringLiteral171;
 		t158* L_66 = L_65;
 		int32_t L_67 = V_3;
 		int32_t L_68 = L_67;
@@ -9431,20 +9431,20 @@ IL_0212:
 		ArrayElementTypeCheck (L_66, L_69);
 		*((t9 **)(t9 **)SZArrayLdElema(L_66, 3)) = (t9 *)L_69;
 		t158* L_70 = L_66;
-		ArrayElementTypeCheck (L_70, (t2*) &_stringLiteral708);
-		*((t9 **)(t9 **)SZArrayLdElema(L_70, 4)) = (t9 *)(t2*) &_stringLiteral708;
+		ArrayElementTypeCheck (L_70, (t2*) &_stringLiteral707);
+		*((t9 **)(t9 **)SZArrayLdElema(L_70, 4)) = (t9 *)(t2*) &_stringLiteral707;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		t2* L_71 = m515(NULL, L_70, &m515_MI);
-		t556 * L_72 = m5474(__this, L_71, &m5474_MI);
+		t563 * L_72 = m5502(__this, L_71, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_72);
 	}
 
 IL_025e:
 	{
-		t1316 * L_73 = V_2;
+		t1325 * L_73 = V_2;
 		int32_t L_74 = V_4;
 		int32_t L_75 = V_3;
-		m5582(L_73, (((uint16_t)L_74)), (((uint16_t)L_75)), &m5582_MI);
+		m5610(L_73, (((uint16_t)L_74)), (((uint16_t)L_75)), &m5610_MI);
 		V_4 = (-1);
 		V_5 = 0;
 		goto IL_027f;
@@ -9452,9 +9452,9 @@ IL_025e:
 
 IL_0274:
 	{
-		t1316 * L_76 = V_2;
+		t1325 * L_76 = V_2;
 		int32_t L_77 = V_3;
-		m5581(L_76, (((uint16_t)L_77)), &m5581_MI);
+		m5609(L_76, (((uint16_t)L_77)), &m5609_MI);
 		int32_t L_78 = V_3;
 		V_4 = L_78;
 	}
@@ -9463,7 +9463,7 @@ IL_027f:
 	{
 		int32_t L_79 = (__this->f1);
 		t2* L_80 = (__this->f0);
-		int32_t L_81 = m2699(L_80, &m2699_MI);
+		int32_t L_81 = m2723(L_80, &m2723_MI);
 		if ((((int32_t)L_79) < ((int32_t)L_81)))
 		{
 			goto IL_007c;
@@ -9479,7 +9479,7 @@ IL_0295:
 		}
 	}
 	{
-		t556 * L_83 = m5474(__this, (t2*) &_stringLiteral709, &m5474_MI);
+		t563 * L_83 = m5502(__this, (t2*) &_stringLiteral708, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_83);
 	}
 
@@ -9492,17 +9492,17 @@ IL_02a8:
 		}
 	}
 	{
-		t1316 * L_85 = V_2;
-		m5581(L_85, ((int32_t)45), &m5581_MI);
+		t1325 * L_85 = V_2;
+		m5609(L_85, ((int32_t)45), &m5609_MI);
 	}
 
 IL_02b7:
 	{
-		t1316 * L_86 = V_2;
+		t1325 * L_86 = V_2;
 		return L_86;
 	}
 }
-extern "C" bool m5457 (t1295 * __this, int32_t* p0, int32_t* p1, int32_t p2, MethodInfo* method)
+extern "C" bool m5485 (t1304 * __this, int32_t* p0, int32_t* p1, int32_t p2, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -9517,11 +9517,11 @@ extern "C" bool m5457 (t1295 * __this, int32_t* p0, int32_t* p1, int32_t p2, Met
 		int32_t L_3 = V_2;
 		*((int32_t*)(L_0)) = (int32_t)L_3;
 		int32_t L_4 = p2;
-		bool L_5 = m5472(NULL, L_4, &m5472_MI);
-		m5465(__this, L_5, &m5465_MI);
+		bool L_5 = m5500(NULL, L_4, &m5500_MI);
+		m5493(__this, L_5, &m5493_MI);
 		t2* L_6 = (__this->f0);
 		int32_t L_7 = (__this->f1);
-		uint16_t L_8 = m2714(L_6, L_7, &m2714_MI);
+		uint16_t L_8 = m2738(L_6, L_7, &m2738_MI);
 		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)44)))))
 		{
 			goto IL_0033;
@@ -9534,11 +9534,11 @@ extern "C" bool m5457 (t1295 * __this, int32_t* p0, int32_t* p1, int32_t p2, Met
 
 IL_0033:
 	{
-		int32_t L_9 = m5463(__this, ((int32_t)10), 1, 0, &m5463_MI);
+		int32_t L_9 = m5491(__this, ((int32_t)10), 1, 0, &m5491_MI);
 		V_0 = L_9;
 		int32_t L_10 = p2;
-		bool L_11 = m5472(NULL, L_10, &m5472_MI);
-		m5465(__this, L_11, &m5465_MI);
+		bool L_11 = m5500(NULL, L_10, &m5500_MI);
+		m5493(__this, L_11, &m5493_MI);
 	}
 
 IL_004a:
@@ -9549,7 +9549,7 @@ IL_004a:
 		V_2 = L_14;
 		__this->f1 = ((int32_t)((int32_t)L_14+(int32_t)1));
 		int32_t L_15 = V_2;
-		uint16_t L_16 = m2714(L_12, L_15, &m2714_MI);
+		uint16_t L_16 = m2738(L_12, L_15, &m2738_MI);
 		V_3 = L_16;
 		uint16_t L_17 = V_3;
 		if ((((int32_t)L_17) == ((int32_t)((int32_t)44))))
@@ -9578,20 +9578,20 @@ IL_007c:
 IL_0083:
 	{
 		int32_t L_20 = p2;
-		bool L_21 = m5472(NULL, L_20, &m5472_MI);
-		m5465(__this, L_21, &m5465_MI);
-		int32_t L_22 = m5463(__this, ((int32_t)10), 1, 0, &m5463_MI);
+		bool L_21 = m5500(NULL, L_20, &m5500_MI);
+		m5493(__this, L_21, &m5493_MI);
+		int32_t L_22 = m5491(__this, ((int32_t)10), 1, 0, &m5491_MI);
 		V_1 = L_22;
 		int32_t L_23 = p2;
-		bool L_24 = m5472(NULL, L_23, &m5472_MI);
-		m5465(__this, L_24, &m5465_MI);
+		bool L_24 = m5500(NULL, L_23, &m5500_MI);
+		m5493(__this, L_24, &m5493_MI);
 		t2* L_25 = (__this->f0);
 		int32_t L_26 = (__this->f1);
 		int32_t L_27 = L_26;
 		V_2 = L_27;
 		__this->f1 = ((int32_t)((int32_t)L_27+(int32_t)1));
 		int32_t L_28 = V_2;
-		uint16_t L_29 = m2714(L_25, L_28, &m2714_MI);
+		uint16_t L_29 = m2738(L_25, L_28, &m2738_MI);
 		if ((((int32_t)L_29) == ((int32_t)((int32_t)125))))
 		{
 			goto IL_00cb;
@@ -9629,7 +9629,7 @@ IL_00d2:
 
 IL_00e8:
 	{
-		t556 * L_32 = m5474(__this, (t2*) &_stringLiteral710, &m5474_MI);
+		t563 * L_32 = m5502(__this, (t2*) &_stringLiteral709, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_32);
 	}
 
@@ -9650,7 +9650,7 @@ IL_00f4:
 		}
 	}
 	{
-		t556 * L_36 = m5474(__this, (t2*) &_stringLiteral711, &m5474_MI);
+		t563 * L_36 = m5502(__this, (t2*) &_stringLiteral710, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_36);
 	}
 
@@ -9683,7 +9683,7 @@ IL_0127:
 		return 1;
 	}
 }
-extern "C" uint16_t m5458 (t1295 * __this, MethodInfo* method)
+extern "C" uint16_t m5486 (t1304 * __this, MethodInfo* method)
 {
 	t2* V_0 = {0};
 	uint16_t V_1 = {0};
@@ -9695,14 +9695,14 @@ extern "C" uint16_t m5458 (t1295 * __this, MethodInfo* method)
 		V_2 = L_2;
 		__this->f1 = ((int32_t)((int32_t)L_2+(int32_t)1));
 		int32_t L_3 = V_2;
-		uint16_t L_4 = m2714(L_0, L_3, &m2714_MI);
+		uint16_t L_4 = m2738(L_0, L_3, &m2738_MI);
 		if ((((int32_t)L_4) == ((int32_t)((int32_t)123))))
 		{
 			goto IL_002f;
 		}
 	}
 	{
-		t556 * L_5 = m5474(__this, (t2*) &_stringLiteral712, &m5474_MI);
+		t563 * L_5 = m5502(__this, (t2*) &_stringLiteral711, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -9710,7 +9710,7 @@ IL_002f:
 	{
 		t2* L_6 = (__this->f0);
 		int32_t* L_7 = &(__this->f1);
-		t2* L_8 = m5449(NULL, L_6, L_7, &m5449_MI);
+		t2* L_8 = m5477(NULL, L_6, L_7, &m5477_MI);
 		V_0 = L_8;
 		t2* L_9 = V_0;
 		if (L_9)
@@ -9719,14 +9719,14 @@ IL_002f:
 		}
 	}
 	{
-		t556 * L_10 = m5474(__this, (t2*) &_stringLiteral712, &m5474_MI);
+		t563 * L_10 = m5502(__this, (t2*) &_stringLiteral711, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 
 IL_0053:
 	{
 		t2* L_11 = V_0;
-		uint16_t L_12 = m5311(NULL, L_11, &m5311_MI);
+		uint16_t L_12 = m5339(NULL, L_11, &m5339_MI);
 		V_1 = L_12;
 		uint16_t L_13 = V_1;
 		if (L_13)
@@ -9737,8 +9737,8 @@ IL_0053:
 	{
 		t2* L_14 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_15 = m399(NULL, (t2*) &_stringLiteral713, L_14, (t2*) &_stringLiteral714, &m399_MI);
-		t556 * L_16 = m5474(__this, L_15, &m5474_MI);
+		t2* L_15 = m399(NULL, (t2*) &_stringLiteral712, L_14, (t2*) &_stringLiteral713, &m399_MI);
+		t563 * L_16 = m5502(__this, L_15, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_16);
 	}
 
@@ -9750,14 +9750,14 @@ IL_0077:
 		V_2 = L_19;
 		__this->f1 = ((int32_t)((int32_t)L_19+(int32_t)1));
 		int32_t L_20 = V_2;
-		uint16_t L_21 = m2714(L_17, L_20, &m2714_MI);
+		uint16_t L_21 = m2738(L_17, L_20, &m2738_MI);
 		if ((((int32_t)L_21) == ((int32_t)((int32_t)125))))
 		{
 			goto IL_00a6;
 		}
 	}
 	{
-		t556 * L_22 = m5474(__this, (t2*) &_stringLiteral712, &m5474_MI);
+		t563 * L_22 = m5502(__this, (t2*) &_stringLiteral711, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_22);
 	}
 
@@ -9767,16 +9767,16 @@ IL_00a6:
 		return L_23;
 	}
 }
-extern "C" t1299 * m5459 (t1295 * __this, int32_t p0, MethodInfo* method)
+extern "C" t1308 * m5487 (t1304 * __this, int32_t p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	bool V_1 = false;
-	t1299 * V_2 = {0};
+	t1308 * V_2 = {0};
 	int32_t V_3 = 0;
-	t1314 * V_4 = {0};
+	t1323 * V_4 = {0};
 	uint16_t V_5 = 0x0;
 	t2* V_6 = {0};
-	t1314 * V_7 = {0};
+	t1323 * V_7 = {0};
 	int32_t V_8 = 0;
 	uint16_t V_9 = 0x0;
 	int32_t G_B11_0 = 0;
@@ -9789,16 +9789,16 @@ extern "C" t1299 * m5459 (t1295 * __this, int32_t p0, MethodInfo* method)
 		int32_t L_0 = (__this->f1);
 		V_0 = L_0;
 		int32_t L_1 = p0;
-		bool L_2 = m5473(NULL, L_1, &m5473_MI);
+		bool L_2 = m5501(NULL, L_1, &m5501_MI);
 		V_1 = L_2;
-		V_2 = (t1299 *)NULL;
+		V_2 = (t1308 *)NULL;
 		t2* L_3 = (__this->f0);
 		int32_t L_4 = (__this->f1);
 		int32_t L_5 = L_4;
 		V_8 = L_5;
 		__this->f1 = ((int32_t)((int32_t)L_5+(int32_t)1));
 		int32_t L_6 = V_8;
-		uint16_t L_7 = m2714(L_3, L_6, &m2714_MI);
+		uint16_t L_7 = m2738(L_3, L_6, &m2738_MI);
 		V_9 = L_7;
 		uint16_t L_8 = V_9;
 		if (((int32_t)((int32_t)L_8-(int32_t)((int32_t)49))) == 0)
@@ -10028,9 +10028,9 @@ IL_012f:
 
 IL_0130:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		t1316 * L_16 = (t1316 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1316_TI));
-		m5578(L_16, G_B11_0, 0, &m5578_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		t1325 * L_16 = (t1325 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1325_TI));
+		m5606(L_16, G_B11_0, 0, &m5606_MI);
 		V_2 = L_16;
 		goto IL_032f;
 	}
@@ -10055,9 +10055,9 @@ IL_0148:
 
 IL_0149:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		t1316 * L_18 = (t1316 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1316_TI));
-		m5578(L_18, G_B15_0, 0, &m5578_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		t1325 * L_18 = (t1325 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1325_TI));
+		m5606(L_18, G_B15_0, 0, &m5606_MI);
 		V_2 = L_18;
 		goto IL_032f;
 	}
@@ -10082,19 +10082,19 @@ IL_0162:
 
 IL_0163:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		t1316 * L_20 = (t1316 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1316_TI));
-		m5578(L_20, G_B19_0, 0, &m5578_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		t1325 * L_20 = (t1325 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1325_TI));
+		m5606(L_20, G_B19_0, 0, &m5606_MI);
 		V_2 = L_20;
 		goto IL_032f;
 	}
 
 IL_016f:
 	{
-		uint16_t L_21 = m5458(__this, &m5458_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		t1316 * L_22 = (t1316 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1316_TI));
-		m5578(L_22, L_21, 0, &m5578_MI);
+		uint16_t L_21 = m5486(__this, &m5486_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		t1325 * L_22 = (t1325 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1325_TI));
+		m5606(L_22, L_21, 0, &m5606_MI);
 		V_2 = L_22;
 		goto IL_032f;
 	}
@@ -10119,9 +10119,9 @@ IL_018e:
 
 IL_018f:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		t1316 * L_24 = (t1316 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1316_TI));
-		m5578(L_24, G_B24_0, 1, &m5578_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		t1325 * L_24 = (t1325 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1325_TI));
+		m5606(L_24, G_B24_0, 1, &m5606_MI);
 		V_2 = L_24;
 		goto IL_032f;
 	}
@@ -10146,9 +10146,9 @@ IL_01a7:
 
 IL_01a8:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		t1316 * L_26 = (t1316 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1316_TI));
-		m5578(L_26, G_B28_0, 1, &m5578_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		t1325 * L_26 = (t1325 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1325_TI));
+		m5606(L_26, G_B28_0, 1, &m5606_MI);
 		V_2 = L_26;
 		goto IL_032f;
 	}
@@ -10173,67 +10173,67 @@ IL_01c1:
 
 IL_01c2:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		t1316 * L_28 = (t1316 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1316_TI));
-		m5578(L_28, G_B32_0, 1, &m5578_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		t1325 * L_28 = (t1325 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1325_TI));
+		m5606(L_28, G_B32_0, 1, &m5606_MI);
 		V_2 = L_28;
 		goto IL_032f;
 	}
 
 IL_01ce:
 	{
-		uint16_t L_29 = m5458(__this, &m5458_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		t1316 * L_30 = (t1316 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1316_TI));
-		m5578(L_30, L_29, 1, &m5578_MI);
+		uint16_t L_29 = m5486(__this, &m5486_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		t1325 * L_30 = (t1325 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1325_TI));
+		m5606(L_30, L_29, 1, &m5606_MI);
 		V_2 = L_30;
 		goto IL_032f;
 	}
 
 IL_01e0:
 	{
-		t1313 * L_31 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
-		m5562(L_31, 2, &m5562_MI);
+		t1322 * L_31 = (t1322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1322_TI));
+		m5590(L_31, 2, &m5590_MI);
 		V_2 = L_31;
 		goto IL_032f;
 	}
 
 IL_01ec:
 	{
-		t1313 * L_32 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
-		m5562(L_32, 5, &m5562_MI);
+		t1322 * L_32 = (t1322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1322_TI));
+		m5590(L_32, 5, &m5590_MI);
 		V_2 = L_32;
 		goto IL_032f;
 	}
 
 IL_01f8:
 	{
-		t1313 * L_33 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
-		m5562(L_33, 6, &m5562_MI);
+		t1322 * L_33 = (t1322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1322_TI));
+		m5590(L_33, 6, &m5590_MI);
 		V_2 = L_33;
 		goto IL_032f;
 	}
 
 IL_0204:
 	{
-		t1313 * L_34 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
-		m5562(L_34, 4, &m5562_MI);
+		t1322 * L_34 = (t1322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1322_TI));
+		m5590(L_34, 4, &m5590_MI);
 		V_2 = L_34;
 		goto IL_032f;
 	}
 
 IL_0210:
 	{
-		t1313 * L_35 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
-		m5562(L_35, 8, &m5562_MI);
+		t1322 * L_35 = (t1322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1322_TI));
+		m5590(L_35, 8, &m5590_MI);
 		V_2 = L_35;
 		goto IL_032f;
 	}
 
 IL_021c:
 	{
-		t1313 * L_36 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
-		m5562(L_36, ((int32_t)9), &m5562_MI);
+		t1322 * L_36 = (t1322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1322_TI));
+		m5590(L_36, ((int32_t)9), &m5590_MI);
 		V_2 = L_36;
 		goto IL_032f;
 	}
@@ -10242,7 +10242,7 @@ IL_0229:
 	{
 		int32_t L_37 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_37-(int32_t)1));
-		int32_t L_38 = m5463(__this, ((int32_t)10), 1, 0, &m5463_MI);
+		int32_t L_38 = m5491(__this, ((int32_t)10), 1, 0, &m5491_MI);
 		V_3 = L_38;
 		int32_t L_39 = V_3;
 		if ((((int32_t)L_39) >= ((int32_t)0)))
@@ -10253,22 +10253,22 @@ IL_0229:
 	{
 		int32_t L_40 = V_0;
 		__this->f1 = L_40;
-		return (t1299 *)NULL;
+		return (t1308 *)NULL;
 	}
 
 IL_0252:
 	{
 		int32_t L_41 = p0;
-		bool L_42 = m5468(NULL, L_41, &m5468_MI);
+		bool L_42 = m5496(NULL, L_41, &m5496_MI);
 		bool L_43 = V_1;
-		t1315 * L_44 = (t1315 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1315_TI));
-		m5574(L_44, L_42, L_43, &m5574_MI);
+		t1324 * L_44 = (t1324 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1324_TI));
+		m5602(L_44, L_42, L_43, &m5602_MI);
 		V_4 = L_44;
-		t1149 * L_45 = (__this->f3);
-		t1314 * L_46 = V_4;
-		t2* L_47 = m4276((&V_3), &m4276_MI);
-		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5708_MI, L_45, L_46, L_47);
-		t1314 * L_48 = V_4;
+		t1158 * L_45 = (__this->f3);
+		t1323 * L_46 = V_4;
+		t2* L_47 = m4300((&V_3), &m4300_MI);
+		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5736_MI, L_45, L_46, L_47);
+		t1323 * L_48 = V_4;
 		V_2 = L_48;
 		goto IL_032f;
 	}
@@ -10281,7 +10281,7 @@ IL_027c:
 		V_8 = L_51;
 		__this->f1 = ((int32_t)((int32_t)L_51+(int32_t)1));
 		int32_t L_52 = V_8;
-		uint16_t L_53 = m2714(L_49, L_52, &m2714_MI);
+		uint16_t L_53 = m2738(L_49, L_52, &m2738_MI);
 		V_5 = L_53;
 		uint16_t L_54 = V_5;
 		if ((!(((uint32_t)L_54) == ((uint32_t)((int32_t)60)))))
@@ -10303,13 +10303,13 @@ IL_02ae:
 		}
 	}
 	{
-		t556 * L_56 = m5474(__this, (t2*) &_stringLiteral715, &m5474_MI);
+		t563 * L_56 = m5502(__this, (t2*) &_stringLiteral714, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_56);
 	}
 
 IL_02c3:
 	{
-		t2* L_57 = m5461(__this, &m5461_MI);
+		t2* L_57 = m5489(__this, &m5489_MI);
 		V_6 = L_57;
 		t2* L_58 = V_6;
 		if (!L_58)
@@ -10320,7 +10320,7 @@ IL_02c3:
 	{
 		t2* L_59 = (__this->f0);
 		int32_t L_60 = (__this->f1);
-		uint16_t L_61 = m2714(L_59, L_60, &m2714_MI);
+		uint16_t L_61 = m2738(L_59, L_60, &m2738_MI);
 		uint16_t L_62 = V_5;
 		if ((((int32_t)L_61) == ((int32_t)L_62)))
 		{
@@ -10330,7 +10330,7 @@ IL_02c3:
 
 IL_02ea:
 	{
-		t556 * L_63 = m5474(__this, (t2*) &_stringLiteral715, &m5474_MI);
+		t563 * L_63 = m5502(__this, (t2*) &_stringLiteral714, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_63);
 	}
 
@@ -10339,28 +10339,28 @@ IL_02f6:
 		int32_t L_64 = (__this->f1);
 		__this->f1 = ((int32_t)((int32_t)L_64+(int32_t)1));
 		int32_t L_65 = p0;
-		bool L_66 = m5468(NULL, L_65, &m5468_MI);
-		t1314 * L_67 = (t1314 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1314_TI));
-		m5567(L_67, L_66, &m5567_MI);
+		bool L_66 = m5496(NULL, L_65, &m5496_MI);
+		t1323 * L_67 = (t1323 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1323_TI));
+		m5595(L_67, L_66, &m5595_MI);
 		V_7 = L_67;
-		t1149 * L_68 = (__this->f3);
-		t1314 * L_69 = V_7;
+		t1158 * L_68 = (__this->f3);
+		t1323 * L_69 = V_7;
 		t2* L_70 = V_6;
-		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5708_MI, L_68, L_69, L_70);
-		t1314 * L_71 = V_7;
+		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5736_MI, L_68, L_69, L_70);
+		t1323 * L_71 = V_7;
 		V_2 = L_71;
 		goto IL_032f;
 	}
 
 IL_0328:
 	{
-		V_2 = (t1299 *)NULL;
+		V_2 = (t1308 *)NULL;
 		goto IL_032f;
 	}
 
 IL_032f:
 	{
-		t1299 * L_72 = V_2;
+		t1308 * L_72 = V_2;
 		if (L_72)
 		{
 			goto IL_033c;
@@ -10373,11 +10373,11 @@ IL_032f:
 
 IL_033c:
 	{
-		t1299 * L_74 = V_2;
+		t1308 * L_74 = V_2;
 		return L_74;
 	}
 }
-extern "C" int32_t m5460 (t1295 * __this, MethodInfo* method)
+extern "C" int32_t m5488 (t1304 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -10390,7 +10390,7 @@ extern "C" int32_t m5460 (t1295 * __this, MethodInfo* method)
 		V_0 = L_0;
 		int32_t L_1 = V_0;
 		t2* L_2 = (__this->f0);
-		int32_t L_3 = m2699(L_2, &m2699_MI);
+		int32_t L_3 = m2723(L_2, &m2723_MI);
 		if ((((int32_t)L_1) < ((int32_t)L_3)))
 		{
 			goto IL_0034;
@@ -10399,10 +10399,10 @@ extern "C" int32_t m5460 (t1295 * __this, MethodInfo* method)
 	{
 		t2* L_4 = (__this->f0);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_5 = m590(NULL, (t2*) &_stringLiteral716, L_4, &m590_MI);
+		t2* L_5 = m590(NULL, (t2*) &_stringLiteral715, L_4, &m590_MI);
 		t2* L_6 = (__this->f0);
-		t556 * L_7 = (t556 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t556_TI));
-		m5691(L_7, L_5, L_6, &m5691_MI);
+		t563 * L_7 = (t563 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t563_TI));
+		m5719(L_7, L_5, L_6, &m5719_MI);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -10414,7 +10414,7 @@ IL_0034:
 		V_4 = L_10;
 		__this->f1 = ((int32_t)((int32_t)L_10+(int32_t)1));
 		int32_t L_11 = V_4;
-		uint16_t L_12 = m2714(L_8, L_11, &m2714_MI);
+		uint16_t L_12 = m2738(L_8, L_11, &m2738_MI);
 		V_5 = L_12;
 		uint16_t L_13 = V_5;
 		if (((int32_t)((int32_t)L_13-(int32_t)((int32_t)110))) == 0)
@@ -10559,7 +10559,7 @@ IL_00da:
 		V_2 = L_18;
 		t2* L_19 = (__this->f0);
 		int32_t* L_20 = &(__this->f1);
-		int32_t L_21 = m5446(NULL, L_19, L_20, &m5446_MI);
+		int32_t L_21 = m5474(NULL, L_19, L_20, &m5474_MI);
 		V_3 = L_21;
 		int32_t L_22 = V_3;
 		if ((!(((uint32_t)L_22) == ((uint32_t)(-1)))))
@@ -10589,7 +10589,7 @@ IL_0118:
 	{
 		t2* L_26 = (__this->f0);
 		int32_t* L_27 = &(__this->f1);
-		int32_t L_28 = m5447(NULL, L_26, L_27, 2, &m5447_MI);
+		int32_t L_28 = m5475(NULL, L_26, L_27, 2, &m5475_MI);
 		V_1 = L_28;
 		int32_t L_29 = V_1;
 		if ((((int32_t)L_29) >= ((int32_t)0)))
@@ -10598,7 +10598,7 @@ IL_0118:
 		}
 	}
 	{
-		t556 * L_30 = m5474(__this, (t2*) &_stringLiteral717, &m5474_MI);
+		t563 * L_30 = m5502(__this, (t2*) &_stringLiteral716, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_30);
 	}
 
@@ -10612,7 +10612,7 @@ IL_0140:
 	{
 		t2* L_32 = (__this->f0);
 		int32_t* L_33 = &(__this->f1);
-		int32_t L_34 = m5447(NULL, L_32, L_33, 4, &m5447_MI);
+		int32_t L_34 = m5475(NULL, L_32, L_33, 4, &m5475_MI);
 		V_1 = L_34;
 		int32_t L_35 = V_1;
 		if ((((int32_t)L_35) >= ((int32_t)0)))
@@ -10621,7 +10621,7 @@ IL_0140:
 		}
 	}
 	{
-		t556 * L_36 = m5474(__this, (t2*) &_stringLiteral717, &m5474_MI);
+		t563 * L_36 = m5502(__this, (t2*) &_stringLiteral716, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_36);
 	}
 
@@ -10639,7 +10639,7 @@ IL_0168:
 		V_4 = L_40;
 		__this->f1 = ((int32_t)((int32_t)L_40+(int32_t)1));
 		int32_t L_41 = V_4;
-		uint16_t L_42 = m2714(L_38, L_41, &m2714_MI);
+		uint16_t L_42 = m2738(L_38, L_41, &m2738_MI);
 		V_1 = L_42;
 		int32_t L_43 = V_1;
 		if ((((int32_t)L_43) < ((int32_t)((int32_t)64))))
@@ -10661,7 +10661,7 @@ IL_0168:
 
 IL_019c:
 	{
-		t556 * L_46 = m5474(__this, (t2*) &_stringLiteral718, &m5474_MI);
+		t563 * L_46 = m5502(__this, (t2*) &_stringLiteral717, &m5502_MI);
 		il2cpp_codegen_raise_exception(L_46);
 	}
 
@@ -10672,22 +10672,22 @@ IL_01a8:
 		return (-1);
 	}
 }
-extern "C" t2* m5461 (t1295 * __this, MethodInfo* method)
+extern "C" t2* m5489 (t1304 * __this, MethodInfo* method)
 {
 	{
 		t2* L_0 = (__this->f0);
 		int32_t* L_1 = &(__this->f1);
-		t2* L_2 = m5449(NULL, L_0, L_1, &m5449_MI);
+		t2* L_2 = m5477(NULL, L_0, L_1, &m5477_MI);
 		return L_2;
 	}
 }
-extern "C" bool m5462 (t9 * __this , uint16_t p0, MethodInfo* method)
+extern "C" bool m5490 (t9 * __this , uint16_t p0, MethodInfo* method)
 {
 	int32_t V_0 = {0};
 	{
 		uint16_t L_0 = p0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		int32_t L_1 = m5899(NULL, L_0, &m5899_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		int32_t L_1 = m5927(NULL, L_0, &m5927_MI);
 		V_0 = L_1;
 		int32_t L_2 = V_0;
 		if ((!(((uint32_t)L_2) == ((uint32_t)3))))
@@ -10714,12 +10714,12 @@ IL_0010:
 IL_001a:
 	{
 		uint16_t L_4 = p0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		bool L_5 = m5896(NULL, L_4, &m5896_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		bool L_5 = m5924(NULL, L_4, &m5924_MI);
 		return L_5;
 	}
 }
-extern "C" int32_t m5463 (t1295 * __this, int32_t p0, int32_t p1, int32_t p2, MethodInfo* method)
+extern "C" int32_t m5491 (t1304 * __this, int32_t p0, int32_t p1, int32_t p2, MethodInfo* method)
 {
 	{
 		t2* L_0 = (__this->f0);
@@ -10727,11 +10727,11 @@ extern "C" int32_t m5463 (t1295 * __this, int32_t p0, int32_t p1, int32_t p2, Me
 		int32_t L_2 = p0;
 		int32_t L_3 = p1;
 		int32_t L_4 = p2;
-		int32_t L_5 = m5448(NULL, L_0, L_1, L_2, L_3, L_4, &m5448_MI);
+		int32_t L_5 = m5476(NULL, L_0, L_1, L_2, L_3, L_4, &m5476_MI);
 		return L_5;
 	}
 }
-extern "C" int32_t m5464 (t9 * __this , uint16_t p0, int32_t p1, int32_t p2, MethodInfo* method)
+extern "C" int32_t m5492 (t9 * __this , uint16_t p0, int32_t p1, int32_t p2, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -10884,7 +10884,7 @@ IL_0098:
 		return (-1);
 	}
 }
-extern "C" void m5465 (t1295 * __this, bool p0, MethodInfo* method)
+extern "C" void m5493 (t1304 * __this, bool p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -10895,7 +10895,7 @@ IL_0005:
 	{
 		t2* L_0 = (__this->f0);
 		int32_t L_1 = (__this->f1);
-		uint16_t L_2 = m2714(L_0, L_1, &m2714_MI);
+		uint16_t L_2 = m2738(L_0, L_1, &m2738_MI);
 		if ((!(((uint32_t)L_2) == ((uint32_t)((int32_t)40)))))
 		{
 			goto IL_00bc;
@@ -10904,7 +10904,7 @@ IL_0005:
 	{
 		int32_t L_3 = (__this->f1);
 		t2* L_4 = (__this->f0);
-		int32_t L_5 = m2699(L_4, &m2699_MI);
+		int32_t L_5 = m2723(L_4, &m2723_MI);
 		if ((((int32_t)((int32_t)((int32_t)L_3+(int32_t)3))) < ((int32_t)L_5)))
 		{
 			goto IL_0036;
@@ -10918,7 +10918,7 @@ IL_0036:
 	{
 		t2* L_6 = (__this->f0);
 		int32_t L_7 = (__this->f1);
-		uint16_t L_8 = m2714(L_6, ((int32_t)((int32_t)L_7+(int32_t)1)), &m2714_MI);
+		uint16_t L_8 = m2738(L_6, ((int32_t)((int32_t)L_7+(int32_t)1)), &m2738_MI);
 		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)63)))))
 		{
 			goto IL_006a;
@@ -10927,7 +10927,7 @@ IL_0036:
 	{
 		t2* L_9 = (__this->f0);
 		int32_t L_10 = (__this->f1);
-		uint16_t L_11 = m2714(L_9, ((int32_t)((int32_t)L_10+(int32_t)2)), &m2714_MI);
+		uint16_t L_11 = m2738(L_9, ((int32_t)((int32_t)L_10+(int32_t)2)), &m2738_MI);
 		if ((((int32_t)L_11) == ((int32_t)((int32_t)35))))
 		{
 			goto IL_006b;
@@ -10950,7 +10950,7 @@ IL_007e:
 	{
 		int32_t L_13 = (__this->f1);
 		t2* L_14 = (__this->f0);
-		int32_t L_15 = m2699(L_14, &m2699_MI);
+		int32_t L_15 = m2723(L_14, &m2723_MI);
 		if ((((int32_t)L_13) >= ((int32_t)L_15)))
 		{
 			goto IL_00b7;
@@ -10963,7 +10963,7 @@ IL_007e:
 		V_0 = L_18;
 		__this->f1 = ((int32_t)((int32_t)L_18+(int32_t)1));
 		int32_t L_19 = V_0;
-		uint16_t L_20 = m2714(L_16, L_19, &m2714_MI);
+		uint16_t L_20 = m2738(L_16, L_19, &m2738_MI);
 		if ((!(((uint32_t)L_20) == ((uint32_t)((int32_t)41)))))
 		{
 			goto IL_007e;
@@ -10986,7 +10986,7 @@ IL_00bc:
 	{
 		t2* L_22 = (__this->f0);
 		int32_t L_23 = (__this->f1);
-		uint16_t L_24 = m2714(L_22, L_23, &m2714_MI);
+		uint16_t L_24 = m2738(L_22, L_23, &m2738_MI);
 		if ((!(((uint32_t)L_24) == ((uint32_t)((int32_t)35)))))
 		{
 			goto IL_011d;
@@ -11000,7 +11000,7 @@ IL_00df:
 	{
 		int32_t L_25 = (__this->f1);
 		t2* L_26 = (__this->f0);
-		int32_t L_27 = m2699(L_26, &m2699_MI);
+		int32_t L_27 = m2723(L_26, &m2723_MI);
 		if ((((int32_t)L_25) >= ((int32_t)L_27)))
 		{
 			goto IL_0118;
@@ -11013,7 +11013,7 @@ IL_00df:
 		V_0 = L_30;
 		__this->f1 = ((int32_t)((int32_t)L_30+(int32_t)1));
 		int32_t L_31 = V_0;
-		uint16_t L_32 = m2714(L_28, L_31, &m2714_MI);
+		uint16_t L_32 = m2738(L_28, L_31, &m2738_MI);
 		if ((!(((uint32_t)L_32) == ((uint32_t)((int32_t)10)))))
 		{
 			goto IL_00df;
@@ -11036,9 +11036,9 @@ IL_011d:
 	{
 		t2* L_34 = (__this->f0);
 		int32_t L_35 = (__this->f1);
-		uint16_t L_36 = m2714(L_34, L_35, &m2714_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		bool L_37 = m5898(NULL, L_36, &m5898_MI);
+		uint16_t L_36 = m2738(L_34, L_35, &m2738_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		bool L_37 = m5926(NULL, L_36, &m5926_MI);
 		if (!L_37)
 		{
 			goto IL_0187;
@@ -11058,7 +11058,7 @@ IL_0151:
 	{
 		int32_t L_39 = (__this->f1);
 		t2* L_40 = (__this->f0);
-		int32_t L_41 = m2699(L_40, &m2699_MI);
+		int32_t L_41 = m2723(L_40, &m2723_MI);
 		if ((((int32_t)L_39) >= ((int32_t)L_41)))
 		{
 			goto IL_0182;
@@ -11067,9 +11067,9 @@ IL_0151:
 	{
 		t2* L_42 = (__this->f0);
 		int32_t L_43 = (__this->f1);
-		uint16_t L_44 = m2714(L_42, L_43, &m2714_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		bool L_45 = m5898(NULL, L_44, &m5898_MI);
+		uint16_t L_44 = m2738(L_42, L_43, &m2738_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		bool L_45 = m5926(NULL, L_44, &m5926_MI);
 		if (L_45)
 		{
 			goto IL_0143;
@@ -11090,7 +11090,7 @@ IL_0188:
 	{
 		int32_t L_46 = (__this->f1);
 		t2* L_47 = (__this->f0);
-		int32_t L_48 = m2699(L_47, &m2699_MI);
+		int32_t L_48 = m2723(L_47, &m2723_MI);
 		if ((((int32_t)L_46) < ((int32_t)L_48)))
 		{
 			goto IL_0005;
@@ -11100,24 +11100,24 @@ IL_0188:
 		return;
 	}
 }
-extern "C" void m5466 (t1295 * __this, MethodInfo* method)
+extern "C" void m5494 (t1304 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
-	t1149 * V_1 = {0};
-	t1161 * V_2 = {0};
-	t1306 * V_3 = {0};
+	t1158 * V_1 = {0};
+	t1170 * V_2 = {0};
+	t1315 * V_3 = {0};
 	t9 * V_4 = {0};
-	t1306 * V_5 = {0};
+	t1315 * V_5 = {0};
 	t9 * V_6 = {0};
-	t1306 * V_7 = {0};
+	t1315 * V_7 = {0};
 	int32_t V_8 = 0;
 	int32_t V_9 = 0;
 	t2* V_10 = {0};
-	t1299 * V_11 = {0};
+	t1308 * V_11 = {0};
 	t9 * V_12 = {0};
 	t2* V_13 = {0};
-	t1315 * V_14 = {0};
-	t1306 * V_15 = {0};
+	t1324 * V_14 = {0};
+	t1315 * V_15 = {0};
 	t9 * V_16 = {0};
 	int32_t V_17 = 0;
 	t9 * V_18 = {0};
@@ -11129,21 +11129,21 @@ extern "C" void m5466 (t1295 * __this, MethodInfo* method)
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	t2* G_B50_0 = {0};
-	t1295 * G_B50_1 = {0};
+	t1304 * G_B50_1 = {0};
 	t2* G_B49_0 = {0};
-	t1295 * G_B49_1 = {0};
+	t1304 * G_B49_1 = {0};
 	t2* G_B51_0 = {0};
 	t2* G_B51_1 = {0};
-	t1295 * G_B51_2 = {0};
+	t1304 * G_B51_2 = {0};
 	{
 		V_0 = 1;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1149_TI));
-		t1149 * L_0 = (t1149 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1149_TI));
-		m5883(L_0, &m5883_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1158_TI));
+		t1158 * L_0 = (t1158 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1158_TI));
+		m5911(L_0, &m5911_MI);
 		V_1 = L_0;
-		V_2 = (t1161 *)NULL;
-		t1161 * L_1 = (__this->f2);
-		t9 * L_2 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5699_MI, L_1);
+		V_2 = (t1170 *)NULL;
+		t1170 * L_1 = (__this->f2);
+		t9 * L_2 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5727_MI, L_1);
 		V_4 = L_2;
 	}
 
@@ -11158,9 +11158,9 @@ IL_001c:
 		{
 			t9 * L_3 = V_4;
 			t9 * L_4 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m361_MI, L_3);
-			V_3 = ((t1306 *)Castclass(L_4, InitializedTypeInfo(&t1306_TI)));
-			t1306 * L_5 = V_3;
-			t2* L_6 = m5514(L_5, &m5514_MI);
+			V_3 = ((t1315 *)Castclass(L_4, InitializedTypeInfo(&t1315_TI)));
+			t1315 * L_5 = V_3;
+			t2* L_6 = m5542(L_5, &m5542_MI);
 			if (!L_6)
 			{
 				goto IL_0039;
@@ -11174,15 +11174,15 @@ IL_0034:
 
 IL_0039:
 		{
-			t1149 * L_7 = V_1;
-			t2* L_8 = m4276((&V_0), &m4276_MI);
-			t1306 * L_9 = V_3;
-			VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5708_MI, L_7, L_8, L_9);
-			t1306 * L_10 = V_3;
+			t1158 * L_7 = V_1;
+			t2* L_8 = m4300((&V_0), &m4300_MI);
+			t1315 * L_9 = V_3;
+			VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5736_MI, L_7, L_8, L_9);
+			t1315 * L_10 = V_3;
 			int32_t L_11 = V_0;
 			int32_t L_12 = L_11;
 			V_0 = ((int32_t)((int32_t)L_12+(int32_t)1));
-			m5513(L_10, L_12, &m5513_MI);
+			m5541(L_10, L_12, &m5541_MI);
 			int32_t L_13 = (__this->f4);
 			__this->f4 = ((int32_t)((int32_t)L_13+(int32_t)1));
 		}
@@ -11240,8 +11240,8 @@ IL_007f:
 
 IL_0087:
 	{
-		t1161 * L_19 = (__this->f2);
-		t9 * L_20 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5699_MI, L_19);
+		t1170 * L_19 = (__this->f2);
+		t9 * L_20 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5727_MI, L_19);
 		V_6 = L_20;
 	}
 
@@ -11256,9 +11256,9 @@ IL_0099:
 		{
 			t9 * L_21 = V_6;
 			t9 * L_22 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m361_MI, L_21);
-			V_5 = ((t1306 *)Castclass(L_22, InitializedTypeInfo(&t1306_TI)));
-			t1306 * L_23 = V_5;
-			t2* L_24 = m5514(L_23, &m5514_MI);
+			V_5 = ((t1315 *)Castclass(L_22, InitializedTypeInfo(&t1315_TI)));
+			t1315 * L_23 = V_5;
+			t2* L_24 = m5542(L_23, &m5542_MI);
 			if (L_24)
 			{
 				goto IL_00b8;
@@ -11272,10 +11272,10 @@ IL_00b3:
 
 IL_00b8:
 		{
-			t1149 * L_25 = V_1;
-			t1306 * L_26 = V_5;
-			t2* L_27 = m5514(L_26, &m5514_MI);
-			bool L_28 = (bool)VirtFuncInvoker1< bool, t9 * >::Invoke(&m5894_MI, L_25, L_27);
+			t1158 * L_25 = V_1;
+			t1315 * L_26 = V_5;
+			t2* L_27 = m5542(L_26, &m5542_MI);
+			bool L_28 = (bool)VirtFuncInvoker1< bool, t9 * >::Invoke(&m5922_MI, L_25, L_27);
 			if (!L_28)
 			{
 				goto IL_011d;
@@ -11284,17 +11284,17 @@ IL_00b8:
 
 IL_00ca:
 		{
-			t1149 * L_29 = V_1;
-			t1306 * L_30 = V_5;
-			t2* L_31 = m5514(L_30, &m5514_MI);
-			t9 * L_32 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5707_MI, L_29, L_31);
-			V_7 = ((t1306 *)Castclass(L_32, InitializedTypeInfo(&t1306_TI)));
-			t1306 * L_33 = V_5;
-			t1306 * L_34 = V_7;
-			int32_t L_35 = m5512(L_34, &m5512_MI);
-			m5513(L_33, L_35, &m5513_MI);
-			t1306 * L_36 = V_5;
-			int32_t L_37 = m5512(L_36, &m5512_MI);
+			t1158 * L_29 = V_1;
+			t1315 * L_30 = V_5;
+			t2* L_31 = m5542(L_30, &m5542_MI);
+			t9 * L_32 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5735_MI, L_29, L_31);
+			V_7 = ((t1315 *)Castclass(L_32, InitializedTypeInfo(&t1315_TI)));
+			t1315 * L_33 = V_5;
+			t1315 * L_34 = V_7;
+			int32_t L_35 = m5540(L_34, &m5540_MI);
+			m5541(L_33, L_35, &m5541_MI);
+			t1315 * L_36 = V_5;
+			int32_t L_37 = m5540(L_36, &m5540_MI);
 			int32_t L_38 = V_0;
 			if ((!(((uint32_t)L_37) == ((uint32_t)L_38))))
 			{
@@ -11311,8 +11311,8 @@ IL_00f9:
 
 IL_0102:
 		{
-			t1306 * L_40 = V_5;
-			int32_t L_41 = m5512(L_40, &m5512_MI);
+			t1315 * L_40 = V_5;
+			int32_t L_41 = m5540(L_40, &m5540_MI);
 			int32_t L_42 = V_0;
 			if ((((int32_t)L_41) <= ((int32_t)L_42)))
 			{
@@ -11322,9 +11322,9 @@ IL_0102:
 
 IL_010f:
 		{
-			t1161 * L_43 = V_2;
-			t1306 * L_44 = V_5;
-			VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5709_MI, L_43, L_44);
+			t1170 * L_43 = V_2;
+			t1315 * L_44 = V_5;
+			VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5737_MI, L_43, L_44);
 		}
 
 IL_0118:
@@ -11334,11 +11334,11 @@ IL_0118:
 
 IL_011d:
 		{
-			t1306 * L_45 = V_5;
-			t2* L_46 = m5514(L_45, &m5514_MI);
-			uint16_t L_47 = m2714(L_46, 0, &m2714_MI);
-			IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-			bool L_48 = m5897(NULL, L_47, &m5897_MI);
+			t1315 * L_45 = V_5;
+			t2* L_46 = m5542(L_45, &m5542_MI);
+			uint16_t L_47 = m2738(L_46, 0, &m2738_MI);
+			IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+			bool L_48 = m5925(NULL, L_47, &m5925_MI);
 			if (!L_48)
 			{
 				goto IL_01ac;
@@ -11348,14 +11348,14 @@ IL_011d:
 IL_0134:
 		{
 			V_8 = 0;
-			t1306 * L_49 = V_5;
-			t2* L_50 = m5514(L_49, &m5514_MI);
-			int32_t L_51 = m5445(NULL, L_50, (&V_8), &m5445_MI);
+			t1315 * L_49 = V_5;
+			t2* L_50 = m5542(L_49, &m5542_MI);
+			int32_t L_51 = m5473(NULL, L_50, (&V_8), &m5473_MI);
 			V_9 = L_51;
 			int32_t L_52 = V_8;
-			t1306 * L_53 = V_5;
-			t2* L_54 = m5514(L_53, &m5514_MI);
-			int32_t L_55 = m2699(L_54, &m2699_MI);
+			t1315 * L_53 = V_5;
+			t2* L_54 = m5542(L_53, &m5542_MI);
+			int32_t L_55 = m2723(L_54, &m2723_MI);
 			if ((!(((uint32_t)L_52) == ((uint32_t)L_55))))
 			{
 				goto IL_01ac;
@@ -11364,14 +11364,14 @@ IL_0134:
 
 IL_015a:
 		{
-			t1306 * L_56 = V_5;
+			t1315 * L_56 = V_5;
 			int32_t L_57 = V_9;
-			m5513(L_56, L_57, &m5513_MI);
-			t1149 * L_58 = V_1;
-			t1306 * L_59 = V_5;
-			t2* L_60 = m5514(L_59, &m5514_MI);
-			t1306 * L_61 = V_5;
-			VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5708_MI, L_58, L_60, L_61);
+			m5541(L_56, L_57, &m5541_MI);
+			t1158 * L_58 = V_1;
+			t1315 * L_59 = V_5;
+			t2* L_60 = m5542(L_59, &m5542_MI);
+			t1315 * L_61 = V_5;
+			VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5736_MI, L_58, L_60, L_61);
 			int32_t L_62 = (__this->f4);
 			__this->f4 = ((int32_t)((int32_t)L_62+(int32_t)1));
 			int32_t L_63 = V_9;
@@ -11391,7 +11391,7 @@ IL_0188:
 
 IL_0191:
 		{
-			t1161 * L_66 = V_2;
+			t1170 * L_66 = V_2;
 			if (L_66)
 			{
 				goto IL_019e;
@@ -11400,17 +11400,17 @@ IL_0191:
 
 IL_0197:
 		{
-			IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1161_TI));
-			t1161 * L_67 = (t1161 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1161_TI));
-			m5853(L_67, 4, &m5853_MI);
+			IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1170_TI));
+			t1170 * L_67 = (t1170 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1170_TI));
+			m5881(L_67, 4, &m5881_MI);
 			V_2 = L_67;
 		}
 
 IL_019e:
 		{
-			t1161 * L_68 = V_2;
-			t1306 * L_69 = V_5;
-			VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5709_MI, L_68, L_69);
+			t1170 * L_68 = V_2;
+			t1315 * L_69 = V_5;
+			VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5737_MI, L_68, L_69);
 		}
 
 IL_01a7:
@@ -11420,7 +11420,7 @@ IL_01a7:
 
 IL_01ac:
 		{
-			t2* L_70 = m4276((&V_0), &m4276_MI);
+			t2* L_70 = m4300((&V_0), &m4300_MI);
 			V_10 = L_70;
 			goto IL_01ca;
 		}
@@ -11431,15 +11431,15 @@ IL_01ba:
 			int32_t L_72 = ((int32_t)((int32_t)L_71+(int32_t)1));
 			V_0 = L_72;
 			V_17 = L_72;
-			t2* L_73 = m4276((&V_17), &m4276_MI);
+			t2* L_73 = m4300((&V_17), &m4300_MI);
 			V_10 = L_73;
 		}
 
 IL_01ca:
 		{
-			t1149 * L_74 = V_1;
+			t1158 * L_74 = V_1;
 			t2* L_75 = V_10;
-			bool L_76 = (bool)VirtFuncInvoker1< bool, t9 * >::Invoke(&m5894_MI, L_74, L_75);
+			bool L_76 = (bool)VirtFuncInvoker1< bool, t9 * >::Invoke(&m5922_MI, L_74, L_75);
 			if (L_76)
 			{
 				goto IL_01ba;
@@ -11448,20 +11448,20 @@ IL_01ca:
 
 IL_01d7:
 		{
-			t1149 * L_77 = V_1;
+			t1158 * L_77 = V_1;
 			t2* L_78 = V_10;
-			t1306 * L_79 = V_5;
-			VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5708_MI, L_77, L_78, L_79);
-			t1149 * L_80 = V_1;
-			t1306 * L_81 = V_5;
-			t2* L_82 = m5514(L_81, &m5514_MI);
-			t1306 * L_83 = V_5;
-			VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5708_MI, L_80, L_82, L_83);
-			t1306 * L_84 = V_5;
+			t1315 * L_79 = V_5;
+			VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5736_MI, L_77, L_78, L_79);
+			t1158 * L_80 = V_1;
+			t1315 * L_81 = V_5;
+			t2* L_82 = m5542(L_81, &m5542_MI);
+			t1315 * L_83 = V_5;
+			VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5736_MI, L_80, L_82, L_83);
+			t1315 * L_84 = V_5;
 			int32_t L_85 = V_0;
 			int32_t L_86 = L_85;
 			V_0 = ((int32_t)((int32_t)L_86+(int32_t)1));
-			m5513(L_84, L_86, &m5513_MI);
+			m5541(L_84, L_86, &m5541_MI);
 			int32_t L_87 = (__this->f4);
 			__this->f4 = ((int32_t)((int32_t)L_87+(int32_t)1));
 		}
@@ -11521,22 +11521,22 @@ IL_0231:
 	{
 		int32_t L_93 = V_0;
 		__this->f5 = L_93;
-		t1161 * L_94 = V_2;
+		t1170 * L_94 = V_2;
 		if (!L_94)
 		{
 			goto IL_0245;
 		}
 	}
 	{
-		t1161 * L_95 = V_2;
-		m5467(__this, L_95, &m5467_MI);
+		t1170 * L_95 = V_2;
+		m5495(__this, L_95, &m5495_MI);
 	}
 
 IL_0245:
 	{
-		t1149 * L_96 = (__this->f3);
-		t9 * L_97 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5911_MI, L_96);
-		t9 * L_98 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m4344_MI, L_97);
+		t1158 * L_96 = (__this->f3);
+		t9 * L_97 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5939_MI, L_96);
+		t9 * L_98 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m4368_MI, L_97);
 		V_12 = L_98;
 	}
 
@@ -11551,14 +11551,14 @@ IL_025c:
 		{
 			t9 * L_99 = V_12;
 			t9 * L_100 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m361_MI, L_99);
-			V_11 = ((t1299 *)Castclass(L_100, InitializedTypeInfo(&t1299_TI)));
-			t1149 * L_101 = (__this->f3);
-			t1299 * L_102 = V_11;
-			t9 * L_103 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5707_MI, L_101, L_102);
+			V_11 = ((t1308 *)Castclass(L_100, InitializedTypeInfo(&t1308_TI)));
+			t1158 * L_101 = (__this->f3);
+			t1308 * L_102 = V_11;
+			t9 * L_103 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5735_MI, L_101, L_102);
 			V_13 = ((t2*)Castclass(L_103, (&t2_TI)));
-			t1149 * L_104 = V_1;
+			t1158 * L_104 = V_1;
 			t2* L_105 = V_13;
-			bool L_106 = (bool)VirtFuncInvoker1< bool, t9 * >::Invoke(&m5894_MI, L_104, L_105);
+			bool L_106 = (bool)VirtFuncInvoker1< bool, t9 * >::Invoke(&m5922_MI, L_104, L_105);
 			if (L_106)
 			{
 				goto IL_0306;
@@ -11567,8 +11567,8 @@ IL_025c:
 
 IL_028b:
 		{
-			t1299 * L_107 = V_11;
-			if (!((t1310 *)IsInst(L_107, InitializedTypeInfo(&t1310_TI))))
+			t1308 * L_107 = V_11;
+			if (!((t1319 *)IsInst(L_107, InitializedTypeInfo(&t1319_TI))))
 			{
 				goto IL_02ae;
 			}
@@ -11577,9 +11577,9 @@ IL_028b:
 IL_0297:
 		{
 			t2* L_108 = V_13;
-			uint16_t L_109 = m2714(L_108, 0, &m2714_MI);
-			IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-			bool L_110 = m5897(NULL, L_109, &m5897_MI);
+			uint16_t L_109 = m2738(L_108, 0, &m2738_MI);
+			IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+			bool L_110 = m5925(NULL, L_109, &m5925_MI);
 			if (L_110)
 			{
 				goto IL_02ae;
@@ -11593,9 +11593,9 @@ IL_02a9:
 
 IL_02ae:
 		{
-			t1299 * L_111 = V_11;
-			V_14 = ((t1315 *)IsInst(L_111, InitializedTypeInfo(&t1315_TI)));
-			t1315 * L_112 = V_14;
+			t1308 * L_111 = V_11;
+			V_14 = ((t1324 *)IsInst(L_111, InitializedTypeInfo(&t1324_TI)));
+			t1324 * L_112 = V_14;
 			if (!L_112)
 			{
 				goto IL_02d2;
@@ -11604,10 +11604,10 @@ IL_02ae:
 
 IL_02be:
 		{
-			t1315 * L_113 = V_14;
+			t1324 * L_113 = V_14;
 			t2* L_114 = V_13;
-			t1149 * L_115 = V_1;
-			bool L_116 = m5575(L_113, L_114, L_115, &m5575_MI);
+			t1158 * L_115 = V_1;
+			bool L_116 = m5603(L_113, L_114, L_115, &m5603_MI);
 			if (!L_116)
 			{
 				goto IL_02d2;
@@ -11622,14 +11622,14 @@ IL_02cd:
 IL_02d2:
 		{
 			t2* L_117 = V_13;
-			uint16_t L_118 = m2714(L_117, 0, &m2714_MI);
-			IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-			bool L_119 = m5897(NULL, L_118, &m5897_MI);
-			G_B49_0 = (t2*) &_stringLiteral719;
+			uint16_t L_118 = m2738(L_117, 0, &m2738_MI);
+			IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+			bool L_119 = m5925(NULL, L_118, &m5925_MI);
+			G_B49_0 = (t2*) &_stringLiteral718;
 			G_B49_1 = __this;
 			if (!L_119)
 			{
-				G_B50_0 = (t2*) &_stringLiteral719;
+				G_B50_0 = (t2*) &_stringLiteral718;
 				G_B50_1 = __this;
 				goto IL_02f4;
 			}
@@ -11637,7 +11637,7 @@ IL_02d2:
 
 IL_02ea:
 		{
-			G_B51_0 = (t2*) &_stringLiteral720;
+			G_B51_0 = (t2*) &_stringLiteral719;
 			G_B51_1 = G_B49_0;
 			G_B51_2 = G_B49_1;
 			goto IL_02f9;
@@ -11645,7 +11645,7 @@ IL_02ea:
 
 IL_02f4:
 		{
-			G_B51_0 = (t2*) &_stringLiteral721;
+			G_B51_0 = (t2*) &_stringLiteral720;
 			G_B51_1 = G_B50_0;
 			G_B51_2 = G_B50_1;
 		}
@@ -11655,18 +11655,18 @@ IL_02f9:
 			t2* L_120 = V_13;
 			IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 			t2* L_121 = m399(NULL, G_B51_1, G_B51_0, L_120, &m399_MI);
-			t556 * L_122 = m5474(G_B51_2, L_121, &m5474_MI);
+			t563 * L_122 = m5502(G_B51_2, L_121, &m5502_MI);
 			il2cpp_codegen_raise_exception(L_122);
 		}
 
 IL_0306:
 		{
-			t1149 * L_123 = V_1;
+			t1158 * L_123 = V_1;
 			t2* L_124 = V_13;
-			t9 * L_125 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5707_MI, L_123, L_124);
-			V_15 = ((t1306 *)Castclass(L_125, InitializedTypeInfo(&t1306_TI)));
-			t1299 * L_126 = V_11;
-			if (!((t1314 *)IsInst(L_126, InitializedTypeInfo(&t1314_TI))))
+			t9 * L_125 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5735_MI, L_123, L_124);
+			V_15 = ((t1315 *)Castclass(L_125, InitializedTypeInfo(&t1315_TI)));
+			t1308 * L_126 = V_11;
+			if (!((t1323 *)IsInst(L_126, InitializedTypeInfo(&t1323_TI))))
 			{
 				goto IL_0334;
 			}
@@ -11674,16 +11674,16 @@ IL_0306:
 
 IL_0321:
 		{
-			t1299 * L_127 = V_11;
-			t1306 * L_128 = V_15;
-			m5569(((t1314 *)Castclass(L_127, InitializedTypeInfo(&t1314_TI))), L_128, &m5569_MI);
+			t1308 * L_127 = V_11;
+			t1315 * L_128 = V_15;
+			m5597(((t1323 *)Castclass(L_127, InitializedTypeInfo(&t1323_TI))), L_128, &m5597_MI);
 			goto IL_036d;
 		}
 
 IL_0334:
 		{
-			t1299 * L_129 = V_11;
-			if (!((t1310 *)IsInst(L_129, InitializedTypeInfo(&t1310_TI))))
+			t1308 * L_129 = V_11;
+			if (!((t1319 *)IsInst(L_129, InitializedTypeInfo(&t1319_TI))))
 			{
 				goto IL_0353;
 			}
@@ -11691,16 +11691,16 @@ IL_0334:
 
 IL_0340:
 		{
-			t1299 * L_130 = V_11;
-			t1306 * L_131 = V_15;
-			m5540(((t1310 *)Castclass(L_130, InitializedTypeInfo(&t1310_TI))), L_131, &m5540_MI);
+			t1308 * L_130 = V_11;
+			t1315 * L_131 = V_15;
+			m5568(((t1319 *)Castclass(L_130, InitializedTypeInfo(&t1319_TI))), L_131, &m5568_MI);
 			goto IL_036d;
 		}
 
 IL_0353:
 		{
-			t1299 * L_132 = V_11;
-			if (!((t1307 *)IsInst(L_132, InitializedTypeInfo(&t1307_TI))))
+			t1308 * L_132 = V_11;
+			if (!((t1316 *)IsInst(L_132, InitializedTypeInfo(&t1316_TI))))
 			{
 				goto IL_036d;
 			}
@@ -11708,9 +11708,9 @@ IL_0353:
 
 IL_035f:
 		{
-			t1299 * L_133 = V_11;
-			t1306 * L_134 = V_15;
-			m5521(((t1307 *)Castclass(L_133, InitializedTypeInfo(&t1307_TI))), L_134, &m5521_MI);
+			t1308 * L_133 = V_11;
+			t1315 * L_134 = V_15;
+			m5549(((t1316 *)Castclass(L_133, InitializedTypeInfo(&t1316_TI))), L_134, &m5549_MI);
 		}
 
 IL_036d:
@@ -11769,34 +11769,34 @@ IL_0394:
 		return;
 	}
 }
-extern "C" void m5467 (t1295 * __this, t1161 * p0, MethodInfo* method)
+extern "C" void m5495 (t1304 * __this, t1170 * p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	t1306 * V_3 = {0};
+	t1315 * V_3 = {0};
 	int32_t V_4 = 0;
-	t1306 * V_5 = {0};
+	t1315 * V_5 = {0};
 	{
 		int32_t L_0 = (__this->f5);
 		V_0 = L_0;
 		V_1 = 0;
-		t1161 * L_1 = p0;
-		int32_t L_2 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5694_MI, L_1);
+		t1170 * L_1 = p0;
+		int32_t L_2 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5722_MI, L_1);
 		V_2 = L_2;
-		t1161 * L_3 = p0;
-		VirtActionInvoker0::Invoke(&m5908_MI, L_3);
+		t1170 * L_3 = p0;
+		VirtActionInvoker0::Invoke(&m5936_MI, L_3);
 		goto IL_004d;
 	}
 
 IL_001b:
 	{
-		t1161 * L_4 = p0;
+		t1170 * L_4 = p0;
 		int32_t L_5 = V_1;
-		t9 * L_6 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5696_MI, L_4, L_5);
-		V_3 = ((t1306 *)Castclass(L_6, InitializedTypeInfo(&t1306_TI)));
-		t1306 * L_7 = V_3;
-		int32_t L_8 = m5512(L_7, &m5512_MI);
+		t9 * L_6 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5724_MI, L_4, L_5);
+		V_3 = ((t1315 *)Castclass(L_6, InitializedTypeInfo(&t1315_TI)));
+		t1315 * L_7 = V_3;
+		int32_t L_8 = m5540(L_7, &m5540_MI);
 		int32_t L_9 = V_0;
 		if ((((int32_t)L_8) <= ((int32_t)L_9)))
 		{
@@ -11809,8 +11809,8 @@ IL_001b:
 
 IL_0039:
 	{
-		t1306 * L_10 = V_3;
-		int32_t L_11 = m5512(L_10, &m5512_MI);
+		t1315 * L_10 = V_3;
+		int32_t L_11 = m5540(L_10, &m5540_MI);
 		int32_t L_12 = V_0;
 		if ((!(((uint32_t)L_11) == ((uint32_t)L_12))))
 		{
@@ -11849,12 +11849,12 @@ IL_0054:
 
 IL_0063:
 	{
-		t1161 * L_19 = p0;
+		t1170 * L_19 = p0;
 		int32_t L_20 = V_1;
-		t9 * L_21 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5696_MI, L_19, L_20);
-		V_5 = ((t1306 *)Castclass(L_21, InitializedTypeInfo(&t1306_TI)));
-		t1306 * L_22 = V_5;
-		int32_t L_23 = m5512(L_22, &m5512_MI);
+		t9 * L_21 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5724_MI, L_19, L_20);
+		V_5 = ((t1315 *)Castclass(L_21, InitializedTypeInfo(&t1315_TI)));
+		t1315 * L_22 = V_5;
+		int32_t L_23 = m5540(L_22, &m5540_MI);
 		int32_t L_24 = V_4;
 		if ((!(((uint32_t)L_23) == ((uint32_t)L_24))))
 		{
@@ -11862,22 +11862,22 @@ IL_0063:
 		}
 	}
 	{
-		t1306 * L_25 = V_5;
+		t1315 * L_25 = V_5;
 		int32_t L_26 = V_0;
-		m5513(L_25, ((int32_t)((int32_t)L_26-(int32_t)1)), &m5513_MI);
+		m5541(L_25, ((int32_t)((int32_t)L_26-(int32_t)1)), &m5541_MI);
 		goto IL_00a3;
 	}
 
 IL_008e:
 	{
-		t1306 * L_27 = V_5;
-		int32_t L_28 = m5512(L_27, &m5512_MI);
+		t1315 * L_27 = V_5;
+		int32_t L_28 = m5540(L_27, &m5540_MI);
 		V_4 = L_28;
-		t1306 * L_29 = V_5;
+		t1315 * L_29 = V_5;
 		int32_t L_30 = V_0;
 		int32_t L_31 = L_30;
 		V_0 = ((int32_t)((int32_t)L_31+(int32_t)1));
-		m5513(L_29, L_31, &m5513_MI);
+		m5541(L_29, L_31, &m5541_MI);
 	}
 
 IL_00a3:
@@ -11899,60 +11899,60 @@ IL_00a7:
 		return;
 	}
 }
-extern "C" bool m5468 (t9 * __this , int32_t p0, MethodInfo* method)
+extern "C" bool m5496 (t9 * __this , int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
 		return ((((int32_t)((((int32_t)((int32_t)((int32_t)L_0&(int32_t)1))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-extern "C" bool m5469 (t9 * __this , int32_t p0, MethodInfo* method)
+extern "C" bool m5497 (t9 * __this , int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
 		return ((((int32_t)((((int32_t)((int32_t)((int32_t)L_0&(int32_t)2))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-extern "C" bool m5470 (t9 * __this , int32_t p0, MethodInfo* method)
+extern "C" bool m5498 (t9 * __this , int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
 		return ((((int32_t)((((int32_t)((int32_t)((int32_t)L_0&(int32_t)4))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-extern "C" bool m5471 (t9 * __this , int32_t p0, MethodInfo* method)
+extern "C" bool m5499 (t9 * __this , int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
 		return ((((int32_t)((((int32_t)((int32_t)((int32_t)L_0&(int32_t)((int32_t)16)))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-extern "C" bool m5472 (t9 * __this , int32_t p0, MethodInfo* method)
+extern "C" bool m5500 (t9 * __this , int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
 		return ((((int32_t)((((int32_t)((int32_t)((int32_t)L_0&(int32_t)((int32_t)32)))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-extern "C" bool m5473 (t9 * __this , int32_t p0, MethodInfo* method)
+extern "C" bool m5501 (t9 * __this , int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
 		return ((((int32_t)((((int32_t)((int32_t)((int32_t)L_0&(int32_t)((int32_t)256)))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-extern "C" t556 * m5474 (t1295 * __this, t2* p0, MethodInfo* method)
+extern "C" t563 * m5502 (t1304 * __this, t2* p0, MethodInfo* method)
 {
 	{
 		t2* L_0 = (__this->f0);
 		t2* L_1 = p0;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_2 = m4419(NULL, (t2*) &_stringLiteral722, L_0, (t2*) &_stringLiteral723, L_1, &m4419_MI);
+		t2* L_2 = m4443(NULL, (t2*) &_stringLiteral721, L_0, (t2*) &_stringLiteral722, L_1, &m4443_MI);
 		p0 = L_2;
 		t2* L_3 = p0;
 		t2* L_4 = (__this->f0);
-		t556 * L_5 = (t556 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t556_TI));
-		m5691(L_5, L_3, L_4, &m5691_MI);
+		t563 * L_5 = (t563 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t563_TI));
+		m5719(L_5, L_3, L_4, &m5719_MI);
 		return L_5;
 	}
 }
@@ -11960,24 +11960,24 @@ extern "C" t556 * m5474 (t1295 * __this, t2* p0, MethodInfo* method)
 #else
 #endif
 
-#include "t568.h"
-extern TypeInfo t723_TI;
-extern TypeInfo t568_TI;
-extern Il2CppType t723_0_0_0;
-extern MethodInfo m5479_MI;
-extern MethodInfo m5481_MI;
-extern MethodInfo m5480_MI;
-extern MethodInfo m5891_MI;
+#include "t575.h"
+extern TypeInfo t730_TI;
+extern TypeInfo t575_TI;
+extern Il2CppType t730_0_0_0;
+extern MethodInfo m5507_MI;
+extern MethodInfo m5509_MI;
+extern MethodInfo m5508_MI;
+extern MethodInfo m5919_MI;
 
 
-extern "C" void m5475 (t1289 * __this, t2* p0, bool p1, bool p2, MethodInfo* method)
+extern "C" void m5503 (t1298 * __this, t2* p0, bool p1, bool p2, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
 		t2* L_0 = p0;
 		__this->f0 = L_0;
 		t2* L_1 = p0;
-		int32_t L_2 = m2699(L_1, &m2699_MI);
+		int32_t L_2 = m2723(L_1, &m2723_MI);
 		__this->f1 = L_2;
 		bool L_3 = p1;
 		__this->f2 = L_3;
@@ -11991,22 +11991,22 @@ extern "C" void m5475 (t1289 * __this, t2* p0, bool p1, bool p2, MethodInfo* met
 	}
 	{
 		t2* L_6 = p0;
-		t2* L_7 = m5903(L_6, &m5903_MI);
+		t2* L_7 = m5931(L_6, &m5931_MI);
 		p0 = L_7;
 	}
 
 IL_0035:
 	{
 		int32_t L_8 = (__this->f1);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1289_TI));
-		int32_t L_9 = ((t1289_SFs*)InitializedTypeInfo(&t1289_TI)->static_fields)->f6;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1298_TI));
+		int32_t L_9 = ((t1298_SFs*)InitializedTypeInfo(&t1298_TI)->static_fields)->f6;
 		if ((((int32_t)L_8) <= ((int32_t)L_9)))
 		{
 			goto IL_004b;
 		}
 	}
 	{
-		m5479(__this, &m5479_MI);
+		m5507(__this, &m5507_MI);
 	}
 
 IL_004b:
@@ -12014,22 +12014,22 @@ IL_004b:
 		return;
 	}
 }
-extern MethodInfo m5476_MI;
-extern "C" void m5476 (t9 * __this , MethodInfo* method)
+extern MethodInfo m5504_MI;
+extern "C" void m5504 (t9 * __this , MethodInfo* method)
 {
 	{
-		((t1289_SFs*)InitializedTypeInfo(&t1289_TI)->static_fields)->f6 = 5;
+		((t1298_SFs*)InitializedTypeInfo(&t1298_TI)->static_fields)->f6 = 5;
 		return;
 	}
 }
-extern "C" int32_t m5477 (t1289 * __this, MethodInfo* method)
+extern "C" int32_t m5505 (t1298 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f1);
 		return L_0;
 	}
 }
-extern "C" int32_t m5478 (t1289 * __this, t2* p0, int32_t p1, int32_t p2, MethodInfo* method)
+extern "C" int32_t m5506 (t1298 * __this, t2* p0, int32_t p1, int32_t p2, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -12059,7 +12059,7 @@ IL_0016:
 	{
 		int32_t L_4 = V_0;
 		t2* L_5 = p0;
-		int32_t L_6 = m2699(L_5, &m2699_MI);
+		int32_t L_6 = m2723(L_5, &m2723_MI);
 		if ((((int32_t)L_4) <= ((int32_t)L_6)))
 		{
 			goto IL_0029;
@@ -12067,7 +12067,7 @@ IL_0016:
 	}
 	{
 		t2* L_7 = p0;
-		int32_t L_8 = m2699(L_7, &m2699_MI);
+		int32_t L_8 = m2723(L_7, &m2723_MI);
 		V_0 = L_8;
 	}
 
@@ -12086,11 +12086,11 @@ IL_0029:
 IL_003a:
 	{
 		t2* L_10 = (__this->f0);
-		uint16_t L_11 = m2714(L_10, 0, &m2714_MI);
+		uint16_t L_11 = m2738(L_10, 0, &m2738_MI);
 		t2* L_12 = p0;
 		int32_t L_13 = V_0;
-		uint16_t L_14 = m2714(L_12, L_13, &m2714_MI);
-		uint16_t L_15 = m5481(__this, L_14, &m5481_MI);
+		uint16_t L_14 = m2738(L_12, L_13, &m2738_MI);
+		uint16_t L_15 = m5509(__this, L_14, &m5509_MI);
 		if ((!(((uint32_t)L_11) == ((uint32_t)L_15))))
 		{
 			goto IL_005a;
@@ -12164,13 +12164,13 @@ IL_00aa:
 	{
 		t2* L_29 = (__this->f0);
 		int32_t L_30 = V_1;
-		uint16_t L_31 = m2714(L_29, L_30, &m2714_MI);
+		uint16_t L_31 = m2738(L_29, L_30, &m2738_MI);
 		t2* L_32 = p0;
 		int32_t L_33 = V_0;
 		int32_t L_34 = (__this->f1);
 		int32_t L_35 = V_1;
-		uint16_t L_36 = m2714(L_32, ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_33-(int32_t)L_34))+(int32_t)1))+(int32_t)L_35)), &m2714_MI);
-		uint16_t L_37 = m5481(__this, L_36, &m5481_MI);
+		uint16_t L_36 = m2738(L_32, ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_33-(int32_t)L_34))+(int32_t)1))+(int32_t)L_35)), &m2738_MI);
+		uint16_t L_37 = m5509(__this, L_36, &m5509_MI);
 		if ((((int32_t)L_31) == ((int32_t)L_37)))
 		{
 			goto IL_0094;
@@ -12189,8 +12189,8 @@ IL_00aa:
 		t2* L_41 = p0;
 		int32_t L_42 = V_0;
 		int32_t L_43 = (__this->f1);
-		uint16_t L_44 = m2714(L_41, ((int32_t)((int32_t)L_42-(int32_t)L_43)), &m2714_MI);
-		int32_t L_45 = m5480(__this, L_44, &m5480_MI);
+		uint16_t L_44 = m2738(L_41, ((int32_t)((int32_t)L_42-(int32_t)L_43)), &m2738_MI);
+		int32_t L_45 = m5508(__this, L_44, &m5508_MI);
 		V_0 = ((int32_t)((int32_t)L_40-(int32_t)L_45));
 		goto IL_00fb;
 	}
@@ -12230,11 +12230,11 @@ IL_0107:
 IL_0118:
 	{
 		t2* L_49 = (__this->f0);
-		uint16_t L_50 = m2714(L_49, 0, &m2714_MI);
+		uint16_t L_50 = m2738(L_49, 0, &m2738_MI);
 		t2* L_51 = p0;
 		int32_t L_52 = V_0;
-		uint16_t L_53 = m2714(L_51, L_52, &m2714_MI);
-		uint16_t L_54 = m5481(__this, L_53, &m5481_MI);
+		uint16_t L_53 = m2738(L_51, L_52, &m2738_MI);
+		uint16_t L_54 = m5509(__this, L_53, &m5509_MI);
 		if ((!(((uint32_t)L_50) == ((uint32_t)L_54))))
 		{
 			goto IL_0138;
@@ -12268,7 +12268,7 @@ IL_0145:
 	{
 		int32_t L_59 = p2;
 		t2* L_60 = p0;
-		int32_t L_61 = m2699(L_60, &m2699_MI);
+		int32_t L_61 = m2723(L_60, &m2723_MI);
 		int32_t L_62 = (__this->f1);
 		if ((((int32_t)L_59) <= ((int32_t)((int32_t)((int32_t)L_61-(int32_t)L_62)))))
 		{
@@ -12277,7 +12277,7 @@ IL_0145:
 	}
 	{
 		t2* L_63 = p0;
-		int32_t L_64 = m2699(L_63, &m2699_MI);
+		int32_t L_64 = m2723(L_63, &m2723_MI);
 		int32_t L_65 = (__this->f1);
 		p2 = ((int32_t)((int32_t)L_64-(int32_t)L_65));
 	}
@@ -12313,12 +12313,12 @@ IL_0187:
 	{
 		t2* L_70 = (__this->f0);
 		int32_t L_71 = V_2;
-		uint16_t L_72 = m2714(L_70, L_71, &m2714_MI);
+		uint16_t L_72 = m2738(L_70, L_71, &m2738_MI);
 		t2* L_73 = p0;
 		int32_t L_74 = V_0;
 		int32_t L_75 = V_2;
-		uint16_t L_76 = m2714(L_73, ((int32_t)((int32_t)L_74+(int32_t)L_75)), &m2714_MI);
-		uint16_t L_77 = m5481(__this, L_76, &m5481_MI);
+		uint16_t L_76 = m2738(L_73, ((int32_t)((int32_t)L_74+(int32_t)L_75)), &m2738_MI);
+		uint16_t L_77 = m5509(__this, L_76, &m5509_MI);
 		if ((((int32_t)L_72) == ((int32_t)L_77)))
 		{
 			goto IL_017a;
@@ -12337,8 +12337,8 @@ IL_0187:
 		t2* L_81 = p0;
 		int32_t L_82 = V_0;
 		int32_t L_83 = (__this->f1);
-		uint16_t L_84 = m2714(L_81, ((int32_t)((int32_t)L_82+(int32_t)L_83)), &m2714_MI);
-		int32_t L_85 = m5480(__this, L_84, &m5480_MI);
+		uint16_t L_84 = m2738(L_81, ((int32_t)((int32_t)L_82+(int32_t)L_83)), &m2738_MI);
+		int32_t L_85 = m5508(__this, L_84, &m5508_MI);
 		V_0 = ((int32_t)((int32_t)L_80+(int32_t)L_85));
 		goto IL_01cf;
 	}
@@ -12363,14 +12363,14 @@ IL_01d6:
 		return (-1);
 	}
 }
-extern TypeInfo* t723_TI_var;
-extern "C" void m5479 (t1289 * __this, MethodInfo* method)
+extern TypeInfo* t730_TI_var;
+extern "C" void m5507 (t1298 * __this, MethodInfo* method)
 {
-	static bool m5479_init;
-	if (!m5479_init)
+	static bool m5507_init;
+	if (!m5507_init)
 	{
-		t723_TI_var = il2cpp_codegen_class_from_type(&t723_0_0_0);
-		m5479_init = true;
+		t730_TI_var = il2cpp_codegen_class_from_type(&t730_0_0_0);
+		m5507_init = true;
 	}
 	bool V_0 = false;
 	uint8_t V_1 = 0x0;
@@ -12395,7 +12395,7 @@ IL_0017:
 	{
 		t2* L_1 = (__this->f0);
 		int32_t L_2 = V_2;
-		uint16_t L_3 = m2714(L_1, L_2, &m2714_MI);
+		uint16_t L_3 = m2738(L_1, L_2, &m2738_MI);
 		V_3 = L_3;
 		uint16_t L_4 = V_3;
 		if ((((int32_t)L_4) > ((int32_t)((int32_t)255))))
@@ -12443,7 +12443,7 @@ IL_0045:
 	}
 	{
 		uint8_t L_11 = V_1;
-		__this->f4 = ((t723*)SZArrayNew(t723_TI_var, ((int32_t)((int32_t)L_11+(int32_t)1))));
+		__this->f4 = ((t730*)SZArrayNew(t730_TI_var, ((int32_t)((int32_t)L_11+(int32_t)1))));
 		bool L_12 = V_0;
 		if (!L_12)
 		{
@@ -12451,9 +12451,9 @@ IL_0045:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1149_TI));
-		t1149 * L_13 = (t1149 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1149_TI));
-		m5883(L_13, &m5883_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1158_TI));
+		t1158 * L_13 = (t1158 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1158_TI));
+		m5911(L_13, &m5911_MI);
 		__this->f5 = L_13;
 	}
 
@@ -12492,10 +12492,10 @@ IL_0098:
 
 IL_009c:
 	{
-		uint16_t L_19 = m2714(G_B14_1, G_B14_0, &m2714_MI);
+		uint16_t L_19 = m2738(G_B14_1, G_B14_0, &m2738_MI);
 		V_6 = L_19;
 		uint16_t L_20 = V_6;
-		t723* L_21 = (__this->f4);
+		t730* L_21 = (__this->f4);
 		if ((((int32_t)L_20) >= ((int32_t)(((int32_t)(((t121 *)L_21)->max_length))))))
 		{
 			goto IL_00dd;
@@ -12509,7 +12509,7 @@ IL_009c:
 		}
 	}
 	{
-		t723* L_23 = (__this->f4);
+		t730* L_23 = (__this->f4);
 		uint16_t L_24 = V_6;
 		int32_t L_25 = V_5;
 		*((uint8_t*)(uint8_t*)SZArrayLdElema(L_23, L_24)) = (uint8_t)(((uint8_t)L_25));
@@ -12518,21 +12518,21 @@ IL_009c:
 
 IL_00cf:
 	{
-		t723* L_26 = (__this->f4);
+		t730* L_26 = (__this->f4);
 		uint16_t L_27 = V_6;
 		*((uint8_t*)(uint8_t*)SZArrayLdElema(L_26, L_27)) = (uint8_t)((int32_t)255);
 	}
 
 IL_00dd:
 	{
-		t1149 * L_28 = (__this->f5);
+		t1158 * L_28 = (__this->f5);
 		uint16_t L_29 = V_6;
 		uint16_t L_30 = L_29;
-		t9 * L_31 = Box(InitializedTypeInfo(&t296_TI), &L_30);
+		t9 * L_31 = Box(InitializedTypeInfo(&t303_TI), &L_30);
 		int32_t L_32 = V_5;
 		int32_t L_33 = L_32;
 		t9 * L_34 = Box(InitializedTypeInfo(&t125_TI), &L_33);
-		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5891_MI, L_28, L_31, L_34);
+		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5919_MI, L_28, L_31, L_34);
 	}
 
 IL_00f6:
@@ -12556,13 +12556,13 @@ IL_0102:
 		return;
 	}
 }
-extern "C" int32_t m5480 (t1289 * __this, uint16_t p0, MethodInfo* method)
+extern "C" int32_t m5508 (t1298 * __this, uint16_t p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	t9 * V_1 = {0};
 	int32_t G_B15_0 = 0;
 	{
-		t723* L_0 = (__this->f4);
+		t730* L_0 = (__this->f4);
 		if (L_0)
 		{
 			goto IL_000d;
@@ -12575,17 +12575,17 @@ extern "C" int32_t m5480 (t1289 * __this, uint16_t p0, MethodInfo* method)
 IL_000d:
 	{
 		uint16_t L_1 = p0;
-		uint16_t L_2 = m5481(__this, L_1, &m5481_MI);
+		uint16_t L_2 = m5509(__this, L_1, &m5509_MI);
 		p0 = L_2;
 		uint16_t L_3 = p0;
-		t723* L_4 = (__this->f4);
+		t730* L_4 = (__this->f4);
 		if ((((int32_t)L_3) >= ((int32_t)(((int32_t)(((t121 *)L_4)->max_length))))))
 		{
 			goto IL_004e;
 		}
 	}
 	{
-		t723* L_5 = (__this->f4);
+		t730* L_5 = (__this->f4);
 		uint16_t L_6 = p0;
 		uint16_t L_7 = L_6;
 		V_0 = (*(uint8_t*)(uint8_t*)SZArrayLdElema(L_5, L_7));
@@ -12633,7 +12633,7 @@ IL_004e:
 
 IL_0062:
 	{
-		t1149 * L_14 = (__this->f5);
+		t1158 * L_14 = (__this->f5);
 		if (L_14)
 		{
 			goto IL_0076;
@@ -12646,11 +12646,11 @@ IL_0062:
 
 IL_0076:
 	{
-		t1149 * L_16 = (__this->f5);
+		t1158 * L_16 = (__this->f5);
 		uint16_t L_17 = p0;
 		uint16_t L_18 = L_17;
-		t9 * L_19 = Box(InitializedTypeInfo(&t296_TI), &L_18);
-		t9 * L_20 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5707_MI, L_16, L_19);
+		t9 * L_19 = Box(InitializedTypeInfo(&t303_TI), &L_18);
+		t9 * L_20 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5735_MI, L_16, L_19);
 		V_1 = L_20;
 		t9 * L_21 = V_1;
 		if (!L_21)
@@ -12675,7 +12675,7 @@ IL_00a1:
 		return G_B15_0;
 	}
 }
-extern "C" uint16_t m5481 (t1289 * __this, uint16_t p0, MethodInfo* method)
+extern "C" uint16_t m5509 (t1298 * __this, uint16_t p0, MethodInfo* method)
 {
 	uint16_t G_B3_0 = 0x0;
 	{
@@ -12694,8 +12694,8 @@ extern "C" uint16_t m5481 (t1289 * __this, uint16_t p0, MethodInfo* method)
 IL_0011:
 	{
 		uint16_t L_2 = p0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		uint16_t L_3 = m2769(NULL, L_2, &m2769_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		uint16_t L_3 = m2793(NULL, L_2, &m2793_MI);
 		G_B3_0 = L_3;
 	}
 
@@ -12704,56 +12704,56 @@ IL_0017:
 		return G_B3_0;
 	}
 }
-#include "t1301.h"
+#include "t1310.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1301_TI;
-#include "t1301MD.h"
+extern TypeInfo t1310_TI;
+#include "t1310MD.h"
 
-#include "t315.h"
-extern TypeInfo t315_TI;
-#include "t315MD.h"
-#include "t930MD.h"
-extern MethodInfo m5489_MI;
-extern MethodInfo m1150_MI;
-extern MethodInfo m5484_MI;
-extern MethodInfo m1156_MI;
-extern MethodInfo m1154_MI;
-extern MethodInfo m5871_MI;
-extern MethodInfo m5245_MI;
-extern MethodInfo m5228_MI;
-extern MethodInfo m5224_MI;
-extern MethodInfo m5225_MI;
-extern MethodInfo m5912_MI;
-extern MethodInfo m5486_MI;
-extern MethodInfo m5487_MI;
-extern MethodInfo m5490_MI;
-extern MethodInfo m5488_MI;
-extern MethodInfo m5294_MI;
-extern MethodInfo m2713_MI;
-extern MethodInfo m5283_MI;
+#include "t322.h"
+extern TypeInfo t322_TI;
+#include "t322MD.h"
+#include "t937MD.h"
+extern MethodInfo m5517_MI;
+extern MethodInfo m1165_MI;
+extern MethodInfo m5512_MI;
+extern MethodInfo m1171_MI;
+extern MethodInfo m1169_MI;
+extern MethodInfo m5899_MI;
+extern MethodInfo m5273_MI;
+extern MethodInfo m5256_MI;
+extern MethodInfo m5252_MI;
+extern MethodInfo m5253_MI;
+extern MethodInfo m5940_MI;
+extern MethodInfo m5514_MI;
+extern MethodInfo m5515_MI;
+extern MethodInfo m5518_MI;
+extern MethodInfo m5516_MI;
+extern MethodInfo m5322_MI;
+extern MethodInfo m2737_MI;
+extern MethodInfo m5311_MI;
 
 
-extern MethodInfo m5482_MI;
-extern "C" void m5482 (t1301 * __this, t930 * p0, t2* p1, MethodInfo* method)
+extern MethodInfo m5510_MI;
+extern "C" void m5510 (t1310 * __this, t937 * p0, t2* p1, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
-		t930 * L_0 = p0;
+		t937 * L_0 = p0;
 		__this->f0 = L_0;
 		t2* L_1 = p1;
 		__this->f3 = L_1;
-		__this->f2 = (t1088*)NULL;
+		__this->f2 = (t1095*)NULL;
 		__this->f1 = 0;
-		m5489(__this, &m5489_MI);
+		m5517(__this, &m5517_MI);
 		return;
 	}
 }
-extern MethodInfo m5483_MI;
-extern "C" t2* m5483 (t1301 * __this, t1252 * p0, MethodInfo* method)
+extern MethodInfo m5511_MI;
+extern "C" t2* m5511 (t1310 * __this, t1261 * p0, MethodInfo* method)
 {
-	t315 * V_0 = {0};
+	t322 * V_0 = {0};
 	{
 		int32_t L_0 = (__this->f1);
 		if (L_0)
@@ -12768,23 +12768,23 @@ extern "C" t2* m5483 (t1301 * __this, t1252 * p0, MethodInfo* method)
 
 IL_0012:
 	{
-		t315 * L_2 = (t315 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t315_TI));
-		m1150(L_2, &m1150_MI);
+		t322 * L_2 = (t322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t322_TI));
+		m1165(L_2, &m1165_MI);
 		V_0 = L_2;
-		t1252 * L_3 = p0;
-		t315 * L_4 = V_0;
-		m5484(__this, L_3, L_4, &m5484_MI);
-		t315 * L_5 = V_0;
-		t2* L_6 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1156_MI, L_5);
+		t1261 * L_3 = p0;
+		t322 * L_4 = V_0;
+		m5512(__this, L_3, L_4, &m5512_MI);
+		t322 * L_5 = V_0;
+		t2* L_6 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1171_MI, L_5);
 		return L_6;
 	}
 }
-extern "C" void m5484 (t1301 * __this, t1252 * p0, t315 * p1, MethodInfo* method)
+extern "C" void m5512 (t1310 * __this, t1261 * p0, t322 * p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	t1258 * V_3 = {0};
+	t1267 * V_3 = {0};
 	int32_t V_4 = 0;
 	{
 		int32_t L_0 = (__this->f1);
@@ -12794,9 +12794,9 @@ extern "C" void m5484 (t1301 * __this, t1252 * p0, t315 * p1, MethodInfo* method
 		}
 	}
 	{
-		t315 * L_1 = p1;
+		t322 * L_1 = p1;
 		t2* L_2 = (__this->f3);
-		m1154(L_1, L_2, &m1154_MI);
+		m1169(L_1, L_2, &m1169_MI);
 		return;
 	}
 
@@ -12808,7 +12808,7 @@ IL_0019:
 
 IL_0020:
 	{
-		t1088* L_3 = (__this->f2);
+		t1095* L_3 = (__this->f2);
 		int32_t L_4 = V_0;
 		int32_t L_5 = L_4;
 		V_0 = ((int32_t)((int32_t)L_5+(int32_t)1));
@@ -12821,17 +12821,17 @@ IL_0020:
 		}
 	}
 	{
-		t1088* L_8 = (__this->f2);
+		t1095* L_8 = (__this->f2);
 		int32_t L_9 = V_0;
 		int32_t L_10 = L_9;
 		V_0 = ((int32_t)((int32_t)L_10+(int32_t)1));
 		int32_t L_11 = L_10;
 		V_2 = (*(int32_t*)(int32_t*)SZArrayLdElema(L_8, L_11));
-		t315 * L_12 = p1;
+		t322 * L_12 = p1;
 		t2* L_13 = (__this->f3);
 		int32_t L_14 = V_1;
 		int32_t L_15 = V_2;
-		m5871(L_12, L_13, L_14, L_15, &m5871_MI);
+		m5899(L_12, L_13, L_14, L_15, &m5899_MI);
 		goto IL_00f1;
 	}
 
@@ -12844,19 +12844,19 @@ IL_0055:
 		}
 	}
 	{
-		t1252 * L_17 = p0;
-		t1259 * L_18 = (t1259 *)VirtFuncInvoker0< t1259 * >::Invoke(&m5255_MI, L_17);
+		t1261 * L_17 = p0;
+		t1268 * L_18 = (t1268 *)VirtFuncInvoker0< t1268 * >::Invoke(&m5283_MI, L_17);
 		int32_t L_19 = V_1;
-		t1258 * L_20 = m5245(L_18, ((-((int32_t)((int32_t)L_19+(int32_t)4)))), &m5245_MI);
+		t1267 * L_20 = m5273(L_18, ((-((int32_t)((int32_t)L_19+(int32_t)4)))), &m5273_MI);
 		V_3 = L_20;
-		t315 * L_21 = p1;
-		t1258 * L_22 = V_3;
-		t2* L_23 = m5228(L_22, &m5228_MI);
-		t1258 * L_24 = V_3;
-		int32_t L_25 = m5224(L_24, &m5224_MI);
-		t1258 * L_26 = V_3;
-		int32_t L_27 = m5225(L_26, &m5225_MI);
-		m5871(L_21, L_23, L_25, L_27, &m5871_MI);
+		t322 * L_21 = p1;
+		t1267 * L_22 = V_3;
+		t2* L_23 = m5256(L_22, &m5256_MI);
+		t1267 * L_24 = V_3;
+		int32_t L_25 = m5252(L_24, &m5252_MI);
+		t1267 * L_26 = V_3;
+		int32_t L_27 = m5253(L_26, &m5253_MI);
+		m5899(L_21, L_23, L_25, L_27, &m5899_MI);
 		goto IL_00f1;
 	}
 
@@ -12869,10 +12869,10 @@ IL_008b:
 		}
 	}
 	{
-		t315 * L_29 = p1;
-		t1252 * L_30 = p0;
-		t2* L_31 = m5228(L_30, &m5228_MI);
-		m1154(L_29, L_31, &m1154_MI);
+		t322 * L_29 = p1;
+		t1261 * L_30 = p0;
+		t2* L_31 = m5256(L_30, &m5256_MI);
+		m1169(L_29, L_31, &m1169_MI);
 		goto IL_00f1;
 	}
 
@@ -12885,31 +12885,31 @@ IL_00a4:
 		}
 	}
 	{
-		t315 * L_33 = p1;
-		t1252 * L_34 = p0;
-		t2* L_35 = m5228(L_34, &m5228_MI);
-		t1252 * L_36 = p0;
-		int32_t L_37 = m5224(L_36, &m5224_MI);
-		m5871(L_33, L_35, 0, L_37, &m5871_MI);
+		t322 * L_33 = p1;
+		t1261 * L_34 = p0;
+		t2* L_35 = m5256(L_34, &m5256_MI);
+		t1261 * L_36 = p0;
+		int32_t L_37 = m5252(L_36, &m5252_MI);
+		m5899(L_33, L_35, 0, L_37, &m5899_MI);
 		goto IL_00f1;
 	}
 
 IL_00c5:
 	{
-		t1252 * L_38 = p0;
-		int32_t L_39 = m5224(L_38, &m5224_MI);
-		t1252 * L_40 = p0;
-		int32_t L_41 = m5225(L_40, &m5225_MI);
+		t1261 * L_38 = p0;
+		int32_t L_39 = m5252(L_38, &m5252_MI);
+		t1261 * L_40 = p0;
+		int32_t L_41 = m5253(L_40, &m5253_MI);
 		V_4 = ((int32_t)((int32_t)L_39+(int32_t)L_41));
-		t315 * L_42 = p1;
-		t1252 * L_43 = p0;
-		t2* L_44 = m5228(L_43, &m5228_MI);
+		t322 * L_42 = p1;
+		t1261 * L_43 = p0;
+		t2* L_44 = m5256(L_43, &m5256_MI);
 		int32_t L_45 = V_4;
-		t1252 * L_46 = p0;
-		t2* L_47 = m5228(L_46, &m5228_MI);
-		int32_t L_48 = m2699(L_47, &m2699_MI);
+		t1261 * L_46 = p0;
+		t2* L_47 = m5256(L_46, &m5256_MI);
+		int32_t L_48 = m2723(L_47, &m2723_MI);
 		int32_t L_49 = V_4;
-		m5871(L_42, L_44, L_45, ((int32_t)((int32_t)L_48-(int32_t)L_49)), &m5871_MI);
+		m5899(L_42, L_44, L_45, ((int32_t)((int32_t)L_48-(int32_t)L_49)), &m5899_MI);
 	}
 
 IL_00f1:
@@ -12925,8 +12925,8 @@ IL_00f1:
 		return;
 	}
 }
-extern MethodInfo m5485_MI;
-extern "C" bool m5485 (t1301 * __this, MethodInfo* method)
+extern MethodInfo m5513_MI;
+extern "C" bool m5513 (t1310 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f1);
@@ -12944,19 +12944,19 @@ IL_000d:
 		return 1;
 	}
 }
-extern TypeInfo* t1088_TI_var;
-extern "C" void m5486 (t1301 * __this, int32_t p0, MethodInfo* method)
+extern TypeInfo* t1095_TI_var;
+extern "C" void m5514 (t1310 * __this, int32_t p0, MethodInfo* method)
 {
-	static bool m5486_init;
-	if (!m5486_init)
+	static bool m5514_init;
+	if (!m5514_init)
 	{
-		t1088_TI_var = il2cpp_codegen_class_from_type(&t1088_0_0_0);
-		m5486_init = true;
+		t1095_TI_var = il2cpp_codegen_class_from_type(&t1095_0_0_0);
+		m5514_init = true;
 	}
 	int32_t V_0 = 0;
-	t1088* V_1 = {0};
+	t1095* V_1 = {0};
 	{
-		t1088* L_0 = (__this->f2);
+		t1095* L_0 = (__this->f2);
 		if (L_0)
 		{
 			goto IL_0027;
@@ -12979,22 +12979,22 @@ extern "C" void m5486 (t1301 * __this, int32_t p0, MethodInfo* method)
 IL_0016:
 	{
 		int32_t L_4 = V_0;
-		__this->f2 = ((t1088*)SZArrayNew(t1088_TI_var, L_4));
+		__this->f2 = ((t1095*)SZArrayNew(t1095_TI_var, L_4));
 		goto IL_0072;
 	}
 
 IL_0027:
 	{
 		int32_t L_5 = p0;
-		t1088* L_6 = (__this->f2);
+		t1095* L_6 = (__this->f2);
 		if ((((int32_t)L_5) < ((int32_t)(((int32_t)(((t121 *)L_6)->max_length))))))
 		{
 			goto IL_0072;
 		}
 	}
 	{
-		t1088* L_7 = (__this->f2);
-		t1088* L_8 = (__this->f2);
+		t1095* L_7 = (__this->f2);
+		t1095* L_8 = (__this->f2);
 		V_0 = ((int32_t)((int32_t)(((int32_t)(((t121 *)L_7)->max_length)))+(int32_t)((int32_t)((int32_t)(((int32_t)(((t121 *)L_8)->max_length)))>>(int32_t)1))));
 		int32_t L_9 = V_0;
 		int32_t L_10 = p0;
@@ -13011,12 +13011,12 @@ IL_0027:
 IL_0052:
 	{
 		int32_t L_12 = V_0;
-		V_1 = ((t1088*)SZArrayNew(t1088_TI_var, L_12));
-		t1088* L_13 = (__this->f2);
-		t1088* L_14 = V_1;
+		V_1 = ((t1095*)SZArrayNew(t1095_TI_var, L_12));
+		t1095* L_13 = (__this->f2);
+		t1095* L_14 = V_1;
 		int32_t L_15 = (__this->f1);
-		m5912(NULL, (t121 *)(t121 *)L_13, (t121 *)(t121 *)L_14, L_15, &m5912_MI);
-		t1088* L_16 = V_1;
+		m5940(NULL, (t121 *)(t121 *)L_13, (t121 *)(t121 *)L_14, L_15, &m5940_MI);
+		t1095* L_16 = V_1;
 		__this->f2 = L_16;
 	}
 
@@ -13025,7 +13025,7 @@ IL_0072:
 		return;
 	}
 }
-extern "C" void m5487 (t1301 * __this, int32_t p0, int32_t p1, MethodInfo* method)
+extern "C" void m5515 (t1310 * __this, int32_t p0, int32_t p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -13043,8 +13043,8 @@ extern "C" void m5487 (t1301 * __this, int32_t p0, int32_t p1, MethodInfo* metho
 IL_0008:
 	{
 		int32_t L_2 = (__this->f1);
-		m5486(__this, ((int32_t)((int32_t)L_2+(int32_t)2)), &m5486_MI);
-		t1088* L_3 = (__this->f2);
+		m5514(__this, ((int32_t)((int32_t)L_2+(int32_t)2)), &m5514_MI);
+		t1095* L_3 = (__this->f2);
 		int32_t L_4 = (__this->f1);
 		int32_t L_5 = L_4;
 		V_0 = L_5;
@@ -13052,7 +13052,7 @@ IL_0008:
 		int32_t L_6 = V_0;
 		int32_t L_7 = p0;
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_3, L_6)) = (int32_t)L_7;
-		t1088* L_8 = (__this->f2);
+		t1095* L_8 = (__this->f2);
 		int32_t L_9 = (__this->f1);
 		int32_t L_10 = L_9;
 		V_0 = L_10;
@@ -13064,13 +13064,13 @@ IL_0008:
 		return;
 	}
 }
-extern "C" void m5488 (t1301 * __this, int32_t p0, MethodInfo* method)
+extern "C" void m5516 (t1310 * __this, int32_t p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
 		int32_t L_0 = (__this->f1);
-		m5486(__this, ((int32_t)((int32_t)L_0+(int32_t)1)), &m5486_MI);
-		t1088* L_1 = (__this->f2);
+		m5514(__this, ((int32_t)((int32_t)L_0+(int32_t)1)), &m5514_MI);
+		t1095* L_1 = (__this->f2);
 		int32_t L_2 = (__this->f1);
 		int32_t L_3 = L_2;
 		V_0 = L_3;
@@ -13081,7 +13081,7 @@ extern "C" void m5488 (t1301 * __this, int32_t p0, MethodInfo* method)
 		return;
 	}
 }
-extern "C" void m5489 (t1301 * __this, MethodInfo* method)
+extern "C" void m5517 (t1310 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -13100,7 +13100,7 @@ IL_0009:
 		int32_t L_1 = V_1;
 		int32_t L_2 = L_1;
 		V_1 = ((int32_t)((int32_t)L_2+(int32_t)1));
-		uint16_t L_3 = m2714(L_0, L_2, &m2714_MI);
+		uint16_t L_3 = m2738(L_0, L_2, &m2738_MI);
 		V_3 = L_3;
 		uint16_t L_4 = V_3;
 		if ((((int32_t)L_4) == ((int32_t)((int32_t)36))))
@@ -13116,7 +13116,7 @@ IL_0027:
 	{
 		int32_t L_5 = V_1;
 		t2* L_6 = (__this->f3);
-		int32_t L_7 = m2699(L_6, &m2699_MI);
+		int32_t L_7 = m2723(L_6, &m2723_MI);
 		if ((!(((uint32_t)L_5) == ((uint32_t)L_7))))
 		{
 			goto IL_003d;
@@ -13130,7 +13130,7 @@ IL_003d:
 	{
 		t2* L_8 = (__this->f3);
 		int32_t L_9 = V_1;
-		uint16_t L_10 = m2714(L_8, L_9, &m2714_MI);
+		uint16_t L_10 = m2738(L_8, L_9, &m2738_MI);
 		if ((!(((uint32_t)L_10) == ((uint32_t)((int32_t)36)))))
 		{
 			goto IL_0063;
@@ -13139,7 +13139,7 @@ IL_003d:
 	{
 		int32_t L_11 = V_0;
 		int32_t L_12 = V_1;
-		m5487(__this, L_11, L_12, &m5487_MI);
+		m5515(__this, L_11, L_12, &m5515_MI);
 		int32_t L_13 = V_1;
 		int32_t L_14 = ((int32_t)((int32_t)L_13+(int32_t)1));
 		V_1 = L_14;
@@ -13151,7 +13151,7 @@ IL_0063:
 	{
 		int32_t L_15 = V_1;
 		V_2 = ((int32_t)((int32_t)L_15-(int32_t)1));
-		int32_t L_16 = m5490(__this, (&V_1), &m5490_MI);
+		int32_t L_16 = m5518(__this, (&V_1), &m5518_MI);
 		V_4 = L_16;
 		int32_t L_17 = V_4;
 		if ((((int32_t)L_17) < ((int32_t)0)))
@@ -13167,9 +13167,9 @@ IL_007e:
 	{
 		int32_t L_18 = V_0;
 		int32_t L_19 = V_2;
-		m5487(__this, L_18, L_19, &m5487_MI);
+		m5515(__this, L_18, L_19, &m5515_MI);
 		int32_t L_20 = V_4;
-		m5488(__this, L_20, &m5488_MI);
+		m5516(__this, L_20, &m5516_MI);
 		int32_t L_21 = V_1;
 		V_0 = L_21;
 	}
@@ -13178,7 +13178,7 @@ IL_0090:
 	{
 		int32_t L_22 = V_1;
 		t2* L_23 = (__this->f3);
-		int32_t L_24 = m2699(L_23, &m2699_MI);
+		int32_t L_24 = m2723(L_23, &m2723_MI);
 		if ((((int32_t)L_22) < ((int32_t)L_24)))
 		{
 			goto IL_0009;
@@ -13196,7 +13196,7 @@ IL_00a1:
 	{
 		int32_t L_26 = V_0;
 		int32_t L_27 = V_1;
-		m5487(__this, L_26, L_27, &m5487_MI);
+		m5515(__this, L_26, L_27, &m5515_MI);
 	}
 
 IL_00af:
@@ -13204,7 +13204,7 @@ IL_00af:
 		return;
 	}
 }
-extern "C" int32_t m5490 (t1301 * __this, int32_t* p0, MethodInfo* method)
+extern "C" int32_t m5518 (t1310 * __this, int32_t* p0, MethodInfo* method)
 {
 	uint16_t V_0 = 0x0;
 	int32_t V_1 = 0;
@@ -13221,11 +13221,11 @@ extern "C" int32_t m5490 (t1301 * __this, int32_t* p0, MethodInfo* method)
 	{
 		t2* L_0 = (__this->f3);
 		int32_t* L_1 = p0;
-		uint16_t L_2 = m2714(L_0, (*((int32_t*)L_1)), &m2714_MI);
+		uint16_t L_2 = m2738(L_0, (*((int32_t*)L_1)), &m2738_MI);
 		V_0 = L_2;
 		uint16_t L_3 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		bool L_4 = m5897(NULL, L_3, &m5897_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		bool L_4 = m5925(NULL, L_3, &m5925_MI);
 		if (!L_4)
 		{
 			goto IL_0045;
@@ -13234,7 +13234,7 @@ extern "C" int32_t m5490 (t1301 * __this, int32_t* p0, MethodInfo* method)
 	{
 		t2* L_5 = (__this->f3);
 		int32_t* L_6 = p0;
-		int32_t L_7 = m5445(NULL, L_5, L_6, &m5445_MI);
+		int32_t L_7 = m5473(NULL, L_5, L_6, &m5473_MI);
 		V_1 = L_7;
 		int32_t L_8 = V_1;
 		if ((((int32_t)L_8) < ((int32_t)0)))
@@ -13244,8 +13244,8 @@ extern "C" int32_t m5490 (t1301 * __this, int32_t* p0, MethodInfo* method)
 	}
 	{
 		int32_t L_9 = V_1;
-		t930 * L_10 = (__this->f0);
-		int32_t L_11 = m5294(L_10, &m5294_MI);
+		t937 * L_10 = (__this->f0);
+		int32_t L_11 = m5322(L_10, &m5322_MI);
 		if ((((int32_t)L_9) <= ((int32_t)L_11)))
 		{
 			goto IL_0040;
@@ -13334,9 +13334,9 @@ IL_0092:
 		{
 			t2* L_20 = (__this->f3);
 			int32_t* L_21 = p0;
-			uint16_t L_22 = m2714(L_20, (*((int32_t*)L_21)), &m2714_MI);
-			IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-			bool L_23 = m5897(NULL, L_22, &m5897_MI);
+			uint16_t L_22 = m2738(L_20, (*((int32_t*)L_21)), &m2738_MI);
+			IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+			bool L_23 = m5925(NULL, L_22, &m5925_MI);
 			if (!L_23)
 			{
 				goto IL_00c1;
@@ -13347,7 +13347,7 @@ IL_00a9:
 		{
 			t2* L_24 = (__this->f3);
 			int32_t* L_25 = p0;
-			int32_t L_26 = m5445(NULL, L_24, L_25, &m5445_MI);
+			int32_t L_26 = m5473(NULL, L_24, L_25, &m5473_MI);
 			V_3 = L_26;
 			IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 			t2* L_27 = ((t2_SFs*)(&t2_TI)->static_fields)->f2;
@@ -13359,7 +13359,7 @@ IL_00c1:
 		{
 			t2* L_28 = (__this->f3);
 			int32_t* L_29 = p0;
-			t2* L_30 = m5449(NULL, L_28, L_29, &m5449_MI);
+			t2* L_30 = m5477(NULL, L_28, L_29, &m5477_MI);
 			V_2 = L_30;
 		}
 
@@ -13371,7 +13371,7 @@ IL_00ce:
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__exception_local = (t138 *)e.ex;
-		if(il2cpp_codegen_class_is_assignable_from (&t876_TI, e.ex->object.klass))
+		if(il2cpp_codegen_class_is_assignable_from (&t883_TI, e.ex->object.klass))
 			goto CATCH_00d3;
 		throw e;
 	}
@@ -13381,7 +13381,7 @@ CATCH_00d3:
 		{
 			int32_t* L_31 = p0;
 			t2* L_32 = (__this->f3);
-			int32_t L_33 = m2699(L_32, &m2699_MI);
+			int32_t L_33 = m2723(L_32, &m2723_MI);
 			*((int32_t*)(L_31)) = (int32_t)L_33;
 			V_5 = 0;
 			goto IL_017a;
@@ -13397,7 +13397,7 @@ IL_00ee:
 	{
 		int32_t* L_34 = p0;
 		t2* L_35 = (__this->f3);
-		int32_t L_36 = m2699(L_35, &m2699_MI);
+		int32_t L_36 = m2723(L_35, &m2723_MI);
 		if ((((int32_t)(*((int32_t*)L_34))) == ((int32_t)L_36)))
 		{
 			goto IL_011a;
@@ -13406,7 +13406,7 @@ IL_00ee:
 	{
 		t2* L_37 = (__this->f3);
 		int32_t* L_38 = p0;
-		uint16_t L_39 = m2714(L_37, (*((int32_t*)L_38)), &m2714_MI);
+		uint16_t L_39 = m2738(L_37, (*((int32_t*)L_38)), &m2738_MI);
 		if ((!(((uint32_t)L_39) == ((uint32_t)((int32_t)125)))))
 		{
 			goto IL_011a;
@@ -13433,16 +13433,16 @@ IL_011c:
 		t2* L_43 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		t2* L_44 = ((t2_SFs*)(&t2_TI)->static_fields)->f2;
-		bool L_45 = m2713(NULL, L_43, L_44, &m2713_MI);
+		bool L_45 = m2737(NULL, L_43, L_44, &m2737_MI);
 		if (!L_45)
 		{
 			goto IL_013f;
 		}
 	}
 	{
-		t930 * L_46 = (__this->f0);
+		t937 * L_46 = (__this->f0);
 		t2* L_47 = V_2;
-		int32_t L_48 = m5283(L_46, L_47, &m5283_MI);
+		int32_t L_48 = m5311(L_46, L_47, &m5311_MI);
 		V_3 = L_48;
 	}
 
@@ -13456,8 +13456,8 @@ IL_013f:
 	}
 	{
 		int32_t L_50 = V_3;
-		t930 * L_51 = (__this->f0);
-		int32_t L_52 = m5294(L_51, &m5294_MI);
+		t937 * L_51 = (__this->f0);
+		int32_t L_52 = m5322(L_51, &m5322_MI);
 		if ((((int32_t)L_50) <= ((int32_t)L_52)))
 		{
 			goto IL_0159;
@@ -13492,8 +13492,8 @@ IL_0164:
 
 IL_0167:
 	{
-		t930 * L_54 = (__this->f0);
-		int32_t L_55 = m5294(L_54, &m5294_MI);
+		t937 * L_54 = (__this->f0);
+		int32_t L_55 = m5322(L_54, &m5322_MI);
 		return ((int32_t)((int32_t)((-L_55))-(int32_t)4));
 	}
 
@@ -13513,61 +13513,61 @@ IL_017a:
 		return L_56;
 	}
 }
-#include "t1302.h"
+#include "t1311.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1302_TI;
-#include "t1302MD.h"
+extern TypeInfo t1311_TI;
+#include "t1311MD.h"
 
-#include "t1225MD.h"
-extern MethodInfo m5913_MI;
-extern MethodInfo m5914_MI;
-extern MethodInfo m5826_MI;
-extern MethodInfo m5915_MI;
+#include "t1234MD.h"
+extern MethodInfo m5941_MI;
+extern MethodInfo m5942_MI;
+extern MethodInfo m5854_MI;
+extern MethodInfo m5943_MI;
 
 
-extern MethodInfo m5491_MI;
-extern "C" void m5491 (t1302 * __this, MethodInfo* method)
+extern MethodInfo m5519_MI;
+extern "C" void m5519 (t1311 * __this, MethodInfo* method)
 {
 	{
-		m5826(__this, &m5826_MI);
+		m5854(__this, &m5854_MI);
 		return;
 	}
 }
-extern MethodInfo m5492_MI;
-extern "C" void m5492 (t1302 * __this, t1299 * p0, MethodInfo* method)
+extern MethodInfo m5520_MI;
+extern "C" void m5520 (t1311 * __this, t1308 * p0, MethodInfo* method)
 {
 	{
-		t9 * L_0 = m5913(__this, &m5913_MI);
-		t1299 * L_1 = p0;
-		InterfaceFuncInvoker1< int32_t, t9 * >::Invoke(&m5915_MI, L_0, L_1);
+		t9 * L_0 = m5941(__this, &m5941_MI);
+		t1308 * L_1 = p0;
+		InterfaceFuncInvoker1< int32_t, t9 * >::Invoke(&m5943_MI, L_0, L_1);
 		return;
 	}
 }
-extern MethodInfo m5493_MI;
-extern "C" t1299 * m5493 (t1302 * __this, int32_t p0, MethodInfo* method)
+extern MethodInfo m5521_MI;
+extern "C" t1308 * m5521 (t1311 * __this, int32_t p0, MethodInfo* method)
 {
 	{
-		t9 * L_0 = m5913(__this, &m5913_MI);
+		t9 * L_0 = m5941(__this, &m5941_MI);
 		int32_t L_1 = p0;
-		t9 * L_2 = (t9 *)InterfaceFuncInvoker1< t9 *, int32_t >::Invoke(&m5907_MI, L_0, L_1);
-		return ((t1299 *)Castclass(L_2, InitializedTypeInfo(&t1299_TI)));
+		t9 * L_2 = (t9 *)InterfaceFuncInvoker1< t9 *, int32_t >::Invoke(&m5935_MI, L_0, L_1);
+		return ((t1308 *)Castclass(L_2, InitializedTypeInfo(&t1308_TI)));
 	}
 }
-extern MethodInfo m5494_MI;
-extern "C" void m5494 (t1302 * __this, int32_t p0, t1299 * p1, MethodInfo* method)
+extern MethodInfo m5522_MI;
+extern "C" void m5522 (t1311 * __this, int32_t p0, t1308 * p1, MethodInfo* method)
 {
 	{
-		t9 * L_0 = m5913(__this, &m5913_MI);
+		t9 * L_0 = m5941(__this, &m5941_MI);
 		int32_t L_1 = p0;
-		t1299 * L_2 = p1;
-		InterfaceActionInvoker2< int32_t, t9 * >::Invoke(&m5914_MI, L_0, L_1, L_2);
+		t1308 * L_2 = p1;
+		InterfaceActionInvoker2< int32_t, t9 * >::Invoke(&m5942_MI, L_0, L_1, L_2);
 		return;
 	}
 }
-extern MethodInfo m5495_MI;
-extern "C" void m5495 (t1302 * __this, t9 * p0, MethodInfo* method)
+extern MethodInfo m5523_MI;
+extern "C" void m5523 (t1311 * __this, t9 * p0, MethodInfo* method)
 {
 	{
 		return;
@@ -13576,30 +13576,30 @@ extern "C" void m5495 (t1302 * __this, t9 * p0, MethodInfo* method)
 #ifndef _MSC_VER
 #else
 #endif
-#include "t1299MD.h"
+#include "t1308MD.h"
 
-#include "t1304.h"
-extern TypeInfo t1304_TI;
-#include "t1304MD.h"
-extern MethodInfo m5916_MI;
-extern MethodInfo m5497_MI;
-extern MethodInfo m5587_MI;
+#include "t1313.h"
+extern TypeInfo t1313_TI;
+#include "t1313MD.h"
+extern MethodInfo m5944_MI;
+extern MethodInfo m5525_MI;
+extern MethodInfo m5615_MI;
 
 
-extern MethodInfo m5496_MI;
-extern "C" void m5496 (t1299 * __this, MethodInfo* method)
+extern MethodInfo m5524_MI;
+extern "C" void m5524 (t1308 * __this, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
 		return;
 	}
 }
-extern "C" int32_t m5497 (t1299 * __this, MethodInfo* method)
+extern "C" int32_t m5525 (t1308 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		VirtActionInvoker2< int32_t*, int32_t* >::Invoke(&m5916_MI, __this, (&V_0), (&V_1));
+		VirtActionInvoker2< int32_t*, int32_t* >::Invoke(&m5944_MI, __this, (&V_0), (&V_1));
 		int32_t L_0 = V_0;
 		int32_t L_1 = V_1;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
@@ -13617,54 +13617,54 @@ IL_0013:
 		return (-1);
 	}
 }
-extern MethodInfo m5498_MI;
-extern "C" t1304 * m5498 (t1299 * __this, bool p0, MethodInfo* method)
+extern MethodInfo m5526_MI;
+extern "C" t1313 * m5526 (t1308 * __this, bool p0, MethodInfo* method)
 {
 	{
-		int32_t L_0 = m5497(__this, &m5497_MI);
-		t1304 * L_1 = (t1304 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1304_TI));
-		m5587(L_1, __this, L_0, &m5587_MI);
+		int32_t L_0 = m5525(__this, &m5525_MI);
+		t1313 * L_1 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
+		m5615(L_1, __this, L_0, &m5615_MI);
 		return L_1;
 	}
 }
-#include "t1305.h"
+#include "t1314.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1305_TI;
-#include "t1305MD.h"
+extern TypeInfo t1314_TI;
+#include "t1314MD.h"
 
-#include "t1225.h"
-extern TypeInfo t1225_TI;
-extern MethodInfo m5500_MI;
-extern MethodInfo m5843_MI;
-extern MethodInfo m5917_MI;
+#include "t1234.h"
+extern TypeInfo t1234_TI;
+extern MethodInfo m5528_MI;
+extern MethodInfo m5871_MI;
+extern MethodInfo m5945_MI;
 
 
-extern MethodInfo m5499_MI;
-extern "C" void m5499 (t1305 * __this, MethodInfo* method)
+extern MethodInfo m5527_MI;
+extern "C" void m5527 (t1314 * __this, MethodInfo* method)
 {
 	{
-		m5496(__this, &m5496_MI);
-		t1302 * L_0 = (t1302 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1302_TI));
-		m5491(L_0, &m5491_MI);
+		m5524(__this, &m5524_MI);
+		t1311 * L_0 = (t1311 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1311_TI));
+		m5519(L_0, &m5519_MI);
 		__this->f0 = L_0;
 		return;
 	}
 }
-extern "C" t1302 * m5500 (t1305 * __this, MethodInfo* method)
+extern "C" t1311 * m5528 (t1314 * __this, MethodInfo* method)
 {
 	{
-		t1302 * L_0 = (__this->f0);
+		t1311 * L_0 = (__this->f0);
 		return L_0;
 	}
 }
-extern MethodInfo m5501_MI;
-extern "C" void m5501 (t1305 * __this, int32_t* p0, int32_t* p1, int32_t p2, MethodInfo* method)
+extern MethodInfo m5529_MI;
+extern "C" void m5529 (t1314 * __this, int32_t* p0, int32_t* p1, int32_t p2, MethodInfo* method)
 {
 	bool V_0 = false;
 	int32_t V_1 = 0;
-	t1299 * V_2 = {0};
+	t1308 * V_2 = {0};
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
@@ -13680,11 +13680,11 @@ extern "C" void m5501 (t1305 * __this, int32_t* p0, int32_t* p1, int32_t p2, Met
 
 IL_0013:
 	{
-		t1302 * L_2 = m5500(__this, &m5500_MI);
+		t1311 * L_2 = m5528(__this, &m5528_MI);
 		int32_t L_3 = V_1;
-		t1299 * L_4 = m5493(L_2, L_3, &m5493_MI);
+		t1308 * L_4 = m5521(L_2, L_3, &m5521_MI);
 		V_2 = L_4;
-		t1299 * L_5 = V_2;
+		t1308 * L_5 = V_2;
 		if (L_5)
 		{
 			goto IL_002b;
@@ -13697,8 +13697,8 @@ IL_0013:
 IL_002b:
 	{
 		V_0 = 0;
-		t1299 * L_6 = V_2;
-		VirtActionInvoker2< int32_t*, int32_t* >::Invoke(&m5916_MI, L_6, (&V_3), (&V_4));
+		t1308 * L_6 = V_2;
+		VirtActionInvoker2< int32_t*, int32_t* >::Invoke(&m5944_MI, L_6, (&V_3), (&V_4));
 		int32_t L_7 = V_3;
 		int32_t* L_8 = p0;
 		if ((((int32_t)L_7) >= ((int32_t)(*((int32_t*)L_8)))))
@@ -13764,10 +13764,10 @@ IL_006a:
 		return;
 	}
 }
-extern MethodInfo m5502_MI;
-extern "C" bool m5502 (t1305 * __this, MethodInfo* method)
+extern MethodInfo m5530_MI;
+extern "C" bool m5530 (t1314 * __this, MethodInfo* method)
 {
-	t1299 * V_0 = {0};
+	t1308 * V_0 = {0};
 	t9 * V_1 = {0};
 	bool V_2 = false;
 	t9 * V_3 = {0};
@@ -13778,8 +13778,8 @@ extern "C" bool m5502 (t1305 * __this, MethodInfo* method)
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		t1302 * L_0 = m5500(__this, &m5500_MI);
-		t9 * L_1 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5843_MI, L_0);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
+		t9 * L_1 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5871_MI, L_0);
 		V_1 = L_1;
 	}
 
@@ -13794,9 +13794,9 @@ IL_0011:
 		{
 			t9 * L_2 = V_1;
 			t9 * L_3 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m361_MI, L_2);
-			V_0 = ((t1299 *)Castclass(L_3, InitializedTypeInfo(&t1299_TI)));
-			t1299 * L_4 = V_0;
-			bool L_5 = (bool)VirtFuncInvoker0< bool >::Invoke(&m5917_MI, L_4);
+			V_0 = ((t1308 *)Castclass(L_3, InitializedTypeInfo(&t1308_TI)));
+			t1308 * L_4 = V_0;
+			bool L_5 = (bool)VirtFuncInvoker0< bool >::Invoke(&m5945_MI, L_4);
 			if (!L_5)
 			{
 				goto IL_002f;
@@ -13863,7 +13863,7 @@ IL_004a:
 
 IL_0051:
 	{
-		int32_t L_11 = m5497(__this, &m5497_MI);
+		int32_t L_11 = m5525(__this, &m5525_MI);
 		return ((((int32_t)((((int32_t)L_11) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -13877,55 +13877,55 @@ IL_005e:
 #else
 #endif
 
-#include "t1361.h"
-extern TypeInfo t1303_TI;
-extern TypeInfo t1362_TI;
-extern TypeInfo t1361_TI;
-#include "t1362MD.h"
-#include "t1361MD.h"
-extern MethodInfo m5804_MI;
-extern MethodInfo m5918_MI;
-extern MethodInfo m5599_MI;
-extern MethodInfo m5590_MI;
-extern MethodInfo m5597_MI;
-extern MethodInfo m5589_MI;
-extern MethodInfo m5598_MI;
-extern MethodInfo m5600_MI;
-extern MethodInfo m5593_MI;
-extern MethodInfo m5591_MI;
-extern MethodInfo m5596_MI;
-extern MethodInfo m5595_MI;
-extern MethodInfo m5856_MI;
-extern MethodInfo m5588_MI;
-extern MethodInfo m5919_MI;
-extern MethodInfo m5920_MI;
+#include "t1370.h"
+extern TypeInfo t1312_TI;
+extern TypeInfo t1371_TI;
+extern TypeInfo t1370_TI;
+#include "t1371MD.h"
+#include "t1370MD.h"
+extern MethodInfo m5832_MI;
+extern MethodInfo m5946_MI;
+extern MethodInfo m5627_MI;
+extern MethodInfo m5618_MI;
+extern MethodInfo m5625_MI;
+extern MethodInfo m5617_MI;
+extern MethodInfo m5626_MI;
+extern MethodInfo m5628_MI;
+extern MethodInfo m5621_MI;
+extern MethodInfo m5619_MI;
+extern MethodInfo m5624_MI;
+extern MethodInfo m5623_MI;
+extern MethodInfo m5884_MI;
+extern MethodInfo m5616_MI;
+extern MethodInfo m5947_MI;
+extern MethodInfo m5948_MI;
 
 
-extern "C" void m5503 (t1297 * __this, MethodInfo* method)
+extern "C" void m5531 (t1306 * __this, MethodInfo* method)
 {
 	{
-		m5499(__this, &m5499_MI);
+		m5527(__this, &m5527_MI);
 		return;
 	}
 }
-extern "C" void m5504 (t1297 * __this, t1299 * p0, MethodInfo* method)
+extern "C" void m5532 (t1306 * __this, t1308 * p0, MethodInfo* method)
 {
 	{
-		t1302 * L_0 = m5500(__this, &m5500_MI);
-		t1299 * L_1 = p0;
-		m5492(L_0, L_1, &m5492_MI);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
+		t1308 * L_1 = p0;
+		m5520(L_0, L_1, &m5520_MI);
 		return;
 	}
 }
-extern MethodInfo m5505_MI;
-extern "C" void m5505 (t1297 * __this, t9 * p0, bool p1, MethodInfo* method)
+extern MethodInfo m5533_MI;
+extern "C" void m5533 (t1306 * __this, t9 * p0, bool p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	t1299 * V_2 = {0};
+	t1308 * V_2 = {0};
 	{
-		t1302 * L_0 = m5500(__this, &m5500_MI);
-		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5804_MI, L_0);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
+		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5832_MI, L_0);
 		V_0 = L_1;
 		V_1 = 0;
 		goto IL_0048;
@@ -13940,28 +13940,28 @@ IL_0013:
 		}
 	}
 	{
-		t1302 * L_3 = m5500(__this, &m5500_MI);
+		t1311 * L_3 = m5528(__this, &m5528_MI);
 		int32_t L_4 = V_0;
 		int32_t L_5 = V_1;
-		t1299 * L_6 = m5493(L_3, ((int32_t)((int32_t)((int32_t)((int32_t)L_4-(int32_t)L_5))-(int32_t)1)), &m5493_MI);
+		t1308 * L_6 = m5521(L_3, ((int32_t)((int32_t)((int32_t)((int32_t)L_4-(int32_t)L_5))-(int32_t)1)), &m5521_MI);
 		V_2 = L_6;
 		goto IL_003c;
 	}
 
 IL_002f:
 	{
-		t1302 * L_7 = m5500(__this, &m5500_MI);
+		t1311 * L_7 = m5528(__this, &m5528_MI);
 		int32_t L_8 = V_1;
-		t1299 * L_9 = m5493(L_7, L_8, &m5493_MI);
+		t1308 * L_9 = m5521(L_7, L_8, &m5521_MI);
 		V_2 = L_9;
 	}
 
 IL_003c:
 	{
-		t1299 * L_10 = V_2;
+		t1308 * L_10 = V_2;
 		t9 * L_11 = p0;
 		bool L_12 = p1;
-		VirtActionInvoker2< t9 *, bool >::Invoke(&m5918_MI, L_10, L_11, L_12);
+		VirtActionInvoker2< t9 *, bool >::Invoke(&m5946_MI, L_10, L_11, L_12);
 		int32_t L_13 = V_1;
 		V_1 = ((int32_t)((int32_t)L_13+(int32_t)1));
 	}
@@ -13979,10 +13979,10 @@ IL_0048:
 		return;
 	}
 }
-extern MethodInfo m5506_MI;
-extern "C" void m5506 (t1297 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
+extern MethodInfo m5534_MI;
+extern "C" void m5534 (t1306 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
 {
-	t1299 * V_0 = {0};
+	t1308 * V_0 = {0};
 	t9 * V_1 = {0};
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
@@ -13998,8 +13998,8 @@ extern "C" void m5506 (t1297 * __this, int32_t* p0, int32_t* p1, MethodInfo* met
 		*((int32_t*)(L_0)) = (int32_t)0;
 		int32_t* L_1 = p1;
 		*((int32_t*)(L_1)) = (int32_t)0;
-		t1302 * L_2 = m5500(__this, &m5500_MI);
-		t9 * L_3 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5843_MI, L_2);
+		t1311 * L_2 = m5528(__this, &m5528_MI);
+		t9 * L_3 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5871_MI, L_2);
 		V_1 = L_3;
 	}
 
@@ -14014,9 +14014,9 @@ IL_0017:
 		{
 			t9 * L_4 = V_1;
 			t9 * L_5 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m361_MI, L_4);
-			V_0 = ((t1299 *)Castclass(L_5, InitializedTypeInfo(&t1299_TI)));
-			t1299 * L_6 = V_0;
-			VirtActionInvoker2< int32_t*, int32_t* >::Invoke(&m5916_MI, L_6, (&V_2), (&V_3));
+			V_0 = ((t1308 *)Castclass(L_5, InitializedTypeInfo(&t1308_TI)));
+			t1308 * L_6 = V_0;
+			VirtActionInvoker2< int32_t*, int32_t* >::Invoke(&m5944_MI, L_6, (&V_2), (&V_3));
 			int32_t* L_7 = p0;
 			int32_t* L_8 = p0;
 			int32_t L_9 = V_2;
@@ -14108,27 +14108,27 @@ IL_0081:
 		return;
 	}
 }
-extern MethodInfo m5507_MI;
-extern "C" t1304 * m5507 (t1297 * __this, bool p0, MethodInfo* method)
+extern MethodInfo m5535_MI;
+extern "C" t1313 * m5535 (t1306 * __this, bool p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	t1161 * V_2 = {0};
-	t1294 * V_3 = {0};
+	t1170 * V_2 = {0};
+	t1303 * V_3 = {0};
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
-	t1299 * V_6 = {0};
-	t1304 * V_7 = {0};
-	t1291  V_8 = {0};
-	t1291  V_9 = {0};
+	t1308 * V_6 = {0};
+	t1313 * V_7 = {0};
+	t1300  V_8 = {0};
+	t1300  V_9 = {0};
 	t9 * V_10 = {0};
 	bool V_11 = false;
 	int32_t V_12 = 0;
 	int32_t V_13 = 0;
-	t1304 * V_14 = {0};
-	t315 * V_15 = {0};
+	t1313 * V_14 = {0};
+	t322 * V_15 = {0};
 	int32_t V_16 = 0;
-	t1304 * V_17 = {0};
+	t1313 * V_17 = {0};
 	t9 * V_18 = {0};
 	t138 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
@@ -14137,18 +14137,18 @@ extern "C" t1304 * m5507 (t1297 * __this, bool p0, MethodInfo* method)
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		int32_t L_0 = m5497(__this, &m5497_MI);
+		int32_t L_0 = m5525(__this, &m5525_MI);
 		V_1 = L_0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1161_TI));
-		t1161 * L_1 = (t1161 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1161_TI));
-		m5698(L_1, &m5698_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1170_TI));
+		t1170 * L_1 = (t1170 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1170_TI));
+		m5726(L_1, &m5726_MI);
 		V_2 = L_1;
-		t1294 * L_2 = (t1294 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1294_TI));
-		m5433(L_2, &m5433_MI);
+		t1303 * L_2 = (t1303 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1303_TI));
+		m5461(L_2, &m5461_MI);
 		V_3 = L_2;
 		V_0 = 0;
-		t1302 * L_3 = m5500(__this, &m5500_MI);
-		int32_t L_4 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5804_MI, L_3);
+		t1311 * L_3 = m5528(__this, &m5528_MI);
+		int32_t L_4 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5832_MI, L_3);
 		V_4 = L_4;
 		V_5 = 0;
 		goto IL_00ca;
@@ -14163,33 +14163,33 @@ IL_002a:
 		}
 	}
 	{
-		t1302 * L_6 = m5500(__this, &m5500_MI);
+		t1311 * L_6 = m5528(__this, &m5528_MI);
 		int32_t L_7 = V_4;
 		int32_t L_8 = V_5;
-		t1299 * L_9 = m5493(L_6, ((int32_t)((int32_t)((int32_t)((int32_t)L_7-(int32_t)L_8))-(int32_t)1)), &m5493_MI);
+		t1308 * L_9 = m5521(L_6, ((int32_t)((int32_t)((int32_t)((int32_t)L_7-(int32_t)L_8))-(int32_t)1)), &m5521_MI);
 		V_6 = L_9;
 		goto IL_0058;
 	}
 
 IL_0049:
 	{
-		t1302 * L_10 = m5500(__this, &m5500_MI);
+		t1311 * L_10 = m5528(__this, &m5528_MI);
 		int32_t L_11 = V_5;
-		t1299 * L_12 = m5493(L_10, L_11, &m5493_MI);
+		t1308 * L_12 = m5521(L_10, L_11, &m5521_MI);
 		V_6 = L_12;
 	}
 
 IL_0058:
 	{
-		t1299 * L_13 = V_6;
+		t1308 * L_13 = V_6;
 		bool L_14 = p0;
-		t1304 * L_15 = (t1304 *)VirtFuncInvoker1< t1304 *, bool >::Invoke(&m5498_MI, L_13, L_14);
+		t1313 * L_15 = (t1313 *)VirtFuncInvoker1< t1313 *, bool >::Invoke(&m5526_MI, L_13, L_14);
 		V_7 = L_15;
-		t1161 * L_16 = V_2;
-		t1304 * L_17 = V_7;
-		VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5709_MI, L_16, L_17);
-		t1304 * L_18 = V_7;
-		bool L_19 = m5599(L_18, &m5599_MI);
+		t1170 * L_16 = V_2;
+		t1313 * L_17 = V_7;
+		VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5737_MI, L_16, L_17);
+		t1313 * L_18 = V_7;
+		bool L_19 = m5627(L_18, &m5627_MI);
 		if (!L_19)
 		{
 			goto IL_008f;
@@ -14197,37 +14197,37 @@ IL_0058:
 	}
 	{
 		int32_t L_20 = V_0;
-		t1304 * L_21 = V_7;
-		int32_t L_22 = m5590(L_21, &m5590_MI);
+		t1313 * L_21 = V_7;
+		int32_t L_22 = m5618(L_21, &m5618_MI);
 		int32_t L_23 = V_1;
-		t1304 * L_24 = V_7;
-		uint16_t L_25 = m5597(L_24, &m5597_MI);
-		t1304 * L_26 = (t1304 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1304_TI));
-		m5589(L_26, __this, ((int32_t)((int32_t)L_20+(int32_t)L_22)), L_23, L_25, &m5589_MI);
+		t1313 * L_24 = V_7;
+		uint16_t L_25 = m5625(L_24, &m5625_MI);
+		t1313 * L_26 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
+		m5617(L_26, __this, ((int32_t)((int32_t)L_20+(int32_t)L_22)), L_23, L_25, &m5617_MI);
 		return L_26;
 	}
 
 IL_008f:
 	{
-		t1304 * L_27 = V_7;
-		bool L_28 = m5598(L_27, &m5598_MI);
+		t1313 * L_27 = V_7;
+		bool L_28 = m5626(L_27, &m5626_MI);
 		if (!L_28)
 		{
 			goto IL_00a9;
 		}
 	}
 	{
-		t1294 * L_29 = V_3;
-		t1304 * L_30 = V_7;
+		t1303 * L_29 = V_3;
+		t1313 * L_30 = V_7;
 		int32_t L_31 = V_0;
-		t1291  L_32 = m5600(L_30, L_31, &m5600_MI);
-		m5435(L_29, L_32, &m5435_MI);
+		t1300  L_32 = m5628(L_30, L_31, &m5628_MI);
+		m5463(L_29, L_32, &m5463_MI);
 	}
 
 IL_00a9:
 	{
-		t1304 * L_33 = V_7;
-		bool L_34 = m5593(L_33, &m5593_MI);
+		t1313 * L_33 = V_7;
+		bool L_34 = m5621(L_33, &m5621_MI);
 		if (!L_34)
 		{
 			goto IL_00ba;
@@ -14240,8 +14240,8 @@ IL_00a9:
 IL_00ba:
 	{
 		int32_t L_35 = V_0;
-		t1304 * L_36 = V_7;
-		int32_t L_37 = m5591(L_36, &m5591_MI);
+		t1313 * L_36 = V_7;
+		int32_t L_37 = m5619(L_36, &m5619_MI);
 		V_0 = ((int32_t)((int32_t)L_35+(int32_t)L_37));
 		int32_t L_38 = V_5;
 		V_5 = ((int32_t)((int32_t)L_38+(int32_t)1));
@@ -14259,12 +14259,12 @@ IL_00ca:
 
 IL_00d3:
 	{
-		t1294 * L_41 = V_3;
-		m5436(L_41, &m5436_MI);
-		t1291  L_42 = m5413(NULL, &m5413_MI);
+		t1303 * L_41 = V_3;
+		m5464(L_41, &m5464_MI);
+		t1300  L_42 = m5441(NULL, &m5441_MI);
 		V_8 = L_42;
-		t1294 * L_43 = V_3;
-		t9 * L_44 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5443_MI, L_43);
+		t1303 * L_43 = V_3;
+		t9 * L_44 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5471_MI, L_43);
 		V_10 = L_44;
 	}
 
@@ -14279,9 +14279,9 @@ IL_00ed:
 		{
 			t9 * L_45 = V_10;
 			t9 * L_46 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m361_MI, L_45);
-			V_9 = ((*(t1291 *)((t1291 *)UnBox (L_46, InitializedTypeInfo(&t1291_TI)))));
-			int32_t L_47 = m5417((&V_9), &m5417_MI);
-			int32_t L_48 = m5417((&V_8), &m5417_MI);
+			V_9 = ((*(t1300 *)((t1300 *)UnBox (L_46, InitializedTypeInfo(&t1300_TI)))));
+			int32_t L_47 = m5445((&V_9), &m5445_MI);
+			int32_t L_48 = m5445((&V_8), &m5445_MI);
 			if ((((int32_t)L_47) <= ((int32_t)L_48)))
 			{
 				goto IL_0112;
@@ -14290,7 +14290,7 @@ IL_00ed:
 
 IL_010e:
 		{
-			t1291  L_49 = V_9;
+			t1300  L_49 = V_9;
 			V_8 = L_49;
 		}
 
@@ -14347,7 +14347,7 @@ IL_0131:
 
 IL_0139:
 	{
-		bool L_55 = m5416((&V_8), &m5416_MI);
+		bool L_55 = m5444((&V_8), &m5444_MI);
 		if (!L_55)
 		{
 			goto IL_014d;
@@ -14355,8 +14355,8 @@ IL_0139:
 	}
 	{
 		int32_t L_56 = V_1;
-		t1304 * L_57 = (t1304 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1304_TI));
-		m5587(L_57, __this, L_56, &m5587_MI);
+		t1313 * L_57 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
+		m5615(L_57, __this, L_56, &m5615_MI);
 		return L_57;
 	}
 
@@ -14371,22 +14371,22 @@ IL_014d:
 
 IL_015d:
 	{
-		t1161 * L_58 = V_2;
+		t1170 * L_58 = V_2;
 		int32_t L_59 = V_13;
-		t9 * L_60 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5696_MI, L_58, L_59);
-		V_14 = ((t1304 *)Castclass(L_60, InitializedTypeInfo(&t1304_TI)));
-		t1304 * L_61 = V_14;
-		bool L_62 = m5598(L_61, &m5598_MI);
+		t9 * L_60 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5724_MI, L_58, L_59);
+		V_14 = ((t1313 *)Castclass(L_60, InitializedTypeInfo(&t1313_TI)));
+		t1313 * L_61 = V_14;
+		bool L_62 = m5626(L_61, &m5626_MI);
 		if (!L_62)
 		{
 			goto IL_01a7;
 		}
 	}
 	{
-		t1304 * L_63 = V_14;
+		t1313 * L_63 = V_14;
 		int32_t L_64 = V_0;
-		t1291  L_65 = m5600(L_63, L_64, &m5600_MI);
-		bool L_66 = m5420((&V_8), L_65, &m5420_MI);
+		t1300  L_65 = m5628(L_63, L_64, &m5628_MI);
+		bool L_66 = m5448((&V_8), L_65, &m5448_MI);
 		if (!L_66)
 		{
 			goto IL_01a7;
@@ -14394,21 +14394,21 @@ IL_015d:
 	}
 	{
 		bool L_67 = V_11;
-		t1304 * L_68 = V_14;
-		bool L_69 = m5596(L_68, &m5596_MI);
+		t1313 * L_68 = V_14;
+		bool L_69 = m5624(L_68, &m5624_MI);
 		V_11 = ((int32_t)((int32_t)L_67|(int32_t)L_69));
-		t1161 * L_70 = V_2;
+		t1170 * L_70 = V_2;
 		int32_t L_71 = V_12;
 		int32_t L_72 = L_71;
 		V_12 = ((int32_t)((int32_t)L_72+(int32_t)1));
-		t1304 * L_73 = V_14;
-		VirtActionInvoker2< int32_t, t9 * >::Invoke(&m5904_MI, L_70, L_72, L_73);
+		t1313 * L_73 = V_14;
+		VirtActionInvoker2< int32_t, t9 * >::Invoke(&m5932_MI, L_70, L_72, L_73);
 	}
 
 IL_01a7:
 	{
-		t1304 * L_74 = V_14;
-		bool L_75 = m5593(L_74, &m5593_MI);
+		t1313 * L_74 = V_14;
+		bool L_75 = m5621(L_74, &m5621_MI);
 		if (!L_75)
 		{
 			goto IL_01b8;
@@ -14421,8 +14421,8 @@ IL_01a7:
 IL_01b8:
 	{
 		int32_t L_76 = V_0;
-		t1304 * L_77 = V_14;
-		int32_t L_78 = m5591(L_77, &m5591_MI);
+		t1313 * L_77 = V_14;
+		int32_t L_78 = m5619(L_77, &m5619_MI);
 		V_0 = ((int32_t)((int32_t)L_76+(int32_t)L_78));
 		int32_t L_79 = V_13;
 		V_13 = ((int32_t)((int32_t)L_79+(int32_t)1));
@@ -14431,8 +14431,8 @@ IL_01b8:
 IL_01c8:
 	{
 		int32_t L_80 = V_13;
-		t1161 * L_81 = V_2;
-		int32_t L_82 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5694_MI, L_81);
+		t1170 * L_81 = V_2;
+		int32_t L_82 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5722_MI, L_81);
 		if ((((int32_t)L_80) < ((int32_t)L_82)))
 		{
 			goto IL_015d;
@@ -14441,8 +14441,8 @@ IL_01c8:
 
 IL_01d5:
 	{
-		t315 * L_83 = (t315 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t315_TI));
-		m1150(L_83, &m1150_MI);
+		t322 * L_83 = (t322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t322_TI));
+		m1165(L_83, &m1165_MI);
 		V_15 = L_83;
 		V_16 = 0;
 		goto IL_0227;
@@ -14457,28 +14457,28 @@ IL_01e4:
 		}
 	}
 	{
-		t1161 * L_85 = V_2;
+		t1170 * L_85 = V_2;
 		int32_t L_86 = V_12;
 		int32_t L_87 = V_16;
-		t9 * L_88 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5696_MI, L_85, ((int32_t)((int32_t)((int32_t)((int32_t)L_86-(int32_t)L_87))-(int32_t)1)));
-		V_17 = ((t1304 *)Castclass(L_88, InitializedTypeInfo(&t1304_TI)));
+		t9 * L_88 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5724_MI, L_85, ((int32_t)((int32_t)((int32_t)((int32_t)L_86-(int32_t)L_87))-(int32_t)1)));
+		V_17 = ((t1313 *)Castclass(L_88, InitializedTypeInfo(&t1313_TI)));
 		goto IL_0212;
 	}
 
 IL_0203:
 	{
-		t1161 * L_89 = V_2;
+		t1170 * L_89 = V_2;
 		int32_t L_90 = V_16;
-		t9 * L_91 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5696_MI, L_89, L_90);
-		V_17 = ((t1304 *)Castclass(L_91, InitializedTypeInfo(&t1304_TI)));
+		t9 * L_91 = (t9 *)VirtFuncInvoker1< t9 *, int32_t >::Invoke(&m5724_MI, L_89, L_90);
+		V_17 = ((t1313 *)Castclass(L_91, InitializedTypeInfo(&t1313_TI)));
 	}
 
 IL_0212:
 	{
-		t315 * L_92 = V_15;
-		t1304 * L_93 = V_17;
-		t2* L_94 = m5595(L_93, &m5595_MI);
-		m1154(L_92, L_94, &m1154_MI);
+		t322 * L_92 = V_15;
+		t1313 * L_93 = V_17;
+		t2* L_94 = m5623(L_93, &m5623_MI);
+		m1169(L_92, L_94, &m1169_MI);
 		int32_t L_95 = V_16;
 		V_16 = ((int32_t)((int32_t)L_95+(int32_t)1));
 	}
@@ -14493,9 +14493,9 @@ IL_0227:
 		}
 	}
 	{
-		t315 * L_98 = V_15;
-		int32_t L_99 = m5856(L_98, &m5856_MI);
-		int32_t L_100 = m5417((&V_8), &m5417_MI);
+		t322 * L_98 = V_15;
+		int32_t L_99 = m5884(L_98, &m5884_MI);
+		int32_t L_100 = m5445((&V_8), &m5445_MI);
 		if ((!(((uint32_t)L_99) == ((uint32_t)L_100))))
 		{
 			goto IL_025b;
@@ -14504,38 +14504,38 @@ IL_0227:
 	{
 		int32_t L_101 = ((&V_8)->f0);
 		int32_t L_102 = V_1;
-		t315 * L_103 = V_15;
-		t2* L_104 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1156_MI, L_103);
+		t322 * L_103 = V_15;
+		t2* L_104 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1171_MI, L_103);
 		bool L_105 = V_11;
-		t1304 * L_106 = (t1304 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1304_TI));
-		m5588(L_106, __this, L_101, L_102, L_104, L_105, &m5588_MI);
+		t1313 * L_106 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
+		m5616(L_106, __this, L_101, L_102, L_104, L_105, &m5616_MI);
 		return L_106;
 	}
 
 IL_025b:
 	{
-		t315 * L_107 = V_15;
-		int32_t L_108 = m5856(L_107, &m5856_MI);
-		int32_t L_109 = m5417((&V_8), &m5417_MI);
+		t322 * L_107 = V_15;
+		int32_t L_108 = m5884(L_107, &m5884_MI);
+		int32_t L_109 = m5445((&V_8), &m5445_MI);
 		if ((((int32_t)L_108) <= ((int32_t)L_109)))
 		{
 			goto IL_0285;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1362_TI));
-		t1361 * L_110 = m5919(NULL, &m5919_MI);
-		VirtActionInvoker1< t2* >::Invoke(&m5920_MI, L_110, (t2*) &_stringLiteral724);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1371_TI));
+		t1370 * L_110 = m5947(NULL, &m5947_MI);
+		VirtActionInvoker1< t2* >::Invoke(&m5948_MI, L_110, (t2*) &_stringLiteral723);
 		int32_t L_111 = V_1;
-		t1304 * L_112 = (t1304 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1304_TI));
-		m5587(L_112, __this, L_111, &m5587_MI);
+		t1313 * L_112 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
+		m5615(L_112, __this, L_111, &m5615_MI);
 		return L_112;
 	}
 
 IL_0285:
 	{
-		t1360 * L_113 = (t1360 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1360_TI));
-		m5872(L_113, (t2*) &_stringLiteral725, &m5872_MI);
+		t1369 * L_113 = (t1369 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1369_TI));
+		m5900(L_113, (t2*) &_stringLiteral724, &m5900_MI);
 		il2cpp_codegen_raise_exception(L_113);
 	}
 }
@@ -14543,25 +14543,25 @@ IL_0285:
 #else
 #endif
 
-extern TypeInfo t1270_TI;
-extern MethodInfo m5921_MI;
-extern MethodInfo m5922_MI;
-extern MethodInfo m5923_MI;
-extern MethodInfo m5924_MI;
-extern MethodInfo m5925_MI;
-extern MethodInfo m5926_MI;
-extern MethodInfo m5927_MI;
+extern TypeInfo t1279_TI;
+extern MethodInfo m5949_MI;
+extern MethodInfo m5950_MI;
+extern MethodInfo m5951_MI;
+extern MethodInfo m5952_MI;
+extern MethodInfo m5953_MI;
+extern MethodInfo m5954_MI;
+extern MethodInfo m5955_MI;
 
 
-extern "C" void m5508 (t1296 * __this, MethodInfo* method)
+extern "C" void m5536 (t1305 * __this, MethodInfo* method)
 {
 	{
-		m5503(__this, &m5503_MI);
+		m5531(__this, &m5531_MI);
 		__this->f1 = 0;
 		return;
 	}
 }
-extern "C" void m5509 (t1296 * __this, int32_t p0, MethodInfo* method)
+extern "C" void m5537 (t1305 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
@@ -14569,34 +14569,34 @@ extern "C" void m5509 (t1296 * __this, int32_t p0, MethodInfo* method)
 		return;
 	}
 }
-extern MethodInfo m5510_MI;
-extern "C" void m5510 (t1296 * __this, t9 * p0, bool p1, MethodInfo* method)
+extern MethodInfo m5538_MI;
+extern "C" void m5538 (t1305 * __this, t9 * p0, bool p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	t1304 * V_2 = {0};
-	t1277 * V_3 = {0};
+	t1313 * V_2 = {0};
+	t1286 * V_3 = {0};
 	{
-		VirtActionInvoker2< int32_t*, int32_t* >::Invoke(&m5506_MI, __this, (&V_0), (&V_1));
+		VirtActionInvoker2< int32_t*, int32_t* >::Invoke(&m5534_MI, __this, (&V_0), (&V_1));
 		t9 * L_0 = p0;
 		int32_t L_1 = (__this->f1);
 		int32_t L_2 = V_0;
 		int32_t L_3 = V_1;
-		InterfaceActionInvoker3< int32_t, int32_t, int32_t >::Invoke(&m5921_MI, L_0, L_1, L_2, L_3);
+		InterfaceActionInvoker3< int32_t, int32_t, int32_t >::Invoke(&m5949_MI, L_0, L_1, L_2, L_3);
 		bool L_4 = p1;
-		t1304 * L_5 = (t1304 *)VirtFuncInvoker1< t1304 *, bool >::Invoke(&m5507_MI, __this, L_4);
+		t1313 * L_5 = (t1313 *)VirtFuncInvoker1< t1313 *, bool >::Invoke(&m5535_MI, __this, L_4);
 		V_2 = L_5;
 		t9 * L_6 = p0;
-		t1277 * L_7 = (t1277 *)InterfaceFuncInvoker0< t1277 * >::Invoke(&m5922_MI, L_6);
+		t1286 * L_7 = (t1286 *)InterfaceFuncInvoker0< t1286 * >::Invoke(&m5950_MI, L_6);
 		V_3 = L_7;
 		t9 * L_8 = p0;
 		bool L_9 = p1;
-		t1304 * L_10 = V_2;
-		int32_t L_11 = m5590(L_10, &m5590_MI);
-		t1277 * L_12 = V_3;
-		InterfaceActionInvoker3< bool, int32_t, t1277 * >::Invoke(&m5923_MI, L_8, L_9, L_11, L_12);
-		t1304 * L_13 = V_2;
-		bool L_14 = m5599(L_13, &m5599_MI);
+		t1313 * L_10 = V_2;
+		int32_t L_11 = m5618(L_10, &m5618_MI);
+		t1286 * L_12 = V_3;
+		InterfaceActionInvoker3< bool, int32_t, t1286 * >::Invoke(&m5951_MI, L_8, L_9, L_11, L_12);
+		t1313 * L_13 = V_2;
+		bool L_14 = m5627(L_13, &m5627_MI);
 		if (!L_14)
 		{
 			goto IL_0051;
@@ -14604,16 +14604,16 @@ extern "C" void m5510 (t1296 * __this, t9 * p0, bool p1, MethodInfo* method)
 	}
 	{
 		t9 * L_15 = p0;
-		t1304 * L_16 = V_2;
-		uint16_t L_17 = m5597(L_16, &m5597_MI);
-		InterfaceActionInvoker1< uint16_t >::Invoke(&m5924_MI, L_15, L_17);
+		t1313 * L_16 = V_2;
+		uint16_t L_17 = m5625(L_16, &m5625_MI);
+		InterfaceActionInvoker1< uint16_t >::Invoke(&m5952_MI, L_15, L_17);
 		goto IL_006f;
 	}
 
 IL_0051:
 	{
-		t1304 * L_18 = V_2;
-		bool L_19 = m5598(L_18, &m5598_MI);
+		t1313 * L_18 = V_2;
+		bool L_19 = m5626(L_18, &m5626_MI);
 		if (!L_19)
 		{
 			goto IL_006f;
@@ -14621,26 +14621,26 @@ IL_0051:
 	}
 	{
 		t9 * L_20 = p0;
-		t1304 * L_21 = V_2;
-		t2* L_22 = m5595(L_21, &m5595_MI);
-		t1304 * L_23 = V_2;
-		bool L_24 = m5596(L_23, &m5596_MI);
+		t1313 * L_21 = V_2;
+		t2* L_22 = m5623(L_21, &m5623_MI);
+		t1313 * L_23 = V_2;
+		bool L_24 = m5624(L_23, &m5624_MI);
 		bool L_25 = p1;
-		InterfaceActionInvoker3< t2*, bool, bool >::Invoke(&m5925_MI, L_20, L_22, L_24, L_25);
+		InterfaceActionInvoker3< t2*, bool, bool >::Invoke(&m5953_MI, L_20, L_22, L_24, L_25);
 	}
 
 IL_006f:
 	{
 		t9 * L_26 = p0;
-		InterfaceActionInvoker0::Invoke(&m5926_MI, L_26);
+		InterfaceActionInvoker0::Invoke(&m5954_MI, L_26);
 		t9 * L_27 = p0;
-		t1277 * L_28 = V_3;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_27, L_28);
+		t1286 * L_28 = V_3;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_27, L_28);
 		t9 * L_29 = p0;
 		bool L_30 = p1;
-		m5505(__this, L_29, L_30, &m5505_MI);
+		m5533(__this, L_29, L_30, &m5533_MI);
 		t9 * L_31 = p0;
-		InterfaceActionInvoker0::Invoke(&m5926_MI, L_31);
+		InterfaceActionInvoker0::Invoke(&m5954_MI, L_31);
 		return;
 	}
 }
@@ -14648,27 +14648,27 @@ IL_006f:
 #else
 #endif
 
-extern MethodInfo m5928_MI;
-extern MethodInfo m5929_MI;
+extern MethodInfo m5956_MI;
+extern MethodInfo m5957_MI;
 
 
-extern "C" void m5511 (t1306 * __this, MethodInfo* method)
+extern "C" void m5539 (t1315 * __this, MethodInfo* method)
 {
 	{
-		m5503(__this, &m5503_MI);
+		m5531(__this, &m5531_MI);
 		__this->f1 = 0;
 		__this->f2 = (t2*)NULL;
 		return;
 	}
 }
-extern "C" int32_t m5512 (t1306 * __this, MethodInfo* method)
+extern "C" int32_t m5540 (t1315 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f1);
 		return L_0;
 	}
 }
-extern "C" void m5513 (t1306 * __this, int32_t p0, MethodInfo* method)
+extern "C" void m5541 (t1315 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
@@ -14676,14 +14676,14 @@ extern "C" void m5513 (t1306 * __this, int32_t p0, MethodInfo* method)
 		return;
 	}
 }
-extern "C" t2* m5514 (t1306 * __this, MethodInfo* method)
+extern "C" t2* m5542 (t1315 * __this, MethodInfo* method)
 {
 	{
 		t2* L_0 = (__this->f2);
 		return L_0;
 	}
 }
-extern "C" void m5515 (t1306 * __this, t2* p0, MethodInfo* method)
+extern "C" void m5543 (t1315 * __this, t2* p0, MethodInfo* method)
 {
 	{
 		t2* L_0 = p0;
@@ -14691,43 +14691,43 @@ extern "C" void m5515 (t1306 * __this, t2* p0, MethodInfo* method)
 		return;
 	}
 }
-extern "C" bool m5516 (t1306 * __this, MethodInfo* method)
+extern "C" bool m5544 (t1315 * __this, MethodInfo* method)
 {
 	{
 		t2* L_0 = (__this->f2);
 		return ((((int32_t)((((t9*)(t2*)L_0) == ((t9*)(t9 *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-extern MethodInfo m5517_MI;
-extern "C" void m5517 (t1306 * __this, t9 * p0, bool p1, MethodInfo* method)
+extern MethodInfo m5545_MI;
+extern "C" void m5545 (t1315 * __this, t9 * p0, bool p1, MethodInfo* method)
 {
 	{
 		t9 * L_0 = p0;
 		int32_t L_1 = (__this->f1);
-		InterfaceActionInvoker1< int32_t >::Invoke(&m5928_MI, L_0, L_1);
+		InterfaceActionInvoker1< int32_t >::Invoke(&m5956_MI, L_0, L_1);
 		t9 * L_2 = p0;
 		bool L_3 = p1;
-		m5505(__this, L_2, L_3, &m5505_MI);
+		m5533(__this, L_2, L_3, &m5533_MI);
 		t9 * L_4 = p0;
 		int32_t L_5 = (__this->f1);
-		InterfaceActionInvoker1< int32_t >::Invoke(&m5929_MI, L_4, L_5);
+		InterfaceActionInvoker1< int32_t >::Invoke(&m5957_MI, L_4, L_5);
 		return;
 	}
 }
-extern MethodInfo m5518_MI;
-extern "C" bool m5518 (t1306 * __this, MethodInfo* method)
+extern MethodInfo m5546_MI;
+extern "C" bool m5546 (t1315 * __this, MethodInfo* method)
 {
 	{
 		return 1;
 	}
 }
-extern MethodInfo m5519_MI;
-extern "C" int32_t m5519 (t1306 * __this, t9 * p0, MethodInfo* method)
+extern MethodInfo m5547_MI;
+extern "C" int32_t m5547 (t1315 * __this, t9 * p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f1);
 		t9 * L_1 = p0;
-		int32_t L_2 = (((t1306 *)Castclass(L_1, InitializedTypeInfo(&t1306_TI)))->f1);
+		int32_t L_2 = (((t1315 *)Castclass(L_1, InitializedTypeInfo(&t1315_TI)))->f1);
 		return ((int32_t)((int32_t)L_0-(int32_t)L_2));
 	}
 }
@@ -14735,46 +14735,46 @@ extern "C" int32_t m5519 (t1306 * __this, t9 * p0, MethodInfo* method)
 #else
 #endif
 
-extern MethodInfo m5930_MI;
-extern MethodInfo m5931_MI;
+extern MethodInfo m5958_MI;
+extern MethodInfo m5959_MI;
 
 
-extern "C" void m5520 (t1307 * __this, MethodInfo* method)
+extern "C" void m5548 (t1316 * __this, MethodInfo* method)
 {
 	{
-		m5511(__this, &m5511_MI);
-		__this->f3 = (t1306 *)NULL;
+		m5539(__this, &m5539_MI);
+		__this->f3 = (t1315 *)NULL;
 		return;
 	}
 }
-extern "C" void m5521 (t1307 * __this, t1306 * p0, MethodInfo* method)
+extern "C" void m5549 (t1316 * __this, t1315 * p0, MethodInfo* method)
 {
 	{
-		t1306 * L_0 = p0;
+		t1315 * L_0 = p0;
 		__this->f3 = L_0;
 		return;
 	}
 }
-extern MethodInfo m5522_MI;
-extern "C" void m5522 (t1307 * __this, t9 * p0, bool p1, MethodInfo* method)
+extern MethodInfo m5550_MI;
+extern "C" void m5550 (t1316 * __this, t9 * p0, bool p1, MethodInfo* method)
 {
-	t1277 * V_0 = {0};
+	t1286 * V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	t1299 * V_3 = {0};
+	t1308 * V_3 = {0};
 	{
 		t9 * L_0 = p0;
-		t1277 * L_1 = (t1277 *)InterfaceFuncInvoker0< t1277 * >::Invoke(&m5922_MI, L_0);
+		t1286 * L_1 = (t1286 *)InterfaceFuncInvoker0< t1286 * >::Invoke(&m5950_MI, L_0);
 		V_0 = L_1;
 		t9 * L_2 = p0;
-		int32_t L_3 = m5512(__this, &m5512_MI);
-		t1306 * L_4 = (__this->f3);
-		int32_t L_5 = m5512(L_4, &m5512_MI);
-		bool L_6 = m5516(__this, &m5516_MI);
-		t1277 * L_7 = V_0;
-		InterfaceActionInvoker4< int32_t, int32_t, bool, t1277 * >::Invoke(&m5930_MI, L_2, L_3, L_5, L_6, L_7);
-		t1302 * L_8 = m5500(__this, &m5500_MI);
-		int32_t L_9 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5804_MI, L_8);
+		int32_t L_3 = m5540(__this, &m5540_MI);
+		t1315 * L_4 = (__this->f3);
+		int32_t L_5 = m5540(L_4, &m5540_MI);
+		bool L_6 = m5544(__this, &m5544_MI);
+		t1286 * L_7 = V_0;
+		InterfaceActionInvoker4< int32_t, int32_t, bool, t1286 * >::Invoke(&m5958_MI, L_2, L_3, L_5, L_6, L_7);
+		t1311 * L_8 = m5528(__this, &m5528_MI);
+		int32_t L_9 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5832_MI, L_8);
 		V_1 = L_9;
 		V_2 = 0;
 		goto IL_006d;
@@ -14789,28 +14789,28 @@ IL_0038:
 		}
 	}
 	{
-		t1302 * L_11 = m5500(__this, &m5500_MI);
+		t1311 * L_11 = m5528(__this, &m5528_MI);
 		int32_t L_12 = V_1;
 		int32_t L_13 = V_2;
-		t1299 * L_14 = m5493(L_11, ((int32_t)((int32_t)((int32_t)((int32_t)L_12-(int32_t)L_13))-(int32_t)1)), &m5493_MI);
+		t1308 * L_14 = m5521(L_11, ((int32_t)((int32_t)((int32_t)((int32_t)L_12-(int32_t)L_13))-(int32_t)1)), &m5521_MI);
 		V_3 = L_14;
 		goto IL_0061;
 	}
 
 IL_0054:
 	{
-		t1302 * L_15 = m5500(__this, &m5500_MI);
+		t1311 * L_15 = m5528(__this, &m5528_MI);
 		int32_t L_16 = V_2;
-		t1299 * L_17 = m5493(L_15, L_16, &m5493_MI);
+		t1308 * L_17 = m5521(L_15, L_16, &m5521_MI);
 		V_3 = L_17;
 	}
 
 IL_0061:
 	{
-		t1299 * L_18 = V_3;
+		t1308 * L_18 = V_3;
 		t9 * L_19 = p0;
 		bool L_20 = p1;
-		VirtActionInvoker2< t9 *, bool >::Invoke(&m5918_MI, L_18, L_19, L_20);
+		VirtActionInvoker2< t9 *, bool >::Invoke(&m5946_MI, L_18, L_19, L_20);
 		int32_t L_21 = V_2;
 		V_2 = ((int32_t)((int32_t)L_21+(int32_t)1));
 	}
@@ -14826,10 +14826,10 @@ IL_006d:
 	}
 	{
 		t9 * L_24 = p0;
-		InterfaceActionInvoker0::Invoke(&m5931_MI, L_24);
+		InterfaceActionInvoker0::Invoke(&m5959_MI, L_24);
 		t9 * L_25 = p0;
-		t1277 * L_26 = V_0;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_25, L_26);
+		t1286 * L_26 = V_0;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_25, L_26);
 		return;
 	}
 }
@@ -14837,40 +14837,40 @@ IL_006d:
 #else
 #endif
 
-extern MethodInfo m5932_MI;
+extern MethodInfo m5960_MI;
 
 
-extern "C" void m5523 (t1308 * __this, MethodInfo* method)
+extern "C" void m5551 (t1317 * __this, MethodInfo* method)
 {
 	{
-		m5503(__this, &m5503_MI);
+		m5531(__this, &m5531_MI);
 		return;
 	}
 }
-extern MethodInfo m5524_MI;
-extern "C" void m5524 (t1308 * __this, t9 * p0, bool p1, MethodInfo* method)
+extern MethodInfo m5552_MI;
+extern "C" void m5552 (t1317 * __this, t9 * p0, bool p1, MethodInfo* method)
 {
-	t1277 * V_0 = {0};
+	t1286 * V_0 = {0};
 	{
 		t9 * L_0 = p0;
-		t1277 * L_1 = (t1277 *)InterfaceFuncInvoker0< t1277 * >::Invoke(&m5922_MI, L_0);
+		t1286 * L_1 = (t1286 *)InterfaceFuncInvoker0< t1286 * >::Invoke(&m5950_MI, L_0);
 		V_0 = L_1;
 		t9 * L_2 = p0;
-		t1277 * L_3 = V_0;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5932_MI, L_2, L_3);
+		t1286 * L_3 = V_0;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5960_MI, L_2, L_3);
 		t9 * L_4 = p0;
 		bool L_5 = p1;
-		m5505(__this, L_4, L_5, &m5505_MI);
+		m5533(__this, L_4, L_5, &m5533_MI);
 		t9 * L_6 = p0;
-		InterfaceActionInvoker0::Invoke(&m5926_MI, L_6);
+		InterfaceActionInvoker0::Invoke(&m5954_MI, L_6);
 		t9 * L_7 = p0;
-		t1277 * L_8 = V_0;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_7, L_8);
+		t1286 * L_8 = V_0;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_7, L_8);
 		return;
 	}
 }
-extern MethodInfo m5525_MI;
-extern "C" bool m5525 (t1308 * __this, MethodInfo* method)
+extern MethodInfo m5553_MI;
+extern "C" bool m5553 (t1317 * __this, MethodInfo* method)
 {
 	{
 		return 1;
@@ -14880,21 +14880,21 @@ extern "C" bool m5525 (t1308 * __this, MethodInfo* method)
 #else
 #endif
 
-extern MethodInfo m5527_MI;
-extern MethodInfo m5933_MI;
-extern MethodInfo m5934_MI;
-extern MethodInfo m5935_MI;
-extern MethodInfo m5529_MI;
-extern MethodInfo m5594_MI;
-extern MethodInfo m2487_MI;
+extern MethodInfo m5555_MI;
+extern MethodInfo m5961_MI;
+extern MethodInfo m5962_MI;
+extern MethodInfo m5963_MI;
+extern MethodInfo m5557_MI;
+extern MethodInfo m5622_MI;
+extern MethodInfo m2511_MI;
 
 
-extern "C" void m5526 (t1309 * __this, int32_t p0, int32_t p1, bool p2, MethodInfo* method)
+extern "C" void m5554 (t1318 * __this, int32_t p0, int32_t p1, bool p2, MethodInfo* method)
 {
 	{
-		m5499(__this, &m5499_MI);
-		t1302 * L_0 = m5500(__this, &m5500_MI);
-		m5492(L_0, (t1299 *)NULL, &m5492_MI);
+		m5527(__this, &m5527_MI);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
+		m5520(L_0, (t1308 *)NULL, &m5520_MI);
 		int32_t L_1 = p0;
 		__this->f1 = L_1;
 		int32_t L_2 = p1;
@@ -14904,38 +14904,38 @@ extern "C" void m5526 (t1309 * __this, int32_t p0, int32_t p1, bool p2, MethodIn
 		return;
 	}
 }
-extern "C" t1299 * m5527 (t1309 * __this, MethodInfo* method)
+extern "C" t1308 * m5555 (t1318 * __this, MethodInfo* method)
 {
 	{
-		t1302 * L_0 = m5500(__this, &m5500_MI);
-		t1299 * L_1 = m5493(L_0, 0, &m5493_MI);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
+		t1308 * L_1 = m5521(L_0, 0, &m5521_MI);
 		return L_1;
 	}
 }
-extern "C" void m5528 (t1309 * __this, t1299 * p0, MethodInfo* method)
+extern "C" void m5556 (t1318 * __this, t1308 * p0, MethodInfo* method)
 {
 	{
-		t1302 * L_0 = m5500(__this, &m5500_MI);
-		t1299 * L_1 = p0;
-		m5494(L_0, 0, L_1, &m5494_MI);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
+		t1308 * L_1 = p0;
+		m5522(L_0, 0, L_1, &m5522_MI);
 		return;
 	}
 }
-extern "C" int32_t m5529 (t1309 * __this, MethodInfo* method)
+extern "C" int32_t m5557 (t1318 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f1);
 		return L_0;
 	}
 }
-extern MethodInfo m5530_MI;
-extern "C" void m5530 (t1309 * __this, t9 * p0, bool p1, MethodInfo* method)
+extern MethodInfo m5558_MI;
+extern "C" void m5558 (t1318 * __this, t9 * p0, bool p1, MethodInfo* method)
 {
-	t1277 * V_0 = {0};
-	t1277 * V_1 = {0};
+	t1286 * V_0 = {0};
+	t1286 * V_1 = {0};
 	{
-		t1299 * L_0 = m5527(__this, &m5527_MI);
-		bool L_1 = (bool)VirtFuncInvoker0< bool >::Invoke(&m5917_MI, L_0);
+		t1308 * L_0 = m5555(__this, &m5555_MI);
+		bool L_1 = (bool)VirtFuncInvoker0< bool >::Invoke(&m5945_MI, L_0);
 		if (!L_1)
 		{
 			goto IL_0049;
@@ -14943,44 +14943,44 @@ extern "C" void m5530 (t1309 * __this, t9 * p0, bool p1, MethodInfo* method)
 	}
 	{
 		t9 * L_2 = p0;
-		t1277 * L_3 = (t1277 *)InterfaceFuncInvoker0< t1277 * >::Invoke(&m5922_MI, L_2);
+		t1286 * L_3 = (t1286 *)InterfaceFuncInvoker0< t1286 * >::Invoke(&m5950_MI, L_2);
 		V_0 = L_3;
 		t9 * L_4 = p0;
 		int32_t L_5 = (__this->f1);
 		int32_t L_6 = (__this->f2);
 		bool L_7 = (__this->f3);
-		t1277 * L_8 = V_0;
-		InterfaceActionInvoker4< int32_t, int32_t, bool, t1277 * >::Invoke(&m5933_MI, L_4, L_5, L_6, L_7, L_8);
-		t1299 * L_9 = m5527(__this, &m5527_MI);
+		t1286 * L_8 = V_0;
+		InterfaceActionInvoker4< int32_t, int32_t, bool, t1286 * >::Invoke(&m5961_MI, L_4, L_5, L_6, L_7, L_8);
+		t1308 * L_9 = m5555(__this, &m5555_MI);
 		t9 * L_10 = p0;
 		bool L_11 = p1;
-		VirtActionInvoker2< t9 *, bool >::Invoke(&m5918_MI, L_9, L_10, L_11);
+		VirtActionInvoker2< t9 *, bool >::Invoke(&m5946_MI, L_9, L_10, L_11);
 		t9 * L_12 = p0;
-		t1277 * L_13 = V_0;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5934_MI, L_12, L_13);
+		t1286 * L_13 = V_0;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5962_MI, L_12, L_13);
 		goto IL_0083;
 	}
 
 IL_0049:
 	{
 		t9 * L_14 = p0;
-		t1277 * L_15 = (t1277 *)InterfaceFuncInvoker0< t1277 * >::Invoke(&m5922_MI, L_14);
+		t1286 * L_15 = (t1286 *)InterfaceFuncInvoker0< t1286 * >::Invoke(&m5950_MI, L_14);
 		V_1 = L_15;
 		t9 * L_16 = p0;
 		int32_t L_17 = (__this->f1);
 		int32_t L_18 = (__this->f2);
 		bool L_19 = (__this->f3);
-		t1277 * L_20 = V_1;
-		InterfaceActionInvoker4< int32_t, int32_t, bool, t1277 * >::Invoke(&m5935_MI, L_16, L_17, L_18, L_19, L_20);
-		t1299 * L_21 = m5527(__this, &m5527_MI);
+		t1286 * L_20 = V_1;
+		InterfaceActionInvoker4< int32_t, int32_t, bool, t1286 * >::Invoke(&m5963_MI, L_16, L_17, L_18, L_19, L_20);
+		t1308 * L_21 = m5555(__this, &m5555_MI);
 		t9 * L_22 = p0;
 		bool L_23 = p1;
-		VirtActionInvoker2< t9 *, bool >::Invoke(&m5918_MI, L_21, L_22, L_23);
+		VirtActionInvoker2< t9 *, bool >::Invoke(&m5946_MI, L_21, L_22, L_23);
 		t9 * L_24 = p0;
-		InterfaceActionInvoker0::Invoke(&m5926_MI, L_24);
+		InterfaceActionInvoker0::Invoke(&m5954_MI, L_24);
 		t9 * L_25 = p0;
-		t1277 * L_26 = V_1;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_25, L_26);
+		t1286 * L_26 = V_1;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_25, L_26);
 	}
 
 IL_0083:
@@ -14988,14 +14988,14 @@ IL_0083:
 		return;
 	}
 }
-extern MethodInfo m5531_MI;
-extern "C" void m5531 (t1309 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
+extern MethodInfo m5559_MI;
+extern "C" void m5559 (t1318 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
 {
 	{
-		t1299 * L_0 = m5527(__this, &m5527_MI);
+		t1308 * L_0 = m5555(__this, &m5555_MI);
 		int32_t* L_1 = p0;
 		int32_t* L_2 = p1;
-		VirtActionInvoker2< int32_t*, int32_t* >::Invoke(&m5916_MI, L_0, L_1, L_2);
+		VirtActionInvoker2< int32_t*, int32_t* >::Invoke(&m5944_MI, L_0, L_1, L_2);
 		int32_t* L_3 = p0;
 		int32_t* L_4 = p0;
 		int32_t L_5 = (__this->f1);
@@ -15034,18 +15034,18 @@ IL_004b:
 		return;
 	}
 }
-extern MethodInfo m5532_MI;
-extern "C" t1304 * m5532 (t1309 * __this, bool p0, MethodInfo* method)
+extern MethodInfo m5560_MI;
+extern "C" t1313 * m5560 (t1318 * __this, bool p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
-	t1304 * V_1 = {0};
+	t1313 * V_1 = {0};
 	t2* V_2 = {0};
-	t315 * V_3 = {0};
+	t322 * V_3 = {0};
 	int32_t V_4 = 0;
 	{
-		int32_t L_0 = m5497(__this, &m5497_MI);
+		int32_t L_0 = m5525(__this, &m5525_MI);
 		V_0 = L_0;
-		int32_t L_1 = m5529(__this, &m5529_MI);
+		int32_t L_1 = m5557(__this, &m5557_MI);
 		if (L_1)
 		{
 			goto IL_001a;
@@ -15053,59 +15053,59 @@ extern "C" t1304 * m5532 (t1309 * __this, bool p0, MethodInfo* method)
 	}
 	{
 		int32_t L_2 = V_0;
-		t1304 * L_3 = (t1304 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1304_TI));
-		m5587(L_3, __this, L_2, &m5587_MI);
+		t1313 * L_3 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
+		m5615(L_3, __this, L_2, &m5615_MI);
 		return L_3;
 	}
 
 IL_001a:
 	{
-		t1299 * L_4 = m5527(__this, &m5527_MI);
+		t1308 * L_4 = m5555(__this, &m5555_MI);
 		bool L_5 = p0;
-		t1304 * L_6 = (t1304 *)VirtFuncInvoker1< t1304 *, bool >::Invoke(&m5498_MI, L_4, L_5);
+		t1313 * L_6 = (t1313 *)VirtFuncInvoker1< t1313 *, bool >::Invoke(&m5526_MI, L_4, L_5);
 		V_1 = L_6;
-		t1304 * L_7 = V_1;
-		bool L_8 = m5599(L_7, &m5599_MI);
+		t1313 * L_7 = V_1;
+		bool L_8 = m5627(L_7, &m5627_MI);
 		if (!L_8)
 		{
 			goto IL_0046;
 		}
 	}
 	{
-		t1304 * L_9 = V_1;
-		int32_t L_10 = m5590(L_9, &m5590_MI);
+		t1313 * L_9 = V_1;
+		int32_t L_10 = m5618(L_9, &m5618_MI);
 		int32_t L_11 = V_0;
-		t1304 * L_12 = V_1;
-		uint16_t L_13 = m5597(L_12, &m5597_MI);
-		t1304 * L_14 = (t1304 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1304_TI));
-		m5589(L_14, __this, L_10, L_11, L_13, &m5589_MI);
+		t1313 * L_12 = V_1;
+		uint16_t L_13 = m5625(L_12, &m5625_MI);
+		t1313 * L_14 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
+		m5617(L_14, __this, L_10, L_11, L_13, &m5617_MI);
 		return L_14;
 	}
 
 IL_0046:
 	{
-		t1304 * L_15 = V_1;
-		bool L_16 = m5598(L_15, &m5598_MI);
+		t1313 * L_15 = V_1;
+		bool L_16 = m5626(L_15, &m5626_MI);
 		if (!L_16)
 		{
 			goto IL_00bc;
 		}
 	}
 	{
-		t1304 * L_17 = V_1;
-		bool L_18 = m5594(L_17, &m5594_MI);
+		t1313 * L_17 = V_1;
+		bool L_18 = m5622(L_17, &m5622_MI);
 		if (!L_18)
 		{
 			goto IL_00a2;
 		}
 	}
 	{
-		t1304 * L_19 = V_1;
-		t2* L_20 = m5595(L_19, &m5595_MI);
+		t1313 * L_19 = V_1;
+		t2* L_20 = m5623(L_19, &m5623_MI);
 		V_2 = L_20;
 		t2* L_21 = V_2;
-		t315 * L_22 = (t315 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t315_TI));
-		m2487(L_22, L_21, &m2487_MI);
+		t322 * L_22 = (t322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t322_TI));
+		m2511(L_22, L_21, &m2511_MI);
 		V_3 = L_22;
 		V_4 = 1;
 		goto IL_0080;
@@ -15113,9 +15113,9 @@ IL_0046:
 
 IL_0072:
 	{
-		t315 * L_23 = V_3;
+		t322 * L_23 = V_3;
 		t2* L_24 = V_2;
-		m1154(L_23, L_24, &m1154_MI);
+		m1169(L_23, L_24, &m1169_MI);
 		int32_t L_25 = V_4;
 		V_4 = ((int32_t)((int32_t)L_25+(int32_t)1));
 	}
@@ -15123,7 +15123,7 @@ IL_0072:
 IL_0080:
 	{
 		int32_t L_26 = V_4;
-		int32_t L_27 = m5529(__this, &m5529_MI);
+		int32_t L_27 = m5557(__this, &m5557_MI);
 		if ((((int32_t)L_26) < ((int32_t)L_27)))
 		{
 			goto IL_0072;
@@ -15131,105 +15131,105 @@ IL_0080:
 	}
 	{
 		int32_t L_28 = V_0;
-		t315 * L_29 = V_3;
-		t2* L_30 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1156_MI, L_29);
-		t1304 * L_31 = V_1;
-		bool L_32 = m5596(L_31, &m5596_MI);
-		t1304 * L_33 = (t1304 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1304_TI));
-		m5588(L_33, __this, 0, L_28, L_30, L_32, &m5588_MI);
+		t322 * L_29 = V_3;
+		t2* L_30 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1171_MI, L_29);
+		t1313 * L_31 = V_1;
+		bool L_32 = m5624(L_31, &m5624_MI);
+		t1313 * L_33 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
+		m5616(L_33, __this, 0, L_28, L_30, L_32, &m5616_MI);
 		return L_33;
 	}
 
 IL_00a2:
 	{
-		t1304 * L_34 = V_1;
-		int32_t L_35 = m5590(L_34, &m5590_MI);
+		t1313 * L_34 = V_1;
+		int32_t L_35 = m5618(L_34, &m5618_MI);
 		int32_t L_36 = V_0;
-		t1304 * L_37 = V_1;
-		t2* L_38 = m5595(L_37, &m5595_MI);
-		t1304 * L_39 = V_1;
-		bool L_40 = m5596(L_39, &m5596_MI);
-		t1304 * L_41 = (t1304 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1304_TI));
-		m5588(L_41, __this, L_35, L_36, L_38, L_40, &m5588_MI);
+		t1313 * L_37 = V_1;
+		t2* L_38 = m5623(L_37, &m5623_MI);
+		t1313 * L_39 = V_1;
+		bool L_40 = m5624(L_39, &m5624_MI);
+		t1313 * L_41 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
+		m5616(L_41, __this, L_35, L_36, L_38, L_40, &m5616_MI);
 		return L_41;
 	}
 
 IL_00bc:
 	{
 		int32_t L_42 = V_0;
-		t1304 * L_43 = (t1304 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1304_TI));
-		m5587(L_43, __this, L_42, &m5587_MI);
+		t1313 * L_43 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
+		m5615(L_43, __this, L_42, &m5615_MI);
 		return L_43;
 	}
 }
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1298_TI;
+extern TypeInfo t1307_TI;
 
 
 
-extern MethodInfo m5533_MI;
-extern "C" void m5533 (t1298 * __this, MethodInfo* method)
+extern MethodInfo m5561_MI;
+extern "C" void m5561 (t1307 * __this, MethodInfo* method)
 {
 	{
-		m5499(__this, &m5499_MI);
-		t1302 * L_0 = m5500(__this, &m5500_MI);
-		m5492(L_0, (t1299 *)NULL, &m5492_MI);
-		t1302 * L_1 = m5500(__this, &m5500_MI);
-		m5492(L_1, (t1299 *)NULL, &m5492_MI);
+		m5527(__this, &m5527_MI);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
+		m5520(L_0, (t1308 *)NULL, &m5520_MI);
+		t1311 * L_1 = m5528(__this, &m5528_MI);
+		m5520(L_1, (t1308 *)NULL, &m5520_MI);
 		return;
 	}
 }
-extern "C" t1299 * m5534 (t1298 * __this, MethodInfo* method)
+extern "C" t1308 * m5562 (t1307 * __this, MethodInfo* method)
 {
 	{
-		t1302 * L_0 = m5500(__this, &m5500_MI);
-		t1299 * L_1 = m5493(L_0, 0, &m5493_MI);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
+		t1308 * L_1 = m5521(L_0, 0, &m5521_MI);
 		return L_1;
 	}
 }
-extern "C" void m5535 (t1298 * __this, t1299 * p0, MethodInfo* method)
+extern "C" void m5563 (t1307 * __this, t1308 * p0, MethodInfo* method)
 {
 	{
-		t1302 * L_0 = m5500(__this, &m5500_MI);
-		t1299 * L_1 = p0;
-		m5494(L_0, 0, L_1, &m5494_MI);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
+		t1308 * L_1 = p0;
+		m5522(L_0, 0, L_1, &m5522_MI);
 		return;
 	}
 }
-extern "C" t1299 * m5536 (t1298 * __this, MethodInfo* method)
+extern "C" t1308 * m5564 (t1307 * __this, MethodInfo* method)
 {
 	{
-		t1302 * L_0 = m5500(__this, &m5500_MI);
-		t1299 * L_1 = m5493(L_0, 1, &m5493_MI);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
+		t1308 * L_1 = m5521(L_0, 1, &m5521_MI);
 		return L_1;
 	}
 }
-extern "C" void m5537 (t1298 * __this, t1299 * p0, MethodInfo* method)
+extern "C" void m5565 (t1307 * __this, t1308 * p0, MethodInfo* method)
 {
 	{
-		t1302 * L_0 = m5500(__this, &m5500_MI);
-		t1299 * L_1 = p0;
-		m5494(L_0, 1, L_1, &m5494_MI);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
+		t1308 * L_1 = p0;
+		m5522(L_0, 1, L_1, &m5522_MI);
 		return;
 	}
 }
-extern MethodInfo m5538_MI;
-extern "C" void m5538 (t1298 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
+extern MethodInfo m5566_MI;
+extern "C" void m5566 (t1307 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
 {
 	{
 		int32_t* L_0 = p0;
 		int32_t* L_1 = p1;
-		m5501(__this, L_0, L_1, 2, &m5501_MI);
-		t1299 * L_2 = m5534(__this, &m5534_MI);
+		m5529(__this, L_0, L_1, 2, &m5529_MI);
+		t1308 * L_2 = m5562(__this, &m5562_MI);
 		if (!L_2)
 		{
 			goto IL_001f;
 		}
 	}
 	{
-		t1299 * L_3 = m5536(__this, &m5536_MI);
+		t1308 * L_3 = m5564(__this, &m5564_MI);
 		if (L_3)
 		{
 			goto IL_0022;
@@ -15251,60 +15251,60 @@ IL_0022:
 #else
 #endif
 
-extern MethodInfo m5543_MI;
-extern MethodInfo m5549_MI;
-extern MethodInfo m5936_MI;
-extern MethodInfo m5937_MI;
-extern MethodInfo m5550_MI;
+extern MethodInfo m5571_MI;
+extern MethodInfo m5577_MI;
+extern MethodInfo m5964_MI;
+extern MethodInfo m5965_MI;
+extern MethodInfo m5578_MI;
 
 
-extern "C" void m5539 (t1310 * __this, t1311 * p0, MethodInfo* method)
+extern "C" void m5567 (t1319 * __this, t1320 * p0, MethodInfo* method)
 {
 	{
-		m5533(__this, &m5533_MI);
-		t1311 * L_0 = p0;
+		m5561(__this, &m5561_MI);
+		t1320 * L_0 = p0;
 		__this->f3 = L_0;
 		return;
 	}
 }
-extern "C" void m5540 (t1310 * __this, t1306 * p0, MethodInfo* method)
+extern "C" void m5568 (t1319 * __this, t1315 * p0, MethodInfo* method)
 {
 	{
-		t1306 * L_0 = p0;
+		t1315 * L_0 = p0;
 		__this->f2 = L_0;
 		return;
 	}
 }
-extern MethodInfo m5541_MI;
-extern "C" void m5541 (t1310 * __this, t9 * p0, bool p1, MethodInfo* method)
+extern MethodInfo m5569_MI;
+extern "C" void m5569 (t1319 * __this, t9 * p0, bool p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
-	t1277 * V_1 = {0};
-	t1277 * V_2 = {0};
+	t1286 * V_1 = {0};
+	t1286 * V_2 = {0};
 	{
-		t1306 * L_0 = (__this->f2);
+		t1315 * L_0 = (__this->f2);
 		if (L_0)
 		{
 			goto IL_0019;
 		}
 	}
 	{
-		t1300 * L_1 = m5543(__this, &m5543_MI);
+		t1309 * L_1 = m5571(__this, &m5571_MI);
 		t9 * L_2 = p0;
 		bool L_3 = p1;
-		VirtActionInvoker2< t9 *, bool >::Invoke(&m5549_MI, L_1, L_2, L_3);
+		VirtActionInvoker2< t9 *, bool >::Invoke(&m5577_MI, L_1, L_2, L_3);
 		return;
 	}
 
 IL_0019:
 	{
-		t1306 * L_4 = (__this->f2);
-		int32_t L_5 = m5512(L_4, &m5512_MI);
+		t1315 * L_4 = (__this->f2);
+		int32_t L_5 = m5540(L_4, &m5540_MI);
 		V_0 = L_5;
 		t9 * L_6 = p0;
-		t1277 * L_7 = (t1277 *)InterfaceFuncInvoker0< t1277 * >::Invoke(&m5922_MI, L_6);
+		t1286 * L_7 = (t1286 *)InterfaceFuncInvoker0< t1286 * >::Invoke(&m5950_MI, L_6);
 		V_1 = L_7;
-		t1299 * L_8 = m5536(__this, &m5536_MI);
+		t1308 * L_8 = m5564(__this, &m5564_MI);
 		if (L_8)
 		{
 			goto IL_0051;
@@ -15313,75 +15313,75 @@ IL_0019:
 	{
 		t9 * L_9 = p0;
 		int32_t L_10 = V_0;
-		t1277 * L_11 = V_1;
-		InterfaceActionInvoker2< int32_t, t1277 * >::Invoke(&m5936_MI, L_9, L_10, L_11);
-		t1299 * L_12 = m5534(__this, &m5534_MI);
+		t1286 * L_11 = V_1;
+		InterfaceActionInvoker2< int32_t, t1286 * >::Invoke(&m5964_MI, L_9, L_10, L_11);
+		t1308 * L_12 = m5562(__this, &m5562_MI);
 		t9 * L_13 = p0;
 		bool L_14 = p1;
-		VirtActionInvoker2< t9 *, bool >::Invoke(&m5918_MI, L_12, L_13, L_14);
+		VirtActionInvoker2< t9 *, bool >::Invoke(&m5946_MI, L_12, L_13, L_14);
 		goto IL_0088;
 	}
 
 IL_0051:
 	{
 		t9 * L_15 = p0;
-		t1277 * L_16 = (t1277 *)InterfaceFuncInvoker0< t1277 * >::Invoke(&m5922_MI, L_15);
+		t1286 * L_16 = (t1286 *)InterfaceFuncInvoker0< t1286 * >::Invoke(&m5950_MI, L_15);
 		V_2 = L_16;
 		t9 * L_17 = p0;
 		int32_t L_18 = V_0;
-		t1277 * L_19 = V_2;
-		InterfaceActionInvoker2< int32_t, t1277 * >::Invoke(&m5936_MI, L_17, L_18, L_19);
-		t1299 * L_20 = m5534(__this, &m5534_MI);
+		t1286 * L_19 = V_2;
+		InterfaceActionInvoker2< int32_t, t1286 * >::Invoke(&m5964_MI, L_17, L_18, L_19);
+		t1308 * L_20 = m5562(__this, &m5562_MI);
 		t9 * L_21 = p0;
 		bool L_22 = p1;
-		VirtActionInvoker2< t9 *, bool >::Invoke(&m5918_MI, L_20, L_21, L_22);
+		VirtActionInvoker2< t9 *, bool >::Invoke(&m5946_MI, L_20, L_21, L_22);
 		t9 * L_23 = p0;
-		t1277 * L_24 = V_1;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5937_MI, L_23, L_24);
+		t1286 * L_24 = V_1;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5965_MI, L_23, L_24);
 		t9 * L_25 = p0;
-		t1277 * L_26 = V_2;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_25, L_26);
-		t1299 * L_27 = m5536(__this, &m5536_MI);
+		t1286 * L_26 = V_2;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_25, L_26);
+		t1308 * L_27 = m5564(__this, &m5564_MI);
 		t9 * L_28 = p0;
 		bool L_29 = p1;
-		VirtActionInvoker2< t9 *, bool >::Invoke(&m5918_MI, L_27, L_28, L_29);
+		VirtActionInvoker2< t9 *, bool >::Invoke(&m5946_MI, L_27, L_28, L_29);
 	}
 
 IL_0088:
 	{
 		t9 * L_30 = p0;
-		t1277 * L_31 = V_1;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_30, L_31);
+		t1286 * L_31 = V_1;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_30, L_31);
 		return;
 	}
 }
-extern MethodInfo m5542_MI;
-extern "C" bool m5542 (t1310 * __this, MethodInfo* method)
+extern MethodInfo m5570_MI;
+extern "C" bool m5570 (t1319 * __this, MethodInfo* method)
 {
 	{
-		t1306 * L_0 = (__this->f2);
+		t1315 * L_0 = (__this->f2);
 		if (L_0)
 		{
 			goto IL_0017;
 		}
 	}
 	{
-		t1300 * L_1 = m5543(__this, &m5543_MI);
-		bool L_2 = (bool)VirtFuncInvoker0< bool >::Invoke(&m5550_MI, L_1);
+		t1309 * L_1 = m5571(__this, &m5571_MI);
+		bool L_2 = (bool)VirtFuncInvoker0< bool >::Invoke(&m5578_MI, L_1);
 		return L_2;
 	}
 
 IL_0017:
 	{
-		t1299 * L_3 = m5534(__this, &m5534_MI);
+		t1308 * L_3 = m5562(__this, &m5562_MI);
 		if (!L_3)
 		{
 			goto IL_0034;
 		}
 	}
 	{
-		t1299 * L_4 = m5534(__this, &m5534_MI);
-		bool L_5 = (bool)VirtFuncInvoker0< bool >::Invoke(&m5917_MI, L_4);
+		t1308 * L_4 = m5562(__this, &m5562_MI);
+		bool L_5 = (bool)VirtFuncInvoker0< bool >::Invoke(&m5945_MI, L_4);
 		if (!L_5)
 		{
 			goto IL_0034;
@@ -15393,15 +15393,15 @@ IL_0017:
 
 IL_0034:
 	{
-		t1299 * L_6 = m5536(__this, &m5536_MI);
+		t1308 * L_6 = m5564(__this, &m5564_MI);
 		if (!L_6)
 		{
 			goto IL_0051;
 		}
 	}
 	{
-		t1299 * L_7 = m5536(__this, &m5536_MI);
-		bool L_8 = (bool)VirtFuncInvoker0< bool >::Invoke(&m5917_MI, L_7);
+		t1308 * L_7 = m5564(__this, &m5564_MI);
+		bool L_8 = (bool)VirtFuncInvoker0< bool >::Invoke(&m5945_MI, L_7);
 		if (!L_8)
 		{
 			goto IL_0051;
@@ -15413,37 +15413,37 @@ IL_0034:
 
 IL_0051:
 	{
-		int32_t L_9 = m5497(__this, &m5497_MI);
+		int32_t L_9 = m5525(__this, &m5525_MI);
 		return ((((int32_t)((((int32_t)L_9) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-extern "C" t1300 * m5543 (t1310 * __this, MethodInfo* method)
+extern "C" t1309 * m5571 (t1319 * __this, MethodInfo* method)
 {
 	{
-		t1300 * L_0 = (__this->f1);
+		t1309 * L_0 = (__this->f1);
 		if (L_0)
 		{
 			goto IL_0049;
 		}
 	}
 	{
-		t1300 * L_1 = (t1300 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1300_TI));
-		m5544(L_1, &m5544_MI);
+		t1309 * L_1 = (t1309 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1309_TI));
+		m5572(L_1, &m5572_MI);
 		__this->f1 = L_1;
-		t1300 * L_2 = (__this->f1);
-		t1299 * L_3 = m5534(__this, &m5534_MI);
-		m5535(L_2, L_3, &m5535_MI);
-		t1300 * L_4 = (__this->f1);
-		t1299 * L_5 = m5536(__this, &m5536_MI);
-		m5537(L_4, L_5, &m5537_MI);
-		t1300 * L_6 = (__this->f1);
-		t1311 * L_7 = (__this->f3);
-		m5548(L_6, L_7, &m5548_MI);
+		t1309 * L_2 = (__this->f1);
+		t1308 * L_3 = m5562(__this, &m5562_MI);
+		m5563(L_2, L_3, &m5563_MI);
+		t1309 * L_4 = (__this->f1);
+		t1308 * L_5 = m5564(__this, &m5564_MI);
+		m5565(L_4, L_5, &m5565_MI);
+		t1309 * L_6 = (__this->f1);
+		t1320 * L_7 = (__this->f3);
+		m5576(L_6, L_7, &m5576_MI);
 	}
 
 IL_0049:
 	{
-		t1300 * L_8 = (__this->f1);
+		t1309 * L_8 = (__this->f1);
 		return L_8;
 	}
 }
@@ -15451,21 +15451,21 @@ IL_0049:
 #else
 #endif
 
-extern MethodInfo m5938_MI;
-extern MethodInfo m5547_MI;
-extern MethodInfo m5939_MI;
+extern MethodInfo m5966_MI;
+extern MethodInfo m5575_MI;
+extern MethodInfo m5967_MI;
 
 
-extern "C" void m5544 (t1300 * __this, MethodInfo* method)
+extern "C" void m5572 (t1309 * __this, MethodInfo* method)
 {
 	{
-		m5533(__this, &m5533_MI);
-		t1302 * L_0 = m5500(__this, &m5500_MI);
-		m5492(L_0, (t1299 *)NULL, &m5492_MI);
+		m5561(__this, &m5561_MI);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
+		m5520(L_0, (t1308 *)NULL, &m5520_MI);
 		return;
 	}
 }
-extern "C" void m5545 (t1300 * __this, bool p0, MethodInfo* method)
+extern "C" void m5573 (t1309 * __this, bool p0, MethodInfo* method)
 {
 	{
 		bool L_0 = p0;
@@ -15473,7 +15473,7 @@ extern "C" void m5545 (t1300 * __this, bool p0, MethodInfo* method)
 		return;
 	}
 }
-extern "C" void m5546 (t1300 * __this, bool p0, MethodInfo* method)
+extern "C" void m5574 (t1309 * __this, bool p0, MethodInfo* method)
 {
 	{
 		bool L_0 = p0;
@@ -15481,34 +15481,34 @@ extern "C" void m5546 (t1300 * __this, bool p0, MethodInfo* method)
 		return;
 	}
 }
-extern "C" t1299 * m5547 (t1300 * __this, MethodInfo* method)
+extern "C" t1308 * m5575 (t1309 * __this, MethodInfo* method)
 {
 	{
-		t1302 * L_0 = m5500(__this, &m5500_MI);
-		t1299 * L_1 = m5493(L_0, 2, &m5493_MI);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
+		t1308 * L_1 = m5521(L_0, 2, &m5521_MI);
 		return L_1;
 	}
 }
-extern "C" void m5548 (t1300 * __this, t1299 * p0, MethodInfo* method)
+extern "C" void m5576 (t1309 * __this, t1308 * p0, MethodInfo* method)
 {
 	{
-		t1302 * L_0 = m5500(__this, &m5500_MI);
-		t1299 * L_1 = p0;
-		m5494(L_0, 2, L_1, &m5494_MI);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
+		t1308 * L_1 = p0;
+		m5522(L_0, 2, L_1, &m5522_MI);
 		return;
 	}
 }
-extern "C" void m5549 (t1300 * __this, t9 * p0, bool p1, MethodInfo* method)
+extern "C" void m5577 (t1309 * __this, t9 * p0, bool p1, MethodInfo* method)
 {
-	t1277 * V_0 = {0};
-	t1277 * V_1 = {0};
-	t1277 * V_2 = {0};
+	t1286 * V_0 = {0};
+	t1286 * V_1 = {0};
+	t1286 * V_2 = {0};
 	{
 		t9 * L_0 = p0;
-		t1277 * L_1 = (t1277 *)InterfaceFuncInvoker0< t1277 * >::Invoke(&m5922_MI, L_0);
+		t1286 * L_1 = (t1286 *)InterfaceFuncInvoker0< t1286 * >::Invoke(&m5950_MI, L_0);
 		V_0 = L_1;
 		t9 * L_2 = p0;
-		t1277 * L_3 = (t1277 *)InterfaceFuncInvoker0< t1277 * >::Invoke(&m5922_MI, L_2);
+		t1286 * L_3 = (t1286 *)InterfaceFuncInvoker0< t1286 * >::Invoke(&m5950_MI, L_2);
 		V_1 = L_3;
 		bool L_4 = (__this->f2);
 		if (L_4)
@@ -15518,29 +15518,29 @@ extern "C" void m5549 (t1300 * __this, t9 * p0, bool p1, MethodInfo* method)
 	}
 	{
 		t9 * L_5 = p0;
-		t1277 * L_6 = V_0;
-		t1277 * L_7 = V_1;
-		InterfaceActionInvoker2< t1277 *, t1277 * >::Invoke(&m5938_MI, L_5, L_6, L_7);
+		t1286 * L_6 = V_0;
+		t1286 * L_7 = V_1;
+		InterfaceActionInvoker2< t1286 *, t1286 * >::Invoke(&m5966_MI, L_5, L_6, L_7);
 		goto IL_002e;
 	}
 
 IL_0026:
 	{
 		t9 * L_8 = p0;
-		t1277 * L_9 = V_1;
-		t1277 * L_10 = V_0;
-		InterfaceActionInvoker2< t1277 *, t1277 * >::Invoke(&m5938_MI, L_8, L_9, L_10);
+		t1286 * L_9 = V_1;
+		t1286 * L_10 = V_0;
+		InterfaceActionInvoker2< t1286 *, t1286 * >::Invoke(&m5966_MI, L_8, L_9, L_10);
 	}
 
 IL_002e:
 	{
-		t1299 * L_11 = m5547(__this, &m5547_MI);
+		t1308 * L_11 = m5575(__this, &m5575_MI);
 		t9 * L_12 = p0;
 		bool L_13 = (__this->f1);
-		VirtActionInvoker2< t9 *, bool >::Invoke(&m5918_MI, L_11, L_12, L_13);
+		VirtActionInvoker2< t9 *, bool >::Invoke(&m5946_MI, L_11, L_12, L_13);
 		t9 * L_14 = p0;
-		InterfaceActionInvoker0::Invoke(&m5926_MI, L_14);
-		t1299 * L_15 = m5534(__this, &m5534_MI);
+		InterfaceActionInvoker0::Invoke(&m5954_MI, L_14);
+		t1308 * L_15 = m5562(__this, &m5562_MI);
 		if (L_15)
 		{
 			goto IL_006a;
@@ -15548,26 +15548,26 @@ IL_002e:
 	}
 	{
 		t9 * L_16 = p0;
-		t1277 * L_17 = V_1;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_16, L_17);
+		t1286 * L_17 = V_1;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_16, L_17);
 		t9 * L_18 = p0;
-		InterfaceActionInvoker0::Invoke(&m5939_MI, L_18);
+		InterfaceActionInvoker0::Invoke(&m5967_MI, L_18);
 		t9 * L_19 = p0;
-		t1277 * L_20 = V_0;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_19, L_20);
+		t1286 * L_20 = V_0;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_19, L_20);
 		goto IL_00be;
 	}
 
 IL_006a:
 	{
 		t9 * L_21 = p0;
-		t1277 * L_22 = V_0;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_21, L_22);
-		t1299 * L_23 = m5534(__this, &m5534_MI);
+		t1286 * L_22 = V_0;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_21, L_22);
+		t1308 * L_23 = m5562(__this, &m5562_MI);
 		t9 * L_24 = p0;
 		bool L_25 = p1;
-		VirtActionInvoker2< t9 *, bool >::Invoke(&m5918_MI, L_23, L_24, L_25);
-		t1299 * L_26 = m5536(__this, &m5536_MI);
+		VirtActionInvoker2< t9 *, bool >::Invoke(&m5946_MI, L_23, L_24, L_25);
+		t1308 * L_26 = m5564(__this, &m5564_MI);
 		if (L_26)
 		{
 			goto IL_0095;
@@ -15575,29 +15575,29 @@ IL_006a:
 	}
 	{
 		t9 * L_27 = p0;
-		t1277 * L_28 = V_1;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_27, L_28);
+		t1286 * L_28 = V_1;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_27, L_28);
 		goto IL_00be;
 	}
 
 IL_0095:
 	{
 		t9 * L_29 = p0;
-		t1277 * L_30 = (t1277 *)InterfaceFuncInvoker0< t1277 * >::Invoke(&m5922_MI, L_29);
+		t1286 * L_30 = (t1286 *)InterfaceFuncInvoker0< t1286 * >::Invoke(&m5950_MI, L_29);
 		V_2 = L_30;
 		t9 * L_31 = p0;
-		t1277 * L_32 = V_2;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5937_MI, L_31, L_32);
+		t1286 * L_32 = V_2;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5965_MI, L_31, L_32);
 		t9 * L_33 = p0;
-		t1277 * L_34 = V_1;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_33, L_34);
-		t1299 * L_35 = m5536(__this, &m5536_MI);
+		t1286 * L_34 = V_1;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_33, L_34);
+		t1308 * L_35 = m5564(__this, &m5564_MI);
 		t9 * L_36 = p0;
 		bool L_37 = p1;
-		VirtActionInvoker2< t9 *, bool >::Invoke(&m5918_MI, L_35, L_36, L_37);
+		VirtActionInvoker2< t9 *, bool >::Invoke(&m5946_MI, L_35, L_36, L_37);
 		t9 * L_38 = p0;
-		t1277 * L_39 = V_2;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_38, L_39);
+		t1286 * L_39 = V_2;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_38, L_39);
 	}
 
 IL_00be:
@@ -15605,7 +15605,7 @@ IL_00be:
 		return;
 	}
 }
-extern "C" bool m5550 (t1300 * __this, MethodInfo* method)
+extern "C" bool m5578 (t1309 * __this, MethodInfo* method)
 {
 	{
 		return 1;
@@ -15615,42 +15615,42 @@ extern "C" bool m5550 (t1300 * __this, MethodInfo* method)
 #else
 #endif
 
-extern MethodInfo m5552_MI;
-extern MethodInfo m5940_MI;
-extern MethodInfo m5941_MI;
-extern MethodInfo m5942_MI;
+extern MethodInfo m5580_MI;
+extern MethodInfo m5968_MI;
+extern MethodInfo m5969_MI;
+extern MethodInfo m5970_MI;
 
 
-extern "C" void m5551 (t1312 * __this, MethodInfo* method)
+extern "C" void m5579 (t1321 * __this, MethodInfo* method)
 {
 	{
-		m5499(__this, &m5499_MI);
+		m5527(__this, &m5527_MI);
 		return;
 	}
 }
-extern "C" t1302 * m5552 (t1312 * __this, MethodInfo* method)
+extern "C" t1311 * m5580 (t1321 * __this, MethodInfo* method)
 {
 	{
-		t1302 * L_0 = m5500(__this, &m5500_MI);
+		t1311 * L_0 = m5528(__this, &m5528_MI);
 		return L_0;
 	}
 }
-extern "C" void m5553 (t1312 * __this, t1299 * p0, MethodInfo* method)
+extern "C" void m5581 (t1321 * __this, t1308 * p0, MethodInfo* method)
 {
 	{
-		t1302 * L_0 = m5552(__this, &m5552_MI);
-		t1299 * L_1 = p0;
-		m5492(L_0, L_1, &m5492_MI);
+		t1311 * L_0 = m5580(__this, &m5580_MI);
+		t1308 * L_1 = p0;
+		m5520(L_0, L_1, &m5520_MI);
 		return;
 	}
 }
-extern MethodInfo m5554_MI;
-extern "C" void m5554 (t1312 * __this, t9 * p0, bool p1, MethodInfo* method)
+extern MethodInfo m5582_MI;
+extern "C" void m5582 (t1321 * __this, t9 * p0, bool p1, MethodInfo* method)
 {
-	t1277 * V_0 = {0};
-	t1299 * V_1 = {0};
+	t1286 * V_0 = {0};
+	t1308 * V_1 = {0};
 	t9 * V_2 = {0};
-	t1277 * V_3 = {0};
+	t1286 * V_3 = {0};
 	t9 * V_4 = {0};
 	t138 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
@@ -15660,10 +15660,10 @@ extern "C" void m5554 (t1312 * __this, t9 * p0, bool p1, MethodInfo* method)
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		t9 * L_0 = p0;
-		t1277 * L_1 = (t1277 *)InterfaceFuncInvoker0< t1277 * >::Invoke(&m5922_MI, L_0);
+		t1286 * L_1 = (t1286 *)InterfaceFuncInvoker0< t1286 * >::Invoke(&m5950_MI, L_0);
 		V_0 = L_1;
-		t1302 * L_2 = m5552(__this, &m5552_MI);
-		t9 * L_3 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5843_MI, L_2);
+		t1311 * L_2 = m5580(__this, &m5580_MI);
+		t9 * L_3 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5871_MI, L_2);
 		V_2 = L_3;
 	}
 
@@ -15678,25 +15678,25 @@ IL_0018:
 		{
 			t9 * L_4 = V_2;
 			t9 * L_5 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m361_MI, L_4);
-			V_1 = ((t1299 *)Castclass(L_5, InitializedTypeInfo(&t1299_TI)));
+			V_1 = ((t1308 *)Castclass(L_5, InitializedTypeInfo(&t1308_TI)));
 			t9 * L_6 = p0;
-			t1277 * L_7 = (t1277 *)InterfaceFuncInvoker0< t1277 * >::Invoke(&m5922_MI, L_6);
+			t1286 * L_7 = (t1286 *)InterfaceFuncInvoker0< t1286 * >::Invoke(&m5950_MI, L_6);
 			V_3 = L_7;
 			t9 * L_8 = p0;
-			t1277 * L_9 = V_3;
-			InterfaceActionInvoker1< t1277 * >::Invoke(&m5940_MI, L_8, L_9);
-			t1299 * L_10 = V_1;
+			t1286 * L_9 = V_3;
+			InterfaceActionInvoker1< t1286 * >::Invoke(&m5968_MI, L_8, L_9);
+			t1308 * L_10 = V_1;
 			t9 * L_11 = p0;
 			bool L_12 = p1;
-			VirtActionInvoker2< t9 *, bool >::Invoke(&m5918_MI, L_10, L_11, L_12);
+			VirtActionInvoker2< t9 *, bool >::Invoke(&m5946_MI, L_10, L_11, L_12);
 			t9 * L_13 = p0;
-			t1277 * L_14 = V_0;
-			InterfaceActionInvoker1< t1277 * >::Invoke(&m5937_MI, L_13, L_14);
+			t1286 * L_14 = V_0;
+			InterfaceActionInvoker1< t1286 * >::Invoke(&m5965_MI, L_13, L_14);
 			t9 * L_15 = p0;
-			t1277 * L_16 = V_3;
-			InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_15, L_16);
+			t1286 * L_16 = V_3;
+			InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_15, L_16);
 			t9 * L_17 = p0;
-			InterfaceActionInvoker0::Invoke(&m5941_MI, L_17);
+			InterfaceActionInvoker0::Invoke(&m5969_MI, L_17);
 		}
 
 IL_004e:
@@ -15753,24 +15753,24 @@ IL_006b:
 IL_0073:
 	{
 		t9 * L_23 = p0;
-		InterfaceActionInvoker0::Invoke(&m5939_MI, L_23);
+		InterfaceActionInvoker0::Invoke(&m5967_MI, L_23);
 		t9 * L_24 = p0;
-		t1277 * L_25 = V_0;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_24, L_25);
+		t1286 * L_25 = V_0;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_24, L_25);
 		t9 * L_26 = p0;
-		InterfaceActionInvoker0::Invoke(&m5942_MI, L_26);
+		InterfaceActionInvoker0::Invoke(&m5970_MI, L_26);
 		return;
 	}
 }
-extern MethodInfo m5555_MI;
-extern "C" void m5555 (t1312 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
+extern MethodInfo m5583_MI;
+extern "C" void m5583 (t1321 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
 {
 	{
 		int32_t* L_0 = p0;
 		int32_t* L_1 = p1;
-		t1302 * L_2 = m5552(__this, &m5552_MI);
-		int32_t L_3 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5804_MI, L_2);
-		m5501(__this, L_0, L_1, L_3, &m5501_MI);
+		t1311 * L_2 = m5580(__this, &m5580_MI);
+		int32_t L_3 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5832_MI, L_2);
+		m5529(__this, L_0, L_1, L_3, &m5529_MI);
 		return;
 	}
 }
@@ -15778,14 +15778,14 @@ extern "C" void m5555 (t1312 * __this, int32_t* p0, int32_t* p1, MethodInfo* met
 #else
 #endif
 
-extern MethodInfo m5943_MI;
-extern MethodInfo m5557_MI;
+extern MethodInfo m5971_MI;
+extern MethodInfo m5585_MI;
 
 
-extern "C" void m5556 (t1311 * __this, t2* p0, bool p1, MethodInfo* method)
+extern "C" void m5584 (t1320 * __this, t2* p0, bool p1, MethodInfo* method)
 {
 	{
-		m5496(__this, &m5496_MI);
+		m5524(__this, &m5524_MI);
 		t2* L_0 = p0;
 		__this->f0 = L_0;
 		bool L_1 = p1;
@@ -15793,11 +15793,11 @@ extern "C" void m5556 (t1311 * __this, t2* p0, bool p1, MethodInfo* method)
 		return;
 	}
 }
-extern "C" void m5557 (t9 * __this , t2* p0, t9 * p1, bool p2, bool p3, MethodInfo* method)
+extern "C" void m5585 (t9 * __this , t2* p0, t9 * p1, bool p2, bool p3, MethodInfo* method)
 {
 	{
 		t2* L_0 = p0;
-		int32_t L_1 = m2699(L_0, &m2699_MI);
+		int32_t L_1 = m2723(L_0, &m2723_MI);
 		if (L_1)
 		{
 			goto IL_000c;
@@ -15810,7 +15810,7 @@ extern "C" void m5557 (t9 * __this , t2* p0, t9 * p1, bool p2, bool p3, MethodIn
 IL_000c:
 	{
 		t2* L_2 = p0;
-		int32_t L_3 = m2699(L_2, &m2699_MI);
+		int32_t L_3 = m2723(L_2, &m2723_MI);
 		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
 		{
 			goto IL_002d;
@@ -15819,10 +15819,10 @@ IL_000c:
 	{
 		t9 * L_4 = p1;
 		t2* L_5 = p0;
-		uint16_t L_6 = m2714(L_5, 0, &m2714_MI);
+		uint16_t L_6 = m2738(L_5, 0, &m2738_MI);
 		bool L_7 = p2;
 		bool L_8 = p3;
-		InterfaceActionInvoker4< uint16_t, bool, bool, bool >::Invoke(&m5943_MI, L_4, L_6, 0, L_7, L_8);
+		InterfaceActionInvoker4< uint16_t, bool, bool, bool >::Invoke(&m5971_MI, L_4, L_6, 0, L_7, L_8);
 		goto IL_0036;
 	}
 
@@ -15832,7 +15832,7 @@ IL_002d:
 		t2* L_10 = p0;
 		bool L_11 = p2;
 		bool L_12 = p3;
-		InterfaceActionInvoker3< t2*, bool, bool >::Invoke(&m5925_MI, L_9, L_10, L_11, L_12);
+		InterfaceActionInvoker3< t2*, bool, bool >::Invoke(&m5953_MI, L_9, L_10, L_11, L_12);
 	}
 
 IL_0036:
@@ -15840,27 +15840,27 @@ IL_0036:
 		return;
 	}
 }
-extern MethodInfo m5558_MI;
-extern "C" void m5558 (t1311 * __this, t9 * p0, bool p1, MethodInfo* method)
+extern MethodInfo m5586_MI;
+extern "C" void m5586 (t1320 * __this, t9 * p0, bool p1, MethodInfo* method)
 {
 	{
 		t2* L_0 = (__this->f0);
 		t9 * L_1 = p0;
 		bool L_2 = (__this->f1);
 		bool L_3 = p1;
-		m5557(NULL, L_0, L_1, L_2, L_3, &m5557_MI);
+		m5585(NULL, L_0, L_1, L_2, L_3, &m5585_MI);
 		return;
 	}
 }
-extern MethodInfo m5559_MI;
-extern "C" void m5559 (t1311 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
+extern MethodInfo m5587_MI;
+extern "C" void m5587 (t1320 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
 		int32_t* L_0 = p0;
 		int32_t* L_1 = p1;
 		t2* L_2 = (__this->f0);
-		int32_t L_3 = m2699(L_2, &m2699_MI);
+		int32_t L_3 = m2723(L_2, &m2723_MI);
 		int32_t L_4 = L_3;
 		V_0 = L_4;
 		*((int32_t*)(L_1)) = (int32_t)L_4;
@@ -15869,21 +15869,21 @@ extern "C" void m5559 (t1311 * __this, int32_t* p0, int32_t* p1, MethodInfo* met
 		return;
 	}
 }
-extern MethodInfo m5560_MI;
-extern "C" t1304 * m5560 (t1311 * __this, bool p0, MethodInfo* method)
+extern MethodInfo m5588_MI;
+extern "C" t1313 * m5588 (t1320 * __this, bool p0, MethodInfo* method)
 {
 	{
 		t2* L_0 = (__this->f0);
-		int32_t L_1 = m2699(L_0, &m2699_MI);
+		int32_t L_1 = m2723(L_0, &m2723_MI);
 		t2* L_2 = (__this->f0);
 		bool L_3 = (__this->f1);
-		t1304 * L_4 = (t1304 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1304_TI));
-		m5588(L_4, __this, 0, L_1, L_2, L_3, &m5588_MI);
+		t1313 * L_4 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
+		m5616(L_4, __this, 0, L_1, L_2, L_3, &m5616_MI);
 		return L_4;
 	}
 }
-extern MethodInfo m5561_MI;
-extern "C" bool m5561 (t1311 * __this, MethodInfo* method)
+extern MethodInfo m5589_MI;
+extern "C" bool m5589 (t1320 * __this, MethodInfo* method)
 {
 	{
 		return 0;
@@ -15895,27 +15895,27 @@ extern "C" bool m5561 (t1311 * __this, MethodInfo* method)
 
 
 
-extern "C" void m5562 (t1313 * __this, uint16_t p0, MethodInfo* method)
+extern "C" void m5590 (t1322 * __this, uint16_t p0, MethodInfo* method)
 {
 	{
-		m5496(__this, &m5496_MI);
+		m5524(__this, &m5524_MI);
 		uint16_t L_0 = p0;
 		__this->f0 = L_0;
 		return;
 	}
 }
-extern MethodInfo m5563_MI;
-extern "C" void m5563 (t1313 * __this, t9 * p0, bool p1, MethodInfo* method)
+extern MethodInfo m5591_MI;
+extern "C" void m5591 (t1322 * __this, t9 * p0, bool p1, MethodInfo* method)
 {
 	{
 		t9 * L_0 = p0;
 		uint16_t L_1 = (__this->f0);
-		InterfaceActionInvoker1< uint16_t >::Invoke(&m5924_MI, L_0, L_1);
+		InterfaceActionInvoker1< uint16_t >::Invoke(&m5952_MI, L_0, L_1);
 		return;
 	}
 }
-extern MethodInfo m5564_MI;
-extern "C" void m5564 (t1313 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
+extern MethodInfo m5592_MI;
+extern "C" void m5592 (t1322 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -15929,15 +15929,15 @@ extern "C" void m5564 (t1313 * __this, int32_t* p0, int32_t* p1, MethodInfo* met
 		return;
 	}
 }
-extern MethodInfo m5565_MI;
-extern "C" bool m5565 (t1313 * __this, MethodInfo* method)
+extern MethodInfo m5593_MI;
+extern "C" bool m5593 (t1322 * __this, MethodInfo* method)
 {
 	{
 		return 0;
 	}
 }
-extern MethodInfo m5566_MI;
-extern "C" t1304 * m5566 (t1313 * __this, bool p0, MethodInfo* method)
+extern MethodInfo m5594_MI;
+extern "C" t1313 * m5594 (t1322 * __this, bool p0, MethodInfo* method)
 {
 	uint16_t V_0 = {0};
 	{
@@ -15964,15 +15964,15 @@ extern "C" t1304 * m5566 (t1313 * __this, bool p0, MethodInfo* method)
 IL_0020:
 	{
 		uint16_t L_2 = (__this->f0);
-		t1304 * L_3 = (t1304 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1304_TI));
-		m5589(L_3, __this, 0, 0, L_2, &m5589_MI);
+		t1313 * L_3 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
+		m5617(L_3, __this, 0, 0, L_2, &m5617_MI);
 		return L_3;
 	}
 
 IL_002f:
 	{
-		t1304 * L_4 = (t1304 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1304_TI));
-		m5587(L_4, __this, 0, &m5587_MI);
+		t1313 * L_4 = (t1313 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1313_TI));
+		m5615(L_4, __this, 0, &m5615_MI);
 		return L_4;
 	}
 }
@@ -15980,57 +15980,57 @@ IL_002f:
 #else
 #endif
 
-extern MethodInfo m5944_MI;
+extern MethodInfo m5972_MI;
 
 
-extern "C" void m5567 (t1314 * __this, bool p0, MethodInfo* method)
+extern "C" void m5595 (t1323 * __this, bool p0, MethodInfo* method)
 {
 	{
-		m5496(__this, &m5496_MI);
+		m5524(__this, &m5524_MI);
 		bool L_0 = p0;
 		__this->f1 = L_0;
 		return;
 	}
 }
-extern MethodInfo m5568_MI;
-extern "C" t1306 * m5568 (t1314 * __this, MethodInfo* method)
+extern MethodInfo m5596_MI;
+extern "C" t1315 * m5596 (t1323 * __this, MethodInfo* method)
 {
 	{
-		t1306 * L_0 = (__this->f0);
+		t1315 * L_0 = (__this->f0);
 		return L_0;
 	}
 }
-extern "C" void m5569 (t1314 * __this, t1306 * p0, MethodInfo* method)
+extern "C" void m5597 (t1323 * __this, t1315 * p0, MethodInfo* method)
 {
 	{
-		t1306 * L_0 = p0;
+		t1315 * L_0 = p0;
 		__this->f0 = L_0;
 		return;
 	}
 }
-extern MethodInfo m5570_MI;
-extern "C" bool m5570 (t1314 * __this, MethodInfo* method)
+extern MethodInfo m5598_MI;
+extern "C" bool m5598 (t1323 * __this, MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->f1);
 		return L_0;
 	}
 }
-extern MethodInfo m5571_MI;
-extern "C" void m5571 (t1314 * __this, t9 * p0, bool p1, MethodInfo* method)
+extern MethodInfo m5599_MI;
+extern "C" void m5599 (t1323 * __this, t9 * p0, bool p1, MethodInfo* method)
 {
 	{
 		t9 * L_0 = p0;
-		t1306 * L_1 = (__this->f0);
-		int32_t L_2 = m5512(L_1, &m5512_MI);
+		t1315 * L_1 = (__this->f0);
+		int32_t L_2 = m5540(L_1, &m5540_MI);
 		bool L_3 = (__this->f1);
 		bool L_4 = p1;
-		InterfaceActionInvoker3< int32_t, bool, bool >::Invoke(&m5944_MI, L_0, L_2, L_3, L_4);
+		InterfaceActionInvoker3< int32_t, bool, bool >::Invoke(&m5972_MI, L_0, L_2, L_3, L_4);
 		return;
 	}
 }
-extern MethodInfo m5572_MI;
-extern "C" void m5572 (t1314 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
+extern MethodInfo m5600_MI;
+extern "C" void m5600 (t1323 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
 {
 	{
 		int32_t* L_0 = p0;
@@ -16040,8 +16040,8 @@ extern "C" void m5572 (t1314 * __this, int32_t* p0, int32_t* p1, MethodInfo* met
 		return;
 	}
 }
-extern MethodInfo m5573_MI;
-extern "C" bool m5573 (t1314 * __this, MethodInfo* method)
+extern MethodInfo m5601_MI;
+extern "C" bool m5601 (t1323 * __this, MethodInfo* method)
 {
 	{
 		return 1;
@@ -16051,20 +16051,20 @@ extern "C" bool m5573 (t1314 * __this, MethodInfo* method)
 #else
 #endif
 
-extern MethodInfo m2741_MI;
+extern MethodInfo m2765_MI;
 
 
-extern "C" void m5574 (t1315 * __this, bool p0, bool p1, MethodInfo* method)
+extern "C" void m5602 (t1324 * __this, bool p0, bool p1, MethodInfo* method)
 {
 	{
 		bool L_0 = p0;
-		m5567(__this, L_0, &m5567_MI);
+		m5595(__this, L_0, &m5595_MI);
 		bool L_1 = p1;
 		__this->f3 = L_1;
 		return;
 	}
 }
-extern "C" bool m5575 (t1315 * __this, t2* p0, t1149 * p1, MethodInfo* method)
+extern "C" bool m5603 (t1324 * __this, t2* p0, t1158 * p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -16085,11 +16085,11 @@ extern "C" bool m5575 (t1315 * __this, t2* p0, t1149 * p1, MethodInfo* method)
 
 IL_0014:
 	{
-		t1149 * L_1 = p1;
+		t1158 * L_1 = p1;
 		t2* L_2 = p0;
 		int32_t L_3 = V_1;
-		t2* L_4 = m2715(L_2, 0, L_3, &m2715_MI);
-		t9 * L_5 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5707_MI, L_1, L_4);
+		t2* L_4 = m2739(L_2, 0, L_3, &m2739_MI);
+		t9 * L_5 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5735_MI, L_1, L_4);
 		if (!L_5)
 		{
 			goto IL_0029;
@@ -16110,7 +16110,7 @@ IL_002d:
 	{
 		int32_t L_8 = V_1;
 		t2* L_9 = p0;
-		int32_t L_10 = m2699(L_9, &m2699_MI);
+		int32_t L_10 = m2723(L_9, &m2723_MI);
 		if ((((int32_t)L_8) < ((int32_t)L_10)))
 		{
 			goto IL_0014;
@@ -16124,15 +16124,15 @@ IL_002d:
 		}
 	}
 	{
-		t1149 * L_12 = p1;
+		t1158 * L_12 = p1;
 		t2* L_13 = p0;
 		int32_t L_14 = V_0;
-		t2* L_15 = m2715(L_13, 0, L_14, &m2715_MI);
-		t9 * L_16 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5707_MI, L_12, L_15);
-		m5569(__this, ((t1306 *)Castclass(L_16, InitializedTypeInfo(&t1306_TI))), &m5569_MI);
+		t2* L_15 = m2739(L_13, 0, L_14, &m2739_MI);
+		t9 * L_16 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5735_MI, L_12, L_15);
+		m5597(__this, ((t1315 *)Castclass(L_16, InitializedTypeInfo(&t1315_TI))), &m5597_MI);
 		t2* L_17 = p0;
 		int32_t L_18 = V_0;
-		t2* L_19 = m2741(L_17, L_18, &m2741_MI);
+		t2* L_19 = m2765(L_17, L_18, &m2765_MI);
 		__this->f2 = L_19;
 		return 1;
 	}
@@ -16145,7 +16145,7 @@ IL_0067:
 IL_006c:
 	{
 		t2* L_20 = p0;
-		int32_t L_21 = m2699(L_20, &m2699_MI);
+		int32_t L_21 = m2723(L_20, &m2723_MI);
 		if ((!(((uint32_t)L_21) == ((uint32_t)1))))
 		{
 			goto IL_007a;
@@ -16159,7 +16159,7 @@ IL_007a:
 	{
 		V_2 = 0;
 		t2* L_22 = p0;
-		int32_t L_23 = m5446(NULL, L_22, (&V_2), &m5446_MI);
+		int32_t L_23 = m5474(NULL, L_22, (&V_2), &m5474_MI);
 		V_3 = L_23;
 		int32_t L_24 = V_3;
 		if ((!(((uint32_t)L_24) == ((uint32_t)(-1)))))
@@ -16199,21 +16199,21 @@ IL_00ac:
 		V_3 = ((int32_t)((int32_t)L_29&(int32_t)((int32_t)255)));
 		int32_t L_30 = V_3;
 		uint16_t L_31 = (((uint16_t)L_30));
-		t9 * L_32 = Box(InitializedTypeInfo(&t296_TI), &L_31);
+		t9 * L_32 = Box(InitializedTypeInfo(&t303_TI), &L_31);
 		t2* L_33 = p0;
 		int32_t L_34 = V_2;
-		t2* L_35 = m2741(L_33, L_34, &m2741_MI);
+		t2* L_35 = m2765(L_33, L_34, &m2765_MI);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		t2* L_36 = m511(NULL, L_32, L_35, &m511_MI);
 		__this->f2 = L_36;
 		return 1;
 	}
 }
-extern MethodInfo m5576_MI;
-extern "C" void m5576 (t1315 * __this, t9 * p0, bool p1, MethodInfo* method)
+extern MethodInfo m5604_MI;
+extern "C" void m5604 (t1324 * __this, t9 * p0, bool p1, MethodInfo* method)
 {
 	{
-		t1306 * L_0 = m5568(__this, &m5568_MI);
+		t1315 * L_0 = m5596(__this, &m5596_MI);
 		if (!L_0)
 		{
 			goto IL_0013;
@@ -16222,7 +16222,7 @@ extern "C" void m5576 (t1315 * __this, t9 * p0, bool p1, MethodInfo* method)
 	{
 		t9 * L_1 = p0;
 		bool L_2 = p1;
-		m5571(__this, L_1, L_2, &m5571_MI);
+		m5599(__this, L_1, L_2, &m5599_MI);
 	}
 
 IL_0013:
@@ -16236,9 +16236,9 @@ IL_0013:
 	{
 		t2* L_4 = (__this->f2);
 		t9 * L_5 = p0;
-		bool L_6 = m5570(__this, &m5570_MI);
+		bool L_6 = m5598(__this, &m5598_MI);
 		bool L_7 = p1;
-		m5557(NULL, L_4, L_5, L_6, L_7, &m5557_MI);
+		m5585(NULL, L_4, L_5, L_6, L_7, &m5585_MI);
 	}
 
 IL_0031:
@@ -16250,63 +16250,63 @@ IL_0031:
 #else
 #endif
 
+extern TypeInfo t1292_TI;
 extern TypeInfo t1283_TI;
-extern TypeInfo t1274_TI;
-extern MethodInfo m5945_MI;
-extern MethodInfo m5946_MI;
-extern MethodInfo m5586_MI;
-extern MethodInfo m5947_MI;
-extern MethodInfo m5948_MI;
-extern MethodInfo m5949_MI;
-extern MethodInfo m5950_MI;
-extern MethodInfo m5951_MI;
+extern MethodInfo m5973_MI;
+extern MethodInfo m5974_MI;
+extern MethodInfo m5614_MI;
+extern MethodInfo m5975_MI;
+extern MethodInfo m5976_MI;
+extern MethodInfo m5977_MI;
+extern MethodInfo m5978_MI;
+extern MethodInfo m5979_MI;
 
 
-extern "C" void m5577 (t1316 * __this, bool p0, bool p1, MethodInfo* method)
+extern "C" void m5605 (t1325 * __this, bool p0, bool p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		m5496(__this, &m5496_MI);
+		m5524(__this, &m5524_MI);
 		bool L_0 = p0;
 		__this->f1 = L_0;
 		bool L_1 = p1;
 		__this->f2 = L_1;
-		t1294 * L_2 = (t1294 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1294_TI));
-		m5433(L_2, &m5433_MI);
+		t1303 * L_2 = (t1303 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1303_TI));
+		m5461(L_2, &m5461_MI);
 		__this->f5 = L_2;
 		V_0 = ((int32_t)144);
 		int32_t L_3 = V_0;
-		t1283 * L_4 = (t1283 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1283_TI));
-		m5945(L_4, L_3, &m5945_MI);
+		t1292 * L_4 = (t1292 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1292_TI));
+		m5973(L_4, L_3, &m5973_MI);
 		__this->f3 = L_4;
 		int32_t L_5 = V_0;
-		t1283 * L_6 = (t1283 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1283_TI));
-		m5945(L_6, L_5, &m5945_MI);
+		t1292 * L_6 = (t1292 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1292_TI));
+		m5973(L_6, L_5, &m5973_MI);
 		__this->f4 = L_6;
 		return;
 	}
 }
-extern "C" void m5578 (t1316 * __this, uint16_t p0, bool p1, MethodInfo* method)
+extern "C" void m5606 (t1325 * __this, uint16_t p0, bool p1, MethodInfo* method)
 {
 	{
-		m5577(__this, 0, 0, &m5577_MI);
+		m5605(__this, 0, 0, &m5605_MI);
 		uint16_t L_0 = p0;
 		bool L_1 = p1;
-		m5580(__this, L_0, L_1, &m5580_MI);
+		m5608(__this, L_0, L_1, &m5608_MI);
 		return;
 	}
 }
-extern MethodInfo m5579_MI;
-extern "C" void m5579 (t9 * __this , MethodInfo* method)
+extern MethodInfo m5607_MI;
+extern "C" void m5607 (t9 * __this , MethodInfo* method)
 {
 	{
-		t1291  L_0 = {0};
-		m5412(&L_0, ((int32_t)65), ((int32_t)90), &m5412_MI);
-		((t1316_SFs*)InitializedTypeInfo(&t1316_TI)->static_fields)->f0 = L_0;
+		t1300  L_0 = {0};
+		m5440(&L_0, ((int32_t)65), ((int32_t)90), &m5440_MI);
+		((t1325_SFs*)InitializedTypeInfo(&t1325_TI)->static_fields)->f0 = L_0;
 		return;
 	}
 }
-extern "C" void m5580 (t1316 * __this, uint16_t p0, bool p1, MethodInfo* method)
+extern "C" void m5608 (t1325 * __this, uint16_t p0, bool p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -16319,17 +16319,17 @@ extern "C" void m5580 (t1316 * __this, uint16_t p0, bool p1, MethodInfo* method)
 		}
 	}
 	{
-		t1283 * L_2 = (__this->f4);
+		t1292 * L_2 = (__this->f4);
 		int32_t L_3 = V_0;
-		m5946(L_2, L_3, 1, &m5946_MI);
+		m5974(L_2, L_3, 1, &m5974_MI);
 		goto IL_0027;
 	}
 
 IL_001a:
 	{
-		t1283 * L_4 = (__this->f3);
+		t1292 * L_4 = (__this->f3);
 		int32_t L_5 = V_0;
-		m5946(L_4, L_5, 1, &m5946_MI);
+		m5974(L_4, L_5, 1, &m5974_MI);
 	}
 
 IL_0027:
@@ -16337,23 +16337,23 @@ IL_0027:
 		return;
 	}
 }
-extern "C" void m5581 (t1316 * __this, uint16_t p0, MethodInfo* method)
+extern "C" void m5609 (t1325 * __this, uint16_t p0, MethodInfo* method)
 {
 	{
 		uint16_t L_0 = p0;
 		uint16_t L_1 = p0;
-		m5582(__this, L_0, L_1, &m5582_MI);
+		m5610(__this, L_0, L_1, &m5610_MI);
 		return;
 	}
 }
-extern "C" void m5582 (t1316 * __this, uint16_t p0, uint16_t p1, MethodInfo* method)
+extern "C" void m5610 (t1325 * __this, uint16_t p0, uint16_t p1, MethodInfo* method)
 {
-	t1291  V_0 = {0};
-	t1291  V_1 = {0};
+	t1300  V_0 = {0};
+	t1300  V_1 = {0};
 	{
 		uint16_t L_0 = p0;
 		uint16_t L_1 = p1;
-		m5412((&V_0), L_0, L_1, &m5412_MI);
+		m5440((&V_0), L_0, L_1, &m5440_MI);
 		bool L_2 = (__this->f2);
 		if (!L_2)
 		{
@@ -16361,9 +16361,9 @@ extern "C" void m5582 (t1316 * __this, uint16_t p0, uint16_t p1, MethodInfo* met
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		t1291  L_3 = V_0;
-		bool L_4 = m5422((&((t1316_SFs*)InitializedTypeInfo(&t1316_TI)->static_fields)->f0), L_3, &m5422_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		t1300  L_3 = V_0;
+		bool L_4 = m5450((&((t1325_SFs*)InitializedTypeInfo(&t1325_TI)->static_fields)->f0), L_3, &m5450_MI);
 		if (!L_4)
 		{
 			goto IL_00b2;
@@ -16371,19 +16371,19 @@ extern "C" void m5582 (t1316 * __this, uint16_t p0, uint16_t p1, MethodInfo* met
 	}
 	{
 		int32_t L_5 = ((&V_0)->f0);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		int32_t L_6 = ((&((t1316_SFs*)InitializedTypeInfo(&t1316_TI)->static_fields)->f0)->f0);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		int32_t L_6 = ((&((t1325_SFs*)InitializedTypeInfo(&t1325_TI)->static_fields)->f0)->f0);
 		if ((((int32_t)L_5) >= ((int32_t)L_6)))
 		{
 			goto IL_0070;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		int32_t L_7 = ((&((t1316_SFs*)InitializedTypeInfo(&t1316_TI)->static_fields)->f0)->f0);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		int32_t L_7 = ((&((t1325_SFs*)InitializedTypeInfo(&t1325_TI)->static_fields)->f0)->f0);
 		int32_t L_8 = ((&V_0)->f1);
-		m5412((&V_1), ((int32_t)((int32_t)L_7+(int32_t)((int32_t)32))), ((int32_t)((int32_t)L_8+(int32_t)((int32_t)32))), &m5412_MI);
-		int32_t L_9 = ((&((t1316_SFs*)InitializedTypeInfo(&t1316_TI)->static_fields)->f0)->f0);
+		m5440((&V_1), ((int32_t)((int32_t)L_7+(int32_t)((int32_t)32))), ((int32_t)((int32_t)L_8+(int32_t)((int32_t)32))), &m5440_MI);
+		int32_t L_9 = ((&((t1325_SFs*)InitializedTypeInfo(&t1325_TI)->static_fields)->f0)->f0);
 		(&V_0)->f1 = ((int32_t)((int32_t)L_9-(int32_t)1));
 		goto IL_00a1;
 	}
@@ -16391,59 +16391,59 @@ extern "C" void m5582 (t1316 * __this, uint16_t p0, uint16_t p1, MethodInfo* met
 IL_0070:
 	{
 		int32_t L_10 = ((&V_0)->f0);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		int32_t L_11 = ((&((t1316_SFs*)InitializedTypeInfo(&t1316_TI)->static_fields)->f0)->f1);
-		m5412((&V_1), ((int32_t)((int32_t)L_10+(int32_t)((int32_t)32))), ((int32_t)((int32_t)L_11+(int32_t)((int32_t)32))), &m5412_MI);
-		int32_t L_12 = ((&((t1316_SFs*)InitializedTypeInfo(&t1316_TI)->static_fields)->f0)->f1);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		int32_t L_11 = ((&((t1325_SFs*)InitializedTypeInfo(&t1325_TI)->static_fields)->f0)->f1);
+		m5440((&V_1), ((int32_t)((int32_t)L_10+(int32_t)((int32_t)32))), ((int32_t)((int32_t)L_11+(int32_t)((int32_t)32))), &m5440_MI);
+		int32_t L_12 = ((&((t1325_SFs*)InitializedTypeInfo(&t1325_TI)->static_fields)->f0)->f1);
 		(&V_0)->f0 = ((int32_t)((int32_t)L_12+(int32_t)1));
 	}
 
 IL_00a1:
 	{
-		t1294 * L_13 = (__this->f5);
-		t1291  L_14 = V_1;
-		m5435(L_13, L_14, &m5435_MI);
+		t1303 * L_13 = (__this->f5);
+		t1300  L_14 = V_1;
+		m5463(L_13, L_14, &m5463_MI);
 		goto IL_00e2;
 	}
 
 IL_00b2:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1316_TI));
-		t1291  L_15 = V_0;
-		bool L_16 = m5420((&((t1316_SFs*)InitializedTypeInfo(&t1316_TI)->static_fields)->f0), L_15, &m5420_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1325_TI));
+		t1300  L_15 = V_0;
+		bool L_16 = m5448((&((t1325_SFs*)InitializedTypeInfo(&t1325_TI)->static_fields)->f0), L_15, &m5448_MI);
 		if (!L_16)
 		{
 			goto IL_00e2;
 		}
 	}
 	{
-		t1291 * L_17 = (&V_0);
+		t1300 * L_17 = (&V_0);
 		int32_t L_18 = (L_17->f1);
 		L_17->f1 = ((int32_t)((int32_t)L_18+(int32_t)((int32_t)32)));
-		t1291 * L_19 = (&V_0);
+		t1300 * L_19 = (&V_0);
 		int32_t L_20 = (L_19->f0);
 		L_19->f0 = ((int32_t)((int32_t)L_20+(int32_t)((int32_t)32)));
 	}
 
 IL_00e2:
 	{
-		t1294 * L_21 = (__this->f5);
-		t1291  L_22 = V_0;
-		m5435(L_21, L_22, &m5435_MI);
+		t1303 * L_21 = (__this->f5);
+		t1300  L_22 = V_0;
+		m5463(L_21, L_22, &m5463_MI);
 		return;
 	}
 }
-extern MethodInfo m5583_MI;
-extern "C" void m5583 (t1316 * __this, t9 * p0, bool p1, MethodInfo* method)
+extern MethodInfo m5611_MI;
+extern "C" void m5611 (t1325 * __this, t9 * p0, bool p1, MethodInfo* method)
 {
-	t1294 * V_0 = {0};
+	t1303 * V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	t1277 * V_3 = {0};
-	t1291  V_4 = {0};
+	t1286 * V_3 = {0};
+	t1300  V_4 = {0};
 	t9 * V_5 = {0};
-	t1283 * V_6 = {0};
-	t1291  V_7 = {0};
+	t1292 * V_6 = {0};
+	t1300  V_7 = {0};
 	t9 * V_8 = {0};
 	int32_t V_9 = 0;
 	int32_t V_10 = 0;
@@ -16456,14 +16456,14 @@ extern "C" void m5583 (t1316 * __this, t9 * p0, bool p1, MethodInfo* method)
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		t1294 * L_0 = (__this->f5);
-		t58 L_1 = { &m5586_MI };
-		t1293 * L_2 = (t1293 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1293_TI));
-		m5429(L_2, NULL, L_1, &m5429_MI);
-		t1294 * L_3 = m5437(L_0, L_2, &m5437_MI);
+		t1303 * L_0 = (__this->f5);
+		t58 L_1 = { &m5614_MI };
+		t1302 * L_2 = (t1302 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1302_TI));
+		m5457(L_2, NULL, L_1, &m5457_MI);
+		t1303 * L_3 = m5465(L_0, L_2, &m5465_MI);
 		V_0 = L_3;
-		t1294 * L_4 = V_0;
-		int32_t L_5 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5439_MI, L_4);
+		t1303 * L_4 = V_0;
+		int32_t L_5 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5467_MI, L_4);
 		V_1 = L_5;
 		V_2 = 0;
 		goto IL_0050;
@@ -16471,18 +16471,18 @@ extern "C" void m5583 (t1316 * __this, t9 * p0, bool p1, MethodInfo* method)
 
 IL_0026:
 	{
-		t1283 * L_6 = (__this->f3);
+		t1292 * L_6 = (__this->f3);
 		int32_t L_7 = V_2;
-		bool L_8 = m5902(L_6, L_7, &m5902_MI);
+		bool L_8 = m5930(L_6, L_7, &m5930_MI);
 		if (L_8)
 		{
 			goto IL_0048;
 		}
 	}
 	{
-		t1283 * L_9 = (__this->f4);
+		t1292 * L_9 = (__this->f4);
 		int32_t L_10 = V_2;
-		bool L_11 = m5902(L_9, L_10, &m5902_MI);
+		bool L_11 = m5930(L_9, L_10, &m5930_MI);
 		if (!L_11)
 		{
 			goto IL_004c;
@@ -16504,8 +16504,8 @@ IL_004c:
 IL_0050:
 	{
 		int32_t L_14 = V_2;
-		t1283 * L_15 = (__this->f3);
-		int32_t L_16 = m5901(L_15, &m5901_MI);
+		t1292 * L_15 = (__this->f3);
+		int32_t L_16 = m5929(L_15, &m5929_MI);
 		if ((((int32_t)L_14) < ((int32_t)L_16)))
 		{
 			goto IL_0026;
@@ -16525,7 +16525,7 @@ IL_0050:
 IL_0068:
 	{
 		t9 * L_18 = p0;
-		t1277 * L_19 = (t1277 *)InterfaceFuncInvoker0< t1277 * >::Invoke(&m5922_MI, L_18);
+		t1286 * L_19 = (t1286 *)InterfaceFuncInvoker0< t1286 * >::Invoke(&m5950_MI, L_18);
 		V_3 = L_19;
 		int32_t L_20 = V_1;
 		if ((((int32_t)L_20) <= ((int32_t)1)))
@@ -16535,14 +16535,14 @@ IL_0068:
 	}
 	{
 		t9 * L_21 = p0;
-		t1277 * L_22 = V_3;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5947_MI, L_21, L_22);
+		t1286 * L_22 = V_3;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5975_MI, L_21, L_22);
 	}
 
 IL_007d:
 	{
-		t1294 * L_23 = V_0;
-		t9 * L_24 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5443_MI, L_23);
+		t1303 * L_23 = V_0;
+		t9 * L_24 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5471_MI, L_23);
 		V_5 = L_24;
 	}
 
@@ -16557,8 +16557,8 @@ IL_008a:
 		{
 			t9 * L_25 = V_5;
 			t9 * L_26 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m361_MI, L_25);
-			V_4 = ((*(t1291 *)((t1291 *)UnBox (L_26, InitializedTypeInfo(&t1291_TI)))));
-			bool L_27 = m5414((&V_4), &m5414_MI);
+			V_4 = ((*(t1300 *)((t1300 *)UnBox (L_26, InitializedTypeInfo(&t1300_TI)))));
+			bool L_27 = m5442((&V_4), &m5442_MI);
 			if (!L_27)
 			{
 				goto IL_015d;
@@ -16567,12 +16567,12 @@ IL_008a:
 
 IL_00a4:
 		{
-			int32_t L_28 = m5417((&V_4), &m5417_MI);
-			t1283 * L_29 = (t1283 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1283_TI));
-			m5945(L_29, L_28, &m5945_MI);
+			int32_t L_28 = m5445((&V_4), &m5445_MI);
+			t1292 * L_29 = (t1292 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1292_TI));
+			m5973(L_29, L_28, &m5973_MI);
 			V_6 = L_29;
-			t1294 * L_30 = (__this->f5);
-			t9 * L_31 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5443_MI, L_30);
+			t1303 * L_30 = (__this->f5);
+			t9 * L_31 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5471_MI, L_30);
 			V_8 = L_31;
 		}
 
@@ -16587,9 +16587,9 @@ IL_00c4:
 			{
 				t9 * L_32 = V_8;
 				t9 * L_33 = (t9 *)InterfaceFuncInvoker0< t9 * >::Invoke(&m361_MI, L_32);
-				V_7 = ((*(t1291 *)((t1291 *)UnBox (L_33, InitializedTypeInfo(&t1291_TI)))));
-				t1291  L_34 = V_7;
-				bool L_35 = m5420((&V_4), L_34, &m5420_MI);
+				V_7 = ((*(t1300 *)((t1300 *)UnBox (L_33, InitializedTypeInfo(&t1300_TI)))));
+				t1300  L_34 = V_7;
+				bool L_35 = m5448((&V_4), L_34, &m5448_MI);
 				if (!L_35)
 				{
 					goto IL_0114;
@@ -16605,10 +16605,10 @@ IL_00e0:
 
 IL_00ee:
 			{
-				t1283 * L_37 = V_6;
+				t1292 * L_37 = V_6;
 				int32_t L_38 = V_9;
 				int32_t L_39 = ((&V_4)->f0);
-				m5946(L_37, ((int32_t)((int32_t)L_38-(int32_t)L_39)), 1, &m5946_MI);
+				m5974(L_37, ((int32_t)((int32_t)L_38-(int32_t)L_39)), 1, &m5974_MI);
 				int32_t L_40 = V_9;
 				V_9 = ((int32_t)((int32_t)L_40+(int32_t)1));
 			}
@@ -16678,17 +16678,17 @@ IL_013b:
 		{
 			t9 * L_48 = p0;
 			int32_t L_49 = ((&V_4)->f0);
-			t1283 * L_50 = V_6;
+			t1292 * L_50 = V_6;
 			bool L_51 = (__this->f1);
 			bool L_52 = (__this->f2);
 			bool L_53 = p1;
-			InterfaceActionInvoker5< uint16_t, t1283 *, bool, bool, bool >::Invoke(&m5948_MI, L_48, (((uint16_t)L_49)), L_50, L_51, L_52, L_53);
+			InterfaceActionInvoker5< uint16_t, t1292 *, bool, bool, bool >::Invoke(&m5976_MI, L_48, (((uint16_t)L_49)), L_50, L_51, L_52, L_53);
 			goto IL_01ac;
 		}
 
 IL_015d:
 		{
-			bool L_54 = m5415((&V_4), &m5415_MI);
+			bool L_54 = m5443((&V_4), &m5443_MI);
 			if (!L_54)
 			{
 				goto IL_0189;
@@ -16702,7 +16702,7 @@ IL_0169:
 			bool L_57 = (__this->f1);
 			bool L_58 = (__this->f2);
 			bool L_59 = p1;
-			InterfaceActionInvoker4< uint16_t, bool, bool, bool >::Invoke(&m5943_MI, L_55, (((uint16_t)L_56)), L_57, L_58, L_59);
+			InterfaceActionInvoker4< uint16_t, bool, bool, bool >::Invoke(&m5971_MI, L_55, (((uint16_t)L_56)), L_57, L_58, L_59);
 			goto IL_01ac;
 		}
 
@@ -16714,7 +16714,7 @@ IL_0189:
 			bool L_63 = (__this->f1);
 			bool L_64 = (__this->f2);
 			bool L_65 = p1;
-			InterfaceActionInvoker5< uint16_t, uint16_t, bool, bool, bool >::Invoke(&m5949_MI, L_60, (((uint16_t)L_61)), (((uint16_t)L_62)), L_63, L_64, L_65);
+			InterfaceActionInvoker5< uint16_t, uint16_t, bool, bool, bool >::Invoke(&m5977_MI, L_60, (((uint16_t)L_61)), (((uint16_t)L_62)), L_63, L_64, L_65);
 		}
 
 IL_01ac:
@@ -16776,18 +16776,18 @@ IL_01d3:
 
 IL_01db:
 	{
-		t1283 * L_71 = (__this->f3);
+		t1292 * L_71 = (__this->f3);
 		int32_t L_72 = V_10;
-		bool L_73 = m5902(L_71, L_72, &m5902_MI);
+		bool L_73 = m5930(L_71, L_72, &m5930_MI);
 		if (!L_73)
 		{
 			goto IL_0227;
 		}
 	}
 	{
-		t1283 * L_74 = (__this->f4);
+		t1292 * L_74 = (__this->f4);
 		int32_t L_75 = V_10;
-		bool L_76 = m5902(L_74, L_75, &m5902_MI);
+		bool L_76 = m5930(L_74, L_75, &m5930_MI);
 		if (!L_76)
 		{
 			goto IL_0212;
@@ -16797,7 +16797,7 @@ IL_01db:
 		t9 * L_77 = p0;
 		bool L_78 = (__this->f1);
 		bool L_79 = p1;
-		InterfaceActionInvoker3< uint16_t, bool, bool >::Invoke(&m5950_MI, L_77, 2, L_78, L_79);
+		InterfaceActionInvoker3< uint16_t, bool, bool >::Invoke(&m5978_MI, L_77, 2, L_78, L_79);
 		goto IL_0222;
 	}
 
@@ -16807,7 +16807,7 @@ IL_0212:
 		int32_t L_81 = V_10;
 		bool L_82 = (__this->f1);
 		bool L_83 = p1;
-		InterfaceActionInvoker3< uint16_t, bool, bool >::Invoke(&m5950_MI, L_80, (((uint16_t)L_81)), L_82, L_83);
+		InterfaceActionInvoker3< uint16_t, bool, bool >::Invoke(&m5978_MI, L_80, (((uint16_t)L_81)), L_82, L_83);
 	}
 
 IL_0222:
@@ -16817,9 +16817,9 @@ IL_0222:
 
 IL_0227:
 	{
-		t1283 * L_84 = (__this->f4);
+		t1292 * L_84 = (__this->f4);
 		int32_t L_85 = V_10;
-		bool L_86 = m5902(L_84, L_85, &m5902_MI);
+		bool L_86 = m5930(L_84, L_85, &m5930_MI);
 		if (!L_86)
 		{
 			goto IL_0249;
@@ -16830,7 +16830,7 @@ IL_0227:
 		int32_t L_88 = V_10;
 		bool L_89 = (__this->f1);
 		bool L_90 = p1;
-		InterfaceActionInvoker3< uint16_t, bool, bool >::Invoke(&m5951_MI, L_87, (((uint16_t)L_88)), L_89, L_90);
+		InterfaceActionInvoker3< uint16_t, bool, bool >::Invoke(&m5979_MI, L_87, (((uint16_t)L_88)), L_89, L_90);
 	}
 
 IL_0249:
@@ -16842,8 +16842,8 @@ IL_0249:
 IL_024f:
 	{
 		int32_t L_92 = V_10;
-		t1283 * L_93 = (__this->f3);
-		int32_t L_94 = m5901(L_93, &m5901_MI);
+		t1292 * L_93 = (__this->f3);
+		int32_t L_94 = m5929(L_93, &m5929_MI);
 		if ((((int32_t)L_92) < ((int32_t)L_94)))
 		{
 			goto IL_01db;
@@ -16865,21 +16865,21 @@ IL_024f:
 	}
 	{
 		t9 * L_97 = p0;
-		InterfaceActionInvoker0::Invoke(&m5926_MI, L_97);
+		InterfaceActionInvoker0::Invoke(&m5954_MI, L_97);
 		goto IL_0284;
 	}
 
 IL_027e:
 	{
 		t9 * L_98 = p0;
-		InterfaceActionInvoker0::Invoke(&m5939_MI, L_98);
+		InterfaceActionInvoker0::Invoke(&m5967_MI, L_98);
 	}
 
 IL_0284:
 	{
 		t9 * L_99 = p0;
-		t1277 * L_100 = V_3;
-		InterfaceActionInvoker1< t1277 * >::Invoke(&m5927_MI, L_99, L_100);
+		t1286 * L_100 = V_3;
+		InterfaceActionInvoker1< t1286 * >::Invoke(&m5955_MI, L_99, L_100);
 	}
 
 IL_028b:
@@ -16887,8 +16887,8 @@ IL_028b:
 		return;
 	}
 }
-extern MethodInfo m5584_MI;
-extern "C" void m5584 (t1316 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
+extern MethodInfo m5612_MI;
+extern "C" void m5612 (t1325 * __this, int32_t* p0, int32_t* p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -16902,30 +16902,30 @@ extern "C" void m5584 (t1316 * __this, int32_t* p0, int32_t* p1, MethodInfo* met
 		return;
 	}
 }
-extern MethodInfo m5585_MI;
-extern "C" bool m5585 (t1316 * __this, MethodInfo* method)
+extern MethodInfo m5613_MI;
+extern "C" bool m5613 (t1325 * __this, MethodInfo* method)
 {
 	{
 		return 0;
 	}
 }
-extern "C" double m5586 (t9 * __this , t1291  p0, MethodInfo* method)
+extern "C" double m5614 (t9 * __this , t1300  p0, MethodInfo* method)
 {
 	{
-		bool L_0 = m5414((&p0), &m5414_MI);
+		bool L_0 = m5442((&p0), &m5442_MI);
 		if (!L_0)
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		int32_t L_1 = m5417((&p0), &m5417_MI);
+		int32_t L_1 = m5445((&p0), &m5445_MI);
 		return (((double)((int32_t)((int32_t)3+(int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_1+(int32_t)((int32_t)15)))>>(int32_t)4))))));
 	}
 
 IL_001c:
 	{
-		bool L_2 = m5415((&p0), &m5415_MI);
+		bool L_2 = m5443((&p0), &m5443_MI);
 		if (!L_2)
 		{
 			goto IL_0032;
@@ -16944,14 +16944,14 @@ IL_0032:
 #else
 #endif
 
-extern MethodInfo m5592_MI;
+extern MethodInfo m5620_MI;
 
 
-extern "C" void m5587 (t1304 * __this, t1299 * p0, int32_t p1, MethodInfo* method)
+extern "C" void m5615 (t1313 * __this, t1308 * p0, int32_t p1, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
-		t1299 * L_0 = p0;
+		t1308 * L_0 = p0;
 		__this->f0 = L_0;
 		__this->f2 = 0;
 		int32_t L_1 = p1;
@@ -16962,15 +16962,15 @@ extern "C" void m5587 (t1304 * __this, t1299 * p0, int32_t p1, MethodInfo* metho
 		return;
 	}
 }
-extern "C" void m5588 (t1304 * __this, t1299 * p0, int32_t p1, int32_t p2, t2* p3, bool p4, MethodInfo* method)
+extern "C" void m5616 (t1313 * __this, t1308 * p0, int32_t p1, int32_t p2, t2* p3, bool p4, MethodInfo* method)
 {
-	t1304 * G_B2_0 = {0};
-	t1304 * G_B1_0 = {0};
+	t1313 * G_B2_0 = {0};
+	t1313 * G_B1_0 = {0};
 	t2* G_B3_0 = {0};
-	t1304 * G_B3_1 = {0};
+	t1313 * G_B3_1 = {0};
 	{
 		m336(__this, &m336_MI);
-		t1299 * L_0 = p0;
+		t1308 * L_0 = p0;
 		__this->f0 = L_0;
 		int32_t L_1 = p1;
 		__this->f2 = L_1;
@@ -16986,7 +16986,7 @@ extern "C" void m5588 (t1304 * __this, t1299 * p0, int32_t p1, int32_t p2, t2* p
 	}
 	{
 		t2* L_4 = p3;
-		t2* L_5 = m5903(L_4, &m5903_MI);
+		t2* L_5 = m5931(L_4, &m5931_MI);
 		G_B3_0 = L_5;
 		G_B3_1 = G_B1_0;
 		goto IL_0031;
@@ -17008,11 +17008,11 @@ IL_0031:
 		return;
 	}
 }
-extern "C" void m5589 (t1304 * __this, t1299 * p0, int32_t p1, int32_t p2, uint16_t p3, MethodInfo* method)
+extern "C" void m5617 (t1313 * __this, t1308 * p0, int32_t p1, int32_t p2, uint16_t p3, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
-		t1299 * L_0 = p0;
+		t1308 * L_0 = p0;
 		__this->f0 = L_0;
 		int32_t L_1 = p1;
 		__this->f2 = L_1;
@@ -17025,21 +17025,21 @@ extern "C" void m5589 (t1304 * __this, t1299 * p0, int32_t p1, int32_t p2, uint1
 		return;
 	}
 }
-extern "C" int32_t m5590 (t1304 * __this, MethodInfo* method)
+extern "C" int32_t m5618 (t1313 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f2);
 		return L_0;
 	}
 }
-extern "C" int32_t m5591 (t1304 * __this, MethodInfo* method)
+extern "C" int32_t m5619 (t1313 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f4);
 		return L_0;
 	}
 }
-extern "C" int32_t m5592 (t1304 * __this, MethodInfo* method)
+extern "C" int32_t m5620 (t1313 * __this, MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
@@ -17051,7 +17051,7 @@ extern "C" int32_t m5592 (t1304 * __this, MethodInfo* method)
 	}
 	{
 		t2* L_1 = (__this->f3);
-		int32_t L_2 = m2699(L_1, &m2699_MI);
+		int32_t L_2 = m2723(L_1, &m2723_MI);
 		G_B3_0 = L_2;
 		goto IL_001c;
 	}
@@ -17066,133 +17066,133 @@ IL_001c:
 		return G_B3_0;
 	}
 }
-extern "C" bool m5593 (t1304 * __this, MethodInfo* method)
+extern "C" bool m5621 (t1313 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f4);
 		return ((((int32_t)L_0) < ((int32_t)0))? 1 : 0);
 	}
 }
-extern "C" bool m5594 (t1304 * __this, MethodInfo* method)
+extern "C" bool m5622 (t1313 * __this, MethodInfo* method)
 {
 	{
-		int32_t L_0 = m5592(__this, &m5592_MI);
-		int32_t L_1 = m5591(__this, &m5591_MI);
+		int32_t L_0 = m5620(__this, &m5620_MI);
+		int32_t L_1 = m5619(__this, &m5619_MI);
 		return ((((int32_t)L_0) == ((int32_t)L_1))? 1 : 0);
 	}
 }
-extern "C" t2* m5595 (t1304 * __this, MethodInfo* method)
+extern "C" t2* m5623 (t1313 * __this, MethodInfo* method)
 {
 	{
 		t2* L_0 = (__this->f3);
 		return L_0;
 	}
 }
-extern "C" bool m5596 (t1304 * __this, MethodInfo* method)
+extern "C" bool m5624 (t1313 * __this, MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->f5);
 		return L_0;
 	}
 }
-extern "C" uint16_t m5597 (t1304 * __this, MethodInfo* method)
+extern "C" uint16_t m5625 (t1313 * __this, MethodInfo* method)
 {
 	{
 		uint16_t L_0 = (__this->f1);
 		return L_0;
 	}
 }
-extern "C" bool m5598 (t1304 * __this, MethodInfo* method)
+extern "C" bool m5626 (t1313 * __this, MethodInfo* method)
 {
 	{
 		t2* L_0 = (__this->f3);
 		return ((((int32_t)((((t9*)(t2*)L_0) == ((t9*)(t9 *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-extern "C" bool m5599 (t1304 * __this, MethodInfo* method)
+extern "C" bool m5627 (t1313 * __this, MethodInfo* method)
 {
 	{
 		uint16_t L_0 = (__this->f1);
 		return ((((int32_t)((((int32_t)L_0) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-extern "C" t1291  m5600 (t1304 * __this, int32_t p0, MethodInfo* method)
+extern "C" t1300  m5628 (t1313 * __this, int32_t p0, MethodInfo* method)
 {
 	{
-		bool L_0 = m5598(__this, &m5598_MI);
+		bool L_0 = m5626(__this, &m5626_MI);
 		if (L_0)
 		{
 			goto IL_0011;
 		}
 	}
 	{
-		t1291  L_1 = m5413(NULL, &m5413_MI);
+		t1300  L_1 = m5441(NULL, &m5441_MI);
 		return L_1;
 	}
 
 IL_0011:
 	{
 		int32_t L_2 = p0;
-		int32_t L_3 = m5590(__this, &m5590_MI);
+		int32_t L_3 = m5618(__this, &m5618_MI);
 		int32_t L_4 = p0;
-		int32_t L_5 = m5590(__this, &m5590_MI);
-		int32_t L_6 = m5592(__this, &m5592_MI);
-		t1291  L_7 = {0};
-		m5412(&L_7, ((int32_t)((int32_t)L_2+(int32_t)L_3)), ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_4+(int32_t)L_5))+(int32_t)L_6))-(int32_t)1)), &m5412_MI);
+		int32_t L_5 = m5618(__this, &m5618_MI);
+		int32_t L_6 = m5620(__this, &m5620_MI);
+		t1300  L_7 = {0};
+		m5440(&L_7, ((int32_t)((int32_t)L_2+(int32_t)L_3)), ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_4+(int32_t)L_5))+(int32_t)L_6))-(int32_t)1)), &m5440_MI);
 		return L_7;
 	}
 }
-#include "t1317.h"
+#include "t1326.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1317_TI;
-#include "t1317MD.h"
+extern TypeInfo t1326_TI;
+#include "t1326MD.h"
 
-#include "t1318.h"
-extern TypeInfo t1318_TI;
-#include "t1318MD.h"
-extern MethodInfo m5655_MI;
+#include "t1327.h"
+extern TypeInfo t1327_TI;
+#include "t1327MD.h"
+extern MethodInfo m5683_MI;
 
 
-extern MethodInfo m5601_MI;
-extern "C" void m5601 (t1317 * __this, MethodInfo* method)
+extern MethodInfo m5629_MI;
+extern "C" void m5629 (t1326 * __this, MethodInfo* method)
 {
 	{
-		m5655(__this, &m5655_MI);
+		m5683(__this, &m5683_MI);
 		return;
 	}
 }
-extern MethodInfo m5602_MI;
-extern "C" void m5602 (t1317 * __this, t2* p0, MethodInfo* method)
+extern MethodInfo m5630_MI;
+extern "C" void m5630 (t1326 * __this, t2* p0, MethodInfo* method)
 {
 	{
-		m5655(__this, &m5655_MI);
+		m5683(__this, &m5683_MI);
 		t2* L_0 = p0;
 		__this->f2 = L_0;
 		return;
 	}
 }
-#include "t1319.h"
+#include "t1328.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1319_TI;
-#include "t1319MD.h"
+extern TypeInfo t1328_TI;
+#include "t1328MD.h"
 
 
 
-#include "t1320.h"
+#include "t1329.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1320_TI;
-#include "t1320MD.h"
+extern TypeInfo t1329_TI;
+#include "t1329MD.h"
 
 
 
-extern MethodInfo m5603_MI;
-extern "C" void m5603 (t1320 * __this, t2* p0, t2* p1, int32_t p2, MethodInfo* method)
+extern MethodInfo m5631_MI;
+extern "C" void m5631 (t1329 * __this, t2* p0, t2* p1, int32_t p2, MethodInfo* method)
 {
 	{
 		t2* L_0 = p0;
@@ -17205,190 +17205,190 @@ extern "C" void m5603 (t1320 * __this, t2* p0, t2* p1, int32_t p2, MethodInfo* m
 	}
 }
 // Conversion methods for marshalling of: System.Uri/UriScheme
-void t1320_marshal(const t1320& unmarshaled, t1320_marshaled& marshaled)
+void t1329_marshal(const t1329& unmarshaled, t1329_marshaled& marshaled)
 {
 	marshaled.f0 = il2cpp_codegen_marshal_string(unmarshaled.f0);
 	marshaled.f1 = il2cpp_codegen_marshal_string(unmarshaled.f1);
 	marshaled.f2 = unmarshaled.f2;
 }
-void t1320_marshal_back(const t1320_marshaled& marshaled, t1320& unmarshaled)
+void t1329_marshal_back(const t1329_marshaled& marshaled, t1329& unmarshaled)
 {
 	unmarshaled.f0 = il2cpp_codegen_marshal_string_result(marshaled.f0);
 	unmarshaled.f1 = il2cpp_codegen_marshal_string_result(marshaled.f1);
 	unmarshaled.f2 = marshaled.f2;
 }
 // Conversion method for clean up from marshalling of: System.Uri/UriScheme
-void t1320_marshal_cleanup(t1320_marshaled& marshaled)
+void t1329_marshal_cleanup(t1329_marshaled& marshaled)
 {
 	il2cpp_codegen_marshal_free(marshaled.f0);
 	marshaled.f0 = NULL;
 	il2cpp_codegen_marshal_free(marshaled.f1);
 	marshaled.f1 = NULL;
 }
-#include "t794.h"
+#include "t801.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t794_TI;
-#include "t794MD.h"
+extern TypeInfo t801_TI;
+#include "t801MD.h"
 
-#include "t1323.h"
-#include "t1190.h"
-#include "t1191.h"
-#include "t1093.h"
-#include "t1094.h"
-#include "t1324.h"
-#include "t1325.h"
+#include "t1332.h"
+#include "t1199.h"
+#include "t1200.h"
+#include "t1100.h"
+#include "t1101.h"
+#include "t1333.h"
+#include "t1334.h"
 #include "t132.h"
-#include "t896.h"
-#include "t1322.h"
-#include "t894.h"
-#include "t713.h"
-#include "t722.h"
-#include "t293.h"
-#include "t895.h"
+#include "t903.h"
+#include "t1331.h"
+#include "t901.h"
+#include "t720.h"
+#include "t729.h"
+#include "t300.h"
+#include "t902.h"
 #include "t138.h"
-extern TypeInfo t1190_TI;
-extern TypeInfo t1191_TI;
-extern TypeInfo t1325_TI;
-extern TypeInfo t1321_TI;
+extern TypeInfo t1199_TI;
+extern TypeInfo t1200_TI;
+extern TypeInfo t1334_TI;
+extern TypeInfo t1330_TI;
 extern TypeInfo t132_TI;
-extern TypeInfo t896_TI;
-extern TypeInfo t894_TI;
-extern TypeInfo t713_TI;
-extern TypeInfo t722_TI;
-extern TypeInfo t293_TI;
+extern TypeInfo t903_TI;
+extern TypeInfo t901_TI;
+extern TypeInfo t720_TI;
+extern TypeInfo t729_TI;
+extern TypeInfo t300_TI;
 extern TypeInfo t138_TI;
-#include "t1190MD.h"
-#include "t1191MD.h"
-#include "t1093MD.h"
-#include "t1325MD.h"
+#include "t1199MD.h"
+#include "t1200MD.h"
+#include "t1100MD.h"
+#include "t1334MD.h"
 #include "t132MD.h"
-#include "t896MD.h"
+#include "t903MD.h"
 #include "t168MD.h"
-#include "t894MD.h"
-#include "t713MD.h"
-#include "t722MD.h"
-#include "t293MD.h"
-#include "t1146MD.h"
+#include "t901MD.h"
+#include "t720MD.h"
+#include "t729MD.h"
+#include "t300MD.h"
+#include "t1155MD.h"
 #include "t138MD.h"
-extern Il2CppType t1321_0_0_0;
-extern Il2CppType t713_0_0_0;
-extern MethodInfo m5649_MI;
-extern MethodInfo m5625_MI;
+extern Il2CppType t1330_0_0_0;
+extern Il2CppType t720_0_0_0;
+extern MethodInfo m5677_MI;
+extern MethodInfo m5653_MI;
 extern MethodInfo m610_MI;
-extern MethodInfo m5615_MI;
-extern MethodInfo m5645_MI;
-extern MethodInfo m2395_MI;
-extern MethodInfo m331_MI;
-extern MethodInfo m5611_MI;
-extern MethodInfo m5612_MI;
-extern MethodInfo m4900_MI;
-extern MethodInfo m4909_MI;
-extern MethodInfo m4919_MI;
-extern MethodInfo m4923_MI;
-extern MethodInfo m5664_MI;
-extern MethodInfo m5605_MI;
-extern MethodInfo m5712_MI;
-extern MethodInfo m5633_MI;
-extern MethodInfo m5652_MI;
-extern MethodInfo m5608_MI;
-extern MethodInfo m5609_MI;
-extern MethodInfo m5715_MI;
-extern MethodInfo m5650_MI;
-extern MethodInfo m339_MI;
-extern MethodInfo m5616_MI;
-extern MethodInfo m5693_MI;
-extern MethodInfo m2770_MI;
-extern MethodInfo m5952_MI;
-extern MethodInfo m5953_MI;
-extern MethodInfo m5647_MI;
-extern MethodInfo m5631_MI;
-extern MethodInfo m5721_MI;
-extern MethodInfo m4422_MI;
-extern MethodInfo m2738_MI;
-extern MethodInfo m5954_MI;
-extern MethodInfo m4421_MI;
-extern MethodInfo m5618_MI;
-extern MethodInfo m5619_MI;
-extern MethodInfo m4420_MI;
-extern MethodInfo m5955_MI;
-extern MethodInfo m5621_MI;
-extern MethodInfo m4303_MI;
-extern MethodInfo m5623_MI;
-extern MethodInfo m4334_MI;
-extern MethodInfo m5956_MI;
-extern MethodInfo m4207_MI;
-extern MethodInfo m5646_MI;
-extern MethodInfo m2733_MI;
-extern MethodInfo m5786_MI;
-extern MethodInfo m5747_MI;
-extern MethodInfo m5748_MI;
-extern MethodInfo m5749_MI;
-extern MethodInfo m5641_MI;
-extern MethodInfo m5642_MI;
-extern MethodInfo m2885_MI;
-extern MethodInfo m5628_MI;
-extern MethodInfo m5635_MI;
-extern MethodInfo m5634_MI;
-extern MethodInfo m5630_MI;
-extern MethodInfo m5632_MI;
-extern MethodInfo m5629_MI;
-extern MethodInfo m4249_MI;
-extern MethodInfo m5957_MI;
-extern MethodInfo m5627_MI;
-extern MethodInfo m5639_MI;
 extern MethodInfo m5643_MI;
-extern MethodInfo m5958_MI;
-extern MethodInfo m4423_MI;
+extern MethodInfo m5673_MI;
+extern MethodInfo m2419_MI;
+extern MethodInfo m331_MI;
+extern MethodInfo m5639_MI;
 extern MethodInfo m5640_MI;
-extern MethodInfo m4246_MI;
-extern MethodInfo m5638_MI;
+extern MethodInfo m4928_MI;
+extern MethodInfo m4937_MI;
+extern MethodInfo m4947_MI;
+extern MethodInfo m4951_MI;
+extern MethodInfo m5692_MI;
+extern MethodInfo m5633_MI;
+extern MethodInfo m5740_MI;
+extern MethodInfo m5661_MI;
+extern MethodInfo m5680_MI;
 extern MethodInfo m5636_MI;
 extern MethodInfo m5637_MI;
-extern MethodInfo m5620_MI;
-extern MethodInfo m4775_MI;
-extern MethodInfo m4245_MI;
-extern MethodInfo m5614_MI;
-extern MethodInfo m5959_MI;
-extern MethodInfo m5960_MI;
-extern MethodInfo m5720_MI;
-extern MethodInfo m5617_MI;
-extern MethodInfo m4929_MI;
-extern MethodInfo m5648_MI;
-extern MethodInfo m5657_MI;
-extern MethodInfo m1083_MI;
-extern MethodInfo m4424_MI;
-extern MethodInfo m5961_MI;
-extern MethodInfo m5626_MI;
-extern MethodInfo m5660_MI;
+extern MethodInfo m5743_MI;
+extern MethodInfo m5678_MI;
+extern MethodInfo m339_MI;
 extern MethodInfo m5644_MI;
+extern MethodInfo m5721_MI;
+extern MethodInfo m2794_MI;
+extern MethodInfo m5980_MI;
+extern MethodInfo m5981_MI;
+extern MethodInfo m5675_MI;
+extern MethodInfo m5659_MI;
+extern MethodInfo m5749_MI;
+extern MethodInfo m4446_MI;
+extern MethodInfo m2762_MI;
+extern MethodInfo m5982_MI;
+extern MethodInfo m4445_MI;
+extern MethodInfo m5646_MI;
+extern MethodInfo m5647_MI;
+extern MethodInfo m4444_MI;
+extern MethodInfo m5983_MI;
+extern MethodInfo m5649_MI;
+extern MethodInfo m4327_MI;
+extern MethodInfo m5651_MI;
+extern MethodInfo m4358_MI;
+extern MethodInfo m5984_MI;
+extern MethodInfo m4231_MI;
+extern MethodInfo m5674_MI;
+extern MethodInfo m2757_MI;
+extern MethodInfo m5814_MI;
+extern MethodInfo m5775_MI;
+extern MethodInfo m5776_MI;
+extern MethodInfo m5777_MI;
+extern MethodInfo m5669_MI;
+extern MethodInfo m5670_MI;
+extern MethodInfo m2909_MI;
+extern MethodInfo m5656_MI;
+extern MethodInfo m5663_MI;
+extern MethodInfo m5662_MI;
+extern MethodInfo m5658_MI;
+extern MethodInfo m5660_MI;
+extern MethodInfo m5657_MI;
+extern MethodInfo m4273_MI;
+extern MethodInfo m5985_MI;
+extern MethodInfo m5655_MI;
+extern MethodInfo m5667_MI;
+extern MethodInfo m5671_MI;
+extern MethodInfo m5986_MI;
+extern MethodInfo m4447_MI;
+extern MethodInfo m5668_MI;
+extern MethodInfo m4270_MI;
+extern MethodInfo m5666_MI;
+extern MethodInfo m5664_MI;
+extern MethodInfo m5665_MI;
+extern MethodInfo m5648_MI;
+extern MethodInfo m4803_MI;
+extern MethodInfo m4269_MI;
+extern MethodInfo m5642_MI;
+extern MethodInfo m5987_MI;
+extern MethodInfo m5988_MI;
+extern MethodInfo m5748_MI;
+extern MethodInfo m5645_MI;
+extern MethodInfo m4957_MI;
+extern MethodInfo m5676_MI;
 extern MethodInfo m5685_MI;
-extern MethodInfo m5962_MI;
-extern Il2CppGenericMethod m5747_GM;
-extern Il2CppGenericMethod m5748_GM;
-extern Il2CppGenericMethod m5749_GM;
+extern MethodInfo m1098_MI;
+extern MethodInfo m4448_MI;
+extern MethodInfo m5989_MI;
+extern MethodInfo m5654_MI;
+extern MethodInfo m5688_MI;
+extern MethodInfo m5672_MI;
+extern MethodInfo m5713_MI;
+extern MethodInfo m5990_MI;
+extern Il2CppGenericMethod m5775_GM;
+extern Il2CppGenericMethod m5776_GM;
+extern Il2CppGenericMethod m5777_GM;
 
 
-extern "C" void m4303 (t794 * __this, t2* p0, MethodInfo* method)
+extern "C" void m4327 (t801 * __this, t2* p0, MethodInfo* method)
 {
 	{
 		t2* L_0 = p0;
-		m5605(__this, L_0, 0, &m5605_MI);
+		m5633(__this, L_0, 0, &m5633_MI);
 		return;
 	}
 }
-extern MethodInfo m5604_MI;
-extern "C" void m5604 (t794 * __this, t1093 * p0, t1094  p1, MethodInfo* method)
+extern MethodInfo m5632_MI;
+extern "C" void m5632 (t801 * __this, t1100 * p0, t1101  p1, MethodInfo* method)
 {
 	{
-		t1093 * L_0 = p0;
-		t2* L_1 = m5712(L_0, (t2*) &_stringLiteral727, &m5712_MI);
-		m5605(__this, L_1, 1, &m5605_MI);
+		t1100 * L_0 = p0;
+		t2* L_1 = m5740(L_0, (t2*) &_stringLiteral726, &m5740_MI);
+		m5633(__this, L_1, 1, &m5633_MI);
 		return;
 	}
 }
-extern "C" void m5605 (t794 * __this, t2* p0, bool p1, MethodInfo* method)
+extern "C" void m5633 (t801 * __this, t2* p0, bool p1, MethodInfo* method)
 {
 	{
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
@@ -17411,7 +17411,7 @@ extern "C" void m5605 (t794 * __this, t2* p0, bool p1, MethodInfo* method)
 		__this->f14 = L_6;
 		t2* L_7 = p0;
 		__this->f2 = L_7;
-		m5633(__this, 1, &m5633_MI);
+		m5661(__this, 1, &m5661_MI);
 		bool L_8 = (__this->f12);
 		if (L_8)
 		{
@@ -17421,9 +17421,9 @@ extern "C" void m5605 (t794 * __this, t2* p0, bool p1, MethodInfo* method)
 	{
 		t2* L_9 = p0;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_10 = m610(NULL, (t2*) &_stringLiteral728, L_9, &m610_MI);
-		t1325 * L_11 = (t1325 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1325_TI));
-		m5652(L_11, L_10, &m5652_MI);
+		t2* L_10 = m610(NULL, (t2*) &_stringLiteral727, L_9, &m610_MI);
+		t1334 * L_11 = (t1334 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1334_TI));
+		m5680(L_11, L_10, &m5680_MI);
 		il2cpp_codegen_raise_exception(L_11);
 	}
 
@@ -17432,8 +17432,8 @@ IL_0087:
 		return;
 	}
 }
-extern MethodInfo m4305_MI;
-extern "C" void m4305 (t794 * __this, t794 * p0, t2* p1, MethodInfo* method)
+extern MethodInfo m4329_MI;
+extern "C" void m4329 (t801 * __this, t801 * p0, t2* p1, MethodInfo* method)
 {
 	{
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
@@ -17452,112 +17452,112 @@ extern "C" void m4305 (t794 * __this, t794 * p0, t2* p1, MethodInfo* method)
 		__this->f9 = L_5;
 		__this->f12 = 1;
 		m336(__this, &m336_MI);
-		t794 * L_6 = p0;
+		t801 * L_6 = p0;
 		t2* L_7 = p1;
-		m5608(__this, L_6, L_7, &m5608_MI);
+		m5636(__this, L_6, L_7, &m5636_MI);
 		return;
 	}
 }
-extern MethodInfo m5606_MI;
-extern TypeInfo* t1321_TI_var;
-extern "C" void m5606 (t9 * __this , MethodInfo* method)
+extern MethodInfo m5634_MI;
+extern TypeInfo* t1330_TI_var;
+extern "C" void m5634 (t9 * __this , MethodInfo* method)
 {
-	static bool m5606_init;
-	if (!m5606_init)
+	static bool m5634_init;
+	if (!m5634_init)
 	{
-		t1321_TI_var = il2cpp_codegen_class_from_type(&t1321_0_0_0);
-		m5606_init = true;
+		t1330_TI_var = il2cpp_codegen_class_from_type(&t1330_0_0_0);
+		m5634_init = true;
 	}
 	{
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f19 = (t2*) &_stringLiteral257;
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f20 = (t2*) &_stringLiteral491;
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f21 = (t2*) &_stringLiteral546;
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f22 = (t2*) &_stringLiteral548;
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f23 = (t2*) &_stringLiteral729;
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f24 = (t2*) &_stringLiteral489;
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f25 = (t2*) &_stringLiteral488;
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f26 = (t2*) &_stringLiteral730;
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f27 = (t2*) &_stringLiteral731;
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f28 = (t2*) &_stringLiteral732;
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f29 = (t2*) &_stringLiteral733;
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f30 = (t2*) &_stringLiteral734;
-		t1321* L_0 = ((t1321*)SZArrayNew(t1321_TI_var, 8));
-		t2* L_1 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f24;
-		t2* L_2 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f20;
-		t1320  L_3 = {0};
-		m5603(&L_3, L_1, L_2, ((int32_t)80), &m5603_MI);
-		*((t1320 *)(t1320 *)SZArrayLdElema(L_0, 0)) = L_3;
-		t1321* L_4 = L_0;
-		t2* L_5 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f25;
-		t2* L_6 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f20;
-		t1320  L_7 = {0};
-		m5603(&L_7, L_5, L_6, ((int32_t)443), &m5603_MI);
-		*((t1320 *)(t1320 *)SZArrayLdElema(L_4, 1)) = L_7;
-		t1321* L_8 = L_4;
-		t2* L_9 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f22;
-		t2* L_10 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f20;
-		t1320  L_11 = {0};
-		m5603(&L_11, L_9, L_10, ((int32_t)21), &m5603_MI);
-		*((t1320 *)(t1320 *)SZArrayLdElema(L_8, 2)) = L_11;
-		t1321* L_12 = L_8;
-		t2* L_13 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f21;
-		t2* L_14 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f20;
-		t1320  L_15 = {0};
-		m5603(&L_15, L_13, L_14, (-1), &m5603_MI);
-		*((t1320 *)(t1320 *)SZArrayLdElema(L_12, 3)) = L_15;
-		t1321* L_16 = L_12;
-		t2* L_17 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f26;
-		t1320  L_18 = {0};
-		m5603(&L_18, L_17, (t2*) &_stringLiteral343, ((int32_t)25), &m5603_MI);
-		*((t1320 *)(t1320 *)SZArrayLdElema(L_16, 4)) = L_18;
-		t1321* L_19 = L_16;
-		t2* L_20 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f27;
-		t1320  L_21 = {0};
-		m5603(&L_21, L_20, (t2*) &_stringLiteral343, ((int32_t)119), &m5603_MI);
-		*((t1320 *)(t1320 *)SZArrayLdElema(L_19, 5)) = L_21;
-		t1321* L_22 = L_19;
-		t2* L_23 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f28;
-		t2* L_24 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f20;
-		t1320  L_25 = {0};
-		m5603(&L_25, L_23, L_24, ((int32_t)119), &m5603_MI);
-		*((t1320 *)(t1320 *)SZArrayLdElema(L_22, 6)) = L_25;
-		t1321* L_26 = L_22;
-		t2* L_27 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f23;
-		t2* L_28 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f20;
-		t1320  L_29 = {0};
-		m5603(&L_29, L_27, L_28, ((int32_t)70), &m5603_MI);
-		*((t1320 *)(t1320 *)SZArrayLdElema(L_26, 7)) = L_29;
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f31 = L_26;
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f19 = (t2*) &_stringLiteral256;
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f20 = (t2*) &_stringLiteral490;
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f21 = (t2*) &_stringLiteral545;
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f22 = (t2*) &_stringLiteral547;
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f23 = (t2*) &_stringLiteral728;
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f24 = (t2*) &_stringLiteral488;
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f25 = (t2*) &_stringLiteral487;
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f26 = (t2*) &_stringLiteral729;
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f27 = (t2*) &_stringLiteral730;
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f28 = (t2*) &_stringLiteral731;
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f29 = (t2*) &_stringLiteral732;
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f30 = (t2*) &_stringLiteral733;
+		t1330* L_0 = ((t1330*)SZArrayNew(t1330_TI_var, 8));
+		t2* L_1 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f24;
+		t2* L_2 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f20;
+		t1329  L_3 = {0};
+		m5631(&L_3, L_1, L_2, ((int32_t)80), &m5631_MI);
+		*((t1329 *)(t1329 *)SZArrayLdElema(L_0, 0)) = L_3;
+		t1330* L_4 = L_0;
+		t2* L_5 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f25;
+		t2* L_6 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f20;
+		t1329  L_7 = {0};
+		m5631(&L_7, L_5, L_6, ((int32_t)443), &m5631_MI);
+		*((t1329 *)(t1329 *)SZArrayLdElema(L_4, 1)) = L_7;
+		t1330* L_8 = L_4;
+		t2* L_9 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f22;
+		t2* L_10 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f20;
+		t1329  L_11 = {0};
+		m5631(&L_11, L_9, L_10, ((int32_t)21), &m5631_MI);
+		*((t1329 *)(t1329 *)SZArrayLdElema(L_8, 2)) = L_11;
+		t1330* L_12 = L_8;
+		t2* L_13 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f21;
+		t2* L_14 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f20;
+		t1329  L_15 = {0};
+		m5631(&L_15, L_13, L_14, (-1), &m5631_MI);
+		*((t1329 *)(t1329 *)SZArrayLdElema(L_12, 3)) = L_15;
+		t1330* L_16 = L_12;
+		t2* L_17 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f26;
+		t1329  L_18 = {0};
+		m5631(&L_18, L_17, (t2*) &_stringLiteral342, ((int32_t)25), &m5631_MI);
+		*((t1329 *)(t1329 *)SZArrayLdElema(L_16, 4)) = L_18;
+		t1330* L_19 = L_16;
+		t2* L_20 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f27;
+		t1329  L_21 = {0};
+		m5631(&L_21, L_20, (t2*) &_stringLiteral342, ((int32_t)119), &m5631_MI);
+		*((t1329 *)(t1329 *)SZArrayLdElema(L_19, 5)) = L_21;
+		t1330* L_22 = L_19;
+		t2* L_23 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f28;
+		t2* L_24 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f20;
+		t1329  L_25 = {0};
+		m5631(&L_25, L_23, L_24, ((int32_t)119), &m5631_MI);
+		*((t1329 *)(t1329 *)SZArrayLdElema(L_22, 6)) = L_25;
+		t1330* L_26 = L_22;
+		t2* L_27 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f23;
+		t2* L_28 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f20;
+		t1329  L_29 = {0};
+		m5631(&L_29, L_27, L_28, ((int32_t)70), &m5631_MI);
+		*((t1329 *)(t1329 *)SZArrayLdElema(L_26, 7)) = L_29;
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f31 = L_26;
 		return;
 	}
 }
-extern MethodInfo m5607_MI;
-extern "C" void m5607 (t794 * __this, t1093 * p0, t1094  p1, MethodInfo* method)
+extern MethodInfo m5635_MI;
+extern "C" void m5635 (t801 * __this, t1100 * p0, t1101  p1, MethodInfo* method)
 {
 	{
-		t1093 * L_0 = p0;
-		t2* L_1 = m5609(__this, &m5609_MI);
-		m5715(L_0, (t2*) &_stringLiteral727, L_1, &m5715_MI);
+		t1100 * L_0 = p0;
+		t2* L_1 = m5637(__this, &m5637_MI);
+		m5743(L_0, (t2*) &_stringLiteral726, L_1, &m5743_MI);
 		return;
 	}
 }
-extern TypeInfo* t305_TI_var;
-extern "C" void m5608 (t794 * __this, t794 * p0, t2* p1, MethodInfo* method)
+extern TypeInfo* t312_TI_var;
+extern "C" void m5636 (t801 * __this, t801 * p0, t2* p1, MethodInfo* method)
 {
-	static bool m5608_init;
-	if (!m5608_init)
+	static bool m5636_init;
+	if (!m5636_init)
 	{
-		t305_TI_var = il2cpp_codegen_class_from_type(&t305_0_0_0);
-		m5608_init = true;
+		t312_TI_var = il2cpp_codegen_class_from_type(&t312_0_0_0);
+		m5636_init = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		t794 * L_0 = p0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_1 = m5650(NULL, L_0, (t794 *)NULL, &m5650_MI);
+		t801 * L_0 = p0;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_1 = m5678(NULL, L_0, (t801 *)NULL, &m5678_MI);
 		if (!L_1)
 		{
 			goto IL_0017;
@@ -17565,22 +17565,22 @@ extern "C" void m5608 (t794 * __this, t794 * p0, t2* p1, MethodInfo* method)
 	}
 	{
 		t132 * L_2 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_2, (t2*) &_stringLiteral735, &m339_MI);
+		m339(L_2, (t2*) &_stringLiteral734, &m339_MI);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
 IL_0017:
 	{
-		t794 * L_3 = p0;
-		bool L_4 = m5616(L_3, &m5616_MI);
+		t801 * L_3 = p0;
+		bool L_4 = m5644(L_3, &m5644_MI);
 		if (L_4)
 		{
 			goto IL_002d;
 		}
 	}
 	{
-		t896 * L_5 = (t896 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t896_TI));
-		m5693(L_5, (t2*) &_stringLiteral735, &m5693_MI);
+		t903 * L_5 = (t903 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t903_TI));
+		m5721(L_5, (t2*) &_stringLiteral734, &m5721_MI);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -17601,7 +17601,7 @@ IL_002d:
 IL_003a:
 	{
 		t2* L_8 = p1;
-		int32_t L_9 = m2699(L_8, &m2699_MI);
+		int32_t L_9 = m2723(L_8, &m2723_MI);
 		if ((((int32_t)L_9) < ((int32_t)2)))
 		{
 			goto IL_0071;
@@ -17609,7 +17609,7 @@ IL_003a:
 	}
 	{
 		t2* L_10 = p1;
-		uint16_t L_11 = m2714(L_10, 0, &m2714_MI);
+		uint16_t L_11 = m2738(L_10, 0, &m2738_MI);
 		if ((!(((uint32_t)L_11) == ((uint32_t)((int32_t)92)))))
 		{
 			goto IL_0071;
@@ -17617,7 +17617,7 @@ IL_003a:
 	}
 	{
 		t2* L_12 = p1;
-		uint16_t L_13 = m2714(L_12, 1, &m2714_MI);
+		uint16_t L_13 = m2738(L_12, 1, &m2738_MI);
 		if ((!(((uint32_t)L_13) == ((uint32_t)((int32_t)92)))))
 		{
 			goto IL_0071;
@@ -17626,14 +17626,14 @@ IL_003a:
 	{
 		t2* L_14 = p1;
 		__this->f2 = L_14;
-		m5633(__this, 1, &m5633_MI);
+		m5661(__this, 1, &m5661_MI);
 		return;
 	}
 
 IL_0071:
 	{
 		t2* L_15 = p1;
-		int32_t L_16 = m2770(L_15, ((int32_t)58), &m2770_MI);
+		int32_t L_16 = m2794(L_15, ((int32_t)58), &m2794_MI);
 		V_0 = L_16;
 		int32_t L_17 = V_0;
 		if ((((int32_t)L_17) == ((int32_t)(-1))))
@@ -17643,13 +17643,13 @@ IL_0071:
 	}
 	{
 		t2* L_18 = p1;
-		t305* L_19 = ((t305*)SZArrayNew(t305_TI_var, 3));
+		t312* L_19 = ((t312*)SZArrayNew(t312_TI_var, 3));
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_19, 0)) = (uint16_t)((int32_t)47);
-		t305* L_20 = L_19;
+		t312* L_20 = L_19;
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_20, 1)) = (uint16_t)((int32_t)92);
-		t305* L_21 = L_20;
+		t312* L_21 = L_20;
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_21, 2)) = (uint16_t)((int32_t)63);
-		int32_t L_22 = m5952(L_18, L_21, &m5952_MI);
+		int32_t L_22 = m5980(L_18, L_21, &m5980_MI);
 		V_1 = L_22;
 		int32_t L_23 = V_1;
 		int32_t L_24 = V_0;
@@ -17668,22 +17668,22 @@ IL_0071:
 
 IL_00ab:
 	{
-		t794 * L_26 = p0;
-		t2* L_27 = m5615(L_26, &m5615_MI);
+		t801 * L_26 = p0;
+		t2* L_27 = m5643(L_26, &m5643_MI);
 		t2* L_28 = p1;
 		int32_t L_29 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		int32_t L_30 = m5953(NULL, L_27, 0, L_28, 0, L_29, &m5953_MI);
+		int32_t L_30 = m5981(NULL, L_27, 0, L_28, 0, L_29, &m5981_MI);
 		if (L_30)
 		{
 			goto IL_00ed;
 		}
 	}
 	{
-		t794 * L_31 = p0;
-		t2* L_32 = m5615(L_31, &m5615_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_33 = m5647(NULL, L_32, &m5647_MI);
+		t801 * L_31 = p0;
+		t2* L_32 = m5643(L_31, &m5643_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_33 = m5675(NULL, L_32, &m5675_MI);
 		if (!L_33)
 		{
 			goto IL_00ed;
@@ -17691,7 +17691,7 @@ IL_00ab:
 	}
 	{
 		t2* L_34 = p1;
-		int32_t L_35 = m2699(L_34, &m2699_MI);
+		int32_t L_35 = m2723(L_34, &m2723_MI);
 		int32_t L_36 = V_0;
 		if ((((int32_t)L_35) <= ((int32_t)((int32_t)((int32_t)L_36+(int32_t)1)))))
 		{
@@ -17701,7 +17701,7 @@ IL_00ab:
 	{
 		t2* L_37 = p1;
 		int32_t L_38 = V_0;
-		uint16_t L_39 = m2714(L_37, ((int32_t)((int32_t)L_38+(int32_t)1)), &m2714_MI);
+		uint16_t L_39 = m2738(L_37, ((int32_t)((int32_t)L_38+(int32_t)1)), &m2738_MI);
 		if ((!(((uint32_t)L_39) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_00fc;
@@ -17712,7 +17712,7 @@ IL_00ed:
 	{
 		t2* L_40 = p1;
 		__this->f2 = L_40;
-		m5633(__this, 1, &m5633_MI);
+		m5661(__this, 1, &m5661_MI);
 		return;
 	}
 
@@ -17720,31 +17720,31 @@ IL_00fc:
 	{
 		t2* L_41 = p1;
 		int32_t L_42 = V_0;
-		t2* L_43 = m2741(L_41, ((int32_t)((int32_t)L_42+(int32_t)1)), &m2741_MI);
+		t2* L_43 = m2765(L_41, ((int32_t)((int32_t)L_42+(int32_t)1)), &m2765_MI);
 		p1 = L_43;
 	}
 
 IL_0107:
 	{
-		t794 * L_44 = p0;
+		t801 * L_44 = p0;
 		t2* L_45 = (L_44->f3);
 		__this->f3 = L_45;
-		t794 * L_46 = p0;
+		t801 * L_46 = p0;
 		t2* L_47 = (L_46->f4);
 		__this->f4 = L_47;
-		t794 * L_48 = p0;
+		t801 * L_48 = p0;
 		int32_t L_49 = (L_48->f5);
 		__this->f5 = L_49;
-		t794 * L_50 = p0;
+		t801 * L_50 = p0;
 		t2* L_51 = (L_50->f9);
 		__this->f9 = L_51;
-		t794 * L_52 = p0;
+		t801 * L_52 = p0;
 		bool L_53 = (L_52->f10);
 		__this->f10 = L_53;
-		t794 * L_54 = p0;
+		t801 * L_54 = p0;
 		bool L_55 = (L_54->f1);
 		__this->f1 = L_55;
-		t794 * L_56 = p0;
+		t801 * L_56 = p0;
 		bool L_57 = (L_56->f11);
 		__this->f11 = L_57;
 		t2* L_58 = p1;
@@ -17757,13 +17757,13 @@ IL_0107:
 		}
 	}
 	{
-		t794 * L_61 = p0;
+		t801 * L_61 = p0;
 		t2* L_62 = (L_61->f6);
 		__this->f6 = L_62;
-		t794 * L_63 = p0;
+		t801 * L_63 = p0;
 		t2* L_64 = (L_63->f7);
 		__this->f7 = L_64;
-		t794 * L_65 = p0;
+		t801 * L_65 = p0;
 		t2* L_66 = (L_65->f8);
 		__this->f8 = L_66;
 		return;
@@ -17772,7 +17772,7 @@ IL_0107:
 IL_0190:
 	{
 		t2* L_67 = p1;
-		int32_t L_68 = m2770(L_67, ((int32_t)35), &m2770_MI);
+		int32_t L_68 = m2794(L_67, ((int32_t)35), &m2794_MI);
 		V_0 = L_68;
 		int32_t L_69 = V_0;
 		if ((((int32_t)L_69) == ((int32_t)(-1))))
@@ -17790,7 +17790,7 @@ IL_0190:
 	{
 		t2* L_71 = p1;
 		int32_t L_72 = V_0;
-		t2* L_73 = m2741(L_71, L_72, &m2741_MI);
+		t2* L_73 = m2765(L_71, L_72, &m2765_MI);
 		__this->f8 = L_73;
 		goto IL_01db;
 	}
@@ -17799,11 +17799,11 @@ IL_01bd:
 	{
 		t2* L_74 = p1;
 		int32_t L_75 = V_0;
-		t2* L_76 = m2741(L_74, ((int32_t)((int32_t)L_75+(int32_t)1)), &m2741_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_77 = m5631(NULL, L_76, &m5631_MI);
+		t2* L_76 = m2765(L_74, ((int32_t)((int32_t)L_75+(int32_t)1)), &m2765_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_77 = m5659(NULL, L_76, &m5659_MI);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_78 = m610(NULL, (t2*) &_stringLiteral736, L_77, &m610_MI);
+		t2* L_78 = m610(NULL, (t2*) &_stringLiteral735, L_77, &m610_MI);
 		__this->f8 = L_78;
 	}
 
@@ -17811,14 +17811,14 @@ IL_01db:
 	{
 		t2* L_79 = p1;
 		int32_t L_80 = V_0;
-		t2* L_81 = m2715(L_79, 0, L_80, &m2715_MI);
+		t2* L_81 = m2739(L_79, 0, L_80, &m2739_MI);
 		p1 = L_81;
 	}
 
 IL_01e5:
 	{
 		t2* L_82 = p1;
-		int32_t L_83 = m2770(L_82, ((int32_t)63), &m2770_MI);
+		int32_t L_83 = m2794(L_82, ((int32_t)63), &m2794_MI);
 		V_0 = L_83;
 		int32_t L_84 = V_0;
 		if ((((int32_t)L_84) == ((int32_t)(-1))))
@@ -17829,7 +17829,7 @@ IL_01e5:
 	{
 		t2* L_85 = p1;
 		int32_t L_86 = V_0;
-		t2* L_87 = m2741(L_85, L_86, &m2741_MI);
+		t2* L_87 = m2765(L_85, L_86, &m2765_MI);
 		__this->f7 = L_87;
 		bool L_88 = (__this->f14);
 		if (L_88)
@@ -17839,8 +17839,8 @@ IL_01e5:
 	}
 	{
 		t2* L_89 = (__this->f7);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_90 = m5631(NULL, L_89, &m5631_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_90 = m5659(NULL, L_89, &m5659_MI);
 		__this->f7 = L_90;
 	}
 
@@ -17848,14 +17848,14 @@ IL_021e:
 	{
 		t2* L_91 = p1;
 		int32_t L_92 = V_0;
-		t2* L_93 = m2715(L_91, 0, L_92, &m2715_MI);
+		t2* L_93 = m2739(L_91, 0, L_92, &m2739_MI);
 		p1 = L_93;
 	}
 
 IL_0228:
 	{
 		t2* L_94 = p1;
-		int32_t L_95 = m2699(L_94, &m2699_MI);
+		int32_t L_95 = m2723(L_94, &m2723_MI);
 		if ((((int32_t)L_95) <= ((int32_t)0)))
 		{
 			goto IL_02a1;
@@ -17863,7 +17863,7 @@ IL_0228:
 	}
 	{
 		t2* L_96 = p1;
-		uint16_t L_97 = m2714(L_96, 0, &m2714_MI);
+		uint16_t L_97 = m2738(L_96, 0, &m2738_MI);
 		if ((!(((uint32_t)L_97) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_02a1;
@@ -17871,7 +17871,7 @@ IL_0228:
 	}
 	{
 		t2* L_98 = p1;
-		int32_t L_99 = m2699(L_98, &m2699_MI);
+		int32_t L_99 = m2723(L_98, &m2723_MI);
 		if ((((int32_t)L_99) <= ((int32_t)1)))
 		{
 			goto IL_027d;
@@ -17879,7 +17879,7 @@ IL_0228:
 	}
 	{
 		t2* L_100 = p1;
-		uint16_t L_101 = m2714(L_100, 1, &m2714_MI);
+		uint16_t L_101 = m2738(L_100, 1, &m2738_MI);
 		if ((!(((uint32_t)L_101) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_027d;
@@ -17888,12 +17888,12 @@ IL_0228:
 	{
 		t2* L_102 = (__this->f3);
 		uint16_t L_103 = ((int32_t)58);
-		t9 * L_104 = Box(InitializedTypeInfo(&t296_TI), &L_103);
+		t9 * L_104 = Box(InitializedTypeInfo(&t303_TI), &L_103);
 		t2* L_105 = p1;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_106 = m2395(NULL, L_102, L_104, L_105, &m2395_MI);
+		t2* L_106 = m2419(NULL, L_102, L_104, L_105, &m2419_MI);
 		__this->f2 = L_106;
-		m5633(__this, 1, &m5633_MI);
+		m5661(__this, 1, &m5661_MI);
 		return;
 	}
 
@@ -17909,8 +17909,8 @@ IL_027d:
 	}
 	{
 		t2* L_109 = (__this->f6);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_110 = m5631(NULL, L_109, &m5631_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_110 = m5659(NULL, L_109, &m5659_MI);
 		__this->f6 = L_110;
 	}
 
@@ -17921,11 +17921,11 @@ IL_02a0:
 
 IL_02a1:
 	{
-		t794 * L_111 = p0;
+		t801 * L_111 = p0;
 		t2* L_112 = (L_111->f6);
 		__this->f6 = L_112;
 		t2* L_113 = p1;
-		int32_t L_114 = m2699(L_113, &m2699_MI);
+		int32_t L_114 = m2723(L_113, &m2723_MI);
 		if ((((int32_t)L_114) > ((int32_t)0)))
 		{
 			goto IL_02ca;
@@ -17933,7 +17933,7 @@ IL_02a1:
 	}
 	{
 		t2* L_115 = (__this->f7);
-		int32_t L_116 = m2699(L_115, &m2699_MI);
+		int32_t L_116 = m2723(L_115, &m2723_MI);
 		if ((((int32_t)L_116) <= ((int32_t)0)))
 		{
 			goto IL_02f4;
@@ -17943,7 +17943,7 @@ IL_02a1:
 IL_02ca:
 	{
 		t2* L_117 = (__this->f6);
-		int32_t L_118 = m5721(L_117, ((int32_t)47), &m5721_MI);
+		int32_t L_118 = m5749(L_117, ((int32_t)47), &m5749_MI);
 		V_0 = L_118;
 		int32_t L_119 = V_0;
 		if ((((int32_t)L_119) < ((int32_t)0)))
@@ -17954,14 +17954,14 @@ IL_02ca:
 	{
 		t2* L_120 = (__this->f6);
 		int32_t L_121 = V_0;
-		t2* L_122 = m2715(L_120, 0, ((int32_t)((int32_t)L_121+(int32_t)1)), &m2715_MI);
+		t2* L_122 = m2739(L_120, 0, ((int32_t)((int32_t)L_121+(int32_t)1)), &m2739_MI);
 		__this->f6 = L_122;
 	}
 
 IL_02f4:
 	{
 		t2* L_123 = p1;
-		int32_t L_124 = m2699(L_123, &m2699_MI);
+		int32_t L_124 = m2723(L_123, &m2723_MI);
 		if (L_124)
 		{
 			goto IL_0300;
@@ -17985,7 +17985,7 @@ IL_0314:
 	{
 		t2* L_128 = (__this->f6);
 		int32_t L_129 = V_2;
-		int32_t L_130 = m4422(L_128, (t2*) &_stringLiteral737, L_129, &m4422_MI);
+		int32_t L_130 = m4446(L_128, (t2*) &_stringLiteral736, L_129, &m4446_MI);
 		V_0 = L_130;
 		int32_t L_131 = V_0;
 		if ((!(((uint32_t)L_131) == ((uint32_t)(-1)))))
@@ -18007,7 +18007,7 @@ IL_0332:
 	}
 	{
 		t2* L_133 = (__this->f6);
-		t2* L_134 = m2738(L_133, 0, 2, &m2738_MI);
+		t2* L_134 = m2762(L_133, 0, 2, &m2762_MI);
 		__this->f6 = L_134;
 		goto IL_0381;
 	}
@@ -18016,7 +18016,7 @@ IL_0350:
 	{
 		t2* L_135 = (__this->f6);
 		int32_t L_136 = V_0;
-		uint16_t L_137 = m2714(L_135, ((int32_t)((int32_t)L_136-(int32_t)1)), &m2714_MI);
+		uint16_t L_137 = m2738(L_135, ((int32_t)((int32_t)L_136-(int32_t)1)), &m2738_MI);
 		if ((((int32_t)L_137) == ((int32_t)((int32_t)46))))
 		{
 			goto IL_037d;
@@ -18025,7 +18025,7 @@ IL_0350:
 	{
 		t2* L_138 = (__this->f6);
 		int32_t L_139 = V_0;
-		t2* L_140 = m2738(L_138, L_139, 2, &m2738_MI);
+		t2* L_140 = m2762(L_138, L_139, 2, &m2762_MI);
 		__this->f6 = L_140;
 		goto IL_0381;
 	}
@@ -18044,7 +18044,7 @@ IL_0381:
 IL_0386:
 	{
 		t2* L_142 = (__this->f6);
-		int32_t L_143 = m2699(L_142, &m2699_MI);
+		int32_t L_143 = m2723(L_142, &m2723_MI);
 		if ((((int32_t)L_143) <= ((int32_t)1)))
 		{
 			goto IL_03f4;
@@ -18053,8 +18053,8 @@ IL_0386:
 	{
 		t2* L_144 = (__this->f6);
 		t2* L_145 = (__this->f6);
-		int32_t L_146 = m2699(L_145, &m2699_MI);
-		uint16_t L_147 = m2714(L_144, ((int32_t)((int32_t)L_146-(int32_t)1)), &m2714_MI);
+		int32_t L_146 = m2723(L_145, &m2723_MI);
+		uint16_t L_147 = m2738(L_144, ((int32_t)((int32_t)L_146-(int32_t)1)), &m2738_MI);
 		if ((!(((uint32_t)L_147) == ((uint32_t)((int32_t)46)))))
 		{
 			goto IL_03f4;
@@ -18063,8 +18063,8 @@ IL_0386:
 	{
 		t2* L_148 = (__this->f6);
 		t2* L_149 = (__this->f6);
-		int32_t L_150 = m2699(L_149, &m2699_MI);
-		uint16_t L_151 = m2714(L_148, ((int32_t)((int32_t)L_150-(int32_t)2)), &m2714_MI);
+		int32_t L_150 = m2723(L_149, &m2723_MI);
+		uint16_t L_151 = m2738(L_148, ((int32_t)((int32_t)L_150-(int32_t)2)), &m2738_MI);
 		if ((!(((uint32_t)L_151) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_03f4;
@@ -18073,8 +18073,8 @@ IL_0386:
 	{
 		t2* L_152 = (__this->f6);
 		t2* L_153 = (__this->f6);
-		int32_t L_154 = m2699(L_153, &m2699_MI);
-		t2* L_155 = m2738(L_152, ((int32_t)((int32_t)L_154-(int32_t)1)), 1, &m2738_MI);
+		int32_t L_154 = m2723(L_153, &m2723_MI);
+		t2* L_155 = m2762(L_152, ((int32_t)((int32_t)L_154-(int32_t)1)), 1, &m2762_MI);
 		__this->f6 = L_155;
 	}
 
@@ -18087,7 +18087,7 @@ IL_03f6:
 	{
 		t2* L_156 = (__this->f6);
 		int32_t L_157 = V_2;
-		int32_t L_158 = m4422(L_156, (t2*) &_stringLiteral738, L_157, &m4422_MI);
+		int32_t L_158 = m4446(L_156, (t2*) &_stringLiteral737, L_157, &m4446_MI);
 		V_0 = L_158;
 		int32_t L_159 = V_0;
 		if ((!(((uint32_t)L_159) == ((uint32_t)(-1)))))
@@ -18116,7 +18116,7 @@ IL_0421:
 	{
 		t2* L_161 = (__this->f6);
 		int32_t L_162 = V_0;
-		int32_t L_163 = m5954(L_161, ((int32_t)47), ((int32_t)((int32_t)L_162-(int32_t)1)), &m5954_MI);
+		int32_t L_163 = m5982(L_161, ((int32_t)47), ((int32_t)((int32_t)L_162-(int32_t)1)), &m5982_MI);
 		V_3 = L_163;
 		int32_t L_164 = V_3;
 		if ((!(((uint32_t)L_164) == ((uint32_t)(-1)))))
@@ -18136,9 +18136,9 @@ IL_0442:
 		int32_t L_167 = V_3;
 		int32_t L_168 = V_0;
 		int32_t L_169 = V_3;
-		t2* L_170 = m2715(L_166, ((int32_t)((int32_t)L_167+(int32_t)1)), ((int32_t)((int32_t)((int32_t)((int32_t)L_168-(int32_t)L_169))-(int32_t)1)), &m2715_MI);
+		t2* L_170 = m2739(L_166, ((int32_t)((int32_t)L_167+(int32_t)1)), ((int32_t)((int32_t)((int32_t)((int32_t)L_168-(int32_t)L_169))-(int32_t)1)), &m2739_MI);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_171 = m2713(NULL, L_170, (t2*) &_stringLiteral739, &m2713_MI);
+		bool L_171 = m2737(NULL, L_170, (t2*) &_stringLiteral738, &m2737_MI);
 		if (!L_171)
 		{
 			goto IL_0482;
@@ -18149,7 +18149,7 @@ IL_0442:
 		int32_t L_173 = V_3;
 		int32_t L_174 = V_0;
 		int32_t L_175 = V_3;
-		t2* L_176 = m2738(L_172, ((int32_t)((int32_t)L_173+(int32_t)1)), ((int32_t)((int32_t)((int32_t)((int32_t)L_174-(int32_t)L_175))+(int32_t)3)), &m2738_MI);
+		t2* L_176 = m2762(L_172, ((int32_t)((int32_t)L_173+(int32_t)1)), ((int32_t)((int32_t)((int32_t)((int32_t)L_174-(int32_t)L_175))+(int32_t)3)), &m2762_MI);
 		__this->f6 = L_176;
 		goto IL_0486;
 	}
@@ -18168,7 +18168,7 @@ IL_0486:
 IL_048b:
 	{
 		t2* L_178 = (__this->f6);
-		int32_t L_179 = m2699(L_178, &m2699_MI);
+		int32_t L_179 = m2723(L_178, &m2723_MI);
 		if ((((int32_t)L_179) <= ((int32_t)3)))
 		{
 			goto IL_0522;
@@ -18176,7 +18176,7 @@ IL_048b:
 	}
 	{
 		t2* L_180 = (__this->f6);
-		bool L_181 = m4421(L_180, (t2*) &_stringLiteral740, &m4421_MI);
+		bool L_181 = m4445(L_180, (t2*) &_stringLiteral739, &m4445_MI);
 		if (!L_181)
 		{
 			goto IL_0522;
@@ -18185,8 +18185,8 @@ IL_048b:
 	{
 		t2* L_182 = (__this->f6);
 		t2* L_183 = (__this->f6);
-		int32_t L_184 = m2699(L_183, &m2699_MI);
-		int32_t L_185 = m5954(L_182, ((int32_t)47), ((int32_t)((int32_t)L_184-(int32_t)4)), &m5954_MI);
+		int32_t L_184 = m2723(L_183, &m2723_MI);
+		int32_t L_185 = m5982(L_182, ((int32_t)47), ((int32_t)((int32_t)L_184-(int32_t)4)), &m5982_MI);
 		V_0 = L_185;
 		int32_t L_186 = V_0;
 		if ((((int32_t)L_186) == ((int32_t)(-1))))
@@ -18198,11 +18198,11 @@ IL_048b:
 		t2* L_187 = (__this->f6);
 		int32_t L_188 = V_0;
 		t2* L_189 = (__this->f6);
-		int32_t L_190 = m2699(L_189, &m2699_MI);
+		int32_t L_190 = m2723(L_189, &m2723_MI);
 		int32_t L_191 = V_0;
-		t2* L_192 = m2715(L_187, ((int32_t)((int32_t)L_188+(int32_t)1)), ((int32_t)((int32_t)((int32_t)((int32_t)L_190-(int32_t)L_191))-(int32_t)4)), &m2715_MI);
+		t2* L_192 = m2739(L_187, ((int32_t)((int32_t)L_188+(int32_t)1)), ((int32_t)((int32_t)((int32_t)((int32_t)L_190-(int32_t)L_191))-(int32_t)4)), &m2739_MI);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_193 = m2713(NULL, L_192, (t2*) &_stringLiteral739, &m2713_MI);
+		bool L_193 = m2737(NULL, L_192, (t2*) &_stringLiteral738, &m2737_MI);
 		if (!L_193)
 		{
 			goto IL_0522;
@@ -18212,9 +18212,9 @@ IL_048b:
 		t2* L_194 = (__this->f6);
 		int32_t L_195 = V_0;
 		t2* L_196 = (__this->f6);
-		int32_t L_197 = m2699(L_196, &m2699_MI);
+		int32_t L_197 = m2723(L_196, &m2723_MI);
 		int32_t L_198 = V_0;
-		t2* L_199 = m2738(L_194, ((int32_t)((int32_t)L_195+(int32_t)1)), ((int32_t)((int32_t)((int32_t)((int32_t)L_197-(int32_t)L_198))-(int32_t)1)), &m2738_MI);
+		t2* L_199 = m2762(L_194, ((int32_t)((int32_t)L_195+(int32_t)1)), ((int32_t)((int32_t)((int32_t)((int32_t)L_197-(int32_t)L_198))-(int32_t)1)), &m2762_MI);
 		__this->f6 = L_199;
 	}
 
@@ -18228,8 +18228,8 @@ IL_0522:
 	}
 	{
 		t2* L_201 = (__this->f6);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_202 = m5631(NULL, L_201, &m5631_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_202 = m5659(NULL, L_201, &m5659_MI);
 		__this->f6 = L_202;
 	}
 
@@ -18238,10 +18238,10 @@ IL_053e:
 		return;
 	}
 }
-extern "C" t2* m5609 (t794 * __this, MethodInfo* method)
+extern "C" t2* m5637 (t801 * __this, MethodInfo* method)
 {
 	{
-		m5649(__this, &m5649_MI);
+		m5677(__this, &m5677_MI);
 		t2* L_0 = (__this->f15);
 		if (L_0)
 		{
@@ -18249,10 +18249,10 @@ extern "C" t2* m5609 (t794 * __this, MethodInfo* method)
 		}
 	}
 	{
-		t2* L_1 = m5625(__this, 2, &m5625_MI);
+		t2* L_1 = m5653(__this, 2, &m5653_MI);
 		__this->f15 = L_1;
 		t2* L_2 = (__this->f7);
-		int32_t L_3 = m2699(L_2, &m2699_MI);
+		int32_t L_3 = m2723(L_2, &m2723_MI);
 		if ((((int32_t)L_3) <= ((int32_t)0)))
 		{
 			goto IL_0046;
@@ -18269,7 +18269,7 @@ extern "C" t2* m5609 (t794 * __this, MethodInfo* method)
 IL_0046:
 	{
 		t2* L_7 = (__this->f8);
-		int32_t L_8 = m2699(L_7, &m2699_MI);
+		int32_t L_8 = m2723(L_7, &m2723_MI);
 		if ((((int32_t)L_8) <= ((int32_t)0)))
 		{
 			goto IL_006e;
@@ -18289,15 +18289,15 @@ IL_006e:
 		return L_12;
 	}
 }
-extern MethodInfo m5610_MI;
-extern "C" t2* m5610 (t794 * __this, MethodInfo* method)
+extern MethodInfo m5638_MI;
+extern "C" t2* m5638 (t801 * __this, MethodInfo* method)
 {
 	t2* G_B3_0 = {0};
 	{
-		m5649(__this, &m5649_MI);
-		t2* L_0 = m5615(__this, &m5615_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		int32_t L_1 = m5645(NULL, L_0, &m5645_MI);
+		m5677(__this, &m5677_MI);
+		t2* L_0 = m5643(__this, &m5643_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		int32_t L_1 = m5673(NULL, L_0, &m5673_MI);
 		int32_t L_2 = (__this->f5);
 		if ((!(((uint32_t)L_1) == ((uint32_t)L_2))))
 		{
@@ -18317,7 +18317,7 @@ IL_0027:
 		int32_t L_6 = L_5;
 		t9 * L_7 = Box(InitializedTypeInfo(&t125_TI), &L_6);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_8 = m2395(NULL, L_4, (t2*) &_stringLiteral343, L_7, &m2395_MI);
+		t2* L_8 = m2419(NULL, L_4, (t2*) &_stringLiteral342, L_7, &m2419_MI);
 		G_B3_0 = L_8;
 	}
 
@@ -18326,42 +18326,42 @@ IL_0042:
 		return G_B3_0;
 	}
 }
-extern "C" t2* m5611 (t794 * __this, MethodInfo* method)
+extern "C" t2* m5639 (t801 * __this, MethodInfo* method)
 {
 	{
-		m5649(__this, &m5649_MI);
+		m5677(__this, &m5677_MI);
 		t2* L_0 = (__this->f4);
 		return L_0;
 	}
 }
-extern "C" bool m5612 (t794 * __this, MethodInfo* method)
+extern "C" bool m5640 (t801 * __this, MethodInfo* method)
 {
 	{
-		m5649(__this, &m5649_MI);
-		t2* L_0 = m5615(__this, &m5615_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_1 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f21;
+		m5677(__this, &m5677_MI);
+		t2* L_0 = m5643(__this, &m5643_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_1 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f21;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_2 = m331(NULL, L_0, L_1, &m331_MI);
 		return L_2;
 	}
 }
-extern MethodInfo m5613_MI;
-extern "C" bool m5613 (t794 * __this, MethodInfo* method)
+extern MethodInfo m5641_MI;
+extern "C" bool m5641 (t801 * __this, MethodInfo* method)
 {
-	t1190 * V_0 = {0};
-	t1191 * V_1 = {0};
+	t1199 * V_0 = {0};
+	t1200 * V_1 = {0};
 	{
-		m5649(__this, &m5649_MI);
-		t2* L_0 = m5611(__this, &m5611_MI);
-		int32_t L_1 = m2699(L_0, &m2699_MI);
+		m5677(__this, &m5677_MI);
+		t2* L_0 = m5639(__this, &m5639_MI);
+		int32_t L_1 = m2723(L_0, &m2723_MI);
 		if (L_1)
 		{
 			goto IL_001d;
 		}
 	}
 	{
-		bool L_2 = m5612(__this, &m5612_MI);
+		bool L_2 = m5640(__this, &m5640_MI);
 		return L_2;
 	}
 
@@ -18369,7 +18369,7 @@ IL_001d:
 	{
 		t2* L_3 = (__this->f4);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_4 = m331(NULL, L_3, (t2*) &_stringLiteral544, &m331_MI);
+		bool L_4 = m331(NULL, L_3, (t2*) &_stringLiteral543, &m331_MI);
 		if (L_4)
 		{
 			goto IL_0047;
@@ -18378,7 +18378,7 @@ IL_001d:
 	{
 		t2* L_5 = (__this->f4);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_6 = m331(NULL, L_5, (t2*) &_stringLiteral543, &m331_MI);
+		bool L_6 = m331(NULL, L_5, (t2*) &_stringLiteral542, &m331_MI);
 		if (!L_6)
 		{
 			goto IL_0049;
@@ -18393,18 +18393,18 @@ IL_0047:
 IL_0049:
 	{
 		t2* L_7 = (__this->f4);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1190_TI));
-		bool L_8 = m4900(NULL, L_7, (&V_0), &m4900_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1199_TI));
+		bool L_8 = m4928(NULL, L_7, (&V_0), &m4928_MI);
 		if (!L_8)
 		{
 			goto IL_006d;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1190_TI));
-		t1190 * L_9 = ((t1190_SFs*)InitializedTypeInfo(&t1190_TI)->static_fields)->f6;
-		t1190 * L_10 = V_0;
-		bool L_11 = (bool)VirtFuncInvoker1< bool, t9 * >::Invoke(&m4909_MI, L_9, L_10);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1199_TI));
+		t1199 * L_9 = ((t1199_SFs*)InitializedTypeInfo(&t1199_TI)->static_fields)->f6;
+		t1199 * L_10 = V_0;
+		bool L_11 = (bool)VirtFuncInvoker1< bool, t9 * >::Invoke(&m4937_MI, L_9, L_10);
 		if (!L_11)
 		{
 			goto IL_006d;
@@ -18417,17 +18417,17 @@ IL_0049:
 IL_006d:
 	{
 		t2* L_12 = (__this->f4);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1191_TI));
-		bool L_13 = m4919(NULL, L_12, (&V_1), &m4919_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1200_TI));
+		bool L_13 = m4947(NULL, L_12, (&V_1), &m4947_MI);
 		if (!L_13)
 		{
 			goto IL_008c;
 		}
 	}
 	{
-		t1191 * L_14 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1191_TI));
-		bool L_15 = m4923(NULL, L_14, &m4923_MI);
+		t1200 * L_14 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1200_TI));
+		bool L_15 = m4951(NULL, L_14, &m4951_MI);
 		if (!L_15)
 		{
 			goto IL_008c;
@@ -18442,32 +18442,32 @@ IL_008c:
 		return 0;
 	}
 }
-extern "C" bool m5614 (t794 * __this, MethodInfo* method)
+extern "C" bool m5642 (t801 * __this, MethodInfo* method)
 {
 	{
-		m5649(__this, &m5649_MI);
+		m5677(__this, &m5677_MI);
 		bool L_0 = (__this->f10);
 		return L_0;
 	}
 }
-extern "C" t2* m5615 (t794 * __this, MethodInfo* method)
+extern "C" t2* m5643 (t801 * __this, MethodInfo* method)
 {
 	{
-		m5649(__this, &m5649_MI);
+		m5677(__this, &m5677_MI);
 		t2* L_0 = (__this->f3);
 		return L_0;
 	}
 }
-extern "C" bool m5616 (t794 * __this, MethodInfo* method)
+extern "C" bool m5644 (t801 * __this, MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->f12);
 		return L_0;
 	}
 }
-extern "C" int32_t m5617 (t9 * __this , t2* p0, MethodInfo* method)
+extern "C" int32_t m5645 (t9 * __this , t2* p0, MethodInfo* method)
 {
-	t1191 * V_0 = {0};
+	t1200 * V_0 = {0};
 	{
 		t2* L_0 = p0;
 		if (!L_0)
@@ -18477,7 +18477,7 @@ extern "C" int32_t m5617 (t9 * __this , t2* p0, MethodInfo* method)
 	}
 	{
 		t2* L_1 = p0;
-		int32_t L_2 = m2699(L_1, &m2699_MI);
+		int32_t L_2 = m2723(L_1, &m2723_MI);
 		if (L_2)
 		{
 			goto IL_0013;
@@ -18492,8 +18492,8 @@ IL_0011:
 IL_0013:
 	{
 		t2* L_3 = p0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_4 = m5618(NULL, L_3, &m5618_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_4 = m5646(NULL, L_3, &m5646_MI);
 		if (!L_4)
 		{
 			goto IL_0020;
@@ -18506,8 +18506,8 @@ IL_0013:
 IL_0020:
 	{
 		t2* L_5 = p0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_6 = m5619(NULL, L_5, &m5619_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_6 = m5647(NULL, L_5, &m5647_MI);
 		if (!L_6)
 		{
 			goto IL_002d;
@@ -18520,8 +18520,8 @@ IL_0020:
 IL_002d:
 	{
 		t2* L_7 = p0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1191_TI));
-		bool L_8 = m4919(NULL, L_7, (&V_0), &m4919_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1200_TI));
+		bool L_8 = m4947(NULL, L_7, (&V_0), &m4947_MI);
 		if (!L_8)
 		{
 			goto IL_003c;
@@ -18536,14 +18536,14 @@ IL_003c:
 		return (int32_t)(0);
 	}
 }
-extern TypeInfo* t305_TI_var;
-extern "C" bool m5618 (t9 * __this , t2* p0, MethodInfo* method)
+extern TypeInfo* t312_TI_var;
+extern "C" bool m5646 (t9 * __this , t2* p0, MethodInfo* method)
 {
-	static bool m5618_init;
-	if (!m5618_init)
+	static bool m5646_init;
+	if (!m5646_init)
 	{
-		t305_TI_var = il2cpp_codegen_class_from_type(&t305_0_0_0);
-		m5618_init = true;
+		t312_TI_var = il2cpp_codegen_class_from_type(&t312_0_0_0);
+		m5646_init = true;
 	}
 	t221* V_0 = {0};
 	int32_t V_1 = 0;
@@ -18551,9 +18551,9 @@ extern "C" bool m5618 (t9 * __this , t2* p0, MethodInfo* method)
 	uint32_t V_3 = 0;
 	{
 		t2* L_0 = p0;
-		t305* L_1 = ((t305*)SZArrayNew(t305_TI_var, 1));
+		t312* L_1 = ((t312*)SZArrayNew(t312_TI_var, 1));
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_1, 0)) = (uint16_t)((int32_t)46);
-		t221* L_2 = m4420(L_0, L_1, &m4420_MI);
+		t221* L_2 = m4444(L_0, L_1, &m4444_MI);
 		V_0 = L_2;
 		t221* L_3 = V_0;
 		if ((((int32_t)(((int32_t)(((t121 *)L_3)->max_length)))) == ((int32_t)4)))
@@ -18576,7 +18576,7 @@ IL_0024:
 		t221* L_4 = V_0;
 		int32_t L_5 = V_1;
 		int32_t L_6 = L_5;
-		int32_t L_7 = m2699((*(t2**)(t2**)SZArrayLdElema(L_4, L_6)), &m2699_MI);
+		int32_t L_7 = m2723((*(t2**)(t2**)SZArrayLdElema(L_4, L_6)), &m2723_MI);
 		V_2 = L_7;
 		int32_t L_8 = V_2;
 		if (L_8)
@@ -18593,7 +18593,7 @@ IL_0035:
 		t221* L_9 = V_0;
 		int32_t L_10 = V_1;
 		int32_t L_11 = L_10;
-		bool L_12 = m5955(NULL, (*(t2**)(t2**)SZArrayLdElema(L_9, L_11)), (&V_3), &m5955_MI);
+		bool L_12 = m5983(NULL, (*(t2**)(t2**)SZArrayLdElema(L_9, L_11)), (&V_3), &m5983_MI);
 		if (L_12)
 		{
 			goto IL_0046;
@@ -18633,7 +18633,7 @@ IL_0057:
 		return 1;
 	}
 }
-extern "C" bool m5619 (t9 * __this , t2* p0, MethodInfo* method)
+extern "C" bool m5647 (t9 * __this , t2* p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -18641,7 +18641,7 @@ extern "C" bool m5619 (t9 * __this , t2* p0, MethodInfo* method)
 	uint16_t V_3 = 0x0;
 	{
 		t2* L_0 = p0;
-		int32_t L_1 = m2699(L_0, &m2699_MI);
+		int32_t L_1 = m2723(L_0, &m2723_MI);
 		V_0 = L_1;
 		V_1 = 0;
 		V_2 = 0;
@@ -18652,7 +18652,7 @@ IL_0010:
 	{
 		t2* L_2 = p0;
 		int32_t L_3 = V_2;
-		uint16_t L_4 = m2714(L_2, L_3, &m2714_MI);
+		uint16_t L_4 = m2738(L_2, L_3, &m2738_MI);
 		V_3 = L_4;
 		int32_t L_5 = V_1;
 		if (L_5)
@@ -18662,8 +18662,8 @@ IL_0010:
 	}
 	{
 		uint16_t L_6 = V_3;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		bool L_7 = m5896(NULL, L_6, &m5896_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		bool L_7 = m5924(NULL, L_6, &m5924_MI);
 		if (L_7)
 		{
 			goto IL_002b;
@@ -18694,8 +18694,8 @@ IL_0030:
 IL_003f:
 	{
 		uint16_t L_9 = V_3;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		bool L_10 = m5896(NULL, L_9, &m5896_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		bool L_10 = m5924(NULL, L_9, &m5924_MI);
 		if (L_10)
 		{
 			goto IL_005c;
@@ -18752,7 +18752,7 @@ IL_006e:
 		return 1;
 	}
 }
-extern "C" bool m5620 (t9 * __this , t2* p0, MethodInfo* method)
+extern "C" bool m5648 (t9 * __this , t2* p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -18766,7 +18766,7 @@ extern "C" bool m5620 (t9 * __this , t2* p0, MethodInfo* method)
 	}
 	{
 		t2* L_1 = p0;
-		int32_t L_2 = m2699(L_1, &m2699_MI);
+		int32_t L_2 = m2723(L_1, &m2723_MI);
 		if (L_2)
 		{
 			goto IL_0013;
@@ -18781,9 +18781,9 @@ IL_0011:
 IL_0013:
 	{
 		t2* L_3 = p0;
-		uint16_t L_4 = m2714(L_3, 0, &m2714_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_5 = m5621(NULL, L_4, &m5621_MI);
+		uint16_t L_4 = m2738(L_3, 0, &m2738_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_5 = m5649(NULL, L_4, &m5649_MI);
 		if (L_5)
 		{
 			goto IL_0026;
@@ -18796,7 +18796,7 @@ IL_0013:
 IL_0026:
 	{
 		t2* L_6 = p0;
-		int32_t L_7 = m2699(L_6, &m2699_MI);
+		int32_t L_7 = m2723(L_6, &m2723_MI);
 		V_0 = L_7;
 		V_1 = 1;
 		goto IL_0070;
@@ -18806,11 +18806,11 @@ IL_0034:
 	{
 		t2* L_8 = p0;
 		int32_t L_9 = V_1;
-		uint16_t L_10 = m2714(L_8, L_9, &m2714_MI);
+		uint16_t L_10 = m2738(L_8, L_9, &m2738_MI);
 		V_2 = L_10;
 		uint16_t L_11 = V_2;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		bool L_12 = m5897(NULL, L_11, &m5897_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		bool L_12 = m5925(NULL, L_11, &m5925_MI);
 		if (L_12)
 		{
 			goto IL_006c;
@@ -18818,8 +18818,8 @@ IL_0034:
 	}
 	{
 		uint16_t L_13 = V_2;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_14 = m5621(NULL, L_13, &m5621_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_14 = m5649(NULL, L_13, &m5649_MI);
 		if (L_14)
 		{
 			goto IL_006c;
@@ -18869,7 +18869,7 @@ IL_0070:
 		return 1;
 	}
 }
-extern "C" bool m5621 (t9 * __this , uint16_t p0, MethodInfo* method)
+extern "C" bool m5649 (t9 * __this , uint16_t p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t G_B5_0 = 0;
@@ -18926,10 +18926,10 @@ IL_0028:
 		return G_B7_0;
 	}
 }
-extern MethodInfo m5622_MI;
-extern "C" bool m5622 (t794 * __this, t9 * p0, MethodInfo* method)
+extern MethodInfo m5650_MI;
+extern "C" bool m5650 (t801 * __this, t9 * p0, MethodInfo* method)
 {
-	t794 * V_0 = {0};
+	t801 * V_0 = {0};
 	t2* V_1 = {0};
 	{
 		t9 * L_0 = p0;
@@ -18945,8 +18945,8 @@ extern "C" bool m5622 (t794 * __this, t9 * p0, MethodInfo* method)
 IL_0008:
 	{
 		t9 * L_1 = p0;
-		V_0 = ((t794 *)IsInst(L_1, InitializedTypeInfo(&t794_TI)));
-		t794 * L_2 = V_0;
+		V_0 = ((t801 *)IsInst(L_1, InitializedTypeInfo(&t801_TI)));
+		t801 * L_2 = V_0;
 		if (L_2)
 		{
 			goto IL_002b;
@@ -18968,26 +18968,26 @@ IL_0008:
 IL_0024:
 	{
 		t2* L_5 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t794 * L_6 = (t794 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t794_TI));
-		m4303(L_6, L_5, &m4303_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t801 * L_6 = (t801 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t801_TI));
+		m4327(L_6, L_5, &m4327_MI);
 		V_0 = L_6;
 	}
 
 IL_002b:
 	{
-		t794 * L_7 = V_0;
-		bool L_8 = m5623(__this, L_7, &m5623_MI);
+		t801 * L_7 = V_0;
+		bool L_8 = m5651(__this, L_7, &m5651_MI);
 		return L_8;
 	}
 }
-extern "C" bool m5623 (t794 * __this, t794 * p0, MethodInfo* method)
+extern "C" bool m5651 (t801 * __this, t801 * p0, MethodInfo* method)
 {
-	t894 * V_0 = {0};
+	t901 * V_0 = {0};
 	int32_t G_B10_0 = 0;
 	{
 		bool L_0 = (__this->f12);
-		t794 * L_1 = p0;
+		t801 * L_1 = p0;
 		bool L_2 = (L_1->f12);
 		if ((((int32_t)L_0) == ((int32_t)L_2)))
 		{
@@ -19008,7 +19008,7 @@ IL_0013:
 	}
 	{
 		t2* L_4 = (__this->f2);
-		t794 * L_5 = p0;
+		t801 * L_5 = p0;
 		t2* L_6 = (L_5->f2);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_7 = m331(NULL, L_4, L_6, &m331_MI);
@@ -19017,16 +19017,16 @@ IL_0013:
 
 IL_0030:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t894_TI));
-		t894 * L_8 = m4334(NULL, &m4334_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t901_TI));
+		t901 * L_8 = m4358(NULL, &m4358_MI);
 		V_0 = L_8;
 		t2* L_9 = (__this->f3);
-		t894 * L_10 = V_0;
-		t2* L_11 = m5956(L_9, L_10, &m5956_MI);
-		t794 * L_12 = p0;
+		t901 * L_10 = V_0;
+		t2* L_11 = m5984(L_9, L_10, &m5984_MI);
+		t801 * L_12 = p0;
 		t2* L_13 = (L_12->f3);
-		t894 * L_14 = V_0;
-		t2* L_15 = m5956(L_13, L_14, &m5956_MI);
+		t901 * L_14 = V_0;
+		t2* L_15 = m5984(L_13, L_14, &m5984_MI);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_16 = m331(NULL, L_11, L_15, &m331_MI);
 		if (!L_16)
@@ -19036,12 +19036,12 @@ IL_0030:
 	}
 	{
 		t2* L_17 = (__this->f4);
-		t894 * L_18 = V_0;
-		t2* L_19 = m5956(L_17, L_18, &m5956_MI);
-		t794 * L_20 = p0;
+		t901 * L_18 = V_0;
+		t2* L_19 = m5984(L_17, L_18, &m5984_MI);
+		t801 * L_20 = p0;
 		t2* L_21 = (L_20->f4);
-		t894 * L_22 = V_0;
-		t2* L_23 = m5956(L_21, L_22, &m5956_MI);
+		t901 * L_22 = V_0;
+		t2* L_23 = m5984(L_21, L_22, &m5984_MI);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_24 = m331(NULL, L_19, L_23, &m331_MI);
 		if (!L_24)
@@ -19051,7 +19051,7 @@ IL_0030:
 	}
 	{
 		int32_t L_25 = (__this->f5);
-		t794 * L_26 = p0;
+		t801 * L_26 = p0;
 		int32_t L_27 = (L_26->f5);
 		if ((!(((uint32_t)L_25) == ((uint32_t)L_27))))
 		{
@@ -19060,7 +19060,7 @@ IL_0030:
 	}
 	{
 		t2* L_28 = (__this->f7);
-		t794 * L_29 = p0;
+		t801 * L_29 = p0;
 		t2* L_30 = (L_29->f7);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_31 = m331(NULL, L_28, L_30, &m331_MI);
@@ -19071,7 +19071,7 @@ IL_0030:
 	}
 	{
 		t2* L_32 = (__this->f6);
-		t794 * L_33 = p0;
+		t801 * L_33 = p0;
 		t2* L_34 = (L_33->f6);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_35 = m331(NULL, L_32, L_34, &m331_MI);
@@ -19089,10 +19089,10 @@ IL_00b5:
 		return G_B10_0;
 	}
 }
-extern MethodInfo m5624_MI;
-extern "C" int32_t m5624 (t794 * __this, MethodInfo* method)
+extern MethodInfo m5652_MI;
+extern "C" int32_t m5652 (t801 * __this, MethodInfo* method)
 {
-	t894 * V_0 = {0};
+	t901 * V_0 = {0};
 	{
 		int32_t L_0 = (__this->f18);
 		if (L_0)
@@ -19101,8 +19101,8 @@ extern "C" int32_t m5624 (t794 * __this, MethodInfo* method)
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t894_TI));
-		t894 * L_1 = m4334(NULL, &m4334_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t901_TI));
+		t901 * L_1 = m4358(NULL, &m4358_MI);
 		V_0 = L_1;
 		bool L_2 = (__this->f12);
 		if (!L_2)
@@ -19112,18 +19112,18 @@ extern "C" int32_t m5624 (t794 * __this, MethodInfo* method)
 	}
 	{
 		t2* L_3 = (__this->f3);
-		t894 * L_4 = V_0;
-		t2* L_5 = m5956(L_3, L_4, &m5956_MI);
-		int32_t L_6 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m4207_MI, L_5);
+		t901 * L_4 = V_0;
+		t2* L_5 = m5984(L_3, L_4, &m5984_MI);
+		int32_t L_6 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m4231_MI, L_5);
 		t2* L_7 = (__this->f4);
-		t894 * L_8 = V_0;
-		t2* L_9 = m5956(L_7, L_8, &m5956_MI);
-		int32_t L_10 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m4207_MI, L_9);
+		t901 * L_8 = V_0;
+		t2* L_9 = m5984(L_7, L_8, &m5984_MI);
+		int32_t L_10 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m4231_MI, L_9);
 		int32_t L_11 = (__this->f5);
 		t2* L_12 = (__this->f7);
-		int32_t L_13 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m4207_MI, L_12);
+		int32_t L_13 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m4231_MI, L_12);
 		t2* L_14 = (__this->f6);
-		int32_t L_15 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m4207_MI, L_14);
+		int32_t L_15 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m4231_MI, L_14);
 		__this->f18 = ((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_6^(int32_t)L_10))^(int32_t)L_11))^(int32_t)L_13))^(int32_t)L_15));
 		goto IL_007a;
 	}
@@ -19131,7 +19131,7 @@ extern "C" int32_t m5624 (t794 * __this, MethodInfo* method)
 IL_0069:
 	{
 		t2* L_16 = (__this->f2);
-		int32_t L_17 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m4207_MI, L_16);
+		int32_t L_17 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m4231_MI, L_16);
 		__this->f18 = L_17;
 	}
 
@@ -19141,30 +19141,30 @@ IL_007a:
 		return L_18;
 	}
 }
-extern TypeInfo* t713_TI_var;
-extern MethodInfo* m5747_MI_var;
-extern MethodInfo* m5748_MI_var;
-extern MethodInfo* m5749_MI_var;
-extern "C" t2* m5625 (t794 * __this, int32_t p0, MethodInfo* method)
+extern TypeInfo* t720_TI_var;
+extern MethodInfo* m5775_MI_var;
+extern MethodInfo* m5776_MI_var;
+extern MethodInfo* m5777_MI_var;
+extern "C" t2* m5653 (t801 * __this, int32_t p0, MethodInfo* method)
 {
-	static bool m5625_init;
-	if (!m5625_init)
+	static bool m5653_init;
+	if (!m5653_init)
 	{
-		t713_TI_var = il2cpp_codegen_class_from_type(&t713_0_0_0);
-		m5747_MI_var = il2cpp_codegen_genericmethod_get_method(&m5747_GM);
-		m5748_MI_var = il2cpp_codegen_genericmethod_get_method(&m5748_GM);
-		m5749_MI_var = il2cpp_codegen_genericmethod_get_method(&m5749_GM);
-		m5625_init = true;
+		t720_TI_var = il2cpp_codegen_class_from_type(&t720_0_0_0);
+		m5775_MI_var = il2cpp_codegen_genericmethod_get_method(&m5775_GM);
+		m5776_MI_var = il2cpp_codegen_genericmethod_get_method(&m5776_GM);
+		m5777_MI_var = il2cpp_codegen_genericmethod_get_method(&m5777_GM);
+		m5653_init = true;
 	}
 	int32_t V_0 = 0;
-	t315 * V_1 = {0};
-	t315 * V_2 = {0};
+	t322 * V_1 = {0};
+	t322 * V_2 = {0};
 	int32_t V_3 = {0};
 	t2* V_4 = {0};
-	t713 * V_5 = {0};
+	t720 * V_5 = {0};
 	int32_t V_6 = 0;
 	{
-		m5649(__this, &m5649_MI);
+		m5677(__this, &m5677_MI);
 		int32_t L_0 = p0;
 		V_3 = L_0;
 		int32_t L_1 = V_3;
@@ -19188,7 +19188,7 @@ extern "C" t2* m5625 (t794 * __this, int32_t p0, MethodInfo* method)
 IL_001f:
 	{
 		t2* L_2 = (__this->f3);
-		t2* L_3 = m5646(__this, &m5646_MI);
+		t2* L_3 = m5674(__this, &m5674_MI);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		t2* L_4 = m610(NULL, L_2, L_3, &m610_MI);
 		return L_4;
@@ -19197,8 +19197,8 @@ IL_001f:
 IL_0031:
 	{
 		t2* L_5 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_6 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f26;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_6 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f26;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_7 = m331(NULL, L_5, L_6, &m331_MI);
 		if (L_7)
@@ -19208,8 +19208,8 @@ IL_0031:
 	}
 	{
 		t2* L_8 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_9 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f27;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_9 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f27;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_10 = m331(NULL, L_8, L_9, &m331_MI);
 		if (!L_10)
@@ -19227,17 +19227,17 @@ IL_005b:
 
 IL_0061:
 	{
-		t315 * L_12 = (t315 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t315_TI));
-		m1150(L_12, &m1150_MI);
+		t322 * L_12 = (t322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t322_TI));
+		m1165(L_12, &m1165_MI);
 		V_1 = L_12;
-		t315 * L_13 = V_1;
+		t322 * L_13 = V_1;
 		t2* L_14 = (__this->f3);
-		m1154(L_13, L_14, &m1154_MI);
-		t315 * L_15 = V_1;
-		t2* L_16 = m5646(__this, &m5646_MI);
-		m1154(L_15, L_16, &m1154_MI);
+		m1169(L_13, L_14, &m1169_MI);
+		t322 * L_15 = V_1;
+		t2* L_16 = m5674(__this, &m5674_MI);
+		m1169(L_15, L_16, &m1169_MI);
 		t2* L_17 = (__this->f6);
-		int32_t L_18 = m2699(L_17, &m2699_MI);
+		int32_t L_18 = m2723(L_17, &m2723_MI);
 		if ((((int32_t)L_18) <= ((int32_t)1)))
 		{
 			goto IL_00c3;
@@ -19245,15 +19245,15 @@ IL_0061:
 	}
 	{
 		t2* L_19 = (__this->f6);
-		uint16_t L_20 = m2714(L_19, 1, &m2714_MI);
+		uint16_t L_20 = m2738(L_19, 1, &m2738_MI);
 		if ((!(((uint32_t)L_20) == ((uint32_t)((int32_t)58)))))
 		{
 			goto IL_00c3;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_21 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f21;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_21 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f21;
 		t2* L_22 = (__this->f3);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_23 = m331(NULL, L_21, L_22, &m331_MI);
@@ -19263,34 +19263,34 @@ IL_0061:
 		}
 	}
 	{
-		t315 * L_24 = V_1;
-		m2733(L_24, ((int32_t)47), &m2733_MI);
+		t322 * L_24 = V_1;
+		m2757(L_24, ((int32_t)47), &m2757_MI);
 	}
 
 IL_00c3:
 	{
 		t2* L_25 = (__this->f9);
-		int32_t L_26 = m2699(L_25, &m2699_MI);
+		int32_t L_26 = m2723(L_25, &m2723_MI);
 		if ((((int32_t)L_26) <= ((int32_t)0)))
 		{
 			goto IL_00e8;
 		}
 	}
 	{
-		t315 * L_27 = V_1;
+		t322 * L_27 = V_1;
 		t2* L_28 = (__this->f9);
-		t315 * L_29 = m1154(L_27, L_28, &m1154_MI);
-		m2733(L_29, ((int32_t)64), &m2733_MI);
+		t322 * L_29 = m1169(L_27, L_28, &m1169_MI);
+		m2757(L_29, ((int32_t)64), &m2757_MI);
 	}
 
 IL_00e8:
 	{
-		t315 * L_30 = V_1;
+		t322 * L_30 = V_1;
 		t2* L_31 = (__this->f4);
-		m1154(L_30, L_31, &m1154_MI);
+		m1169(L_30, L_31, &m1169_MI);
 		t2* L_32 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		int32_t L_33 = m5645(NULL, L_32, &m5645_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		int32_t L_33 = m5673(NULL, L_32, &m5673_MI);
 		V_0 = L_33;
 		int32_t L_34 = (__this->f5);
 		if ((((int32_t)L_34) == ((int32_t)(-1))))
@@ -19307,32 +19307,32 @@ IL_00e8:
 		}
 	}
 	{
-		t315 * L_37 = V_1;
-		t315 * L_38 = m2733(L_37, ((int32_t)58), &m2733_MI);
+		t322 * L_37 = V_1;
+		t322 * L_38 = m2757(L_37, ((int32_t)58), &m2757_MI);
 		int32_t L_39 = (__this->f5);
-		m5786(L_38, L_39, &m5786_MI);
+		m5814(L_38, L_39, &m5814_MI);
 	}
 
 IL_012d:
 	{
-		t315 * L_40 = V_1;
-		t2* L_41 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1156_MI, L_40);
+		t322 * L_40 = V_1;
+		t2* L_41 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1171_MI, L_40);
 		return L_41;
 	}
 
 IL_0134:
 	{
-		t315 * L_42 = (t315 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t315_TI));
-		m1150(L_42, &m1150_MI);
+		t322 * L_42 = (t322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t322_TI));
+		m1165(L_42, &m1165_MI);
 		V_2 = L_42;
-		t315 * L_43 = V_2;
+		t322 * L_43 = V_2;
 		t2* L_44 = (__this->f3);
-		m1154(L_43, L_44, &m1154_MI);
-		t315 * L_45 = V_2;
-		t2* L_46 = m5646(__this, &m5646_MI);
-		m1154(L_45, L_46, &m1154_MI);
+		m1169(L_43, L_44, &m1169_MI);
+		t322 * L_45 = V_2;
+		t2* L_46 = m5674(__this, &m5674_MI);
+		m1169(L_45, L_46, &m1169_MI);
 		t2* L_47 = (__this->f6);
-		int32_t L_48 = m2699(L_47, &m2699_MI);
+		int32_t L_48 = m2723(L_47, &m2723_MI);
 		if ((((int32_t)L_48) <= ((int32_t)1)))
 		{
 			goto IL_0196;
@@ -19340,15 +19340,15 @@ IL_0134:
 	}
 	{
 		t2* L_49 = (__this->f6);
-		uint16_t L_50 = m2714(L_49, 1, &m2714_MI);
+		uint16_t L_50 = m2738(L_49, 1, &m2738_MI);
 		if ((!(((uint32_t)L_50) == ((uint32_t)((int32_t)58)))))
 		{
 			goto IL_0196;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_51 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f21;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_51 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f21;
 		t2* L_52 = (__this->f3);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_53 = m331(NULL, L_51, L_52, &m331_MI);
@@ -19358,34 +19358,34 @@ IL_0134:
 		}
 	}
 	{
-		t315 * L_54 = V_2;
-		m2733(L_54, ((int32_t)47), &m2733_MI);
+		t322 * L_54 = V_2;
+		m2757(L_54, ((int32_t)47), &m2757_MI);
 	}
 
 IL_0196:
 	{
 		t2* L_55 = (__this->f9);
-		int32_t L_56 = m2699(L_55, &m2699_MI);
+		int32_t L_56 = m2723(L_55, &m2723_MI);
 		if ((((int32_t)L_56) <= ((int32_t)0)))
 		{
 			goto IL_01bb;
 		}
 	}
 	{
-		t315 * L_57 = V_2;
+		t322 * L_57 = V_2;
 		t2* L_58 = (__this->f9);
-		t315 * L_59 = m1154(L_57, L_58, &m1154_MI);
-		m2733(L_59, ((int32_t)64), &m2733_MI);
+		t322 * L_59 = m1169(L_57, L_58, &m1169_MI);
+		m2757(L_59, ((int32_t)64), &m2757_MI);
 	}
 
 IL_01bb:
 	{
-		t315 * L_60 = V_2;
+		t322 * L_60 = V_2;
 		t2* L_61 = (__this->f4);
-		m1154(L_60, L_61, &m1154_MI);
+		m1169(L_60, L_61, &m1169_MI);
 		t2* L_62 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		int32_t L_63 = m5645(NULL, L_62, &m5645_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		int32_t L_63 = m5673(NULL, L_62, &m5673_MI);
 		V_0 = L_63;
 		int32_t L_64 = (__this->f5);
 		if ((((int32_t)L_64) == ((int32_t)(-1))))
@@ -19402,23 +19402,23 @@ IL_01bb:
 		}
 	}
 	{
-		t315 * L_67 = V_2;
-		t315 * L_68 = m2733(L_67, ((int32_t)58), &m2733_MI);
+		t322 * L_67 = V_2;
+		t322 * L_68 = m2757(L_67, ((int32_t)58), &m2757_MI);
 		int32_t L_69 = (__this->f5);
-		m5786(L_68, L_69, &m5786_MI);
+		m5814(L_68, L_69, &m5814_MI);
 	}
 
 IL_0200:
 	{
 		t2* L_70 = (__this->f6);
-		int32_t L_71 = m2699(L_70, &m2699_MI);
+		int32_t L_71 = m2723(L_70, &m2723_MI);
 		if ((((int32_t)L_71) <= ((int32_t)0)))
 		{
 			goto IL_02a6;
 		}
 	}
 	{
-		t2* L_72 = m5615(__this, &m5615_MI);
+		t2* L_72 = m5643(__this, &m5643_MI);
 		V_4 = L_72;
 		t2* L_73 = V_4;
 		if (!L_73)
@@ -19427,32 +19427,32 @@ IL_0200:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t713 * L_74 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f35;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t720 * L_74 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f35;
 		if (L_74)
 		{
 			goto IL_0253;
 		}
 	}
 	{
-		t713 * L_75 = (t713 *)il2cpp_codegen_object_new (t713_TI_var);
-		m5747(L_75, 2, m5747_MI_var);
+		t720 * L_75 = (t720 *)il2cpp_codegen_object_new (t720_TI_var);
+		m5775(L_75, 2, m5775_MI_var);
 		V_5 = L_75;
-		t713 * L_76 = V_5;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_76, (t2*) &_stringLiteral730, 0);
-		t713 * L_77 = V_5;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_77, (t2*) &_stringLiteral731, 0);
-		t713 * L_78 = V_5;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f35 = L_78;
+		t720 * L_76 = V_5;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_76, (t2*) &_stringLiteral729, 0);
+		t720 * L_77 = V_5;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_77, (t2*) &_stringLiteral730, 0);
+		t720 * L_78 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f35 = L_78;
 	}
 
 IL_0253:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t713 * L_79 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f35;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t720 * L_79 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f35;
 		t2* L_80 = V_4;
-		bool L_81 = (bool)VirtFuncInvoker2< bool, t2*, int32_t* >::Invoke(m5749_MI_var, L_79, L_80, (&V_6));
+		bool L_81 = (bool)VirtFuncInvoker2< bool, t2*, int32_t* >::Invoke(m5777_MI_var, L_79, L_80, (&V_6));
 		if (!L_81)
 		{
 			goto IL_0284;
@@ -19471,28 +19471,28 @@ IL_0253:
 
 IL_0272:
 	{
-		t315 * L_83 = V_2;
+		t322 * L_83 = V_2;
 		t2* L_84 = (__this->f6);
-		m1154(L_83, L_84, &m1154_MI);
+		m1169(L_83, L_84, &m1169_MI);
 		goto IL_02a6;
 	}
 
 IL_0284:
 	{
-		t315 * L_85 = V_2;
+		t322 * L_85 = V_2;
 		t2* L_86 = (__this->f6);
-		t2* L_87 = m5615(__this, &m5615_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_88 = m5641(NULL, L_87, &m5641_MI);
-		t2* L_89 = m5642(NULL, L_86, L_88, &m5642_MI);
-		m1154(L_85, L_89, &m1154_MI);
+		t2* L_87 = m5643(__this, &m5643_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_88 = m5669(NULL, L_87, &m5669_MI);
+		t2* L_89 = m5670(NULL, L_86, L_88, &m5670_MI);
+		m1169(L_85, L_89, &m1169_MI);
 		goto IL_02a6;
 	}
 
 IL_02a6:
 	{
-		t315 * L_90 = V_2;
-		t2* L_91 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1156_MI, L_90);
+		t322 * L_90 = V_2;
+		t2* L_91 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1171_MI, L_90);
 		return L_91;
 	}
 
@@ -19501,7 +19501,7 @@ IL_02ad:
 		return (t2*)NULL;
 	}
 }
-extern "C" int32_t m5626 (t9 * __this , uint16_t p0, MethodInfo* method)
+extern "C" int32_t m5654 (t9 * __this , uint16_t p0, MethodInfo* method)
 {
 	{
 		uint16_t L_0 = p0;
@@ -19564,12 +19564,12 @@ IL_002d:
 
 IL_0045:
 	{
-		t556 * L_9 = (t556 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t556_TI));
-		m2885(L_9, (t2*) &_stringLiteral741, &m2885_MI);
+		t563 * L_9 = (t563 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t563_TI));
+		m2909(L_9, (t2*) &_stringLiteral740, &m2909_MI);
 		il2cpp_codegen_raise_exception(L_9);
 	}
 }
-extern "C" t2* m5627 (t9 * __this , uint16_t p0, MethodInfo* method)
+extern "C" t2* m5655 (t9 * __this , uint16_t p0, MethodInfo* method)
 {
 	{
 		uint16_t L_0 = p0;
@@ -19579,30 +19579,30 @@ extern "C" t2* m5627 (t9 * __this , uint16_t p0, MethodInfo* method)
 		}
 	}
 	{
-		t896 * L_1 = (t896 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t896_TI));
-		m5693(L_1, (t2*) &_stringLiteral742, &m5693_MI);
+		t903 * L_1 = (t903 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t903_TI));
+		m5721(L_1, (t2*) &_stringLiteral741, &m5721_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_0016:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_2 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f19;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_2 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f19;
 		uint16_t L_3 = p0;
-		uint16_t L_4 = m2714(L_2, ((int32_t)((int32_t)((int32_t)((int32_t)L_3&(int32_t)((int32_t)240)))>>(int32_t)4)), &m2714_MI);
+		uint16_t L_4 = m2738(L_2, ((int32_t)((int32_t)((int32_t)((int32_t)L_3&(int32_t)((int32_t)240)))>>(int32_t)4)), &m2738_MI);
 		uint16_t L_5 = L_4;
-		t9 * L_6 = Box(InitializedTypeInfo(&t296_TI), &L_5);
-		t2* L_7 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f19;
+		t9 * L_6 = Box(InitializedTypeInfo(&t303_TI), &L_5);
+		t2* L_7 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f19;
 		uint16_t L_8 = p0;
-		uint16_t L_9 = m2714(L_7, ((int32_t)((int32_t)L_8&(int32_t)((int32_t)15))), &m2714_MI);
+		uint16_t L_9 = m2738(L_7, ((int32_t)((int32_t)L_8&(int32_t)((int32_t)15))), &m2738_MI);
 		uint16_t L_10 = L_9;
-		t9 * L_11 = Box(InitializedTypeInfo(&t296_TI), &L_10);
+		t9 * L_11 = Box(InitializedTypeInfo(&t303_TI), &L_10);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_12 = m2395(NULL, (t2*) &_stringLiteral743, L_6, L_11, &m2395_MI);
+		t2* L_12 = m2419(NULL, (t2*) &_stringLiteral742, L_6, L_11, &m2419_MI);
 		return L_12;
 	}
 }
-extern "C" bool m5628 (t9 * __this , uint16_t p0, MethodInfo* method)
+extern "C" bool m5656 (t9 * __this , uint16_t p0, MethodInfo* method)
 {
 	int32_t G_B7_0 = 0;
 	int32_t G_B9_0 = 0;
@@ -19672,13 +19672,13 @@ IL_0036:
 		return G_B9_0;
 	}
 }
-extern "C" bool m5629 (t9 * __this , t2* p0, int32_t p1, MethodInfo* method)
+extern "C" bool m5657 (t9 * __this , t2* p0, int32_t p1, MethodInfo* method)
 {
 	int32_t G_B6_0 = 0;
 	{
 		int32_t L_0 = p1;
 		t2* L_1 = p0;
-		int32_t L_2 = m2699(L_1, &m2699_MI);
+		int32_t L_2 = m2723(L_1, &m2723_MI);
 		if ((((int32_t)((int32_t)((int32_t)L_0+(int32_t)3))) <= ((int32_t)L_2)))
 		{
 			goto IL_0010;
@@ -19694,7 +19694,7 @@ IL_0010:
 		int32_t L_4 = p1;
 		int32_t L_5 = L_4;
 		p1 = ((int32_t)((int32_t)L_5+(int32_t)1));
-		uint16_t L_6 = m2714(L_3, L_5, &m2714_MI);
+		uint16_t L_6 = m2738(L_3, L_5, &m2738_MI);
 		if ((!(((uint32_t)L_6) == ((uint32_t)((int32_t)37)))))
 		{
 			goto IL_0047;
@@ -19705,9 +19705,9 @@ IL_0010:
 		int32_t L_8 = p1;
 		int32_t L_9 = L_8;
 		p1 = ((int32_t)((int32_t)L_9+(int32_t)1));
-		uint16_t L_10 = m2714(L_7, L_9, &m2714_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_11 = m5628(NULL, L_10, &m5628_MI);
+		uint16_t L_10 = m2738(L_7, L_9, &m2738_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_11 = m5656(NULL, L_10, &m5656_MI);
 		if (!L_11)
 		{
 			goto IL_0047;
@@ -19716,9 +19716,9 @@ IL_0010:
 	{
 		t2* L_12 = p0;
 		int32_t L_13 = p1;
-		uint16_t L_14 = m2714(L_12, L_13, &m2714_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_15 = m5628(NULL, L_14, &m5628_MI);
+		uint16_t L_14 = m2738(L_12, L_13, &m2738_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_15 = m5656(NULL, L_14, &m5656_MI);
 		G_B6_0 = ((int32_t)(L_15));
 		goto IL_0048;
 	}
@@ -19733,13 +19733,13 @@ IL_0048:
 		return G_B6_0;
 	}
 }
-extern "C" void m5630 (t794 * __this, t2** p0, MethodInfo* method)
+extern "C" void m5658 (t801 * __this, t2** p0, MethodInfo* method)
 {
 	t2* V_0 = {0};
 	t2* G_B4_0 = {0};
 	{
 		t2* L_0 = (__this->f7);
-		int32_t L_1 = m2699(L_0, &m2699_MI);
+		int32_t L_1 = m2723(L_0, &m2723_MI);
 		if ((((int32_t)L_1) <= ((int32_t)0)))
 		{
 			goto IL_005e;
@@ -19747,7 +19747,7 @@ extern "C" void m5630 (t794 * __this, t2** p0, MethodInfo* method)
 	}
 	{
 		t2* L_2 = (__this->f7);
-		uint16_t L_3 = m2714(L_2, 0, &m2714_MI);
+		uint16_t L_3 = m2738(L_2, 0, &m2738_MI);
 		if ((!(((uint32_t)L_3) == ((uint32_t)((int32_t)63)))))
 		{
 			goto IL_0047;
@@ -19755,11 +19755,11 @@ extern "C" void m5630 (t794 * __this, t2** p0, MethodInfo* method)
 	}
 	{
 		uint16_t L_4 = ((int32_t)63);
-		t9 * L_5 = Box(InitializedTypeInfo(&t296_TI), &L_4);
+		t9 * L_5 = Box(InitializedTypeInfo(&t303_TI), &L_4);
 		t2* L_6 = (__this->f7);
-		t2* L_7 = m2741(L_6, 1, &m2741_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_8 = m5635(NULL, L_7, 0, &m5635_MI);
+		t2* L_7 = m2765(L_6, 1, &m2765_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_8 = m5663(NULL, L_7, 0, &m5663_MI);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		t2* L_9 = m511(NULL, L_5, L_8, &m511_MI);
 		G_B4_0 = L_9;
@@ -19769,8 +19769,8 @@ extern "C" void m5630 (t794 * __this, t2** p0, MethodInfo* method)
 IL_0047:
 	{
 		t2* L_10 = (__this->f7);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_11 = m5635(NULL, L_10, 0, &m5635_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_11 = m5663(NULL, L_10, 0, &m5663_MI);
 		G_B4_0 = L_11;
 	}
 
@@ -19788,7 +19788,7 @@ IL_0053:
 IL_005e:
 	{
 		t2* L_16 = (__this->f8);
-		int32_t L_17 = m2699(L_16, &m2699_MI);
+		int32_t L_17 = m2723(L_16, &m2723_MI);
 		if ((((int32_t)L_17) <= ((int32_t)0)))
 		{
 			goto IL_007e;
@@ -19808,8 +19808,8 @@ IL_007e:
 		return;
 	}
 }
-extern MethodInfo m4308_MI;
-extern "C" t2* m4308 (t794 * __this, MethodInfo* method)
+extern MethodInfo m4332_MI;
+extern "C" t2* m4332 (t801 * __this, MethodInfo* method)
 {
 	{
 		t2* L_0 = (__this->f16);
@@ -19832,9 +19832,9 @@ IL_0012:
 		}
 	}
 	{
-		t2* L_3 = m5625(__this, 2, &m5625_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_4 = m5635(NULL, L_3, 1, &m5635_MI);
+		t2* L_3 = m5653(__this, 2, &m5653_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_4 = m5663(NULL, L_3, 1, &m5663_MI);
 		__this->f16 = L_4;
 		goto IL_0047;
 	}
@@ -19842,40 +19842,40 @@ IL_0012:
 IL_0035:
 	{
 		t2* L_5 = (__this->f6);
-		t2* L_6 = (t2*)VirtFuncInvoker1< t2*, t2* >::Invoke(&m5634_MI, __this, L_5);
+		t2* L_6 = (t2*)VirtFuncInvoker1< t2*, t2* >::Invoke(&m5662_MI, __this, L_5);
 		__this->f16 = L_6;
 	}
 
 IL_0047:
 	{
 		t2** L_7 = &(__this->f16);
-		m5630(__this, L_7, &m5630_MI);
+		m5658(__this, L_7, &m5658_MI);
 		t2* L_8 = (__this->f16);
 		return L_8;
 	}
 }
-extern "C" t2* m5631 (t9 * __this , t2* p0, MethodInfo* method)
+extern "C" t2* m5659 (t9 * __this , t2* p0, MethodInfo* method)
 {
 	{
 		t2* L_0 = p0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_1 = m5632(NULL, L_0, 0, 1, 1, &m5632_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_1 = m5660(NULL, L_0, 0, 1, 1, &m5660_MI);
 		return L_1;
 	}
 }
-extern TypeInfo* t305_TI_var;
-extern "C" t2* m5632 (t9 * __this , t2* p0, bool p1, bool p2, bool p3, MethodInfo* method)
+extern TypeInfo* t312_TI_var;
+extern "C" t2* m5660 (t9 * __this , t2* p0, bool p1, bool p2, bool p3, MethodInfo* method)
 {
-	static bool m5632_init;
-	if (!m5632_init)
+	static bool m5660_init;
+	if (!m5660_init)
 	{
-		t305_TI_var = il2cpp_codegen_class_from_type(&t305_0_0_0);
-		m5632_init = true;
+		t312_TI_var = il2cpp_codegen_class_from_type(&t312_0_0_0);
+		m5660_init = true;
 	}
-	t315 * V_0 = {0};
+	t322 * V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	t723* V_3 = {0};
+	t730* V_3 = {0};
 	int32_t V_4 = 0;
 	int32_t V_5 = 0;
 	uint16_t V_6 = 0x0;
@@ -19894,11 +19894,11 @@ extern "C" t2* m5632 (t9 * __this , t2* p0, bool p1, bool p2, bool p3, MethodInf
 
 IL_000c:
 	{
-		t315 * L_2 = (t315 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t315_TI));
-		m1150(L_2, &m1150_MI);
+		t322 * L_2 = (t322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t322_TI));
+		m1165(L_2, &m1165_MI);
 		V_0 = L_2;
 		t2* L_3 = p0;
-		int32_t L_4 = m2699(L_3, &m2699_MI);
+		int32_t L_4 = m2723(L_3, &m2723_MI);
 		V_1 = L_4;
 		V_2 = 0;
 		goto IL_0105;
@@ -19908,19 +19908,19 @@ IL_0020:
 	{
 		t2* L_5 = p0;
 		int32_t L_6 = V_2;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_7 = m5629(NULL, L_5, L_6, &m5629_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_7 = m5657(NULL, L_5, L_6, &m5657_MI);
 		if (!L_7)
 		{
 			goto IL_0044;
 		}
 	}
 	{
-		t315 * L_8 = V_0;
+		t322 * L_8 = V_0;
 		t2* L_9 = p0;
 		int32_t L_10 = V_2;
-		t2* L_11 = m2715(L_9, L_10, 3, &m2715_MI);
-		m1154(L_8, L_11, &m1154_MI);
+		t2* L_11 = m2739(L_9, L_10, 3, &m2739_MI);
+		m1169(L_8, L_11, &m1169_MI);
 		int32_t L_12 = V_2;
 		V_2 = ((int32_t)((int32_t)L_12+(int32_t)2));
 		goto IL_0101;
@@ -19928,16 +19928,16 @@ IL_0020:
 
 IL_0044:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t722_TI));
-		t722 * L_13 = m4249(NULL, &m4249_MI);
-		t305* L_14 = ((t305*)SZArrayNew(t305_TI_var, 1));
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t729_TI));
+		t729 * L_13 = m4273(NULL, &m4273_MI);
+		t312* L_14 = ((t312*)SZArrayNew(t312_TI_var, 1));
 		t2* L_15 = p0;
 		int32_t L_16 = V_2;
-		uint16_t L_17 = m2714(L_15, L_16, &m2714_MI);
+		uint16_t L_17 = m2738(L_15, L_16, &m2738_MI);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_14, 0)) = (uint16_t)L_17;
-		t723* L_18 = (t723*)VirtFuncInvoker1< t723*, t305* >::Invoke(&m5957_MI, L_13, L_14);
+		t730* L_18 = (t730*)VirtFuncInvoker1< t730*, t312* >::Invoke(&m5985_MI, L_13, L_14);
 		V_3 = L_18;
-		t723* L_19 = V_3;
+		t730* L_19 = V_3;
 		V_4 = (((int32_t)(((t121 *)L_19)->max_length)));
 		V_5 = 0;
 		goto IL_00f8;
@@ -19945,7 +19945,7 @@ IL_0044:
 
 IL_006c:
 	{
-		t723* L_20 = V_3;
+		t730* L_20 = V_3;
 		int32_t L_21 = V_5;
 		int32_t L_22 = L_21;
 		V_6 = (((uint16_t)(*(uint8_t*)(uint8_t*)SZArrayLdElema(L_20, L_22))));
@@ -19964,7 +19964,7 @@ IL_006c:
 	}
 	{
 		uint16_t L_25 = V_6;
-		int32_t L_26 = m2770((t2*) &_stringLiteral744, L_25, &m2770_MI);
+		int32_t L_26 = m2794((t2*) &_stringLiteral743, L_25, &m2794_MI);
 		if ((!(((uint32_t)L_26) == ((uint32_t)(-1)))))
 		{
 			goto IL_00d6;
@@ -20018,7 +20018,7 @@ IL_00be:
 	}
 	{
 		uint16_t L_33 = V_6;
-		int32_t L_34 = m2770((t2*) &_stringLiteral745, L_33, &m2770_MI);
+		int32_t L_34 = m2794((t2*) &_stringLiteral744, L_33, &m2794_MI);
 		if ((((int32_t)L_34) == ((int32_t)(-1))))
 		{
 			goto IL_00e9;
@@ -20027,19 +20027,19 @@ IL_00be:
 
 IL_00d6:
 	{
-		t315 * L_35 = V_0;
+		t322 * L_35 = V_0;
 		uint16_t L_36 = V_6;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_37 = m5627(NULL, L_36, &m5627_MI);
-		m1154(L_35, L_37, &m1154_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_37 = m5655(NULL, L_36, &m5655_MI);
+		m1169(L_35, L_37, &m1169_MI);
 		goto IL_00f2;
 	}
 
 IL_00e9:
 	{
-		t315 * L_38 = V_0;
+		t322 * L_38 = V_0;
 		uint16_t L_39 = V_6;
-		m2733(L_38, L_39, &m2733_MI);
+		m2757(L_38, L_39, &m2757_MI);
 	}
 
 IL_00f2:
@@ -20074,17 +20074,17 @@ IL_0105:
 		}
 	}
 	{
-		t315 * L_46 = V_0;
-		t2* L_47 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1156_MI, L_46);
+		t322 * L_46 = V_0;
+		t2* L_47 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1171_MI, L_46);
 		return L_47;
 	}
 }
-extern "C" void m5633 (t794 * __this, int32_t p0, MethodInfo* method)
+extern "C" void m5661 (t801 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
 		t2* L_1 = (__this->f2);
-		m5639(__this, L_0, L_1, &m5639_MI);
+		m5667(__this, L_0, L_1, &m5667_MI);
 		bool L_2 = (__this->f14);
 		if (!L_2)
 		{
@@ -20098,11 +20098,11 @@ extern "C" void m5633 (t794 * __this, int32_t p0, MethodInfo* method)
 IL_0019:
 	{
 		t2* L_3 = (__this->f4);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_4 = m5632(NULL, L_3, 0, 1, 0, &m5632_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_4 = m5660(NULL, L_3, 0, 1, 0, &m5660_MI);
 		__this->f4 = L_4;
 		t2* L_5 = (__this->f4);
-		int32_t L_6 = m2699(L_5, &m2699_MI);
+		int32_t L_6 = m2723(L_5, &m2723_MI);
 		if ((((int32_t)L_6) <= ((int32_t)1)))
 		{
 			goto IL_0086;
@@ -20110,7 +20110,7 @@ IL_0019:
 	}
 	{
 		t2* L_7 = (__this->f4);
-		uint16_t L_8 = m2714(L_7, 0, &m2714_MI);
+		uint16_t L_8 = m2738(L_7, 0, &m2738_MI);
 		if ((((int32_t)L_8) == ((int32_t)((int32_t)91))))
 		{
 			goto IL_0086;
@@ -20119,8 +20119,8 @@ IL_0019:
 	{
 		t2* L_9 = (__this->f4);
 		t2* L_10 = (__this->f4);
-		int32_t L_11 = m2699(L_10, &m2699_MI);
-		uint16_t L_12 = m2714(L_9, ((int32_t)((int32_t)L_11-(int32_t)1)), &m2714_MI);
+		int32_t L_11 = m2723(L_10, &m2723_MI);
+		uint16_t L_12 = m2738(L_9, ((int32_t)((int32_t)L_11-(int32_t)1)), &m2738_MI);
 		if ((((int32_t)L_12) == ((int32_t)((int32_t)93))))
 		{
 			goto IL_0086;
@@ -20128,16 +20128,16 @@ IL_0019:
 	}
 	{
 		t2* L_13 = (__this->f4);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t894_TI));
-		t894 * L_14 = m4334(NULL, &m4334_MI);
-		t2* L_15 = m5956(L_13, L_14, &m5956_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t901_TI));
+		t901 * L_14 = m4358(NULL, &m4358_MI);
+		t2* L_15 = m5984(L_13, L_14, &m5984_MI);
 		__this->f4 = L_15;
 	}
 
 IL_0086:
 	{
 		t2* L_16 = (__this->f6);
-		int32_t L_17 = m2699(L_16, &m2699_MI);
+		int32_t L_17 = m2723(L_16, &m2723_MI);
 		if ((((int32_t)L_17) <= ((int32_t)0)))
 		{
 			goto IL_00a8;
@@ -20145,8 +20145,8 @@ IL_0086:
 	}
 	{
 		t2* L_18 = (__this->f6);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_19 = m5631(NULL, L_18, &m5631_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_19 = m5659(NULL, L_18, &m5659_MI);
 		__this->f6 = L_19;
 	}
 
@@ -20155,18 +20155,18 @@ IL_00a8:
 		return;
 	}
 }
-extern "C" t2* m5634 (t794 * __this, t2* p0, MethodInfo* method)
+extern "C" t2* m5662 (t801 * __this, t2* p0, MethodInfo* method)
 {
 	{
 		t2* L_0 = p0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_1 = m5635(NULL, L_0, 0, &m5635_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_1 = m5663(NULL, L_0, 0, &m5663_MI);
 		return L_1;
 	}
 }
-extern "C" t2* m5635 (t9 * __this , t2* p0, bool p1, MethodInfo* method)
+extern "C" t2* m5663 (t9 * __this , t2* p0, bool p1, MethodInfo* method)
 {
-	t315 * V_0 = {0};
+	t322 * V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	uint16_t V_3 = 0x0;
@@ -20187,11 +20187,11 @@ extern "C" t2* m5635 (t9 * __this , t2* p0, bool p1, MethodInfo* method)
 
 IL_000c:
 	{
-		t315 * L_2 = (t315 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t315_TI));
-		m1150(L_2, &m1150_MI);
+		t322 * L_2 = (t322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t322_TI));
+		m1165(L_2, &m1165_MI);
 		V_0 = L_2;
 		t2* L_3 = p0;
-		int32_t L_4 = m2699(L_3, &m2699_MI);
+		int32_t L_4 = m2723(L_3, &m2723_MI);
 		V_1 = L_4;
 		V_2 = 0;
 		goto IL_00ca;
@@ -20201,7 +20201,7 @@ IL_0020:
 	{
 		t2* L_5 = p0;
 		int32_t L_6 = V_2;
-		uint16_t L_7 = m2714(L_5, L_6, &m2714_MI);
+		uint16_t L_7 = m2738(L_5, L_6, &m2738_MI);
 		V_3 = L_7;
 		uint16_t L_8 = V_3;
 		if ((!(((uint32_t)L_8) == ((uint32_t)((int32_t)37)))))
@@ -20211,8 +20211,8 @@ IL_0020:
 	}
 	{
 		t2* L_9 = p0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		uint16_t L_10 = m5643(NULL, L_9, (&V_2), (&V_4), &m5643_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		uint16_t L_10 = m5671(NULL, L_9, (&V_2), (&V_4), &m5671_MI);
 		V_5 = L_10;
 		bool L_11 = p1;
 		if (!L_11)
@@ -20228,8 +20228,8 @@ IL_0020:
 		}
 	}
 	{
-		t315 * L_13 = V_0;
-		m1154(L_13, (t2*) &_stringLiteral746, &m1154_MI);
+		t322 * L_13 = V_0;
+		m1169(L_13, (t2*) &_stringLiteral745, &m1169_MI);
 		goto IL_00b5;
 	}
 
@@ -20249,8 +20249,8 @@ IL_005c:
 		}
 	}
 	{
-		t315 * L_16 = V_0;
-		m1154(L_16, (t2*) &_stringLiteral747, &m1154_MI);
+		t322 * L_16 = V_0;
+		m1169(L_16, (t2*) &_stringLiteral746, &m1169_MI);
 		goto IL_00b5;
 	}
 
@@ -20270,16 +20270,16 @@ IL_007c:
 		}
 	}
 	{
-		t315 * L_19 = V_0;
-		m1154(L_19, (t2*) &_stringLiteral748, &m1154_MI);
+		t322 * L_19 = V_0;
+		m1169(L_19, (t2*) &_stringLiteral747, &m1169_MI);
 		goto IL_00b5;
 	}
 
 IL_009c:
 	{
-		t315 * L_20 = V_0;
+		t322 * L_20 = V_0;
 		uint16_t L_21 = V_5;
-		m2733(L_20, L_21, &m2733_MI);
+		m2757(L_20, L_21, &m2757_MI);
 		uint16_t L_22 = V_4;
 		if (!L_22)
 		{
@@ -20287,9 +20287,9 @@ IL_009c:
 		}
 	}
 	{
-		t315 * L_23 = V_0;
+		t322 * L_23 = V_0;
 		uint16_t L_24 = V_4;
-		m2733(L_23, L_24, &m2733_MI);
+		m2757(L_23, L_24, &m2757_MI);
 	}
 
 IL_00b5:
@@ -20301,9 +20301,9 @@ IL_00b5:
 
 IL_00be:
 	{
-		t315 * L_26 = V_0;
+		t322 * L_26 = V_0;
 		uint16_t L_27 = V_3;
-		m2733(L_26, L_27, &m2733_MI);
+		m2757(L_26, L_27, &m2757_MI);
 	}
 
 IL_00c6:
@@ -20322,24 +20322,24 @@ IL_00ca:
 		}
 	}
 	{
-		t315 * L_31 = V_0;
-		t2* L_32 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1156_MI, L_31);
+		t322 * L_31 = V_0;
+		t2* L_32 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1171_MI, L_31);
 		return L_32;
 	}
 }
-extern TypeInfo* t305_TI_var;
-extern "C" void m5636 (t794 * __this, t2* p0, MethodInfo* method)
+extern TypeInfo* t312_TI_var;
+extern "C" void m5664 (t801 * __this, t2* p0, MethodInfo* method)
 {
-	static bool m5636_init;
-	if (!m5636_init)
+	static bool m5664_init;
+	if (!m5664_init)
 	{
-		t305_TI_var = il2cpp_codegen_class_from_type(&t305_0_0_0);
-		m5636_init = true;
+		t312_TI_var = il2cpp_codegen_class_from_type(&t312_0_0_0);
+		m5664_init = true;
 	}
 	int32_t V_0 = 0;
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_0 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f21;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_0 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f21;
 		__this->f3 = L_0;
 		__this->f5 = (-1);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
@@ -20349,12 +20349,12 @@ extern "C" void m5636 (t794 * __this, t2* p0, MethodInfo* method)
 		__this->f7 = L_2;
 		__this->f10 = 1;
 		t2* L_3 = p0;
-		t305* L_4 = ((t305*)SZArrayNew(t305_TI_var, 1));
+		t312* L_4 = ((t312*)SZArrayNew(t312_TI_var, 1));
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_4, 0)) = (uint16_t)((int32_t)92);
-		t2* L_5 = m5958(L_3, L_4, &m5958_MI);
+		t2* L_5 = m5986(L_3, L_4, &m5986_MI);
 		p0 = L_5;
 		t2* L_6 = p0;
-		int32_t L_7 = m2770(L_6, ((int32_t)92), &m2770_MI);
+		int32_t L_7 = m2794(L_6, ((int32_t)92), &m2794_MI);
 		V_0 = L_7;
 		int32_t L_8 = V_0;
 		if ((((int32_t)L_8) <= ((int32_t)0)))
@@ -20365,11 +20365,11 @@ extern "C" void m5636 (t794 * __this, t2* p0, MethodInfo* method)
 	{
 		t2* L_9 = p0;
 		int32_t L_10 = V_0;
-		t2* L_11 = m2741(L_9, L_10, &m2741_MI);
+		t2* L_11 = m2765(L_9, L_10, &m2765_MI);
 		__this->f6 = L_11;
 		t2* L_12 = p0;
 		int32_t L_13 = V_0;
-		t2* L_14 = m2715(L_12, 0, L_13, &m2715_MI);
+		t2* L_14 = m2739(L_12, 0, L_13, &m2739_MI);
 		__this->f4 = L_14;
 		goto IL_0084;
 	}
@@ -20386,16 +20386,16 @@ IL_0072:
 IL_0084:
 	{
 		t2* L_17 = (__this->f6);
-		t2* L_18 = m4423(L_17, (t2*) &_stringLiteral749, (t2*) &_stringLiteral750, &m4423_MI);
+		t2* L_18 = m4447(L_17, (t2*) &_stringLiteral748, (t2*) &_stringLiteral749, &m4447_MI);
 		__this->f6 = L_18;
 		return;
 	}
 }
-extern "C" t2* m5637 (t794 * __this, t2* p0, MethodInfo* method)
+extern "C" t2* m5665 (t801 * __this, t2* p0, MethodInfo* method)
 {
 	{
 		t2* L_0 = p0;
-		int32_t L_1 = m2699(L_0, &m2699_MI);
+		int32_t L_1 = m2723(L_0, &m2723_MI);
 		if ((((int32_t)L_1) <= ((int32_t)2)))
 		{
 			goto IL_002e;
@@ -20403,7 +20403,7 @@ extern "C" t2* m5637 (t794 * __this, t2* p0, MethodInfo* method)
 	}
 	{
 		t2* L_2 = p0;
-		uint16_t L_3 = m2714(L_2, 2, &m2714_MI);
+		uint16_t L_3 = m2738(L_2, 2, &m2738_MI);
 		if ((((int32_t)L_3) == ((int32_t)((int32_t)92))))
 		{
 			goto IL_002e;
@@ -20411,27 +20411,27 @@ extern "C" t2* m5637 (t794 * __this, t2* p0, MethodInfo* method)
 	}
 	{
 		t2* L_4 = p0;
-		uint16_t L_5 = m2714(L_4, 2, &m2714_MI);
+		uint16_t L_5 = m2738(L_4, 2, &m2738_MI);
 		if ((((int32_t)L_5) == ((int32_t)((int32_t)47))))
 		{
 			goto IL_002e;
 		}
 	}
 	{
-		return (t2*) &_stringLiteral751;
+		return (t2*) &_stringLiteral750;
 	}
 
 IL_002e:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_6 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f21;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_6 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f21;
 		__this->f3 = L_6;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		t2* L_7 = ((t2_SFs*)(&t2_TI)->static_fields)->f2;
 		__this->f4 = L_7;
 		__this->f5 = (-1);
 		t2* L_8 = p0;
-		t2* L_9 = m4423(L_8, (t2*) &_stringLiteral749, (t2*) &_stringLiteral750, &m4423_MI);
+		t2* L_9 = m4447(L_8, (t2*) &_stringLiteral748, (t2*) &_stringLiteral749, &m4447_MI);
 		__this->f6 = L_9;
 		t2* L_10 = ((t2_SFs*)(&t2_TI)->static_fields)->f2;
 		__this->f8 = L_10;
@@ -20440,19 +20440,19 @@ IL_002e:
 		return (t2*)NULL;
 	}
 }
-extern TypeInfo* t305_TI_var;
-extern "C" void m5638 (t794 * __this, t2* p0, MethodInfo* method)
+extern TypeInfo* t312_TI_var;
+extern "C" void m5666 (t801 * __this, t2* p0, MethodInfo* method)
 {
-	static bool m5638_init;
-	if (!m5638_init)
+	static bool m5666_init;
+	if (!m5666_init)
 	{
-		t305_TI_var = il2cpp_codegen_class_from_type(&t305_0_0_0);
-		m5638_init = true;
+		t312_TI_var = il2cpp_codegen_class_from_type(&t312_0_0_0);
+		m5666_init = true;
 	}
 	{
 		__this->f1 = 1;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_0 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f21;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_0 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f21;
 		__this->f3 = L_0;
 		__this->f5 = (-1);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
@@ -20464,7 +20464,7 @@ extern "C" void m5638 (t794 * __this, t2* p0, MethodInfo* method)
 		__this->f4 = L_3;
 		__this->f6 = (t2*)NULL;
 		t2* L_4 = p0;
-		int32_t L_5 = m2699(L_4, &m2699_MI);
+		int32_t L_5 = m2723(L_4, &m2723_MI);
 		if ((((int32_t)L_5) < ((int32_t)2)))
 		{
 			goto IL_008f;
@@ -20472,7 +20472,7 @@ extern "C" void m5638 (t794 * __this, t2* p0, MethodInfo* method)
 	}
 	{
 		t2* L_6 = p0;
-		uint16_t L_7 = m2714(L_6, 0, &m2714_MI);
+		uint16_t L_7 = m2738(L_6, 0, &m2738_MI);
 		if ((!(((uint32_t)L_7) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_008f;
@@ -20480,7 +20480,7 @@ extern "C" void m5638 (t794 * __this, t2* p0, MethodInfo* method)
 	}
 	{
 		t2* L_8 = p0;
-		uint16_t L_9 = m2714(L_8, 1, &m2714_MI);
+		uint16_t L_9 = m2738(L_8, 1, &m2738_MI);
 		if ((!(((uint32_t)L_9) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_008f;
@@ -20488,12 +20488,12 @@ extern "C" void m5638 (t794 * __this, t2* p0, MethodInfo* method)
 	}
 	{
 		t2* L_10 = p0;
-		t305* L_11 = ((t305*)SZArrayNew(t305_TI_var, 1));
+		t312* L_11 = ((t312*)SZArrayNew(t312_TI_var, 1));
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_11, 0)) = (uint16_t)((int32_t)47);
-		t2* L_12 = m5958(L_10, L_11, &m5958_MI);
+		t2* L_12 = m5986(L_10, L_11, &m5986_MI);
 		p0 = L_12;
 		uint16_t L_13 = ((int32_t)47);
-		t9 * L_14 = Box(InitializedTypeInfo(&t296_TI), &L_13);
+		t9 * L_14 = Box(InitializedTypeInfo(&t303_TI), &L_13);
 		t2* L_15 = p0;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		t2* L_16 = m511(NULL, L_14, L_15, &m511_MI);
@@ -20518,7 +20518,7 @@ IL_00a1:
 		return;
 	}
 }
-extern "C" void m5639 (t794 * __this, int32_t p0, t2* p1, MethodInfo* method)
+extern "C" void m5667 (t801 * __this, int32_t p0, t2* p1, MethodInfo* method)
 {
 	t2* V_0 = {0};
 	{
@@ -20530,7 +20530,7 @@ extern "C" void m5639 (t794 * __this, int32_t p0, t2* p1, MethodInfo* method)
 	}
 	{
 		t132 * L_1 = (t132 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t132_TI));
-		m339(L_1, (t2*) &_stringLiteral752, &m339_MI);
+		m339(L_1, (t2*) &_stringLiteral751, &m339_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -20538,7 +20538,7 @@ IL_0011:
 	{
 		int32_t L_2 = p0;
 		t2* L_3 = p1;
-		t2* L_4 = m5640(__this, L_2, L_3, &m5640_MI);
+		t2* L_4 = m5668(__this, L_2, L_3, &m5668_MI);
 		V_0 = L_4;
 		t2* L_5 = V_0;
 		if (!L_5)
@@ -20548,8 +20548,8 @@ IL_0011:
 	}
 	{
 		t2* L_6 = V_0;
-		t1325 * L_7 = (t1325 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1325_TI));
-		m5652(L_7, L_6, &m5652_MI);
+		t1334 * L_7 = (t1334 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1334_TI));
+		m5680(L_7, L_6, &m5680_MI);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -20558,7 +20558,7 @@ IL_0027:
 		return;
 	}
 }
-extern "C" t2* m5640 (t794 * __this, int32_t p0, t2* p1, MethodInfo* method)
+extern "C" t2* m5668 (t801 * __this, int32_t p0, t2* p1, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -20572,18 +20572,18 @@ extern "C" t2* m5640 (t794 * __this, int32_t p0, t2* p1, MethodInfo* method)
 	int32_t V_9 = 0;
 	t2* V_10 = {0};
 	bool V_11 = false;
-	t1191 * V_12 = {0};
-	t1325 * V_13 = {0};
+	t1200 * V_12 = {0};
+	t1334 * V_13 = {0};
 	int32_t G_B50_0 = 0;
 	int32_t G_B55_0 = 0;
 	int32_t G_B57_0 = 0;
 	int32_t G_B139_0 = 0;
 	{
 		t2* L_0 = p1;
-		t2* L_1 = m4246(L_0, &m4246_MI);
+		t2* L_1 = m4270(L_0, &m4270_MI);
 		p1 = L_1;
 		t2* L_2 = p1;
-		int32_t L_3 = m2699(L_2, &m2699_MI);
+		int32_t L_3 = m2723(L_2, &m2723_MI);
 		V_0 = L_3;
 		int32_t L_4 = V_0;
 		if (L_4)
@@ -20628,14 +20628,14 @@ IL_002b:
 		}
 	}
 	{
-		return (t2*) &_stringLiteral753;
+		return (t2*) &_stringLiteral752;
 	}
 
 IL_003f:
 	{
 		V_1 = 0;
 		t2* L_9 = p1;
-		int32_t L_10 = m2770(L_9, ((int32_t)58), &m2770_MI);
+		int32_t L_10 = m2794(L_9, ((int32_t)58), &m2794_MI);
 		V_1 = L_10;
 		int32_t L_11 = V_1;
 		if (L_11)
@@ -20644,7 +20644,7 @@ IL_003f:
 		}
 	}
 	{
-		return (t2*) &_stringLiteral754;
+		return (t2*) &_stringLiteral753;
 	}
 
 IL_0056:
@@ -20657,15 +20657,15 @@ IL_0056:
 	}
 	{
 		t2* L_13 = p1;
-		uint16_t L_14 = m2714(L_13, 0, &m2714_MI);
+		uint16_t L_14 = m2738(L_13, 0, &m2738_MI);
 		if ((!(((uint32_t)L_14) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_0091;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t293_TI));
-		uint16_t L_15 = ((t293_SFs*)InitializedTypeInfo(&t293_TI)->static_fields)->f2;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t300_TI));
+		uint16_t L_15 = ((t300_SFs*)InitializedTypeInfo(&t300_TI)->static_fields)->f2;
 		if ((!(((uint32_t)L_15) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_0091;
@@ -20673,7 +20673,7 @@ IL_0056:
 	}
 	{
 		t2* L_16 = p1;
-		m5638(__this, L_16, &m5638_MI);
+		m5666(__this, L_16, &m5666_MI);
 		int32_t L_17 = p0;
 		if ((!(((uint32_t)L_17) == ((uint32_t)2))))
 		{
@@ -20692,7 +20692,7 @@ IL_008c:
 IL_0091:
 	{
 		t2* L_18 = p1;
-		int32_t L_19 = m2699(L_18, &m2699_MI);
+		int32_t L_19 = m2723(L_18, &m2723_MI);
 		if ((((int32_t)L_19) < ((int32_t)2)))
 		{
 			goto IL_00c5;
@@ -20700,7 +20700,7 @@ IL_0091:
 	}
 	{
 		t2* L_20 = p1;
-		uint16_t L_21 = m2714(L_20, 0, &m2714_MI);
+		uint16_t L_21 = m2738(L_20, 0, &m2738_MI);
 		if ((!(((uint32_t)L_21) == ((uint32_t)((int32_t)92)))))
 		{
 			goto IL_00c5;
@@ -20708,7 +20708,7 @@ IL_0091:
 	}
 	{
 		t2* L_22 = p1;
-		uint16_t L_23 = m2714(L_22, 1, &m2714_MI);
+		uint16_t L_23 = m2738(L_22, 1, &m2738_MI);
 		if ((!(((uint32_t)L_23) == ((uint32_t)((int32_t)92)))))
 		{
 			goto IL_00c5;
@@ -20716,7 +20716,7 @@ IL_0091:
 	}
 	{
 		t2* L_24 = p1;
-		m5636(__this, L_24, &m5636_MI);
+		m5664(__this, L_24, &m5664_MI);
 		goto IL_00d3;
 	}
 
@@ -20742,22 +20742,22 @@ IL_00d5:
 	}
 	{
 		t2* L_27 = p1;
-		uint16_t L_28 = m2714(L_27, 0, &m2714_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_29 = m5621(NULL, L_28, &m5621_MI);
+		uint16_t L_28 = m2738(L_27, 0, &m2738_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_29 = m5649(NULL, L_28, &m5649_MI);
 		if (L_29)
 		{
 			goto IL_00f3;
 		}
 	}
 	{
-		return (t2*) &_stringLiteral755;
+		return (t2*) &_stringLiteral754;
 	}
 
 IL_00f3:
 	{
 		t2* L_30 = p1;
-		t2* L_31 = m5637(__this, L_30, &m5637_MI);
+		t2* L_31 = m5665(__this, L_30, &m5665_MI);
 		V_2 = L_31;
 		t2* L_32 = V_2;
 		if (!L_32)
@@ -20779,21 +20779,21 @@ IL_0105:
 	{
 		t2* L_34 = p1;
 		int32_t L_35 = V_1;
-		t2* L_36 = m2715(L_34, 0, L_35, &m2715_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t894_TI));
-		t894 * L_37 = m4334(NULL, &m4334_MI);
-		t2* L_38 = m5956(L_36, L_37, &m5956_MI);
+		t2* L_36 = m2739(L_34, 0, L_35, &m2739_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t901_TI));
+		t901 * L_37 = m4358(NULL, &m4358_MI);
+		t2* L_38 = m5984(L_36, L_37, &m5984_MI);
 		__this->f3 = L_38;
 		t2* L_39 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_40 = m5620(NULL, L_39, &m5620_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_40 = m5648(NULL, L_39, &m5648_MI);
 		if (L_40)
 		{
 			goto IL_0138;
 		}
 	}
 	{
-		t2* L_41 = m4775(NULL, (t2*) &_stringLiteral756, &m4775_MI);
+		t2* L_41 = m4803(NULL, (t2*) &_stringLiteral755, &m4803_MI);
 		return L_41;
 	}
 
@@ -20802,13 +20802,13 @@ IL_0138:
 		int32_t L_42 = V_1;
 		V_3 = ((int32_t)((int32_t)L_42+(int32_t)1));
 		t2* L_43 = p1;
-		int32_t L_44 = m2699(L_43, &m2699_MI);
+		int32_t L_44 = m2723(L_43, &m2723_MI);
 		V_4 = L_44;
 		t2* L_45 = p1;
 		int32_t L_46 = V_3;
-		int32_t L_47 = m4245(L_45, ((int32_t)35), L_46, &m4245_MI);
+		int32_t L_47 = m4269(L_45, ((int32_t)35), L_46, &m4269_MI);
 		V_1 = L_47;
-		bool L_48 = m5614(__this, &m5614_MI);
+		bool L_48 = m5642(__this, &m5642_MI);
 		if (L_48)
 		{
 			goto IL_019e;
@@ -20831,7 +20831,7 @@ IL_0138:
 	{
 		t2* L_51 = p1;
 		int32_t L_52 = V_1;
-		t2* L_53 = m2741(L_51, L_52, &m2741_MI);
+		t2* L_53 = m2765(L_51, L_52, &m2765_MI);
 		__this->f8 = L_53;
 		goto IL_019b;
 	}
@@ -20840,11 +20840,11 @@ IL_017d:
 	{
 		t2* L_54 = p1;
 		int32_t L_55 = V_1;
-		t2* L_56 = m2741(L_54, ((int32_t)((int32_t)L_55+(int32_t)1)), &m2741_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_57 = m5631(NULL, L_56, &m5631_MI);
+		t2* L_56 = m2765(L_54, ((int32_t)((int32_t)L_55+(int32_t)1)), &m2765_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_57 = m5659(NULL, L_56, &m5659_MI);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_58 = m610(NULL, (t2*) &_stringLiteral736, L_57, &m610_MI);
+		t2* L_58 = m610(NULL, (t2*) &_stringLiteral735, L_57, &m610_MI);
 		__this->f8 = L_58;
 	}
 
@@ -20860,7 +20860,7 @@ IL_019e:
 		int32_t L_61 = V_3;
 		int32_t L_62 = V_4;
 		int32_t L_63 = V_3;
-		int32_t L_64 = m5959(L_60, ((int32_t)63), L_61, ((int32_t)((int32_t)L_62-(int32_t)L_63)), &m5959_MI);
+		int32_t L_64 = m5987(L_60, ((int32_t)63), L_61, ((int32_t)((int32_t)L_62-(int32_t)L_63)), &m5987_MI);
 		V_1 = L_64;
 		int32_t L_65 = V_1;
 		if ((((int32_t)L_65) == ((int32_t)(-1))))
@@ -20873,7 +20873,7 @@ IL_019e:
 		int32_t L_67 = V_1;
 		int32_t L_68 = V_4;
 		int32_t L_69 = V_1;
-		t2* L_70 = m2715(L_66, L_67, ((int32_t)((int32_t)L_68-(int32_t)L_69)), &m2715_MI);
+		t2* L_70 = m2739(L_66, L_67, ((int32_t)((int32_t)L_68-(int32_t)L_69)), &m2739_MI);
 		__this->f7 = L_70;
 		int32_t L_71 = V_1;
 		V_4 = L_71;
@@ -20885,16 +20885,16 @@ IL_019e:
 	}
 	{
 		t2* L_73 = (__this->f7);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_74 = m5631(NULL, L_73, &m5631_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_74 = m5659(NULL, L_73, &m5659_MI);
 		__this->f7 = L_74;
 	}
 
 IL_01e3:
 	{
 		t2* L_75 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_76 = m5647(NULL, L_75, &m5647_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_76 = m5675(NULL, L_75, &m5675_MI);
 		if (!L_76)
 		{
 			goto IL_0255;
@@ -20902,10 +20902,10 @@ IL_01e3:
 	}
 	{
 		t2* L_77 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_78 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f26;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_78 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f26;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_79 = m2713(NULL, L_77, L_78, &m2713_MI);
+		bool L_79 = m2737(NULL, L_77, L_78, &m2737_MI);
 		if (!L_79)
 		{
 			goto IL_0255;
@@ -20913,10 +20913,10 @@ IL_01e3:
 	}
 	{
 		t2* L_80 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_81 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f27;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_81 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f27;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_82 = m2713(NULL, L_80, L_81, &m2713_MI);
+		bool L_82 = m2737(NULL, L_80, L_81, &m2737_MI);
 		if (!L_82)
 		{
 			goto IL_0255;
@@ -20941,7 +20941,7 @@ IL_01e3:
 	{
 		t2* L_87 = p1;
 		int32_t L_88 = V_3;
-		uint16_t L_89 = m2714(L_87, L_88, &m2714_MI);
+		uint16_t L_89 = m2738(L_87, L_88, &m2738_MI);
 		if ((!(((uint32_t)L_89) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_0255;
@@ -20950,7 +20950,7 @@ IL_01e3:
 	{
 		t2* L_90 = p1;
 		int32_t L_91 = V_3;
-		uint16_t L_92 = m2714(L_90, ((int32_t)((int32_t)L_91+(int32_t)1)), &m2714_MI);
+		uint16_t L_92 = m2738(L_90, ((int32_t)((int32_t)L_91+(int32_t)1)), &m2738_MI);
 		if ((((int32_t)L_92) == ((int32_t)((int32_t)47))))
 		{
 			goto IL_0255;
@@ -20959,7 +20959,7 @@ IL_01e3:
 
 IL_024f:
 	{
-		return (t2*) &_stringLiteral757;
+		return (t2*) &_stringLiteral756;
 	}
 
 IL_0255:
@@ -20974,7 +20974,7 @@ IL_0255:
 	{
 		t2* L_95 = p1;
 		int32_t L_96 = V_3;
-		uint16_t L_97 = m2714(L_95, L_96, &m2714_MI);
+		uint16_t L_97 = m2738(L_95, L_96, &m2738_MI);
 		if ((!(((uint32_t)L_97) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_027c;
@@ -20983,7 +20983,7 @@ IL_0255:
 	{
 		t2* L_98 = p1;
 		int32_t L_99 = V_3;
-		uint16_t L_100 = m2714(L_98, ((int32_t)((int32_t)L_99+(int32_t)1)), &m2714_MI);
+		uint16_t L_100 = m2738(L_98, ((int32_t)((int32_t)L_99+(int32_t)1)), &m2738_MI);
 		G_B50_0 = ((((int32_t)L_100) == ((int32_t)((int32_t)47)))? 1 : 0);
 		goto IL_027d;
 	}
@@ -20997,8 +20997,8 @@ IL_027d:
 	{
 		V_5 = G_B50_0;
 		t2* L_101 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_102 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f21;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_102 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f21;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_103 = m331(NULL, L_101, L_102, &m331_MI);
 		if (!L_103)
@@ -21024,7 +21024,7 @@ IL_027d:
 	{
 		t2* L_107 = p1;
 		int32_t L_108 = V_3;
-		uint16_t L_109 = m2714(L_107, ((int32_t)((int32_t)L_108+(int32_t)2)), &m2714_MI);
+		uint16_t L_109 = m2738(L_107, ((int32_t)((int32_t)L_108+(int32_t)2)), &m2738_MI);
 		G_B55_0 = ((((int32_t)L_109) == ((int32_t)((int32_t)47)))? 1 : 0);
 		goto IL_02b5;
 	}
@@ -21063,16 +21063,16 @@ IL_02b8:
 		}
 	}
 	{
-		return (t2*) &_stringLiteral758;
+		return (t2*) &_stringLiteral757;
 	}
 
 IL_02d1:
 	{
 		t2* L_112 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_113 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f26;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_113 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f26;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_114 = m2713(NULL, L_112, L_113, &m2713_MI);
+		bool L_114 = m2737(NULL, L_112, L_113, &m2737_MI);
 		if (!L_114)
 		{
 			goto IL_02ff;
@@ -21080,10 +21080,10 @@ IL_02d1:
 	}
 	{
 		t2* L_115 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_116 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f27;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_116 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f27;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_117 = m2713(NULL, L_115, L_116, &m2713_MI);
+		bool L_117 = m2737(NULL, L_115, L_116, &m2737_MI);
 		if (!L_117)
 		{
 			goto IL_02ff;
@@ -21097,8 +21097,8 @@ IL_02d1:
 IL_02ff:
 	{
 		t2* L_119 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_120 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f21;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_120 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f21;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_121 = m331(NULL, L_119, L_120, &m331_MI);
 		if (!L_121)
@@ -21117,7 +21117,7 @@ IL_031f:
 	{
 		t2* L_123 = p1;
 		int32_t L_124 = V_9;
-		uint16_t L_125 = m2714(L_123, L_124, &m2714_MI);
+		uint16_t L_125 = m2738(L_123, L_124, &m2738_MI);
 		if ((((int32_t)L_125) == ((int32_t)((int32_t)47))))
 		{
 			goto IL_0333;
@@ -21176,7 +21176,7 @@ IL_035c:
 	{
 		t2* L_134 = p1;
 		int32_t L_135 = V_3;
-		uint16_t L_136 = m2714(L_134, L_135, &m2714_MI);
+		uint16_t L_136 = m2738(L_134, L_135, &m2738_MI);
 		if ((((int32_t)L_136) == ((int32_t)((int32_t)47))))
 		{
 			goto IL_0358;
@@ -21213,7 +21213,7 @@ IL_0383:
 	{
 		t2* L_141 = p1;
 		int32_t L_142 = V_3;
-		uint16_t L_143 = m2714(L_141, ((int32_t)((int32_t)L_142+(int32_t)1)), &m2714_MI);
+		uint16_t L_143 = m2738(L_141, ((int32_t)((int32_t)L_142+(int32_t)1)), &m2738_MI);
 		if ((!(((uint32_t)L_143) == ((uint32_t)((int32_t)58)))))
 		{
 			goto IL_03a3;
@@ -21232,8 +21232,8 @@ IL_03a3:
 IL_03a8:
 	{
 		t2* L_144 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_145 = m5647(NULL, L_144, &m5647_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_145 = m5675(NULL, L_144, &m5675_MI);
 		if (L_145)
 		{
 			goto IL_03d2;
@@ -21244,7 +21244,7 @@ IL_03a8:
 		int32_t L_147 = V_3;
 		int32_t L_148 = V_4;
 		int32_t L_149 = V_3;
-		t2* L_150 = m2715(L_146, L_147, ((int32_t)((int32_t)L_148-(int32_t)L_149)), &m2715_MI);
+		t2* L_150 = m2739(L_146, L_147, ((int32_t)((int32_t)L_148-(int32_t)L_149)), &m2739_MI);
 		__this->f6 = L_150;
 		__this->f11 = 1;
 		return (t2*)NULL;
@@ -21269,7 +21269,7 @@ IL_03e0:
 		int32_t L_153 = V_3;
 		int32_t L_154 = V_4;
 		int32_t L_155 = V_3;
-		int32_t L_156 = m5959(L_152, ((int32_t)47), L_153, ((int32_t)((int32_t)L_154-(int32_t)L_155)), &m5959_MI);
+		int32_t L_156 = m5987(L_152, ((int32_t)47), L_153, ((int32_t)((int32_t)L_154-(int32_t)L_155)), &m5987_MI);
 		V_1 = L_156;
 		int32_t L_157 = V_1;
 		if ((!(((uint32_t)L_157) == ((uint32_t)(-1)))))
@@ -21289,7 +21289,7 @@ IL_03e0:
 		int32_t L_160 = V_3;
 		int32_t L_161 = V_4;
 		int32_t L_162 = V_3;
-		int32_t L_163 = m5959(L_159, ((int32_t)92), L_160, ((int32_t)((int32_t)L_161-(int32_t)L_162)), &m5959_MI);
+		int32_t L_163 = m5987(L_159, ((int32_t)92), L_160, ((int32_t)((int32_t)L_161-(int32_t)L_162)), &m5987_MI);
 		V_1 = L_163;
 	}
 
@@ -21303,10 +21303,10 @@ IL_040a:
 	}
 	{
 		t2* L_165 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_166 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f26;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_166 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f26;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_167 = m2713(NULL, L_165, L_166, &m2713_MI);
+		bool L_167 = m2737(NULL, L_165, L_166, &m2737_MI);
 		if (!L_167)
 		{
 			goto IL_0446;
@@ -21314,17 +21314,17 @@ IL_040a:
 	}
 	{
 		t2* L_168 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_169 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f27;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_169 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f27;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_170 = m2713(NULL, L_168, L_169, &m2713_MI);
+		bool L_170 = m2737(NULL, L_168, L_169, &m2737_MI);
 		if (!L_170)
 		{
 			goto IL_0446;
 		}
 	}
 	{
-		__this->f6 = (t2*) &_stringLiteral750;
+		__this->f6 = (t2*) &_stringLiteral749;
 	}
 
 IL_0446:
@@ -21338,7 +21338,7 @@ IL_044b:
 		int32_t L_172 = V_1;
 		int32_t L_173 = V_4;
 		int32_t L_174 = V_1;
-		t2* L_175 = m2715(L_171, L_172, ((int32_t)((int32_t)L_173-(int32_t)L_174)), &m2715_MI);
+		t2* L_175 = m2739(L_171, L_172, ((int32_t)((int32_t)L_173-(int32_t)L_174)), &m2739_MI);
 		__this->f6 = L_175;
 		int32_t L_176 = V_1;
 		V_4 = L_176;
@@ -21363,7 +21363,7 @@ IL_046d:
 		int32_t L_179 = V_3;
 		int32_t L_180 = V_4;
 		int32_t L_181 = V_3;
-		int32_t L_182 = m5959(L_178, ((int32_t)64), L_179, ((int32_t)((int32_t)L_180-(int32_t)L_181)), &m5959_MI);
+		int32_t L_182 = m5987(L_178, ((int32_t)64), L_179, ((int32_t)((int32_t)L_180-(int32_t)L_181)), &m5987_MI);
 		V_1 = L_182;
 	}
 
@@ -21380,7 +21380,7 @@ IL_047b:
 		int32_t L_185 = V_3;
 		int32_t L_186 = V_1;
 		int32_t L_187 = V_3;
-		t2* L_188 = m2715(L_184, L_185, ((int32_t)((int32_t)L_186-(int32_t)L_187)), &m2715_MI);
+		t2* L_188 = m2739(L_184, L_185, ((int32_t)((int32_t)L_186-(int32_t)L_187)), &m2739_MI);
 		__this->f9 = L_188;
 		int32_t L_189 = V_1;
 		V_3 = ((int32_t)((int32_t)L_189+(int32_t)1));
@@ -21406,7 +21406,7 @@ IL_04ab:
 		int32_t L_192 = V_4;
 		int32_t L_193 = V_4;
 		int32_t L_194 = V_3;
-		int32_t L_195 = m5960(L_191, ((int32_t)58), ((int32_t)((int32_t)L_192-(int32_t)1)), ((int32_t)((int32_t)L_193-(int32_t)L_194)), &m5960_MI);
+		int32_t L_195 = m5988(L_191, ((int32_t)58), ((int32_t)((int32_t)L_192-(int32_t)1)), ((int32_t)((int32_t)L_193-(int32_t)L_194)), &m5988_MI);
 		V_1 = L_195;
 	}
 
@@ -21431,10 +21431,10 @@ IL_04bc:
 		int32_t L_200 = V_1;
 		int32_t L_201 = V_4;
 		int32_t L_202 = V_1;
-		t2* L_203 = m2715(L_199, ((int32_t)((int32_t)L_200+(int32_t)1)), ((int32_t)((int32_t)L_201-(int32_t)((int32_t)((int32_t)L_202+(int32_t)1)))), &m2715_MI);
+		t2* L_203 = m2739(L_199, ((int32_t)((int32_t)L_200+(int32_t)1)), ((int32_t)((int32_t)L_201-(int32_t)((int32_t)((int32_t)L_202+(int32_t)1)))), &m2739_MI);
 		V_10 = L_203;
 		t2* L_204 = V_10;
-		int32_t L_205 = m2699(L_204, &m2699_MI);
+		int32_t L_205 = m2723(L_204, &m2723_MI);
 		if ((((int32_t)L_205) <= ((int32_t)0)))
 		{
 			goto IL_0544;
@@ -21443,8 +21443,8 @@ IL_04bc:
 	{
 		t2* L_206 = V_10;
 		t2* L_207 = V_10;
-		int32_t L_208 = m2699(L_207, &m2699_MI);
-		uint16_t L_209 = m2714(L_206, ((int32_t)((int32_t)L_208-(int32_t)1)), &m2714_MI);
+		int32_t L_208 = m2723(L_207, &m2723_MI);
+		uint16_t L_209 = m2738(L_206, ((int32_t)((int32_t)L_208-(int32_t)1)), &m2738_MI);
 		if ((((int32_t)L_209) == ((int32_t)((int32_t)93))))
 		{
 			goto IL_0544;
@@ -21452,10 +21452,10 @@ IL_04bc:
 	}
 	{
 		t2* L_210 = V_10;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t894_TI));
-		t894 * L_211 = m4334(NULL, &m4334_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t901_TI));
+		t901 * L_211 = m4358(NULL, &m4358_MI);
 		int32_t* L_212 = &(__this->f5);
-		bool L_213 = m5720(NULL, L_210, 7, L_211, L_212, &m5720_MI);
+		bool L_213 = m5748(NULL, L_210, 7, L_211, L_212, &m5748_MI);
 		if (!L_213)
 		{
 			goto IL_0536;
@@ -21478,7 +21478,7 @@ IL_04bc:
 
 IL_0536:
 	{
-		return (t2*) &_stringLiteral759;
+		return (t2*) &_stringLiteral758;
 	}
 
 IL_053c:
@@ -21498,8 +21498,8 @@ IL_0544:
 	}
 	{
 		t2* L_218 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		int32_t L_219 = m5645(NULL, L_218, &m5645_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		int32_t L_219 = m5673(NULL, L_218, &m5673_MI);
 		__this->f5 = L_219;
 	}
 
@@ -21518,8 +21518,8 @@ IL_0566:
 	}
 	{
 		t2* L_221 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		int32_t L_222 = m5645(NULL, L_221, &m5645_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		int32_t L_222 = m5673(NULL, L_221, &m5673_MI);
 		__this->f5 = L_222;
 	}
 
@@ -21529,7 +21529,7 @@ IL_0583:
 		int32_t L_224 = V_3;
 		int32_t L_225 = V_4;
 		int32_t L_226 = V_3;
-		t2* L_227 = m2715(L_223, L_224, ((int32_t)((int32_t)L_225-(int32_t)L_226)), &m2715_MI);
+		t2* L_227 = m2739(L_223, L_224, ((int32_t)((int32_t)L_225-(int32_t)L_226)), &m2739_MI);
 		p1 = L_227;
 		t2* L_228 = p1;
 		__this->f4 = L_228;
@@ -21541,12 +21541,12 @@ IL_0583:
 	}
 	{
 		uint16_t L_230 = ((int32_t)47);
-		t9 * L_231 = Box(InitializedTypeInfo(&t296_TI), &L_230);
+		t9 * L_231 = Box(InitializedTypeInfo(&t303_TI), &L_230);
 		t2* L_232 = p1;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		t2* L_233 = m511(NULL, L_231, L_232, &m511_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_234 = m5642(NULL, L_233, 1, &m5642_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_234 = m5670(NULL, L_233, 1, &m5670_MI);
 		__this->f6 = L_234;
 		t2* L_235 = ((t2_SFs*)(&t2_TI)->static_fields)->f2;
 		__this->f4 = L_235;
@@ -21556,7 +21556,7 @@ IL_0583:
 IL_05c7:
 	{
 		t2* L_236 = (__this->f4);
-		int32_t L_237 = m2699(L_236, &m2699_MI);
+		int32_t L_237 = m2723(L_236, &m2723_MI);
 		if ((!(((uint32_t)L_237) == ((uint32_t)2))))
 		{
 			goto IL_0612;
@@ -21564,7 +21564,7 @@ IL_05c7:
 	}
 	{
 		t2* L_238 = (__this->f4);
-		uint16_t L_239 = m2714(L_238, 1, &m2714_MI);
+		uint16_t L_239 = m2738(L_238, 1, &m2738_MI);
 		if ((!(((uint32_t)L_239) == ((uint32_t)((int32_t)58)))))
 		{
 			goto IL_0612;
@@ -21592,7 +21592,7 @@ IL_0612:
 	{
 		t2* L_245 = p1;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_246 = m610(NULL, (t2*) &_stringLiteral760, L_245, &m610_MI);
+		t2* L_246 = m610(NULL, (t2*) &_stringLiteral759, L_245, &m610_MI);
 		p1 = L_246;
 		t2* L_247 = ((t2_SFs*)(&t2_TI)->static_fields)->f2;
 		__this->f4 = L_247;
@@ -21602,8 +21602,8 @@ IL_0612:
 IL_063a:
 	{
 		t2* L_248 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_249 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f21;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_249 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f21;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_250 = m331(NULL, L_248, L_249, &m331_MI);
 		if (!L_250)
@@ -21619,8 +21619,8 @@ IL_063a:
 IL_065b:
 	{
 		t2* L_251 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_252 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f27;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_252 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f27;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_253 = m331(NULL, L_251, L_252, &m331_MI);
 		if (!L_253)
@@ -21630,7 +21630,7 @@ IL_065b:
 	}
 	{
 		t2* L_254 = (__this->f4);
-		int32_t L_255 = m2699(L_254, &m2699_MI);
+		int32_t L_255 = m2723(L_254, &m2723_MI);
 		if ((((int32_t)L_255) <= ((int32_t)0)))
 		{
 			goto IL_0698;
@@ -21652,7 +21652,7 @@ IL_0698:
 IL_069d:
 	{
 		t2* L_258 = (__this->f4);
-		int32_t L_259 = m2699(L_258, &m2699_MI);
+		int32_t L_259 = m2723(L_258, &m2723_MI);
 		if (L_259)
 		{
 			goto IL_071c;
@@ -21660,8 +21660,8 @@ IL_069d:
 	}
 	{
 		t2* L_260 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_261 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f24;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_261 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f24;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_262 = m331(NULL, L_260, L_261, &m331_MI);
 		if (L_262)
@@ -21671,8 +21671,8 @@ IL_069d:
 	}
 	{
 		t2* L_263 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_264 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f23;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_264 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f23;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_265 = m331(NULL, L_263, L_264, &m331_MI);
 		if (L_265)
@@ -21682,8 +21682,8 @@ IL_069d:
 	}
 	{
 		t2* L_266 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_267 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f28;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_267 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f28;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_268 = m331(NULL, L_266, L_267, &m331_MI);
 		if (L_268)
@@ -21693,8 +21693,8 @@ IL_069d:
 	}
 	{
 		t2* L_269 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_270 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f25;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_270 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f25;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_271 = m331(NULL, L_269, L_270, &m331_MI);
 		if (L_271)
@@ -21704,8 +21704,8 @@ IL_069d:
 	}
 	{
 		t2* L_272 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_273 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f22;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_273 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f22;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_274 = m331(NULL, L_272, L_273, &m331_MI);
 		if (!L_274)
@@ -21716,13 +21716,13 @@ IL_069d:
 
 IL_0716:
 	{
-		return (t2*) &_stringLiteral761;
+		return (t2*) &_stringLiteral760;
 	}
 
 IL_071c:
 	{
 		t2* L_275 = (__this->f4);
-		int32_t L_276 = m2699(L_275, &m2699_MI);
+		int32_t L_276 = m2723(L_275, &m2723_MI);
 		if ((((int32_t)L_276) <= ((int32_t)0)))
 		{
 			goto IL_073d;
@@ -21730,8 +21730,8 @@ IL_071c:
 	}
 	{
 		t2* L_277 = (__this->f4);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		int32_t L_278 = m5617(NULL, L_277, &m5617_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		int32_t L_278 = m5645(NULL, L_277, &m5645_MI);
 		G_B139_0 = ((((int32_t)L_278) == ((int32_t)0))? 1 : 0);
 		goto IL_073e;
 	}
@@ -21752,7 +21752,7 @@ IL_073e:
 	}
 	{
 		t2* L_280 = (__this->f4);
-		int32_t L_281 = m2699(L_280, &m2699_MI);
+		int32_t L_281 = m2723(L_280, &m2723_MI);
 		if ((((int32_t)L_281) <= ((int32_t)1)))
 		{
 			goto IL_07c1;
@@ -21760,7 +21760,7 @@ IL_073e:
 	}
 	{
 		t2* L_282 = (__this->f4);
-		uint16_t L_283 = m2714(L_282, 0, &m2714_MI);
+		uint16_t L_283 = m2738(L_282, 0, &m2738_MI);
 		if ((!(((uint32_t)L_283) == ((uint32_t)((int32_t)91)))))
 		{
 			goto IL_07c1;
@@ -21769,8 +21769,8 @@ IL_073e:
 	{
 		t2* L_284 = (__this->f4);
 		t2* L_285 = (__this->f4);
-		int32_t L_286 = m2699(L_285, &m2699_MI);
-		uint16_t L_287 = m2714(L_284, ((int32_t)((int32_t)L_286-(int32_t)1)), &m2714_MI);
+		int32_t L_286 = m2723(L_285, &m2723_MI);
+		uint16_t L_287 = m2738(L_284, ((int32_t)((int32_t)L_286-(int32_t)1)), &m2738_MI);
 		if ((!(((uint32_t)L_287) == ((uint32_t)((int32_t)93)))))
 		{
 			goto IL_07c1;
@@ -21778,18 +21778,18 @@ IL_073e:
 	}
 	{
 		t2* L_288 = (__this->f4);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1191_TI));
-		bool L_289 = m4919(NULL, L_288, (&V_12), &m4919_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1200_TI));
+		bool L_289 = m4947(NULL, L_288, (&V_12), &m4947_MI);
 		if (!L_289)
 		{
 			goto IL_07be;
 		}
 	}
 	{
-		t1191 * L_290 = V_12;
-		t2* L_291 = m4929(L_290, 1, &m4929_MI);
+		t1200 * L_290 = V_12;
+		t2* L_291 = m4957(L_290, 1, &m4957_MI);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_292 = m399(NULL, (t2*) &_stringLiteral344, L_291, (t2*) &_stringLiteral345, &m399_MI);
+		t2* L_292 = m399(NULL, (t2*) &_stringLiteral343, L_291, (t2*) &_stringLiteral344, &m399_MI);
 		__this->f4 = L_292;
 		goto IL_07c1;
 	}
@@ -21808,14 +21808,14 @@ IL_07c1:
 		}
 	}
 	{
-		t1318 * L_294 = m5648(__this, &m5648_MI);
-		if (((t1317 *)IsInst(L_294, InitializedTypeInfo(&t1317_TI))))
+		t1327 * L_294 = m5676(__this, &m5676_MI);
+		if (((t1326 *)IsInst(L_294, InitializedTypeInfo(&t1326_TI))))
 		{
 			goto IL_07e3;
 		}
 	}
 	{
-		t1318 * L_295 = m5648(__this, &m5648_MI);
+		t1327 * L_295 = m5676(__this, &m5676_MI);
 		if (L_295)
 		{
 			goto IL_07fe;
@@ -21826,46 +21826,46 @@ IL_07e3:
 	{
 		t2* L_296 = (__this->f4);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		t2* L_297 = m399(NULL, (t2*) &_stringLiteral762, L_296, (t2*) &_stringLiteral148, &m399_MI);
-		t2* L_298 = m4775(NULL, L_297, &m4775_MI);
+		t2* L_297 = m399(NULL, (t2*) &_stringLiteral761, L_296, (t2*) &_stringLiteral147, &m399_MI);
+		t2* L_298 = m4803(NULL, L_297, &m4803_MI);
 		return L_298;
 	}
 
 IL_07fe:
 	{
-		V_13 = (t1325 *)NULL;
-		t1318 * L_299 = m5648(__this, &m5648_MI);
+		V_13 = (t1334 *)NULL;
+		t1327 * L_299 = m5676(__this, &m5676_MI);
 		if (!L_299)
 		{
 			goto IL_081a;
 		}
 	}
 	{
-		t1318 * L_300 = m5648(__this, &m5648_MI);
-		VirtActionInvoker2< t794 *, t1325 ** >::Invoke(&m5657_MI, L_300, __this, (&V_13));
+		t1327 * L_300 = m5676(__this, &m5676_MI);
+		VirtActionInvoker2< t801 *, t1334 ** >::Invoke(&m5685_MI, L_300, __this, (&V_13));
 	}
 
 IL_081a:
 	{
-		t1325 * L_301 = V_13;
+		t1334 * L_301 = V_13;
 		if (!L_301)
 		{
 			goto IL_0829;
 		}
 	}
 	{
-		t1325 * L_302 = V_13;
-		t2* L_303 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1083_MI, L_302);
+		t1334 * L_302 = V_13;
+		t2* L_303 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1098_MI, L_302);
 		return L_303;
 	}
 
 IL_0829:
 	{
 		t2* L_304 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_305 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f26;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_305 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f26;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_306 = m2713(NULL, L_304, L_305, &m2713_MI);
+		bool L_306 = m2737(NULL, L_304, L_305, &m2737_MI);
 		if (!L_306)
 		{
 			goto IL_0884;
@@ -21873,10 +21873,10 @@ IL_0829:
 	}
 	{
 		t2* L_307 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_308 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f27;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_308 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f27;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_309 = m2713(NULL, L_307, L_308, &m2713_MI);
+		bool L_309 = m2737(NULL, L_307, L_308, &m2737_MI);
 		if (!L_309)
 		{
 			goto IL_0884;
@@ -21884,10 +21884,10 @@ IL_0829:
 	}
 	{
 		t2* L_310 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_311 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f21;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_311 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f21;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_312 = m2713(NULL, L_310, L_311, &m2713_MI);
+		bool L_312 = m2737(NULL, L_310, L_311, &m2737_MI);
 		if (!L_312)
 		{
 			goto IL_0884;
@@ -21896,9 +21896,9 @@ IL_0829:
 	{
 		t2* L_313 = (__this->f6);
 		t2* L_314 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_315 = m5641(NULL, L_314, &m5641_MI);
-		t2* L_316 = m5642(NULL, L_313, L_315, &m5642_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_315 = m5669(NULL, L_314, &m5669_MI);
+		t2* L_316 = m5670(NULL, L_313, L_315, &m5670_MI);
 		__this->f6 = L_316;
 	}
 
@@ -21907,23 +21907,23 @@ IL_0884:
 		return (t2*)NULL;
 	}
 }
-extern TypeInfo* t713_TI_var;
-extern MethodInfo* m5747_MI_var;
-extern MethodInfo* m5748_MI_var;
-extern MethodInfo* m5749_MI_var;
-extern "C" bool m5641 (t9 * __this , t2* p0, MethodInfo* method)
+extern TypeInfo* t720_TI_var;
+extern MethodInfo* m5775_MI_var;
+extern MethodInfo* m5776_MI_var;
+extern MethodInfo* m5777_MI_var;
+extern "C" bool m5669 (t9 * __this , t2* p0, MethodInfo* method)
 {
-	static bool m5641_init;
-	if (!m5641_init)
+	static bool m5669_init;
+	if (!m5669_init)
 	{
-		t713_TI_var = il2cpp_codegen_class_from_type(&t713_0_0_0);
-		m5747_MI_var = il2cpp_codegen_genericmethod_get_method(&m5747_GM);
-		m5748_MI_var = il2cpp_codegen_genericmethod_get_method(&m5748_GM);
-		m5749_MI_var = il2cpp_codegen_genericmethod_get_method(&m5749_GM);
-		m5641_init = true;
+		t720_TI_var = il2cpp_codegen_class_from_type(&t720_0_0_0);
+		m5775_MI_var = il2cpp_codegen_genericmethod_get_method(&m5775_GM);
+		m5776_MI_var = il2cpp_codegen_genericmethod_get_method(&m5776_GM);
+		m5777_MI_var = il2cpp_codegen_genericmethod_get_method(&m5777_GM);
+		m5669_init = true;
 	}
 	t2* V_0 = {0};
-	t713 * V_1 = {0};
+	t720 * V_1 = {0};
 	int32_t V_2 = 0;
 	{
 		t2* L_0 = p0;
@@ -21935,38 +21935,38 @@ extern "C" bool m5641 (t9 * __this , t2* p0, MethodInfo* method)
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t713 * L_2 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f36;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t720 * L_2 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f36;
 		if (L_2)
 		{
 			goto IL_005b;
 		}
 	}
 	{
-		t713 * L_3 = (t713 *)il2cpp_codegen_object_new (t713_TI_var);
-		m5747(L_3, 5, m5747_MI_var);
+		t720 * L_3 = (t720 *)il2cpp_codegen_object_new (t720_TI_var);
+		m5775(L_3, 5, m5775_MI_var);
 		V_1 = L_3;
-		t713 * L_4 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_4, (t2*) &_stringLiteral546, 0);
-		t713 * L_5 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_5, (t2*) &_stringLiteral489, 0);
-		t713 * L_6 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_6, (t2*) &_stringLiteral488, 0);
-		t713 * L_7 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_7, (t2*) &_stringLiteral733, 0);
-		t713 * L_8 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_8, (t2*) &_stringLiteral734, 0);
-		t713 * L_9 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f36 = L_9;
+		t720 * L_4 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_4, (t2*) &_stringLiteral545, 0);
+		t720 * L_5 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_5, (t2*) &_stringLiteral488, 0);
+		t720 * L_6 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_6, (t2*) &_stringLiteral487, 0);
+		t720 * L_7 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_7, (t2*) &_stringLiteral732, 0);
+		t720 * L_8 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_8, (t2*) &_stringLiteral733, 0);
+		t720 * L_9 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f36 = L_9;
 	}
 
 IL_005b:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t713 * L_10 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f36;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t720 * L_10 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f36;
 		t2* L_11 = V_0;
-		bool L_12 = (bool)VirtFuncInvoker2< bool, t2*, int32_t* >::Invoke(m5749_MI_var, L_10, L_11, (&V_2));
+		bool L_12 = (bool)VirtFuncInvoker2< bool, t2*, int32_t* >::Invoke(m5777_MI_var, L_10, L_11, (&V_2));
 		if (!L_12)
 		{
 			goto IL_007a;
@@ -21993,14 +21993,14 @@ IL_007a:
 		return 0;
 	}
 }
-extern "C" t2* m5642 (t9 * __this , t2* p0, bool p1, MethodInfo* method)
+extern "C" t2* m5670 (t9 * __this , t2* p0, bool p1, MethodInfo* method)
 {
-	t315 * V_0 = {0};
+	t322 * V_0 = {0};
 	int32_t V_1 = 0;
 	uint16_t V_2 = 0x0;
 	uint16_t V_3 = 0x0;
 	uint16_t V_4 = 0x0;
-	t1161 * V_5 = {0};
+	t1170 * V_5 = {0};
 	int32_t V_6 = 0;
 	int32_t V_7 = 0;
 	t2* V_8 = {0};
@@ -22019,7 +22019,7 @@ extern "C" t2* m5642 (t9 * __this , t2* p0, bool p1, MethodInfo* method)
 	{
 		t2* L_0 = p0;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_1 = m331(NULL, L_0, (t2*) &_stringLiteral750, &m331_MI);
+		bool L_1 = m331(NULL, L_0, (t2*) &_stringLiteral749, &m331_MI);
 		if (!L_1)
 		{
 			goto IL_0012;
@@ -22032,8 +22032,8 @@ extern "C" t2* m5642 (t9 * __this , t2* p0, bool p1, MethodInfo* method)
 
 IL_0012:
 	{
-		t315 * L_3 = (t315 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t315_TI));
-		m1150(L_3, &m1150_MI);
+		t322 * L_3 = (t322 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t322_TI));
+		m1165(L_3, &m1165_MI);
 		V_0 = L_3;
 		bool L_4 = p1;
 		if (!L_4)
@@ -22050,7 +22050,7 @@ IL_0025:
 	{
 		t2* L_5 = p0;
 		int32_t L_6 = V_1;
-		uint16_t L_7 = m2714(L_5, L_6, &m2714_MI);
+		uint16_t L_7 = m2738(L_5, L_6, &m2738_MI);
 		V_2 = L_7;
 		uint16_t L_8 = V_2;
 		V_13 = L_8;
@@ -22073,8 +22073,8 @@ IL_0025:
 
 IL_0047:
 	{
-		t315 * L_11 = V_0;
-		m2733(L_11, ((int32_t)47), &m2733_MI);
+		t322 * L_11 = V_0;
+		m2757(L_11, ((int32_t)47), &m2757_MI);
 		goto IL_00d8;
 	}
 
@@ -22082,7 +22082,7 @@ IL_0055:
 	{
 		int32_t L_12 = V_1;
 		t2* L_13 = p0;
-		int32_t L_14 = m2699(L_13, &m2699_MI);
+		int32_t L_14 = m2723(L_13, &m2723_MI);
 		if ((((int32_t)L_12) >= ((int32_t)((int32_t)((int32_t)L_14-(int32_t)2)))))
 		{
 			goto IL_00be;
@@ -22091,13 +22091,13 @@ IL_0055:
 	{
 		t2* L_15 = p0;
 		int32_t L_16 = V_1;
-		uint16_t L_17 = m2714(L_15, ((int32_t)((int32_t)L_16+(int32_t)1)), &m2714_MI);
+		uint16_t L_17 = m2738(L_15, ((int32_t)((int32_t)L_16+(int32_t)1)), &m2738_MI);
 		V_3 = L_17;
 		t2* L_18 = p0;
 		int32_t L_19 = V_1;
-		uint16_t L_20 = m2714(L_18, ((int32_t)((int32_t)L_19+(int32_t)2)), &m2714_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t296_TI));
-		uint16_t L_21 = m2767(NULL, L_20, &m2767_MI);
+		uint16_t L_20 = m2738(L_18, ((int32_t)((int32_t)L_19+(int32_t)2)), &m2738_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t303_TI));
+		uint16_t L_21 = m2791(NULL, L_20, &m2791_MI);
 		V_4 = L_21;
 		uint16_t L_22 = V_3;
 		if ((!(((uint32_t)L_22) == ((uint32_t)((int32_t)50)))))
@@ -22131,8 +22131,8 @@ IL_008e:
 
 IL_009f:
 	{
-		t315 * L_26 = V_0;
-		m2733(L_26, ((int32_t)47), &m2733_MI);
+		t322 * L_26 = V_0;
+		m2757(L_26, ((int32_t)47), &m2757_MI);
 		int32_t L_27 = V_1;
 		V_1 = ((int32_t)((int32_t)L_27+(int32_t)2));
 		goto IL_00b9;
@@ -22140,9 +22140,9 @@ IL_009f:
 
 IL_00b1:
 	{
-		t315 * L_28 = V_0;
+		t322 * L_28 = V_0;
 		uint16_t L_29 = V_2;
-		m2733(L_28, L_29, &m2733_MI);
+		m2757(L_28, L_29, &m2757_MI);
 	}
 
 IL_00b9:
@@ -22152,9 +22152,9 @@ IL_00b9:
 
 IL_00be:
 	{
-		t315 * L_30 = V_0;
+		t322 * L_30 = V_0;
 		uint16_t L_31 = V_2;
-		m2733(L_30, L_31, &m2733_MI);
+		m2757(L_30, L_31, &m2757_MI);
 	}
 
 IL_00c6:
@@ -22164,9 +22164,9 @@ IL_00c6:
 
 IL_00cb:
 	{
-		t315 * L_32 = V_0;
+		t322 * L_32 = V_0;
 		uint16_t L_33 = V_2;
-		m2733(L_32, L_33, &m2733_MI);
+		m2757(L_32, L_33, &m2757_MI);
 		goto IL_00d8;
 	}
 
@@ -22180,15 +22180,15 @@ IL_00dc:
 	{
 		int32_t L_35 = V_1;
 		t2* L_36 = p0;
-		int32_t L_37 = m2699(L_36, &m2699_MI);
+		int32_t L_37 = m2723(L_36, &m2723_MI);
 		if ((((int32_t)L_35) < ((int32_t)L_37)))
 		{
 			goto IL_0025;
 		}
 	}
 	{
-		t315 * L_38 = V_0;
-		t2* L_39 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1156_MI, L_38);
+		t322 * L_38 = V_0;
+		t2* L_39 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1171_MI, L_38);
 		p0 = L_39;
 		goto IL_0101;
 	}
@@ -22196,15 +22196,15 @@ IL_00dc:
 IL_00f5:
 	{
 		t2* L_40 = p0;
-		t2* L_41 = m4424(L_40, ((int32_t)92), ((int32_t)47), &m4424_MI);
+		t2* L_41 = m4448(L_40, ((int32_t)92), ((int32_t)47), &m4448_MI);
 		p0 = L_41;
 	}
 
 IL_0101:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1161_TI));
-		t1161 * L_42 = (t1161 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1161_TI));
-		m5698(L_42, &m5698_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1170_TI));
+		t1170 * L_42 = (t1170 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1170_TI));
+		m5726(L_42, &m5726_MI);
 		V_5 = L_42;
 		V_6 = 0;
 		goto IL_01a3;
@@ -22214,7 +22214,7 @@ IL_0110:
 	{
 		t2* L_43 = p0;
 		int32_t L_44 = V_6;
-		int32_t L_45 = m4245(L_43, ((int32_t)47), L_44, &m4245_MI);
+		int32_t L_45 = m4269(L_43, ((int32_t)47), L_44, &m4269_MI);
 		V_7 = L_45;
 		int32_t L_46 = V_7;
 		if ((!(((uint32_t)L_46) == ((uint32_t)(-1)))))
@@ -22224,7 +22224,7 @@ IL_0110:
 	}
 	{
 		t2* L_47 = p0;
-		int32_t L_48 = m2699(L_47, &m2699_MI);
+		int32_t L_48 = m2723(L_47, &m2723_MI);
 		V_7 = L_48;
 	}
 
@@ -22234,12 +22234,12 @@ IL_012c:
 		int32_t L_50 = V_6;
 		int32_t L_51 = V_7;
 		int32_t L_52 = V_6;
-		t2* L_53 = m2715(L_49, L_50, ((int32_t)((int32_t)L_51-(int32_t)L_52)), &m2715_MI);
+		t2* L_53 = m2739(L_49, L_50, ((int32_t)((int32_t)L_51-(int32_t)L_52)), &m2739_MI);
 		V_8 = L_53;
 		int32_t L_54 = V_7;
 		V_6 = ((int32_t)((int32_t)L_54+(int32_t)1));
 		t2* L_55 = V_8;
-		int32_t L_56 = m2699(L_55, &m2699_MI);
+		int32_t L_56 = m2723(L_55, &m2723_MI);
 		if (!L_56)
 		{
 			goto IL_015e;
@@ -22248,7 +22248,7 @@ IL_012c:
 	{
 		t2* L_57 = V_8;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_58 = m331(NULL, L_57, (t2*) &_stringLiteral140, &m331_MI);
+		bool L_58 = m331(NULL, L_57, (t2*) &_stringLiteral139, &m331_MI);
 		if (!L_58)
 		{
 			goto IL_0163;
@@ -22264,15 +22264,15 @@ IL_0163:
 	{
 		t2* L_59 = V_8;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_60 = m331(NULL, L_59, (t2*) &_stringLiteral739, &m331_MI);
+		bool L_60 = m331(NULL, L_59, (t2*) &_stringLiteral738, &m331_MI);
 		if (!L_60)
 		{
 			goto IL_0199;
 		}
 	}
 	{
-		t1161 * L_61 = V_5;
-		int32_t L_62 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5694_MI, L_61);
+		t1170 * L_61 = V_5;
+		int32_t L_62 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5722_MI, L_61);
 		V_9 = L_62;
 		int32_t L_63 = V_9;
 		if (L_63)
@@ -22286,62 +22286,62 @@ IL_0163:
 
 IL_0189:
 	{
-		t1161 * L_64 = V_5;
+		t1170 * L_64 = V_5;
 		int32_t L_65 = V_9;
-		VirtActionInvoker1< int32_t >::Invoke(&m5909_MI, L_64, ((int32_t)((int32_t)L_65-(int32_t)1)));
+		VirtActionInvoker1< int32_t >::Invoke(&m5937_MI, L_64, ((int32_t)((int32_t)L_65-(int32_t)1)));
 		goto IL_01a3;
 	}
 
 IL_0199:
 	{
-		t1161 * L_66 = V_5;
+		t1170 * L_66 = V_5;
 		t2* L_67 = V_8;
-		VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5709_MI, L_66, L_67);
+		VirtFuncInvoker1< int32_t, t9 * >::Invoke(&m5737_MI, L_66, L_67);
 	}
 
 IL_01a3:
 	{
 		int32_t L_68 = V_6;
 		t2* L_69 = p0;
-		int32_t L_70 = m2699(L_69, &m2699_MI);
+		int32_t L_70 = m2723(L_69, &m2723_MI);
 		if ((((int32_t)L_68) < ((int32_t)L_70)))
 		{
 			goto IL_0110;
 		}
 	}
 	{
-		t1161 * L_71 = V_5;
-		int32_t L_72 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5694_MI, L_71);
+		t1170 * L_71 = V_5;
+		int32_t L_72 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(&m5722_MI, L_71);
 		if (L_72)
 		{
 			goto IL_01c2;
 		}
 	}
 	{
-		return (t2*) &_stringLiteral750;
+		return (t2*) &_stringLiteral749;
 	}
 
 IL_01c2:
 	{
-		t315 * L_73 = V_0;
-		m5961(L_73, 0, &m5961_MI);
+		t322 * L_73 = V_0;
+		m5989(L_73, 0, &m5989_MI);
 		t2* L_74 = p0;
-		uint16_t L_75 = m2714(L_74, 0, &m2714_MI);
+		uint16_t L_75 = m2738(L_74, 0, &m2738_MI);
 		if ((!(((uint32_t)L_75) == ((uint32_t)((int32_t)47)))))
 		{
 			goto IL_01e0;
 		}
 	}
 	{
-		t315 * L_76 = V_0;
-		m2733(L_76, ((int32_t)47), &m2733_MI);
+		t322 * L_76 = V_0;
+		m2757(L_76, ((int32_t)47), &m2757_MI);
 	}
 
 IL_01e0:
 	{
 		V_10 = 1;
-		t1161 * L_77 = V_5;
-		t9 * L_78 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5699_MI, L_77);
+		t1170 * L_77 = V_5;
+		t9 * L_78 = (t9 *)VirtFuncInvoker0< t9 * >::Invoke(&m5727_MI, L_77);
 		V_12 = L_78;
 	}
 
@@ -22372,15 +22372,15 @@ IL_0206:
 
 IL_020e:
 		{
-			t315 * L_82 = V_0;
-			m2733(L_82, ((int32_t)47), &m2733_MI);
+			t322 * L_82 = V_0;
+			m2757(L_82, ((int32_t)47), &m2757_MI);
 		}
 
 IL_0217:
 		{
-			t315 * L_83 = V_0;
+			t322 * L_83 = V_0;
 			t2* L_84 = V_11;
-			m1154(L_83, L_84, &m1154_MI);
+			m1169(L_83, L_84, &m1169_MI);
 		}
 
 IL_0220:
@@ -22437,39 +22437,39 @@ IL_023f:
 IL_0247:
 	{
 		t2* L_90 = p0;
-		bool L_91 = m4421(L_90, (t2*) &_stringLiteral750, &m4421_MI);
+		bool L_91 = m4445(L_90, (t2*) &_stringLiteral749, &m4445_MI);
 		if (!L_91)
 		{
 			goto IL_0260;
 		}
 	}
 	{
-		t315 * L_92 = V_0;
-		m2733(L_92, ((int32_t)47), &m2733_MI);
+		t322 * L_92 = V_0;
+		m2757(L_92, ((int32_t)47), &m2757_MI);
 	}
 
 IL_0260:
 	{
-		t315 * L_93 = V_0;
-		t2* L_94 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1156_MI, L_93);
+		t322 * L_93 = V_0;
+		t2* L_94 = (t2*)VirtFuncInvoker0< t2* >::Invoke(&m1171_MI, L_93);
 		return L_94;
 	}
 }
-extern TypeInfo* t723_TI_var;
-extern "C" uint16_t m5643 (t9 * __this , t2* p0, int32_t* p1, uint16_t* p2, MethodInfo* method)
+extern TypeInfo* t730_TI_var;
+extern "C" uint16_t m5671 (t9 * __this , t2* p0, int32_t* p1, uint16_t* p2, MethodInfo* method)
 {
-	static bool m5643_init;
-	if (!m5643_init)
+	static bool m5671_init;
+	if (!m5671_init)
 	{
-		t723_TI_var = il2cpp_codegen_class_from_type(&t723_0_0_0);
-		m5643_init = true;
+		t730_TI_var = il2cpp_codegen_class_from_type(&t730_0_0_0);
+		m5671_init = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
-	t723* V_5 = {0};
+	t730* V_5 = {0};
 	bool V_6 = false;
 	int32_t V_7 = 0;
 	int32_t V_8 = 0;
@@ -22488,8 +22488,8 @@ extern "C" uint16_t m5643 (t9 * __this , t2* p0, int32_t* p1, uint16_t* p2, Meth
 		}
 	}
 	{
-		t556 * L_2 = (t556 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t556_TI));
-		m2885(L_2, (t2*) &_stringLiteral684, &m2885_MI);
+		t563 * L_2 = (t563 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t563_TI));
+		m2909(L_2, (t2*) &_stringLiteral683, &m2909_MI);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -22504,7 +22504,7 @@ IL_0014:
 	{
 		int32_t* L_4 = p1;
 		t2* L_5 = p0;
-		int32_t L_6 = m2699(L_5, &m2699_MI);
+		int32_t L_6 = m2723(L_5, &m2723_MI);
 		if ((((int32_t)(*((int32_t*)L_4))) < ((int32_t)L_6)))
 		{
 			goto IL_0034;
@@ -22513,8 +22513,8 @@ IL_0014:
 
 IL_0029:
 	{
-		t896 * L_7 = (t896 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t896_TI));
-		m5693(L_7, (t2*) &_stringLiteral401, &m5693_MI);
+		t903 * L_7 = (t903 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t903_TI));
+		m5721(L_7, (t2*) &_stringLiteral400, &m5721_MI);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -22522,8 +22522,8 @@ IL_0034:
 	{
 		t2* L_8 = p0;
 		int32_t* L_9 = p1;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_10 = m5629(NULL, L_8, (*((int32_t*)L_9)), &m5629_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_10 = m5657(NULL, L_8, (*((int32_t*)L_9)), &m5657_MI);
 		if (L_10)
 		{
 			goto IL_0053;
@@ -22537,7 +22537,7 @@ IL_0034:
 		V_13 = L_14;
 		*((int32_t*)(L_12)) = (int32_t)((int32_t)((int32_t)L_14+(int32_t)1));
 		int32_t L_15 = V_13;
-		uint16_t L_16 = m2714(L_11, L_15, &m2714_MI);
+		uint16_t L_16 = m2738(L_11, L_15, &m2738_MI);
 		return L_16;
 	}
 
@@ -22557,9 +22557,9 @@ IL_0053:
 		V_13 = L_24;
 		*((int32_t*)(L_22)) = (int32_t)((int32_t)((int32_t)L_24+(int32_t)1));
 		int32_t L_25 = V_13;
-		uint16_t L_26 = m2714(L_21, L_25, &m2714_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		int32_t L_27 = m5626(NULL, L_26, &m5626_MI);
+		uint16_t L_26 = m2738(L_21, L_25, &m2738_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		int32_t L_27 = m5654(NULL, L_26, &m5654_MI);
 		V_1 = L_27;
 		t2* L_28 = p0;
 		int32_t* L_29 = p1;
@@ -22568,8 +22568,8 @@ IL_0053:
 		V_13 = L_31;
 		*((int32_t*)(L_29)) = (int32_t)((int32_t)((int32_t)L_31+(int32_t)1));
 		int32_t L_32 = V_13;
-		uint16_t L_33 = m2714(L_28, L_32, &m2714_MI);
-		int32_t L_34 = m5626(NULL, L_33, &m5626_MI);
+		uint16_t L_33 = m2738(L_28, L_32, &m2738_MI);
+		int32_t L_34 = m5654(NULL, L_33, &m5654_MI);
 		V_2 = L_34;
 		int32_t L_35 = V_1;
 		V_3 = L_35;
@@ -22609,9 +22609,9 @@ IL_00a1:
 IL_00b9:
 	{
 		int32_t L_42 = V_4;
-		V_5 = ((t723*)SZArrayNew(t723_TI_var, L_42));
+		V_5 = ((t730*)SZArrayNew(t730_TI_var, L_42));
 		V_6 = 0;
-		t723* L_43 = V_5;
+		t730* L_43 = V_5;
 		int32_t L_44 = V_1;
 		int32_t L_45 = V_2;
 		*((uint8_t*)(uint8_t*)SZArrayLdElema(L_43, 0)) = (uint8_t)(((uint8_t)((int32_t)((int32_t)((int32_t)((int32_t)L_44<<(int32_t)4))|(int32_t)L_45))));
@@ -22628,8 +22628,8 @@ IL_00d7:
 		V_13 = L_49;
 		*((int32_t*)(L_47)) = (int32_t)((int32_t)((int32_t)L_49+(int32_t)1));
 		int32_t L_50 = V_13;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		bool L_51 = m5629(NULL, L_46, L_50, &m5629_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		bool L_51 = m5657(NULL, L_46, L_50, &m5657_MI);
 		if (L_51)
 		{
 			goto IL_00f5;
@@ -22649,9 +22649,9 @@ IL_00f5:
 		V_13 = L_55;
 		*((int32_t*)(L_53)) = (int32_t)((int32_t)((int32_t)L_55+(int32_t)1));
 		int32_t L_56 = V_13;
-		uint16_t L_57 = m2714(L_52, L_56, &m2714_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		int32_t L_58 = m5626(NULL, L_57, &m5626_MI);
+		uint16_t L_57 = m2738(L_52, L_56, &m2738_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		int32_t L_58 = m5654(NULL, L_57, &m5654_MI);
 		V_8 = L_58;
 		int32_t L_59 = V_8;
 		if ((((int32_t)((int32_t)((int32_t)L_59&(int32_t)((int32_t)12)))) == ((int32_t)8)))
@@ -22673,11 +22673,11 @@ IL_0120:
 		V_13 = L_63;
 		*((int32_t*)(L_61)) = (int32_t)((int32_t)((int32_t)L_63+(int32_t)1));
 		int32_t L_64 = V_13;
-		uint16_t L_65 = m2714(L_60, L_64, &m2714_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		int32_t L_66 = m5626(NULL, L_65, &m5626_MI);
+		uint16_t L_65 = m2738(L_60, L_64, &m2738_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		int32_t L_66 = m5654(NULL, L_65, &m5654_MI);
 		V_9 = L_66;
-		t723* L_67 = V_5;
+		t730* L_67 = V_5;
 		int32_t L_68 = V_7;
 		int32_t L_69 = V_8;
 		int32_t L_70 = V_9;
@@ -22708,7 +22708,7 @@ IL_0154:
 		int32_t* L_75 = p1;
 		int32_t L_76 = V_0;
 		*((int32_t*)(L_75)) = (int32_t)((int32_t)((int32_t)L_76+(int32_t)3));
-		t723* L_77 = V_5;
+		t730* L_77 = V_5;
 		int32_t L_78 = 0;
 		return (((uint16_t)(*(uint8_t*)(uint8_t*)SZArrayLdElema(L_77, L_78))));
 	}
@@ -22719,7 +22719,7 @@ IL_0166:
 		uint8_t L_79 = V_10;
 		int32_t L_80 = V_4;
 		V_10 = (((uint8_t)((int32_t)((int32_t)L_79>>(int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_80+(int32_t)1))&(int32_t)((int32_t)31)))))));
-		t723* L_81 = V_5;
+		t730* L_81 = V_5;
 		int32_t L_82 = 0;
 		uint8_t L_83 = V_10;
 		V_11 = ((int32_t)((int32_t)(*(uint8_t*)(uint8_t*)SZArrayLdElema(L_81, L_82))&(int32_t)L_83));
@@ -22732,7 +22732,7 @@ IL_018b:
 		int32_t L_84 = V_11;
 		V_11 = ((int32_t)((int32_t)L_84<<(int32_t)6));
 		int32_t L_85 = V_11;
-		t723* L_86 = V_5;
+		t730* L_86 = V_5;
 		int32_t L_87 = V_12;
 		int32_t L_88 = L_87;
 		V_11 = ((int32_t)((int32_t)L_85|(int32_t)((int32_t)((int32_t)(*(uint8_t*)(uint8_t*)SZArrayLdElema(L_86, L_88))&(int32_t)((int32_t)63)))));
@@ -22772,7 +22772,7 @@ IL_01bd:
 		return (((uint16_t)((int32_t)((int32_t)((int32_t)((int32_t)L_97>>(int32_t)((int32_t)10)))|(int32_t)((int32_t)55296)))));
 	}
 }
-extern "C" t2* m5644 (t9 * __this , t2* p0, MethodInfo* method)
+extern "C" t2* m5672 (t9 * __this , t2* p0, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
@@ -22782,10 +22782,10 @@ extern "C" t2* m5644 (t9 * __this , t2* p0, MethodInfo* method)
 
 IL_0007:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t1321* L_0 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f31;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t1330* L_0 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f31;
 		int32_t L_1 = V_0;
-		t2* L_2 = (((t1320 *)(t1320 *)SZArrayLdElema(L_0, L_1))->f0);
+		t2* L_2 = (((t1329 *)(t1329 *)SZArrayLdElema(L_0, L_1))->f0);
 		t2* L_3 = p0;
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
 		bool L_4 = m331(NULL, L_2, L_3, &m331_MI);
@@ -22795,10 +22795,10 @@ IL_0007:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t1321* L_5 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f31;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t1330* L_5 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f31;
 		int32_t L_6 = V_0;
-		t2* L_7 = (((t1320 *)(t1320 *)SZArrayLdElema(L_5, L_6))->f1);
+		t2* L_7 = (((t1329 *)(t1329 *)SZArrayLdElema(L_5, L_6))->f1);
 		return L_7;
 	}
 
@@ -22811,28 +22811,28 @@ IL_0033:
 IL_0037:
 	{
 		int32_t L_9 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t1321* L_10 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f31;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t1330* L_10 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f31;
 		if ((((int32_t)L_9) < ((int32_t)(((int32_t)(((t121 *)L_10)->max_length))))))
 		{
 			goto IL_0007;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_11 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f20;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_11 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f20;
 		return L_11;
 	}
 }
-extern "C" int32_t m5645 (t9 * __this , t2* p0, MethodInfo* method)
+extern "C" int32_t m5673 (t9 * __this , t2* p0, MethodInfo* method)
 {
-	t1318 * V_0 = {0};
+	t1327 * V_0 = {0};
 	{
 		t2* L_0 = p0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1318_TI));
-		t1318 * L_1 = m5664(NULL, L_0, &m5664_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1327_TI));
+		t1327 * L_1 = m5692(NULL, L_0, &m5692_MI);
 		V_0 = L_1;
-		t1318 * L_2 = V_0;
+		t1327 * L_2 = V_0;
 		if (L_2)
 		{
 			goto IL_000f;
@@ -22844,12 +22844,12 @@ extern "C" int32_t m5645 (t9 * __this , t2* p0, MethodInfo* method)
 
 IL_000f:
 	{
-		t1318 * L_3 = V_0;
-		int32_t L_4 = m5660(L_3, &m5660_MI);
+		t1327 * L_3 = V_0;
+		int32_t L_4 = m5688(L_3, &m5688_MI);
 		return L_4;
 	}
 }
-extern "C" t2* m5646 (t794 * __this, MethodInfo* method)
+extern "C" t2* m5674 (t801 * __this, MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->f11);
@@ -22859,34 +22859,34 @@ extern "C" t2* m5646 (t794 * __this, MethodInfo* method)
 		}
 	}
 	{
-		return (t2*) &_stringLiteral343;
+		return (t2*) &_stringLiteral342;
 	}
 
 IL_0011:
 	{
 		t2* L_1 = (__this->f3);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_2 = m5644(NULL, L_1, &m5644_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_2 = m5672(NULL, L_1, &m5672_MI);
 		return L_2;
 	}
 }
-extern TypeInfo* t713_TI_var;
-extern MethodInfo* m5747_MI_var;
-extern MethodInfo* m5748_MI_var;
-extern MethodInfo* m5749_MI_var;
-extern "C" bool m5647 (t9 * __this , t2* p0, MethodInfo* method)
+extern TypeInfo* t720_TI_var;
+extern MethodInfo* m5775_MI_var;
+extern MethodInfo* m5776_MI_var;
+extern MethodInfo* m5777_MI_var;
+extern "C" bool m5675 (t9 * __this , t2* p0, MethodInfo* method)
 {
-	static bool m5647_init;
-	if (!m5647_init)
+	static bool m5675_init;
+	if (!m5675_init)
 	{
-		t713_TI_var = il2cpp_codegen_class_from_type(&t713_0_0_0);
-		m5747_MI_var = il2cpp_codegen_genericmethod_get_method(&m5747_GM);
-		m5748_MI_var = il2cpp_codegen_genericmethod_get_method(&m5748_GM);
-		m5749_MI_var = il2cpp_codegen_genericmethod_get_method(&m5749_GM);
-		m5647_init = true;
+		t720_TI_var = il2cpp_codegen_class_from_type(&t720_0_0_0);
+		m5775_MI_var = il2cpp_codegen_genericmethod_get_method(&m5775_GM);
+		m5776_MI_var = il2cpp_codegen_genericmethod_get_method(&m5776_GM);
+		m5777_MI_var = il2cpp_codegen_genericmethod_get_method(&m5777_GM);
+		m5675_init = true;
 	}
 	t2* V_0 = {0};
-	t713 * V_1 = {0};
+	t720 * V_1 = {0};
 	int32_t V_2 = 0;
 	{
 		t2* L_0 = p0;
@@ -22898,48 +22898,48 @@ extern "C" bool m5647 (t9 * __this , t2* p0, MethodInfo* method)
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t713 * L_2 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f37;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t720 * L_2 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f37;
 		if (L_2)
 		{
 			goto IL_0098;
 		}
 	}
 	{
-		t713 * L_3 = (t713 *)il2cpp_codegen_object_new (t713_TI_var);
-		m5747(L_3, ((int32_t)10), m5747_MI_var);
+		t720 * L_3 = (t720 *)il2cpp_codegen_object_new (t720_TI_var);
+		m5775(L_3, ((int32_t)10), m5775_MI_var);
 		V_1 = L_3;
-		t713 * L_4 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_4, (t2*) &_stringLiteral489, 0);
-		t713 * L_5 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_5, (t2*) &_stringLiteral488, 0);
-		t713 * L_6 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_6, (t2*) &_stringLiteral546, 0);
-		t713 * L_7 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_7, (t2*) &_stringLiteral548, 0);
-		t713 * L_8 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_8, (t2*) &_stringLiteral732, 0);
-		t713 * L_9 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_9, (t2*) &_stringLiteral729, 0);
-		t713 * L_10 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_10, (t2*) &_stringLiteral730, 0);
-		t713 * L_11 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_11, (t2*) &_stringLiteral731, 0);
-		t713 * L_12 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_12, (t2*) &_stringLiteral733, 0);
-		t713 * L_13 = V_1;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(m5748_MI_var, L_13, (t2*) &_stringLiteral734, 0);
-		t713 * L_14 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f37 = L_14;
+		t720 * L_4 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_4, (t2*) &_stringLiteral488, 0);
+		t720 * L_5 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_5, (t2*) &_stringLiteral487, 0);
+		t720 * L_6 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_6, (t2*) &_stringLiteral545, 0);
+		t720 * L_7 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_7, (t2*) &_stringLiteral547, 0);
+		t720 * L_8 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_8, (t2*) &_stringLiteral731, 0);
+		t720 * L_9 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_9, (t2*) &_stringLiteral728, 0);
+		t720 * L_10 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_10, (t2*) &_stringLiteral729, 0);
+		t720 * L_11 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_11, (t2*) &_stringLiteral730, 0);
+		t720 * L_12 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_12, (t2*) &_stringLiteral732, 0);
+		t720 * L_13 = V_1;
+		VirtActionInvoker2< t2*, int32_t >::Invoke(m5776_MI_var, L_13, (t2*) &_stringLiteral733, 0);
+		t720 * L_14 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f37 = L_14;
 	}
 
 IL_0098:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t713 * L_15 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f37;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t720 * L_15 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f37;
 		t2* L_16 = V_0;
-		bool L_17 = (bool)VirtFuncInvoker2< bool, t2*, int32_t* >::Invoke(m5749_MI_var, L_15, L_16, (&V_2));
+		bool L_17 = (bool)VirtFuncInvoker2< bool, t2*, int32_t* >::Invoke(m5777_MI_var, L_15, L_16, (&V_2));
 		if (!L_17)
 		{
 			goto IL_00b7;
@@ -22966,50 +22966,50 @@ IL_00b7:
 		return 0;
 	}
 }
-extern "C" t1318 * m5648 (t794 * __this, MethodInfo* method)
+extern "C" t1327 * m5676 (t801 * __this, MethodInfo* method)
 {
 	{
-		t1318 * L_0 = (__this->f32);
+		t1327 * L_0 = (__this->f32);
 		if (L_0)
 		{
 			goto IL_0037;
 		}
 	}
 	{
-		t2* L_1 = m5615(__this, &m5615_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1318_TI));
-		t1318 * L_2 = m5664(NULL, L_1, &m5664_MI);
+		t2* L_1 = m5643(__this, &m5643_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1327_TI));
+		t1327 * L_2 = m5692(NULL, L_1, &m5692_MI);
 		__this->f32 = L_2;
-		t1318 * L_3 = (__this->f32);
+		t1327 * L_3 = (__this->f32);
 		if (L_3)
 		{
 			goto IL_0037;
 		}
 	}
 	{
-		t1317 * L_4 = (t1317 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1317_TI));
-		m5602(L_4, (t2*) &_stringLiteral726, &m5602_MI);
+		t1326 * L_4 = (t1326 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1326_TI));
+		m5630(L_4, (t2*) &_stringLiteral725, &m5630_MI);
 		__this->f32 = L_4;
 	}
 
 IL_0037:
 	{
-		t1318 * L_5 = (__this->f32);
+		t1327 * L_5 = (__this->f32);
 		return L_5;
 	}
 }
-extern "C" void m5649 (t794 * __this, MethodInfo* method)
+extern "C" void m5677 (t801 * __this, MethodInfo* method)
 {
 	{
-		bool L_0 = m5616(__this, &m5616_MI);
+		bool L_0 = m5644(__this, &m5644_MI);
 		if (L_0)
 		{
 			goto IL_0016;
 		}
 	}
 	{
-		t1332 * L_1 = (t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1332_TI));
-		m5685(L_1, (t2*) &_stringLiteral763, &m5685_MI);
+		t1341 * L_1 = (t1341 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1341_TI));
+		m5713(L_1, (t2*) &_stringLiteral762, &m5713_MI);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -23018,12 +23018,12 @@ IL_0016:
 		return;
 	}
 }
-extern "C" bool m5650 (t9 * __this , t794 * p0, t794 * p1, MethodInfo* method)
+extern "C" bool m5678 (t9 * __this , t801 * p0, t801 * p1, MethodInfo* method)
 {
 	{
-		t794 * L_0 = p0;
-		t794 * L_1 = p1;
-		bool L_2 = m5962(NULL, L_0, L_1, &m5962_MI);
+		t801 * L_0 = p0;
+		t801 * L_1 = p1;
+		bool L_2 = m5990(NULL, L_0, L_1, &m5990_MI);
 		return L_2;
 	}
 }
@@ -23031,64 +23031,64 @@ extern "C" bool m5650 (t9 * __this , t794 * p0, t794 * p1, MethodInfo* method)
 #else
 #endif
 
-extern TypeInfo t1093_TI;
-extern TypeInfo t1094_TI;
-#include "t883MD.h"
-extern MethodInfo m4288_MI;
-extern MethodInfo m5963_MI;
-extern MethodInfo m4473_MI;
+extern TypeInfo t1100_TI;
+extern TypeInfo t1101_TI;
+#include "t890MD.h"
+extern MethodInfo m4312_MI;
+extern MethodInfo m5991_MI;
+extern MethodInfo m4497_MI;
 
 
-extern MethodInfo m5651_MI;
-extern "C" void m5651 (t1325 * __this, MethodInfo* method)
+extern MethodInfo m5679_MI;
+extern "C" void m5679 (t1334 * __this, MethodInfo* method)
 {
 	{
-		t2* L_0 = m4775(NULL, (t2*) &_stringLiteral764, &m4775_MI);
-		m4288(__this, L_0, &m4288_MI);
+		t2* L_0 = m4803(NULL, (t2*) &_stringLiteral763, &m4803_MI);
+		m4312(__this, L_0, &m4312_MI);
 		return;
 	}
 }
-extern "C" void m5652 (t1325 * __this, t2* p0, MethodInfo* method)
+extern "C" void m5680 (t1334 * __this, t2* p0, MethodInfo* method)
 {
 	{
 		t2* L_0 = p0;
-		m4288(__this, L_0, &m4288_MI);
+		m4312(__this, L_0, &m4312_MI);
 		return;
 	}
 }
-extern MethodInfo m5653_MI;
-extern "C" void m5653 (t1325 * __this, t1093 * p0, t1094  p1, MethodInfo* method)
+extern MethodInfo m5681_MI;
+extern "C" void m5681 (t1334 * __this, t1100 * p0, t1101  p1, MethodInfo* method)
 {
 	{
-		t1093 * L_0 = p0;
-		t1094  L_1 = p1;
-		m5963(__this, L_0, L_1, &m5963_MI);
+		t1100 * L_0 = p0;
+		t1101  L_1 = p1;
+		m5991(__this, L_0, L_1, &m5991_MI);
 		return;
 	}
 }
-extern MethodInfo m5654_MI;
-extern "C" void m5654 (t1325 * __this, t1093 * p0, t1094  p1, MethodInfo* method)
+extern MethodInfo m5682_MI;
+extern "C" void m5682 (t1334 * __this, t1100 * p0, t1101  p1, MethodInfo* method)
 {
 	{
-		t1093 * L_0 = p0;
-		t1094  L_1 = p1;
-		m4473(__this, L_0, L_1, &m4473_MI);
+		t1100 * L_0 = p0;
+		t1101  L_1 = p1;
+		m4497(__this, L_0, L_1, &m4497_MI);
 		return;
 	}
 }
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1322_TI;
-#include "t1322MD.h"
+extern TypeInfo t1331_TI;
+#include "t1331MD.h"
 
 
 
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1324_TI;
-#include "t1324MD.h"
+extern TypeInfo t1333_TI;
+#include "t1333MD.h"
 
 
 
@@ -23096,50 +23096,50 @@ extern TypeInfo t1324_TI;
 #else
 #endif
 
-extern TypeInfo t930_TI;
-#include "t294MD.h"
-extern MethodInfo m5271_MI;
-extern MethodInfo m5663_MI;
-extern MethodInfo m1067_MI;
-extern MethodInfo m1069_MI;
-extern MethodInfo m5659_MI;
-extern MethodInfo m5661_MI;
-extern MethodInfo m5658_MI;
-extern MethodInfo m5662_MI;
+extern TypeInfo t937_TI;
+#include "t301MD.h"
+extern MethodInfo m5299_MI;
+extern MethodInfo m5691_MI;
+extern MethodInfo m1082_MI;
+extern MethodInfo m1084_MI;
+extern MethodInfo m5687_MI;
+extern MethodInfo m5689_MI;
+extern MethodInfo m5686_MI;
+extern MethodInfo m5690_MI;
 
 
-extern "C" void m5655 (t1318 * __this, MethodInfo* method)
+extern "C" void m5683 (t1327 * __this, MethodInfo* method)
 {
 	{
 		m336(__this, &m336_MI);
 		return;
 	}
 }
-extern MethodInfo m5656_MI;
-extern "C" void m5656 (t9 * __this , MethodInfo* method)
+extern MethodInfo m5684_MI;
+extern "C" void m5684 (t9 * __this , MethodInfo* method)
 {
 	{
 		t9 * L_0 = (t9 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t9_TI));
 		m336(L_0, &m336_MI);
-		((t1318_SFs*)InitializedTypeInfo(&t1318_TI)->static_fields)->f0 = L_0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t930_TI));
-		t930 * L_1 = (t930 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t930_TI));
-		m5271(L_1, (t2*) &_stringLiteral765, &m5271_MI);
-		((t1318_SFs*)InitializedTypeInfo(&t1318_TI)->static_fields)->f4 = L_1;
-		t930 * L_2 = (t930 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t930_TI));
-		m5271(L_2, (t2*) &_stringLiteral766, &m5271_MI);
-		((t1318_SFs*)InitializedTypeInfo(&t1318_TI)->static_fields)->f5 = L_2;
+		((t1327_SFs*)InitializedTypeInfo(&t1327_TI)->static_fields)->f0 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t937_TI));
+		t937 * L_1 = (t937 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t937_TI));
+		m5299(L_1, (t2*) &_stringLiteral764, &m5299_MI);
+		((t1327_SFs*)InitializedTypeInfo(&t1327_TI)->static_fields)->f4 = L_1;
+		t937 * L_2 = (t937 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t937_TI));
+		m5299(L_2, (t2*) &_stringLiteral765, &m5299_MI);
+		((t1327_SFs*)InitializedTypeInfo(&t1327_TI)->static_fields)->f5 = L_2;
 		return;
 	}
 }
-extern "C" void m5657 (t1318 * __this, t794 * p0, t1325 ** p1, MethodInfo* method)
+extern "C" void m5685 (t1327 * __this, t801 * p0, t1334 ** p1, MethodInfo* method)
 {
 	{
-		t794 * L_0 = p0;
-		t2* L_1 = m5615(L_0, &m5615_MI);
+		t801 * L_0 = p0;
+		t2* L_1 = m5643(L_0, &m5643_MI);
 		t2* L_2 = (__this->f2);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_3 = m2713(NULL, L_1, L_2, &m2713_MI);
+		bool L_3 = m2737(NULL, L_1, L_2, &m2737_MI);
 		if (!L_3)
 		{
 			goto IL_003c;
@@ -23148,23 +23148,23 @@ extern "C" void m5657 (t1318 * __this, t794 * p0, t1325 ** p1, MethodInfo* metho
 	{
 		t2* L_4 = (__this->f2);
 		IL2CPP_RUNTIME_CLASS_INIT((&t2_TI));
-		bool L_5 = m2713(NULL, L_4, (t2*) &_stringLiteral726, &m2713_MI);
+		bool L_5 = m2737(NULL, L_4, (t2*) &_stringLiteral725, &m2737_MI);
 		if (!L_5)
 		{
 			goto IL_003c;
 		}
 	}
 	{
-		t1325 ** L_6 = p1;
-		t1325 * L_7 = (t1325 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1325_TI));
-		m5652(L_7, (t2*) &_stringLiteral767, &m5652_MI);
+		t1334 ** L_6 = p1;
+		t1334 * L_7 = (t1334 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1334_TI));
+		m5680(L_7, (t2*) &_stringLiteral766, &m5680_MI);
 		*((t9 **)(L_6)) = (t9 *)L_7;
 		goto IL_003f;
 	}
 
 IL_003c:
 	{
-		t1325 ** L_8 = p1;
+		t1334 ** L_8 = p1;
 		*((t9 **)(L_8)) = (t9 *)NULL;
 	}
 
@@ -23173,13 +23173,13 @@ IL_003f:
 		return;
 	}
 }
-extern "C" void m5658 (t1318 * __this, t2* p0, int32_t p1, MethodInfo* method)
+extern "C" void m5686 (t1327 * __this, t2* p0, int32_t p1, MethodInfo* method)
 {
 	{
 		return;
 	}
 }
-extern "C" void m5659 (t1318 * __this, t2* p0, MethodInfo* method)
+extern "C" void m5687 (t1327 * __this, t2* p0, MethodInfo* method)
 {
 	{
 		t2* L_0 = p0;
@@ -23187,14 +23187,14 @@ extern "C" void m5659 (t1318 * __this, t2* p0, MethodInfo* method)
 		return;
 	}
 }
-extern "C" int32_t m5660 (t1318 * __this, MethodInfo* method)
+extern "C" int32_t m5688 (t1327 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f3);
 		return L_0;
 	}
 }
-extern "C" void m5661 (t1318 * __this, int32_t p0, MethodInfo* method)
+extern "C" void m5689 (t1327 * __this, int32_t p0, MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
@@ -23202,9 +23202,9 @@ extern "C" void m5661 (t1318 * __this, int32_t p0, MethodInfo* method)
 		return;
 	}
 }
-extern "C" void m5662 (t9 * __this , MethodInfo* method)
+extern "C" void m5690 (t9 * __this , MethodInfo* method)
 {
-	t1149 * V_0 = {0};
+	t1158 * V_0 = {0};
 	t9 * V_1 = {0};
 	t138 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
@@ -23213,8 +23213,8 @@ extern "C" void m5662 (t9 * __this , MethodInfo* method)
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1318_TI));
-		t1149 * L_0 = ((t1318_SFs*)InitializedTypeInfo(&t1318_TI)->static_fields)->f1;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1327_TI));
+		t1158 * L_0 = ((t1327_SFs*)InitializedTypeInfo(&t1327_TI)->static_fields)->f1;
 		if (!L_0)
 		{
 			goto IL_000b;
@@ -23226,78 +23226,78 @@ extern "C" void m5662 (t9 * __this , MethodInfo* method)
 
 IL_000b:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1149_TI));
-		t1149 * L_1 = (t1149 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1149_TI));
-		m5883(L_1, &m5883_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1158_TI));
+		t1158 * L_1 = (t1158 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1158_TI));
+		m5911(L_1, &m5911_MI);
 		V_0 = L_1;
-		t1149 * L_2 = V_0;
-		t1317 * L_3 = (t1317 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1317_TI));
-		m5601(L_3, &m5601_MI);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t794_TI));
-		t2* L_4 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f21;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1318_TI));
-		m5663(NULL, L_2, L_3, L_4, (-1), &m5663_MI);
-		t1149 * L_5 = V_0;
-		t1317 * L_6 = (t1317 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1317_TI));
-		m5601(L_6, &m5601_MI);
-		t2* L_7 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f22;
-		m5663(NULL, L_5, L_6, L_7, ((int32_t)21), &m5663_MI);
-		t1149 * L_8 = V_0;
-		t1317 * L_9 = (t1317 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1317_TI));
-		m5601(L_9, &m5601_MI);
-		t2* L_10 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f23;
-		m5663(NULL, L_8, L_9, L_10, ((int32_t)70), &m5663_MI);
-		t1149 * L_11 = V_0;
-		t1317 * L_12 = (t1317 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1317_TI));
-		m5601(L_12, &m5601_MI);
-		t2* L_13 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f24;
-		m5663(NULL, L_11, L_12, L_13, ((int32_t)80), &m5663_MI);
-		t1149 * L_14 = V_0;
-		t1317 * L_15 = (t1317 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1317_TI));
-		m5601(L_15, &m5601_MI);
-		t2* L_16 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f25;
-		m5663(NULL, L_14, L_15, L_16, ((int32_t)443), &m5663_MI);
-		t1149 * L_17 = V_0;
-		t1317 * L_18 = (t1317 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1317_TI));
-		m5601(L_18, &m5601_MI);
-		t2* L_19 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f26;
-		m5663(NULL, L_17, L_18, L_19, ((int32_t)25), &m5663_MI);
-		t1149 * L_20 = V_0;
-		t1317 * L_21 = (t1317 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1317_TI));
-		m5601(L_21, &m5601_MI);
-		t2* L_22 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f29;
-		m5663(NULL, L_20, L_21, L_22, (-1), &m5663_MI);
-		t1149 * L_23 = V_0;
-		t1317 * L_24 = (t1317 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1317_TI));
-		m5601(L_24, &m5601_MI);
-		t2* L_25 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f30;
-		m5663(NULL, L_23, L_24, L_25, (-1), &m5663_MI);
-		t1149 * L_26 = V_0;
-		t1317 * L_27 = (t1317 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1317_TI));
-		m5601(L_27, &m5601_MI);
-		t2* L_28 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f27;
-		m5663(NULL, L_26, L_27, L_28, ((int32_t)119), &m5663_MI);
-		t1149 * L_29 = V_0;
-		t1317 * L_30 = (t1317 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1317_TI));
-		m5601(L_30, &m5601_MI);
-		t2* L_31 = ((t794_SFs*)InitializedTypeInfo(&t794_TI)->static_fields)->f28;
-		m5663(NULL, L_29, L_30, L_31, ((int32_t)119), &m5663_MI);
-		t1149 * L_32 = V_0;
-		t1317 * L_33 = (t1317 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1317_TI));
-		m5601(L_33, &m5601_MI);
-		m5663(NULL, L_32, L_33, (t2*) &_stringLiteral768, ((int32_t)389), &m5663_MI);
-		t9 * L_34 = ((t1318_SFs*)InitializedTypeInfo(&t1318_TI)->static_fields)->f0;
+		t1158 * L_2 = V_0;
+		t1326 * L_3 = (t1326 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1326_TI));
+		m5629(L_3, &m5629_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t801_TI));
+		t2* L_4 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f21;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1327_TI));
+		m5691(NULL, L_2, L_3, L_4, (-1), &m5691_MI);
+		t1158 * L_5 = V_0;
+		t1326 * L_6 = (t1326 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1326_TI));
+		m5629(L_6, &m5629_MI);
+		t2* L_7 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f22;
+		m5691(NULL, L_5, L_6, L_7, ((int32_t)21), &m5691_MI);
+		t1158 * L_8 = V_0;
+		t1326 * L_9 = (t1326 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1326_TI));
+		m5629(L_9, &m5629_MI);
+		t2* L_10 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f23;
+		m5691(NULL, L_8, L_9, L_10, ((int32_t)70), &m5691_MI);
+		t1158 * L_11 = V_0;
+		t1326 * L_12 = (t1326 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1326_TI));
+		m5629(L_12, &m5629_MI);
+		t2* L_13 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f24;
+		m5691(NULL, L_11, L_12, L_13, ((int32_t)80), &m5691_MI);
+		t1158 * L_14 = V_0;
+		t1326 * L_15 = (t1326 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1326_TI));
+		m5629(L_15, &m5629_MI);
+		t2* L_16 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f25;
+		m5691(NULL, L_14, L_15, L_16, ((int32_t)443), &m5691_MI);
+		t1158 * L_17 = V_0;
+		t1326 * L_18 = (t1326 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1326_TI));
+		m5629(L_18, &m5629_MI);
+		t2* L_19 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f26;
+		m5691(NULL, L_17, L_18, L_19, ((int32_t)25), &m5691_MI);
+		t1158 * L_20 = V_0;
+		t1326 * L_21 = (t1326 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1326_TI));
+		m5629(L_21, &m5629_MI);
+		t2* L_22 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f29;
+		m5691(NULL, L_20, L_21, L_22, (-1), &m5691_MI);
+		t1158 * L_23 = V_0;
+		t1326 * L_24 = (t1326 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1326_TI));
+		m5629(L_24, &m5629_MI);
+		t2* L_25 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f30;
+		m5691(NULL, L_23, L_24, L_25, (-1), &m5691_MI);
+		t1158 * L_26 = V_0;
+		t1326 * L_27 = (t1326 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1326_TI));
+		m5629(L_27, &m5629_MI);
+		t2* L_28 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f27;
+		m5691(NULL, L_26, L_27, L_28, ((int32_t)119), &m5691_MI);
+		t1158 * L_29 = V_0;
+		t1326 * L_30 = (t1326 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1326_TI));
+		m5629(L_30, &m5629_MI);
+		t2* L_31 = ((t801_SFs*)InitializedTypeInfo(&t801_TI)->static_fields)->f28;
+		m5691(NULL, L_29, L_30, L_31, ((int32_t)119), &m5691_MI);
+		t1158 * L_32 = V_0;
+		t1326 * L_33 = (t1326 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1326_TI));
+		m5629(L_33, &m5629_MI);
+		m5691(NULL, L_32, L_33, (t2*) &_stringLiteral767, ((int32_t)389), &m5691_MI);
+		t9 * L_34 = ((t1327_SFs*)InitializedTypeInfo(&t1327_TI)->static_fields)->f0;
 		V_1 = L_34;
 		t9 * L_35 = V_1;
-		m1067(NULL, L_35, &m1067_MI);
+		m1082(NULL, L_35, &m1082_MI);
 	}
 
 IL_00e6:
 	try
 	{ // begin try (depth: 1)
 		{
-			IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1318_TI));
-			t1149 * L_36 = ((t1318_SFs*)InitializedTypeInfo(&t1318_TI)->static_fields)->f1;
+			IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1327_TI));
+			t1158 * L_36 = ((t1327_SFs*)InitializedTypeInfo(&t1327_TI)->static_fields)->f1;
 			if (L_36)
 			{
 				goto IL_00fb;
@@ -23306,15 +23306,15 @@ IL_00e6:
 
 IL_00f0:
 		{
-			t1149 * L_37 = V_0;
-			IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1318_TI));
-			((t1318_SFs*)InitializedTypeInfo(&t1318_TI)->static_fields)->f1 = L_37;
+			t1158 * L_37 = V_0;
+			IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1327_TI));
+			((t1327_SFs*)InitializedTypeInfo(&t1327_TI)->static_fields)->f1 = L_37;
 			goto IL_00fd;
 		}
 
 IL_00fb:
 		{
-			V_0 = (t1149 *)NULL;
+			V_0 = (t1158 *)NULL;
 		}
 
 IL_00fd:
@@ -23331,7 +23331,7 @@ IL_00fd:
 FINALLY_0102:
 	{ // begin finally (depth: 1)
 		t9 * L_38 = V_1;
-		m1069(NULL, L_38, &m1069_MI);
+		m1084(NULL, L_38, &m1084_MI);
 		IL2CPP_END_FINALLY(258)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(258)
@@ -23345,57 +23345,57 @@ IL_0109:
 		return;
 	}
 }
-extern "C" void m5663 (t9 * __this , t1149 * p0, t1318 * p1, t2* p2, int32_t p3, MethodInfo* method)
+extern "C" void m5691 (t9 * __this , t1158 * p0, t1327 * p1, t2* p2, int32_t p3, MethodInfo* method)
 {
-	t1317 * V_0 = {0};
+	t1326 * V_0 = {0};
 	{
-		t1318 * L_0 = p1;
+		t1327 * L_0 = p1;
 		t2* L_1 = p2;
-		m5659(L_0, L_1, &m5659_MI);
-		t1318 * L_2 = p1;
+		m5687(L_0, L_1, &m5687_MI);
+		t1327 * L_2 = p1;
 		int32_t L_3 = p3;
-		m5661(L_2, L_3, &m5661_MI);
-		t1318 * L_4 = p1;
-		if (!((t1319 *)IsInst(L_4, InitializedTypeInfo(&t1319_TI))))
+		m5689(L_2, L_3, &m5689_MI);
+		t1327 * L_4 = p1;
+		if (!((t1328 *)IsInst(L_4, InitializedTypeInfo(&t1328_TI))))
 		{
 			goto IL_0026;
 		}
 	}
 	{
-		t1149 * L_5 = p0;
+		t1158 * L_5 = p0;
 		t2* L_6 = p2;
-		t1318 * L_7 = p1;
-		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5708_MI, L_5, L_6, L_7);
+		t1327 * L_7 = p1;
+		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5736_MI, L_5, L_6, L_7);
 		goto IL_0042;
 	}
 
 IL_0026:
 	{
-		t1317 * L_8 = (t1317 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1317_TI));
-		m5601(L_8, &m5601_MI);
+		t1326 * L_8 = (t1326 *)il2cpp_codegen_object_new (InitializedTypeInfo(&t1326_TI));
+		m5629(L_8, &m5629_MI);
 		V_0 = L_8;
-		t1317 * L_9 = V_0;
+		t1326 * L_9 = V_0;
 		t2* L_10 = p2;
-		m5659(L_9, L_10, &m5659_MI);
-		t1317 * L_11 = V_0;
+		m5687(L_9, L_10, &m5687_MI);
+		t1326 * L_11 = V_0;
 		int32_t L_12 = p3;
-		m5661(L_11, L_12, &m5661_MI);
-		t1149 * L_13 = p0;
+		m5689(L_11, L_12, &m5689_MI);
+		t1158 * L_13 = p0;
 		t2* L_14 = p2;
-		t1317 * L_15 = V_0;
-		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5708_MI, L_13, L_14, L_15);
+		t1326 * L_15 = V_0;
+		VirtActionInvoker2< t9 *, t9 * >::Invoke(&m5736_MI, L_13, L_14, L_15);
 	}
 
 IL_0042:
 	{
-		t1318 * L_16 = p1;
+		t1327 * L_16 = p1;
 		t2* L_17 = p2;
 		int32_t L_18 = p3;
-		VirtActionInvoker2< t2*, int32_t >::Invoke(&m5658_MI, L_16, L_17, L_18);
+		VirtActionInvoker2< t2*, int32_t >::Invoke(&m5686_MI, L_16, L_17, L_18);
 		return;
 	}
 }
-extern "C" t1318 * m5664 (t9 * __this , t2* p0, MethodInfo* method)
+extern "C" t1327 * m5692 (t9 * __this , t2* p0, MethodInfo* method)
 {
 	t2* V_0 = {0};
 	{
@@ -23406,140 +23406,140 @@ extern "C" t1318 * m5664 (t9 * __this , t2* p0, MethodInfo* method)
 		}
 	}
 	{
-		return (t1318 *)NULL;
+		return (t1327 *)NULL;
 	}
 
 IL_0008:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1318_TI));
-		m5662(NULL, &m5662_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t1327_TI));
+		m5690(NULL, &m5690_MI);
 		t2* L_1 = p0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t894_TI));
-		t894 * L_2 = m4334(NULL, &m4334_MI);
-		t2* L_3 = m5956(L_1, L_2, &m5956_MI);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&t901_TI));
+		t901 * L_2 = m4358(NULL, &m4358_MI);
+		t2* L_3 = m5984(L_1, L_2, &m5984_MI);
 		V_0 = L_3;
-		t1149 * L_4 = ((t1318_SFs*)InitializedTypeInfo(&t1318_TI)->static_fields)->f1;
+		t1158 * L_4 = ((t1327_SFs*)InitializedTypeInfo(&t1327_TI)->static_fields)->f1;
 		t2* L_5 = V_0;
-		t9 * L_6 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5707_MI, L_4, L_5);
-		return ((t1318 *)Castclass(L_6, InitializedTypeInfo(&t1318_TI)));
+		t9 * L_6 = (t9 *)VirtFuncInvoker1< t9 *, t9 * >::Invoke(&m5735_MI, L_4, L_5);
+		return ((t1327 *)Castclass(L_6, InitializedTypeInfo(&t1327_TI)));
 	}
 }
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1323_TI;
-#include "t1323MD.h"
+extern TypeInfo t1332_TI;
+#include "t1332MD.h"
 
 
 
-#include "t1326.h"
+#include "t1335.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1326_TI;
-#include "t1326MD.h"
+extern TypeInfo t1335_TI;
+#include "t1335MD.h"
 
 
+
+#include "t1191.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo t1191_TI;
+#include "t1191MD.h"
 
 #include "t1182.h"
-#ifndef _MSC_VER
-#else
-#endif
-extern TypeInfo t1182_TI;
-#include "t1182MD.h"
-
-#include "t1173.h"
-#include "t1183.h"
-#include "t1169.h"
+#include "t1192.h"
+#include "t1178.h"
 
 
-extern MethodInfo m5665_MI;
-extern "C" void m5665 (t1182 * __this, t9 * p0, t58 p1, MethodInfo* method)
+extern MethodInfo m5693_MI;
+extern "C" void m5693 (t1191 * __this, t9 * p0, t58 p1, MethodInfo* method)
 {
 	__this->f0 = (methodPointerType)((MethodInfo*)p1.f0)->method;
 	__this->f3 = p1;
 	__this->f2 = p0;
 }
-extern MethodInfo m5666_MI;
-extern "C" bool m5666 (t1182 * __this, t9 * p0, t1173 * p1, t1183 * p2, int32_t p3, MethodInfo* method)
+extern MethodInfo m5694_MI;
+extern "C" bool m5694 (t1191 * __this, t9 * p0, t1182 * p1, t1192 * p2, int32_t p3, MethodInfo* method)
 {
 	if(__this->f9 != NULL)
 	{
-		m5666((t1182 *)__this->f9,p0, p1, p2, p3, method);
+		m5694((t1191 *)__this->f9,p0, p1, p2, p3, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->f3.f0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->f3.f0));
 	if (__this->f2 != NULL && ___methodIsStatic)
 	{
-		typedef bool (*FunctionPointerType) (t9 *, t9 * __this, t9 * p0, t1173 * p1, t1183 * p2, int32_t p3, MethodInfo* method);
+		typedef bool (*FunctionPointerType) (t9 *, t9 * __this, t9 * p0, t1182 * p1, t1192 * p2, int32_t p3, MethodInfo* method);
 		return ((FunctionPointerType)__this->f0)(NULL,__this->f2,p0, p1, p2, p3,(MethodInfo*)(__this->f3.f0));
 	}
 	else if (__this->f2 != NULL || ___methodIsStatic)
 	{
-		typedef bool (*FunctionPointerType) (t9 * __this, t9 * p0, t1173 * p1, t1183 * p2, int32_t p3, MethodInfo* method);
+		typedef bool (*FunctionPointerType) (t9 * __this, t9 * p0, t1182 * p1, t1192 * p2, int32_t p3, MethodInfo* method);
 		return ((FunctionPointerType)__this->f0)(__this->f2,p0, p1, p2, p3,(MethodInfo*)(__this->f3.f0));
 	}
 	else
 	{
-		typedef bool (*FunctionPointerType) (t9 * __this, t1173 * p1, t1183 * p2, int32_t p3, MethodInfo* method);
+		typedef bool (*FunctionPointerType) (t9 * __this, t1182 * p1, t1192 * p2, int32_t p3, MethodInfo* method);
 		return ((FunctionPointerType)__this->f0)(p0, p1, p2, p3,(MethodInfo*)(__this->f3.f0));
 	}
 }
-extern "C" bool pinvoke_delegate_wrapper_t1182(Il2CppObject* delegate, t9 * p0, t1173 * p1, t1183 * p2, int32_t p3)
+extern "C" bool pinvoke_delegate_wrapper_t1191(Il2CppObject* delegate, t9 * p0, t1182 * p1, t1192 * p2, int32_t p3)
 {
 	// Marshaling of parameter 'p0' to native representation
 	t9 * _p0_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Object'."));
 }
-extern MethodInfo m5667_MI;
-extern "C" t9 * m5667 (t1182 * __this, t9 * p0, t1173 * p1, t1183 * p2, int32_t p3, t463 * p4, t9 * p5, MethodInfo* method)
+extern MethodInfo m5695_MI;
+extern "C" t9 * m5695 (t1191 * __this, t9 * p0, t1182 * p1, t1192 * p2, int32_t p3, t470 * p4, t9 * p5, MethodInfo* method)
 {
 	void *__d_args[5] = {0};
 	__d_args[0] = p0;
 	__d_args[1] = p1;
 	__d_args[2] = p2;
-	__d_args[3] = Box(InitializedTypeInfo(&t1169_TI), &p3);
+	__d_args[3] = Box(InitializedTypeInfo(&t1178_TI), &p3);
 	return (t9 *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)p4, (Il2CppObject*)p5);
 }
-extern MethodInfo m5668_MI;
-extern "C" bool m5668 (t1182 * __this, t9 * p0, MethodInfo* method)
+extern MethodInfo m5696_MI;
+extern "C" bool m5696 (t1191 * __this, t9 * p0, MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) p0, 0);
 	return *(bool*)UnBox ((Il2CppCodeGenObject*)__result);
 }
-#include "t1254.h"
+#include "t1263.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1254_TI;
-#include "t1254MD.h"
+extern TypeInfo t1263_TI;
+#include "t1263MD.h"
 
 
 
-extern MethodInfo m5669_MI;
-extern "C" void m5669 (t1254 * __this, t9 * p0, t58 p1, MethodInfo* method)
+extern MethodInfo m5697_MI;
+extern "C" void m5697 (t1263 * __this, t9 * p0, t58 p1, MethodInfo* method)
 {
 	__this->f0 = (methodPointerType)((MethodInfo*)p1.f0)->method;
 	__this->f3 = p1;
 	__this->f2 = p0;
 }
-extern MethodInfo m5670_MI;
-extern "C" t2* m5670 (t1254 * __this, t1252 * p0, MethodInfo* method)
+extern MethodInfo m5698_MI;
+extern "C" t2* m5698 (t1263 * __this, t1261 * p0, MethodInfo* method)
 {
 	if(__this->f9 != NULL)
 	{
-		m5670((t1254 *)__this->f9,p0, method);
+		m5698((t1263 *)__this->f9,p0, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->f3.f0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->f3.f0));
 	if (__this->f2 != NULL && ___methodIsStatic)
 	{
-		typedef t2* (*FunctionPointerType) (t9 *, t9 * __this, t1252 * p0, MethodInfo* method);
+		typedef t2* (*FunctionPointerType) (t9 *, t9 * __this, t1261 * p0, MethodInfo* method);
 		return ((FunctionPointerType)__this->f0)(NULL,__this->f2,p0,(MethodInfo*)(__this->f3.f0));
 	}
 	else if (__this->f2 != NULL || ___methodIsStatic)
 	{
-		typedef t2* (*FunctionPointerType) (t9 * __this, t1252 * p0, MethodInfo* method);
+		typedef t2* (*FunctionPointerType) (t9 * __this, t1261 * p0, MethodInfo* method);
 		return ((FunctionPointerType)__this->f0)(__this->f2,p0,(MethodInfo*)(__this->f3.f0));
 	}
 	else
@@ -23548,71 +23548,71 @@ extern "C" t2* m5670 (t1254 * __this, t1252 * p0, MethodInfo* method)
 		return ((FunctionPointerType)__this->f0)(p0,(MethodInfo*)(__this->f3.f0));
 	}
 }
-extern "C" t2* pinvoke_delegate_wrapper_t1254(Il2CppObject* delegate, t1252 * p0)
+extern "C" t2* pinvoke_delegate_wrapper_t1263(Il2CppObject* delegate, t1261 * p0)
 {
 	// Marshaling of parameter 'p0' to native representation
-	t1252 * _p0_marshaled = { 0 };
+	t1261 * _p0_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Text.RegularExpressions.Match'."));
 }
-extern MethodInfo m5671_MI;
-extern "C" t9 * m5671 (t1254 * __this, t1252 * p0, t463 * p1, t9 * p2, MethodInfo* method)
+extern MethodInfo m5699_MI;
+extern "C" t9 * m5699 (t1263 * __this, t1261 * p0, t470 * p1, t9 * p2, MethodInfo* method)
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = p0;
 	return (t9 *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)p1, (Il2CppObject*)p2);
 }
-extern MethodInfo m5672_MI;
-extern "C" t2* m5672 (t1254 * __this, t9 * p0, MethodInfo* method)
+extern MethodInfo m5700_MI;
+extern "C" t2* m5700 (t1263 * __this, t9 * p0, MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) p0, 0);
 	return (t2*)__result;
 }
-#include "t1327.h"
+#include "t1336.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1327_TI;
-#include "t1327MD.h"
+extern TypeInfo t1336_TI;
+#include "t1336MD.h"
 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$128
-void t1327_marshal(const t1327& unmarshaled, t1327_marshaled& marshaled)
+void t1336_marshal(const t1336& unmarshaled, t1336_marshaled& marshaled)
 {
 }
-void t1327_marshal_back(const t1327_marshaled& marshaled, t1327& unmarshaled)
+void t1336_marshal_back(const t1336_marshaled& marshaled, t1336& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$128
-void t1327_marshal_cleanup(t1327_marshaled& marshaled)
+void t1336_marshal_cleanup(t1336_marshaled& marshaled)
 {
 }
-#include "t1328.h"
+#include "t1337.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1328_TI;
-#include "t1328MD.h"
+extern TypeInfo t1337_TI;
+#include "t1337MD.h"
 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$12
-void t1328_marshal(const t1328& unmarshaled, t1328_marshaled& marshaled)
+void t1337_marshal(const t1337& unmarshaled, t1337_marshaled& marshaled)
 {
 }
-void t1328_marshal_back(const t1328_marshaled& marshaled, t1328& unmarshaled)
+void t1337_marshal_back(const t1337_marshaled& marshaled, t1337& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$12
-void t1328_marshal_cleanup(t1328_marshaled& marshaled)
+void t1337_marshal_cleanup(t1337_marshaled& marshaled)
 {
 }
-#include "t1329.h"
+#include "t1338.h"
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo t1329_TI;
-#include "t1329MD.h"
+extern TypeInfo t1338_TI;
+#include "t1338MD.h"
 
 
 

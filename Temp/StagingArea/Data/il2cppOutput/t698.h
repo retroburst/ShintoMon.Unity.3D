@@ -1,25 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t703;
-struct t530;
-#include "t702.h"
-struct  t698  : public t702
+struct t699;
+struct t700;
+#include "t9.h"
+#include "t441.h"
+#include "t270.h"
+struct  t698  : public t9
 {
-	t703 * f10;
-	bool f11;
-	bool f12;
-	float f13;
-	bool f14;
-	bool f15;
-	int32_t f16;
-	int32_t f17;
-	int32_t f18;
-	int32_t f19;
-	bool f20;
-	bool f21;
-	float f22;
-	float f23;
-	float f24;
-	float f25;
-	t530 * f26;
+};
+struct t698_SFs{
+	float f0;
+	int32_t f1;
+	t699 * f2;
+	t441  f3;
+	int32_t f4;
+	int32_t f5;
+	int32_t f6;
+	int32_t f7;
+	int32_t f8;
+	int32_t f9;
+	int32_t f10;
+	t700 * f11;
+	t270  f12;
+	int32_t f13;
 };

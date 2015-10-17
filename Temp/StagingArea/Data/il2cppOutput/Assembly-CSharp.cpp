@@ -29,9 +29,8 @@ extern TypeInfo t218_TI;
 extern TypeInfo t228_TI;
 extern TypeInfo t229_TI;
 extern TypeInfo t206_TI;
-extern TypeInfo t241_TI;
+extern TypeInfo t242_TI;
 extern TypeInfo t214_TI;
-extern TypeInfo t246_TI;
 extern TypeInfo t247_TI;
 extern TypeInfo t248_TI;
 extern TypeInfo t249_TI;
@@ -44,36 +43,41 @@ extern TypeInfo t255_TI;
 extern TypeInfo t256_TI;
 extern TypeInfo t257_TI;
 extern TypeInfo t258_TI;
-extern TypeInfo t235_TI;
-extern TypeInfo t264_TI;
-extern TypeInfo t265_TI;
+extern TypeInfo t259_TI;
 extern TypeInfo t236_TI;
-extern TypeInfo t238_TI;
-extern TypeInfo t240_TI;
-extern TypeInfo t270_TI;
+extern TypeInfo t265_TI;
+extern TypeInfo t266_TI;
 extern TypeInfo t237_TI;
-extern TypeInfo t272_TI;
-extern TypeInfo t217_TI;
-extern TypeInfo t230_TI;
+extern TypeInfo t239_TI;
+extern TypeInfo t241_TI;
+extern TypeInfo t271_TI;
+extern TypeInfo t238_TI;
 extern TypeInfo t273_TI;
+extern TypeInfo t217_TI;
+extern TypeInfo t277_TI;
+extern TypeInfo t274_TI;
+extern TypeInfo t276_TI;
+extern TypeInfo t233_TI;
+extern TypeInfo t230_TI;
+extern TypeInfo t280_TI;
 extern TypeInfo t227_TI;
 extern TypeInfo t226_TI;
-extern TypeInfo t274_TI;
-extern TypeInfo t275_TI;
+extern TypeInfo t281_TI;
+extern TypeInfo t282_TI;
 extern TypeInfo t202_TI;
 extern TypeInfo t219_TI;
 extern TypeInfo t231_TI;
-extern TypeInfo t281_TI;
-extern TypeInfo t282_TI;
+extern TypeInfo t288_TI;
+extern TypeInfo t289_TI;
 extern TypeInfo t220_TI;
-extern TypeInfo t239_TI;
-extern TypeInfo t283_TI;
-extern TypeInfo t284_TI;
+extern TypeInfo t240_TI;
+extern TypeInfo t290_TI;
+extern TypeInfo t291_TI;
 #include "utils/RegisterRuntimeInitializeAndCleanup.h"
 #include <map>
 struct TypeInfo;
 struct MethodInfo;
-TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[56] = 
+TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[60] = 
 {
 	&t199_TI,
 	&t200_TI,
@@ -90,9 +94,8 @@ TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[56] =
 	&t228_TI,
 	&t229_TI,
 	&t206_TI,
-	&t241_TI,
+	&t242_TI,
 	&t214_TI,
-	&t246_TI,
 	&t247_TI,
 	&t248_TI,
 	&t249_TI,
@@ -105,31 +108,36 @@ TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[56] =
 	&t256_TI,
 	&t257_TI,
 	&t258_TI,
-	&t235_TI,
-	&t264_TI,
-	&t265_TI,
+	&t259_TI,
 	&t236_TI,
-	&t238_TI,
-	&t240_TI,
-	&t270_TI,
+	&t265_TI,
+	&t266_TI,
 	&t237_TI,
-	&t272_TI,
-	&t217_TI,
-	&t230_TI,
+	&t239_TI,
+	&t241_TI,
+	&t271_TI,
+	&t238_TI,
 	&t273_TI,
+	&t217_TI,
+	&t277_TI,
+	&t274_TI,
+	&t276_TI,
+	&t233_TI,
+	&t230_TI,
+	&t280_TI,
 	&t227_TI,
 	&t226_TI,
-	&t274_TI,
-	&t275_TI,
+	&t281_TI,
+	&t282_TI,
 	&t202_TI,
 	&t219_TI,
 	&t231_TI,
-	&t281_TI,
-	&t282_TI,
+	&t288_TI,
+	&t289_TI,
 	&t220_TI,
-	&t239_TI,
-	&t283_TI,
-	&t284_TI,
+	&t240_TI,
+	&t290_TI,
+	&t291_TI,
 	NULL,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
@@ -145,7 +153,7 @@ Il2CppImage g_AssemblyU2DCSharp_dll_Image =
 	 "Assembly-CSharp.dll" ,
 	&g_AssemblyU2DCSharp_Assembly,
 	g_AssemblyU2DCSharp_Assembly_Types,
-	55,
+	59,
 	NULL,
 };
 static void s_AssemblyU2DCSharpRegistration()

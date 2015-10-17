@@ -6,14 +6,14 @@
 
 struct t363;
 struct t9;
-struct t379;
-struct t336;
-struct t462;
-struct t463;
+struct t188;
+struct t343;
+struct t469;
+struct t470;
 #include "t58.h"
 
-#include "t554MD.h"
-#define m2431(__this, p0, p1, method) (( void (*) (t363 *, t9 *, t58, MethodInfo*))m16013_gshared)(__this, p0, p1, method)
-#define m16883(__this, p0, p1, method) (( void (*) (t363 *, t9 *, t336 *, MethodInfo*))m16015_gshared)(__this, p0, p1, method)
-#define m16884(__this, p0, p1, p2, p3, method) (( t9 * (*) (t363 *, t9 *, t336 *, t463 *, t9 *, MethodInfo*))m16017_gshared)(__this, p0, p1, p2, p3, method)
-#define m16885(__this, p0, method) (( void (*) (t363 *, t9 *, MethodInfo*))m16019_gshared)(__this, p0, method)
+#include "t561MD.h"
+#define m2448(__this, p0, p1, method) (( void (*) (t363 *, t9 *, t58, MethodInfo*))m16221_gshared)(__this, p0, p1, method)
+#define m17076(__this, p0, p1, method) (( void (*) (t363 *, t9 *, t343 *, MethodInfo*))m16223_gshared)(__this, p0, p1, method)
+#define m17077(__this, p0, p1, p2, p3, method) (( t9 * (*) (t363 *, t9 *, t343 *, t470 *, t9 *, MethodInfo*))m16225_gshared)(__this, p0, p1, p2, p3, method)
+#define m17078(__this, p0, method) (( void (*) (t363 *, t9 *, MethodInfo*))m16227_gshared)(__this, p0, method)

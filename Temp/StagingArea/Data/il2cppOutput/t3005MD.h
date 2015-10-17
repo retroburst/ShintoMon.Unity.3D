@@ -6,13 +6,13 @@
 
 struct t3005;
 struct t9;
-struct t205;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t278;
+#include "t1164.h"
 
-#include "t2770MD.h"
-#define m15856(__this, p0, p1, method) (( void (*) (t3005 *, t9 *, t58, MethodInfo*))m13579_gshared)(__this, p0, p1, method)
-#define m15857(__this, p0, p1, method) (( int32_t (*) (t3005 *, t205 *, t205 *, MethodInfo*))m13580_gshared)(__this, p0, p1, method)
-#define m15858(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3005 *, t205 *, t205 *, t463 *, t9 *, MethodInfo*))m13581_gshared)(__this, p0, p1, p2, p3, method)
-#define m15859(__this, p0, method) (( int32_t (*) (t3005 *, t9 *, MethodInfo*))m13582_gshared)(__this, p0, method)
+#include "t2985MD.h"
+#define m15750(__this, p0, method) (( void (*) (t3005 *, t278 *, MethodInfo*))m15626_gshared)(__this, p0, method)
+#define m15751(__this, method) (( bool (*) (t3005 *, MethodInfo*))m15627_gshared)(__this, method)
+#define m15752(__this, method) (( t1164  (*) (t3005 *, MethodInfo*))m15628_gshared)(__this, method)
+#define m15753(__this, method) (( t9 * (*) (t3005 *, MethodInfo*))m15629_gshared)(__this, method)
+#define m15754(__this, method) (( t9 * (*) (t3005 *, MethodInfo*))m15630_gshared)(__this, method)
+#define m15755(__this, method) (( t9 * (*) (t3005 *, MethodInfo*))m15631_gshared)(__this, method)

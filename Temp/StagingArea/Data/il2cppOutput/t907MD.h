@@ -5,31 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t907;
-struct t921;
 struct t9;
-struct t158;
-struct t926;
-struct t894;
-struct t152;
-#include "t1749.h"
-#include "t1748.h"
-#include "t1564.h"
+struct t820;
+struct t126;
+struct t469;
+struct t470;
 #include "t58.h"
-#include "t918.h"
 
-extern "C" void m9510 (t907 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t907 * m9511 (t9 * __this , t1749  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t907 * m9512 (t9 * __this , t58 p0, t58 p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t907 * m9513 (t9 * __this , t1749  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t907 * m9514 (t9 * __this , t58 p0, t58 p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" int32_t m9515 (t907 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t9 * m4393 (t907 * __this, t9 * p0, t158* p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" int32_t m9516 (t907 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m4366 (t907 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m4365 (t907 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m9517 (t907 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" int32_t m9518 (t907 * __this, t9 * p0, int32_t p1, bool p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t152* m9519 (t907 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m9520 (t907 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m9521 (t907 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m9522 (t907 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+#include "t3639MD.h"
+#define m4378(__this, p0, p1, method) (( void (*) (t907 *, t9 *, t58, MethodInfo*))m22365_gshared)(__this, p0, p1, method)
+#define m22366(__this, p0, method) (( t820 * (*) (t907 *, t126 *, MethodInfo*))m22367_gshared)(__this, p0, method)
+#define m22368(__this, p0, p1, p2, method) (( t9 * (*) (t907 *, t126 *, t470 *, t9 *, MethodInfo*))m22369_gshared)(__this, p0, p1, p2, method)
+#define m22370(__this, p0, method) (( t820 * (*) (t907 *, t9 *, MethodInfo*))m22371_gshared)(__this, p0, method)

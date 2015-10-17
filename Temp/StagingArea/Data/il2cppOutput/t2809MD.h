@@ -5,14 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t2809;
-struct t9;
 struct t39;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t2;
 
-#include "t2791MD.h"
-#define m13939(__this, p0, p1, method) (( void (*) (t2809 *, t9 *, t58, MethodInfo*))m13825_gshared)(__this, p0, p1, method)
-#define m13940(__this, p0, p1, method) (( t39 * (*) (t2809 *, t39 *, bool, MethodInfo*))m13826_gshared)(__this, p0, p1, method)
-#define m13941(__this, p0, p1, p2, p3, method) (( t9 * (*) (t2809 *, t39 *, bool, t463 *, t9 *, MethodInfo*))m13827_gshared)(__this, p0, p1, p2, p3, method)
-#define m13942(__this, p0, method) (( t39 * (*) (t2809 *, t9 *, MethodInfo*))m13828_gshared)(__this, p0, method)
+#include "t2792MD.h"
+#define m13905(__this, p0, p1, method) (( void (*) (t2809 *, t39 *, bool, MethodInfo*))m13796_gshared)(__this, p0, p1, method)
+#define m13906(__this, method) (( t39 * (*) (t2809 *, MethodInfo*))m13797_gshared)(__this, method)
+#define m13907(__this, p0, method) (( void (*) (t2809 *, t39 *, MethodInfo*))m13798_gshared)(__this, p0, method)
+#define m13908(__this, method) (( bool (*) (t2809 *, MethodInfo*))m13799_gshared)(__this, method)
+#define m13909(__this, p0, method) (( void (*) (t2809 *, bool, MethodInfo*))m13800_gshared)(__this, p0, method)
+#define m13910(__this, method) (( t2* (*) (t2809 *, MethodInfo*))m13801_gshared)(__this, method)

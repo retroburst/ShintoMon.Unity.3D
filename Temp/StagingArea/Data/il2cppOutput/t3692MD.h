@@ -6,12 +6,12 @@
 
 struct t3692;
 struct t9;
-struct t908;
-#include "t909.h"
+struct t2;
+struct t913;
 
-#include "t3681MD.h"
-#define m23029(__this, p0, method) (( void (*) (t3692 *, t908 *, MethodInfo*))m22949_gshared)(__this, p0, method)
-#define m23030(__this, method) (( t9 * (*) (t3692 *, MethodInfo*))m22950_gshared)(__this, method)
-#define m23031(__this, method) (( void (*) (t3692 *, MethodInfo*))m22951_gshared)(__this, method)
-#define m23032(__this, method) (( bool (*) (t3692 *, MethodInfo*))m22952_gshared)(__this, method)
-#define m23033(__this, method) (( t909  (*) (t3692 *, MethodInfo*))m22953_gshared)(__this, method)
+#include "t2713MD.h"
+#define m22924(__this, p0, method) (( void (*) (t3692 *, t913 *, MethodInfo*))m13047_gshared)(__this, p0, method)
+#define m22925(__this, method) (( t9 * (*) (t3692 *, MethodInfo*))m13048_gshared)(__this, method)
+#define m22926(__this, method) (( void (*) (t3692 *, MethodInfo*))m13049_gshared)(__this, method)
+#define m22927(__this, method) (( bool (*) (t3692 *, MethodInfo*))m13050_gshared)(__this, method)
+#define m22928(__this, method) (( t2* (*) (t3692 *, MethodInfo*))m13051_gshared)(__this, method)

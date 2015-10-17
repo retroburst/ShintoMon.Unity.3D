@@ -6,16 +6,10 @@
 
 struct t3266;
 struct t9;
-struct t121;
-#include "t28.h"
+struct t431;
 
-extern "C" void m18723_gshared (t3266 * __this, t121 * p0, MethodInfo* method);
-#define m18723(__this, p0, method) (( void (*) (t3266 *, t121 *, MethodInfo*))m18723_gshared)(__this, p0, method)
-extern "C" t9 * m18724_gshared (t3266 * __this, MethodInfo* method);
-#define m18724(__this, method) (( t9 * (*) (t3266 *, MethodInfo*))m18724_gshared)(__this, method)
-extern "C" void m18725_gshared (t3266 * __this, MethodInfo* method);
-#define m18725(__this, method) (( void (*) (t3266 *, MethodInfo*))m18725_gshared)(__this, method)
-extern "C" bool m18726_gshared (t3266 * __this, MethodInfo* method);
-#define m18726(__this, method) (( bool (*) (t3266 *, MethodInfo*))m18726_gshared)(__this, method)
-extern "C" t28  m18727_gshared (t3266 * __this, MethodInfo* method);
-#define m18727(__this, method) (( t28  (*) (t3266 *, MethodInfo*))m18727_gshared)(__this, method)
+#include "t2768MD.h"
+#define m18624(__this, method) (( void (*) (t3266 *, MethodInfo*))m13556_gshared)(__this, method)
+#define m18625(__this , method) (( void (*) (t9 * , MethodInfo*))m13557_gshared)(__this , method)
+#define m18626(__this, p0, p1, method) (( int32_t (*) (t3266 *, t9 *, t9 *, MethodInfo*))m13558_gshared)(__this, p0, p1, method)
+#define m18627(__this , method) (( t3266 * (*) (t9 * , MethodInfo*))m13559_gshared)(__this , method)

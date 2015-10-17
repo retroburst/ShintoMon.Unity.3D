@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t1197;
-#include "t1710.h"
-struct  t1731  : public t1710
+struct t312;
+#include "t9.h"
+struct  t1731  : public t9
 {
 };
 struct t1731_SFs{
-	t1197* f14;
-	uint16_t f15;
+	t312* f0;
+	t312* f1;
 };

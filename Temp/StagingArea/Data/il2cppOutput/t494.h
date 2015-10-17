@@ -1,10 +1,6 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t449;
-#include "t117.h"
-struct  t494 
+#include "t495.h"
+struct  t494  : public t495
 {
-	t449 * f0;
-	t449 * f1;
-	t449 * f2;
 };

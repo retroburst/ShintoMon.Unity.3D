@@ -5,10 +5,14 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3499;
+struct t9;
+#include "t594.h"
 
-extern "C" void m21193_gshared (t3499 * __this, MethodInfo* method);
-#define m21193(__this, method) (( void (*) (t3499 *, MethodInfo*))m21193_gshared)(__this, method)
-extern "C" int32_t m21194_gshared (t3499 * __this, int64_t p0, MethodInfo* method);
-#define m21194(__this, p0, method) (( int32_t (*) (t3499 *, int64_t, MethodInfo*))m21194_gshared)(__this, p0, method)
-extern "C" bool m21195_gshared (t3499 * __this, int64_t p0, int64_t p1, MethodInfo* method);
-#define m21195(__this, p0, p1, method) (( bool (*) (t3499 *, int64_t, int64_t, MethodInfo*))m21195_gshared)(__this, p0, p1, method)
+extern "C" void m21024_gshared (t3499 * __this, MethodInfo* method);
+#define m21024(__this, method) (( void (*) (t3499 *, MethodInfo*))m21024_gshared)(__this, method)
+extern "C" void m21025_gshared (t9 * __this , MethodInfo* method);
+#define m21025(__this , method) (( void (*) (t9 * , MethodInfo*))m21025_gshared)(__this , method)
+extern "C" int32_t m21026_gshared (t3499 * __this, t9 * p0, t9 * p1, MethodInfo* method);
+#define m21026(__this, p0, p1, method) (( int32_t (*) (t3499 *, t9 *, t9 *, MethodInfo*))m21026_gshared)(__this, p0, p1, method)
+extern "C" t3499 * m21027_gshared (t9 * __this , MethodInfo* method);
+#define m21027(__this , method) (( t3499 * (*) (t9 * , MethodInfo*))m21027_gshared)(__this , method)

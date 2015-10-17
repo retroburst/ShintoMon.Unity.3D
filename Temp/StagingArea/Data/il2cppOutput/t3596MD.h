@@ -5,17 +5,14 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3596;
-struct t9;
-struct t121;
-#include "t912.h"
+struct t796;
+struct t2;
+#include "t784.h"
 
-extern "C" void m22104_gshared (t3596 * __this, t121 * p0, MethodInfo* method);
-#define m22104(__this, p0, method) (( void (*) (t3596 *, t121 *, MethodInfo*))m22104_gshared)(__this, p0, method)
-extern "C" t9 * m22105_gshared (t3596 * __this, MethodInfo* method);
-#define m22105(__this, method) (( t9 * (*) (t3596 *, MethodInfo*))m22105_gshared)(__this, method)
-extern "C" void m22106_gshared (t3596 * __this, MethodInfo* method);
-#define m22106(__this, method) (( void (*) (t3596 *, MethodInfo*))m22106_gshared)(__this, method)
-extern "C" bool m22107_gshared (t3596 * __this, MethodInfo* method);
-#define m22107(__this, method) (( bool (*) (t3596 *, MethodInfo*))m22107_gshared)(__this, method)
-extern "C" t912  m22108_gshared (t3596 * __this, MethodInfo* method);
-#define m22108(__this, method) (( t912  (*) (t3596 *, MethodInfo*))m22108_gshared)(__this, method)
+#include "t3579MD.h"
+#define m22004(__this, p0, p1, method) (( void (*) (t3596 *, uint64_t, t796 *, MethodInfo*))m21895_gshared)(__this, p0, p1, method)
+#define m22005(__this, method) (( uint64_t (*) (t3596 *, MethodInfo*))m21896_gshared)(__this, method)
+#define m22006(__this, p0, method) (( void (*) (t3596 *, uint64_t, MethodInfo*))m21897_gshared)(__this, p0, method)
+#define m22007(__this, method) (( t796 * (*) (t3596 *, MethodInfo*))m21898_gshared)(__this, method)
+#define m22008(__this, p0, method) (( void (*) (t3596 *, t796 *, MethodInfo*))m21899_gshared)(__this, p0, method)
+#define m22009(__this, method) (( t2* (*) (t3596 *, MethodInfo*))m21900_gshared)(__this, method)

@@ -6,10 +6,13 @@
 
 struct t3336;
 struct t9;
-struct t508;
+struct t578;
+struct t469;
+struct t470;
+#include "t58.h"
 
-#include "t2759MD.h"
-#define m19424(__this, method) (( void (*) (t3336 *, MethodInfo*))m13528_gshared)(__this, method)
-#define m19425(__this , method) (( void (*) (t9 * , MethodInfo*))m13529_gshared)(__this , method)
-#define m19426(__this, p0, p1, method) (( int32_t (*) (t3336 *, t9 *, t9 *, MethodInfo*))m13530_gshared)(__this, p0, p1, method)
-#define m19427(__this , method) (( t3336 * (*) (t9 * , MethodInfo*))m13531_gshared)(__this , method)
+#include "t2767MD.h"
+#define m19293(__this, p0, p1, method) (( void (*) (t3336 *, t9 *, t58, MethodInfo*))m13548_gshared)(__this, p0, p1, method)
+#define m19294(__this, p0, method) (( bool (*) (t3336 *, t578 *, MethodInfo*))m13549_gshared)(__this, p0, method)
+#define m19295(__this, p0, p1, p2, method) (( t9 * (*) (t3336 *, t578 *, t470 *, t9 *, MethodInfo*))m13550_gshared)(__this, p0, p1, p2, method)
+#define m19296(__this, p0, method) (( bool (*) (t3336 *, t9 *, MethodInfo*))m13551_gshared)(__this, p0, method)

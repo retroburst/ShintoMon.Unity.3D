@@ -1,16 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t791;
-struct t792;
-#include "t9.h"
-#include "t769.h"
-struct  t790  : public t9
+struct t2;
+struct t782;
+#include "t774.h"
+struct  t790  : public t774
 {
-};
-struct t790_SFs{
-	t791 * f0;
-	bool f1;
-	int32_t f2;
-	uint64_t f3;
-	t792 * f4;
+	int32_t f4;
+	int32_t f5;
+	t2* f6;
+	t782 * f7;
+	t782 * f8;
 };

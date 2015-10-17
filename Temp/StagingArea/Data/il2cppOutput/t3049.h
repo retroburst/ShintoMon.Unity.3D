@@ -1,6 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t3048.h"
-struct  t3049  : public t3048
+struct t342;
+struct t469;
+struct t470;
+struct t9;
+#include "t122.h"
+#include "t471.h"
+struct  t3049  : public t471
 {
 };

@@ -1,6 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t57.h"
-struct  t449  : public t57
+#include "t8.h"
+#include "t449.h"
+struct  t449 
 {
+	int32_t f1;
 };

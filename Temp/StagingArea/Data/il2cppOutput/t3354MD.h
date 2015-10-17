@@ -5,16 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3354;
+struct t3355;
+struct t828;
+struct t2;
 struct t9;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t863;
 
-extern "C" void m19595_gshared (t3354 * __this, t9 * p0, t58 p1, MethodInfo* method);
-#define m19595(__this, p0, p1, method) (( void (*) (t3354 *, t9 *, t58, MethodInfo*))m19595_gshared)(__this, p0, p1, method)
-extern "C" float m19596_gshared (t3354 * __this, t9 * p0, MethodInfo* method);
-#define m19596(__this, p0, method) (( float (*) (t3354 *, t9 *, MethodInfo*))m19596_gshared)(__this, p0, method)
-extern "C" t9 * m19598_gshared (t3354 * __this, t9 * p0, t463 * p1, t9 * p2, MethodInfo* method);
-#define m19598(__this, p0, p1, p2, method) (( t9 * (*) (t3354 *, t9 *, t463 *, t9 *, MethodInfo*))m19598_gshared)(__this, p0, p1, p2, method)
-extern "C" float m19600_gshared (t3354 * __this, t9 * p0, MethodInfo* method);
-#define m19600(__this, p0, method) (( float (*) (t3354 *, t9 *, MethodInfo*))m19600_gshared)(__this, p0, method)
+extern "C" void m19460_gshared (t3354 * __this, MethodInfo* method);
+#define m19460(__this, method) (( void (*) (t3354 *, MethodInfo*))m19460_gshared)(__this, method)
+extern "C" void m19462_gshared (t3354 * __this, t3355 * p0, MethodInfo* method);
+#define m19462(__this, p0, method) (( void (*) (t3354 *, t3355 *, MethodInfo*))m19462_gshared)(__this, p0, method)
+extern "C" void m19464_gshared (t3354 * __this, t3355 * p0, MethodInfo* method);
+#define m19464(__this, p0, method) (( void (*) (t3354 *, t3355 *, MethodInfo*))m19464_gshared)(__this, p0, method)
+extern "C" t828 * m19465_gshared (t3354 * __this, t2* p0, t9 * p1, MethodInfo* method);
+#define m19465(__this, p0, p1, method) (( t828 * (*) (t3354 *, t2*, t9 *, MethodInfo*))m19465_gshared)(__this, p0, p1, method)
+extern "C" t863 * m19466_gshared (t3354 * __this, t9 * p0, t828 * p1, MethodInfo* method);
+#define m19466(__this, p0, p1, method) (( t863 * (*) (t3354 *, t9 *, t828 *, MethodInfo*))m19466_gshared)(__this, p0, p1, method)
+extern "C" t863 * m19468_gshared (t9 * __this , t3355 * p0, MethodInfo* method);
+#define m19468(__this , p0, method) (( t863 * (*) (t9 * , t3355 *, MethodInfo*))m19468_gshared)(__this , p0, method)
+extern "C" void m19469_gshared (t3354 * __this, uint8_t p0, MethodInfo* method);
+#define m19469(__this, p0, method) (( void (*) (t3354 *, uint8_t, MethodInfo*))m19469_gshared)(__this, p0, method)

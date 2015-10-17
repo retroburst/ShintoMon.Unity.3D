@@ -5,13 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t559;
-struct t5;
 struct t2;
+#include "t559.h"
+#include "t43.h"
 
-#include "t2965MD.h"
-#define m16935(__this, p0, p1, method) (( void (*) (t559 *, int32_t, t5 *, MethodInfo*))m15512_gshared)(__this, p0, p1, method)
-#define m2500(__this, method) (( int32_t (*) (t559 *, MethodInfo*))m15513_gshared)(__this, method)
-#define m16936(__this, p0, method) (( void (*) (t559 *, int32_t, MethodInfo*))m15514_gshared)(__this, p0, method)
-#define m2499(__this, method) (( t5 * (*) (t559 *, MethodInfo*))m15515_gshared)(__this, method)
-#define m16937(__this, p0, method) (( void (*) (t559 *, t5 *, MethodInfo*))m15516_gshared)(__this, p0, method)
-#define m2522(__this, method) (( t2* (*) (t559 *, MethodInfo*))m15517_gshared)(__this, method)
+extern "C" void m2585 (t559 * __this, uint8_t p0, uint8_t p1, uint8_t p2, uint8_t p3, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m3419 (t559 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t559  m2621 (t9 * __this , t43  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t43  m2586 (t9 * __this , t559  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;

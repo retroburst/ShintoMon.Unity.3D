@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t730;
+struct t737;
 #include "t145.h"
 struct  t39  : public t145
 {
 };
 struct t39_SFs{
-	t730 * f2;
-	t730 * f3;
-	t730 * f4;
+	t737 * f2;
+	t737 * f3;
+	t737 * f4;
 };

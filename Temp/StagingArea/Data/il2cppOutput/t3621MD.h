@@ -6,15 +6,16 @@
 
 struct t3621;
 struct t9;
-struct t126;
-struct t813;
-struct t462;
-struct t463;
+struct t469;
+struct t470;
 #include "t58.h"
-#include "t3590.h"
+#include "t812.h"
 
-#include "t3622MD.h"
-#define m22328(__this, p0, p1, method) (( void (*) (t3621 *, t9 *, t58, MethodInfo*))m22329_gshared)(__this, p0, p1, method)
-#define m22330(__this, p0, p1, method) (( t3590  (*) (t3621 *, t126 *, t813 *, MethodInfo*))m22331_gshared)(__this, p0, p1, method)
-#define m22332(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3621 *, t126 *, t813 *, t463 *, t9 *, MethodInfo*))m22333_gshared)(__this, p0, p1, p2, p3, method)
-#define m22334(__this, p0, method) (( t3590  (*) (t3621 *, t9 *, MethodInfo*))m22335_gshared)(__this, p0, method)
+extern "C" void m22258_gshared (t3621 * __this, t9 * p0, t58 p1, MethodInfo* method);
+#define m22258(__this, p0, p1, method) (( void (*) (t3621 *, t9 *, t58, MethodInfo*))m22258_gshared)(__this, p0, p1, method)
+extern "C" t812  m22260_gshared (t3621 * __this, t9 * p0, t9 * p1, MethodInfo* method);
+#define m22260(__this, p0, p1, method) (( t812  (*) (t3621 *, t9 *, t9 *, MethodInfo*))m22260_gshared)(__this, p0, p1, method)
+extern "C" t9 * m22262_gshared (t3621 * __this, t9 * p0, t9 * p1, t470 * p2, t9 * p3, MethodInfo* method);
+#define m22262(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3621 *, t9 *, t9 *, t470 *, t9 *, MethodInfo*))m22262_gshared)(__this, p0, p1, p2, p3, method)
+extern "C" t812  m22264_gshared (t3621 * __this, t9 * p0, MethodInfo* method);
+#define m22264(__this, p0, method) (( t812  (*) (t3621 *, t9 *, MethodInfo*))m22264_gshared)(__this, p0, method)

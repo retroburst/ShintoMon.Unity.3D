@@ -5,13 +5,12 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t2116;
-struct t2;
-struct t1093;
-#include "t1094.h"
+struct t1158;
+struct t126;
+#include "t2116.h"
 
-extern "C" void m11555 (t2116 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m11556 (t2116 * __this, t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m11557 (t2116 * __this, t1093 * p0, t1094  p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m11558 (t2116 * __this, t2* p0, t2* p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m11559 (t2116 * __this, t1093 * p0, t1094  p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t2* m11560 (t2116 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m11517 (t2116 * __this, t2116  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m11518 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m11519 (t9 * __this , t126 * p0, t2116 * p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1158 * m11520 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m11521 (t9 * __this , t126 * p0, t2116 * p1, MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -6,31 +6,16 @@
 
 struct t2705;
 struct t9;
-struct t2685;
-#include "t1155.h"
-#include "t2688.h"
+struct t121;
+#include "t2697.h"
 
-extern "C" void m13024_gshared (t2705 * __this, t2685 * p0, MethodInfo* method);
-#define m13024(__this, p0, method) (( void (*) (t2705 *, t2685 *, MethodInfo*))m13024_gshared)(__this, p0, method)
-extern "C" t9 * m13025_gshared (t2705 * __this, MethodInfo* method);
-#define m13025(__this, method) (( t9 * (*) (t2705 *, MethodInfo*))m13025_gshared)(__this, method)
-extern "C" t1155  m13026_gshared (t2705 * __this, MethodInfo* method);
-#define m13026(__this, method) (( t1155  (*) (t2705 *, MethodInfo*))m13026_gshared)(__this, method)
-extern "C" t9 * m13027_gshared (t2705 * __this, MethodInfo* method);
-#define m13027(__this, method) (( t9 * (*) (t2705 *, MethodInfo*))m13027_gshared)(__this, method)
-extern "C" t9 * m13028_gshared (t2705 * __this, MethodInfo* method);
-#define m13028(__this, method) (( t9 * (*) (t2705 *, MethodInfo*))m13028_gshared)(__this, method)
-extern "C" bool m13029_gshared (t2705 * __this, MethodInfo* method);
-#define m13029(__this, method) (( bool (*) (t2705 *, MethodInfo*))m13029_gshared)(__this, method)
-extern "C" t2688  m13030_gshared (t2705 * __this, MethodInfo* method);
-#define m13030(__this, method) (( t2688  (*) (t2705 *, MethodInfo*))m13030_gshared)(__this, method)
-extern "C" t9 * m13031_gshared (t2705 * __this, MethodInfo* method);
-#define m13031(__this, method) (( t9 * (*) (t2705 *, MethodInfo*))m13031_gshared)(__this, method)
-extern "C" t9 * m13032_gshared (t2705 * __this, MethodInfo* method);
-#define m13032(__this, method) (( t9 * (*) (t2705 *, MethodInfo*))m13032_gshared)(__this, method)
-extern "C" void m13033_gshared (t2705 * __this, MethodInfo* method);
-#define m13033(__this, method) (( void (*) (t2705 *, MethodInfo*))m13033_gshared)(__this, method)
-extern "C" void m13034_gshared (t2705 * __this, MethodInfo* method);
-#define m13034(__this, method) (( void (*) (t2705 *, MethodInfo*))m13034_gshared)(__this, method)
-extern "C" void m13035_gshared (t2705 * __this, MethodInfo* method);
-#define m13035(__this, method) (( void (*) (t2705 *, MethodInfo*))m13035_gshared)(__this, method)
+extern "C" void m12998_gshared (t2705 * __this, t121 * p0, MethodInfo* method);
+#define m12998(__this, p0, method) (( void (*) (t2705 *, t121 *, MethodInfo*))m12998_gshared)(__this, p0, method)
+extern "C" t9 * m12999_gshared (t2705 * __this, MethodInfo* method);
+#define m12999(__this, method) (( t9 * (*) (t2705 *, MethodInfo*))m12999_gshared)(__this, method)
+extern "C" void m13000_gshared (t2705 * __this, MethodInfo* method);
+#define m13000(__this, method) (( void (*) (t2705 *, MethodInfo*))m13000_gshared)(__this, method)
+extern "C" bool m13001_gshared (t2705 * __this, MethodInfo* method);
+#define m13001(__this, method) (( bool (*) (t2705 *, MethodInfo*))m13001_gshared)(__this, method)
+extern "C" t2697  m13002_gshared (t2705 * __this, MethodInfo* method);
+#define m13002(__this, method) (( t2697  (*) (t2705 *, MethodInfo*))m13002_gshared)(__this, method)

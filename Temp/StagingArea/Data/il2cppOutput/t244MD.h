@@ -6,13 +6,12 @@
 
 struct t244;
 struct t9;
-struct t2;
-#include "t244.h"
+struct t469;
+struct t470;
+#include "t58.h"
 
-extern "C" void m15052 (t244 * __this, float p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m1100 (t244 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" float m1101 (t244 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m15053 (t244 * __this, t9 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m15054 (t244 * __this, t244  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" int32_t m15055 (t244 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t2* m15056 (t244 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+#include "t2906MD.h"
+#define m1104(__this, p0, p1, method) (( void (*) (t244 *, t9 *, t58, MethodInfo*))m14773_gshared)(__this, p0, p1, method)
+#define m14774(__this, p0, method) (( bool (*) (t244 *, uint16_t, MethodInfo*))m14775_gshared)(__this, p0, method)
+#define m14776(__this, p0, p1, p2, method) (( t9 * (*) (t244 *, uint16_t, t470 *, t9 *, MethodInfo*))m14777_gshared)(__this, p0, p1, p2, method)
+#define m14778(__this, p0, method) (( bool (*) (t244 *, t9 *, MethodInfo*))m14779_gshared)(__this, p0, method)

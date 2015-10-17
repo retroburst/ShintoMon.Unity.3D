@@ -5,15 +5,36 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t478;
-struct t148;
-struct t433;
-#include "t434.h"
+struct t478_marshaled;
+struct t2;
+struct t9;
+#include "t596.h"
+#include "t28.h"
+#include "t595.h"
+#include "t294.h"
+#include "t58.h"
 
-extern "C" void m1861 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t148 * m1862 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t148 * m1863 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m1864 (t478 * __this, t148 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t434  m1865 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m1866 (t478 * __this, t434  p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m1867 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m1868 (t478 * __this, t433 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m2732 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3380 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3381 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3382 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m2755 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m3383 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t28  m3384 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3385 (t478 * __this, t28 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m2751 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t m2753 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m3386 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m2752 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t478 * m3387 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3388 (t9 * __this , t58 p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3389 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m2756 (t9 * __this , t478 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m3390 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m3391 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m3392 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m3393 (t478 * __this, t9 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m3394 (t478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+void t478_marshal(const t478& unmarshaled, t478_marshaled& marshaled);
+void t478_marshal_back(const t478_marshaled& marshaled, t478& unmarshaled);
+void t478_marshal_cleanup(t478_marshaled& marshaled);

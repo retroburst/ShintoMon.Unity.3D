@@ -5,16 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3274;
-struct t9;
-struct t821;
-struct t3273;
-struct t158;
+struct t431;
+struct t2;
 
-extern "C" void m18769_gshared (t3274 * __this, t9 * p0, t821 * p1, MethodInfo* method);
-#define m18769(__this, p0, p1, method) (( void (*) (t3274 *, t9 *, t821 *, MethodInfo*))m18769_gshared)(__this, p0, p1, method)
-extern "C" void m18770_gshared (t3274 * __this, t3273 * p0, MethodInfo* method);
-#define m18770(__this, p0, method) (( void (*) (t3274 *, t3273 *, MethodInfo*))m18770_gshared)(__this, p0, method)
-extern "C" void m18771_gshared (t3274 * __this, t158* p0, MethodInfo* method);
-#define m18771(__this, p0, method) (( void (*) (t3274 *, t158*, MethodInfo*))m18771_gshared)(__this, p0, method)
-extern "C" bool m18772_gshared (t3274 * __this, t9 * p0, t821 * p1, MethodInfo* method);
-#define m18772(__this, p0, p1, method) (( bool (*) (t3274 *, t9 *, t821 *, MethodInfo*))m18772_gshared)(__this, p0, p1, method)
+#include "t3161MD.h"
+#define m18750(__this, p0, p1, method) (( void (*) (t3274 *, t431 *, int32_t, MethodInfo*))m17488_gshared)(__this, p0, p1, method)
+#define m18751(__this, method) (( t431 * (*) (t3274 *, MethodInfo*))m17489_gshared)(__this, method)
+#define m18752(__this, p0, method) (( void (*) (t3274 *, t431 *, MethodInfo*))m17490_gshared)(__this, p0, method)
+#define m18753(__this, method) (( int32_t (*) (t3274 *, MethodInfo*))m17491_gshared)(__this, method)
+#define m18754(__this, p0, method) (( void (*) (t3274 *, int32_t, MethodInfo*))m17492_gshared)(__this, p0, method)
+#define m18755(__this, method) (( t2* (*) (t3274 *, MethodInfo*))m17493_gshared)(__this, method)

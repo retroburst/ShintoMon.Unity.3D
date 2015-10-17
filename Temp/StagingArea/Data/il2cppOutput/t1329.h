@@ -1,13 +1,17 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t9.h"
-#include "t1327.h"
-#include "t1328.h"
-struct  t1329  : public t9
+struct t2;
+#include "t117.h"
+struct  t1329 
 {
+	t2* f0;
+	t2* f1;
+	int32_t f2;
 };
-struct t1329_SFs{
-	t1327  f0;
-	t1328  f1;
-	t1328  f2;
+// Native definition for marshalling of: System.Uri/UriScheme
+struct t1329_marshaled
+{
+	char* f0;
+	char* f1;
+	int32_t f2;
 };

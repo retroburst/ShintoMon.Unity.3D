@@ -1,11 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t723;
-struct t1161;
+struct t1434;
+struct t1425;
+struct t730;
 #include "t9.h"
 struct  t1635  : public t9
 {
-	uint8_t f0;
-	t723* f1;
-	t1161 * f2;
+	t1434 * f0;
+	t9 * f1;
+	t730* f2;
+	int32_t f3;
+	int32_t f4;
 };

@@ -1,13 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t221;
-struct t713;
-#include "t1881.h"
-struct  t1880  : public t1881
+struct t1878;
+#include "t9.h"
+#include "t304.h"
+struct  t1880  : public t9
 {
 };
 struct t1880_SFs{
-	t221* f6;
-	t713 * f7;
-	t713 * f8;
+	t304  f0;
+	t304  f1;
+	t304  f2;
+	t304  f3;
+	t1878 * f4;
 };

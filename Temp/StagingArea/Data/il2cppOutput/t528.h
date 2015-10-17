@@ -1,9 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t526.h"
-struct  t528  : public t526
+struct t434;
+#include "t345.h"
+#include "t527.h"
+#include "t492.h"
+struct  t528  : public t345
 {
-	float f10;
-	bool f11;
-	bool f12;
+	int32_t f2;
+	int32_t f3;
+	t434 * f4;
+	t492  f5;
 };

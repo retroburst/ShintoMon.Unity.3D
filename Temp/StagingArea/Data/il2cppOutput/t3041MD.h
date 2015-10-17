@@ -6,13 +6,12 @@
 
 struct t3041;
 struct t9;
-struct t133;
-struct t535;
+struct t342;
+struct t121;
 
-#include "t885MD.h"
-#define m16282(__this, p0, method) (( void (*) (t3041 *, t535 *, MethodInfo*))m13448_gshared)(__this, p0, method)
-#define m16283(__this, method) (( t9 * (*) (t3041 *, MethodInfo*))m13449_gshared)(__this, method)
-#define m16284(__this, method) (( void (*) (t3041 *, MethodInfo*))m13450_gshared)(__this, method)
-#define m16285(__this, method) (( void (*) (t3041 *, MethodInfo*))m13451_gshared)(__this, method)
-#define m16286(__this, method) (( bool (*) (t3041 *, MethodInfo*))m13452_gshared)(__this, method)
-#define m16287(__this, method) (( t133 * (*) (t3041 *, MethodInfo*))m13453_gshared)(__this, method)
+#include "t2684MD.h"
+#define m16115(__this, p0, method) (( void (*) (t3041 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m16116(__this, method) (( t9 * (*) (t3041 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m16117(__this, method) (( void (*) (t3041 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m16118(__this, method) (( bool (*) (t3041 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m16119(__this, method) (( t342 * (*) (t3041 *, MethodInfo*))m12826_gshared)(__this, method)

@@ -1,10 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t556.h"
-struct  t2044  : public t556
+struct t2044;
+#include "t9.h"
+struct  t2044  : public t9
 {
-	uint16_t f13;
-	uint16_t f14;
-	uint16_t f15;
-	int32_t f16;
+};
+struct t2044_SFs{
+	t2044 * f0;
+	t2044 * f1;
+	t2044 * f2;
 };

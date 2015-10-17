@@ -5,14 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t797;
-struct t9;
-struct t773;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t796;
+#include "t775.h"
+#include "t776.h"
+#include "t784.h"
 
-#include "t3581MD.h"
-#define m21936(__this, p0, p1, method) (( void (*) (t797 *, t9 *, t58, MethodInfo*))m21915_gshared)(__this, p0, p1, method)
-#define m21937(__this, p0, method) (( void (*) (t797 *, t773 *, MethodInfo*))m21917_gshared)(__this, p0, method)
-#define m21938(__this, p0, p1, p2, method) (( t9 * (*) (t797 *, t773 *, t463 *, t9 *, MethodInfo*))m21919_gshared)(__this, p0, p1, p2, method)
-#define m21939(__this, p0, method) (( void (*) (t797 *, t9 *, MethodInfo*))m21921_gshared)(__this, p0, method)
+extern "C" void m4003 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t m4004 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m4005 (t9 * __this , uint64_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t m4006 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t796 * m4007 (t9 * __this , uint64_t p0, MethodInfo* method) IL2CPP_METHOD_ATTR;

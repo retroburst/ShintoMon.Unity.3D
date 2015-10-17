@@ -6,10 +6,12 @@
 
 struct t3016;
 struct t9;
-struct t335;
+struct t121;
+#include "t281.h"
 
-#include "t2759MD.h"
-#define m16000(__this, method) (( void (*) (t3016 *, MethodInfo*))m13528_gshared)(__this, method)
-#define m16001(__this , method) (( void (*) (t9 * , MethodInfo*))m13529_gshared)(__this , method)
-#define m16002(__this, p0, p1, method) (( int32_t (*) (t3016 *, t9 *, t9 *, MethodInfo*))m13530_gshared)(__this, p0, p1, method)
-#define m16003(__this , method) (( t3016 * (*) (t9 * , MethodInfo*))m13531_gshared)(__this , method)
+#include "t2707MD.h"
+#define m15830(__this, p0, method) (( void (*) (t3016 *, t121 *, MethodInfo*))m13008_gshared)(__this, p0, method)
+#define m15831(__this, method) (( t9 * (*) (t3016 *, MethodInfo*))m13009_gshared)(__this, method)
+#define m15832(__this, method) (( void (*) (t3016 *, MethodInfo*))m13010_gshared)(__this, method)
+#define m15833(__this, method) (( bool (*) (t3016 *, MethodInfo*))m13011_gshared)(__this, method)
+#define m15834(__this, method) (( int32_t (*) (t3016 *, MethodInfo*))m13012_gshared)(__this, method)

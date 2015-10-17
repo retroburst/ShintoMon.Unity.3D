@@ -1,25 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t794;
-struct t1177;
-struct t2;
+struct t801;
 struct t9;
-struct t221;
-struct t1182;
-#include "t1174.h"
-struct  t1181  : public t1174
+#include "t9.h"
+#include "t270.h"
+struct  t1181  : public t9
 {
-	t794 * f6;
-	t9 * f7;
-	int32_t f8;
-	int32_t f9;
+	t801 * f0;
+	int32_t f1;
+	int32_t f2;
+	int32_t f3;
+	t270  f4;
+	bool f5;
+	bool f6;
+	bool f7;
+	t9 * f8;
+	t9 * f9;
 	bool f10;
-	bool f11;
-	t2* f12;
-	t9 * f13;
-	t1182 * f15;
-};
-struct t1181_SFs{
-	t221* f14;
-	t1182 * f16;
 };

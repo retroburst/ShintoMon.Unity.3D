@@ -1,8 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t117.h"
-#include "t560.h"
-struct  t557 
+#include "t555.h"
+#include "t43.h"
+#include "t28.h"
+struct  t557  : public t555
 {
-	t560  f0;
+	t43  f3;
+	t28  f4;
+	bool f5;
 };

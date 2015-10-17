@@ -6,12 +6,21 @@
 
 struct t567;
 struct t9;
-struct t462;
-struct t463;
-#include "t58.h"
+struct t5;
+struct t402;
+#include "t1164.h"
+#include "t566.h"
 
-extern "C" void m2547 (t567 * __this, t9 * p0, t58 p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m3841 (t567 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_t567(Il2CppObject* delegate);
-extern "C" t9 * m3842 (t567 * __this, t463 * p0, t9 * p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m3843 (t567 * __this, t9 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+#include "t2979MD.h"
+#define m17180(__this, p0, method) (( void (*) (t567 *, t402 *, MethodInfo*))m15579_gshared)(__this, p0, method)
+#define m17181(__this, method) (( t9 * (*) (t567 *, MethodInfo*))m15580_gshared)(__this, method)
+#define m17182(__this, method) (( t1164  (*) (t567 *, MethodInfo*))m15581_gshared)(__this, method)
+#define m17183(__this, method) (( t9 * (*) (t567 *, MethodInfo*))m15582_gshared)(__this, method)
+#define m17184(__this, method) (( t9 * (*) (t567 *, MethodInfo*))m15583_gshared)(__this, method)
+#define m2525(__this, method) (( bool (*) (t567 *, MethodInfo*))m15584_gshared)(__this, method)
+#define m2522(__this, method) (( t566  (*) (t567 *, MethodInfo*))m15585_gshared)(__this, method)
+#define m17185(__this, method) (( int32_t (*) (t567 *, MethodInfo*))m15586_gshared)(__this, method)
+#define m17186(__this, method) (( t5 * (*) (t567 *, MethodInfo*))m15587_gshared)(__this, method)
+#define m17187(__this, method) (( void (*) (t567 *, MethodInfo*))m15588_gshared)(__this, method)
+#define m17188(__this, method) (( void (*) (t567 *, MethodInfo*))m15589_gshared)(__this, method)
+#define m17189(__this, method) (( void (*) (t567 *, MethodInfo*))m15590_gshared)(__this, method)

@@ -6,10 +6,12 @@
 
 struct t3536;
 struct t9;
-struct t785;
+struct t2;
+struct t782;
 
-#include "t2759MD.h"
-#define m21584(__this, method) (( void (*) (t3536 *, MethodInfo*))m13528_gshared)(__this, method)
-#define m21585(__this , method) (( void (*) (t9 * , MethodInfo*))m13529_gshared)(__this , method)
-#define m21586(__this, p0, p1, method) (( int32_t (*) (t3536 *, t9 *, t9 *, MethodInfo*))m13530_gshared)(__this, p0, p1, method)
-#define m21587(__this , method) (( t3536 * (*) (t9 * , MethodInfo*))m13531_gshared)(__this , method)
+#include "t3522MD.h"
+#define m21424(__this, p0, method) (( void (*) (t3536 *, t782 *, MethodInfo*))m21330_gshared)(__this, p0, method)
+#define m21425(__this, method) (( t9 * (*) (t3536 *, MethodInfo*))m21331_gshared)(__this, method)
+#define m21426(__this, method) (( void (*) (t3536 *, MethodInfo*))m21332_gshared)(__this, method)
+#define m21427(__this, method) (( bool (*) (t3536 *, MethodInfo*))m21333_gshared)(__this, method)
+#define m21428(__this, method) (( t2* (*) (t3536 *, MethodInfo*))m21334_gshared)(__this, method)

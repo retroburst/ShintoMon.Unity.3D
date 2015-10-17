@@ -5,8 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t727;
-struct t727_marshaled;
+struct t728;
+struct t2;
+struct t729;
+struct t730;
+struct t731;
+struct t221;
 
-void t727_marshal(const t727& unmarshaled, t727_marshaled& marshaled);
-void t727_marshal_back(const t727_marshaled& marshaled, t727& unmarshaled);
-void t727_marshal_cleanup(t727_marshaled& marshaled);
+extern "C" void m3557 (t727 * __this, t2* p0, t731 * p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3558 (t727 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3559 (t727 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3560 (t727 * __this, bool p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m3561 (t727 * __this, t2* p0, t730* p1, t221* p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t728 * m3562 (t727 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m3563 (t727 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m3564 (t727 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t729 * m3565 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t729 * m3566 (t727 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t730* m3567 (t727 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t2* m3568 (t727 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m3569 (t727 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t221* m3570 (t9 * __this , t728 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t728 * m3571 (t9 * __this , t2* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;

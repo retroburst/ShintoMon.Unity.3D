@@ -1,19 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t126;
-struct t9;
-struct t553;
-struct t2;
-struct t1755;
-#include "t9.h"
-#include "t1782.h"
-struct  t917  : public t9
+#include "t117.h"
+#include "t917.h"
+#include "t270.h"
+#include "t304.h"
+struct  t917 
 {
-	t126 * f0;
-	t9 * f1;
-	t553 * f2;
-	t2* f3;
-	int32_t f4;
-	int32_t f5;
-	t1755 * f6;
+	t270  f2;
+	t304  f3;
+};
+struct t917_SFs{
+	t917  f0;
+	t917  f1;
 };

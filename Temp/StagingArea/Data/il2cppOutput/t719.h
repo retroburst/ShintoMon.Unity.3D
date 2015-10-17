@@ -1,33 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t117.h"
-struct  t719 
+struct t701;
+struct t432;
+#include "t9.h"
+#include "t58.h"
+struct  t719  : public t9
 {
-	float f0;
-	float f1;
-	float f2;
-	float f3;
-	float f4;
-	float f5;
-	float f6;
-	float f7;
-	float f8;
-	float f9;
-	float f10;
-	float f11;
-	float f12;
-	float f13;
-	float f14;
-	float f15;
-	float f16;
-	float f17;
-	float f18;
-	float f19;
-	float f20;
-	float f21;
-	float f22;
-	float f23;
-	float f24;
-	float f25;
-	float f26;
+	t58 f0;
+	t701 * f1;
+	t432 * f2;
 };

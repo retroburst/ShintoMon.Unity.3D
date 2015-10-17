@@ -5,31 +5,42 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3032;
+struct t205;
 struct t9;
+struct t3033;
 struct t121;
-struct t194;
 struct t76;
-#include "t3034.h"
+struct t3011;
+struct t4019;
 
-extern "C" void m16181_gshared (t3032 * __this, MethodInfo* method);
-#define m16181(__this, method) (( void (*) (t3032 *, MethodInfo*))m16181_gshared)(__this, method)
-extern "C" bool m16182_gshared (t3032 * __this, MethodInfo* method);
-#define m16182(__this, method) (( bool (*) (t3032 *, MethodInfo*))m16182_gshared)(__this, method)
-extern "C" t9 * m16183_gshared (t3032 * __this, MethodInfo* method);
-#define m16183(__this, method) (( t9 * (*) (t3032 *, MethodInfo*))m16183_gshared)(__this, method)
-extern "C" void m16184_gshared (t3032 * __this, t121 * p0, int32_t p1, MethodInfo* method);
-#define m16184(__this, p0, p1, method) (( void (*) (t3032 *, t121 *, int32_t, MethodInfo*))m16184_gshared)(__this, p0, p1, method)
-extern "C" t9* m16185_gshared (t3032 * __this, MethodInfo* method);
-#define m16185(__this, method) (( t9* (*) (t3032 *, MethodInfo*))m16185_gshared)(__this, method)
-extern "C" t9 * m16186_gshared (t3032 * __this, MethodInfo* method);
-#define m16186(__this, method) (( t9 * (*) (t3032 *, MethodInfo*))m16186_gshared)(__this, method)
-extern "C" t9 * m16187_gshared (t3032 * __this, MethodInfo* method);
-#define m16187(__this, method) (( t9 * (*) (t3032 *, MethodInfo*))m16187_gshared)(__this, method)
-extern "C" t9 * m16188_gshared (t3032 * __this, MethodInfo* method);
-#define m16188(__this, method) (( t9 * (*) (t3032 *, MethodInfo*))m16188_gshared)(__this, method)
-extern "C" void m16189_gshared (t3032 * __this, t9 * p0, MethodInfo* method);
-#define m16189(__this, p0, method) (( void (*) (t3032 *, t9 *, MethodInfo*))m16189_gshared)(__this, p0, method)
-extern "C" int32_t m16190_gshared (t3032 * __this, MethodInfo* method);
-#define m16190(__this, method) (( int32_t (*) (t3032 *, MethodInfo*))m16190_gshared)(__this, method)
-extern "C" t3034  m16191_gshared (t3032 * __this, MethodInfo* method);
-#define m16191(__this, method) (( t3034  (*) (t3032 *, MethodInfo*))m16191_gshared)(__this, method)
+#include "t2765MD.h"
+#define m15984(__this, p0, method) (( void (*) (t3032 *, t9*, MethodInfo*))m13482_gshared)(__this, p0, method)
+#define m15985(__this, p0, method) (( void (*) (t3032 *, t205 *, MethodInfo*))m13483_gshared)(__this, p0, method)
+#define m15986(__this, method) (( void (*) (t3032 *, MethodInfo*))m13484_gshared)(__this, method)
+#define m15987(__this, p0, p1, method) (( void (*) (t3032 *, int32_t, t205 *, MethodInfo*))m13485_gshared)(__this, p0, p1, method)
+#define m15988(__this, p0, method) (( bool (*) (t3032 *, t205 *, MethodInfo*))m13486_gshared)(__this, p0, method)
+#define m15989(__this, p0, method) (( void (*) (t3032 *, int32_t, MethodInfo*))m13487_gshared)(__this, p0, method)
+#define m15990(__this, p0, method) (( t205 * (*) (t3032 *, int32_t, MethodInfo*))m13488_gshared)(__this, p0, method)
+#define m15991(__this, p0, p1, method) (( void (*) (t3032 *, int32_t, t205 *, MethodInfo*))m13489_gshared)(__this, p0, p1, method)
+#define m15992(__this, method) (( bool (*) (t3032 *, MethodInfo*))m13490_gshared)(__this, method)
+#define m15993(__this, p0, p1, method) (( void (*) (t3032 *, t121 *, int32_t, MethodInfo*))m13491_gshared)(__this, p0, p1, method)
+#define m15994(__this, method) (( t9 * (*) (t3032 *, MethodInfo*))m13492_gshared)(__this, method)
+#define m15995(__this, p0, method) (( int32_t (*) (t3032 *, t9 *, MethodInfo*))m13493_gshared)(__this, p0, method)
+#define m15996(__this, method) (( void (*) (t3032 *, MethodInfo*))m13494_gshared)(__this, method)
+#define m15997(__this, p0, method) (( bool (*) (t3032 *, t9 *, MethodInfo*))m13495_gshared)(__this, p0, method)
+#define m15998(__this, p0, method) (( int32_t (*) (t3032 *, t9 *, MethodInfo*))m13496_gshared)(__this, p0, method)
+#define m15999(__this, p0, p1, method) (( void (*) (t3032 *, int32_t, t9 *, MethodInfo*))m13497_gshared)(__this, p0, p1, method)
+#define m16000(__this, p0, method) (( void (*) (t3032 *, t9 *, MethodInfo*))m13498_gshared)(__this, p0, method)
+#define m16001(__this, p0, method) (( void (*) (t3032 *, int32_t, MethodInfo*))m13499_gshared)(__this, p0, method)
+#define m16002(__this, method) (( bool (*) (t3032 *, MethodInfo*))m13500_gshared)(__this, method)
+#define m16003(__this, method) (( t9 * (*) (t3032 *, MethodInfo*))m13501_gshared)(__this, method)
+#define m16004(__this, method) (( bool (*) (t3032 *, MethodInfo*))m13502_gshared)(__this, method)
+#define m16005(__this, method) (( bool (*) (t3032 *, MethodInfo*))m13503_gshared)(__this, method)
+#define m16006(__this, p0, method) (( t9 * (*) (t3032 *, int32_t, MethodInfo*))m13504_gshared)(__this, p0, method)
+#define m16007(__this, p0, p1, method) (( void (*) (t3032 *, int32_t, t9 *, MethodInfo*))m13505_gshared)(__this, p0, p1, method)
+#define m16008(__this, p0, method) (( bool (*) (t3032 *, t205 *, MethodInfo*))m13506_gshared)(__this, p0, method)
+#define m16009(__this, p0, p1, method) (( void (*) (t3032 *, t3011*, int32_t, MethodInfo*))m13507_gshared)(__this, p0, p1, method)
+#define m16010(__this, method) (( t9* (*) (t3032 *, MethodInfo*))m13508_gshared)(__this, method)
+#define m16011(__this, p0, method) (( int32_t (*) (t3032 *, t205 *, MethodInfo*))m13509_gshared)(__this, p0, method)
+#define m16012(__this, method) (( int32_t (*) (t3032 *, MethodInfo*))m13510_gshared)(__this, method)
+#define m16013(__this, p0, method) (( t205 * (*) (t3032 *, int32_t, MethodInfo*))m13511_gshared)(__this, p0, method)

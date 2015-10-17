@@ -5,9 +5,8 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t1415;
-struct t723;
+struct t1409;
+#include "t1414.h"
 
-extern "C" void m6200 (t1415 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m6201 (t9 * __this , MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t723* m6202 (t1415 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m6203 (t1415 * __this, t723* p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m6144 (t9 * __this , t1409 * p0, int32_t p1, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m6145 (t9 * __this , t1409 * p0, int32_t p1, MethodInfo* method) IL2CPP_METHOD_ATTR;

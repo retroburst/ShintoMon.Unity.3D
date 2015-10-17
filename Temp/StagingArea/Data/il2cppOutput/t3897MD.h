@@ -6,13 +6,12 @@
 
 struct t3897;
 struct t9;
-struct t2017;
-struct t2183;
+struct t1766;
+struct t121;
 
-#include "t885MD.h"
-#define m24553(__this, p0, method) (( void (*) (t3897 *, t2183 *, MethodInfo*))m13448_gshared)(__this, p0, method)
-#define m24554(__this, method) (( t9 * (*) (t3897 *, MethodInfo*))m13449_gshared)(__this, method)
-#define m24555(__this, method) (( void (*) (t3897 *, MethodInfo*))m13450_gshared)(__this, method)
-#define m24556(__this, method) (( void (*) (t3897 *, MethodInfo*))m13451_gshared)(__this, method)
-#define m24557(__this, method) (( bool (*) (t3897 *, MethodInfo*))m13452_gshared)(__this, method)
-#define m24558(__this, method) (( t2017 * (*) (t3897 *, MethodInfo*))m13453_gshared)(__this, method)
+#include "t2684MD.h"
+#define m24548(__this, p0, method) (( void (*) (t3897 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m24549(__this, method) (( t9 * (*) (t3897 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m24550(__this, method) (( void (*) (t3897 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m24551(__this, method) (( bool (*) (t3897 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m24552(__this, method) (( t1766 * (*) (t3897 *, MethodInfo*))m12826_gshared)(__this, method)

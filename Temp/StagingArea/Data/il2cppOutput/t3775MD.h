@@ -5,9 +5,12 @@
 #include "codegen/il2cpp-codegen.h"
 
 struct t3775;
-struct t856;
+struct t9;
+#include "t859.h"
 
-#include "t2718MD.h"
-#define m23766(__this, method) (( void (*) (t3775 *, MethodInfo*))m13113_gshared)(__this, method)
-#define m23767(__this, p0, method) (( int32_t (*) (t3775 *, t856 *, MethodInfo*))m13114_gshared)(__this, p0, method)
-#define m23768(__this, p0, p1, method) (( bool (*) (t3775 *, t856 *, t856 *, MethodInfo*))m13115_gshared)(__this, p0, p1, method)
+#include "t2986MD.h"
+#define m23639(__this, method) (( void (*) (t3775 *, MethodInfo*))m15632_gshared)(__this, method)
+#define m23640(__this , method) (( void (*) (t9 * , MethodInfo*))m15633_gshared)(__this , method)
+#define m23641(__this, p0, method) (( int32_t (*) (t3775 *, t9 *, MethodInfo*))m15634_gshared)(__this, p0, method)
+#define m23642(__this, p0, p1, method) (( bool (*) (t3775 *, t9 *, t9 *, MethodInfo*))m15635_gshared)(__this, p0, p1, method)
+#define m23643(__this , method) (( t3775 * (*) (t9 * , MethodInfo*))m15636_gshared)(__this , method)

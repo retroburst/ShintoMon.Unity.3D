@@ -1,6 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t1583.h"
-struct  t1585  : public t1583
+#include "t725.h"
+struct  t1585  : public t725
 {
+	int32_t f0;
 };

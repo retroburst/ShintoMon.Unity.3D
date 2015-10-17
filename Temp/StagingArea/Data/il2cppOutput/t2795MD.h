@@ -6,16 +6,12 @@
 
 struct t2795;
 struct t9;
-struct t462;
-struct t463;
-#include "t58.h"
-#include "t2783.h"
+struct t2218;
+struct t121;
 
-extern "C" void m13856_gshared (t2795 * __this, t9 * p0, t58 p1, MethodInfo* method);
-#define m13856(__this, p0, p1, method) (( void (*) (t2795 *, t9 *, t58, MethodInfo*))m13856_gshared)(__this, p0, p1, method)
-extern "C" t2783  m13857_gshared (t2795 * __this, t9 * p0, uint8_t p1, MethodInfo* method);
-#define m13857(__this, p0, p1, method) (( t2783  (*) (t2795 *, t9 *, uint8_t, MethodInfo*))m13857_gshared)(__this, p0, p1, method)
-extern "C" t9 * m13858_gshared (t2795 * __this, t9 * p0, uint8_t p1, t463 * p2, t9 * p3, MethodInfo* method);
-#define m13858(__this, p0, p1, p2, p3, method) (( t9 * (*) (t2795 *, t9 *, uint8_t, t463 *, t9 *, MethodInfo*))m13858_gshared)(__this, p0, p1, p2, p3, method)
-extern "C" t2783  m13859_gshared (t2795 * __this, t9 * p0, MethodInfo* method);
-#define m13859(__this, p0, method) (( t2783  (*) (t2795 *, t9 *, MethodInfo*))m13859_gshared)(__this, p0, method)
+#include "t2684MD.h"
+#define m13812(__this, p0, method) (( void (*) (t2795 *, t121 *, MethodInfo*))m12818_gshared)(__this, p0, method)
+#define m13813(__this, method) (( t9 * (*) (t2795 *, MethodInfo*))m12820_gshared)(__this, method)
+#define m13814(__this, method) (( void (*) (t2795 *, MethodInfo*))m12822_gshared)(__this, method)
+#define m13815(__this, method) (( bool (*) (t2795 *, MethodInfo*))m12824_gshared)(__this, method)
+#define m13816(__this, method) (( t9* (*) (t2795 *, MethodInfo*))m12826_gshared)(__this, method)

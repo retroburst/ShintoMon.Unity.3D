@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-#include "t1704.h"
-struct  t2054  : public t1704
+struct t2;
+#include "t2051.h"
+struct  t2054  : public t2051
 {
-	uint32_t f2;
-	uint32_t f3;
+	t2* f3;
 };

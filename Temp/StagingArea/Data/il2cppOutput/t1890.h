@@ -1,11 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
+struct t1160;
+struct t1897;
 struct t221;
-#include "t1881.h"
-struct  t1890  : public t1881
+struct t720;
+#include "t9.h"
+struct  t1890  : public t9
 {
+	t9 * f0;
+	t9 * f1;
+	t221* f2;
+	bool f3;
 };
 struct t1890_SFs{
-	t221* f6;
-	t221* f7;
+	t720 * f4;
+	t720 * f5;
 };

@@ -1,33 +1,17 @@
 ﻿#pragma once
 #include <stdint.h>
-struct t1227;
-struct t1228;
-struct t1229;
-struct t1211;
-struct t1203;
-struct t1231;
-struct t1232;
-struct t1221;
-struct t713;
-#include "t9.h"
+struct t1157;
+struct t1186;
+struct t9;
 #include "t1209.h"
-struct  t1183  : public t9
+#include "t1177.h"
+struct  t1183  : public t1209
 {
-	int32_t f0;
-	t1227 * f1;
-	t1228 * f2;
-	t1229* f3;
-	int32_t f5;
-	t1211 * f6;
-	t1203 * f7;
-	t1231 * f8;
-	t1232 * f9;
-	t1232 * f10;
-	t1221 * f11;
+	int32_t f4;
 };
 struct t1183_SFs{
-	t1229* f4;
-	t713 * f12;
-	t713 * f13;
-	t713 * f14;
+	t1157 * f1;
+	bool f2;
+	t9 * f3;
+	t9 * f5;
 };
