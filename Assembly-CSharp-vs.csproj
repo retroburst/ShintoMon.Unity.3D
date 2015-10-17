@@ -66,6 +66,8 @@
      <Compile Include="Assets\Scripts\InscriptionGenerator.cs" />
      <Compile Include="Assets\Scripts\Logger.cs" />
      <Compile Include="Assets\Scripts\PaddleController.cs" />
+     <Compile Include="Assets\Scripts\PlatformStrategy.cs" />
+     <Compile Include="Assets\Scripts\PlatformStrategyManager.cs" />
      <Compile Include="Assets\Scripts\Prefabs.cs" />
      <Compile Include="Assets\Scripts\RandomRotator.cs" />
      <Compile Include="Assets\Scripts\SerializableQuaternion.cs" />

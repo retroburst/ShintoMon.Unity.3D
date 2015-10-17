@@ -102,7 +102,7 @@ public class ViewController : MonoBehaviour
 		if (state.PlayState != PlayState.Playing) {
 			if (state.PlayState == PlayState.NotStarted) {
 				// don't display the splash on web gl - the icon doesn't render well
-				if(!GameHelpers.IsRunningOnWebGL() && splashNeverShown)
+				if(context.PlatformStrategyManager.ActiveStrategy.ShowSplash && splashNeverShown)
 				{
 					splashNeverShown = false;
 					ShowSplashPanel(state);

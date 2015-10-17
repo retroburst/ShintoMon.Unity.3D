@@ -95,6 +95,7 @@ public class GameController : MonoBehaviour
 	private object gameSaveLock = new object ();
 	private static GameController gameInstance = null;
 	private float savedTimeScale = 0.0f;
+	private PlatformStrategyManager platformStrategyManager = null;
 	
 	/// <summary>
 	/// Handles the awake event.
@@ -102,6 +103,8 @@ public class GameController : MonoBehaviour
 	private void Awake ()
 	{
 		InitialiseRuntimeComponents ();
+		platformStrategyManager = new PlatformStrategyManager(this);
+		platformStrategyManager.Setup();
 		// max rows = 8 at the moment
 		// max columns = 15 at the moment
 		Levels = GameLevel.GameLevels;
@@ -123,6 +126,7 @@ public class GameController : MonoBehaviour
 		result.UIComponents = UIComponents;
 		result.GameMessageController = GameMessageController;
 		result.GameController = this;
+		result.PlatformStrategyManager = platformStrategyManager;
 		return(result);
 	}
 	
@@ -252,7 +256,7 @@ public class GameController : MonoBehaviour
 		}
 		// check user input
 		if(Input.GetKeyUp(KeyCode.Escape))
-			if(!Components.ViewController.SplashPanelShowing) ShowSplashPanel();
+			if(!Components.ViewController.SplashPanelShowing && platformStrategyManager.ActiveStrategy.ShowSplash) ShowSplashPanel();
 		if (Input.GetButtonUp (Constants.INPUT_PAUSE))
 			PauseGame ();
 		if (Input.GetButtonUp (Constants.INPUT_RESTART))
