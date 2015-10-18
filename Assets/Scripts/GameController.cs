@@ -245,20 +245,36 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	private void Update ()
 	{		
-		if (State.PlayState == PlayState.Paused 
+		if (Components.ViewController.OptionsPanelShowing || Components.ViewController.SplashPanelShowing) {
+			// if splash showing and user pressed escape - quit game
+			if(Components.ViewController.SplashPanelShowing && Input.GetKeyUp(KeyCode.Escape)) {
+				QuitGame();
+				// else any other key pressed - play game
+			} else if (Components.ViewController.SplashPanelShowing && Input.GetButtonUp (Constants.INPUT_SUBMIT)) {
+				HideSplashPanel ();
+				State.PlayState = PlayState.Playing;
+				// if options showing and escape pressed - hide options
+			} else if (Components.ViewController.OptionsPanelShowing && Input.GetKeyUp (KeyCode.Escape)) {
+				HideOptionsPanel ();
+			}
+			return;
+		} else if (State.PlayState == PlayState.Paused 
 			&& (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)
-			&& Input.GetButtonUp ("Submit")) {
+		           && Input.GetButtonUp (Constants.INPUT_SUBMIT)) {
 			UnpauseGame ();
 		} else if ((State.PlayState == PlayState.GameWon || State.PlayState == PlayState.GameOver)
 			&& (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)
-			&& Input.GetButtonUp ("Submit")) {
+		           && Input.GetButtonUp (Constants.INPUT_SUBMIT)) {
 			RestartGame ();
-		} else if (State.PlayState == PlayState.NotStarted && Input.GetButtonUp("Submit")) {
+		} else if (State.PlayState == PlayState.NotStarted && Input.GetButtonUp(Constants.INPUT_SUBMIT)) {
 			State.PlayState = PlayState.Playing;
+		} else if(Components.ViewController.SplashPanelShowing && Input.anyKey) {
+			HideSplashPanel();
 		}
 		// check user input
 		if(Input.GetKeyUp(KeyCode.Escape))
 			if(!Components.ViewController.SplashPanelShowing && platformStrategyManager.ActiveStrategy.ShowSplash) ShowSplashPanel();
+		if (Input.GetKeyUp (KeyCode.Menu) && !Components.ViewController.OptionsPanelShowing) ShowOptionsPanel();
 		if (Input.GetButtonUp (Constants.INPUT_PAUSE))
 			PauseGame ();
 		if (Input.GetButtonUp (Constants.INPUT_RESTART))
@@ -334,9 +350,6 @@ public class GameController : MonoBehaviour
 	public void EmaCollected (GameObject ema)
 	{
 		lock (emaCollectedLock) {
-			// TODO: check if gold ema
-			// get a special action at random
-			// apply it
 			State.RemoveEmaFromState (ema);
 			if (State.CountRemainingEmaInState () == 0) {
 				StartCoroutine (PerformLevelWon ());
@@ -344,6 +357,10 @@ public class GameController : MonoBehaviour
 		}
 	}
 	
+	/// <summary>
+	/// Performs the level won.
+	/// </summary>
+	/// <returns>The level won.</returns>
 	private IEnumerator PerformLevelWon ()
 	{
 		//savedTimeScale = Time.timeScale;
@@ -465,23 +482,22 @@ public class GameController : MonoBehaviour
 	public void RestartGame ()
 	{
 		lock (gameRestartLock) {
-			//TODO: remove logging here
-			Logger.LogFormat ("Start of restart: {0}", State.PlayState);
+			//Logger.LogFormat ("Start of restart: {0}", State.PlayState);
 			PlayState playState = State.PlayState;
 			State = new GameState ();
 			MoveToNextLevel ();
 			State.PlayState = playState;
-			Logger.LogFormat ("Before hide panels of restart: {0}", State.PlayState);
+			//Logger.LogFormat ("Before hide panels of restart: {0}", State.PlayState);
 			if (Components.ViewController.OptionsPanelShowing)
 				HideOptionsPanel ();
 			if (Components.ViewController.SplashPanelShowing)
 				HideSplashPanel ();
-			Logger.LogFormat ("Before setting to not started of restart: {0}", State.PlayState);
+			//Logger.LogFormat ("Before setting to not started of restart: {0}", State.PlayState);
 			State.PlayState = PlayState.NotStarted;
 			AddGameMessage (ConfigurableSettings.MessageGameRestarted);
 			if (GameRestarted != null)
 				GameRestarted ();
-			Logger.LogFormat ("End of restart: {0}", State.PlayState);
+			//Logger.LogFormat ("End of restart: {0}", State.PlayState);
 		}
 	}
 	
