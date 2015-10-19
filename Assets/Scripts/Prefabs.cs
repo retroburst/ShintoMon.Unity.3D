@@ -10,4 +10,6 @@ public class Prefabs : MonoBehaviour {
 	public GameObject GoldEmaPrefab = null;
 	public GameObject AudioSourcePrefab = null;
 	public GameObject BallParticlesPrefab = null;
+	public GameObject DaySkybox = null;
+	public GameObject NightSkybox = null;
 }

@@ -42,7 +42,7 @@ public class ViewController : MonoBehaviour
 	{
 		Messages = new List<string> ();
 		context = viewControllerContext;
-		context.UIComponents.GameStatePanel.SetActive(false);
+		context.UIComponents.GameStatePanel.SetActive (false);
 	}
 
 	/// <summary>
@@ -56,6 +56,7 @@ public class ViewController : MonoBehaviour
 		context.UIComponents.LevelText.text = string.Format (context.ConfigurableSettings.MessageLevelPattern, level.LevelDesignation);
 		context.UIComponents.ScoreText.text = string.Format (context.ConfigurableSettings.MessageScorePattern, 0, level.EmaCount);
 		context.UIComponents.BallsText.text = string.Format (context.ConfigurableSettings.MessageBallPattern, level.BallCount, level.BallCount);
+		UpdateAtmosphere (state);
 	}
 	
 	/// <summary>
@@ -64,12 +65,38 @@ public class ViewController : MonoBehaviour
 	/// <param name="state">State.</param>
 	public void UpdateViewFromSavedGame (GameState state)
 	{
-		if (layoutCoroutine != null) { StopCoroutine (layoutCoroutine); }
+		if (layoutCoroutine != null) {
+			StopCoroutine (layoutCoroutine);
+		}
 		ClearRemainingEma ();
 		layoutCoroutine = StartCoroutine (LayoutEmaGridFromSavedGame (state));
 		context.UIComponents.LevelText.text = string.Format (context.ConfigurableSettings.MessageLevelPattern, state.Level.LevelDesignation);
 		context.UIComponents.ScoreText.text = string.Format (context.ConfigurableSettings.MessageScorePattern, 0, state.Level.EmaCount);
 		context.UIComponents.BallsText.text = string.Format (context.ConfigurableSettings.MessageBallPattern, state.Level.BallCount, state.Level.BallCount);
+		UpdateAtmosphere (state);
+	}
+	
+	/// <summary>
+	/// Updates the atmosphere.
+	/// </summary>
+	/// <param name="state">State.</param>
+	private void UpdateAtmosphere (GameState state)
+	{
+		context.AudioController.ChangeBackgroundSoundAtmosphere (state.Level.Atmosphere);
+		switch (state.Level.Atmosphere) {
+		case Atmosphere.Day:
+			Camera.main.GetComponent<Skybox>().material = context.Materials.DaySkybox;
+			context.Lights.DayLights.ForEachAction (x => x.SetActive (true));
+			context.Lights.NightLights.ForEachAction (x => x.SetActive (false));
+			DynamicGI.UpdateEnvironment();
+			break;
+		case Atmosphere.Night:
+			Camera.main.GetComponent<Skybox>().material = context.Materials.NightSkybox;
+			context.Lights.NightLights.ForEachAction (x => x.SetActive (true));
+			context.Lights.DayLights.ForEachAction (x => x.SetActive (false));
+			DynamicGI.UpdateEnvironment();
+			break;
+		}
 	}
 	
 	/// <summary>
@@ -102,10 +129,9 @@ public class ViewController : MonoBehaviour
 		if (state.PlayState != PlayState.Playing) {
 			if (state.PlayState == PlayState.NotStarted) {
 				// don't display the splash on web gl - the icon doesn't render well
-				if(context.PlatformStrategyManager.ActiveStrategy.ShowSplash && splashNeverShown)
-				{
+				if (context.PlatformStrategyManager.ActiveStrategy.ShowSplash && splashNeverShown) {
 					splashNeverShown = false;
-					ShowSplashPanel(state);
+					ShowSplashPanel (state);
 				}
 			}
 			string stateText = string.Empty;
@@ -114,8 +140,7 @@ public class ViewController : MonoBehaviour
 			context.UIComponents.GameStateText.text = stateText;
 			context.UIComponents.GameStateSubtext.text = stateSubtext;
 			// don't show the state panel if the splash or the options menu are showing
-			if(!SplashPanelShowing && !OptionsPanelShowing)
-			{
+			if (!SplashPanelShowing && !OptionsPanelShowing) {
 				context.UIComponents.GameStatePanel.SetActive (true);
 			}
 		} else {
@@ -141,7 +166,9 @@ public class ViewController : MonoBehaviour
 	/// <param name="state">State.</param>
 	private void LayoutEmaGrid (int rows, int columns, GameState state)
 	{
-		if (layoutCoroutine != null) { StopCoroutine (layoutCoroutine); }
+		if (layoutCoroutine != null) {
+			StopCoroutine (layoutCoroutine);
+		}
 		layoutCoroutine = StartCoroutine (PerformLayout (rows, columns, null, state));
 	}
 	
@@ -154,7 +181,9 @@ public class ViewController : MonoBehaviour
 	{
 		int rows = layout.GetLength (0);
 		int columns = layout.GetLength (1);
-		if (layoutCoroutine != null) { StopCoroutine (layoutCoroutine); }
+		if (layoutCoroutine != null) {
+			StopCoroutine (layoutCoroutine);
+		}
 		layoutCoroutine = StartCoroutine (PerformLayout (rows, columns, layout, state));
 	}
 	
@@ -336,10 +365,9 @@ public class ViewController : MonoBehaviour
 	/// </summary>
 	public void ShowSplashPanel (GameState state)
 	{
-		if(state.PlayState == PlayState.NotStarted) {
+		if (state.PlayState == PlayState.NotStarted) {
 			context.UIComponents.SplashPanelPlayButtonText.text = "Play";
-		}
-		else{
+		} else {
 			context.UIComponents.SplashPanelPlayButtonText.text = "Resume";
 		}
 		SplashPanelShowing = true;

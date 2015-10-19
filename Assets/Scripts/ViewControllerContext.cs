@@ -25,6 +25,18 @@ public class ViewControllerContext
 	public Components Components { get; set; }
 	
 	/// <summary>
+	/// Gets or sets the lights.
+	/// </summary>
+	/// <value>The lights.</value>
+	public Lights Lights { get; set; }
+	
+	/// <summary>
+	/// Gets or sets the materials.
+	/// </summary>
+	/// <value>The materials.</value>
+	public Materials Materials { get; set; }
+	
+	/// <summary>
 	/// Gets or sets the user interface components.
 	/// </summary>
 	/// <value>The user interface components.</value>
@@ -47,4 +59,10 @@ public class ViewControllerContext
 	/// </summary>
 	/// <value>The platform strategy manager.</value>
 	public PlatformStrategyManager PlatformStrategyManager { get; set; }
+	
+	/// <summary>
+	/// Gets or sets the audio controller.
+	/// </summary>
+	/// <value>The audio controller.</value>
+	public AudioController AudioController { get; set; }
 }

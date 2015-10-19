@@ -64,7 +64,9 @@
      <Compile Include="Assets\Scripts\GameState.cs" />
      <Compile Include="Assets\Scripts\InactivateByTime.cs" />
      <Compile Include="Assets\Scripts\InscriptionGenerator.cs" />
+     <Compile Include="Assets\Scripts\Lights.cs" />
      <Compile Include="Assets\Scripts\Logger.cs" />
+     <Compile Include="Assets\Scripts\Materials.cs" />
      <Compile Include="Assets\Scripts\PaddleController.cs" />
      <Compile Include="Assets\Scripts\PlatformStrategy.cs" />
      <Compile Include="Assets\Scripts\PlatformStrategyManager.cs" />

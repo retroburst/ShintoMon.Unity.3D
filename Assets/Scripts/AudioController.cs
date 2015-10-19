@@ -88,6 +88,15 @@ public class AudioController {
 			backgroundSound.StartBackgroundSounds();
 		}
 	}
+	
+	/// <summary>
+	/// Changes the background sound atmosphere.
+	/// </summary>
+	/// <param name="target">Target.</param>
+	public void ChangeBackgroundSoundAtmosphere(Atmosphere target)
+	{
+		backgroundSound.ChangeAtmosphere(target, BackgroundSoundMuted);
+	}
 
 	/// <summary>
 	/// Toggles the sound effects.

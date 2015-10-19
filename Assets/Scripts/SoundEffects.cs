@@ -87,7 +87,7 @@ public class SoundEffects : MonoBehaviour
 	/// </summary>
 	public void PlayBounce ()
 	{
-		PlayClipWithCallback(bounceClips[UnityEngine.Random.Range(0, bounceClips.Count)], 1.0f);
+		PlayClipWithCallback(bounceClips[UnityEngine.Random.Range(0, bounceClips.Count)], 0.5f);
 	}
 	
 	/// <summary>

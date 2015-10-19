@@ -23,8 +23,11 @@ public class GameController : MonoBehaviour
 	// font yuzu pop from http://black-yuzunyan.lolipop.jp/fonts-yuzu-pop
 	// fonts GNU free
 
-	//BUGS
+	// TASKS
 	// Loading while in game won state from the options menu causes issues at the moment
+    // When restarting after win it asks again to press enter - set the play state to playing instead of not started
+    // Not happy with the way the scene looks with Mobile VertexLit shaders on Mac OS X - maybe save the scene as, export it. Revert the changes, take note of the code changes for input and put this back in. Import the scene as mobile scene. I dunno just think about it.
+    // Save user prefs to Unity pref for sound etc
 
 	// designer supplied components
 	/// <summary>
@@ -41,6 +44,16 @@ public class GameController : MonoBehaviour
 	/// The components.
 	/// </summary>
 	public Components Components = null;
+	
+	/// <summary>
+	/// The lights.
+	/// </summary>
+	public Lights Lights = null;
+	
+	/// <summary>
+	/// The materials.
+	/// </summary>
+	public Materials Materials = null;
 	
 	/// <summary>
 	/// The user interface components.
@@ -129,6 +142,9 @@ public class GameController : MonoBehaviour
 		result.GameMessageController = GameMessageController;
 		result.GameController = this;
 		result.PlatformStrategyManager = platformStrategyManager;
+		result.Lights = Lights;
+		result.Materials = Materials;
+		result.AudioController = AudioController;
 		return(result);
 	}
 	

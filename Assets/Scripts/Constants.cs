@@ -36,3 +36,9 @@ public enum PlayState
 	GameWon,
 	NotStarted
 }
+
+public enum Atmosphere
+{
+	Day,
+	Night
+}

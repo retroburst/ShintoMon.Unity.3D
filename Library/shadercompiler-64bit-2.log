@@ -5,3 +5,6 @@ Cmd: compileSnippet
   api=5 type=0 insize=577 outsize=770 kw=SHADOWS_CUBE ok=1
 Cmd: compileSnippet
   api=5 type=1 insize=577 outsize=6 kw=SHADOWS_DEPTH ok=1
+End of pipe
+
+Quitting shader compiler process

@@ -57,6 +57,12 @@ public class GameLevel
 	public float BallVelocity { get; protected set; }
 	
 	/// <summary>
+	/// Gets or sets the atmosphere.
+	/// </summary>
+	/// <value>The atmosphere.</value>
+	public Atmosphere Atmosphere { get; protected set; }
+	
+	/// <summary>
 	/// The game levels.
 	/// </summary>
 	[NonSerialized]
@@ -118,6 +124,7 @@ public class GameLevel1 : GameLevel
 		PaddleAdditiveScale = new SerializableVector3(3.0f, 0f, 0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
+		Atmosphere = Atmosphere.Day;
 	}
 }
 
@@ -147,6 +154,7 @@ public class GameLevel2 : GameLevel
 		PaddleAdditiveScale = new SerializableVector3(2.0f, 0f, 0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
+		Atmosphere = Atmosphere.Night;
 	}
 }
 
@@ -176,6 +184,7 @@ public class GameLevel3 : GameLevel
 		PaddleAdditiveScale = new SerializableVector3(1.0f, 0f, 0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
+		Atmosphere = Atmosphere.Day;
 	}
 }
 
@@ -205,6 +214,7 @@ public class GameLevel4 : GameLevel
 		PaddleAdditiveScale = new SerializableVector3(0.0f, 0.0f, 0.0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
+		Atmosphere = Atmosphere.Night;
 	}
 }
 
@@ -234,6 +244,7 @@ public class GameLevel5 : GameLevel
 		PaddleAdditiveScale = new SerializableVector3(0.0f, 0.0f, 0.0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
+		Atmosphere = Atmosphere.Day;
 	}
 }
 
@@ -263,6 +274,7 @@ public class GameLevel6 : GameLevel
 		PaddleAdditiveScale = new SerializableVector3(-0.5f, 0.0f, 0.0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
+		Atmosphere = Atmosphere.Night;
 	}
 }
 
@@ -292,6 +304,7 @@ public class GameLevel7 : GameLevel
 		PaddleAdditiveScale = new SerializableVector3(0.0f, 0.0f, 0.0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
+		Atmosphere = Atmosphere.Day;
 	}
 }
 
@@ -322,6 +335,7 @@ public class GameLevel8 : GameLevel
 		PaddleAdditiveScale = new SerializableVector3(0.0f, 0.0f, 0.0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
+		Atmosphere = Atmosphere.Night;
 	}
 }
 
@@ -351,6 +365,7 @@ public class GameLevel9 : GameLevel
 		PaddleAdditiveScale = new SerializableVector3(0.0f, 0.0f, 0.0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
+		Atmosphere = Atmosphere.Day;
 	}
 }
 
@@ -380,6 +395,7 @@ public class GameLevel10 : GameLevel
 		PaddleAdditiveScale = new SerializableVector3(-1.0f, 0.0f, 0.0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
+		Atmosphere = Atmosphere.Night;
 	}
 }
 
@@ -409,5 +425,6 @@ public class GameLevel11 : GameLevel
 		PaddleAdditiveScale = new SerializableVector3(-1.0f, 0.0f, 0.0f);
 		PaddleSpeed = 1.0f;
 		EmaCount = CountEmaInLayout();
+		Atmosphere = Atmosphere.Day;
 	}
 }
