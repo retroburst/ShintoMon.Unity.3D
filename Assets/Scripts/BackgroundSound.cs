@@ -38,7 +38,7 @@ public class BackgroundSound : MonoBehaviour
 		SetupBackgroundSound (DayInsectsSoundClip, 0.25f, dayBackgroundSoundSources);
 		SetupBackgroundSound (NightInsectsSoundClip, 0.40f, nightBackgroundSoundSources);
 		SetupBackgroundSound (NightCricketsSoundClip, 0.25f, nightBackgroundSoundSources);
-		SetupBackgroundSound (LakeWaterSoundClip, 1.25f, backgroundSoundSources);
+		SetupBackgroundSound (LakeWaterSoundClip, 0.5f, backgroundSoundSources);
 		if (PlayOnStart)
 			StartBackgroundSounds ();
 	}

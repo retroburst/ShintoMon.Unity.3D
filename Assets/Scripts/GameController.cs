@@ -22,11 +22,28 @@ public class GameController : MonoBehaviour
 	// http://www.freepik.com/ - splash and icon designed by freepik
 	// font yuzu pop from http://black-yuzunyan.lolipop.jp/fonts-yuzu-pop
 	// fonts GNU free
+	
+	// possibly replacement for lake waves: http://freesound.org/people/ceich93/sounds/318064/  - 
+	//	play / pauseloop
+	//		-00:34
+	//			Water_Lapping_River.wav Currently /5 Stars.1 2 3 4 5
+	//			The water of the Hudson River lapping against a pebbly shore at night. (Recorded on a Tascam DR-05 with a ...
+	//			                                                                        lap
+	//			                                                                        river
+	//			                                                                        pond
+	//			                                                                        waves
+	//			                                                                        splash
+	//			                                                                        shore
+	//			                                                                        water
+	//			                                                                        lake
+	//			                                                                        lapping
+	//			                                                                        field-recording
+	//			                                                                        
+	//			                                                                        ceich93
 
 	// TASKS
 	// Loading while in game won state from the options menu causes issues at the moment
     // When restarting after win it asks again to press enter - set the play state to playing instead of not started
-    // Not happy with the way the scene looks with Mobile VertexLit shaders on Mac OS X - maybe save the scene as, export it. Revert the changes, take note of the code changes for input and put this back in. Import the scene as mobile scene. I dunno just think about it.
     // Save user prefs to Unity pref for sound etc
 
 	// designer supplied components
@@ -111,12 +128,15 @@ public class GameController : MonoBehaviour
 	private static GameController gameInstance = null;
 	private float savedTimeScale = 0.0f;
 	private PlatformStrategyManager platformStrategyManager = null;
+	private bool savedUserPrefSoundEffectsMuted = false;
+	private bool savedUserPrefBackgroundSoundMuted = false;
 	
 	/// <summary>
 	/// Handles the awake event.
 	/// </summary>
 	private void Awake ()
 	{
+		RestoreUserPreferences ();
 		InitialiseRuntimeComponents ();
 		platformStrategyManager = new PlatformStrategyManager(this);
 		platformStrategyManager.Setup();
@@ -236,8 +256,7 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	private void InitialiseRuntimeComponents ()
 	{
-		//TODO: input the saved user settings for mute etc
-		AudioController = new AudioController (Components.BackgroundSound, Components.SoundEffects, false, false, ConfigurableSettings);
+		AudioController = new AudioController (Components.BackgroundSound, Components.SoundEffects, savedUserPrefBackgroundSoundMuted, savedUserPrefSoundEffectsMuted, ConfigurableSettings);
 		GameMessageController = new GameMessageController (UIComponents.MessageSlots, ConfigurableSettings.MessageVisibleTime);
 		InscriptionGenerator = new InscriptionGenerator (ConfigurableSettings.InscriptionKanji);
 		InitialiseGameObjectPools ();
@@ -584,7 +603,49 @@ public class GameController : MonoBehaviour
 		}
 	}
 	
+	/// <summary>
+	/// Handles the application pause event.
+	/// </summary>
+	/// <param name="pauseStatus">If set to <c>true</c> pause status.</param>
+	private void OnApplicationPause (bool pauseStatus)
+	{
+		if (pauseStatus) {
+			PauseGame();
+			SaveUserPreferences ();
+		}
+	}
 	
+	/// <summary>
+	/// Handles the application quit event.
+	/// </summary>
+	private void OnApplicationQuit ()
+	{
+		SaveUserPreferences ();
+	}
+	
+	/// <summary>
+	/// Saves the user preferences.
+	/// </summary>
+	private void SaveUserPreferences ()
+	{
+		bool changedSettings = false;
+		if (AudioController != null) {
+			PlayerPrefs.SetInt (ConfigurableSettings.UserPrefKeySoundEffectsMuted, Convert.ToInt32 (AudioController.SoundEffectsMuted));
+			PlayerPrefs.SetInt (ConfigurableSettings.UserPrefKeyBackgroundSoundMuted, Convert.ToInt32 (AudioController.BackgroundSoundMuted));
+			changedSettings = true;
+		}
+		if (changedSettings)
+			PlayerPrefs.Save ();
+	}
+	
+	/// <summary>
+	/// Restores the user preferences.
+	/// </summary>
+	private void RestoreUserPreferences ()
+	{
+		savedUserPrefSoundEffectsMuted = Convert.ToBoolean (PlayerPrefs.GetInt (ConfigurableSettings.UserPrefKeySoundEffectsMuted, 0));
+		savedUserPrefBackgroundSoundMuted = Convert.ToBoolean (PlayerPrefs.GetInt (ConfigurableSettings.UserPrefKeyBackgroundSoundMuted, 0));
+	}
 	
 }
 
