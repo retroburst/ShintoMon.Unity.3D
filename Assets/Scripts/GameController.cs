@@ -256,7 +256,7 @@ public class GameController : MonoBehaviour
 	/// </summary>
 	private void InitialiseRuntimeComponents ()
 	{
-		AudioController = new AudioController (Components.BackgroundSound, Components.SoundEffects, savedUserPrefBackgroundSoundMuted, savedUserPrefSoundEffectsMuted, ConfigurableSettings);
+		AudioController = new AudioController (Components.BackgroundSound, Components.SoundEffects, savedUserPrefSoundEffectsMuted, savedUserPrefBackgroundSoundMuted, ConfigurableSettings);
 		GameMessageController = new GameMessageController (UIComponents.MessageSlots, ConfigurableSettings.MessageVisibleTime);
 		InscriptionGenerator = new InscriptionGenerator (ConfigurableSettings.InscriptionKanji);
 		InitialiseGameObjectPools ();

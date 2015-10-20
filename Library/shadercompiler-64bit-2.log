@@ -1,10 +1,6 @@
 Base path: /Applications/Unity/Unity.app/Contents
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-2-677281792
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-2-679256064
 Cmd: getPlatforms
-Cmd: compileSnippet
-  api=5 type=0 insize=577 outsize=770 kw=SHADOWS_CUBE ok=1
-Cmd: compileSnippet
-  api=5 type=1 insize=577 outsize=6 kw=SHADOWS_DEPTH ok=1
 End of pipe
 
 Quitting shader compiler process
