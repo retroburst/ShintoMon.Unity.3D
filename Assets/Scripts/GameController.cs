@@ -6,45 +6,13 @@ using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
+/// <summary>
+/// Game controller manages game play and state.
+/// </summary>
 public class GameController : MonoBehaviour
 {
-	// Music ideas:
-	// https://soundcloud.com/skiqi/skiqi-without-delay
-	//
-	// Attribution contributions
-	// Taira Komori - Freesound.org - various
-	// jakobthiesen - Freesound.org - lake water
-	// Setuniman - Freesound.org - splash
-	// ryancacophony - singing bowl
-	// percussionfiend - bamboo chime
-	// JohnLaVine333 - shakahachi (flute)
-	// jalastram - Freesound.org - FX118
-	// http://www.freepik.com/ - splash and icon designed by freepik
-	// font yuzu pop from http://black-yuzunyan.lolipop.jp/fonts-yuzu-pop
-	// fonts GNU free
-	
-	// possibly replacement for lake waves: http://freesound.org/people/ceich93/sounds/318064/  - 
-	//	play / pauseloop
-	//		-00:34
-	//			Water_Lapping_River.wav Currently /5 Stars.1 2 3 4 5
-	//			The water of the Hudson River lapping against a pebbly shore at night. (Recorded on a Tascam DR-05 with a ...
-	//			                                                                        lap
-	//			                                                                        river
-	//			                                                                        pond
-	//			                                                                        waves
-	//			                                                                        splash
-	//			                                                                        shore
-	//			                                                                        water
-	//			                                                                        lake
-	//			                                                                        lapping
-	//			                                                                        field-recording
-	//			                                                                        
-	//			                                                                        ceich93
-
 	// TASKS
-	// Loading while in game won state from the options menu causes issues at the moment
-    // When restarting after win it asks again to press enter - set the play state to playing instead of not started
-    // Save user prefs to Unity pref for sound etc
+	// TODO: Loading while in game won state from the options menu causes issues at the moment
 
 	// designer supplied components
 	/// <summary>
@@ -301,6 +269,7 @@ public class GameController : MonoBehaviour
 			&& (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)
 		           && Input.GetButtonUp (Constants.INPUT_SUBMIT)) {
 			RestartGame ();
+			State.PlayState = PlayState.Playing;
 		} else if (State.PlayState == PlayState.NotStarted && Input.GetButtonUp(Constants.INPUT_SUBMIT)) {
 			State.PlayState = PlayState.Playing;
 		} else if(Components.ViewController.SplashPanelShowing && Input.anyKey) {
