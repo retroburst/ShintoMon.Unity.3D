@@ -260,6 +260,7 @@ public class GameController : MonoBehaviour
 			} else if (Components.ViewController.OptionsPanelShowing && Input.GetKeyUp (KeyCode.Escape)) {
 				HideOptionsPanel ();
 			}
+			Components.ViewController.UpdateViewForMessages ();
 			return;
 		} else if (State.PlayState == PlayState.Paused 
 			&& (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)

@@ -111,6 +111,14 @@ public class ViewController : MonoBehaviour
 	}
 	
 	/// <summary>
+	/// Updates the view for messages.
+	/// </summary>
+	public void UpdateViewForMessages()
+	{
+		ProcessMessages ();
+	}
+	
+	/// <summary>
 	/// Processes the progress.
 	/// </summary>
 	/// <param name="state">State.</param>
