@@ -577,7 +577,7 @@ Transform:
   - {fileID: 1917092138}
   - {fileID: 890341655}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1 &308674519
 GameObject:
   m_ObjectHideFlags: 0
@@ -1149,7 +1149,7 @@ Transform:
   - {fileID: 841982266}
   - {fileID: 1576763640}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!1 &497555197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,7 +1279,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!45 &499670159
 Skybox:
   m_ObjectHideFlags: 0
@@ -4497,7 +4497,7 @@ Transform:
   - {fileID: 74155622}
   - {fileID: 2028962902}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!1 &1555219766
 GameObject:
   m_ObjectHideFlags: 0
@@ -4770,8 +4770,6 @@ MonoBehaviour:
   GoldEmaPrefab: {fileID: 159258, guid: 2fbcac6c497b44e73bc77533f8afedb5, type: 2}
   AudioSourcePrefab: {fileID: 194880, guid: efc06060ac83f4e20ae5068faa5bfe22, type: 2}
   BallParticlesPrefab: {fileID: 115932, guid: 8e499ba721a5b4e0b87acdc45f3a4713, type: 2}
-  DaySkybox: {fileID: 0}
-  NightSkybox: {fileID: 0}
 --- !u!1 &1634237033
 GameObject:
   m_ObjectHideFlags: 0
@@ -5255,7 +5253,7 @@ Transform:
   m_Children:
   - {fileID: 814019484}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1 &1751097435
 GameObject:
   m_ObjectHideFlags: 0
@@ -5628,6 +5626,33 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: .5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!1 &1852586818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1852586819}
+  m_Layer: 0
+  m_Name: Scene:Main
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1852586819
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852586818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.3213577, y: 73.2025681, z: -139.981064}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!1 &1857922271
 GameObject:
   m_ObjectHideFlags: 0
@@ -5658,7 +5683,7 @@ Transform:
   - {fileID: 1291396006}
   - {fileID: 912580043}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!1 &1874809676
 GameObject:
   m_ObjectHideFlags: 0
@@ -6636,4 +6661,4 @@ Transform:
   m_Children:
   - {fileID: 1017282501}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7

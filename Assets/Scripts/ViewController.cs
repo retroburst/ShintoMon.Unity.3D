@@ -83,18 +83,23 @@ public class ViewController : MonoBehaviour
 	private void UpdateAtmosphere (GameState state)
 	{
 		context.AudioController.ChangeBackgroundSoundAtmosphere (state.Level.Atmosphere);
+		Skybox skybox = Camera.main.GetComponent<Skybox> ();
 		switch (state.Level.Atmosphere) {
 		case Atmosphere.Day:
-			Camera.main.GetComponent<Skybox>().material = context.Materials.DaySkybox;
-			context.Lights.DayLights.ForEachAction (x => x.SetActive (true));
-			context.Lights.NightLights.ForEachAction (x => x.SetActive (false));
-			DynamicGI.UpdateEnvironment();
+			if(skybox != null) skybox.material = context.Materials.DaySkybox;
+			if (context.PlatformStrategyManager.ActiveStrategy.ChangeLightsForAtmosphere) {
+				context.Lights.DayLights.ForEachAction (x => x.SetActive (true));
+				context.Lights.NightLights.ForEachAction (x => x.SetActive (false));
+				DynamicGI.UpdateEnvironment ();
+			}
 			break;
 		case Atmosphere.Night:
-			Camera.main.GetComponent<Skybox>().material = context.Materials.NightSkybox;
-			context.Lights.NightLights.ForEachAction (x => x.SetActive (true));
-			context.Lights.DayLights.ForEachAction (x => x.SetActive (false));
-			DynamicGI.UpdateEnvironment();
+			if(skybox != null) skybox.material = context.Materials.NightSkybox;
+			if (context.PlatformStrategyManager.ActiveStrategy.ChangeLightsForAtmosphere) {
+				context.Lights.NightLights.ForEachAction (x => x.SetActive (true));
+				context.Lights.DayLights.ForEachAction (x => x.SetActive (false));
+				DynamicGI.UpdateEnvironment ();
+			}
 			break;
 		}
 	}
@@ -113,7 +118,7 @@ public class ViewController : MonoBehaviour
 	/// <summary>
 	/// Updates the view for messages.
 	/// </summary>
-	public void UpdateViewForMessages()
+	public void UpdateViewForMessages ()
 	{
 		ProcessMessages ();
 	}

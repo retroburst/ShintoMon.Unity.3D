@@ -1,0 +1,20 @@
+﻿#pragma once
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+#include "codegen/il2cpp-codegen.h"
+
+struct t3774;
+struct t9;
+struct t485;
+struct t485_marshaled;
+struct t476;
+struct t477;
+#include "t58.h"
+#include "t866.h"
+
+#include "t3174MD.h"
+#define m23644(__this, p0, p1, method) (( void (*) (t3774 *, t9 *, t58, MethodInfo*))m17588_gshared)(__this, p0, p1, method)
+#define m23645(__this, p0, p1, method) (( int32_t (*) (t3774 *, t485 *, int32_t, MethodInfo*))m17589_gshared)(__this, p0, p1, method)
+#define m23646(__this, p0, p1, p2, p3, method) (( t9 * (*) (t3774 *, t485 *, int32_t, t477 *, t9 *, MethodInfo*))m17590_gshared)(__this, p0, p1, p2, p3, method)
+#define m23647(__this, p0, method) (( int32_t (*) (t3774 *, t9 *, MethodInfo*))m17591_gshared)(__this, p0, method)

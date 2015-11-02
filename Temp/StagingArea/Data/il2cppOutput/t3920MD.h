@@ -1,0 +1,17 @@
+﻿#pragma once
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+#include "codegen/il2cpp-codegen.h"
+
+struct t3920;
+struct t9;
+struct t2656;
+struct t121;
+
+#include "t2690MD.h"
+#define m24671(__this, p0, method) (( void (*) (t3920 *, t121 *, MethodInfo*))m12858_gshared)(__this, p0, method)
+#define m24672(__this, method) (( t9 * (*) (t3920 *, MethodInfo*))m12860_gshared)(__this, method)
+#define m24673(__this, method) (( void (*) (t3920 *, MethodInfo*))m12862_gshared)(__this, method)
+#define m24674(__this, method) (( bool (*) (t3920 *, MethodInfo*))m12864_gshared)(__this, method)
+#define m24675(__this, method) (( t9* (*) (t3920 *, MethodInfo*))m12866_gshared)(__this, method)

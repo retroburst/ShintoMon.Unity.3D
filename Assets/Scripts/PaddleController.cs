@@ -46,7 +46,8 @@ public class PaddleController : MonoBehaviour
 	/// <param name="x">The x coordinate.</param>
 	private void MovePaddle (float x)
 	{
-		if(gameController.State.PlayState == PlayState.GameOver || gameController.State.PlayState == PlayState.GameWon) return;
+		if (gameController.State == null || gameController.State.PlayState == PlayState.GameOver || gameController.State.PlayState == PlayState.GameWon)
+			return;
 		Vector3 playerPosition = transform.position;
 		float xPosition = transform.position.x + x * paddleSpeed;
 		playerPosition = new Vector3 (Mathf.Clamp (xPosition, minClampX, maxClampX), playerPosition.y, playerPosition.z);
@@ -76,7 +77,7 @@ public class PaddleController : MonoBehaviour
 		minClampX = CalculateClamp (level.PaddleAdditiveScale.x + originalPaddleScale.x, gameController.ConfigurableSettings.PaddleClampXMin);
 		maxClampX = CalculateClamp (level.PaddleAdditiveScale.x + originalPaddleScale.x, gameController.ConfigurableSettings.PaddleClampXMax);
 		gameObject.transform.localScale = originalPaddleScale;
-		gameObject.transform.localScale += level.PaddleAdditiveScale.ToVector3();
+		gameObject.transform.localScale += level.PaddleAdditiveScale.ToVector3 ();
 		PositionBall (gameObject.transform.position.x);
 	}
 	

@@ -11,10 +11,8 @@ using System.Runtime.Serialization.Formatters.Binary;
 /// </summary>
 public class GameController : MonoBehaviour
 {
-	// TASKS
-	// TODO: Loading while in game won state from the options menu causes issues at the moment
-
 	// designer supplied components
+	
 	/// <summary>
 	/// The configurable settings.
 	/// </summary>

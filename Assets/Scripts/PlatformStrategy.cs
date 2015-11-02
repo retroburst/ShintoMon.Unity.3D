@@ -24,6 +24,12 @@ public interface IPlatformStrategy
 	/// </summary>
 	/// <value><c>true</c> if show splash; otherwise, <c>false</c>.</value>
 	bool ShowSplash { get; }
+	
+	/// <summary>
+	/// Gets a value indicating whether this <see cref="IPlatformStrategy"/> change lights for atmosphere.
+	/// </summary>
+	/// <value><c>true</c> if change lights for atmosphere; otherwise, <c>false</c>.</value>
+	bool ChangeLightsForAtmosphere { get; }
 }
 
 /// <summary>
@@ -46,7 +52,7 @@ public class StandardStrategy : IPlatformStrategy
 	/// <value>The supported platforms.</value>
 	public RuntimePlatform[] SupportedPlatforms {
 		get {
-			return((RuntimePlatform[])Enum.GetValues(typeof(RuntimePlatform)));
+			return((RuntimePlatform[])Enum.GetValues (typeof(RuntimePlatform)));
 		}
 	}
 	
@@ -54,11 +60,13 @@ public class StandardStrategy : IPlatformStrategy
 	/// Gets a value indicating whether this <see cref="StandardStrategy"/> show splash.
 	/// </summary>
 	/// <value><c>true</c> if show splash; otherwise, <c>false</c>.</value>
-	public bool ShowSplash {
-		get {
-			return(true);
-		}
-	}
+	public bool ShowSplash { get { return(true); } }
+	
+	/// <summary>
+	/// Gets a value indicating whether this <see cref="StandardStrategy"/> change lights for atmosphere.
+	/// </summary>
+	/// <value><c>true</c> if change lights for atmosphere; otherwise, <c>false</c>.</value>
+	public bool ChangeLightsForAtmosphere { get { return(true); } }
 }
 
 /// <summary>
@@ -82,6 +90,12 @@ public class WebGLStrategy : IPlatformStrategy
 	/// </summary>
 	/// <value><c>true</c> if show splash; otherwise, <c>false</c>.</value>
 	public bool ShowSplash { get { return(false); } }
+	
+	/// <summary>
+	/// Gets a value indicating whether this <see cref="WebGLStrategy"/> change lights for atmosphere.
+	/// </summary>
+	/// <value><c>true</c> if change lights for atmosphere; otherwise, <c>false</c>.</value>
+	public bool ChangeLightsForAtmosphere { get { return(false); } }
 	
 	/// <summary>
 	/// Gets the supported platform.
