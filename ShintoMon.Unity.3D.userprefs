@@ -1,14 +1,22 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BallController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PaddleController.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BallController.cs" Line="60" Column="4" />
-      <File FileName="Assets/Scripts/PaddleController.cs" Line="49" Column="3" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="316" Column="3" />
+      <File FileName="Assets/Scripts/BallController.cs" Line="88" Column="1" />
+      <File FileName="Assets/Scripts/PaddleController.cs" Line="55" Column="3" />
+      <File FileName="Assets/Scripts/Components.cs" Line="14" Column="38" />
+      <File FileName="Assets/Scripts/TouchInput.cs" Line="8" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" selected="True" />
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Scripts" expanded="True">
+              <Node name="PaddleController.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

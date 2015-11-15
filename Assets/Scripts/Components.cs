@@ -10,6 +10,6 @@ public class Components : MonoBehaviour {
 	public PaddleController Paddle = null;
 	public FireworksController Fireworks = null;
 	public BallController Ball = null;
-	public SwipeInput SwipeInput = null;
 	public ViewController ViewController = null;
+	public TouchInput TouchInput = null;
 }

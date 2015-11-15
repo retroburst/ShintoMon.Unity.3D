@@ -24,7 +24,7 @@ public class BallController : MonoBehaviour
 		rb = GetComponent<Rigidbody> ();
 		originalPosition = gameObject.transform.position.Clone ();
 		originalBallScale = gameObject.transform.localScale.Clone ();
-		gameController.Components.SwipeInput.TapDetected += HandleTap;
+		gameController.Components.TouchInput.TapDetected += HandleTap;
 	}
 	
 	/// <summary>
@@ -52,7 +52,7 @@ public class BallController : MonoBehaviour
 	/// <summary>
 	/// Handles the tap.
 	/// </summary>
-	private void HandleTap ()
+	private void HandleTap (Vector2 position)
 	{
 		if (gameController.State == null)
 			return;
@@ -67,9 +67,17 @@ public class BallController : MonoBehaviour
 	private void Update ()
 	{
 		if (gameController.State != null && (gameController.State.PlayState == PlayState.NotStarted || gameController.State.PlayState == PlayState.Playing) 
-			&& Input.GetButtonDown (Constants.INPUT_FIRE_1) && !inPlay) {
+		    && !inPlay && (Input.GetButtonDown (Constants.INPUT_FIRE_1) || TapDetected() )) {
 			LaunchBall ();
 		}
+	}
+	
+	/// <summary>
+	/// Detects a touch tap.
+	/// </summary>
+	private bool TapDetected()
+	{
+		return(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Stationary);
 	}
 	
 	/// <summary>

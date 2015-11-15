@@ -19,25 +19,46 @@ public class PaddleController : MonoBehaviour
 		gameController.GameLevelChanged += SetPaddleForLevel;
 		originalPaddleScale = gameObject.transform.localScale.Clone ();
 		ball = gameController.Components.Ball;
-		gameController.Components.SwipeInput.HorizontalMovementDetected += HandleHorizontalTouchMovement;
+		gameController.Components.TouchInput.TapDetected += HandleTap;
 	}
 	
 	// Update is called once per frame
 	private void Update ()
 	{
 		float horizontal = Input.GetAxis ("Horizontal");
-		if (horizontal != 0.0f)
+		if (horizontal != 0.0f) {
 			MovePaddle (horizontal);
+		}
 	}
 	
 	/// <summary>
-	/// Handles the swipe.
+	/// Handles the tap.
 	/// </summary>
-	/// <param name="x">The x coordinate.</param>
-	private void HandleHorizontalTouchMovement (float x)
+	/// <param name="position">Position.</param>
+	private void HandleTap (Vector2 position)
 	{
-		if (x != 0.0f)
-			MovePaddle (x);
+	/*
+		Vector3 touchPosition = Camera.main.ScreenToWorldPoint(new Vector3(position.x, position.y, 10));
+		touchPosition.x = Mathf.Clamp (touchPosition.x, minClampX, maxClampX);
+		touchPosition.z = transform.position.z;
+		touchPosition.y = transform.position.y;          
+		//transform.position = Vector3.Lerp(transform.position, touchPosition, Time.deltaTime * paddleSpeed);
+		//MovePaddle(touchPosition.x);
+		Vector3 playerPosition = transform.position;
+		playerPosition = Vector3.Lerp (playerPosition, touchPosition, Time.deltaTime * paddleSpeed * 5);
+		transform.position = playerPosition;
+		PositionBall (playerPosition.x);
+		*/
+		
+		Vector2 touchPosition = position;
+		double halfScreen = Screen.width / 2.0;
+		
+		//Check if it is left or right?
+		if(touchPosition.x < halfScreen){
+			MovePaddle(-1f);
+		} else if (touchPosition.x > halfScreen) {
+			MovePaddle(1f);
+		}
 	}
 	
 	/// <summary>

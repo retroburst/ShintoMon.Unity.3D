@@ -75,7 +75,7 @@
      <Compile Include="Assets\Scripts\SerializableQuaternion.cs" />
      <Compile Include="Assets\Scripts\SerializableVector3.cs" />
      <Compile Include="Assets\Scripts\SoundEffects.cs" />
-     <Compile Include="Assets\Scripts\SwipeInput.cs" />
+     <Compile Include="Assets\Scripts\TouchInput.cs" />
      <Compile Include="Assets\Scripts\UIComponents.cs" />
      <Compile Include="Assets\Scripts\ViewController.cs" />
      <Compile Include="Assets\Scripts\ViewControllerContext.cs" />

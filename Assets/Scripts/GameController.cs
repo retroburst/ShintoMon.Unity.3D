@@ -111,7 +111,7 @@ public class GameController : MonoBehaviour
 		Levels = GameLevel.GameLevels;
 		State = new GameState ();
 		Components.ViewController.Initialise (CreateViewControllerContext ());
-		Components.SwipeInput.TapDetected += HandleTap;
+		Components.TouchInput.TapDetected += HandleTap;
 	}
 	
 	/// <summary>
@@ -304,7 +304,7 @@ public class GameController : MonoBehaviour
 	/// <summary>
 	/// Handles the tap.
 	/// </summary>
-	private void HandleTap ()
+	private void HandleTap (Vector2 position)
 	{
 		if (State.PlayState == PlayState.Paused 
 			&& (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)) {
