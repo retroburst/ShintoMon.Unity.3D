@@ -2,17 +2,39 @@
 using System;
 using System.Collections;
 
+/// <summary>
+/// Ema model.
+/// </summary>
 [Serializable]
 public class EmaModel
 {
+	/// <summary>
+	/// Gets or sets the inscription.
+	/// </summary>
+	/// <value>The inscription.</value>
 	public string Inscription { get; set; }
-
+	
+	/// <summary>
+	/// Gets or sets the type.
+	/// </summary>
+	/// <value>The type.</value>
 	public EmaType Type { get; set; }
-
+	
+	/// <summary>
+	/// Gets or sets the position.
+	/// </summary>
+	/// <value>The position.</value>
 	public SerializableVector3 Position { get; set; }
-
+	
+	/// <summary>
+	/// Gets or sets the rotation.
+	/// </summary>
+	/// <value>The rotation.</value>
 	public SerializableQuaternion Rotation { get; set; }
-
+	
+	/// <summary>
+	/// The game object.
+	/// </summary>
 	[NonSerialized]
 	private GameObject
 		gameObject;
@@ -35,8 +57,8 @@ public class EmaModel
 		Inscription = inscription;
 		Type = type;
 		GameObject = gameObject;
-		Position = new SerializableVector3(gameObject.transform.position);
-		Rotation = new SerializableQuaternion(gameObject.transform.rotation);
+		Position = new SerializableVector3 (gameObject.transform.position);
+		Rotation = new SerializableQuaternion (gameObject.transform.rotation);
 	}
 	
 	/// <summary>

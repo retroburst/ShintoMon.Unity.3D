@@ -87,19 +87,15 @@ public class ViewController : MonoBehaviour
 		switch (state.Level.Atmosphere) {
 		case Atmosphere.Day:
 			if(skybox != null) skybox.material = context.Materials.DaySkybox;
-			if (context.PlatformStrategyManager.ActiveStrategy.ChangeLightsForAtmosphere) {
 				context.Lights.DayLights.ForEachAction (x => x.SetActive (true));
 				context.Lights.NightLights.ForEachAction (x => x.SetActive (false));
 				DynamicGI.UpdateEnvironment ();
-			}
 			break;
 		case Atmosphere.Night:
 			if(skybox != null) skybox.material = context.Materials.NightSkybox;
-			if (context.PlatformStrategyManager.ActiveStrategy.ChangeLightsForAtmosphere) {
 				context.Lights.NightLights.ForEachAction (x => x.SetActive (true));
 				context.Lights.DayLights.ForEachAction (x => x.SetActive (false));
 				DynamicGI.UpdateEnvironment ();
-			}
 			break;
 		}
 	}

@@ -2,7 +2,11 @@
 using UnityEngine.UI;
 using System.Collections;
 
+/// <summary>
+/// Configurable settings.
+/// </summary>
 public class ConfigurableSettings : MonoBehaviour {
+
 	public string MessageLevelPattern = "Level//{0}";
 	public string MessageScorePattern = "Ema//{0}:{1}";
 	public string MessageBallPattern = "Orbs//{0}:{1}";
@@ -55,4 +59,6 @@ public class ConfigurableSettings : MonoBehaviour {
 
 	public float BallAngularVelocity = 10000.0f;
 	
+	public float TouchStartedMarginInSeconds = 0.1f;
+	public float TouchStaionaryTimeMultipler = 2.0f;
 }

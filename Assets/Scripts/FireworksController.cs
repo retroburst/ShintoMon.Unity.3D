@@ -4,8 +4,8 @@ using System.Collections.Generic;
 
 /// <summary>
 /// Fireworks controller manages
-// the starting and stopping of
-// fireworks display.
+/// the starting and stopping of
+/// fireworks display.
 /// </summary>
 public class FireworksController : MonoBehaviour {
 	public List<GameObject> fireworks = new List<GameObject>();

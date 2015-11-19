@@ -2,6 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 
+/// <summary>
+/// Paddle controller.
+/// </summary>
 public class PaddleController : MonoBehaviour
 {
 	public float paddleSpeed = 0f;
@@ -28,7 +31,7 @@ public class PaddleController : MonoBehaviour
 	/// </summary>
 	private void Update ()
 	{
-		float horizontal = Input.GetAxis ("Horizontal");
+		float horizontal = Input.GetAxis (Constants.INPUT_AXIS_HORIZONTAL);
 		if (horizontal != 0.0f) {
 			MovePaddle (horizontal);
 		}
@@ -43,12 +46,11 @@ public class PaddleController : MonoBehaviour
 	{
 		double halfScreen = Screen.width / 2.0;
 		float timeTouchStationary = Time.time - touchStartTime;
-		Logger.LogFormat ("Update: touch time stationary='{0}'.", timeTouchStationary);
 		if (touchPosition.x < halfScreen) {
-			MovePaddle (Mathf.Lerp (0.0f, -1.0f, timeTouchStationary * 2));
+			MovePaddle (Mathf.Lerp (0.0f, -1.0f, timeTouchStationary * gameController.ConfigurableSettings.TouchStaionaryTimeMultipler));
 		} else
 			if (touchPosition.x > halfScreen) {
-			MovePaddle (Mathf.Lerp (0.0f, 1.0f, timeTouchStationary * 2));
+			MovePaddle (Mathf.Lerp (0.0f, 1.0f, timeTouchStationary * gameController.ConfigurableSettings.TouchStaionaryTimeMultipler));
 		}
 	}
 	
@@ -60,8 +62,6 @@ public class PaddleController : MonoBehaviour
 	{
 		if (gameController.State == null || gameController.State.PlayState == PlayState.GameOver || gameController.State.PlayState == PlayState.GameWon)
 			return;
-			
-		Logger.LogFormat ("MovePaddle: x-position= '{0}'.", x);	
 		Vector3 playerPosition = transform.position;
 		float xPosition = transform.position.x + x * paddleSpeed;
 		playerPosition = new Vector3 (Mathf.Clamp (xPosition, minClampX, maxClampX), playerPosition.y, playerPosition.z);

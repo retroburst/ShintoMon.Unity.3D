@@ -73,7 +73,6 @@ public class BallController : MonoBehaviour
 				LaunchBall ();
 			}
 		}
-
 	}
 	
 	/// <summary>
@@ -157,6 +156,5 @@ public class BallController : MonoBehaviour
 	/// </summary>
 	/// <value><c>true</c> if in play; otherwise, <c>false</c>.</value>
 	public bool InPlay { get { return (inPlay); } }
-	
 	
 }

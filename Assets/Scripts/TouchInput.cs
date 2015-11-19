@@ -10,7 +10,6 @@ public class TouchInput : MonoBehaviour
 {
 	private GameController gameController = null;
 	private Dictionary<int, float> activeTouches = null;
-	public float TouchStartedMarginInSeconds = 0.1f;
 	public delegate void TouchDetectedHandler();
 	public delegate void BallTouchDetectedHandler();
 	public delegate void PaddleTouchDetectedHandler(Vector2 position, float timeTouchStarted);
@@ -51,7 +50,7 @@ public class TouchInput : MonoBehaviour
 					continue;
 				} else {
 					// take off the margin from time so we get instant movement for paddle
-					activeTouches.Add (touch.fingerId, Time.time - TouchStartedMarginInSeconds);
+					activeTouches.Add (touch.fingerId, Time.time - gameController.ConfigurableSettings.TouchStartedMarginInSeconds);
 					if (TouchDetected != null) {
 						TouchDetected ();
 					}

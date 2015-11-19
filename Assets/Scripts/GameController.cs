@@ -104,8 +104,8 @@ public class GameController : MonoBehaviour
 	{
 		RestoreUserPreferences ();
 		InitialiseRuntimeComponents ();
-		platformStrategyManager = new PlatformStrategyManager(this);
-		platformStrategyManager.Setup();
+		platformStrategyManager = new PlatformStrategyManager (this);
+		platformStrategyManager.Setup ();
 		// max rows = 8 at the moment
 		// max columns = 15 at the moment
 		Levels = GameLevel.GameLevels;
@@ -248,8 +248,8 @@ public class GameController : MonoBehaviour
 	{		
 		if (Components.ViewController.OptionsPanelShowing || Components.ViewController.SplashPanelShowing) {
 			// if splash showing and user pressed escape - quit game
-			if(Components.ViewController.SplashPanelShowing && Input.GetKeyUp(KeyCode.Escape)) {
-				QuitGame();
+			if (Components.ViewController.SplashPanelShowing && Input.GetKeyUp (KeyCode.Escape)) {
+				QuitGame ();
 				// else any other key pressed - play game
 			} else if (Components.ViewController.SplashPanelShowing && Input.GetButtonUp (Constants.INPUT_SUBMIT)) {
 				HideSplashPanel ();
@@ -262,22 +262,24 @@ public class GameController : MonoBehaviour
 			return;
 		} else if (State.PlayState == PlayState.Paused 
 			&& (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)
-		           && Input.GetButtonUp (Constants.INPUT_SUBMIT)) {
+			&& Input.GetButtonUp (Constants.INPUT_SUBMIT)) {
 			UnpauseGame ();
 		} else if ((State.PlayState == PlayState.GameWon || State.PlayState == PlayState.GameOver)
 			&& (!Components.ViewController.SplashPanelShowing && !Components.ViewController.OptionsPanelShowing)
-		           && Input.GetButtonUp (Constants.INPUT_SUBMIT)) {
+			&& Input.GetButtonUp (Constants.INPUT_SUBMIT)) {
 			RestartGame ();
 			State.PlayState = PlayState.Playing;
-		} else if (State.PlayState == PlayState.NotStarted && Input.GetButtonUp(Constants.INPUT_SUBMIT)) {
+		} else if (State.PlayState == PlayState.NotStarted && Input.GetButtonUp (Constants.INPUT_SUBMIT)) {
 			State.PlayState = PlayState.Playing;
-		} else if(Components.ViewController.SplashPanelShowing && Input.anyKey) {
-			HideSplashPanel();
+		} else if (Components.ViewController.SplashPanelShowing && Input.anyKey) {
+			HideSplashPanel ();
 		}
 		// check user input
-		if(Input.GetKeyUp(KeyCode.Escape))
-			if(!Components.ViewController.SplashPanelShowing && platformStrategyManager.ActiveStrategy.ShowSplash) ShowSplashPanel();
-		if (Input.GetKeyUp (KeyCode.Menu) && !Components.ViewController.OptionsPanelShowing) ShowOptionsPanel();
+		if (Input.GetKeyUp (KeyCode.Escape))
+		if (!Components.ViewController.SplashPanelShowing && platformStrategyManager.ActiveStrategy.ShowSplash)
+			ShowSplashPanel ();
+		if (Input.GetKeyUp (KeyCode.Menu) && !Components.ViewController.OptionsPanelShowing)
+			ShowOptionsPanel ();
 		if (Input.GetButtonUp (Constants.INPUT_PAUSE))
 			PauseGame ();
 		if (Input.GetButtonUp (Constants.INPUT_RESTART))
@@ -366,12 +368,9 @@ public class GameController : MonoBehaviour
 	/// <returns>The level won.</returns>
 	private IEnumerator PerformLevelWon ()
 	{
-		//savedTimeScale = Time.timeScale;
-		//Time.timeScale = 0.25f;
 		if (GameLevelWon != null)
 			GameLevelWon ();
 		yield return new WaitForSeconds (1);
-		//Time.timeScale = savedTimeScale;
 		MoveToNextLevel ();
 	}
 	
@@ -454,11 +453,11 @@ public class GameController : MonoBehaviour
 	/// <summary>
 	/// Starts the game from splash.
 	/// </summary>
-	public void StartGameFromSplash()
+	public void StartGameFromSplash ()
 	{
 		UnpauseGame ();
 		State.PlayState = PlayState.Playing;
-		HideSplashPanel();
+		HideSplashPanel ();
 	}
 	
 	/// <summary>
@@ -485,22 +484,19 @@ public class GameController : MonoBehaviour
 	public void RestartGame ()
 	{
 		lock (gameRestartLock) {
-			//Logger.LogFormat ("Start of restart: {0}", State.PlayState);
 			PlayState playState = State.PlayState;
 			State = new GameState ();
 			MoveToNextLevel ();
 			State.PlayState = playState;
-			//Logger.LogFormat ("Before hide panels of restart: {0}", State.PlayState);
 			if (Components.ViewController.OptionsPanelShowing)
 				HideOptionsPanel ();
 			if (Components.ViewController.SplashPanelShowing)
 				HideSplashPanel ();
-			//Logger.LogFormat ("Before setting to not started of restart: {0}", State.PlayState);
 			State.PlayState = PlayState.NotStarted;
 			AddGameMessage (ConfigurableSettings.MessageGameRestarted);
-			if (GameRestarted != null)
+			if (GameRestarted != null) {
 				GameRestarted ();
-			//Logger.LogFormat ("End of restart: {0}", State.PlayState);
+			}
 		}
 	}
 	
@@ -578,7 +574,7 @@ public class GameController : MonoBehaviour
 	private void OnApplicationPause (bool pauseStatus)
 	{
 		if (pauseStatus) {
-			PauseGame();
+			PauseGame ();
 			SaveUserPreferences ();
 		}
 	}

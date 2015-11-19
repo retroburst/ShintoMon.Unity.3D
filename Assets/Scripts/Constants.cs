@@ -1,7 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// Constants.
+/// </summary>
 public class Constants {
+	
 	public const string GAME_OBJECT_TAG_EMA = "Ema";
 	public const string GAME_OBJECT_TAG_WATER_SURFACE = "WaterSurface";
 	public const string GAME_OBJECT_TAG_GAME_CONTROLLER = "GameController";
@@ -22,14 +26,21 @@ public class Constants {
 	public const string INPUT_TOGGLE_BACKGROUND_SOUNDS = "ToggleBackgroundSounds";
 	public const string INPUT_TOGGLE_SOUND_EFFECTS = "ToggleSoundEffects";
 	public const string INPUT_SUBMIT = "Submit";
+	public const string INPUT_AXIS_HORIZONTAL = "Horizontal";
 }
 
+/// <summary>
+/// Ema type.
+/// </summary>
 public enum EmaType
 {
 	Wood,
 	Gold
 }
 
+/// <summary>
+/// Play state.
+/// </summary>
 public enum PlayState
 {
 	Playing,
@@ -39,6 +50,9 @@ public enum PlayState
 	NotStarted
 }
 
+/// <summary>
+/// Atmosphere.
+/// </summary>
 public enum Atmosphere
 {
 	Day,

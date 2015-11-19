@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
+/// <summary>
+/// Manages background sounds for the game.
+/// </summary>
 public class BackgroundSound : MonoBehaviour
 {
 	public AudioClip NightInsectsSoundClip = null;
@@ -18,7 +21,6 @@ public class BackgroundSound : MonoBehaviour
 	private AudioSource singingBowlAudioSource = null;
 	private AudioSource fluteAudioSource = null;
 	
-
 	/// <summary>
 	/// Handles the awake event.
 	/// </summary>
@@ -39,8 +41,9 @@ public class BackgroundSound : MonoBehaviour
 		SetupBackgroundSound (NightInsectsSoundClip, 0.40f, nightBackgroundSoundSources);
 		SetupBackgroundSound (NightCricketsSoundClip, 0.25f, nightBackgroundSoundSources);
 		SetupBackgroundSound (LakeWaterSoundClip, 0.5f, backgroundSoundSources);
-		if (PlayOnStart)
+		if (PlayOnStart) {
 			StartBackgroundSounds ();
+		}
 	}
 	
 	/// <summary>
@@ -72,15 +75,19 @@ public class BackgroundSound : MonoBehaviour
 		switch (target) {
 		case Atmosphere.Day:
 			nightBackgroundSoundSources.ForEachAction (StopIfPlaying);
-			if(!backgroundSoundMuted) dayBackgroundSoundSources.ForEachAction (PlayIfNotAlready);
-			RemoveAudioSources(backgroundSoundSources, nightBackgroundSoundSources);
-			backgroundSoundSources.AddRange(dayBackgroundSoundSources);
+			if (!backgroundSoundMuted) {
+				dayBackgroundSoundSources.ForEachAction (PlayIfNotAlready);
+			}
+			RemoveAudioSources (backgroundSoundSources, nightBackgroundSoundSources);
+			backgroundSoundSources.AddRange (dayBackgroundSoundSources);
 			break;
 		case Atmosphere.Night:
 			dayBackgroundSoundSources.ForEachAction (StopIfPlaying);
-			if(!backgroundSoundMuted) nightBackgroundSoundSources.ForEachAction (PlayIfNotAlready);
-			RemoveAudioSources(backgroundSoundSources, dayBackgroundSoundSources);
-			backgroundSoundSources.AddRange(nightBackgroundSoundSources);
+			if (!backgroundSoundMuted) {
+				nightBackgroundSoundSources.ForEachAction (PlayIfNotAlready);
+			}
+			RemoveAudioSources (backgroundSoundSources, dayBackgroundSoundSources);
+			backgroundSoundSources.AddRange (nightBackgroundSoundSources);
 			break;
 		}
 	}
@@ -105,11 +112,10 @@ public class BackgroundSound : MonoBehaviour
 	/// Stops if playing.
 	/// </summary>
 	/// <param name="target">Target.</param>
-	private void StopIfPlaying(AudioSource target)
+	private void StopIfPlaying (AudioSource target)
 	{
-		if(target != null && target.isPlaying)
-		{
-			target.Stop();
+		if (target != null && target.isPlaying) {
+			target.Stop ();
 		}
 	}
 	
@@ -117,11 +123,10 @@ public class BackgroundSound : MonoBehaviour
 	/// Plays if not already.
 	/// </summary>
 	/// <param name="target">Target.</param>
-	private void PlayIfNotAlready(AudioSource target)
+	private void PlayIfNotAlready (AudioSource target)
 	{
-		if(target != null && !target.isPlaying)
-		{
-			target.Play();
+		if (target != null && !target.isPlaying) {
+			target.Play ();
 		}
 	}
 	
@@ -130,13 +135,12 @@ public class BackgroundSound : MonoBehaviour
 	/// </summary>
 	/// <param name="target">Target.</param>
 	/// <param name="removeAudioSources">Remove audio sources.</param>
-	private void RemoveAudioSources(List<AudioSource> target, List<AudioSource> removeAudioSources)
+	private void RemoveAudioSources (List<AudioSource> target, List<AudioSource> removeAudioSources)
 	{
-		if(target != null && removeAudioSources != null)
-		{
-			foreach(AudioSource removeAudioSource in removeAudioSources)
-			{
-				if(target.Contains(removeAudioSource)) target.Remove(removeAudioSource);
+		if (target != null && removeAudioSources != null) {
+			foreach (AudioSource removeAudioSource in removeAudioSources) {
+				if (target.Contains (removeAudioSource))
+					target.Remove (removeAudioSource);
 			}
 		}
 	}

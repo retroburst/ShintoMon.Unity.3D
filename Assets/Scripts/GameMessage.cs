@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// Game message.
+/// </summary>
 public class GameMessage
 {
 	/// <summary>
