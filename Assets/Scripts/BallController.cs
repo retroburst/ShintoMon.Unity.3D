@@ -12,7 +12,8 @@ public class BallController : MonoBehaviour
 	private Vector3 originalPosition = Vector3.zero;
 	private Vector3 originalBallScale = Vector3.zero;
 	private GameController gameController = null;
-	
+	private SphereCollider collider = null;
+
 	/// <summary>
 	/// Awakes this instance.
 	/// </summary>
@@ -21,10 +22,11 @@ public class BallController : MonoBehaviour
 		gameController = GameController.FindGameController ();
 		gameController.GameLevelChanged += HandleGameLevelChanged;
 		gameController.GameLevelWon += HandleGameLevelWon;
+		gameController.Components.TouchInput.BallTouchDetected += HandleBallTouch;
 		rb = GetComponent<Rigidbody> ();
+		collider = GetComponent<SphereCollider> ();
 		originalPosition = gameObject.transform.position.Clone ();
 		originalBallScale = gameObject.transform.localScale.Clone ();
-		gameController.Components.TouchInput.TapDetected += HandleTap;
 	}
 	
 	/// <summary>
@@ -50,13 +52,12 @@ public class BallController : MonoBehaviour
 	}
 	
 	/// <summary>
-	/// Handles the tap.
+	/// Handles the ball touch.
 	/// </summary>
-	private void HandleTap (Vector2 position)
+	private void HandleBallTouch ()
 	{
-		if (gameController.State == null)
-			return;
-		if ((gameController.State.PlayState == PlayState.NotStarted || gameController.State.PlayState == PlayState.Playing) && !inPlay) {
+		if (gameController.State != null && (gameController.State.PlayState == PlayState.NotStarted || gameController.State.PlayState == PlayState.Playing) 
+			&& !inPlay) {
 			LaunchBall ();
 		}
 	}
@@ -67,17 +68,12 @@ public class BallController : MonoBehaviour
 	private void Update ()
 	{
 		if (gameController.State != null && (gameController.State.PlayState == PlayState.NotStarted || gameController.State.PlayState == PlayState.Playing) 
-		    && !inPlay && (Input.GetButtonDown (Constants.INPUT_FIRE_1) || TapDetected() )) {
-			LaunchBall ();
+			&& !inPlay) {
+			if ((Input.GetButtonDown (Constants.INPUT_FIRE_1))) {
+				LaunchBall ();
+			}
 		}
-	}
-	
-	/// <summary>
-	/// Detects a touch tap.
-	/// </summary>
-	private bool TapDetected()
-	{
-		return(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Stationary);
+
 	}
 	
 	/// <summary>

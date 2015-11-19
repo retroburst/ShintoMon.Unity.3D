@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class PaddleController : MonoBehaviour
 {
@@ -17,12 +18,14 @@ public class PaddleController : MonoBehaviour
 	{
 		gameController = GameController.FindGameController ();
 		gameController.GameLevelChanged += SetPaddleForLevel;
+		gameController.Components.TouchInput.PaddleTouchDetected += HandlePaddleTouch;
 		originalPaddleScale = gameObject.transform.localScale.Clone ();
 		ball = gameController.Components.Ball;
-		gameController.Components.TouchInput.TapDetected += HandleTap;
 	}
 	
-	// Update is called once per frame
+	/// <summary>
+	/// Update this instance.
+	/// </summary>
 	private void Update ()
 	{
 		float horizontal = Input.GetAxis ("Horizontal");
@@ -32,32 +35,20 @@ public class PaddleController : MonoBehaviour
 	}
 	
 	/// <summary>
-	/// Handles the tap.
+	/// Handles the paddle touch.
 	/// </summary>
-	/// <param name="position">Position.</param>
-	private void HandleTap (Vector2 position)
+	/// <param name="touchPosition">Touch position.</param>
+	/// <param name="touchStartTime">Touch start time.</param>
+	private void HandlePaddleTouch (Vector2 touchPosition, float touchStartTime)
 	{
-	/*
-		Vector3 touchPosition = Camera.main.ScreenToWorldPoint(new Vector3(position.x, position.y, 10));
-		touchPosition.x = Mathf.Clamp (touchPosition.x, minClampX, maxClampX);
-		touchPosition.z = transform.position.z;
-		touchPosition.y = transform.position.y;          
-		//transform.position = Vector3.Lerp(transform.position, touchPosition, Time.deltaTime * paddleSpeed);
-		//MovePaddle(touchPosition.x);
-		Vector3 playerPosition = transform.position;
-		playerPosition = Vector3.Lerp (playerPosition, touchPosition, Time.deltaTime * paddleSpeed * 5);
-		transform.position = playerPosition;
-		PositionBall (playerPosition.x);
-		*/
-		
-		Vector2 touchPosition = position;
 		double halfScreen = Screen.width / 2.0;
-		
-		//Check if it is left or right?
-		if(touchPosition.x < halfScreen){
-			MovePaddle(-1f);
-		} else if (touchPosition.x > halfScreen) {
-			MovePaddle(1f);
+		float timeTouchStationary = Time.time - touchStartTime;
+		Logger.LogFormat ("Update: touch time stationary='{0}'.", timeTouchStationary);
+		if (touchPosition.x < halfScreen) {
+			MovePaddle (Mathf.Lerp (0.0f, -1.0f, timeTouchStationary * 2));
+		} else
+			if (touchPosition.x > halfScreen) {
+			MovePaddle (Mathf.Lerp (0.0f, 1.0f, timeTouchStationary * 2));
 		}
 	}
 	
@@ -69,6 +60,8 @@ public class PaddleController : MonoBehaviour
 	{
 		if (gameController.State == null || gameController.State.PlayState == PlayState.GameOver || gameController.State.PlayState == PlayState.GameWon)
 			return;
+			
+		Logger.LogFormat ("MovePaddle: x-position= '{0}'.", x);	
 		Vector3 playerPosition = transform.position;
 		float xPosition = transform.position.x + x * paddleSpeed;
 		playerPosition = new Vector3 (Mathf.Clamp (xPosition, minClampX, maxClampX), playerPosition.y, playerPosition.z);
